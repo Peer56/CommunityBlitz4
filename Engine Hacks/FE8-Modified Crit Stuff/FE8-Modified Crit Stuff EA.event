@@ -1,0 +1,33 @@
+//FE8-Modified Crit Stuff
+//By Tequila
+
+#ifdef _FE8_
+
+	PUSH
+	
+	//Allows weapons with 255 crit to not crit
+	ORG $2ACB2
+	BL(ModifiedCritStuff)
+	BYTE 0x01 0x28
+	
+	//Modifies Negate Criticals ability
+	ORG $2ACDE
+	BL(Hoplon)
+	BYTE 0xC0 0x46 0xC0 0x46 0xC0 0x46 0x00 0x28
+	
+	//Fixes equipment tab display for the no-crit weapons
+	ORG $2AC28
+	BYTE 0x49 0x10 0x0A 0x18 0x23 0x1C 0x66 0x33 0xFF 0x28 0x0B 0xD0
+
+	POP
+
+	ModifiedCritStuff:
+	#incbin "NoCrit.dmp"
+	POIN ItemTable
+	Hoplon:
+	#incbin "HoplonModification.dmp"
+	POIN ItemTable
+	
+#else
+	ERROR "You're not assembling FE8 events!"
+#endif

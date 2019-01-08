@@ -1,0 +1,1 @@
+Inverts and doubles the weapon triangle.[X]

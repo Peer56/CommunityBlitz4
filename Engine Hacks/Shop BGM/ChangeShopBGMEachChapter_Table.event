@@ -1,0 +1,5 @@
+#define csvmacro000(Song,Type,Chapter) "SHORT Song; BYTE Type Chapter; "
+
+ChangeShopBGMEachChapter_Table:
+//csvmacro000(Main_Theme,ArmoryType,Ch2)  // ch2 armory
+csvmacro000(0x00,0x00,0x00)  // Terminator

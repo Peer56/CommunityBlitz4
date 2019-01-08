@@ -1,0 +1,67 @@
+//Genral
+#undef ItemNumber
+#undef ItemIcon
+#undef ItemName
+#undef ItemDescription
+#undef UseDescription
+#undef ItemWeaponType
+
+//Weapon Abilities
+#undef WeaponAbilityOne
+#undef WeaponAbilityTwo
+#undef WeaponAbilityThree
+#undef WeaponAbilityFour
+
+//Stats
+#undef Durability
+#undef Might
+#undef Hit
+#undef Weight
+#undef Crit
+#undef Range
+#undef CostPerUse
+#undef WeaponRank
+#undef ItemEffectiveness
+#undef WeaponEffect
+#undef WeaponEXP
+#undef StaffUseEffect
+#undef DebuffType
+
+//Spell Associaiton
+#undef IsMapOnly
+#undef RangedAnimation
+#undef EnableRangedAnimation
+#undef MapAnimation
+#undef DirectHPChange
+#undef MapSpriteDirection
+#undef AttackColor
+
+//Stat Bonus
+#undef ItemHPBonus
+#undef ItemStrBonus
+#undef ItemSklBonus
+#undef ItemSpdBonus
+#undef ItemDefBonus
+#undef ItemResBonus
+#undef ItemLukBonus
+#undef ItemMovBonus
+#undef ItemConBonus
+#ifdef HasStatBonus
+	#undef HasStatBonus
+#endif
+
+//Debuffs
+#undef StrDebuff
+#undef SklDebuff
+#undef SpdDebuff
+#undef DefDebuff
+#undef ResDebuff
+#undef LukDebuff
+
+//Text
+#undef NameTextData
+#undef DescriptionTextData
+#undef UseTextData
+
+//Poison Amount
+#undef PoisonStrength

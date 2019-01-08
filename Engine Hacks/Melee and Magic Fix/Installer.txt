@@ -1,0 +1,4 @@
+  PUSH
+  ORG $18A58
+  #incbin "Melee_and_Magic_Fix_fe8.dmp"
+  POP

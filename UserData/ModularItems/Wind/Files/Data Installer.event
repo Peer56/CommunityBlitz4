@@ -1,0 +1,78 @@
+//General
+#define ItemName ItemNameLocation
+#define ItemDescription FlierSlayerDescription
+#define UseDescription 0x0
+#define ItemWeaponType Anima
+
+//Weapon Abilities
+#define WeaponAbilityOne IsWeapon|IsMagic
+#define WeaponAbilityTwo 0x0
+#define WeaponAbilityThree 0x0
+#define WeaponAbilityFour 0x0
+
+//Stats
+#define Durability 40
+#define Might 4
+#define Hit 100
+#define Weight 2
+#define Crit 5
+#define Range 12Range
+#define CostPerUse 10
+#define WeaponRank ERank
+#define ItemEffectiveness FlierEffectiveness //For the effectiveness rework
+#define WeaponEffect PoisonEffect
+#define WeaponEXP 2
+#define StaffUseEffect 0x0
+#define DebuffType ItemNumber
+
+//Spell Associaiton
+#define IsMapOnly 2
+#define RangedAnimation ItemMagicAnimation
+#define EnableRangedAnimation EnableRanged
+#define MapAnimation 0x0
+#define DirectHPChange 0x1
+#define MapSpriteDirection 0x0
+#define AttackColor BlueAttack
+
+//#define HasStatBonus //Uncomment if item has stat bonuses
+
+//Stat Bonus
+#define ItemHPBonus 0
+#define ItemStrBonus 0
+#define ItemSklBonus 0
+#define ItemSpdBonus 0
+#define ItemDefBonus 0
+#define ItemResBonus 0
+#define ItemLukBonus 0
+#define ItemMovBonus 0
+#define ItemConBonus 0
+
+//Debuffs
+#define StrDebuff 0
+#define SklDebuff 0
+#define SpdDebuff 0
+#define DefDebuff 0
+#define ResDebuff 0
+#define LukDebuff 0
+
+//Posion Amount
+#define PoisonStrength 7
+
+StatBonuses:
+BYTE ItemHPBonus ItemStrBonus ItemSklBonus ItemSpdBonus ItemDefBonus ItemResBonus ItemLukBonus ItemMovBonus ItemConBonus 0x0 0x0 0x0
+
+PUSH
+ORG ItemTable + (ItemNumber * 0x24)
+#ifdef HasStatBonus 
+ItemInstaller(ItemName,ItemDescription,UseDescription,ItemNumber,ItemWeaponType,WeaponAbilityOne,WeaponAbilityTwo,WeaponAbilityThree,WeaponAbilityFour,StatBonuses|IsPointer,ItemEffectiveness|IsPointer,Durability,Might,Hit,Weight,Crit,Range,CostPerUse,WeaponRank,ItemIcon,StaffUseEffect,WeaponEffect,WeaponEXP,DebuffType,0,0)
+#endif
+#ifndef HasStatBonus
+ItemInstaller(ItemName,ItemDescription,UseDescription,ItemNumber,ItemWeaponType,WeaponAbilityOne,WeaponAbilityTwo,WeaponAbilityThree,WeaponAbilityFour,0x0,ItemEffectiveness|IsPointer,Durability,Might,Hit,Weight,Crit,Range,CostPerUse,WeaponRank,ItemIcon,StaffUseEffect,WeaponEffect,WeaponEXP,DebuffType,0,0)
+#endif
+ORG SpellAssociationTable + ((ItemNumber-1) * 0x10)
+SpellAssociationEditor(ItemNumber,IsMapOnly,RangedAnimation,EnableRangedAnimation,0x0,MapAnimation,DirectHPChange,MapSpriteDirection,AttackColor,0x0)
+ORG WeaponDebuffTable + (ItemNumber * 0x3)
+defWeaponDebuffs(StrDebuff,SklDebuff,SpdDebuff,LukDebuff,DefDebuff,ResDebuff)
+ORG SetPoisonItemTable + ItemNumber
+BYTE PoisonStrength
+POP

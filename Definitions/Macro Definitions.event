@@ -1,0 +1,50 @@
+//Modular Class Installer
+#define ClassInstaller(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009,arg010,arg011,arg012,arg013,arg014,arg015,arg016,arg017,arg018,arg019,arg020,arg021,arg022,arg023,arg024,arg025,arg026,arg027,arg028,arg029,arg030,arg031,arg032,arg033,arg034,arg035,arg036,arg037,arg038,arg039,arg040,arg041,arg042,arg043,arg044,arg045,arg046,arg047,arg048,arg049,arg050,arg051,arg052,arg053,arg054,arg055,arg056) "SHORT arg000 arg001 ;BYTE arg002 arg003 arg004 arg005 ;SHORT arg006 ;BYTE arg007 arg008 arg009 arg010 arg011 arg012 arg013 arg014 arg015 arg016 arg017 arg018 arg019 arg020 arg021 arg022 arg023 arg024 arg025 arg026 arg027 arg028 arg029 arg030 arg031 arg032 arg033 arg034 arg035 arg036 arg037 arg038 arg039 arg040 arg041 arg042 arg043 arg044 arg045 arg046 arg047 arg048 ;WORD arg049 arg050 arg051 arg052 arg053 arg054 arg055 arg056 "
+#define MovingMapSpriteInstaller(arg000,arg001) "WORD arg000 arg001 "
+#define StandingMapSpriteInstaller(arg000,arg001,arg002,arg003,arg004) "BYTE arg000 arg001 arg002 arg003 ;WORD arg004 "
+#define setCardEntry(cardEntry,cardLocation,cardPaletteLocation) "PUSH; ORG PortraitTable+cardEntry*0x1C; POIN 0 0 cardPaletteLocation 0 cardLocation; POP"
+#define SetClassCard(ClassID,CardID) "PUSH; ORG ClassTable + 84 * ClassID + 8; BYTE CardID ; POP"
+#define SetAnimation(ClassID,Animation) "PUSH; ORG ClassTable + 84 * ClassID + 52; POIN Animation; POP"
+
+//Modular Item Installer
+#define WeaponIconOffset(iconID) "0x5926F4 + 0x80*iconID"
+#define ItemInstaller(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009,arg010,arg011,arg012,arg013,arg014,arg015,arg016,arg017,arg018,arg019,arg020,arg021,arg022,arg023,arg024,arg025) "SHORT arg000 arg001 arg002 ;BYTE arg003 arg004 arg005 arg006 arg007 arg008 ;WORD arg009 arg010 ;BYTE arg011 arg012 arg013 arg014 arg015 arg016 ;SHORT arg017 ;BYTE arg018 arg019 arg020 arg021 arg022 arg023 arg024 arg025 "
+#define SpellAssociationEditor(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009) "SHORT arg000 arg001 ;BYTE arg002 arg003 ;SHORT arg004 ;WORD arg005 ;BYTE arg006 arg007 arg008 arg009 "
+#define StatBonus(HPB,StrB,SklB,SpdB,DefB,ResB,LckB,MovB,ConB) "BYTE HPB StrB SklB SpdB DefB ResB LckB MovB ConB 0x0 0x0 0x0"
+
+//Modular Character Installer
+#define UnitInstaller(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009,arg010,arg011,arg012,arg013,arg014,arg015,arg016,arg017,arg018,arg019,arg020,arg021,arg022,arg023,arg024,arg025,arg026,arg027,arg028,arg029,arg030,arg031,arg032,arg033,arg034,arg035,arg036,arg037,arg038,arg039,arg040,arg041,arg042,arg043,arg044,arg045) "SHORT arg000 arg001 ;BYTE arg002 arg003 ;SHORT arg004 ;BYTE arg005 arg006 arg007 arg008 arg009 arg010 arg011 arg012 arg013 arg014 arg015 arg016 arg017 arg018 arg019 arg020 arg021 arg022 arg023 arg024 arg025 arg026 arg027 arg028 arg029 arg030 arg031 arg032 arg033 arg034 arg035 arg036 arg037 arg038 arg039 arg040 ;WORD arg041 ;BYTE arg042 arg043 arg044 arg045 "
+#define SupportInstaller(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009,arg010,arg011,arg012,arg013,arg014,arg015,arg016,arg017,arg018,arg019,arg020,arg021,arg022,arg023) "BYTE arg000 arg001 arg002 arg003 arg004 arg005 arg006 arg007 arg008 arg009 arg010 arg011 arg012 arg013 arg014 arg015 arg016 arg017 arg018 arg019 arg020 arg021 arg022 arg023 "
+#define UnitAnim(UnitID,ClassID,Animation) "BYTE UnitID ClassID 0x0 0x0; WORD Animation|IsPointer"
+
+//Tileset
+#define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
+#define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
+
+//Animation Assembler
+#define AnimTableEntry(index) "ORG ExpandedAnimTable + ((index-0x1) * 0x20)"
+#define SwordAnim(Animation) "BYTE Swords 0x01 ; SHORT Animation"
+#define SpearAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
+#define LanceAnim(Animation) "BYTE Lances 0x01 ; SHORT Animation"
+#define AxeAnim(Animation) "BYTE Axes 0x01 ; SHORT Animation"
+#define HandAxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
+#define HandaxeAnim(Animation) "BYTE HandAxe 0x00 ; SHORT Animation ; BYTE Tomahawk 0x00 ; SHORT Animation ; BYTE Hatchet 0x00 ; SHORT Animation"
+#define BowAnim(Animation) "BYTE Bows 0x01 ; SHORT Animation"
+#define StaffAnim(Animation) "BYTE Staves 0x01 ; SHORT Animation"
+#define AnimaAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation"
+#define LightAnim(Animation) "BYTE Light 0x01 ; SHORT Animation"
+#define DarkAnim(Animation) "BYTE Dark 0x01 ; SHORT Animation"
+#define MagicAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation ; BYTE Light 0x01 ; SHORT Animation ; BYTE Dark 0x01 ; SHORT Animation"
+#define UnarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
+#define DisarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
+#define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
+#define EndAnim "WORD 0x0"
+
+//Chapter Data Setter
+#define ChapterDataSetter(ChapterID,FogSightRange,ChapterWeather,HardBonusLevels,NormalPenaltyLevels,EasyPenaltyLevels,PlayerMusic,EnemyMusic,NPCMusic,PlayerBattleMusic,EnemyBattleMusic,NPCBattleMusic,WallHP,EnemiesForVictoryMusic,ChapterFadeToBlack,TurnLimit,DefendUnit,ObjectiveDisplay,ChapterBattleBackground) "PUSH;ORG ChapterDataTable+(ChapterID*0x94) + 12;BYTE FogSightRange;ORG ChapterDataTable+(ChapterID*0x94) + 18;BYTE ChapterWeather;BYTE ChapterBattleBackground;ORG ChapterDataTable+(ChapterID*0x94) + 20;BYTE (HardBonusLevels<<4)|EasyPenaltyLevels;BYTE NormalPenaltyLevels;SHORT PlayerMusic;SHORT EnemyMusic;SHORT NPCMusic;SHORT PlayerBattleMusic;SHORT EnemyBattleMusic;SHORT NPCBattleMusic;ORG ChapterDataTable+(ChapterID*0x94) + 44;BYTE WallHP;ORG ChapterDataTable+(ChapterID*0x94) + 134;BYTE EnemiesForVictoryMusic;BYTE ChapterFadeToBlack;ORG ChapterDataTable+(ChapterID*0x94) + 140;BYTE ObjectiveDisplay;BYTE TurnLimit;BYTE DefendUnit;POP"
+
+//Event Definitions
+#define LoadUnit(x,y) "UNIT Seth Cavalier 0x00 Level(1,Ally,1) [x,y] 0x00 0x00 0x00 0x00 [0x00] NoAI" //for units in player placement with prep menu
+#define Kill(unitid) "SET_SOMETHING unitid;DISA_IF unitid"
+#define ClearAll "CLEE 0x0; CLEA 0x0; CLEN 0x0"
+#define EndConvo "CALL $9EE2C4"

@@ -1,0 +1,18 @@
+#define Wind 0xA//ItemID here
+#define WindMagicAnim 0x56//MagicAnimationID here
+#define WindIcon 0x2//ItemIconID here
+#define UseItemText //Comment out if you want to use text in the text buildfile
+#define WindName 0x56//TextID/Definition here
+
+{
+	#define ItemNumber Wind
+	#define ItemIcon WindIcon
+	#define ItemMagicAnimation WindMagicAnim
+	#define ItemNameLocation WindName
+	//#define ItemDescriptionLoaction //Uses a default description
+	//#define ItemUseTextLocation //Has no use text
+	#include "Files/Graphics Installer.event"
+	#include "Files/Text Installer.event"
+	#include "Files/Data Installer.event"
+	#include "Files/Undefiner.event"
+}

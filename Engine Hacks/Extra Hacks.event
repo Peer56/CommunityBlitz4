@@ -1,0 +1,44 @@
+  //Allows for modification of unit walking sounds
+  #include "FE8-Walking Sounds Fix/FE8-Walking Sounds EA.event"
+
+  //Allows for Melee / Magic hybrid units
+  #include "Melee and Magic Fix/Installer.txt"
+
+  //Changes weapon ability bits
+  // #include "Reaver and Double WTA Split/Installer.event"
+
+  //Custom Spell Animation System
+  #include "CSA System FE8/Master Spell Animation Installer.event"
+
+  //Revenant class ID no longer gives bonus EXP
+  #include "Revenant EXP Fix/Revenant EXP Fix.event"
+
+  //Modular Minimug Box
+  #include "ModularMinimugBox-master/MMB Installer REDFE edit.event"
+
+  //Change Shop Music by Chapter
+  #include "Shop BGM/ChangeShopBGMEachChapter.event"
+
+  //Finding Enemies in fog no longer ends you turn
+  #include "Less Annoying Fog/Less Annoying Fog Installer.event"
+
+  //255 Crit = Cannot crit (broken?)
+  // #include "FE8-Modified Crit Stuff/FE8-Modified Crit Stuff EA.event"
+
+  //Show Heal Amount
+  #include "FE7 & 8-Show Heal Amount/FE8-Show Heal Amount EA.event"
+
+  //Unique Battle BGM Per Chapte
+  #include "Battle BGM/Installer.event"
+
+  //Various Fixes
+  #include "New Fixes.event"
+
+  //Custom Unit Animations
+  #include "Individual animation_ea_2/Installer.event"
+
+  //Modular EXP
+  #include "Modular EXP/Installer.event"
+
+  //Posion Rework
+  #include "Poison Rework/Installer.event"
