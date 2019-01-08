@@ -13,3 +13,8 @@
 #include "Magic Animation Definitions.event"
 #include "Mug Definitions.event"
 #include "Palette Definitions.event"
+#include "Table Definitions.event"
+
+#ifndef DebuffTable
+  #define DebuffTable 0x203f100
+#endif

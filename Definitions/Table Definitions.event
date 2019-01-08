@@ -1,4 +1,3 @@
-//ifndef guards
 #ifndef TABLE_DEFINITIONS
 
 #define TABLE_DEFINITIONS
@@ -142,12 +141,12 @@
   #define defWeaponDebuffs(str, skl, spd, luk, def, res) "BYTE (str|(skl<<4)) (spd|(def<<4)) (res|(luk<<4))"
 
 //Class Types
-#define ArmorType	0x01
-#define HorseType	0x02
-#define FlierType	0x04
+#define ArmorType 0x01
+#define HorseType 0x02
+#define FlierType 0x04
 #define DragonType 0x08
-#define MonsterType	0x10
-#define SwordType	0x20
+#define MonsterType 0x10
+#define SwordType 0x20
 #define MageType 0x40
 
 //Item Descriptions
@@ -302,5 +301,3 @@
 #define ASupport 0xF1
 
 #endif
-
-#include "External Tables.event"

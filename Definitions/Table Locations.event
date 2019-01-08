@@ -64,3 +64,9 @@
 #ifndef PaletteTable
 	#define PaletteTable 0xEF8008
 #endif
+#ifndef DebuffTable
+  #define DebuffTable 0x203f100
+#endif
+//#ifndef PersonalMusicTable
+  //#define PersonalMusicTable 0x758a60
+//#endif
