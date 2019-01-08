@@ -12,6 +12,8 @@ Learned  [X]
 
 #include "unitmenu_text.txt"
 
+#include "class text.txt"
+
 #0x8DB nameCamus
 #for identity problems
 Camus[X]
