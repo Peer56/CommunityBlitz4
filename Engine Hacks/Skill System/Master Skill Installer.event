@@ -286,12 +286,12 @@ MercyEffect:
 #incbin "Teq Skills/Mercy Effect.dmp"
 
 SealSkills:
-// #incbin "Seal Skills/SealSkills.dmp"
-#incbin "Seal Skills/SealSkills_withWeaponDebuff.dmp"
+#incbin "Seal Skills/SealSkills.dmp"
 POIN SkillTester
 POIN SealSkillList
 WORD DebuffTable
 POIN ItemTable
+WORD FullMetalBodyID
 POIN WeaponDebuffTable
 SealSkillList:
 BYTE SealStrID SealSklID SealSpdID SealDefID SealResID SealLukID
