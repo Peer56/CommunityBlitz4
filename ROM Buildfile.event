@@ -31,7 +31,7 @@
     ORG EndSpace
     
     //User Data
-    #include "UserData/User Buildfile.event"
+    #include "_UserData/User Buildfile.event"
 
     MESSAGE Used free space ends at currentOffset
 #else

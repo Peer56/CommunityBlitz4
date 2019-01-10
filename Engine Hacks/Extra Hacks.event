@@ -42,3 +42,6 @@
 
   //Posion Rework
   #include "Poison Rework/Installer.event"
+
+  //Fix Portrait Heights
+  #include "Portrait Height/Installer.txt"
