@@ -1,13 +1,2 @@
-#include "bin/drumfix_fe8.event"
-#include "bin/MPlayDef.event"
-
-//PUSH
-//ORG 0x1001860
-//#incbin "bin/custom_piano.bin"
-//POP
-
-voicegroup000:
-#incbin "bin/FE8_NI_Map_custompiano.bin"
-
 //#define SongTableOffset 0x224470
 //#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"

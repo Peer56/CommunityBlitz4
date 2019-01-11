@@ -45,3 +45,9 @@
 
   //Fix Portrait Heights
   #include "Portrait Height/Installer.txt"
+
+  //Allow for more than one new weapon rank to display on promotion
+  #include "Promotion Ranks Fix/Promotion Ranks Fix installer.event"
+
+  //Native Instrument Map (NIMAP)
+  #include "NIMAP/Installer.event"

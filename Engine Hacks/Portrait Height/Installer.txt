@@ -119,4 +119,4 @@ BYTE 0 0
 //so as long as you have <0x71 unique portraits you can leave this inline.
 
 //Edit this if you repoint!
-MESSAGE Better be 0x5CA2 and it is... currentOffset
+//MESSAGE Better be 0x5CA2 and it is... currentOffset
