@@ -1,7 +1,5 @@
 #ifdef _FE8_
 
-#include "Extensions/Hack Installation.txt"
-
 PUSH
 ORG $75F74
 POIN PromotionPopups
