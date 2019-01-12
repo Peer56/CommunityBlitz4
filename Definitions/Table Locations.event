@@ -55,9 +55,9 @@
 #ifndef SupportTable
 	#define SupportTable 0x8AEBAC
 #endif
-#ifndef SupportConversationTable
-	#define SupportConversationTable 0x9ED10C
-#endif
+//#ifndef SupportConversationTable
+	//#define SupportConversationTable 0x9ED10C
+//#endif
 #ifndef UnitPaletteTable
 	#define UnitPaletteTable 0x95EEA4
 #endif

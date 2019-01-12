@@ -25,5 +25,8 @@
 #include "Quotes/Battle Quotes Installer.event"
 #include "Quotes/Death Quotes Installer.event"
 
+//Supports
+#include "Support Editor/Support Editor.event"
+
 //Events
 #include "Events/Master Event Installer.event"

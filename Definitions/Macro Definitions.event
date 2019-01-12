@@ -24,6 +24,10 @@
 #define BattleQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 arg001 0x0 arg002 0x0 0x1 0x0 ;SHORT arg003 ;BYTE 0x0 0x0 0x0 0x0 0x0 0x0 "
 #define EndQuote "BYTE 0xff 0xff"
 
+//Support Table
+#define SupportEntry(arg000,arg001,arg002,arg003,arg004) "BYTE arg000 0x0 arg001 0x0 ;SHORT arg002 arg003 arg004 ;BYTE 0x0 0x0 0x0 0x0 0x0 0x0 "
+#define EndSupport "BYTE 0xff 0xff "
+
 //Tileset
 #define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
 #define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
