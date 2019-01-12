@@ -21,5 +21,9 @@
 //Music
 #include "Music/Music Installer.event"
 
+//Quotes
+#include "Quotes/Battle Quotes Installer.event"
+#include "Quotes/Death Quotes Installer.event"
+
 //Events
 #include "Events/Master Event Installer.event"

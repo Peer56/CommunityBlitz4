@@ -17,6 +17,13 @@
 #define SupportInstaller(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009,arg010,arg011,arg012,arg013,arg014,arg015,arg016,arg017,arg018,arg019,arg020,arg021,arg022,arg023) "BYTE arg000 arg001 arg002 arg003 arg004 arg005 arg006 arg007 arg008 arg009 arg010 arg011 arg012 arg013 arg014 arg015 arg016 arg017 arg018 arg019 arg020 arg021 arg022 arg023 "
 #define UnitAnim(UnitID,ClassID,Animation) "BYTE UnitID ClassID 0x0 0x0; WORD Animation|IsPointer"
 
+//Quote Tables
+#define AlwaysDeathQuote(arg000,arg001,arg002) "BYTE arg000 0x0 0xff 0xff arg001 0x0 ;SHORT arg002 ;WORD 0x0 "
+#define ChapterDeathQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 0xff arg001 arg002 0x0 ;SHORT arg003 ;WORD 0x0 "
+#define EndDeathQuote "BYTE 0xff 0xff 0x0 0x0 0x0 0x0 ;SHORT 0x0 ;WORD 0x0 "
+#define BattleQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 arg001 0x0 arg002 0x0 0x1 0x0 ;SHORT arg003 ;BYTE 0x0 0x0 0x0 0x0 0x0 0x0 "
+#define EndQuote "BYTE 0xff 0xff"
+
 //Tileset
 #define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
 #define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"

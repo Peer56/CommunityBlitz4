@@ -300,4 +300,8 @@
 #define BSupport 0xB1
 #define ASupport 0xF1
 
+//Flags
+#define DefeatBossFlag 0x2
+#define GameOverFlag 0x65
+
 #endif

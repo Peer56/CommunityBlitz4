@@ -40,12 +40,12 @@
 #ifndef ChapterDataTable
 	#define ChapterDataTable 0x8b0890
 #endif
-#ifndef DeathQuoteTable
-	#define DeathQuoteTable 0x9ECD4C
-#endif
-#ifndef BattleQuoteTable
-	#define BattleQuoteTable 0x9EC6BC
-#endif
+//#ifndef DeathQuoteTable
+	//#define DeathQuoteTable 0x9ECD4C
+//#endif
+//#ifndef BattleQuoteTable
+	//#define BattleQuoteTable 0x9EC6BC
+//#endif
 //#ifndef SpellTable
 	//#define SpellTable 0x0
 //#endif
