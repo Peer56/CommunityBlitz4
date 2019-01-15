@@ -9,13 +9,13 @@
 
 @ Poison applied from weapons seems to be added after battle at 0x080178EE.
 
-@ Okay wow I should have anticipated this. Poison is checked A LOT for the minibox. I... really don't want to deal with that...
+@ Okay wow I should have anticipated this. Poison is checked A LOT for the minibox. I... really don't want to edit that. If it checks its status, fine.
 
 @ The damage from poison seems to be handled starting at 0x08025A28.
 
 .global SetPoisonWeapon
 .type SetPoisonWeapon, %function
-SetPoisonWeapon: @ Autohook to 0x080178D8. r1 = status to apply, r7 = inflicting character sturct. Weird
+SetPoisonWeapon: @ Autohook to 0x080178D8. r1 = status to apply, r4 = character struct to apply to, r6 = character struct of the defender, r7 = character struct of the attacker.
 push { lr }
 mov r2, r1
 cmp r2, #0x01
@@ -35,7 +35,7 @@ strb r2, [ r0 ]
 pop { r0 }
 bx r0
 
-HandlePoison: @ I have the status in r1. r0 has the battle struct to apply to, so I need to add however much this weapon applies.
+HandlePoison: @ I have the status in r1. r4 has the battle struct to apply to, so I need to add however much this weapon applies.
 ldr r0, =#0xFFFFFFFD
 cmp r0, r5
 bne NotGasTrap
@@ -46,8 +46,15 @@ bne NotGasTrap
 	ldrb r0, [ r0, r1 ]
 	b SetPoison
 NotGasTrap:
-	mov r0, r7
-	blh 0x08016B28, r1 @ r0 has the equiped weapon
+	mov r1, #0x1E
+	cmp r4, r6
+	beq UseR7
+	@ UseR6:
+		ldrh r0, [ r6, r1 ] @ Gets the weapon of the defender.
+		b FindPoison
+	UseR7:
+		ldrh r0, [ r7, r1 ] @ Gets the weapon of the attacker.
+	FindPoison:
 	lsl r0, #0x18
 	lsr r0, #0x18 @ Trims off uses
 	ldr r1, =SetPoisonItemTable
