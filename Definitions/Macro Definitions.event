@@ -58,4 +58,11 @@
 #define LoadUnit(x,y) "UNIT Seth Cavalier 0x00 Level(1,Ally,1) [x,y] 0x00 0x00 0x00 0x00 [0x00] NoAI" //for units in player placement with prep menu
 #define Kill(unitid) "SET_SOMETHING unitid;DISA_IF unitid"
 #define ClearAll "CLEE 0x0; CLEA 0x0; CLEN 0x0"
+#define Textbox(textid) "CenterTutorialTextBox; TUTORIALTEXTBOXSTART; TEXTSHOW textid; TEXTEND"
+#define GiveItem(Item,Character) "SMOV 0x3 Item ; GIVEITEMTO Character"
+#define TileChange(X,Y) "SETVAL 0xB Coords(X,Y) ; TILECHANGE 0xFFFF"
+#define CamOn "EVBIT_T 0x9"
+#define CamOff "EVBIT_F 0x9"
+//#define WarpIn(X,Y,UnitPointer) "SVAL 0xB Coords(X,Y) ; WARP_IN ; LOAD1 0x1 UnitPointer ; ENUN"
+#define WarpOut(X,Y) "SVAL 0xB Coords(X,Y) ; WARP_OUT ; DISA [X,Y]"
 #define EndConvo "CALL $9EE2C4"
