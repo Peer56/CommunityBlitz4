@@ -66,3 +66,5 @@
 //#define WarpIn(X,Y,UnitPointer) "SVAL 0xB Coords(X,Y) ; WARP_IN ; LOAD1 0x1 UnitPointer ; ENUN"
 #define WarpOut(X,Y) "SVAL 0xB Coords(X,Y) ; WARP_OUT ; DISA [X,Y]"
 #define EndConvo "CALL $9EE2C4"
+#define MoveCoords(X1,Y1,X2,Y2) "SVAL 0xB Coords(X1,Y1) ; MOVE 0x0 0xFFFE [X2,Y2]"
+#define Coords(xcoord,ycoord) "(ycoord<<16)|xcoord"

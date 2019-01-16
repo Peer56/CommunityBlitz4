@@ -1,0 +1,32 @@
+0.1 Defining Labels and Using Commands
+
+A label does what it sounds like - labels a point in memory. This is useful when you need one event to point to another event. A label is defined by having a name (no spaces) followed by a colon.
+
+	MyLabel:
+	Text(SampleText)
+	ENDA
+
+Now whenever I refer to "MyLabel" it will bring me here.
+
+As you can see in the example, commands are written underneath labels. They are executed top to bottom.
+
+
+
+0.2 Flags
+
+Flags are used so that events don't repeat themselves. When setting flags for events, you will want to start at flag 0x8 since 0x0 through 0x7 are already used / cannot be set. When a flag set to an event is true, it will not be able to be activated. Conversely, most events will automatically set their flags to true once activated. To manually set flags in events, use
+
+	EVBIT_T flag
+	EVBIT_F flag
+
+To set the flag to true and false respectively.
+
+
+
+0.3 Macros
+
+A macro is a special type of definition that accepts variables. In eventing, you can think of it like a shortcut command. Most macros will appear as a name followed by parenthesis. For example,
+
+	Door(x,y)
+
+This is a macro that accepts two variables - an x and a y coordinate - and sets a door event to that location.
