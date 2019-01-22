@@ -1,3 +1,5 @@
 #include "Stat Boost Editor.event"
 
 #include "ExpandedAnimTable/expandanimtableinstaller.event"
+
+#include "Summoning Table.event"

@@ -239,16 +239,16 @@ POIN MovingMapSpriteTable
 //ORG $5B3F8
 //POIN SpellTable
 
-ORG $2442C
-POIN SummonCharacterTable
-ORG $244A0
-POIN (SummonCharacterTable+1)
-ORG $7AD54
-POIN SummonCharacterTable
-ORG $7AE00
-POIN SummonCharacterTable
-ORG $7AE04
-POIN (SummonCharacterTable+1)
+//ORG $2442C
+//POIN SummonCharacterTable
+//ORG $244A0
+//POIN (SummonCharacterTable+1)
+//ORG $7AD54
+//POIN SummonCharacterTable
+//ORG $7AE00
+//POIN SummonCharacterTable
+//ORG $7AE04
+//POIN (SummonCharacterTable+1)
 
 ORG $A26C
 POIN TextTable

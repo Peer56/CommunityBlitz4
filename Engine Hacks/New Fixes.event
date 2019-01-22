@@ -32,8 +32,8 @@ PUSH
   BYTE 0x00 0x0E
 
   //Prevent RNG advancement through cursor movement
-  ORG $C84
-  BYTE 0x00 0x00 0x00 0x00
+  //ORG $C84
+  //BYTE 0x00 0x00 0x00 0x00
 
   //Support range adjustment
   //ORG 0x28620
@@ -46,5 +46,11 @@ PUSH
   BYTE 6
   ORG $1e7fc
   BYTE 0xC
+
+  // Fix CAM1/CAMERA2 going out of bounds
+  ORG $15D52
+  BYTE 14
+  ORG $15D66
+  BYTE 9
 
 POP

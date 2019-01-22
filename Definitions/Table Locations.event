@@ -49,9 +49,9 @@
 //#ifndef SpellTable
 	//#define SpellTable 0x0
 //#endif
-#ifndef SummonCharacterTable
-	#define SummonCharacterTable 0x95F5A4
-#endif
+//#ifndef SummonCharacterTable
+	//#define SummonCharacterTable 0x95F5A4
+//#endif
 #ifndef SupportTable
 	#define SupportTable 0x8AEBAC
 #endif
