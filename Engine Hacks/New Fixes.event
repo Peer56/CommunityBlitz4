@@ -31,9 +31,11 @@ PUSH
   ORG $2BC2C
   BYTE 0x00 0x0E
 
+  #ifdef FixedArrowRNG
   //Prevent RNG advancement through cursor movement
-  //ORG $C84
-  //BYTE 0x00 0x00 0x00 0x00
+  ORG $C84
+  BYTE 0x00 0x00 0x00 0x00
+  #endif
 
   //Support range adjustment
   //ORG 0x28620

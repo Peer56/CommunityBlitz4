@@ -3,6 +3,8 @@
     #include "Engine Hacks/Skill System/skill_definitions.event"
     #include "Definitions/Custom Definitions.event"
 
+    #include "_UserData/Customizations.event"
+
     ORG FreeSpace
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
