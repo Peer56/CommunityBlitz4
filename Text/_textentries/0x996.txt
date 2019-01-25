@@ -1,3 +1,2 @@
-Grisly Wound: Deals damage equal[NL]
-to 20% of the enemy's max[NL]
-HP after every battle.[X]
+Trace: During Battle, copies[N]
+the first Skill of the enemy.[X]

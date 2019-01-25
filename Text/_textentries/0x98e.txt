@@ -1,2 +1,2 @@
-Full Metal Body: This unit is[N]
-immune to all the Seal skills.[X]
+Reposition: Allows unit to pull an[N]
+adjacent ally to its opposite side.[X]

@@ -1,2 +1,2 @@
-Black Magic: Skill% chance to[N]
-inflict a random status.[X]
+Rightful God: +30% to[N]
+Skill activation rate.[X]

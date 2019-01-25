@@ -1,2 +1,2 @@
-Identity Problems: This unit can't[N]
-decide on a name or face.[X]
+Seal Resistance: Debuff opponent's Res[N]
+by 6 after combat. (Recover 1/turn)[X]

@@ -1,2 +1,2 @@
-Seal Attack: Debuff opponent's Str/Mag[N]
-by 6 after combat. (Recover 1/turn)[X]
+Spur Defense: Adjacent allies[N]
+take -4 physical damage.[X]

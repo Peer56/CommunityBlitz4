@@ -1,2 +1,2 @@
-Light Weight: When holding three[N]
-or less items, attack speed +3.[X]
+Rally Movement: +1 Move[N]
+to allies within 2 tiles.[X]

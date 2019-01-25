@@ -1,2 +1,2 @@
-Paragon: Experience gain[N]
-is doubled.[X]
+Pavise: Nullify a physical attack.[N]
+(Skill % activation)[X]

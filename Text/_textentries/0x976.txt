@@ -1,2 +1,2 @@
-Hawkeye: User will[N]
-always hit the enemy.[X]
+Strong Riposte: When under[N]
+attack, damage +3. [X]

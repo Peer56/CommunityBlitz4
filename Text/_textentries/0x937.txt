@@ -1,2 +1,2 @@
-Savage Blow: After attacking, enemies[N]
-within 2 tiles take 20% damage.[X]
+Renewal: Restore 30% of max HP[N]
+at the start of each turn.[X]

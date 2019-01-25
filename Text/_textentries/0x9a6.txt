@@ -1,2 +1,2 @@
-A device that blocks units[N]
-from entering spaces.[X]
+Steady Stance: +6 defense[N]
+when foe initiates battle.[X]

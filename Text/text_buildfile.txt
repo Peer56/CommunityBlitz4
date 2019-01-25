@@ -14,7 +14,7 @@ Learned  [X]
 
 #include "class text.txt"
 
-#0x8DB nameCamus
+#0x903 nameCamus
 #for identity problems
 Camus[X]
 

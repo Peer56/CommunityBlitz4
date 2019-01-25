@@ -1,2 +1,2 @@
-Rally Defense: +4 Def to[N]
-allies within 2 tiles.[X]
+Desperation: If HP < 50%,[N]
+double attacks occur immediately.[X]

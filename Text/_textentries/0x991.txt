@@ -1,2 +1,2 @@
-Lumina: Allows the user to use[N]
-Light Magic. (Uses highest Magic Rank)[X]
+Fury: +2 Atk/Spd/Def/Res. Unit[N]
+takes 6 damage after combat.[X]

@@ -1,2 +1,2 @@
-Bond: All allies within 3 tiles[N]
-recover 10% HP each turn.[X]
+Malefic Aura: Enemies within 2[N]
+tiles receive +2 magic damage.[X]

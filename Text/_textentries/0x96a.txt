@@ -1,2 +1,2 @@
-Dazzle: Opponents cannot[N]
-counterattack this unit.[X]
+Natural Cover: -3 damage taken[N]
+when on terrain with effects.[X]

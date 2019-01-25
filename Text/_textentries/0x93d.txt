@@ -1,2 +1,2 @@
-Lily's Poise: Adjacent allies gain[N]
-+1/-3 damage dealt/received.[X]
+Charm: Allies within 2[N]
+tiles deal +2 damage.[X]

@@ -1,2 +1,2 @@
-Malefic Aura: Enemies within 2[N]
-tiles receive +2 magic damage.[X]
+Bane: Leave the opponent at 1 HP.[N]
+(Skill/2 % activation)[X]

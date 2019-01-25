@@ -1,3 +1,2 @@
-Swift Stance: +4 speed[N]
-and resistance when[N]
-foe initiates battle.[X]
+Shove: Allows unit to push[N]
+other units one tile away.[X]

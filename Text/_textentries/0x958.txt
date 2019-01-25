@@ -1,2 +1,2 @@
-Shove: Allows unit to push[N]
-other units one tile away.[X]
+Locktouch: Can open locks[N]
+without keys or picks.[X]

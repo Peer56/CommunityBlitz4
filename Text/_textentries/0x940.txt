@@ -1,2 +1,2 @@
-Fiery Blood: +4 damage[N]
-when HP is not at max.[X]
+Spur Strength: Adjacent allies[N]
+deal +4 physical damage.[X]

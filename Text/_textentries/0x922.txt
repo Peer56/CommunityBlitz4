@@ -1,2 +1,2 @@
-Rally Strength: +4 Str[N]
-to allies within 2 tiles.[X]
+Darting Blow: +5 Attack Speed[N]
+when initiating battle.[X]

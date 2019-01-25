@@ -1,2 +1,2 @@
-A dance that increases an allies'[N]
-critical hit rate by 10% for a turn.[X]
+Warding Stance: +6 resistance[N]
+when foe initiates battle.[X]

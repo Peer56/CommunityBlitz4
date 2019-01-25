@@ -1,2 +1,2 @@
-Locktouch: Can open locks[N]
-without keys or picks.[X]
+Tomefaire: +4 damage[N]
+when equipping a tome.[X]

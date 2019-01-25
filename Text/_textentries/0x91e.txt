@@ -1,2 +1,2 @@
-Nullify: Unit is protected[N]
-from all effective attacks.[X]
+Aegis: Nullify a magic attack.[N]
+(Skill % activation)[X]

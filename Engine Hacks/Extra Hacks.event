@@ -34,10 +34,11 @@
   //Show Heal Amount
   #include "FE7 & 8-Show Heal Amount/FE8-Show Heal Amount EA.event"
 
-  #ifdef BattleBGMPerChapter
   //Unique Battle BGM Per Chapter
   #include "Battle BGM/Installer.event"
-  #endif
+
+  //Unique Character Battle BGM
+  #include "Character Battle BGM/install battle_music_changer2.event"
 
   //Various Fixes
   #include "New Fixes.event"

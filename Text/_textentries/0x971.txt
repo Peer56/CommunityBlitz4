@@ -1,2 +1,2 @@
-Charisma: Grants +10 Hit/Avoid[N]
-to all allies within three tiles.[X]
+Gamble: A reckless attack with[N]
+halved hit but doubled crit.[X]

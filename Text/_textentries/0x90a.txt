@@ -1,2 +1,2 @@
-Slayer: Deal effective damage[N]
-to monster units.[X]
+Canto+: Can move again after[N]
+attacking and other actions.[X]

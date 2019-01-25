@@ -1,2 +1,2 @@
-Expertise: Reduce bonus damage[N]
-from critical hits by 50%.[X]
+Voice of Peace: Enemies within[N]
+2 tiles deal -2 damage.[X]

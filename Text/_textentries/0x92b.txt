@@ -1,2 +1,2 @@
-Bow Range +1: Maximum range[N]
-of equipped bows is increased.[X]
+Miracle: Survive a lethal[N]
+attack if HP > 50%.[X]

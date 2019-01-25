@@ -1,3 +1,2 @@
-Sturdy Stance: +4 attack[N]
-and defense when foe[N]
-initiates battle.[X]
+Moonbow: Enemy Def/Res is[N]
+reduced by 25%. Charge: 2[X]

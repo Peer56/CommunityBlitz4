@@ -1,2 +1,2 @@
-Steady Stance: +6 defense[N]
-when foe initiates battle.[X]
+Armsthrift: Luck % chance to not[N]
+consume weapon durability.[X]

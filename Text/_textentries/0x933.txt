@@ -1,2 +1,2 @@
-Opportunist: +4 damage[N]
-if the foe cannot counter.[X]
+Summon: Can conjure a phantom[N]
+soldier to fight alongside you.[X]

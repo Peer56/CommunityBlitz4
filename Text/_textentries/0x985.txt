@@ -1,2 +1,2 @@
-Capture: Capture an enemy after[N]
-defeating it with reduced stats.[X]
+Rightful King: +10% to[N]
+Skill activation rate.[X]

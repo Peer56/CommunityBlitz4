@@ -1,2 +1,2 @@
-Rightful God: +30% to[N]
-Skill activation rate.[X]
+Foreign Princess: Foreign army units[N]
+take -2/+2 damage dealt/taken.[X]

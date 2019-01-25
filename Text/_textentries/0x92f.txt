@@ -1,2 +1,2 @@
-Life and Death: +10 to[N]
-damage dealt and taken.[X]
+Bowfaire: +4 damage[N]
+when equipping a bow.[X]

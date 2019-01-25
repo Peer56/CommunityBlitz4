@@ -1,2 +1,2 @@
-Death Blow: +6 Attack[N]
-when initiating battle.[X]
+Dragon's Blood: Unit is able[N]
+to activate Dragon Veins.[X]

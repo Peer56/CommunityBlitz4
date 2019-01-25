@@ -1,2 +1,2 @@
-Tantivy: +10 Hit/Avoid if there are[N]
-no allies within 3 tiles.[X]
+Demoiselle: Male allies within[N]
+2 tiles receive -2 damage.[X]

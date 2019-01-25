@@ -1,2 +1,2 @@
-Darting Stance: +6 speed[N]
-when foe initiates battle.[X]
+Light Weight: When holding three[N]
+or less items, attack speed +3.[X]

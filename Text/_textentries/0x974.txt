@@ -1,2 +1,2 @@
-Catch 'Em All: Grants[N]
-the user every skill.[X]
+Quick Draw: +4 Damage[N]
+when initiating battle.[X]

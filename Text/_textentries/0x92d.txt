@@ -1,2 +1,2 @@
-Live to Serve: When healing[N]
-an ally, also heals self.[X]
+Lancefaire: +4 damage[N]
+when equipping a lance.[X]

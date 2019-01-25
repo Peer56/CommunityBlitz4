@@ -1,2 +1,2 @@
-Spur Resistance: Adjacent allies[N]
-take -4 magical damage.[X]
+Bowbreaker: +50 Hit/Avo when[N]
+enemy has a bow equipped.[X]

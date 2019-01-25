@@ -1,2 +1,2 @@
-Galeforce: Move again after[N]
-attacking and defeating an enemy.[X]
+Mercy: Enemies are left[N]
+with at least 1 HP.[X]

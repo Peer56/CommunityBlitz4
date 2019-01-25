@@ -1,2 +1,3 @@
-Inspiring Tune: Refreshing a unit grants[N]
-them +2 Pow/Def until the next turn.[X]
+Despoil: Obtain a Red Gem after[N]
+attacking and defeating an enemy.[N]
+(Luck % activation)[X]

@@ -1,2 +1,2 @@
-Nihil: Cancels the opponent's[N]
-skills in combat.[X]
+Tomebreaker: +50 Hit/Avo when[N]
+enemy has a tome equipped.[X]

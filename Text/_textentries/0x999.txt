@@ -1,3 +1,2 @@
-Barricade+: In combat, damage[NL]
-recieved equals half of the[NL]
-damage when struck last.[X]
+Charisma: Grants +10 Hit/Avoid[N]
+to all allies within three tiles.[X]

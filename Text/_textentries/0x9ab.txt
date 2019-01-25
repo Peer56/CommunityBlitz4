@@ -1,1 +1,1 @@
-Doubles the weapon traingle's effects.[X]
+Steal: Unit can steal items.[X]
