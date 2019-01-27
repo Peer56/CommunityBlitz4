@@ -1,0 +1,23 @@
+
+//////////////////////////////////////////////////////////
+//                                                      //
+// Disassembled with Nintenlord's Event Assembler       //
+// Version: 11.1.0.0                                    //
+// Game: FE8                                            //
+// File: TheNamelessHeroes_EngTrans.event_assembler.gba //
+// Offset: $A6134C                                      //
+//                                                      //
+//////////////////////////////////////////////////////////
+
+
+
+ORG $A6134C
+MUSC 0x289
+TUTORIALTEXTBOXSTART
+SVAL 0xB 0xFFFFFFFF
+TEXTSHOW 0xD3D
+TEXTEND
+REMA
+EVBIT_T 0x7
+ENDA
+

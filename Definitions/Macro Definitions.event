@@ -23,6 +23,7 @@
 #define ChapterDeathQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 0xff arg001 arg002 0x0 ;SHORT arg003 ;WORD 0x0 "
 #define EndDeathQuote "BYTE 0xff 0xff 0x0 0x0 0x0 0x0 ;SHORT 0x0 ;WORD 0x0 "
 #define BattleQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 arg001 0x0 arg002 0x0 0x1 0x0 ;SHORT arg003 ;BYTE 0x0 0x0 0x0 0x0 0x0 0x0 "
+#define TwoWayBattleQuote(arg000,arg001,arg002,arg003) "BattleQuote(arg000,arg001,arg002,arg003);BattleQuote(arg001,arg000,arg002,arg003)"
 #define EndQuote "BYTE 0xff 0xff"
 
 //Support Table
@@ -51,6 +52,7 @@
 #define LightAnim(Animation) "BYTE Light 0x01 ; SHORT Animation"
 #define DarkAnim(Animation) "BYTE Dark 0x01 ; SHORT Animation"
 #define MagicAnim(Animation) "BYTE Anima 0x01 ; SHORT Animation ; BYTE Light 0x01 ; SHORT Animation ; BYTE Dark 0x01 ; SHORT Animation"
+#define BallistaAnim(Animation) "BYTE Ballista 0x00 ; SHORT Animation ; BYTE IronBallista 0x00 ; SHORT Animation ; BYTE KillerBallista 0x00 ; SHORT Animation"
 #define UnarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
 #define DisarmedAnim(Animation) "BYTE Disarmed 0x01 ; SHORT Animation"
 #define SpecialAnim(Animation,Weapon) "BYTE Weapon 0x00 ; SHORT Animation"
@@ -59,12 +61,18 @@
 //Chapter Data Setter
 #define ChapterDataSetter(ChapterID,FogSightRange,ChapterWeather,HardBonusLevels,NormalPenaltyLevels,EasyPenaltyLevels,PlayerMusic,EnemyMusic,NPCMusic,PlayerBattleMusic,EnemyBattleMusic,NPCBattleMusic,WallHP,EnemiesForVictoryMusic,ChapterFadeToBlack,TurnLimit,DefendUnit,ObjectiveDisplay,ChapterBattleBackground) "PUSH;ORG ChapterDataTable+(ChapterID*0x94) + 12;BYTE FogSightRange;ORG ChapterDataTable+(ChapterID*0x94) + 18;BYTE ChapterWeather;BYTE ChapterBattleBackground;ORG ChapterDataTable+(ChapterID*0x94) + 20;BYTE (HardBonusLevels<<4)|EasyPenaltyLevels;BYTE NormalPenaltyLevels;SHORT PlayerMusic;SHORT EnemyMusic;SHORT NPCMusic;SHORT PlayerBattleMusic;SHORT EnemyBattleMusic;SHORT NPCBattleMusic;ORG ChapterDataTable+(ChapterID*0x94) + 44;BYTE WallHP;ORG ChapterDataTable+(ChapterID*0x94) + 134;BYTE EnemiesForVictoryMusic;BYTE ChapterFadeToBlack;ORG ChapterDataTable+(ChapterID*0x94) + 140;BYTE ObjectiveDisplay;BYTE TurnLimit;BYTE DefendUnit;POP"
 
+//Force Deployer
+#define ForceDeployEntry(unit,chapterID) "SHORT unit; BYTE 0xFF chapterID"
+#define EndForceDeploy "SHORT 0xFFFF 0x00"
+
 //Event Definitions
 #define LoadUnit(x,y) "UNIT Seth Cavalier 0x00 Level(1,Ally,1) [x,y] 0x00 0x00 0x00 0x00 [0x00] NoAI" //for units in player placement with prep menu
 #define Kill(unitid) "SET_SOMETHING unitid;DISA_IF unitid"
 #define ClearAll "CLEE 0x0; CLEA 0x0; CLEN 0x0"
-#define Textbox(textid) "CenterTutorialTextBox; TUTORIALTEXTBOXSTART; TEXTSHOW textid; TEXTEND"
+#define Textbox(textid) "TUTORIALTEXTBOXSTART; TEXTSHOW textid; TEXTEND"
+#define CentreTextbox(textid) "CenterTutorialTextBox; TUTORIALTEXTBOXSTART; TEXTSHOW textid; TEXTEND"
 #define GiveItem(Item,Character) "SMOV 0x3 Item ; GIVEITEMTO Character"
+#define GiveGold(money) "SVAL 0x3 money; GIVEITEMTOMAIN 0"
 #define TileChange(X,Y) "SETVAL 0xB Coords(X,Y) ; TILECHANGE 0xFFFF"
 #define CamOn "EVBIT_T 0x9"
 #define CamOff "EVBIT_F 0x9"
@@ -72,4 +80,5 @@
 #define WarpOut(X,Y) "SVAL 0xB Coords(X,Y) ; WARP_OUT ; DISA [X,Y]"
 #define EndConvo "CALL $9EE2C4"
 #define MoveCoords(X1,Y1,X2,Y2) "SVAL 0xB Coords(X1,Y1) ; MOVE 0x0 0xFFFE [X2,Y2]"
+#define MoveCoords(X1,Y1,Speed,X2,Y2) "SVAL $B Coords(X1,Y1) ; MOVE Speed 0xFFFE [X2,Y2]"
 #define Coords(xcoord,ycoord) "(ycoord<<16)|xcoord"
