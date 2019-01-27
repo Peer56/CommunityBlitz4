@@ -23,6 +23,7 @@
 #define ChapterDeathQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 0xff arg001 arg002 0x0 ;SHORT arg003 ;WORD 0x0 "
 #define EndDeathQuote "BYTE 0xff 0xff 0x0 0x0 0x0 0x0 ;SHORT 0x0 ;WORD 0x0 "
 #define BattleQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 arg001 0x0 arg002 0x0 0x1 0x0 ;SHORT arg003 ;BYTE 0x0 0x0 0x0 0x0 0x0 0x0 "
+#define TwoWayBattleQuote(arg000,arg001,arg002,arg003) "BattleQuote(arg000,arg001,arg002,arg003);BattleQuote(arg001,arg000,arg002,arg003)"
 #define EndQuote "BYTE 0xff 0xff"
 
 //Support Table

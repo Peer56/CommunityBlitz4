@@ -55,4 +55,43 @@ PUSH
   ORG $15D66
   BYTE 9
 
+  //Disable sacred weapon flash
+  PUSH
+  ORG $58AC8
+  BYTE $00 $20 $70 $47
+  POP
+
+  //Forced units can be repositioned in prep
+  ORG $33750
+  BYTE 0x00 0x20 0x00 0x00
+  ORG $9543E
+  BYTE 0x00 0x20 0x00 0x00
+
+  //Disable FE8 Skills
+
+  ORG $16C94 //Slayer  
+  BYTE 0x00
+  ORG $16C98
+  BYTE 0x00
+  ORG $2B346 //Great Shield
+  BYTE 0x00
+  ORG $2B34A
+  BYTE 0x00
+  ORG $2B226 //Sure Strike
+  BYTE 0x00
+  ORG $2B22A
+  BYTE 0x00
+  ORG $2B2AA //Pierce
+  BYTE 0x00
+  ORG $2B2AE
+  BYTE 0x00
+
+  //Bypass Ch5x Hardcoded Stuff
+  ORG $24DF2 //show gold in ch5x
+  SHORT 0
+  ORG $3164F //allow Supply on prep screen in ch5x
+  BYTE 0xE0
+  ORG $3327B
+  BYTE 0xE0
+
 POP
