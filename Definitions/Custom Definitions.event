@@ -14,6 +14,7 @@
 #include "Mug Definitions.event"
 #include "Palette Definitions.event"
 #include "Table Definitions.event"
+#include "Tileset Definitions.event"
 
 #ifndef DebuffTable
   #define DebuffTable 0x203f100

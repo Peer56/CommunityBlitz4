@@ -94,4 +94,9 @@ PUSH
   ORG $3327B
   BYTE 0xE0
 
+  //Make Maelduins use the right hatchet animation
+  ORG 0x8AF622
+  BYTE $B7
+
+
 POP

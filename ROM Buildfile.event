@@ -1,36 +1,36 @@
 #ifdef _FE8_
+
     #include "EAstdlib.event"
     #include "Engine Hacks/Skill System/skill_definitions.event"
     #include "Definitions/Custom Definitions.event"
-
     #include "_UserData/Customizations.event"
 
     ORG FreeSpace
+
+    #include "Definitions/REDAs.event"
+
     //Text first for Text ID definitions
     #include "Text/Install Text Data.event"
-    MESSAGE Used text space ends at currentOffset
 
     //Graphics
-    //#include "Graphics/MasterGraphicInstaller.event"
+    #include "Graphics/MasterGraphicInstaller.event"
 
     //Pre-table data
     #include "PreTable/Pretable Installer.event"
 
     //CSV tables
     #include "Tables/Table Installer.event"
-    MESSAGE Used table space ends at currentOffset
-
     #include "Definitions/Table Locations.event"
     #include "Repointers.event"
 
     //Engine Hacks
     #include "Engine Hacks/_MasterHackInstaller.event"
-    MESSAGE Used hax space ends at currentOffset
 
     //World Map Events
     #include "World Map Events/World Map Events Installer.event"
     
     MESSAGE ROM space remaining is (0xBFFFFF - currentOffset)
+    
     ORG EndSpace
     
     //User Data

@@ -37,6 +37,8 @@
 //Tileset
 #define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
 #define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
+#define TilesetAnimation(speed, size, pointer) "BYTE speed 0; SHORT size; POIN pointer"
+#define AnimType2Installer(PaletteData,Interval,DataSize,PaletteNo) "WORD PaletteData|IsPointer; BYTE Interval DataSize PaletteNo 0x0"
 
 //Animation Assembler
 #define AnimTableEntry(index) "ORG ExpandedAnimTable + ((index-0x1) * 0x20)"
@@ -82,3 +84,4 @@
 #define MoveCoords(X1,Y1,X2,Y2) "SVAL 0xB Coords(X1,Y1) ; MOVE 0x0 0xFFFE [X2,Y2]"
 #define MoveCoords(X1,Y1,Speed,X2,Y2) "SVAL $B Coords(X1,Y1) ; MOVE Speed 0xFFFE [X2,Y2]"
 #define Coords(xcoord,ycoord) "(ycoord<<16)|xcoord"
+#define PromotionEvent(Character,Class,Item) "SVAL 0x2 0x35; CALL 0x9EE2E8; FADI 16; EVBIT_MODIFY 0x0; PROM Character Class Item; EVBIT_MODIFY 0x4; FADU 16; EVBIT_T 0x7"

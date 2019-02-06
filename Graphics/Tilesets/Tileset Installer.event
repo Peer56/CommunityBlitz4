@@ -1,0 +1,154 @@
+// Tilesets
+
+ALIGN 4
+SnowTilesetObjects:
+#incext Png2Dmp "Compressed Snow.png" --lz77
+
+ALIGN 4
+SnowTilesetPalette:
+#incext Png2Dmp "Compressed Snow.png" --palette-only
+
+ALIGN 4
+SnowTilesetTileConfig:
+#incext compress "Snow.mapchip_config"
+
+EventPointerTable(SnowObjectSet,SnowTilesetObjects)
+EventPointerTable(SnowPalette,SnowTilesetPalette)
+EventPointerTable(SnowTileConfig,SnowTilesetTileConfig)
+
+ALIGN 4
+SnowCastleTilesetObjects:
+#incext Png2Dmp "Compressed Snow Castle.png" --lz77
+
+ALIGN 4
+SnowCastleTilesetPalette:
+#incext Png2Dmp "Compressed Snow Castle.png" --palette-only
+
+ALIGN 4
+SnowCastleTilesetTileConfig:
+#incext compress "Snow Castle.mapchip_config"
+
+EventPointerTable(SnowCastleObjectSet,SnowCastleTilesetObjects)
+EventPointerTable(SnowCastlePalette,SnowCastleTilesetPalette)
+EventPointerTable(SnowCastleTileConfig,SnowCastleTilesetTileConfig)
+
+ALIGN 4
+FrontierTilesetObjects:
+#incext Png2Dmp "Compressed Frontier.png" --lz77
+
+ALIGN 4
+FrontierTilesetPalette:
+#incext Png2Dmp "Compressed Frontier.png" --palette-only
+
+ALIGN 4
+FrontierTilesetTileConfig:
+#incext compress "Frontier.mapchip_config"
+
+EventPointerTable(FrontierObjectSet,FrontierTilesetObjects)
+EventPointerTable(FrontierPalette,FrontierTilesetPalette)
+EventPointerTable(FrontierTileConfig,FrontierTilesetTileConfig)
+
+ALIGN 4
+FrontierVillageTilesetObjects:
+#incext Png2Dmp "Compressed Frontier Village.png" --lz77
+
+ALIGN 4
+FrontierVillageTilesetPalette:
+#incext Png2Dmp "Compressed Frontier Village.png" --palette-only
+
+ALIGN 4
+FrontierVillageTilesetTileConfig:
+#incext compress "Frontier Village.mapchip_config"
+
+EventPointerTable(FrontierVillageObjectSet,FrontierVillageTilesetObjects)
+EventPointerTable(FrontierVillagePalette,FrontierVillageTilesetPalette)
+EventPointerTable(FrontierVillageTileConfig,FrontierVillageTilesetTileConfig)
+
+// Tile Animations
+
+ALIGN 4
+FE6WaterTilesetAnimation:
+TilesetAnimation(28,0x1000,FE6Water1)
+TilesetAnimation(28,0x1000,FE6Water2)
+TilesetAnimation(28,0x1000,FE6Water3)
+TilesetAnimation(28,0x1000,FE6Water4)
+TilesetAnimation(28,0x1000,FE6Water5)
+TilesetAnimation(28,0x1000,FE6Water6)
+TilesetAnimation(28,0x1000,FE6Water7)
+TilesetAnimation(28,0x1000,FE6Water8)
+TilesetAnimation(28,0x1000,FE6Water9)
+TilesetAnimation(28,0x1000,FE6Water10)
+TilesetAnimation(28,0x1000,FE6Water11)
+TilesetAnimation(28,0x1000,FE6Water12)
+TilesetAnimation(28,0x1000,FE6Water13)
+TilesetAnimation(28,0x1000,FE6Water14)
+TilesetAnimation(28,0x1000,FE6Water15)
+TilesetAnimation(28,0x1000,FE6Water16)
+WORD 0x00 0x00
+
+EventPointerTable(SnowWaterTileAnimations,FE6WaterTilesetAnimation)
+
+ALIGN 4
+FE6Water1:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_000.png"
+ALIGN 4
+FE6Water2:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_001.png"
+ALIGN 4
+FE6Water3:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_002.png"
+ALIGN 4
+FE6Water4:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_003.png"
+ALIGN 4
+FE6Water5:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_004.png"
+ALIGN 4
+FE6Water6:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_005.png"
+ALIGN 4
+FE6Water7:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_006.png"
+ALIGN 4
+FE6Water8:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_007.png"
+ALIGN 4
+FE6Water9:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_008.png"
+ALIGN 4
+FE6Water10:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_009.png"
+ALIGN 4
+FE6Water11:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_010.png"
+ALIGN 4
+FE6Water12:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_011.png"
+ALIGN 4
+FE6Water13:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_012.png"
+ALIGN 4
+FE6Water14:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_013.png"
+ALIGN 4
+FE6Water15:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_014.png"
+ALIGN 4
+FE6Water16:
+#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_015.png"
+
+ALIGN 4
+FE6IceAnimationData:
+#incbin "FE6IceAnimationData.dmp"
+
+ALIGN 4
+FE6IceAnimationTable:
+AnimType2Installer(FE6IceAnimationData,61,4,60)
+AnimType2Installer(FE6IceAnimationData + 8,3,4,60)
+AnimType2Installer(FE6IceAnimationData + 16,4,4,60)
+AnimType2Installer(FE6IceAnimationData + 24,5,4,60)
+AnimType2Installer(FE6IceAnimationData + 32,4,4,60)
+AnimType2Installer(FE6IceAnimationData + 40,3,4,60)
+WORD 0x0 0x0
+
+EventPointerTable(SnowIceTileAnimations,FE6IceAnimationTable)
