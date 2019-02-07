@@ -1,7 +1,7 @@
-# 0x0094
+# 0x94
 HP Bars[.][X]
 
-# 0x00B2
+# 0xB2
 Set health bar display[X]
 
 #0x3A LearnedSkillText

@@ -250,9 +250,9 @@ POIN MovingMapSpriteTable
 //ORG $7AE04
 //POIN (SummonCharacterTable+1)
 
-ORG $A26C
-POIN TextTable
-ORG $A2A0
-POIN TextTable
+//ORG $A26C
+//POIN TextTable
+//ORG $A2A0
+//POIN TextTable
 
 POP

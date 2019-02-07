@@ -9,14 +9,14 @@
 
     #include "Definitions/REDAs.event"
 
-    //Text first for Text ID definitions
+    //Pre-table data
+    #include "PreTable/Pretable Installer.event"
+
+    //Text
     #include "Text/Install Text Data.event"
 
     //Graphics
     #include "Graphics/MasterGraphicInstaller.event"
-
-    //Pre-table data
-    #include "PreTable/Pretable Installer.event"
 
     //CSV tables
     #include "Tables/Table Installer.event"
@@ -32,6 +32,9 @@
     MESSAGE ROM space remaining is (0xBFFFFF - currentOffset)
     
     ORG EndSpace
+
+    #undef TEXT_DEFINITIONS
+    #undef TABLE_DEFINITIONS
     
     //User Data
     #include "_UserData/User Buildfile.event"

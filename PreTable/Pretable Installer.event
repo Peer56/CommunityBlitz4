@@ -2,4 +2,8 @@
 
 #include "ExpandedAnimTable/expandanimtableinstaller.event"
 
+#include "ExpandedTextTable/expandtexttableinstaller.event"
+
+#include "ExpandedPortraitTable/expandportraittableinstaller.event"
+
 #include "Summoning Table.event"

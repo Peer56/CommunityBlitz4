@@ -10,9 +10,9 @@
 //#ifndef ClassAnimTable
     //#define ClassAnimTable (0xc00008-0x20)
 //#endif
-#ifndef TextTable
-	#define TextTable 0x15d48c
-#endif
+//#ifndef TextTable
+	//#define TextTable 0x15d48c
+//#endif
 #ifndef SongTable
 	#define SongTable 0x224470
 #endif
