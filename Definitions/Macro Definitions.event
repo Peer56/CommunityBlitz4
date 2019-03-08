@@ -15,7 +15,7 @@
 #define UnitInstaller(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009,arg010,arg011,arg012,arg013,arg014,arg015,arg016,arg017,arg018,arg019,arg020,arg021,arg022,arg023,arg024,arg025,arg026,arg027,arg028,arg029,arg030,arg031,arg032,arg033,arg034,arg035,arg036,arg037,arg038,arg039,arg040,arg041,arg042,arg043,arg044,arg045) "SHORT arg000 arg001 ;BYTE arg002 arg003 ;SHORT arg004 ;BYTE arg005 arg006 arg007 arg008 arg009 arg010 arg011 arg012 arg013 arg014 arg015 arg016 arg017 arg018 arg019 arg020 arg021 arg022 arg023 arg024 arg025 arg026 arg027 arg028 arg029 arg030 arg031 arg032 arg033 arg034 arg035 arg036 arg037 arg038 arg039 arg040 ;WORD arg041 ;BYTE arg042 arg043 arg044 arg045 "
 #define SupportInstaller(arg000,arg001,arg002,arg003,arg004,arg005,arg006,arg007,arg008,arg009,arg010,arg011,arg012,arg013,arg014,arg015,arg016,arg017,arg018,arg019,arg020,arg021,arg022,arg023) "BYTE arg000 arg001 arg002 arg003 arg004 arg005 arg006 arg007 arg008 arg009 arg010 arg011 arg012 arg013 arg014 arg015 arg016 arg017 arg018 arg019 arg020 arg021 arg022 arg023 "
 #define UnitAnim(UnitID,ClassID,Animation) "BYTE UnitID ClassID 0x0 0x0; WORD Animation|IsPointer"
-#define Negative(number) "0x100 - number"
+#define Negative(number) "0x100 - number" //this is pointless just use (-number) in parenthesis
 
 //Quote Tables
 #define AlwaysDeathQuote(arg000,arg001,arg002) "BYTE arg000 0x0 0xff 0xff arg001 0x0 ;SHORT arg002 ;WORD 0x0 "
@@ -72,8 +72,8 @@
 #define ClearAll "CLEE 0x0; CLEA 0x0; CLEN 0x0"
 #define Textbox(textid) "TUTORIALTEXTBOXSTART; TEXTSHOW textid; TEXTEND"
 #define CentreTextbox(textid) "CenterTutorialTextBox; TUTORIALTEXTBOXSTART; TEXTSHOW textid; TEXTEND"
-#define GiveItem(Item,Character) "SMOV 0x3 Item ; GIVEITEMTO Character"
-#define GiveGold(money) "SVAL 0x3 money; GIVEITEMTOMAIN 0"
+#define GiveItem(Item,Character) "CALL $591F40; SMOV 0x3 Item ; GIVEITEMTO Character"
+#define GiveGold(money) "CALL $591F40; SVAL 0x3 money; GIVEITEMTOMAIN 0"
 #define TileChange(X,Y) "SETVAL 0xB Coords(X,Y) ; TILECHANGE 0xFFFF"
 #define CamOn "EVBIT_T 0x9"
 #define CamOff "EVBIT_F 0x9"

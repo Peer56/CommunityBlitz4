@@ -62,3 +62,16 @@
 
   //Native Instrument Map (NIMAP)
   #include "NIMAP/Installer.event"
+
+  #ifdef NoSkills
+  //Removes all non vanilla skills
+  #include "Skill Killer/Skill Killer.event"
+  #endif
+
+  //Allow CHAI to edit AI 3 and 4 as well
+  //ask snek
+
+  //Define Supply command usability by character
+  //ask snek
+
+  

@@ -90,6 +90,14 @@
 #define FrontierVillagePalette 0xB0
 #define FrontierVillageTileConfig 0xB1
 
+#define CaveObjectSet 0xB2
+#define CavePalette 0xB3
+#define CaveTileConfig 0xB4
+#define CaveWaterTileAnimations 0xB5
+
+#define CastleTownObjectSet 0xB6
+#define CastleTownPalette 0xB7
+#define CastleTownTileConfig 0xB8
 
 
 
