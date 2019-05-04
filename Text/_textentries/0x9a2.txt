@@ -1,2 +1,2 @@
-Fierce Stance: +6 attack[N]
-when foe initiates battle.[X]
+Hawkeye: User will[N]
+always hit the enemy.[X]

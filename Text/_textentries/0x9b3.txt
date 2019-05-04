@@ -1,3 +1,2 @@
-Armor March: At start of turn, if unit[N]
-is adjacent to an armor ally, unit and[N]
-adjacent armor allies gain +2 Mov.[X]
+Fortress Defense:[N]
++5 Def, -3 Atk/Mag[X]

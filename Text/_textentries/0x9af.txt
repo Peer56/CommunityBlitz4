@@ -1,2 +1,1 @@
-Fortress Defense:[N]
-+5 Def, -3 Atk/Mag[X]
+Steal: Unit can steal items.[X]

@@ -1,2 +1,3 @@
-Black Magic: Skill% chance to[N]
-inflict a random status.[X]
+Spectrum Stance: +2 attack,[N]
+speed, defense, and resistance[N]
+when foe initiates battle.[X]

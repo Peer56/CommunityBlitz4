@@ -1,2 +1,2 @@
-Inspiring Tune: Refreshing a unit grants[N]
-them +2 Pow/Def until the next turn.[X]
+Fortress Resistance:[N]
++5 Res, -3 Atk/Mag[X]

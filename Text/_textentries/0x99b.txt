@@ -1,2 +1,3 @@
-Life and Death: Grants[N]
-+5 Atk/Mag/Spd, -5 Def/Res.[X]
+1d12: Gain 1 of 12 random proc[N]
+Skills during battle.[N]
+(Proc % based on original skills).[X]

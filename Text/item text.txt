@@ -4,9 +4,6 @@ Mine[X]
 ## LightRuneName
 Light Rune[X]
 
-## LuceName
-Luce[X]
-
 ## FillasMightName
 Filla's Might[X]
 
@@ -18,9 +15,6 @@ Thor's Ire[X]
 
 ## SetsLitanyName
 Set's Litany[X]
-
-## AircaliburName
-Aircalibur[X]
 
 ## FlierSlayerDescription
 Effective against fliers.[X]

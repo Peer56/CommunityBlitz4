@@ -1,2 +1,3 @@
-Warding Stance: +6 resistance[N]
-when foe initiates battle.[X]
+Ready Stance: +4 speed[N]
+and defense when foe[N]
+initiates battle.[X]

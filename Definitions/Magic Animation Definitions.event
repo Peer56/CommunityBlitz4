@@ -46,8 +46,8 @@
 #define DemonSurgeAnimation 0x45
 #define NagalfarAnimation 0x46
 #define WretchedAirAnimation 0x47
-#define MapOnlyAnimation 0xfe
-#define NoAnimation 0xff
+#define MapOnlyAnimation 0xfffe
+#define NoAnimation 0xffff
 
 //Map Animations
 

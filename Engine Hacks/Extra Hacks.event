@@ -4,9 +4,6 @@
   //Allows for Melee / Magic hybrid units
   #include "Melee and Magic Fix/Installer.txt"
 
-  //Changes weapon ability bits
-  // #include "Reaver and Double WTA Split/Installer.event"
-
   //Custom Spell Animation System
   #include "CSA System FE8/Master Spell Animation Installer.event"
 
@@ -28,9 +25,6 @@
   #include "Less Annoying Fog/Less Annoying Fog Installer.event"
   #endif
 
-  //255 Crit = Cannot crit (broken?)
-  // #include "FE8-Modified Crit Stuff/FE8-Modified Crit Stuff EA.event"
-
   //Show Heal Amount
   #include "FE7 & 8-Show Heal Amount/FE8-Show Heal Amount EA.event"
 
@@ -43,14 +37,11 @@
   //Various Fixes
   #include "New Fixes.event"
 
-  //Custom Unit Animations
-  #include "Individual animation_ea_2/Installer.event"
-
   //Modular EXP
   #include "Modular EXP/Installer.event"
 
   #ifdef PoisonRework
-  //Posion Rework
+  //Poison Rework
   #include "Poison Rework/Installer.event"
   #endif
 
@@ -62,3 +53,25 @@
 
   //Native Instrument Map (NIMAP)
   #include "NIMAP/Installer.event"
+
+  #ifdef NoSkills
+  //Removes all non vanilla skills
+  #include "Skill Killer/Skill Killer.event"
+  #endif
+
+  //Change the R text in the save menu
+  #include "ChapterHelpText/chapterRinfo.event"
+
+  //Class Expansion
+  #include "ExpandedClassTable/Class Expansion.event"
+
+  //Allow CHAI to edit AI 3 and 4 as well
+  //#include "New CHAI/New CHAI.event"
+
+  //Changes weapon ability bits
+  // #include "Reaver and Double WTA Split/Installer.event"
+
+  //255 Crit = Cannot crit (broken?)
+  // #include "FE8-Modified Crit Stuff/FE8-Modified Crit Stuff EA.event"
+
+  

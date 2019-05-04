@@ -1,2 +1,2 @@
-Lumina: Allows the user to use[N]
-Light Magic. (Uses highest Magic Rank)[X]
+Forager: Recover 20% HP each turn[N]
+if on a Plain, Forest or Mountain.[X]

@@ -13,6 +13,7 @@
 #define Recruit2 Recruit_2
 #define Recruit3 Recruit_3
 #define SuperRecruit Recruit_3
+#define Falcoknight FalcoKnight
 
 #define CavalierF Cavalier_F
 #define PaladinF Paladin_F

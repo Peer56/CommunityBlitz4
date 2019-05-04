@@ -1,7 +1,10 @@
-# 0x0094
+# 0x0002 textWeaponRankIncreasedTo
+ Weapon rank increased to [X]
+
+# 0x94
 HP Bars[.][X]
 
-# 0x00B2
+# 0xB2
 Set health bar display[X]
 
 #0x3A LearnedSkillText
@@ -23,6 +26,15 @@ Sirius[X]
 
 ## nameZeke
 Zeke[X]
+
+## Mov_Text_ID
+Mov[X]
+
+## RatingsTID
+Rating[X]
+
+## SS_RatingRText
+Sum of the unit's stats.[X]
 
 #include "skilldesc_text.txt"
 

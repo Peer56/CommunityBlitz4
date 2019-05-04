@@ -1,2 +1,3 @@
-Breath of Life: After attacking,[N]
-allies in 2 tiles heal of 20% max HP.[X]
+Despoil: Obtain a Red Gem after[N]
+attacking and defeating an enemy.[N]
+(Luck % activation)[X]
