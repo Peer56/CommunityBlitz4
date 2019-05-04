@@ -36,3 +36,5 @@ Shop BGM per chapter by 7743
 Skill System by CirclesEverywhere, Monkeybard, BlackMage, Blaze, Tequila, Rossendale, StanH, Leonarth, Teraspark, SD9K, Kao, Blademaster, Snakey1
 Chapter Names as Text by CirclesEverywhere
 Various Fixes by 7743, Hextator, Venno, Brendor, Nintenlord, Gryz, Agro
+Magic Split by Kirb, RobertFPY, Snakey1
+Chapter Help Text by Leonarth
