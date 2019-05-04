@@ -1,2 +1,2 @@
-Full Metal Body: This unit is[N]
-immune to all the Seal skills.[X]
+Axefaith: Axes can't lose durability, and[N]
+grants +Luck*1.5 Hit when wielding axes.[X]

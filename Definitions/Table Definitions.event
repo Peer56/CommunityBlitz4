@@ -29,8 +29,7 @@
 #define EphraimLock 0x8
 #define WeaponLock3 0x10
 #define WeaponLock4 0x20
-#define DoubleWT 0x40
-#define NegateWT 0x80
+#define PassiveBoosts 0x80
 
 //Weapon Ability 4 definitions
 #define CannotDoubleEffect 0xC
@@ -167,7 +166,7 @@
 #define NoRange 0x0
 #define MeleeRange 0x11
 #define BowRange 0x22
-#define 12Range 0x12
+#define OneTwoRange 0x12
 #define LongbowRange 0x23
 #define BallistaRange 0x3A
 #define LongBallistaRange 0x3F
@@ -261,16 +260,18 @@
 #define ClearWeather 0x0
 #define SnowyWeather 0x1
 #define BlizzardWeather 0x2
-#define RainyWeather 0x3
-#define LavaWeather 0x4
-#define SandstormWeather 0x5
-#define CloudyWeather 0x6
+#define RainyWeather 0x4
+#define LavaWeather 0x5
+#define SandstormWeather 0x6
+#define CloudyWeather 0x7
 
 //Objective Display Definitions
 #define ObjectiveSeize 0x0
 #define ObjectiveRout 0x1
 #define ObjectiveDefend 0x2
 #define ObjectiveKillBoss 0x3
+#define ObjectiveDefeatBoss ObjectiveKillBoss
+#define ObjectiveOther 0x4
 
 //Battle Background Definitions
 #define NormalBackground 0x0

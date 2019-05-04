@@ -168,7 +168,7 @@
 #define NoRange 0x0
 #define MeleeRange 0x11
 #define BowRange 0x22
-#define 12Range 0x12
+#define OneTwoRange 0x12
 #define LongbowRange 0x23
 #define BallistaRange 0x3A
 #define LongBallistaRange 0x3F

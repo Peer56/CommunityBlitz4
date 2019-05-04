@@ -1,2 +1,2 @@
-Death Blow: +6 Attack[N]
-when initiating battle.[X]
+Trace: During Battle, copies[N]
+the first Skill of the enemy.[X]

@@ -115,8 +115,19 @@ PUSH
   BYTE 0
 
   //Don't draw portrait on item select menu if unit is generic
-   ORG $22BE8
-   SHORT $6808 $7980 $2800
+  ORG $22BE8
+  SHORT $6808 $7980 $2800
 
+  //Prep Screen Chapter Display
+  ORG $96B1C
+  SHORT 0xE00A // Eliminate "Tower" in prep screens
+  ORG $96B3A
+  SHORT 0xE003 // Eliminate "Ruins" in prep screens
+
+  //Remove Map Sprite Platform
+  PUSH
+  ORG $88354
+  SHORT $4770
+  POP
 
 POP

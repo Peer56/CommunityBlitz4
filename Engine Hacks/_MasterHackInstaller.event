@@ -5,6 +5,11 @@
 /////////////////////////////////////////////////////////
 
 #include "Extensions/Hack Installation.txt"
+#include "PopupRework/Extensions/PopupDefinitions.txt"
+
+// hack configuration file
+#include "Config.event"
+
 #include "_UnitMenuDefs.event"
 
 ////////////////////////////////SUPPORTING CHANGES
@@ -37,6 +42,15 @@ ORG FreeSpaceBLRange //defined in custom definitions
   //clears the gamble/lunge/mercy when cancelling out of attack menu
   Unset_Attack_Flag:
   #incbin "Skill System/Internals/unset attack flag.dmp"
+
+  //get item mag bonus
+  GetItemMagBonus:
+  #incbin "StatGetters/_asm/GetItemMagBonus.dmp"
+  POIN ItemTable
+
+  ALIGN 4
+  // Magic Split
+  #include "Strmag/_Master Asm Installer.event"
 
 #undef inBLRange
 POP
@@ -71,8 +85,11 @@ POP
   //Modular Stat Screen
   #include "MSS/ModularStatScreen.event"
 
-  //Expanded Suspend + Debuffs
-  #include "SuspendDebuffs/SuspendDebuffs.event"
+  // Save/Suspend Expansion
+  #include "ExpandedModularSave/ExModularSave.event"
+
+  // Debuffs
+  #include "SuspendDebuffs/Debuffs.event"
 
   //Stat Screens palette by allegiance
   // #include "StatScreenAllegiance/StatScreenAllegiance.event"
@@ -80,19 +97,17 @@ POP
   //menu semitransparency
   #include "Misc/SemitransparencyChanges.event"
 
-  //Allow usage of the Supply in the Prologue
   #include "Misc/PrologueSupply.event"
-
-  //Range Display fix
+  
+  //Item Range Fix
   #include "FE8-Item Range Fix/FE8-Item Range EA.event"
-
+  
   //Chapter names as text
   #include "TextChNames/TextChNames.event"
 
   //PC and Generic Music Hack (writes to e80000/e90000)
   // #include "Misc/PCAndGenericMusic.event"
 
-  //ASMCs
   #include "EventRescue/EventRescue.event"
   #include "EventAddTraps/EventAddTraps.event"
   #include "EventSendToConvoy/EventSendToConvoy.event"
@@ -102,25 +117,25 @@ POP
   #include "Freeze/EventFreeze.event"
 
   ALIGN 4
-  //Skill Systems
   #include "Skill System/Master Skill Installer.event"
 
+  #include "DisplayWRankOnLevelUp/DisplayWRankOnLevelUp.event"
+
   ALIGN 4
-  //Show Battle Stats while animations are off
   #include "FE8-Battle Stats with Anims Off/FE8-Battle Stats Master EA File.event"
 
   ALIGN 4
-  //Modular Stat Getters
   #include "MSG/InstallCore.event"
-  #include "MSG/InstallHelpers.event"  
+  #include "MSG/InstallHelpers.event"
+  
   ALIGN 4
   #include "StatGetters/_InstallStatGetters.event"
   
   ALIGN 4
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
-  // #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
+  #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
 
-  //Unit command menu
   #include "UnitMenu.event"
+  #include "Popups.event"
 
   #include "Extra Hacks.event"

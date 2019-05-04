@@ -57,7 +57,6 @@
 #define MountainousTileConfig 0x6E
 #define MountainousWaterTileAnimations FieldsWaterTileAnimations
 
-//Valni sets broken due to skill system?
 #define ValniObjectSet 0x88
 #define ValniPalette 0x89
 #define ValniTileConfig 0x8A

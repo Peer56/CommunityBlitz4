@@ -1,3 +1,5 @@
+#undef ClassTable
+
 #include "Stat Boost Editor.event"
 
 #include "ExpandedAnimTable/expandanimtableinstaller.event"
@@ -5,5 +7,7 @@
 #include "ExpandedTextTable/expandtexttableinstaller.event"
 
 #include "ExpandedPortraitTable/expandportraittableinstaller.event"
+
+#include "ExpandedItemIconTable/expandicontable.event"
 
 #include "Summoning Table.event"

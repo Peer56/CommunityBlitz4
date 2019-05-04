@@ -1,1 +1,2 @@
-Light Rune[X]
+Barricade: Damage taken is[NL]
+halved after first being struck.[X]

@@ -1,1 +1,2 @@
-Filla's Might[X]
+Point Blank: Minimum range of[N]
+equipped bows is set to 1.[X]

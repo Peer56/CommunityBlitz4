@@ -1,0 +1,17 @@
+#define ItemTable 0x809B10
+
+// Silences FEBuilder Errors
+SetItemRange(0xBE,0x11)
+SetItemRange(0xBF,0x11)
+SetItemRange(0xC9,0x11)
+SetItemRange(0xCA,0x11)
+SetItemRange(0xCB,0x11)
+SetItemRange(0xCD,0x11)
+
+// Dummy Items
+SetItemText(Mine,MineName,MineDescription)
+SetItemText(LightRune,LightRuneName,LightRuneDescription)
+SetItemText(FillasMight,FillasMightName,FillasMightDescription)
+SetItemText(NinissGrace,NinissGraceName,NinissGraceDescription)
+SetItemText(ThorsIre,ThorsIreName,ThorsIreDescription)
+SetItemText(SetsLitany,SetsLitanyName,SetsLitanyDescription)

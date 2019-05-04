@@ -1,2 +1,2 @@
-Triangle Adept: Doubles[N]
-weapon triangle effects.[X]
+Swap: Allows unit to swap positions[N]
+with an adjacent ally.[X]

@@ -19,4 +19,5 @@
 
 #ifndef DebuffTable
   #define DebuffTable 0x203f100
+  #define DebuffTableSize 0x00000900
 #endif
