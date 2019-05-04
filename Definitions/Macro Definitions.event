@@ -70,6 +70,7 @@
 
 //Event Definitions
 #define LoadUnit(x,y) "UNIT Seth Cavalier 0x00 Level(1,Ally,1) [x,y] 0x00 0x00 0x00 0x00 [0x00] NoAI" //for units in player placement with prep menu
+#define Unit(x,y) "LoadUnit(x,y)"
 #define Kill(unitid) "SET_SOMETHING unitid;DISA_IF unitid"
 #define ClearAll "CLEE 0x0; CLEA 0x0; CLEN 0x0"
 #define Textbox(textid) "TUTORIALTEXTBOXSTART; TEXTSHOW textid; TEXTEND"
