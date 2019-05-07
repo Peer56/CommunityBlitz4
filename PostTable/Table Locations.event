@@ -34,9 +34,9 @@
 //#ifndef SpellAssociationTable
 	//#define SpellAssociationTable 0x8afbd8
 //#endif
-#ifndef PromotionBranchTable
-	#define PromotionBranchTable 0x95DFA6
-#endif
+//#ifndef PromotionBranchTable
+	//#define PromotionBranchTable 0x95DFA6
+//#endif
 #ifndef ChapterDataTable
 	#define ChapterDataTable 0x8b0890
 #endif

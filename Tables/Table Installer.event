@@ -2,11 +2,21 @@
 
 #include "Table Definitions.txt"
 
+#include "FE8 Nightmare modules\Chapter data editor\World Map Cutscene table editor.event"
+
+#include "FE8 Nightmare modules\Chapter data editor\World Map Event table editor.event"
+
+#include "FE8 Nightmare modules\Class & Character editors\FE8 Character Editor.event"
+
 #include "FE8 Nightmare modules\Class & Character editors\FE8 Class Editor.event"
+
+#include "FE8 Nightmare modules\Class & Character editors\Promotion Branch Editor.event"
 
 #include "FE8 Nightmare modules\Class & Character editors\Walking Sounds Editor.event"
 
 #include "FE8 Nightmare modules\Item editors\FE8 Item AI Table.event"
+
+#include "FE8 Nightmare modules\Item editors\FE8 Item Editor.event"
 
 #include "FE8 Nightmare modules\Item editors\FE8 Item Effect Pointer Editor.event"
 
@@ -17,6 +27,8 @@
 #include "FE8 Nightmare modules\Item editors\FE8 Spell Association Editor.event"
 
 #include "FE8 Nightmare modules\Item editors\FE8 Staff AI Table.event"
+
+#include "FE8 Nightmare modules\Item editors\Stat Bonuses Editor.event"
 
 #include "FE8 Nightmare modules\Magic\Mag Char Editor.event"
 
@@ -35,6 +47,8 @@
 #include "FE8 Nightmare modules\Skills\FE8 Class Level Up Skill Editor.event"
 
 #include "FE8 Nightmare modules\Skills\FE8 Class Skill Editor.event"
+
+#include "FE8 Nightmare modules\Skills\FE8 Level Up Skill Editor.event"
 
 #include "FE8 Nightmare modules\Skills\FE8 Personal Skill Editor.event"
 
