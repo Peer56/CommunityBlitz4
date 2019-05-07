@@ -65,6 +65,9 @@
   //Class Expansion
   #include "ExpandedClassTable/Class Expansion.event"
 
+  //MNC2 Fix
+  #include "MNC2 Fix/MNC2FixTest.event"
+
   //Allow CHAI to edit AI 3 and 4 as well
   //#include "New CHAI/New CHAI.event"
 
