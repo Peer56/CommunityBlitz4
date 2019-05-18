@@ -23,5 +23,7 @@ NewItemIcons:
 PUSH
 ORG $36B4
 POIN NewItemIcons
+ORG $3788
+POIN NewItemIcons
 // 3788
 POP

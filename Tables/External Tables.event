@@ -2,7 +2,7 @@
 
 WeaponDebuffTable:
 defWeaponDebuffs(0,0,0,0,0,0) //0x0
-defWeaponDebuffs(0,1,1,0,2,2) //0x1
+defWeaponDebuffs(0,0,0,0,0,0) //0x1
 defWeaponDebuffs(0,0,0,0,0,0) //0x2
 defWeaponDebuffs(0,0,0,0,0,0) //0x3
 defWeaponDebuffs(0,0,0,0,0,0) //0x4

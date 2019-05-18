@@ -24,7 +24,9 @@
 #define ChapterDeathQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 0xff arg001 arg002 0x0 ;SHORT arg003 ;WORD 0x0 "
 #define EndDeathQuote "BYTE 0xff 0xff 0x0 0x0 0x0 0x0 ;SHORT 0x0 ;WORD 0x0 "
 #define BattleQuote(arg000,arg001,arg002,arg003) "BYTE arg000 0x0 arg001 0x0 arg002 0x0 0x1 0x0 ;SHORT arg003 ;BYTE 0x0 0x0 0x0 0x0 0x0 0x0 "
+#define BattleQuoteFlag(flag,arg000,arg001,arg002,arg003) "BYTE arg000 0x0 arg001 0x0 arg002 0x0 flag 0x0 ;SHORT arg003 ;BYTE 0x0 0x0 0x0 0x0 0x0 0x0 "
 #define TwoWayBattleQuote(arg000,arg001,arg002,arg003) "BattleQuote(arg000,arg001,arg002,arg003);BattleQuote(arg001,arg000,arg002,arg003)"
+#define TwoWayBattleQuoteFlag(flag,arg000,arg001,arg002,arg003) "BattleQuoteFlag(flag,arg000,arg001,arg002,arg003);BattleQuoteFlag(flag,arg001,arg000,arg002,arg003)"
 #define EndQuote "BYTE 0xff 0xff"
 
 //Support Table
@@ -67,6 +69,12 @@
 //Force Deployer
 #define ForceDeployEntry(unit,chapterID) "SHORT unit; BYTE 0xFF chapterID"
 #define EndForceDeploy "SHORT 0xFFFF 0x00"
+
+//JumpToHack
+#define jumpToHack_r0(offset) "SHORT 0x4800 0x4700 ; POIN (offset|1)"
+#define jumpToHack_r1(offset) "SHORT 0x4900 0x4708 ; POIN (offset|1)"
+#define jumpToHack_r2(offset) "SHORT 0x4A00 0x4710 ; POIN (offset|1)"
+#define jumpToHack_r3(offset) "SHORT 0x4B00 0x4718 ; POIN (offset|1)"
 
 //Event Definitions
 #define LoadUnit(x,y) "UNIT Seth Cavalier 0x00 Level(1,Ally,1) [x,y] 0x00 0x00 0x00 0x00 [0x00] NoAI" //for units in player placement with prep menu
