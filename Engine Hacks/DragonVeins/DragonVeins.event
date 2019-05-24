@@ -13,7 +13,7 @@
   #ifndef VeinDefinitions
     #define VeinDefinitions
 
-    #define Vein_Map_Sprite_Number 0x67 //Use the one after Light Rune for now
+    #define Vein_Map_Sprite_Number 0x77 //Use the one after Light Rune for now
     #define DragonVeinSFXID 0x57
     #define DragonVeinTrapID 0x6
     #define DragonVeinEffectTableOffset 0xF00000
@@ -52,7 +52,7 @@
     ORG 0x27338
       #incbin "asm/DrawingDragonVein_3.dmp"
 
-    ORG (0x8AF880+0x8*Vein_Map_Sprite_Number)
+    ORG StandingMapSpriteTable + (0x8*Vein_Map_Sprite_Number)
       SHORT 0x0002
       SHORT 0x0000
       POIN VeinGraphics
