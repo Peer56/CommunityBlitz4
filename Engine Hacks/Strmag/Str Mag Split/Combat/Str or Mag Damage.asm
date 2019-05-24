@@ -2,6 +2,8 @@
 .org 0x0
 
 @r4=attacker or defender data in battle struct
+mov 	r0,#0x5A
+strh	r5,[r4,r0]
 mov 	r0,#0x4C
 mov		r7,#0x14
 ldr		r0,[r4,r0]

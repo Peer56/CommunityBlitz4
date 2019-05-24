@@ -64,7 +64,7 @@
 #define EndAnim "WORD 0x0"
 
 //Chapter Data Setter
-#define ChapterDataSetter(ChapterID,FogSightRange,xcoord,ycoord,ChapterWeather,HardBonusLevels,NormalPenaltyLevels,EasyPenaltyLevels,PlayerMusic,EnemyMusic,NPCMusic,PlayerBattleMusic,EnemyBattleMusic,NPCBattleMusic,WallHP,EnemiesForVictoryMusic,ChapterFadeToBlack,TurnLimit,DefendUnit,ObjectiveDisplay,ChapterBattleBackground) "PUSH;ORG ChapterDataTable+(ChapterID*0x94) + 12;BYTE FogSightRange; ORG ChapterDataTable+(ChapterID*0x94) + 0x10; BYTE xcoord ycoord; ORG ChapterDataTable+(ChapterID*0x94) + 18;BYTE ChapterWeather;BYTE ChapterBattleBackground;ORG ChapterDataTable+(ChapterID*0x94) + 20;BYTE (HardBonusLevels<<4)|EasyPenaltyLevels;BYTE NormalPenaltyLevels;SHORT PlayerMusic;SHORT EnemyMusic;SHORT NPCMusic;SHORT PlayerBattleMusic;SHORT EnemyBattleMusic;SHORT NPCBattleMusic;ORG ChapterDataTable+(ChapterID*0x94) + 44;BYTE WallHP;ORG ChapterDataTable+(ChapterID*0x94) + 134;BYTE EnemiesForVictoryMusic;BYTE ChapterFadeToBlack;ORG ChapterDataTable+(ChapterID*0x94) + 140;BYTE ObjectiveDisplay;BYTE TurnLimit;BYTE DefendUnit;POP"
+#define ChapterDataSetter(ChapterID,ChapterName,FogSightRange,xcoord,ycoord,ChapterWeather,HardBonusLevels,NormalPenaltyLevels,EasyPenaltyLevels,PlayerMusic,EnemyMusic,NPCMusic,PlayerBattleMusic,EnemyBattleMusic,NPCBattleMusic,WallHP,EnemiesForVictoryMusic,ChapterFadeToBlack,ObjectiveText,DetailObjectiveText,TurnLimit,DefendUnit,ObjectiveDisplay,ChapterBattleBackground) "PUSH;ORG ChapterDataTable+(ChapterID*0x94) + 0x70; SHORT ChapterName ;ORG ChapterDataTable+(ChapterID*0x94) + 12;BYTE FogSightRange; ORG ChapterDataTable+(ChapterID*0x94) + 0x10; BYTE xcoord ycoord; ORG ChapterDataTable+(ChapterID*0x94) + 18;BYTE ChapterWeather;BYTE ChapterBattleBackground;ORG ChapterDataTable+(ChapterID*0x94) + 20;BYTE (HardBonusLevels<<4)|EasyPenaltyLevels;BYTE NormalPenaltyLevels;SHORT PlayerMusic;SHORT EnemyMusic;SHORT NPCMusic;SHORT PlayerBattleMusic;SHORT EnemyBattleMusic;SHORT NPCBattleMusic;ORG ChapterDataTable+(ChapterID*0x94) + 44;BYTE WallHP;ORG ChapterDataTable+(ChapterID*0x94) + 134;BYTE EnemiesForVictoryMusic;BYTE ChapterFadeToBlack; SHORT ObjectiveText DetailObjectiveText;ORG ChapterDataTable+(ChapterID*0x94) + 140;BYTE ObjectiveDisplay;BYTE TurnLimit;BYTE DefendUnit;POP"
 
 //Force Deployer
 #define ForceDeployEntry(unit,chapterID) "SHORT unit; BYTE 0xFF chapterID"
@@ -96,7 +96,9 @@
 #define Coords(xcoord,ycoord) "(ycoord<<16)|xcoord"
 #define PromotionEvent(Character,Class,Item) "SVAL 0x2 0x35; CALL 0x9EE2E8; FADI 16; EVBIT_MODIFY 0x0; PROM Character Class Item; EVBIT_MODIFY 0x4; FADU 16; EVBIT_T 0x7"
 #define SetAI(unitid,ai1,ai2,ai3,ai4) "SVAL 0x1 ai1|(ai2<<8)|(ai3<<16)|(ai4<<24); CHAI unitid"
-#define SetAI(x,y,ai1,ai2,ai3,ai4) "SVAL 0x1 ai1|(ai2<<8)|(ai3<<16)|(ai4<<24); CHAI Coords(x,y)"
+#define SetAI(x,y,ai1,ai2,ai3,ai4) "SVAL 0x1 ai1|(ai2<<8)|(ai3<<16)|(ai4<<24); CHAI [x,y]"
+#define SetAI(unitid,ai1,ai2)"SVAL 0x1 ai1|(ai2<<8); CHAI unitid"
+#define SetAI(x,y,ai1,ai2) "SVAL 0x1 ai1|(ai2<<8); CHAI [x,y]"
 #define Increment(counterID) "COUNTER_ADD counterID 0x0"
 #define Decrement(counterID) "COUNTER_SUBTRACT counterID 0x0"
 #define SpawnReinforcements(UnitGroup) "CamOn; LOAD1 0x1 UnitGroup; ENUN; CamOff; STAL 30"

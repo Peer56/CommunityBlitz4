@@ -18,7 +18,7 @@
 #define MonsterWeapon 0x4
 #define WeaponLock1 0x8
 #define SwordmasterLock 0x10
-#define WeaponLock2 0x20
+#define HideInfo 0x20
 #define NegateFlyingEffectiveness 0x40
 #define NegateCriticals 0x80
 
@@ -65,6 +65,7 @@
 #define IsBoss 0x80
 
 //Character/Class Ability 3 definitions:
+#define WeaponUnlock1 0x1
 #define SwordmasterUnlock 0x2
 #define UseMonsterWeapons 0x4
 #define TraineeLevelCap 0x8
@@ -285,7 +286,7 @@
 #define ShipBackground 0x8
 #define DesertBackground 0x9
 #define FortBackground2 0xa
-#define VanliBackground 0xb
+#define ValniBackground 0xb
 #define JehannaBackground 0xc
 #define DarklingBackground 0xd
 #define RenaisBackground 0xe
