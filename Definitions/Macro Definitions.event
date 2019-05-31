@@ -106,6 +106,6 @@
 #define InfiniteTurnEventPlayer(flag,event,turn) "TurnEventPlayer(flag,event,turn,MaxTurns(turn))"
 #define InfiniteTurnEventEnemy(flag,event,turn) "TurnEventEnemy(flag,event,turn,MaxTurns(turn))"
 #define InfiniteTurnEventNPC(flag,event,turn) "TurnEventNPC(flag,event,turn,MaxTurns(turn))"
-#define BUN(label) "BEQ Label 0 0"
 #define LearnSkill(Unit,Skill) "SVAL 0x1 Skill; SVAL 0x2 Unit; ASMC (ASMC_HasSkill|1); BNE 0xED6B 0xC 0x0; ASMC (ASMC_LearnNewSkill|1); LABEL 0xED6B"
 #define ForgetSkill(Unit,Skill) "SVAL 0x1 Skill; SVAL 0x2 Unit; ASMC (ASMC_HasSkill|1); BEQ 0xED6C 0xC 0x0; ASMC (ASMC_ForgetSkill|1); LABEL 0xED6C"
+#define MuteMusic "MUSCFAST 0x7FFF"
