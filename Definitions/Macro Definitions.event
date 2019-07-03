@@ -99,6 +99,7 @@
 #define SetAI(x,y,ai1,ai2,ai3,ai4) "SVAL 0x1 ai1|(ai2<<8)|(ai3<<16)|(ai4<<24); CHAI [x,y]"
 #define SetAI(unitid,ai1,ai2)"SVAL 0x1 ai1|(ai2<<8); CHAI unitid"
 #define SetAI(x,y,ai1,ai2) "SVAL 0x1 ai1|(ai2<<8); CHAI [x,y]"
+#define SetActiveAI(ai1,ai2) "SVAL 0x1 ai1|(ai2<<8); CHECK_ACTIVE; SADD 0x0C2; CHAI 0xFFFF" //needs snakey's fix, experimental
 #define Increment(counterID) "COUNTER_ADD counterID 0x0"
 #define Decrement(counterID) "COUNTER_SUBTRACT counterID 0x0"
 #define SpawnReinforcements(UnitGroup) "CamOn; LOAD1 0x1 UnitGroup; ENUN; CamOff; STAL 30"
@@ -109,3 +110,4 @@
 #define LearnSkill(Unit,Skill) "SVAL 0x1 Skill; SVAL 0x2 Unit; ASMC (ASMC_HasSkill|1); BNE 0xED6B 0xC 0x0; ASMC (ASMC_LearnNewSkill|1); LABEL 0xED6B"
 #define ForgetSkill(Unit,Skill) "SVAL 0x1 Skill; SVAL 0x2 Unit; ASMC (ASMC_HasSkill|1); BEQ 0xED6C 0xC 0x0; ASMC (ASMC_ForgetSkill|1); LABEL 0xED6C"
 #define MuteMusic "MUSCFAST 0x7FFF"
+#define SetHP(number,x,y) "SVAL 0x1 number; SVAL 0xB Coords(x,y); SET_HP 0xFFFE"

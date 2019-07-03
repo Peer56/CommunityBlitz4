@@ -1,2 +1,2 @@
-Axefaith: Axes can't lose durability, and[N]
-grants +Luck*1.5 Hit when wielding axes.[X]
+Capture: Capture an enemy after[N]
+defeating it with reduced stats.[X]

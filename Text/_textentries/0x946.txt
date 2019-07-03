@@ -1,2 +1,2 @@
-Spur Speed: Adjacent allies[N]
-gain +4 Attack Speed.[X]
+Charm: Allies within 2[N]
+tiles deal +2 damage.[X]

@@ -1,2 +1,2 @@
-Inspiration: Allies within 2 tiles[N]
-deal +2 damage and receive -2 damage.[X]
+Renewal: Restore 30% of max HP[N]
+at the start of each turn.[X]

@@ -1,2 +1,2 @@
-Mage Slayer: Gain +2 damage and +10%[N]
-crit when facing magical enemies.[X]
+Outrider: Take -1 damage and[N]
+gain +3% crit per space moved.[X]

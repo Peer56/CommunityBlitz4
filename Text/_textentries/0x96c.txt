@@ -1,2 +1,2 @@
-Fiery Blood: +4 damage[N]
-when HP is not at max.[X]
+Bond: All allies within 3 tiles[N]
+recover 10% HP each turn.[X]

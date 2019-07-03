@@ -346,6 +346,12 @@ After each set of module options are definitions that you can use to adjust the 
 	#define MMBRTGLabelPaletteIndex 2
 	#define MMBRTGLabelTileCount 2
 
+	#define MMBDVTextCentered
+
+	#define MMBDVTextWidth 11
+	#define MMBDVTextColor TextBlack
+	#define MMBDVTextXCoordinate 5
+	#define MMBDVTextYCoordinate 3
 
 ALIGN 4
 

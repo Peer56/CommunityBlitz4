@@ -1,2 +1,2 @@
-Puissance: +3 Damage when the user's[N]
-Strength is higher than the enemy's.[X]
+Hex: -15 avoid to all[NL]
+adjacent enemies.[X]

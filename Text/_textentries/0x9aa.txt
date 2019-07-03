@@ -1,2 +1,2 @@
-Steady Stance: +6 defense[N]
+Darting Stance: +6 speed[N]
 when foe initiates battle.[X]

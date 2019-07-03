@@ -1,2 +1,2 @@
-Shove: Allows unit to push[N]
-other units one tile away.[X]
+Critical Force: Base critical is[N]
+Skl * 1.5.[X]

@@ -1,2 +1,2 @@
-Provoke: Enemies are more[N]
-likely to target this unit.[X]
+Acrobat: All traversable[N]
+terrain costs 1 movement.[X]

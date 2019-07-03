@@ -1,2 +1,2 @@
-Live to Serve: When healing[N]
-an ally, also heals self.[X]
+Rally Resistance: +4 Res[N]
+to allies within 2 tiles.[X]

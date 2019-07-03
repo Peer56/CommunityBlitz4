@@ -1,2 +1,2 @@
-Slayer: Deal effective damage[N]
-to monster units.[X]
+Lancefaire: +4 damage[N]
+when equipping a lance.[X]

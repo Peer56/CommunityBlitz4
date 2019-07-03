@@ -1,2 +1,2 @@
-Even Rhythm: +10 Hit and Avoid[N]
-on even numbered turns.[X]
+Rightful Arch: Sets Skill[N]
+activation rate to 100%.[X]

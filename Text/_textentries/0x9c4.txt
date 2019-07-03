@@ -1,2 +1,3 @@
-Barricade: Damage taken is[NL]
-halved after first being struck.[X]
+Devil's Pact: Immune to Devil Reversal.[N]
+Curses the enemy with Devil Reversal.[N]
+(31-Luck % chance of Devil Reversal).[X]

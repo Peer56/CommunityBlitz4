@@ -1,2 +1,3 @@
-Opportunist: +4 damage[N]
-if the foe cannot counter.[X]
+Ignis: Add Def/2 and Res/2[N]
+to damage dealt.[N]
+(Skill % activation)[X]

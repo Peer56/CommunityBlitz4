@@ -1,2 +1,2 @@
-Armored Blow: +10 Def[N]
+Duelist's Blow: +30 Avo[N]
 when initiating battle.[X]

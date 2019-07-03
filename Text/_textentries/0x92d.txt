@@ -1,2 +1,2 @@
-Counter: Reflect physical damage[N]
-when attacked at 1-2 range.[X]
+Certain Blow: +40 Hit[N]
+when initiating battle.[X]

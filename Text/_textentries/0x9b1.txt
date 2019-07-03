@@ -1,2 +1,3 @@
-Capture: Capture an enemy after[N]
-defeating it with reduced stats.[X]
+Swift Stance: +4 speed[N]
+and resistance when[N]
+foe initiates battle.[X]

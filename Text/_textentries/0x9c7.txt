@@ -1,2 +1,3 @@
-Perfectionist: +15 Hit/Avoid when[N]
-user's HP is at maximum.[X]
+Grisly Wound: Deals damage equal[NL]
+to 20% of the enemy's max[NL]
+HP after every battle.[X]

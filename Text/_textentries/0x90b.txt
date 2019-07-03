@@ -1,2 +1,2 @@
-Acrobat: All traversable[N]
-terrain costs 1 movement.[X]
+The staircase is blocked[NL]
+from the other side.[X]

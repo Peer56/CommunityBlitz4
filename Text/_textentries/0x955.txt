@@ -1,2 +1,2 @@
-Rally Movement: +1 Move[N]
+Rally Skill: +4 Skill[N]
 to allies within 2 tiles.[X]

@@ -1,2 +1,3 @@
-Point Blank: Minimum range of[N]
-equipped bows is set to 1.[X]
+Poison Strike: Deals damage equal to[NL]
+20% of the enemy's max HP after[NL]
+battle this unit initiates.[X]

@@ -1,2 +1,2 @@
-Life and Death: +10 to[N]
-damage dealt and taken.[X]
+Rally Spectrum: +2 all stats[N]
+to allies within 2 tiles.[X]

@@ -1,2 +1,3 @@
-Full Metal Body: This unit is[N]
-immune to all the Seal skills.[X]
+Foresight: Avoid the damage[N]
+from enemy Critical Hits and[N]
+Skill Activations.[X]

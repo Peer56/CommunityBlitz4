@@ -1,2 +1,2 @@
-Dazzle: Opponents cannot[N]
-counterattack this unit.[X]
+Pivot: Allows unit to move to the[N]
+opposite side of an adjacent ally.[X]

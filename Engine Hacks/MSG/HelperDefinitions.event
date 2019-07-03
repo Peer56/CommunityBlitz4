@@ -1,7 +1,7 @@
 #ifndef MSG_HELPER_DEFINITIONS_EVENT
 #define MSG_HELPER_DEFINITIONS_EVENT
 
-#include "eastdlib.event"
+#include "EAstdlib.event"
 #include "Extensions/Hack Installation.txt"
 
 #ifndef _FE8_
@@ -17,13 +17,11 @@
 
 #define prGetItemHPBonus     0x080163F0
 #define prGetItemPowBonus    0x08016420
-#define prGetItemMagBonus    GetItemMagBonus
 #define prGetItemSklBonus    0x08016450
 #define prGetItemSpdBonus    0x08016480
 #define prGetItemDefBonus    0x080164B0
 #define prGetItemResBonus    0x080164E0
 #define prGetItemLckBonus    0x08016510
-
 
 #define prGetUnitEquipped  0x08016B28
 
@@ -107,7 +105,6 @@
 #define UNIT_MAXHP      0x12 // SByte
 #define UNIT_CURHP      0x13 // SByte
 #define UNIT_POWER      0x14 // SByte
-#define UNIT_MAGIC      0x3A // SByte
 #define UNIT_SKILL      0x15 // SByte
 #define UNIT_SPEED      0x16 // SByte
 #define UNIT_DEFENSE    0x17 // SByte
@@ -127,14 +124,13 @@
 // Stat Indexes in standard stat arrays
 #define STAT_HP         0x00
 #define STAT_POWER      0x01
-#define STAT_MAGIC      0x02
-#define STAT_SKILL      0x03
-#define STAT_SPEED      0x04
-#define STAT_DEFENSE    0x05
-#define STAT_RESISTANCE 0x06
-#define STAT_LUCK       0x07
-#define STAT_CON        0x08
-#define STAT_MOV        0x09
+#define STAT_SKILL      0x02
+#define STAT_SPEED      0x03
+#define STAT_DEFENSE    0x04
+#define STAT_RESISTANCE 0x05
+#define STAT_LUCK       0x06
+#define STAT_CON        0x07
+#define STAT_MOV        0x08
 
 // Class/Char Attribute Flags (comes straight from BOOTS)
 #define CA_NONE                  0x00000000

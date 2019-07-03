@@ -1,2 +1,2 @@
-A device that blocks units[N]
-from entering spaces.[X]
+Powerstaff: Get another action[N]
+after using a staff.[X]

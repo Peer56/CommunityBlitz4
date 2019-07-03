@@ -1,3 +1,2 @@
-Infiltrator: If within 2 spaces[N]
-of two or more enemies, gain +3[N]
-damage and +15% hit.[X]
+Loyalty: When within 2 spaces of[N]
+a Lord, -3 damage taken, +15% hit.[X]

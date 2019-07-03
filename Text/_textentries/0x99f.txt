@@ -1,2 +1,2 @@
-Life and Death: Grants[N]
-+5 Atk/Mag/Spd, -5 Def/Res.[X]
+Trace: During Battle, copies[N]
+the first Skill of the enemy.[X]

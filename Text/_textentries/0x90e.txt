@@ -1,2 +1,2 @@
-Wary Fighter: Unit cannot[N]
-double or be doubled.[X]
+Savior: Can rescue[N]
+without penalties.[X]

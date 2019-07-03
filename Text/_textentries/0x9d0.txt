@@ -1,2 +1,2 @@
-Charge: Gain +1 damage for[N]
-every two squares moved.[X]
+Silent Pride: Gain 2 damage and take[N]
+-2 damage per 25% below max HP.[X]

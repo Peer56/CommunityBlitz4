@@ -1,3 +1,2 @@
-Devil's Pact: Immune to Devil Reversal.[N]
-Curses the enemy with Devil Reversal.[N]
-(31-Luck % chance of Devil Reversal).[X]
+Full Metal Body: This unit is[N]
+immune to all the Seal skills.[X]

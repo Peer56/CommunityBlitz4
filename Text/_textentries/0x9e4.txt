@@ -1,1 +1,1 @@
-Inverts and doubles the weapon triangle.[X]
+Set's Litany[X]

@@ -141,8 +141,12 @@ PUSH
   SHORT 0x2000
 
   //Disable old character specific battle BGM
-  ORG $758A68
+  ORG $758A60
   WORD 0xFFFFFFFF 0xFFFFFFFF
+
+  //No Link Arena
+  ORG $AB90E
+  BYTE 0x0 0x0 0x0 0x20
 
 
 POP

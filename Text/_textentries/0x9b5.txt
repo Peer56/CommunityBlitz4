@@ -1,3 +1,2 @@
-Foresight: Avoid the damage[N]
-from enemy Critical Hits and[N]
-Skill Activations.[X]
+Steal+: Unit can steal unequipped[N]
+weapons and staffs if con>weight.[X]

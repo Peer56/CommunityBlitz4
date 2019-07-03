@@ -1,2 +1,2 @@
-Pivot: Allows unit to move to the[N]
-opposite side of an adjacent ally.[X]
+Odd Rhythm: +10 Hit and Avoid[N]
+on odd numbered turns.[X]

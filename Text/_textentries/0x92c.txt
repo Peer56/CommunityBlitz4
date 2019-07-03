@@ -1,2 +1,2 @@
-Wrath: If HP < 50%,[N]
-+20 critical rate.[X]
+Warding Blow: +20 Res[N]
+when initiating battle.[X]

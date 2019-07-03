@@ -37,9 +37,6 @@
   //Various Fixes
   #include "New Fixes.event"
 
-  //Modular EXP
-  #include "Modular EXP/Installer.event"
-
   #ifdef PoisonRework
   //Poison Rework
   #include "Poison Rework/Installer.event"
@@ -70,6 +67,9 @@
 
   //If Battle BGM = Map BGM, play without resetting
   #include "ContinueBattleBGM/Installer.event"
+
+  //Fix Move with Leader AI
+  #include "LeadAI/LeadAiFix.event"
 
   //Allow CHAI to edit AI 3 and 4 as well
   //#include "New CHAI/New CHAI.event"

@@ -1,2 +1,2 @@
-Lumina: Allows the user to use[N]
-Light Magic. (Uses highest Magic Rank)[X]
+Inspiring Tune: Refreshing a unit grants[N]
+them +2 Pow/Def until the next turn.[X]

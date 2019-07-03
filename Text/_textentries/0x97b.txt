@@ -1,2 +1,2 @@
-Patience: When under[N]
-attack, avoid +10. [X]
+Dragon's Blood: Unit is able[N]
+to activate Dragon Veins.[X]

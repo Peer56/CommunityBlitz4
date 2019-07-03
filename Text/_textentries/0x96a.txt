@@ -1,2 +1,2 @@
-Expertise: Reduce bonus damage[N]
-from critical hits by 50%.[X]
+Tantivy: +10 Hit/Avoid if there are[N]
+no allies within 3 tiles.[X]

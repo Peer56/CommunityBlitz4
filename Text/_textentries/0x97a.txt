@@ -1,2 +1,2 @@
-Strong Riposte: When under[N]
-attack, damage +3. [X]
+Gamble: A reckless attack with[N]
+halved hit but doubled crit.[X]

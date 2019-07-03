@@ -1,2 +1,3 @@
-Holy Aura: Gain +1 damage, +5% hit,[N]
-+5% avoid, +5% crit when using light.[X]
+Barricade+: In combat, damage[NL]
+recieved equals half of the[NL]
+damage when struck last.[X]

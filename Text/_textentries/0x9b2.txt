@@ -1,2 +1,2 @@
-Black Magic: Skill% chance to[N]
-inflict a random status.[X]
+Warding Stance: +6 resistance[N]
+when foe initiates battle.[X]

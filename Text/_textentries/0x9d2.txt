@@ -1,2 +1,2 @@
-Vanity: Gain +2 Damage and +10 Hit[N]
-when fighting enemy at 2 range.[X]
+Thunderstorm: If weapon weight > enemy[N]
+W. Weight, +2 dmg, +15% hit, +5% crit.[X]

@@ -1,2 +1,2 @@
-Canto: Can move again[N]
-after certain actions.[X]
+Wary Fighter: Unit cannot[N]
+double or be doubled.[X]

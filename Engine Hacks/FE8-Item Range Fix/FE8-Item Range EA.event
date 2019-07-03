@@ -5,8 +5,8 @@
 #include "Extensions/Hack Installation.txt"
 	
 #ifdef _FE8_
-	//#define ItemUsabilityTable 0x288B0
-	//#define ItemTable 0x809B10
+	#define Usability_Table 0x288B0
+	#define Item_Table 0x809B10
 	#include "ItemTargeting/_ItemEffectTargeting.event"
 	#include "StaffAI/_StaffAI_Setup.event"
 	PUSH
@@ -106,7 +106,7 @@
 	
 	/*
 	//Shouldn't have to touch these
-	#define New_Use(item) "ORG ItemUsabilityTable+4*(item-0x4B); POIN 0x28A8C"
+	#define New_Use(item) "ORG Usability_Table+4*(item-0x4B); POIN 0x28A8C"
 	#define New_Target(offset) "ORG offset; POIN Target_Routine_For_Non_Unlock|1"
 	#define LL_Entry(staff, pointer) "WORD staff; POIN pointer"
 	//###### USABILITY TABLE ######
@@ -123,7 +123,7 @@
 	New_Use(Barrier)
 	
 	//Update Torch pointer
-	ORG ItemUsabilityTable+4*(TorchStaff-0x4B)
+	ORG Usability_Table+4*(TorchStaff-0x4B)
 	POIN Torch_Fix
 	
 	//Update the pointer at the heal routine to take us to the right place
@@ -178,7 +178,7 @@
 	MakeRangeText:
 	#incbin "MakeRangeText.dmp"
 	//#incbin "R Button Range Display.dmp"
-	//POIN ItemTable
+	//POIN Item_Table
 	
 	ORG $89CEC	//range text for weapons
 	BL($16CC8)
@@ -393,7 +393,7 @@ POP
 	/*
 	Range_Write:
 	#incbin "Range Write.dmp"
-	POIN ItemTable
+	POIN Item_Table
 	
 	ALIGN 4
 	Function_List: //These functions do extra checks (check if person in range has less than max hp, has a non-zero status byte, etc), along with some other stuff

@@ -1,2 +1,2 @@
-Canto+: Can move again after[N]
-attacking and other actions.[X]
+Destroy this village[NL]
+for items and gold.[X]

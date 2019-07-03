@@ -1,2 +1,1 @@
-Fortress Resistance:[N]
-+5 Res, -3 Atk/Mag[X]
+Steal: Unit can steal items.[X]

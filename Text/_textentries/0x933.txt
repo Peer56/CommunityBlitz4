@@ -1,2 +1,2 @@
-Bowfaire: +4 damage[N]
-when equipping a bow.[X]
+Countermagic: Reflect magic damage[N]
+when attacked at 1-2 range.[X]

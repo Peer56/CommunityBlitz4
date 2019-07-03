@@ -1,2 +1,2 @@
-Supply: This unit has[N]
-access to the convoy.[X]
+Swap: Allows unit to swap positions[N]
+with an adjacent ally.[X]

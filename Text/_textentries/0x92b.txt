@@ -1,2 +1,2 @@
-Desperation: If HP < 50%,[N]
-double attacks occur immediately.[X]
+Darting Blow: +5 Attack Speed[N]
+when initiating battle.[X]

@@ -1,2 +1,2 @@
-Savage Blow: After attacking, enemies[N]
-within 2 tiles take 20% damage.[X]
+Intimidate: -10 Avoid to[N]
+all enemies within 2 tiles.[X]

@@ -4,18 +4,47 @@
 
 	#include "Internal/UI1 Proc Code.event"
 
-	#inctevent lyn "Internal/MMBInit.elf" "Internal/Definitions.elf"
-	WORD MMBNameWidth
-	WORD MMBAltTextWidth
+	#ifdef DRAGON_VEINS
+		#inctevent lyn "Internal/MMBInitWithDV.elf" "Internal/Definitions.elf"
+		WORD MMBNameWidth
+		WORD MMBAltTextWidth
 
-	#inctevent lyn "Internal/MMBSetup.elf" "Internal/Definitions.elf"
+		#inctevent lyn "Internal/MMBSetupWithDV.elf" "Internal/Definitions.elf"
+
+		#inctevent lyn "Internal/MMBCheckForDV.elf" "Internal/Definitions.elf"
+
+		#inctevent lyn "Internal/MMBBuildWindowWithDV.elf" "Internal/Definitions.elf"
+		WORD ((1 << 24) | ((0x40 * MMBHeight * 2) >> 3))
+
+		#inctevent lyn "Internal/MMBUpdateInfoWithDV.elf" "Internal/Definitions.elf"
+
+		#inctevent lyn "Internal/MMBBuildDynamicsWithDV.elf" "Internal/Definitions.elf"
+
+		#inctevent lyn "Internal/MMBExtendWindowWithDV.elf" "Internal/Definitions.elf"
+
+		#inctevent lyn "Internal/MMBCheckCursorWithDV.elf" "Internal/Definitions.elf"
+
+	#else
+		#inctevent lyn "Internal/MMBInit.elf" "Internal/Definitions.elf"
+		WORD MMBNameWidth
+		WORD MMBAltTextWidth
+
+		#inctevent lyn "Internal/MMBSetup.elf" "Internal/Definitions.elf"
+
+		#inctevent lyn "Internal/MMBBuildWindow.elf" "Internal/Definitions.elf"
+		WORD ((1 << 24) | ((0x40 * MMBHeight * 2) >> 3))
+
+		#inctevent lyn "Internal/MMBUpdateInfo.elf" "Internal/Definitions.elf"
+
+		#inctevent lyn "Internal/MMBBuildDynamics.elf" "Internal/Definitions.elf"
+
+		#inctevent lyn "Internal/MMBExtendWindow.elf" "Internal/Definitions.elf"
+
+		#inctevent lyn "Internal/MMBCheckCursor.elf" "Internal/Definitions.elf"
+
+	#endif // DRAGON_VEINS
 
 	#inctevent lyn "Internal/MMBGetUnitAtCursor.elf" "Internal/Definitions.elf"
-
-	#inctevent lyn "Internal/MMBBuildWindow.elf" "Internal/Definitions.elf"
-	WORD ((1 << 24) | ((0x40 * MMBHeight * 2) >> 3))
-
-	#inctevent lyn "Internal/MMBBuildDynamics.elf" "Internal/Definitions.elf"
 
 	#inctevent lyn "Internal/MMBSetWindowPosition.elf" "Internal/Definitions.elf"
 	WORD MMBWidth
@@ -25,17 +54,11 @@
 	WORD MMBWidth
 	WORD MMBHeight
 
-	#inctevent lyn "Internal/MMBExtendWindow.elf" "Internal/Definitions.elf"
-
 	#inctevent lyn "Internal/MMBRetractWindow.elf" "Internal/Definitions.elf"
-
-	#inctevent lyn "Internal/MMBCheckCursor.elf" "Internal/Definitions.elf"
 
 	#inctevent lyn "Internal/MMBRedrawTilemap.elf" "Internal/Definitions.elf"
 	WORD MMBWidth
 	WORD MMBHeight
-
-	#inctevent lyn "Internal/MMBUpdateInfo.elf" "Internal/Definitions.elf"
 
 	ALIGN 4
 
@@ -702,6 +725,14 @@
 		WORD 0
 	#endif // MMBLabelDrawing
 
+		#ifdef MMBDVTextCentered
+			#inctevent lyn "Modules/MMBDrawDVTextCentered.elf" "Internal/Definitions.elf"
+			WORD MMBDVTextWidth
+			WORD MMBDVTextColor
+			WORD MMBDVTextXCoordinate
+			WORD MMBDVTextYCoordinate
+		#endif // MMBDVTextCentered
+
 	ALIGN 4
 
 	MMBBuildRoutines:
@@ -837,3 +868,23 @@
 	#endif // MMBHPBarStatus
 
 	WORD 0
+
+ALIGN 4
+
+#ifdef DRAGON_VEINS
+
+	MMBBuildDVRoutines:
+
+		#ifdef MMBStandardTilemap
+			POIN MMBDrawTilemap
+		#endif // MMBStandardTilemap
+
+		#ifdef MMBDVTextCentered
+			POIN MMBDrawDVTextCentered
+		#endif // MMBDVTextCentered
+
+	WORD 0
+
+#endif // DRAGON_VEINS
+
+MESSAGE MMBDrawDVTextCentered

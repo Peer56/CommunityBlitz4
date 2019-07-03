@@ -1,2 +1,2 @@
-Intimidate: -10 Avoid to[N]
-all enemies within 2 tiles.[X]
+Live to Serve: When healing[N]
+an ally, also heals self.[X]

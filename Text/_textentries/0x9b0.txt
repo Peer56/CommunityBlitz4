@@ -1,2 +1,3 @@
-Steal+: Unit can steal unequipped[N]
-weapons and staffs if con>weight.[X]
+Sturdy Stance: +4 attack[N]
+and defense when foe[N]
+initiates battle.[X]

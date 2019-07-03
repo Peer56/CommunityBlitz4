@@ -1,2 +1,2 @@
-Warding Blow: +20 Res[N]
-when initiating battle.[X]
+Aegis: Nullify a magic attack.[N]
+(Skill % activation)[X]

@@ -1,2 +1,2 @@
-Miracle: Survive a lethal[N]
-attack if HP > 50%.[X]
+Vantage: If HP < 50%,[N]
+strike first when attacked.[X]

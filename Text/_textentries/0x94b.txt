@@ -1,2 +1,2 @@
-Paragon: Experience gain[N]
-is doubled.[X]
+Spur Speed: Adjacent allies[N]
+gain +4 Attack Speed.[X]

@@ -1,2 +1,2 @@
-A trap that damages[N]
-units that step on it.[X]
+Re-Move: Luck% chance to get[N]
+another action at end of turn.[X]

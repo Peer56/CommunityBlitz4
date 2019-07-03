@@ -1,2 +1,2 @@
-Fierce Stance: +6 attack[N]
-when foe initiates battle.[X]
+Vantage+: User always attacks first,[N]
+even if attacked. Negates crits.[X]
