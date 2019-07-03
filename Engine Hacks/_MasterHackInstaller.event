@@ -43,6 +43,15 @@ ORG FreeSpaceBLRange //defined in custom definitions
   Unset_Attack_Flag:
   #incbin "SkillSystem/Internals/unset attack flag.dmp"
 
+  //get item mag bonus
+  GetItemMagBonus:
+  #incbin "StatGetters/_asm/GetItemMagBonus.dmp"
+  POIN ItemTable
+
+  ALIGN 4
+  // Magic Split
+  #include "Strmag/_Master Asm Installer.event"
+
 #undef inBLRange
 POP
 

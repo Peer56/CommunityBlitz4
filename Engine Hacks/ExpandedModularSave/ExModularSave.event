@@ -82,7 +82,7 @@ gSaveBlockTypeSizeLookup:
 #include "SrcCore/MSuFuncs.lyn.event" // Core suspend modules
 
 #include "SrcModules/Debuffs.lyn.event" // Debuffs module
-#include "SrcModules/SaveUnitExpanded.lyn.event" // Expanded save unit modules
+#inctext lyn "SrcModules/SaveUnitExpanded.elf" // Expanded save unit modules
 
 DebuffTablePointer: // required for debuffs module
 	WORD DebuffTable
