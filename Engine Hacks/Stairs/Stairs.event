@@ -12,7 +12,7 @@
 		SHORT StairsBlockedText
 		ALIGN 4
 		CharacterStructStairByte:
-		BYTE 0x3A // Don't touch unless you know what you're doing!
+		BYTE 0x47 // Don't touch unless you know what you're doing!
 		ALIGN 4
 		StairCameraEvent:
 		STAL 0x10
