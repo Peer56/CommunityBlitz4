@@ -1,0 +1,50 @@
+Note: Optional variables are designated by *asterisks*. These can be defined, but don't have to be.
+
+
+
+*** Beginning Scene Events ***
+
+GotoPrepscreen
+	Calls the preparations menu.
+
+
+
+*** Ending Scene Events ***
+
+MNCH chapterID
+	Moves to the specified chapter.
+
+Nofade
+	Used after MNCH. Stops the screen from fading out.
+
+
+
+*** Turn Based Events ***
+
+TurnEventPlayer(flag,eventID,turn,*duration*)
+TurnEventEnemy(flag,eventID,turn,*duration*)
+TurnEventNPC(flag,eventID,turn,*duration*)
+	Plays the event on the specifed turn, given the flag is not true.
+	Player is for Player phase, Enemy is for Enemy phase, NPC is for NPC phase.
+	If a duration is set, it will repeat until that turn.
+
+TurnEventPlayer(0x3,EndingScene,turn)
+	This specific Turn Event is used as a victory condition for Defense chapters.
+
+
+
+*** Location Based Events ***
+
+Seize(x,y)
+	Sets a seize point at the x and y coordinates given.
+
+Door(x,y)
+	Sets a door event at the x and y coordinates given.
+
+Chest(itemID,x,y)
+	Sets a chest containing an item at the x and y coordinates given.
+
+ChestMoney(amount,x,y)
+	Sets a chest containing a specific amount of gold at the x and y coordinates given.
+
+

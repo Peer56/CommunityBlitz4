@@ -1,0 +1,15 @@
+#undef DeathQuoteTable
+
+ALIGN 4
+DeathQuoteTable:
+//ChapterSpecificDeathQuotes
+ChapterDeathQuote(ONeill,Prologue,DefeatBossFlag,0x917)
+//ChapterDeathQuote(ONeill,Prologue,0x8,0x917)
+//AlwaysDeathQuotes
+AlwaysDeathQuote(Eirika,GameOverFlag,0xC23)
+EndQuote
+
+PUSH
+ORG $8472C
+POIN DeathQuoteTable
+POP

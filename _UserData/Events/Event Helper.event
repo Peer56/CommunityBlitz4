@@ -1,0 +1,131 @@
+BeginningScene:
+GotoPrepScreen
+
+Turn Based Events:
+TurnEventPlayer(Flag, eventID, turn, *duration)
+InfiniteTurnEventPlayer
+TurnEventEnemy
+TurnEventNPC
+
+Character Based Events:
+CharacterEvent(Flag, eventID, unitID1, unitID2)
+CharacterEventBothWays
+
+Misc Based Events:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+DefeatAll(EndingScene)
+AREA flag event [x1, y1] [x2, y2]
+AFEV flag event triggerFlag
+
+Location Based Events:
+Seize(x,y)
+Chest(itemID,x,y)
+ChestMoney(amount,x,y)
+Armory(items,x,y)
+Vendor(items,x,y)
+SecretShop(items,x,y)
+Door(x,y)
+House(eventID,x,y)
+Village(flag,eventID,x,y)
+
+Items (for shops):
+SHLI item1 item2 ... 
+ALIGN 4
+
+Standard Events:
+Text(textID) or (backgroundID,textID)
+EndConvo
+LOAD1 0x1 UnitGroup + ENUN //new units
+LOAD2 0x1 UnitGroup + ENUN //old units
+CAM1 [x,y] or unitID
+CAM2
+EVBIT_T bit
+EVBIT_F bit
+CHECK_EVENTID flag //1 if flag set, writes to memslot C
+ENUT flag
+ENUF flag
+FlashCursor(unitID,time) or (x,y,time)
+STAL duration
+NoFade
+CUSA unitID //change allegience to player
+CUSE unitID //to enemy
+CUSN unitID //to ally
+MNC2 chapterID //move to next chapter
+VillageEventItem(textID,backgroundID,itemID)
+VillageEventMoney(textID,backgroundID,amount)
+HouseEvent(textID,backgroundID)
+ConvoEvent(textID)
+Textbox(textID)
+ClearAll
+Kill(unitID)
+GiveMoney(amount)
+GiveItem(itemID,unitID)
+TileChange(x,y)
+TILECHANGE tilechangeID / coords
+TILEREVERSE
+CamOn //camera setting to follow moving units
+CamOff
+WarpIn(x,y,unitID)
+WarpOut(x,y)
+ReinforcementEvent(UnitGroup)
+LoadReinforements(UnitGroup)
+SpawnReinforcements(UnitGroup)
+MUSC musicID
+MUSS //stores current music
+MUSR //restores the music
+MUSM //mute music
+SOUN sfxID
+FADI duration //fade in
+FADU duration //fade out
+SetBackground(backgroundID)
+ClearBackground
+EscapePoint(x,y,Move[Direction])
+EARTHQUAKE_START intensity
+EARTHQUAKE_END
+REMU unitID //remove from party
+REVEAL unitID //add back to party
+ENUN //wait for previous command to end
+MoveCoords(x1,y1,x2,y2) //move unit at coords1 to coords2
+COUNTER_SET counterid value
+COUNTER_CHECK counterid //writes to slot C
+Increment(counterid)
+Decrement(counterid)
+SVAL slotid value
+BEQ labelid slot1 slot2
+BNE
+BGE
+BLE
+BLT
+BGT
+GOTO labelid
+LABEL labelid
+// checks save to memslot C
+CHECK_ALIVE unitid
+CHECK_ALLEGIENCE unitid // 0 - ally, 1 - npc, 2 - enemy
+CHECK_DEPLOYED unitid
+
+Unit Groups:
+UNIT UnitID ClassID Leader Level(Lv,Team,A) [X,Y] B 0x00 C D [Item1,Item2,Item3,Item4] AI
+A: 1 for autolevel, 0 for static level
+B: 0x2 for item drop
+C: number of REDAs
+D: the REDAs
+
+Unit(x,y): for use with prep screen placement only
+
+Traps1:
+NormalBallista(x,y)
+IronBallista
+KillerBallista
+
+Scripted Battles:
+
+StartBattle
+NormalDamage(combatant,damage) //0 for attacker's attack 1 for defender's attack
+MissedAttack()
+CriticalHit()
+EndBattle
+
+FIG1 AttackerID DefenderID 0x0 //anims on
+FIG2 //map anims

@@ -1,0 +1,91 @@
+2. Map Objectives and Map Objects
+
+To set a kill boss objective, set it as follows under your MiscBasedEvents.
+
+	DefeatBoss(EndingScene)
+
+A rout objective also goes under MiscBasedEvents.
+
+	DefeatAll(EndingScene)
+
+Seize is listed under LocationBasedEvents, and is set like so.
+
+	Seize(x,y)
+
+For a turn based objective, it is set under TurnBasedEvents as:
+
+	TurnEventPlayer(0x3,EndingScene,Turn-1)
+
+
+
+2.1 Simple Location Based Events
+
+Chests can be set for either an item or a gold amount.
+
+	Chest(Item,x,y)
+	ChestMoney(Amount,x,y)
+
+Doors can be set by location.
+
+	Door(x,y)
+
+Both go under LocationBasedEvents.
+
+
+
+2.2 Shops
+
+There are three types of shops, which are as follows:
+
+	Armory(Items,x,y)
+	Vendor(Items,x,y)
+	SecretShop(Items,x,y)
+
+You must define the items the shop sells in a list. You can do that by using SHLI followed by a list of your items, seperated by spaces.
+
+	SampleItems: 
+	SHLI IronSword IronLance IronAxe Fire
+	ALIGN 4
+
+And so the resulting command will look like this.
+
+	Armory(SampleItems,x,y)
+
+As per the others, this will go under LocationBasedEvents.
+
+
+
+2.3 Houses and Villages
+
+Houses and Villages are a little more complex since they call events once activated.
+Under your LocationBasedEvents, you want to use
+
+	House(event,x,y)
+	Village(flag,event,x,y)
+
+And then you want to set up the event for your village or house. While you can do whatever you like, there are macros for commonly used purposes, which are:
+
+	VillageEventItem(Text,Background,Item)
+	VillageEventMoney(Text,Background,Amount)
+	HouseEvent(Text,Background)
+
+I will provide a sample of a village event.
+
+	LocationBasedEvents:
+	Village(0x8,SampleVillageEvent,3,4)
+
+	...
+
+	SampleUnitGroup:
+	UNIT Seth Paladin 0x0 Level(1,Ally,0) [1,2] 0 0 0 0 [SilverLance, SteelSword] NoAI
+	UNIT
+
+	...
+
+	SampleVillageEvent:
+	VillageEventItem(MyText,Village,Vulnerary)
+	LoadReinforcements(SampleUnitGroup)
+	ENDA
+
+As you can see in SampleVillageEvent, it will have a normal village event with a conversation, give the visitor a vulnerary, and then spawn the specified unit group - in this case, Seth.
+
