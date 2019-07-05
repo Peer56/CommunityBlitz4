@@ -1,0 +1,10 @@
+#include "SummonTable.event"
+
+PUSH
+ORG 0x2442C
+POIN SummonCharacterTable
+ORG 0x7AD54
+POIN SummonCharacterTable
+ORG 0x7AE00
+POIN SummonCharacterTable
+POP

@@ -1,0 +1,50 @@
+#include "Nametext.txt"
+
+#include "Destext.txt"
+
+# 0x0013
+Str and Mag increased[.][X]
+
+# 0x0d4c
+->[X]
+
+# 0x0d4d
+Donate To Circles[.][X]
+
+#0x0dfe
+HP Bars[.][X]
+
+#0x0dff
+Set health bar display[X]
+
+#0x0e00 LearnedSkillText
+#first text ID in the free block
+Learned  [X]
+
+#include "statscreen_text.txt"
+
+#include "unitmenu_text.txt"
+
+#include "StaffText.txt"
+
+## DV1Desc
+Freeze all enemies[N]
+for one turn[X]
+
+##RatingsTID
+Rating[X]
+
+##Mov_Text_ID
+Mov[X]
+
+##RandomizedTID
+Randomized[X]
+
+## PromoteNameText
+ Promote[X]
+ 
+## PromoteDescText
+This unit is eligible to[NL]
+promote to a new class.[X]
+
+#include "skilldesc_text.txt"

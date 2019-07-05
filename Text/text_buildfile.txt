@@ -1,0 +1,59 @@
+# 0x0002 textWeaponRankIncreasedTo
+ Weapon rank increased to [X]
+
+# 0x94
+HP Bars[.][X]
+
+# 0xB2
+Set health bar display[X]
+
+#0x3A LearnedSkillText
+#first text ID in the free block
+Learned  [X]
+
+#include "statscreen_text.txt"
+
+#include "unitmenu_text.txt"
+
+#include "class text.txt"
+
+#0x903 nameCamus
+#for identity problems
+Camus[X]
+
+## nameSirius
+Sirius[X]
+
+## nameZeke
+Zeke[X]
+
+## Mov_Text_ID
+Mov[X]
+
+## RatingsTID
+Rating[X]
+
+## SS_RatingRText
+Sum of the unit's stats.[X]
+
+## StairsNameText
+ Stairs[X]
+
+## StairsDescText
+Take this staircase to[NL]
+the connecting end.[X]
+
+## StairsBlockedText
+The staircase is blocked[NL]
+from the other side.[X]
+
+## RaidNameText
+ Raid[X]
+
+## RaidDescText
+Destroy this village[NL]
+for items and gold.[X]
+
+#include "skilldesc_text.txt"
+
+#include "item text.txt"

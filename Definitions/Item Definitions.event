@@ -1,0 +1,12 @@
+#define Swiftsoles 0x62
+#define FilliShield 0x71
+#define HoplonGuard 0x7c
+#define Dragonspear 0x8d
+#define HeavyLance 0x95
+#define Item150G 0xb8
+#define Item200G 0xb9
+#define LightRuneItem 0x7b
+#define MineItem 0x7a
+#define StoneShard 0xa7
+#define LunarBrace MoonBracelet
+#define SolarBrace SunBracelet

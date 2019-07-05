@@ -1,0 +1,79 @@
+#define HPB 0x0
+#define StrB 0x0
+#define MagB 0x0
+#define SklB 0x0
+#define SpdB 0x0
+#define DefB 0x0
+#define ResB 0x0
+#define LckB 0x0
+#define MovB 0x0
+#define ConB 0x0
+
+ExcaliburStats:
+StatBonus(HPB,StrB,MagB,SklB,5,DefB,ResB,LckB,MovB,ConB)
+
+GleipnirStats:
+StatBonus(HPB,StrB,MagB,5,SpdB,DefB,ResB,LckB,MovB,ConB)
+
+AngelicRobeStats:
+StatBonus(7,StrB,MagB,SklB,SpdB,DefB,ResB,LckB,MovB,ConB)
+
+EnergyRingStats:
+StatBonus(HPB,2,MagB,SklB,SpdB,DefB,ResB,LckB,MovB,ConB)
+
+SecretBookStats:
+StatBonus(HPB,StrB,MagB,2,SpdB,DefB,ResB,LckB,MovB,ConB)
+
+SpeedwingStats:
+StatBonus(HPB,StrB,MagB,SklB,2,DefB,ResB,LckB,MovB,ConB)
+
+GoddessIconStats:
+StatBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,2,MovB,ConB)
+
+DragonShieldStats:
+StatBonus(HPB,StrB,MagB,SklB,SpdB,2,ResB,LckB,MovB,ConB)
+
+TalismanStats:
+StatBonus(HPB,StrB,MagB,SklB,SpdB,DefB,2,LckB,MovB,ConB)
+
+SwiftsoleStats:
+StatBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,LckB,2,ConB)
+
+BodyRingStats:
+StatBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,LckB,MovB,2)
+
+SieglindeStats:
+StatBonus(HPB,5,MagB,SklB,SpdB,DefB,ResB,LckB,MovB,ConB)
+
+IvaldiStats:
+StatBonus(HPB,StrB,MagB,SklB,SpdB,5,ResB,LckB,MovB,ConB)
+
+VidofnirStats:
+StatBonus(HPB,StrB,MagB,SklB,SpdB,5,ResB,LckB,MovB,ConB)
+
+WretchedAirStats:
+StatBonus(HPB,10,10,10,SpdB,20,10,LckB,MovB,ConB)
+
+AudhulmaStats:
+StatBonus(HPB,StrB,MagB,SklB,SpdB,DefB,5,LckB,MovB,ConB)
+
+SiegmundStats:
+StatBonus(HPB,5,MagB,SklB,SpdB,DefB,ResB,LckB,MovB,ConB)
+
+GarmStats:
+StatBonus(HPB,StrB,MagB,SklB,5,DefB,ResB,LckB,MovB,ConB)
+
+NidhoggStats:
+StatBonus(HPB,StrB,MagB,SklB,SpdB,DefB,ResB,5,MovB,ConB)
+
+DragonstoneStats:
+StatBonus(HPB,12,12,12,SpdB,15,20,LckB,MovB,ConB)
+
+NightmareStats:
+StatBonus(HPB,StrB,MagB,SklB,SpdB,5,5,LckB,MovB,ConB)
+
+DemonLightStats:
+StatBonus(HPB,10,10,10,SpdB,10,15,10,MovB,ConB)
+
+RavagerStats:
+StatBonus(HPB,15,15,15,SpdB,15,10,LckB,MovB,ConB)

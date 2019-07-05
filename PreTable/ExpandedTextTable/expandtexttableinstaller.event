@@ -1,0 +1,15 @@
+ALIGN 4
+ExpandedTextTable:
+#incbin "ExpandedTextTable.bin"
+
+#undef TextTable
+#define TextTable ExpandedTextTable
+
+#define setText(textID, offset) "PUSH; ORG (ExpandedTextTable+4*textID); POIN (offset | 0x80000000); POP"
+
+PUSH
+ORG $A26C
+POIN TextTable
+ORG $A2A0
+POIN TextTable
+POP

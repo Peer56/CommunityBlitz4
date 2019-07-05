@@ -1,0 +1,47 @@
+#ifdef _FE8_
+
+    #include "EAstdlib.event"
+    #include "Engine Hacks/SkillSystem/skill_definitions.event"
+    #include "Definitions/Custom Definitions.event"
+    #include "_UserData/Customizations.event"
+
+    ORG FreeSpace
+
+    ALIGN 4
+    #include "Definitions/REDAs.event"
+
+    //Pre-table data
+    #include "PreTable/Pretable Installer.event"
+
+    //Text
+    #include "Text/Install Text Data.event"
+
+    //Graphics
+    #include "Graphics/MasterGraphicInstaller.event"
+
+    //CSV tables
+    #include "Tables/Table Installer.event"
+
+    //Post-table data
+    #include "PostTable/Posttable Installer.event"
+
+    //Engine Hacks
+    #include "Engine Hacks/_MasterHackInstaller.event"
+
+    //World Map Events
+    #include "World Map Events/World Map Events Installer.event"
+    
+    MESSAGE ROM space remaining is (0xBFFFFF - currentOffset)
+    
+    ORG EndSpace
+
+    #undef TEXT_DEFINITIONS
+    #undef TABLE_DEFINITIONS
+    
+    //User Data
+    #include "_UserData/User Buildfile.event"
+
+    MESSAGE Used free space ends at currentOffset
+#else
+    ERROR You are not assembling FE8 events!
+#endif

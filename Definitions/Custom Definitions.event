@@ -1,0 +1,23 @@
+#define FreeSpace 0xb2a610
+#define FreeSpace2 0xe47180
+#define FreeSpaceBLRange 0x1c1ec0
+#define EndSpace 0xefb2e0
+
+// #define __DEBUG__ // Uncomment to get the Debug startup menu :p
+
+#include "Class Animation Definitions.event"
+#include "Class Definitions.event"
+#include "Item Definitions.event"
+#include "Item Icon Definitions.event"
+#include "Macro Definitions.event"
+#include "Magic Animation Definitions.event"
+#include "Mug Definitions.event"
+#include "Palette Definitions.event"
+#include "PList Definitions.event"
+#include "Table Definitions.event"
+#include "Tileset Definitions.event"
+
+#ifndef DebuffTable
+  #define DebuffTable 0x203f100
+  #define DebuffTableSize 0x00000900
+#endif

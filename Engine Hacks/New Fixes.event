@@ -1,0 +1,152 @@
+
+PUSH
+
+  #ifdef UnlimitedTrading
+  //Enable limitless trading
+  ORG $22F50
+  BYTE 0xC0 0x46
+  #endif
+
+  //Fix Fimbulvetr Freeze Glitch
+  ORG $5E520
+  BYTE 0x0C
+
+  //Hide Retreat/Record Menu
+  ORG $24CD5
+  BYTE 0xE0
+  ORG $24C49
+  BYTE 0xE0
+
+  //Fix autolevel for prf weapons
+  ORG $17F88
+  BYTE 0x00 0x21
+
+  //Prevent character event freezes
+  ORG $F25C
+  BYTE 0x00 0x20
+  ORG $102D4
+  BYTE 0x00 0x20
+  ORG $10804
+  BYTE 0x00 0x20
+
+  //Nosferatu bug fix
+  ORG $2BC2C
+  BYTE 0x00 0x0E
+
+  #ifdef FixedArrowRNG
+  //Prevent RNG advancement through cursor movement
+  ORG $C84
+  BYTE 0x00 0x00 0x00 0x00
+  #endif
+
+  //Support range adjustment
+  //ORG 0x28620
+  //BYTE 0xFF //whole map
+
+  //Monster Weapon display fix
+  ORG $16e20
+  BYTE 0x30 0xB5 0x0B 0x28 0x04 0xD0 0x09 0x49 0x80 0x00 0x08 0x18 0x00 0x68 0x06 0xE0 0x80 0x20 0x80 0x00 0x6B 0x30 0x02 0xE0 0x80 0x00 0x68 0x44 0x00 0x68 0xF3 0xF7 0xFF 0xF9 0xC0 0x46
+  ORG $892f2
+  BYTE 6
+  ORG $1e7fc
+  BYTE 0xC
+
+  // Fix CAM1/CAMERA2 going out of bounds
+  ORG $15D52
+  BYTE 14
+  ORG $15D66
+  BYTE 9
+
+  //Disable sacred weapon flash
+  PUSH
+  ORG $58AC8
+  BYTE $00 $20 $70 $47
+  POP
+
+  #ifdef FreeReposition
+  //Forced units can be repositioned in prep
+  ORG $33750
+  BYTE 0x00 0x20 0x00 0x00
+  ORG $9543E
+  BYTE 0x00 0x20 0x00 0x00
+  #endif
+
+  //Disable FE8 Skills
+
+  ORG $16C94 //Slayer  
+  BYTE 0x00
+  ORG $16C98
+  BYTE 0x00
+  ORG $2B346 //Great Shield
+  BYTE 0x00
+  ORG $2B34A
+  BYTE 0x00
+  ORG $2B226 //Sure Strike
+  BYTE 0x00
+  ORG $2B22A
+  BYTE 0x00
+  ORG $2B2AA //Pierce
+  BYTE 0x00
+  ORG $2B2AE
+  BYTE 0x00
+
+  //Bypass Ch5x Hardcoded Stuff
+  ORG $24DF2 //show gold in ch5x
+  SHORT 0
+  ORG $3164F //allow Supply on prep screen in ch5x
+  BYTE 0xE0
+  ORG $3327B
+  BYTE 0xE0
+
+  //Make Maelduins use the right hatchet animation
+  ORG 0x8AF622
+  BYTE $B7
+
+  //Allows MNC2 To jump to any chapter ID. (Already in essential fixes)
+  //ORG 0xBD070
+  //SHORT 0xE0B8
+  //Fixes the world map chapter ID being loaded instead of the actual chapter ID.
+  ORG 0x897B2
+  SHORT 0 0
+  //Fixes the game considering some chapters postgame.
+  ORG 0x897C4
+  SHORT 0x200E 0x5620 //mov r0, #0x0E; ldsb r0, [r4, r0]
+  ORG 0x206948
+  BYTE 0
+
+  //Don't draw portrait on item select menu if unit is generic
+  ORG $22BE8
+  SHORT $6808 $7980 $2800
+
+  //Prep Screen Chapter Display
+  ORG $96B1C
+  SHORT 0xE00A // Eliminate "Tower" in prep screens
+  ORG $96B3A
+  SHORT 0xE003 // Eliminate "Ruins" in prep screens
+
+  #ifdef NoPlatform
+  //Remove Map Sprite Platform
+  PUSH
+  ORG $88354
+  SHORT $4770
+  POP
+  #endif
+
+  //Fix Map Sprites past 0x80
+  ORG 0x268E4
+  SHORT 0x2000
+  ORG 0x26A52
+  SHORT 0x2000
+  ORG 0x26B42
+  SHORT 0x2000
+
+  //Disable old character specific battle BGM
+  ORG $758A60
+  WORD 0xFFFFFFFF 0xFFFFFFFF
+
+  //No Link Arena
+  ORG $AB90E
+  BYTE 0x0 0x0 0x0 0x20
+
+
+POP

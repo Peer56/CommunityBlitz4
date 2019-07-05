@@ -1,0 +1,40 @@
+TOOLS:
+
+Event Assembler by Nintenlord and CrazyColorz
+C2EA/N2C by CirclesEverywhere
+TextProcess V2 by CirclesEverywhere
+TMX2EA by CirclesEveryehere
+S2EA by CirclesEverywhere
+MID2AGB / Midfix4AGB by ipatix
+Animation Assembler by CirclesEverywhere
+Pal2EA by Teraspark
+
+ENGINE HACKS:
+
+Battle BGM per Chapter by 7743
+Casual Mode by CirclesEverywhere
+Contemporary Talk and Support by CirclesEverywhere
+CSA System by CirclesEverywhere
+Danger Zone by CirclesEverywhere
+Show Heal Amount by Tequila
+Show Weapon Rank level up by Tequila
+Promotion Weapon Rank display fix by Leonarth
+Battle Stats with Anims off by Tequila
+Item Range fix by StanH
+Walking Sounds fix by Tequila
+NIMAP by Agro
+HP Bars by CirclesEverywhere
+Individual Animations by 7743
+Less Annoying Fog by Leonarth
+L Toggle Animations by Tequila
+Melee and Magic fix by Hextator
+Modular EXP by Snakey1
+Modular Minimug Box by Zane
+Poison Rework by Snakey1
+Portrait Height fix by Eliwan
+Shop BGM per chapter by 7743
+Skill System by CirclesEverywhere, Monkeybard, BlackMage, Blaze, Tequila, Rossendale, StanH, Leonarth, Teraspark, SD9K, Kao, Blademaster, Snakey1
+Chapter Names as Text by CirclesEverywhere
+Various Fixes by 7743, Hextator, Venno, Brendor, Nintenlord, Gryz, Agro
+Magic Split by Kirb, RobertFPY, Snakey1
+Chapter Help Text by Leonarth
