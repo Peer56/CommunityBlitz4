@@ -87,8 +87,8 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
-Village(8,Village1,X,Y)
-Village(7,Village2,X,Y)
+Village(8,Village1,10,10)
+Village(7,Village2,0,5)
 Vendor(VendorList,0,12)
 Armory(ArmoryList,0,11)
 Seize(0,26)
