@@ -1,0 +1,49 @@
+ALIGN 4
+RefEscapeTable:
+#incbin "RefEscapeTable.dmp"
+POIN EscapeQuoteTable
+
+MESSAGE Deselect at CURRENTOFFSET
+ALIGN 4
+DeselectUnitForEscape:
+#incbin "DeselectUnit.dmp"
+
+ALIGN 4
+#include "EscapeEvent.event"
+
+ALIGN 4
+ArriveCheck:
+#incbin "ArriveCheck.dmp"
+  
+ALIGN 4
+NewSeizeCheck:
+#incbin "NewSeizeCheck.dmp"
+
+ALIGN 4
+EscapeLordUsability:
+#incbin "EscapeCheckLord.dmp"
+
+ALIGN 4
+EscapeGeneralUsability:
+#incbin "EscapeCheckGeneral.dmp"
+
+ALIGN 4
+EscapeGeneralEffect:
+#incbin "EscapeEffectGeneral.dmp"
+POIN EscapeEvent
+
+MESSAGE End at CURRENTOFFSET
+ALIGN 4
+FinalEscapeThing:
+#incbin "FinalEscapeHook.dmp"
+
+
+PUSH
+ORG 0x1879C//fixing the branch here
+SHORT 0xD004
+ORG 0x187A8
+jumpToHack(FinalEscapeThing)
+POP
+
+#define ArriveFlag 0x21
+#define EscapeFlag 0x22

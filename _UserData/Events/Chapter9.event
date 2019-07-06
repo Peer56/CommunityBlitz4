@@ -1,0 +1,172 @@
+EventPointerTable(0x7,Chapter9)
+
+#ifndef Monk_F
+#define Monk_F Monk
+#endif
+#ifndef AxeCav_F
+#define AxeCav_F Cavalier_F
+#endif
+#ifndef SwordCav
+#define SwordCav Cavalier
+#endif
+#ifndef SwordCav_F
+#define SwordCav_F Cavalier_F
+#endif
+#ifndef LanceCav
+#define LanceCav Cavalier
+#endif
+#ifndef LanceCav_F
+#define LanceCav_F Cavalier_F
+#endif
+#ifndef AxeCav
+#define AxeCav Cavalier
+#endif
+#ifndef PlaceholderText
+#define PlaceholderText 0x903
+#endif
+
+Chapter9:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+PlayerUnits:
+UNIT Eirika EirikaLord Eirika Level(0,Ally,0) [13,2] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Saleh Monk_F Eirika Level(0,Ally,0) [13,1] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ewan Troubadour Eirika Level(0,Ally,0) [14,1] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin Eirika Level(0,Ally,0) [13,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin Eirika Level(0,Ally,0) [14,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin Eirika Level(0,Ally,0) [15,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin Eirika Level(0,Ally,0) [14,1] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin Eirika Level(0,Ally,0) [15,1] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin Eirika Level(0,Ally,0) [12,0] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin Eirika Level(0,Ally,0) [12,1] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+NewUnits:
+UNIT Saleh Monk_F 0 Level(10,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Shine,GuidingRing] NoAI
+UNIT Ewan Troubadour 0 Level(8,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Mend,Rescue] NoAI
+UNIT
+
+EnemyUnits:
+UNIT 0x49 AxeCav_F 0x49 Level(12,Enemy,0) [0,26] 0x0 0x0 0x0 0x1 [Tomahawk,Vulnerary] NeverMoveAI
+UNIT 0x80 Mercenary 0x49 Level(7,Enemy,1) [6,2] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT 0x80 Soldier 0x49 Level(7,Enemy,1) [4,3] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 0x80 Mage_F 0x49 Level(7,Enemy,1) [3,5] 0x0 0x0 0x0 0x1 [Thunder] AttackInRangeAI
+UNIT 0x80 Fighter 0x49 Level(7,Enemy,1) [13,6] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 0x80 Archer 0x49 Level(7,Enemy,1) [11,8] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 0x80 SwordCav 0x49 Level(7,Enemy,1) [12,10] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT 0x80 Knight 0x49 Level(8,Enemy,1) [10,12] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 0x80 LanceCav_F 0x49 Level(8,Enemy,1) [11,14] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 0x80 AxeCav 0x49 Level(8,Enemy,1) [9,15] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 0x80 Mercenary 0x49 Level(8,Enemy,1) [5,16] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT 0x80 Soldier 0x49 Level(8,Enemy,1) [1,7] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 0x80 Shaman 0x49 Level(8,Enemy,1) [0,10] 0x0 0x0 0x0 0x1 [Flux] AttackInRangeAI
+UNIT 0x80 Mage 0x49 Level(9,Enemy,1) [0,15] 0x0 0x0 0x0 0x1 [Elfire] AttackInRangeAI
+UNIT 0x80 Mercenary 0x49 Level(9,Enemy,1) [1,16] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT 0x80 Archer 0x49 Level(9,Enemy,1) [2,19] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 0x80 PegasusKnight 0x49 Level(9,Enemy,1) [4,20] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 0x80 Myrmidon_F 0x49 Level(9,Enemy,1) [5,22] 0x0 0x0 0x0 0x1 [KillingEdge] AttackInRangeAI
+UNIT 0x80 Mage_F 0x49 Level(9,Enemy,1) [3,23] 0x0 0x0 0x0 0x1 [Elfire] AttackInRangeAI
+UNIT 0x80 Shaman_F 0x49 Level(10,Enemy,1) [4,24] 0x0 0x0 0x0 0x1 [Flux] AttackInRangeAI
+UNIT 0x80 SwordCav_F 0x49 Level(10,Enemy,1) [2,25] 0x0 0x0 0x0 0x1 [SteelSword] AttackInRangeAI
+UNIT
+
+TurnBasedEvents:
+TurnEventPlayer(0,LaterBossAppearance,5)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Village(8,Village1,X,Y)
+Village(7,Village2,X,Y)
+Vendor(VendorList,0,12)
+Armory(ArmoryList,0,11)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+BeginningScene:
+ENUT EscapeFlag
+LOAD1 0x1 NewUnits
+ENUN
+CLEA 0
+LOAD1 0x1 EnemyUnits
+ENUN
+FADU 10
+GotoPrepScreen
+NoFade
+ENDA
+
+EndingScene:
+MNC2 10
+NoFade
+ENDA
+
+LaterBossAppearance:
+LOAD1 0x1 LaterBoss
+ENUN
+NoFade
+ENDA
+
+LaterBoss:
+UNIT 0x4E General_F 0x4E Level(20,Enemy,0) [9,0] 0x0 0x0 0x0 0x1 [Spear,KillerAxe] NoAI
+UNIT 0x81 Knight 0x4E Level(15,Enemy,1) [7,0] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
+UNIT 0x81 Knight 0x4E Level(15,Enemy,1) [8,0] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
+UNIT 0x81 Knight 0x4E Level(15,Enemy,1) [10,0] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
+UNIT 0x81 Knight 0x4E Level(15,Enemy,1) [11,0] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
+UNIT 0x81 Fleet 0x4E Level(10,Enemy,1) [16,3] 0x0 0x0 0x0 0x1 [LongBallista] NoAI
+UNIT
+
+Village1:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 KnightCrest
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+Village2:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 HeroCrest
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+VendorList:
+SHLI Heal Mend Barrier Vulnerary Elixir PureWater Antidote Torch
+ALIGN 4
+
+ArmoryList:
+SHLI SteelSword WindSword SteelLance Javelin SteelAxe HandAxe SteelBow Longbow
+ALIGN 4
+
