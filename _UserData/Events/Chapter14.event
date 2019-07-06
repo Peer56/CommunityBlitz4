@@ -1,0 +1,251 @@
+#ifndef Monk_F
+#define Monk_F Monk
+#endif
+EventPointerTable(0x41,Chapter14)
+
+#ifndef AxeCav_F
+#define AxeCav_F Cavalier_F
+#endif
+#ifndef SwordCav
+#define SwordCav Cavalier
+#endif
+#ifndef SwordCav_F
+#define SwordCav_F Cavalier_F
+#endif
+#ifndef LanceCav
+#define LanceCav Cavalier
+#endif
+#ifndef LanceCav_F
+#define LanceCav_F Cavalier_F
+#endif
+#ifndef AxeCav
+#define AxeCav Cavalier
+#endif
+#ifndef Nomad
+#define Nomad Cavalier
+#endif
+#ifndef Nomad_F
+#define Nomad_F Cavalier_F
+#endif
+#ifndef NomadTrooper
+#define NomadTrooper Ranger
+#endif
+#ifndef NomadTrooper_F
+#define NomadTrooper_F Ranger_F
+#endif
+#ifndef PlaceholderText
+#define PlaceholderText 0x903
+#endif
+
+Chapter14:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+PlayerUnits:
+UNIT Eirika EirikaLord 0 Level(0,Ally,0) [4,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Syrene Sage_F 0 Level(0,Ally,0) [4,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [3,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [3,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [3,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [1,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [2,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [2,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [1,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [0,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [0,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [1,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+NewUnits:
+UNIT Syrene Sage_F 0 Level(4,Enemy,0) [0,0] 0x0 0x0 0x0 0x1 [Divine,Flux,Mend] NoAI
+UNIT
+
+EnemyUnits:
+UNIT
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Village(7,VillageEvent,13,7)
+Vendor(VendorList,14,11)
+Armory(ArmoryList,14,10)
+House(0,House1,4,0)
+House(0,House2,2,1)
+House(0,House3,0,3)
+House(0,House4,3,7)
+House(0,House5,5,11)
+House(0,House6,14,15)
+House(0,House7,18,12)
+House(0,House8,20,7)
+House(0,House9,13,9)
+House(0,House10,12,8)
+House(0,House11,11,0)
+House(0,House12,15,1)
+Seize(21,2)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+BeginningScene:
+ENUT ArriveFlag
+FADU 10
+GotoPrepScreen
+NoFade
+ENDA
+
+EndingScene:
+MNC2 15
+NoFade
+ENDA
+
+VillageEvent:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 MasterSeal
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+VendorList:
+SHLI Elfire Bolting Divine Purge Flux Luna Mend Restore Barrier Elixir PureWater Antidote Torch
+ALIGN 4
+
+ArmoryList:
+SHLI SteelSword SteelLance Javelin SteelAxe HandAxe SteelBow KillingEdge Armorslayer HeavySpear Horseslayer DragonAxe Swordslayer KillerBow Longbow
+ALIGN 4
+
+House1:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House2:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House3:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House4:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House5:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House6:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House7:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House8:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House9:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House10:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House11:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House12:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
