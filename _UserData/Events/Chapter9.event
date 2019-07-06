@@ -91,6 +91,7 @@ Village(8,Village1,X,Y)
 Village(7,Village2,X,Y)
 Vendor(VendorList,0,12)
 Armory(ArmoryList,0,11)
+Seize(0,26)
 END_MAIN
 
 MiscBasedEvents:
