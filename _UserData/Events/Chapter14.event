@@ -69,6 +69,7 @@ UNIT
 
 NewUnits:
 UNIT Syrene Sage_F 0 Level(4,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Divine,Flux,Mend] NoAI
+UNIT Tana ArchMogall 0 Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [CrimsonEye] NoAI
 UNIT
 
 EnemyUnits:
