@@ -21,9 +21,22 @@ EventPointerTable(0x27,Chapter9)
 #ifndef AxeCav
 #define AxeCav Cavalier
 #endif
+#ifndef Nomad
+#define Nomad Cavalier
+#endif
+#ifndef Nomad_F
+#define Nomad_F Cavalier_F
+#endif
+#ifndef NomadTrooper
+#define NomadTrooper Ranger
+#endif
+#ifndef NomadTrooper_F
+#define NomadTrooper_F Ranger_F
+#endif
 #ifndef PlaceholderText
 #define PlaceholderText 0x903
 #endif
+
 
 Chapter9:
 POIN TurnBasedEvents
