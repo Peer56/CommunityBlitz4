@@ -1,0 +1,241 @@
+Any value of 0 shouldn't have to be defined
+
+Fields 1 (used earlygame FE8)
+
+ObjectType = 1
+PaletteID = 2
+TileConfig = 3
+Anims1 = 5
+Anims2 = 0
+
+Fields 2 (slightly different-colored fields, no tile anims)
+
+ObjectType = 1
+PaletteID = 0x38
+TileConfig = 3
+Anims1 = 0
+Anims2 = 0
+
+Fields 3 (river of regrets)
+
+ObjectType = 1
+PaletteID = 0x4C
+TileConfig = 3
+Anims1 = 5
+Anims2 = 0
+
+Fields 4 (darkling woods)
+
+ObjectType = 1
+PaletteID = 0x5B
+TileConfig = 3
+Anims1 = 5
+Anims2 = 0
+
+Fields 5 (copy of Fields 1 but no animations?)
+
+ObjectType = 1
+PaletteID = 2
+TileConfig = 3
+Anims1 = 0
+Anims2 = 0
+
+Fields 6 (Fields 2 but with tile anims)
+
+ObjectType = 1
+PaletteID = 0x38
+TileConfig = 3
+Anims1 = 5
+Anims2 = 0
+
+Village 1 (bright blue water)
+
+ObjectType = 0xE
+PaletteID = 0xF
+TileConfig = 0x10
+Anims1 = 0x12
+Anims2 = 0
+
+Village 2 (slightly darker water)
+
+ObjectType = 0xE
+PaletteID = 0x72
+TileConfig = 0x10
+Anims1 = 0x12
+Anims2 = 0
+
+Village 3 (flashback village, washed out)
+
+ObjectType = 0xE
+PaletteID = 0xEA
+TileConfig = 0x10
+Anims1 = 0x12
+Anims2 = 0
+
+Village 4 (village 2 with different tile anims, used for Phantom Ship)
+
+ObjectType = 0xE
+PaletteID = 0x72
+TileConfig = 0x10
+Anims1 = 0xD3
+Anims2 = 0
+
+Castle 1 (usable water and broken grass, green floors and light brown walls)
+
+ObjectType = 0x18
+PaletteID = 0x19
+TileConfig = 0x1A
+Anims1 = 0x1C
+Anims2 = 0
+
+Castle 2 (green water with broken shading, usable grass, blue floors and light gray walls)
+
+ObjectType = 0x18
+PaletteID = 0x48
+TileConfig = 0x1A
+Anims1 = 0x1C
+Anims2 = 0
+
+Castle 3 (same broken water, usable grass, rausten court)
+
+ObjectType = 0x18
+PaletteID = 0x57
+TileConfig = 0x1A
+Anims1 = 0x1C
+Anims2 = 0
+
+Castle 4 (flashback tileset, washed out interior tiles, broken grass and water)
+
+ObjectType = 0x18
+PaletteID = 0xB9
+TileConfig = 0x1A
+Anims1 = 0x1C
+Anims2 = 0
+
+Plains 1 (Revolt at Carcino tileset)
+
+ObjectType = 0x2E
+PaletteID = 0x2F
+TileConfig = 0x30
+Anims1 = 0
+Anims2 = 0
+
+Plains 2 (Village of Silance tileset)
+
+ObjectType = 0x2E
+PaletteID = 0x34
+TileConfig = 0x30
+Anims1 = 0
+Anims2 = 0
+
+Fort 1 (Queen of White Dunes tileset)
+
+ObjectType = 0x3C
+PaletteID = 0x3D
+TileConfig = 0x3E
+Anims1 = 0
+Anims2 = 0
+
+Fort 2 (Fort Rigwald tileset)
+
+ObjectType = 0x3C
+PaletteID = 0x68
+TileConfig = 0x3E
+Anims1 = 0
+Anims2 = 0
+
+Fort 3 (Creeping Darkness tileset)
+
+ObjectType = 0x3C
+PaletteID = 0xCE
+TileConfig = 0x3E
+Anims1 = 0
+Anims2 = 0
+
+Desert (Scorching Sands) //Replaced with better desert
+
+ObjectType = 0x42
+PaletteID = 0x43
+TileConfig = 0x44
+Anims1 = 5
+Anims2 = 0
+
+Lava Cave (Two Faces of Evil)
+
+ObjectType = 0x50
+PaletteID = 0x51
+TileConfig = 0x52
+Anims1 = 0
+Anims2 = 0x54
+
+Endgame (Sacred Stone)
+
+ObjectType = 0x5F
+PaletteID = 0x60
+TileConfig = 0x61
+Anims1 = 0
+Anims2 = 0
+
+Mountains 1 (Lagdou exterior but with Plains 1 palette)
+
+ObjectType = 0x6C
+PaletteID = 0x6D
+TileConfig = 0x6E
+Anims1 = 5
+Anims2 = 0
+
+Mountains 2 (Lagdou exterior)
+
+ObjectType = 0x6C
+PaletteID = 0xA3
+TileConfig = 0x6E
+Anims1 = 5
+Anims2 = 0
+
+Temple (Tower of Valni)
+
+ObjectType = 0x88
+PaletteID = 0x89
+TileConfig = 0x8A
+Anims1 = 0
+Anims2 = 0
+
+Castle Interior 1 (Father and Son)
+
+ObjectType = 0x79
+PaletteID = 0x7A
+TileConfig = 0x7B
+Anims1 = 0x7D
+Anims2 = 0
+
+Castle Interior 2 (flashback palette)
+
+ObjectType = 0x79
+PaletteID = 0xE6
+TileConfig = 0x7B
+Anims1 = 0x7D
+Anims2 = 0
+
+Der's Cave Tileset (Replaces some valni pointers)
+
+ObjectType = 0x8F
+PaletteID = 0x90
+TileConfig = 0x8E
+Anims1 = 0xCA
+Anims2 = 0
+
+Der's Bridges (replaces more valni pointers)
+
+ObjectType = 0x94
+PaletteID = 0x95
+TileConfig = 0x93
+Anims1 = 5
+Anims2 = 0
+
+Night Village
+
+ObjectType = 0xE
+PaletteID = 0x9F
+TileConfig = 0x10
+Anims1 = 0x12
+Anims2 = 0

@@ -1,0 +1,288 @@
+EventPointerTable(0x41,Chapter14)
+
+#ifndef AxeCav_F
+#define AxeCav_F Cavalier_F
+#endif
+#ifndef SwordCav
+#define SwordCav Cavalier
+#endif
+#ifndef SwordCav_F
+#define SwordCav_F Cavalier_F
+#endif
+#ifndef LanceCav
+#define LanceCav Cavalier
+#endif
+#ifndef LanceCav_F
+#define LanceCav_F Cavalier_F
+#endif
+#ifndef AxeCav
+#define AxeCav Cavalier
+#endif
+#ifndef Nomad
+#define Nomad Cavalier
+#endif
+#ifndef Nomad_F
+#define Nomad_F Cavalier_F
+#endif
+#ifndef NomadTrooper
+#define NomadTrooper Ranger
+#endif
+#ifndef NomadTrooper_F
+#define NomadTrooper_F Ranger_F
+#endif
+#ifndef Halberdier
+#define Halberdier Knight
+#endif
+#ifndef Monk_F
+#define Monk_F Monk
+#endif
+#ifndef PlaceholderText
+#define PlaceholderText 0x903
+#endif
+
+Chapter14:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+PlayerUnits:
+UNIT Eirika EirikaLord 0 Level(0,Ally,0) [4,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Syrene Sage_F 0 Level(0,Ally,0) [4,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [3,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [3,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [3,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [1,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [2,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [2,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [1,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [0,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [0,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [1,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+NewUnits:
+UNIT Syrene Sage_F 0 Level(4,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Divine,Flux,Mend] NoAI
+UNIT
+
+EnemyUnits:
+UNIT 0x4E General_F 0 Level(10,Enemy,0) [21,2] 0x0 0x0 0x0 0x1 [ShortSpear] NoAI
+UNIT 0x8A Mercenary 0x4E Level(13,Enemy,1) [4,12] 0x0 0x0 0x0 0x1 [SteelBlade] AttackInRangeAI
+UNIT 0x8A Halberdier 0x4E Level(3,Enemy,1) [3,10] 0x0 0x0 0x0 0x1 [Vidofnir] AttackInRangeAI
+UNIT 0x8A AxeCav 0x4E Level(13,Enemy,1) [6,15] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 0x8A LanceCav 0x4E Level(13,Enemy,1) [8,14] 0x0 0x0 0x0 0x1 [Javelin] AttackInRangeAI
+UNIT 0x8A SwordCav_F 0x4E Level(13,Enemy,1) [12,14] 0x0 0x0 0x0 0x1 [WindSword] AttackInRangeAI
+UNIT 0x8A Knight_F 0x4E Level(13,Enemy,1) [4,8] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 0x8A Mage_F 0x4E Level(14,Enemy,1) [2,7] 0x0 0x0 0x0 0x1 [Elfire] AttackInRangeAI
+UNIT 0x8A Monk_F 0x4E Level(14,Enemy,1) [1,5] 0x0 0x0 0x0 0x1 [Divine] AttackInRangeAI
+UNIT 0x8A Fighter 0x4E Level(14,Enemy,1) [0,4] 0x0 0x0 0x0 0x1 [SteelAxe] AttackInRangeAI
+UNIT 0x8A Fighter 0x4E Level(14,Enemy,1) [2,3] 0x0 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
+UNIT 0x8A Fighter 0x4E Level(14,Enemy,1) [12,13] 0x0 0x0 0x0 0x1 [HandAxe] AttackInRangeAI
+UNIT 0x8A Mage_F 0x4E Level(14,Enemy,1) [14,13] 0x0 0x0 0x0 0x1 [Elfire] AttackInRangeAI
+UNIT 0x8A Shaman_F 0x4E Level(15,Enemy,1) [16,14] 0x2 0x0 0x0 0x1 [Nosferatu] AttackInRangeAI
+UNIT 0x8A Knight_F 0x4E Level(15,Enemy,1) [16,11] 0x2 0x0 0x0 0x1 [SilverLance,MasterSeal] NeverMoveAI
+UNIT 0x8A Knight_F 0x4E Level(15,Enemy,1) [6,1] 0x2 0x0 0x0 0x1 [KillerLance,Boots] NeverMoveAI
+UNIT 0x8A Soldier 0x4E Level(15,Enemy,1) [4,1] 0x0 0x0 0x0 0x1 [KillerLance] AttackInRangeAI
+UNIT 0x8A Myrmidon_F 0x4E Level(15,Enemy,1) [4,3] 0x0 0x0 0x0 0x1 [KillingEdge] AttackInRangeAI
+UNIT 0x8A Archer_F 0x4E Level(15,Enemy,1) [3,2] 0x0 0x0 0x0 0x1 [KillerBow] AttackInRangeAI
+UNIT 0x8A AxeCav_F 0x4E Level(16,Enemy,1) [10,1] 0x0 0x0 0x0 0x1 [KillerAxe] AttackInRangeAI
+UNIT 0x8A Soldier 0x4E Level(16,Enemy,1) [12,2] 0x0 0x0 0x0 0x1 [KillerLance] AttackInRangeAI
+UNIT 0x8A Nomad_F 0x4E Level(16,Enemy,1) [14,2] 0x0 0x0 0x0 0x1 [ShortBow] AttackInRangeAI
+UNIT 0x8A Archer_F 0x4E Level(16,Enemy,1) [16,4] 0x0 0x0 0x0 0x1 [KillerBow] AttackInRangeAI
+UNIT 0x8A Myrmidon_F 0x4E Level(16,Enemy,1) [10,5] 0x0 0x0 0x0 0x1 [KillingEdge] AttackInRangeAI
+UNIT 0x8A LanceCav_F 0x4E Level(16,Enemy,1) [16,9] 0x0 0x0 0x0 0x1 [KillerLance] AttackInRangeAI
+UNIT 0x8A Archer_F 0x4E Level(17,Enemy,1) [18,8] 0x0 0x0 0x0 0x1 [KillerBow] AttackInRangeAI
+UNIT 0x8A Nomad_F 0x4E Level(17,Enemy,1) [21,7] 0x0 0x0 0x0 0x1 [KillerBow] AttackInRangeAI
+UNIT 0x8A Soldier 0x4E Level(17,Enemy,1) [19,5] 0x0 0x0 0x0 0x1 [KillerLance] AttackInRangeAI
+UNIT 0x8A Archer_F 0x4E Level(17,Enemy,1) [20,4] 0x0 0x0 0x0 0x1 [KillerBow] AttackInRangeAI
+UNIT
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Village(7,VillageEvent,13,7)
+Vendor(VendorList,14,11)
+Armory(ArmoryList,14,10)
+House(0,House1,4,0)
+House(0,House2,2,1)
+House(0,House3,0,3)
+House(0,House4,3,7)
+House(0,House5,5,11)
+House(0,House6,14,15)
+House(0,House7,18,12)
+House(0,House8,20,7)
+House(0,House9,13,9)
+House(0,House10,12,8)
+House(0,House11,11,0)
+House(0,House12,15,1)
+Seize(21,2)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+BeginningScene:
+ENUT ArriveFlag
+LOAD1 0x1 NewUnits
+ENUN
+CLEA 0
+LOAD1 0x1 EnemyUnits
+ENUN
+FADU 10
+GotoPrepScreen
+NoFade
+ENDA
+
+EndingScene:
+MNC2 15
+NoFade
+ENDA
+
+VillageEvent:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 MasterSeal
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+VendorList:
+SHLI Elfire Bolting Divine Purge Flux Luna Mend Restore Barrier Elixir PureWater Antidote Torch
+ALIGN 4
+
+ArmoryList:
+SHLI SteelSword SteelLance Javelin SteelAxe HandAxe SteelBow KillingEdge Armorslayer HeavySpear Horseslayer DragonAxe Swordslayer KillerBow Longbow
+ALIGN 4
+
+House1:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House2:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House3:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House4:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House5:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House6:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House7:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House8:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House9:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House10:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House11:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House12:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+MUNO
+NoFade
+ENDA
