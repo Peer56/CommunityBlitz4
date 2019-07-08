@@ -3,7 +3,7 @@ RefEscapeTable:
 #incbin "RefEscapeTable.dmp"
 POIN EscapeQuoteTable
 
-MESSAGE Deselect at CURRENTOFFSET
+//MESSAGE Deselect at CURRENTOFFSET
 ALIGN 4
 DeselectUnitForEscape:
 #incbin "DeselectUnit.dmp"
@@ -32,7 +32,7 @@ EscapeGeneralEffect:
 #incbin "EscapeEffectGeneral.dmp"
 POIN EscapeEvent
 
-MESSAGE End at CURRENTOFFSET
+//MESSAGE End at CURRENTOFFSET
 ALIGN 4
 FinalEscapeThing:
 #incbin "FinalEscapeHook.dmp"
