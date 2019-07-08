@@ -6,7 +6,5 @@
 
 #define ZeroEntry $D4C
 #define SampleText $D4D
-#define ArriveName $D4E
-#define ArriveDesc $D4F
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

@@ -3,9 +3,3 @@
 
 ## SampleText
 Your text here![X]
-
-## ArriveName
- Arrive[X]
-
-## ArriveDesc
-Arrive at a designated point.[X]

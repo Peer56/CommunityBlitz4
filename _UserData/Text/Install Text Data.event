@@ -17,14 +17,6 @@ __TEXTPROCESSD4D:
 #incbin ".TextEntries\text_buildfileSampleText.fetxt.dmp"
 setText($D4D, __TEXTPROCESSD4D)
 
-__TEXTPROCESSD4E:
-#incbin ".TextEntries\text_buildfileArriveName.fetxt.dmp"
-setText($D4E, __TEXTPROCESSD4E)
-
-__TEXTPROCESSD4F:
-#incbin ".TextEntries\text_buildfileArriveDesc.fetxt.dmp"
-setText($D4F, __TEXTPROCESSD4F)
-
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

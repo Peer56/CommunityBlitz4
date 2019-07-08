@@ -36,6 +36,8 @@
 #define UM_SwapDesc 0x56
 #define UM_Capture 0x57
 #define UM_CaptureDesc 0x58
+#define ArriveName 0x59
+#define ArriveDesc 0x5a
 #define nameCamus 0x903
 #define nameSirius 0x904
 #define nameZeke 0x905
