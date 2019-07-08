@@ -215,10 +215,6 @@ UNIT 0x7F Knight Lucio Level(7, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [IronLance] 
 UNIT 
 
 BeginningScene:
-CHECK_TUTORIAL
-BEQ 0x0 0xC 0x0
-ENUT 0xb0 //turn on casual mode if easy
-LABEL 0x0
 //Text(Insert text here)
 LOAD1 0x1 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep screens
 ENUN
@@ -228,7 +224,5 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-MNC2 0x2D //Go to chapter 9
+MNC2 9
 ENDA
-
-MESSAGE Events end at offset CURRENTOFFSET

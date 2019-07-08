@@ -126,7 +126,7 @@ UNIT 0x76 Fighter 0x44 Level(6,Enemy,1) [19,10] 0x00 0x00 0x0 0x00 [Halberd] Def
 UNIT 0x76 Fighter 0x44 Level(6,Enemy,1) [15,0] 0x00 0x00 0x0 0x00 [Tomahawk] DefaultAI
 UNIT
 
-Yorrick:
+YorrickGroup:
 UNIT Yorrick Monk 0x00 Level(5, Ally, 0) [1,15] 0x00 0x00 0x0 0x00 [Lightning, Vulnerary] NoAI
 UNIT Mint Archer 0x00 Level(4, NPC, 0) [18,15] 0x00 0x00 0x0 0x00 [Vulnerary] NoAI
 UNIT
@@ -146,7 +146,7 @@ LOAD2 0x1 Units1
 ENUN
 LOAD2 0x1 EnemyWyverns
 ENUN
-LOAD1 0x1 Yorrick
+LOAD1 0x1 YorrickGroup
 ENUN
 GotoPrepScreen
 NoFade
