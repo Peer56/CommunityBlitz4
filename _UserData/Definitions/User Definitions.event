@@ -2,9 +2,6 @@
 #include "Class Definitions.event"
 #include "Character Definitions.event"
 
-#define GiveItem(Item,Character) "CALL $591F40; SMOV 0x3 Item ; GIVEITEMTO Character"
-#define SetAI(unitid,ai1,ai2)"SVAL 0x1 ai1|(ai2<<8); CHAI unitid"
-
 #ifndef Nomad
 #define Nomad Cavalier
 #endif
