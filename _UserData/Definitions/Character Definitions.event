@@ -1,0 +1,70 @@
+//////////////////////////Playables
+#define Ria Eirika
+#define Garthan Seth
+#define Everett Gilliam
+#define Ignace Franz
+#define Edith Moulder
+#define Maurus Vanessa
+#define Furia Ross
+#define Kate Neimi
+#define Sayra Colm
+#define Jhonka Garcia
+#define Acies Innes
+//Lute
+#define Yorrick Natasha
+#define Mint Cormag
+#define Gershon Ephraim
+#define Osian Forde
+#define Tony Kyle
+//Amelia
+#define Juan Artur
+#define Reuben Gerik
+#define Arla Tethys
+#define Irena Marisa
+#define Reagan Saleh
+#define Ingrid Ewan
+#define Dan LArachel
+//Dozla
+#define Fraoch 0x1B
+//Rennac
+#define Karn Duessel
+#define Sonny Myrrh
+#define Alya Knoll
+#define Hadi Joshua
+#define Feidlimid Syrene
+//Tana
+#define Volstagg LyonCC
+//OrsonCC
+//...
+#define Anna RievCC
+#define Itzhar HaydenCC
+#define Destiny 0x2E
+
+//////////////////////////Bosses
+#define Nathan 0x40
+#define Berner 0x41
+#define Skaidrite 0x42
+#define Ignave 0x43
+#define Alzoram 0x44
+#define Merarri 0x45
+#define Algrim 0x46
+#define Rickets 0x47
+#define Lucio 0x48
+#define Cyrille 0x49
+//#define
+//#define
+//#define
+//#define
+#define Esme 0x4E
+#define Korath 0x4F
+#define Gaburas 0x59
+//#define
+#define Floorentius 0x51
+#define Flamebrand 0x56
+//#define
+//#define
+//#define
+#define Fomortiis 0x55
+#define Mizuki 0x5A
+
+//////////////////////////Generics
