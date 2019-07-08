@@ -1,0 +1,286 @@
+EventPointerTable(0x3B, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 WaveFirst[3,0] 0x0
+TURN 0x0 WaveSecond[6,0] 0x0
+TURN 0x0 WaveThird[10,0] 0x0
+TURN 0x0 WaveFourth[14,0] 0x0
+END_MAIN
+
+WaveFirst:
+ReinforcementEvent(Wave1)
+ENDA
+
+Wave1:
+UNIT 0x80 Brigand Tirado Level(15, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [KillerAxe] BrigandAI
+UNIT 0x80 Brigand Tirado Level(15, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [KillerAxe] BrigandAI 
+UNIT 0x80 Pirate Tirado Level(15, Enemy, 1) [20,0] 0x00 0x00 0x0 0x00 [SilverAxe] BrigandAI  
+UNIT
+
+WaveSecond:
+ReinforcementEvent(Wave2)
+ENDA
+
+Wave2:
+UNIT 0x80 WyvernRider Tirado Level(15, Enemy, 1) [10,1] 0x00 0x00 0x0 0x00 [SteelLance, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Tirado Level(15, Enemy, 1) [12,1] 0x00 0x00 0x0 0x00 [SteelLance, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Tirado Level(15, Enemy, 1) [9,0] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] PursueWithoutHeedAI
+UNIT 0x80 WyvernRider Tirado Level(15, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] PursueWithoutHeedAI 
+UNIT
+
+WaveThird:
+ReinforcementEvent(Wave3)
+ENDA
+
+Wave3:
+UNIT 0x80 WyvernLord Tirado Level(4, Enemy, 1) [10,9] 0x00 0x00 0x0 0x00 [SteelBlade, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 WyvernLord Tirado Level(4, Enemy, 1) [12,10] 0x00 0x00 0x0 0x00 [SilverLance, Wyrmslayer] PursueWithoutHeedAI 
+UNIT
+
+WaveFourth:
+ReinforcementEvent(Wave4)
+ENDA
+
+Wave4:
+UNIT 0x80 WyvernLord Tirado Level(4, Enemy, 1) [10,1] 0x00 0x00 0x0 0x00 [SilverLance, Zanbato] PursueWithoutHeedAI
+UNIT 0x80 WyvernLord Tirado Level(4, Enemy, 1) [12,1] 0x00 0x00 0x0 0x00 [Spear, BraveSword] PursueWithoutHeedAI
+UNIT 0x80 WyvernLord Tirado Level(4, Enemy, 1) [9,0] 0x00 0x00 0x0 0x00 [SilverSword, HeavyLance] PursueWithoutHeedAI
+UNIT 0x80 WyvernLord Tirado Level(4, Enemy, 1) [13,0] 0x00 0x00 0x0 0x00 [WindSword, DragonSpear] PursueWithoutHeedAI  
+UNIT 0x80 WyvernLord Tirado Level(4, Enemy, 1) [10,9] 0x00 0x00 0x0 0x00 [SilverBlade, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 WyvernLord Tirado Level(4, Enemy, 1) [12,10] 0x00 0x00 0x0 0x00 [BraveLance, Wyrmslayer] PursueWithoutHeedAI   
+UNIT
+
+CharacterBasedEvents:
+CharacterEventBothWays(0xA, RecruitTalk, Eirika, Alya)
+END_MAIN
+
+RecruitTalk:
+MUSS 0x30
+Text(PlaceholderText)
+REMA
+CUSA Alya//Alya joins the party!
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
+
+LocationBasedEvents:
+Village(0x7,VillageBerserk,16,9)
+Village(0x8,VillageWrath,6,11)
+Village(0x9,VillageHadi,1,15)
+Armory(ArmoryItems1,21,13)
+Vendor(ShopItems1,13,13)
+Armory(ArmoryItems2,9,11)
+Vendor(ShopItems2,1,9)
+House(0,HouseEvent1,0,10)
+House(0,HouseEvent2,8,12)
+House(0,HouseEvent3,14,12)
+House(0,HouseEvent4,22,11)
+House(0,HouseEvent5,22,14)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+Seize(11, 4)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [12,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [11,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [12,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [13,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [14,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [13,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [11,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [11,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [12,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [11,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [13,22] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [15,16] 0x00 0x00 0x0 0x00 [0x00] NoAI  
+UNIT
+
+Bad: 
+UNIT Tirado WyvernLord 0x00 Level(5, Enemy, 0) [11,4] 0x00 0x00 0x0 0x00 [Spear, Lancereaver, SilverBlade, 3000G] GuardTileAI 
+UNIT Alya WyvernRider_F Tirado Level(15, Enemy, 0) [1,7] 0x00 0x00 0x0 0x00 [SteelLance, IronLance] AttackInRangeAI  
+UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [17,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [19,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [18,13] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Paladin Tirado Level(2, Enemy, 1) [21,20] 0x00 0x00 0x0 0x00 [Javelin, SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Tirado Level(15, Enemy, 1) [20,22] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Tirado Level(15, Enemy, 1) [19,21] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [21,16] 0x00 0x00 0x0 0x00 [SteelAxe, SilverBow, 200G] PursueWithoutHeedAI 
+UNIT 0x80 Paladin Tirado Level(2, Enemy, 1) [22,9] 0x00 0x00 0x0 0x00 [SilverLance, 200G] AttackInRangeAI 
+UNIT 0x80 Warrior Tirado Level(3, Enemy, 1) [19,5] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
+UNIT 0x80 Druid Tirado Level(3, Enemy, 1) [18,6] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 Druid Tirado Level(3, Enemy, 1) [13,5] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 Druid Tirado Level(3, Enemy, 1) [9,6] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 Warrior Tirado Level(3, Enemy, 1) [9,5] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
+UNIT 0x80 Warrior Tirado Level(3, Enemy, 1) [13,6] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
+UNIT 0x80 WyvernLord Tirado Level(3, Enemy, 1) [1,5] 0x00 0x00 0x0 0x00 [Spear] GuardTileAI 
+UNIT 0x80 Druid Tirado Level(3, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
+UNIT 0x80 WyvernRider Tirado Level(15, Enemy, 1) [4,21] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Tirado Level(15, Enemy, 1) [4,23] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Tirado Level(2, Enemy, 1) [1,22] 0x2 0x00 0x0 0x00 [LightBrand] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Tirado Level(2, Enemy, 1) [3,9] 0x00 0x00 0x0 0x00 [SteelBlade, 200G] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Tirado Level(2, Enemy, 1) [4,1] 0x2 0x00 0x0 0x00 [SteelLance, MasterProof] PursueWithoutHeedAI 
+UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [4,17] 0x00 0x00 0x0 0x00 [SteelAxe, SilverBow] PursueWithoutHeedAI 
+UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [SteelAxe, SilverBow, 200G] AttackInRangeAI 
+UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [7,20] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [8,21] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [5,14] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [1,1] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 Druid_F Tirado Level(4, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [Flux, Sleep, Physic] AttackInRangeAI, HealUnitsAI 
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+CHECK_TUTORIAL
+BEQ 0x0 0xC 0x0
+ENUT 0xb0 //turn on casual mode if easy
+LABEL 0x0
+//Text(Ch0IntroTalk)
+LOAD1 0x1 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+ENUN
+LOAD1 0x1 Bad
+ENUN
+// GotoPrepScreen
+ENDA
+
+EndingScene:
+MNC2 Ch14 //go to ch14
+NoFade
+ENDA
+
+VillageBerserk:
+VillageEventItem(PlaceholderText, HouseBG, Berserk)
+
+VillageWrath:
+	// Set parameters
+	SVAL r1 WrathID
+	SVAL r2 (-1) // (-1) is active unit
+	
+	// Check if unit has skill
+	// If they have, goto label #0 (end)
+	ASMC (ASMC_HasSkill+1)
+	BNE 0 rC r0
+	
+	// Learn skill to unit
+	ASMC (ASMC_LearnNewSkill+1)
+	
+LABEL 0
+	// end
+	
+	Text(PlaceholderText)
+	
+	NoFade
+	ENDA
+	
+	// HouseEvent(PlaceholderText, HouseBG)
+	
+VillageHadi:
+Text(VillageText)
+LOAD1 0x1 HadiBlock
+ENUN
+NoFade
+ENDA
+
+HadiBlock:
+UNIT Hadi Bishop Eirika Level(5, Ally, 0) [1,15] 0x00 0x00 0x0 0x00 [Lightning, Mend, Silence] NoAI 
+UNIT
+
+HouseEvent1:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent2:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent3:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent4:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent5:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+ShopItems1:
+SHLI Heal Mend Thunder Lightning PureWater Vulnerary Torch
+ALIGN 4
+
+ArmoryItems1:
+SHLI SteelAxe SteelLance SteelBow SteelSword
+ALIGN 4
+
+ShopItems2:
+SHLI Elfire Flux Divine Physic Elixir Rescue Restore
+ALIGN 4
+
+ArmoryItems2:
+SHLI SilverAxe Hammer SilverLance Horseslayer SilverBow Longbow SilverSword SteelBlade HandAxe Javelin
+ALIGN 4
