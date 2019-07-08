@@ -1,5 +1,9 @@
 EventPointerTable(0x3B, PointerList)
 
+#ifndef VillageText
+#define VillageText 0x903
+#endif
+
 PointerList:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
@@ -123,7 +127,7 @@ UNIT Seth Paladin Eirika Level(1, Ally, 0) [15,16] 0x00 0x00 0x0 0x00 [0x00] NoA
 UNIT
 
 Bad: 
-UNIT Tirado WyvernLord 0x00 Level(5, Enemy, 0) [11,4] 0x00 0x00 0x0 0x00 [Spear, Lancereaver, SilverBlade, 3000G] NeverMoveAI
+UNIT Tirado WyvernLord 0x00 Level(5, Enemy, 0) [11,4] 0x00 0x00 0x0 0x00 [Spear, Lancereaver, SilverBlade, _3000G] NeverMoveAI
 UNIT Alya WyvernRider_F Tirado Level(15, Enemy, 0) [1,7] 0x00 0x00 0x0 0x00 [SteelLance, IronLance] AttackInRangeAI
 UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [17,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
 UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [19,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
@@ -131,8 +135,8 @@ UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [18,13] 0x00 0x00 0x0 0x00 [SteelAxe
 UNIT 0x80 Paladin Tirado Level(2, Enemy, 1) [21,20] 0x00 0x00 0x0 0x00 [Javelin, SteelSword] PursueWithoutHeedAI
 UNIT 0x80 Shaman Tirado Level(15, Enemy, 1) [20,22] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
 UNIT 0x80 Shaman Tirado Level(15, Enemy, 1) [19,21] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
-UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [21,16] 0x00 0x00 0x0 0x00 [SteelAxe, SilverBow, 200G] PursueWithoutHeedAI
-UNIT 0x80 Paladin Tirado Level(2, Enemy, 1) [22,9] 0x00 0x00 0x0 0x00 [SilverLance, 200G] AttackInRangeAI
+UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [21,16] 0x00 0x00 0x0 0x00 [SteelAxe, SilverBow, _200G] PursueWithoutHeedAI
+UNIT 0x80 Paladin Tirado Level(2, Enemy, 1) [22,9] 0x00 0x00 0x0 0x00 [SilverLance, _200G] AttackInRangeAI
 UNIT 0x80 Warrior Tirado Level(3, Enemy, 1) [19,5] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI
 UNIT 0x80 Druid Tirado Level(3, Enemy, 1) [18,6] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI
 UNIT 0x80 Druid Tirado Level(3, Enemy, 1) [13,5] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI
@@ -144,16 +148,16 @@ UNIT 0x80 Druid Tirado Level(3, Enemy, 1) [0,5] 0x00 0x00 0x0 0x00 [Flux] GuardT
 UNIT 0x80 WyvernRider Tirado Level(15, Enemy, 1) [4,21] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
 UNIT 0x80 WyvernRider Tirado Level(15, Enemy, 1) [4,23] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
 UNIT 0x80 WyvernLord Tirado Level(2, Enemy, 1) [1,22] 0x2 0x00 0x0 0x00 [LightBrand] PursueWithoutHeedAI
-UNIT 0x80 WyvernLord Tirado Level(2, Enemy, 1) [3,9] 0x00 0x00 0x0 0x00 [SteelBlade, 200G] PursueWithoutHeedAI
+UNIT 0x80 WyvernLord Tirado Level(2, Enemy, 1) [3,9] 0x00 0x00 0x0 0x00 [SteelBlade, _200G] PursueWithoutHeedAI
 UNIT 0x80 WyvernLord Tirado Level(2, Enemy, 1) [4,1] 0x2 0x00 0x0 0x00 [SteelLance, MasterProof] PursueWithoutHeedAI
 UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [4,17] 0x00 0x00 0x0 0x00 [SteelAxe, SilverBow] PursueWithoutHeedAI
-UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [SteelAxe, SilverBow, 200G] AttackInRangeAI
+UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [SteelAxe, SilverBow, _200G] AttackInRangeAI
 UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
 UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [7,20] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
 UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [8,21] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
 UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [5,14] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
 UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [1,1] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
-UNIT 0x80 Druid_F Tirado Level(4, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [Flux, Sleep, Physic] AttackInRangeAI, HealUnitsAI
+UNIT 0x80 Druid_F Tirado Level(4, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [Flux, Sleep, Physic] HealUnits
 UNIT
 
 Traps1:
@@ -178,7 +182,7 @@ ENUN
 ENDA
 
 EndingScene:
-MNC2 Ch14 //go to ch14
+MNC2 14 //go to ch14
 NoFade
 ENDA
 

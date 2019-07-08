@@ -64,6 +64,7 @@
 //#define
 //#define
 //#define
+#undef Fomortiis
 #define Fomortiis 0x55
 #define Mizuki 0x5A
 
