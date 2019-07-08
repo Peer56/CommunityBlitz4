@@ -1,9 +1,10 @@
+
 ALIGN 4
 RefEscapeTable:
 #incbin "RefEscapeTable.dmp"
 POIN EscapeQuoteTable
 
-//MESSAGE Deselect at CURRENTOFFSET
+MESSAGE Deselect at CURRENTOFFSET
 ALIGN 4
 DeselectUnitForEscape:
 #incbin "DeselectUnit.dmp"
@@ -31,8 +32,8 @@ ALIGN 4
 EscapeGeneralEffect:
 #incbin "EscapeEffectGeneral.dmp"
 POIN EscapeEvent
-
-//MESSAGE End at CURRENTOFFSET
+/*
+MESSAGE End at CURRENTOFFSET
 ALIGN 4
 FinalEscapeThing:
 #incbin "FinalEscapeHook.dmp"
@@ -44,7 +45,7 @@ SHORT 0xD004
 ORG 0x187A8
 jumpToHack(FinalEscapeThing)
 POP
-
+*/
 #define ArriveFlag 0x21
 #define EscapeFlag 0x22
 
