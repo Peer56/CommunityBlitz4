@@ -1,2 +1,9 @@
 #define RiaLord EirikaLord
 #define ArmorKnight Knight
+
+#define SwordCav Cavalier //
+#define LanceCav Cavalier //
+#define AxeCav Cavalier   //temporary fixes
+#define Nomad Archer      //
+#define BowCav Archer     //
+#define Thief_F Thief     //

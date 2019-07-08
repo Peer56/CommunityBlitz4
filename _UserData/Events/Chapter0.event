@@ -1,0 +1,96 @@
+EventPointerTable(0x7, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units Units  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningEvent EndingEvent
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatAll(EndingEvent)
+END_MAIN
+
+LocationBasedEvents:
+AREA 0x0 PursueAIChange [10,4] [14,9]
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units:
+UNIT Ria RiaLord 0x0 Level(1, Ally, 0) [3,10] 0x0 0x0 0x0 0x0 [BearClaw,Vulnerary] NoAI
+UNIT Ignace Cavalier 0x0 Level(2, Ally, 0) [1,11] 0x0 0x0 0x0 0x0 [IronLance] NoAI
+UNIT Edith Cavalier 0x0 Level(2, Ally, 0) [0,10] 0x0 0x0 0x0 0x0 [IronSword] NoAI
+UNIT Garthan GreatKnight 0x0 Level(1, Ally, 0) [0,12] 0x0 0x0 0x0 0x0 [SilverBlade] NoAI
+UNIT Everett Priest 0x0 Level(3, Ally, 0) [1,10] 0x0 0x0 0x0 0x0 [Heal,Vulnerary] NoAI
+UNIT Maurus Knight 0x0 Level(5, Ally, 0) [2,11] 0x0 0x0 0x0 0x0 [Javelin,IronAxe] NoAI
+UNIT
+
+Enemies:
+UNIT Nathan Brigand 0x0 Level(2,Enemy,1) [12,6] 0x0 0x0 0x0 0x0 [Hammer] NeverMoveAI
+UNIT 0x6E Archer 0x0 Level(1,Enemy,1) [11,10] 0x0 0x0 0x0 0x0 [Longbow] AttackInRangeAI
+UNIT 0x6E Soldier 0x0 Level(1,Enemy,1) [6,12] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT 0x6E Soldier 0x0 Level(1,Enemy,1) [2,7] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT 0x6E Mercenary 0x0 Level(2,Enemy,1) [12,4] 0x0 0x0 0x0 0x0 [Armorslayer] AttackInRangeAI
+UNIT 0x6E Myrmidon 0x0 Level(1,Enemy,1) [14,8] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT 0x6E Monk 0x0 Level(1,Enemy,1) [10,8] 0x0 0x0 0x0 0x0 [Lightning] AttackInRangeAI
+UNIT 0x6E Fighter 0x0 Level(1,Enemy,1) [10,14] 0x0 0x0 0x0 0x0 [IronAxe] AttackInRangeAI
+UNIT 0x6E Cavalier 0x0 Level(2,Enemy,1) [13,12] 0x0 0x0 0x0 0x0 [Javelin] AttackInRangeAI
+UNIT 0x6E Fighter 0x0 Level(1,Enemy,1) [3,1] 0x0 0x0 0x0 0x0 [HandAxe] AttackInRangeAI
+UNIT 0x6E Nomad 0x0 Level(2,Enemy,1) [0,2] 0x0 0x0 0x0 0x0 [ShortBow] AttackInRangeAI
+UNIT 0x6E Mercenary 0x0 Level(1,Enemy,1) [9,2] 0x0 0x0 0x0 0x0 [IronSword] AttackInRangeAI
+UNIT 0x6E PegasusKnight 0x0 Level(1,Enemy,1) [8,6] 0x0 0x0 0x0 0x0 [SlimLance] AttackInRangeAI
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+PursueAIChange:
+CHECK_ALLEGIANCE 0xFFFF
+BEQ 0x1 0xC 0x0
+GOTO 0x2
+LABEL 0x1
+//Cutscene here
+SetAI(0x6E,0x0,0x0)
+LABEL 0x2
+ENDA
+
+BeginningEvent:
+LOAD1 0x1 Units
+ENUN
+LOAD1 0x1 Enemies
+ENUN
+NoFade
+ENDA
+
+EndingEvent:
+MNC2 0x2
+NoFade
+ENDA

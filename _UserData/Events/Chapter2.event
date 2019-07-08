@@ -1,0 +1,173 @@
+// Chapter 2 for FEU Community Blitz
+// By Pandan
+EventPointerTable(0xd, ThisChapter)
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3
+POIN Tutorial
+POIN Traps1 Traps2
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
+
+TurnBasedEvents:
+TURN 0x0 SoldierReinforcement [2,0] 0x0
+TURN 0x0 BrigandReinforcement [3,0] 0x0
+TURN 0x0 PegasusReinforcement [5,0] 0x0
+TURN 0x0 BossChangeAI [6,0] 0x0
+TURN 0x0 CavalierReinforcement [8,0] 0x0
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Village(0x8,VillageTorch,1,5)
+Village(0x9,VillageDevilAxe,14,12)
+AREA 0x10 HiddenItem [0,2] [0,2]
+//Seize
+Seize(1,16)
+#ifdef __DEBUG__
+Seize(12,1)
+#endif
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+VillageTorch:
+VillageEventItem(PlaceholderText, Village, Torch) //Gives item to the active character (the one visiting)
+ENDA
+
+VillageDevilAxe:
+VillageEventItem(PlaceholderText, Village, DevilAxe) //Gives item to the active character (the one visiting)
+ENDA
+
+HiddenItem:
+GiveItem(SteelBlade,0xFFFF)
+ENDA
+
+SoldierReinforcement:
+ReinforcementEvent(SoldierReinforcementUnit)
+ENDA
+
+BrigandReinforcement:
+ReinforcementEvent(BrigandReinforcementUnit)
+ENDA
+
+PegasusReinforcement:
+ReinforcementEvent(PegasusReinforcementUnit)
+ENDA
+
+CavalierReinforcement:
+ReinforcementEvent(CavalierReinforcementUnit)
+ENDA
+
+SoldierReinforcementUnit:
+UNIT 0x72 Soldier 0x00 Level(2,Enemy,0) [8,10] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x72 Mercenary 0x00 Level(2,Enemy,0) [11,12] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT
+
+BrigandReinforcementUnit:
+UNIT 0x72 Brigand 0x00 Level(2,Enemy,0) [7,16] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI
+UNIT
+
+PegasusReinforcementUnit:
+UNIT 0x72 PegasusKnight 0x00 Level(2,Enemy,0) [15,16] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT
+
+CavalierReinforcementUnit:
+UNIT 0x73 LanceCav 0x00 Level(10,Enemy,0) [11,0] 0x00 0x00 0x0 0x00 [Horseslayer] PursueWithoutHeedAI
+UNIT 0x73 SwordCav 0x00 Level(10,Enemy,0) [12,0] 0x00 0x00 0x0 0x00 [Zanbato] PursueWithoutHeedAI
+UNIT 0x73 AxeCav 0x00 Level(10,Enemy,0) [13,0] 0x00 0x00 0x0 0x00 [Hammer] PursueWithoutHeedAI
+UNIT 0x73 SwordCav 0x00 Level(10,Enemy,0) [14,0] 0x00 0x00 0x0 0x00 [Lancereaver] PursueWithoutHeedAI
+UNIT 0x73 BowCav 0x00 Level(10,Enemy,0) [15,0] 0x00 0x00 0x0 0x00 [SteelBow] PursueWithoutHeedAI
+UNIT
+
+BossChangeAI:
+//Text(Ch2AIChange)
+SetAI(Skaidrite,0x0,0x0,0x4,0x0)
+ENDA
+
+// Player Units
+Units:
+UNIT 0x01 0x01 0x00 Level(1, Ally, 0) [8,2] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [8,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [10,1] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [10,3] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [12,0] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [12,2] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [12,3] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [13,2] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+
+// Sayra and Jhonka
+NPCs:
+UNIT Colm Thief_F 0x00 Level(1, NPC, 0) [2,6] 0x00 0x03 0x0 0x00 [IronSword, Lockpick, Vulnerary] AttackInRangeAI // Sayra
+UNIT Garcia Brigand 0x00 Level(2, NPC, 0) [1,7] 0x00 0x03 0x0 0x00 [IronAxe, Vulnerary] AttackInRangeAI // Jhonka
+UNIT
+
+// Enemies
+Enemies:
+UNIT Skaidrite Myrmidon_F 0x00 Level(5, Enemy, 0) [1,16] 0x03 0x00 0x0 0x00 [Lancereaver] NeverMoveAI //Lancereaver should be droppable
+UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [7,5] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x72 Fighter 0x00 Level(2, Enemy, 0) [8,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x72 Mercenary 0x00 Level(2, Enemy, 0) [11,6] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [12,5] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x72 Mercenary 0x00 Level(2, Enemy, 0) [11,9] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x72 Archer 0x00 Level(2, Enemy, 0) [12,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
+UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [6,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [1,10] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x72 Archer 0x00 Level(2, Enemy, 0) [1,13] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
+UNIT 0x72 Fighter 0x00 Level(2, Enemy, 0) [2,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x72 Mage 0x00 Level(2, Enemy, 0) [11,15] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI
+UNIT 0x72 Monk 0x00 Level(2, Enemy, 0) [12,16] 0x00 0x00 0x0 0x00 [Lightning] AttackInRangeAI
+UNIT 0x72 Myrmidon 0x00 Level(2, Enemy, 0) [15,13] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI
+UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [15,17] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
+UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, 0) [8,17] 0x03 0x00 0x0 0x00 [Javelin, SteelSword, RedGem] AttackInRangeAI // Droppable Red Gem
+UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, 0) [0,16] 0x00 0x00 0x0 0x00 [IronLance, IronSword, RedGem] AttackInRangeAI // Stealable Red Gem
+UNIT
+
+ALIGN 4
+BeginningScene:
+LOAD2 0x1 Units
+ENUN
+LOAD1 0x1 NPC
+ENUN
+LOAD1 0x1 Enemies
+ENUN
+//Text(Ch2Opening)
+NoFade
+ENDA
+
+EndingScene:
+//Text(Ch2Ending)
+MNC2 3
+ENDA

@@ -1,0 +1,158 @@
+EventPointerTable(0x14,ThisChapter)
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 Reinforcements[5,0] 0x0
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEvent(0x8, RecruitAcies, Eirika, Innes)
+END_MAIN
+
+LocationBasedEvents:
+Village(0x7,House1,10,1)
+Armory(Armory,4,2)
+House(0x9,House2,7,10)
+House(0x10,House3,6,15)
+Village(0x11,House4,10,1)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+ALIGN 4
+
+BeginningScene:
+LOAD1 0x1 Enemies
+ENUN
+LOAD1 0x1 AciesUnit
+ENUN
+LOAD2 0x1 Units
+ENUN
+Text(PlaceholderText)
+GotoPrepScreen
+ENDA
+
+EndingScene:
+Text(PlaceholderText)
+MoveToChapter(4)
+ENDA
+
+Units:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [16,3] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [15,5] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [16,5] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [16,6] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [15,6] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [16,8] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [16,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [17,8] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [17,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+
+Enemies:
+UNIT Ignave Fighter 0x00 Level(4, Enemy, 0) [17,16] 0x00 0x00 0x0 0x00 [SteelAxe, HandAxe] GuardTileAI
+UNIT 0x74 Knight 0x00 Level(3, Enemy, 1) [12,5] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x74 Mercenary 0x00 Level(4, Enemy, 1) [9,8] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI
+UNIT 0x74 Archer 0x00 Level(4, Enemy, 1) [9,7] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI
+UNIT 0x75 Fighter 0x00 Level(4, Enemy, 1) [4,2] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI
+UNIT 0x74 Mage 0x74 Level(5, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [Thunder] MoveWithLeaderAI
+UNIT 0x74 Brigand 0x00 Level(3, Enemy, 1) [8,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x74 Cavalier 0x00 Level(3, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x74 Shaman 0x00 Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [Nosferatu] [0x0C,0x03]
+UNIT 0x74 Knight 0x00 Level(5, Enemy, 1) [3,17] 0x00 0x00 0x0 0x00 [SteelAxe, Spear] GuardTileAI
+UNIT 0x74 Fighter 0x00 Level(3, Enemy, 1) [2,10] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x74 Mercenary 0x00 Level(4, Enemy, 1) [0,6] 0x00 0x00 0x0 0x00 [IronBlade] PursueWithoutHeedAI
+UNIT 0x74 Soldier 0x00 Level(5, Enemy, 1) [5,15] 0x00 0x00 0x0 0x00 [SteelLance, Javelin] AttackInRangeAI
+UNIT 0x74 Mage 0x00 Level(4, Enemy, 1) [16,15] 0x00 0x00 0x0 0x00 [Elfire] AttackInRangeAI
+UNIT 0x75 Mercenary 0x00 Level(5, Enemy, 1) [9,16] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI
+UNIT 0x74 Archer 0x74 Level(5, Enemy, 1) [8,17] 0x00 0x00 0x0 0x00 [SteelBow] MoveWithLeaderAI
+UNIT 0x74 Brigand 0x00 Level(4, Enemy, 1) [14,16] 0x00 0x00 0x0 0x00 [KillerAxe] [0x00, 0x06]
+UNIT 0x74 Cavalier 0x00 Level(4, Enemy, 1) [3,0] 0x00 0x00 0x0 0x00 [SteelLance] [0x00, 0x06]
+UNIT
+
+AciesUnit:
+UNIT Acies Myrmidon 0x00 Level(4, NPC, 0) [5,11] 0x00 0x00 0x0 0x00 [Shamshir, Elixir] PursueWithoutHeedAI
+UNIT
+
+Reinforcements:
+UNIT 0x74 PegasusKnight 0x00 Level(6, Enemy, 1) [15,0] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI
+UNIT 0x74 PegasusKnight 0x00 Level(6, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [Axereaver] PursueWithoutHeedAI
+UNIT 0x74 PegasusKnight 0x00 Level(6, Enemy, 1) [15,2] 0x00 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI
+UNIT 0x74 PegasusKnight 0x00 Level(6, Enemy, 1) [16,1] 0x00 0x00 0x0 0x00 [Horseslayer] PursueWithoutHeedAI
+UNIT
+
+// Events
+RecruitAcies:
+MUSC 0x30 //recruitment
+Text(PlaceholderText)
+CUSA Acies
+REMA
+NoFade
+ENDA
+
+House1:
+VillageEventItem(PlaceholderText, HouseBG, EnergyRing)
+NoFade
+ENDA
+
+House2:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+//Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+House3:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+//Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+House4:
+VillageEventItem(PlaceholderText, HouseBG, KillerAxe)
+NoFade
+ENDA
+
+
+// Manual Movement
+
+// Scripted Fights
+
+// Shop Data
+Armory:
+SHLI SteelSword SteelLance SteelAxe SteelBow
+
+MESSAGE Events end at offset currentOffset

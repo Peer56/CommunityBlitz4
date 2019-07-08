@@ -10,10 +10,22 @@
 #define SetChapterData(ChapterID,ObjectType1,ObjectType2,PaletteID,TileConfig,MapID,MapPointer,Anims1,Anims2,MapChanges) "PUSH; ORG ChapterDataTable+(ChapterID*148)+4; BYTE ObjectType1 ObjectType2 PaletteID TileConfig MapID Anims1 Anims2 MapChanges; EventPointerTable(MapID,MapPointer); POP" 
 
 {
+#include "Chapter0Map.event"
+}
+{
 #include "Chapter13Map.event"
 }
 {
 #include "Chapter14Map.event"
+}
+{
+#include "Chapter1Map.event"
+}
+{
+#include "Chapter2Map.event"
+}
+{
+#include "Chapter3Map.event"
 }
 {
 #include "Chapter4Map.event"

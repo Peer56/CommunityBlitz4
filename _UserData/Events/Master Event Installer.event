@@ -1,6 +1,6 @@
 ALIGN 4
 {
-//#include "Chapter0.event"
+#include "Chapter0.event"
 }
 ALIGN 4
 {
@@ -8,11 +8,11 @@ ALIGN 4
 }
 ALIGN 4
 {
-//#include "Chapter2.event"
+#include "Chapter2.event"
 }
 ALIGN 4
 {
-//#include "Chapter3.event"
+#include "Chapter3.event"
 }
 ALIGN 4
 {
