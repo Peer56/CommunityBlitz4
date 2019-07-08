@@ -1,0 +1,275 @@
+﻿//Chapter 8 Event by Ganzap
+//Map by Karkino
+//Theres a shit ton of definitions but the actual events are there i swear
+#include EAstdlib.event
+#define GiveItem(Item,Character) "CALL $591F40; SMOV 0x3 Item ; GIVEITEMTO Character"
+
+EventPointerTable(0x2A,PointerList)
+#include "REDAs.event"
+#ifndef Nomad
+#define Nomad Cavalier
+#endif
+#ifndef Nomad_F
+#define Nomad_F Cavalier_F
+#endif
+#ifndef NomadTrooper
+#define NomadTrooper Ranger
+#endif
+#ifndef NomadTrooper_F
+#define NomadTrooper_F Ranger_F
+#endif
+#ifndef Monk_F
+#define Monk_F Monk
+#endif
+#ifndef AxeCav_F
+#define AxeCav_F Cavalier_F
+#endif
+#ifndef SwordCav
+#define SwordCav Cavalier
+#endif
+#ifndef SwordCav_F
+#define SwordCav_F Cavalier_F
+#endif
+#ifndef LanceCav
+#define LanceCav Cavalier
+#endif
+#ifndef LanceCav_F
+#define LanceCav_F Cavalier_F
+#endif
+#ifndef AxeCav
+#define AxeCav Cavalier
+#endif
+#ifndef PlaceholderText
+#define PlaceholderText 0x903
+#endif
+#define Lucio Bazba
+#define SetAI(unitid,ai1,ai2)"SVAL 0x1 ai1|(ai2<<8); CHAI unitid"
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units1 Units1 //PrepScreenStuff iirc
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TurnEventPlayer(9,SteelHeartArrive,4)
+TURN 0x0 Reinforcement1[5,0] 0x0
+TURN 0x0 ThiefArrive[6,0] 0x0
+TURN 0x0 Reinforcement2[4,0] 0x0
+TURN 0x0 LucioAIChange[2,0] 0x0
+TURN 0x0 Reinforcement3[8,0] 0x0
+TURN 0x0 Reinforcement4[9,0] 0x0
+END_MAIN
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+LucioAIChange:
+Text(PlaceholderText)
+SetAI(Bazba,0x03,0x03)
+ENDA
+
+SteelHeartArrive:
+LOAD1 0x1 SteelHeart
+ENUN
+Text(PlaceholderText)
+ENDA
+
+ThiefArrive:
+ReinforcementEvent(ThiefGang)
+
+ThiefGang:
+UNIT 0x66 Thief Lucio Level(5, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] LootingThiefAI
+UNIT
+
+Reinforcement1:
+ReinforcementEvent(Wave1)
+
+Reinforcement2:
+ReinforcementEvent(Wave2)
+
+Reinforcement3:
+ReinforcementEvent(Wave3)
+
+Reinforcement4:
+ReinforcementEvent(Wave4)
+
+Wave2:
+UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [5,0] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT
+
+Wave1:
+UNIT 0x7F WyvernRider Lucio Level(6, Enemy, 1) [19,19] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x7F Archer Lucio Level(8, Enemy, 1) [9,10] DropItem 0x00 0x0 0x00 [IronBow, DoorKey] PursueWithoutHeedAI
+UNIT 0x7F Mercenary Lucio Level(6, Enemy, 1) [3,11] DropItem 0x00 0x0 0x00 [IronBlade, DoorKey] PursueWithoutHeedAI
+UNIT
+
+Wave3:
+UNIT 0x7F LanceCav Lucio Level(7, Enemy, 1) [0,19] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x7F LanceCav Lucio Level(7, Enemy, 1) [0,20] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI
+UNIT
+
+//Final wave of enemies
+Wave4:
+UNIT 0x7F SwordCav Lucio Level(7, Enemy, 1) [1,19] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x7F LanceCav Lucio Level(7, Enemy, 1) [1,20] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI
+UNIT
+
+
+CharacterBasedEvents:
+CharacterEventBothWays(10,RecruitSM1,Ross,Tethys)
+CharacterEventBothWays(11,RecruitSM2,Neimi,Tethys)
+CharacterEventBothWays(12,RecruitSM3,Moulder,Tethys)
+END_MAIN
+
+RecruitSM1:
+MUSS 0x30
+Text(PlaceholderText)
+REMA
+CUSA Tethys//SteelHeartMercs join the party!
+CUSA Marisa
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
+
+RecruitSM2:
+MUSS 0x30
+Text(PlaceholderText)
+REMA
+CUSA Tethys//SteelHeartMercs join the party!
+CUSA Marisa
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
+
+RecruitSM3:
+MUSS 0x30
+Text(PlaceholderText)
+REMA
+CUSA Tethys//SteelHeartMercs join the party!
+CUSA Marisa
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
+LocationBasedEvents:
+Seize(8,EndingScene,11,3) //Seize to win the game
+Door(1,8)//Door on far left
+Door(2,8)
+Door(10,7)//Door on middle
+Door(11,7)
+Chest(LightBrand,18,0)//Chest in top right corner
+Chest(Barrier,18,2)//Below top right chest in top right corner
+ChestMoney(5000,3,3)//Bottom Chest in far left corner
+Chest(KillerAxe,2,1)//Left Chest in far left corner
+Chest(KnightsCrest,4,1)//Right Chest in far left corner
+AREA 7 SpecialIrenaEvent [9,12] [10,12]
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+
+SpecialIrenaEvent:
+CHECK_ACTIVE //gives us active character's ID in 0xC
+SVAL 0x1 Marisa //the character we want to check against the active one
+BEQ 1 0x1 0xC //if they match, go to label 1
+ENUF 7 //this resets the event's ID if they don't match so it can run again
+GOTO 2
+LABEL 1
+Text(PlaceholderText)
+GiveItem(MasterSeal,Marisa)
+LABEL 2
+NoFade
+ENDA
+
+SteelHeart:
+UNIT Marisa Thief Tethys Level(7, NPC, 0) [19,5] 0x00 0x00 0x1 REDA19R8 [Lancereaver, SlimSword, Lockpick] MoveWithLeaderAI
+UNIT Tethys Nomad_F Tethys Level(8, NPC, 0) [19,6] 0x00 0x00 0x1 REDA19R9 [KillerBow, SteelBow, Elixir] AttackInRangeAI
+UNIT
+
+Units1:
+UNIT Eirika EirikaLord Eirika Level(1, Ally, 0) [1,19] 0x00 0x00 0x0 0x00 [Rapier, SteelSword] NoAI
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [2,20] 0x00 0x00 0x0 0x00 [0x00] NoAI  
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [0,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [3,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [1,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [0,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [3,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [2,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [4,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [4,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [5,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+Bad:
+UNIT Lucio Sage Lucio Level(5, Enemy, 0) [11,3] DropItem 0x00 0x0 0x00 [Thunder, Bolting] DoNothing
+UNIT 0x7F Knight Lucio Level(6, Enemy, 1) [1,10] 0x00 0x00 0x0 0x00 [SteelLance] GuardTileAI
+UNIT 0x7F Knight Lucio Level(6, Enemy, 1) [2,10] 0x00 0x00 0x0 0x00 [SteelLance] GuardTileAI
+UNIT 0x7F LanceCav Lucio Level(7, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [Javelin, SteelSword] AttackInRangeAI
+UNIT 0x7F Shaman Lucio Level(7, Enemy, 1) [10,9] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI
+UNIT 0x7F Mage Lucio Level(8, Enemy, 1) [8,20] DropItem 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI
+UNIT 0x7F Priest Lucio Level(6, Enemy, 1) [16,14] DropItem 0x00 0x0 0x00 [Mend, Physic] HealUnits
+UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [13,19] 0x00 0x00 0x0 0x00 [Halberd, HandAxe] GuardTileAI
+UNIT 0x7F Mercenary Lucio Level(8, Enemy, 1) [2,13] 0x00 0x00 0x0 0x00 [SteelSword] GuardTileAI
+UNIT 0x7F Priest Lucio Level(6, Enemy, 1) [9,4] 0x00 0x00 0x0 0x00 [Physic] HealUnits
+UNIT 0x7F Priest Lucio Level(7, Enemy, 1) [13,4] 0x00 0x00 0x0 0x00 [Physic] HealUnits
+UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [10,20] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x7F PegasusKnight Lucio Level(7, Enemy, 1) [19,20] DropItem 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI
+UNIT 0x7F WyvernRider Lucio Level(7, Enemy, 1) [19,19] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x7F Mage Lucio Level(8, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI
+UNIT 0x7F Knight Lucio Level(7, Enemy, 1) [3,5] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x7F Knight Lucio Level(6, Enemy, 1) [2,4] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x7F Knight Lucio Level(7, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [7,4] 0x00 0x00 0x0 0x00 [HandAxe] AttackInRangeAI
+UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [7,3] 0x00 0x00 0x0 0x00 [HandAxe] AttackInRangeAI
+UNIT 0x7F Myrmidon Lucio Level(8, Enemy, 1) [7,3] DropItem 0x00 0x0 0x00 [Lancereaver] PursueWithoutHeedAI
+UNIT 0x7F Soldier Lucio Level(7, Enemy, 1) [17,6] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI
+UNIT 0x7F Monk Lucio Level(7, Enemy, 1) [16,10] 0x00 0x00 0x0 0x00 [Shine] AttackInRangeAI
+UNIT 0x7F Archer Lucio Level(6, Enemy, 1) [18,11] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI
+UNIT 0x7F Fighter Lucio Level(6, Enemy, 1) [18,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x7F Myrmidon Lucio Level(7, Enemy, 1) [11,20] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI
+UNIT 0x7F LanceCav Lucio Level(7, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x7F SwordCav Lucio Level(7, Enemy, 1) [7,18] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT 0x7F Soldier Lucio Level(7, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
+UNIT 0x7F Soldier Lucio Level(8, Enemy, 1) [3,13] DropItem 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x7F Pirate Lucio Level(7, Enemy, 1) [18,3] DropItem 0x00 0x0 0x00 [KillerAxe, ChestKey] GuardTileAI
+UNIT 0x7F Archer Lucio Level(6, Enemy, 1) [16,16] 0x00 0x00 0x0 0x00 [SteelBow, Longbow] AttackInRangeAI
+UNIT 0x7F SwordCav Lucio Level(7, Enemy, 1) [18,16] 0x00 0x00 0x0 0x00 [IronBlade, Vulnerary] AttackInRangeAI
+UNIT 0x7F Soldier Lucio Level(8, Enemy, 1) [14,12] DropItem 0x00 0x0 0x00 [Axereaver,Javelin] AttackInRangeAI
+UNIT 0x7F Archer Lucio Level(7, Enemy, 1) [9,8] 0x00 0x00 0x0 0x00 [Longbow, BodyRing] AttackInRangeAI
+UNIT 0x7F Archer Lucio Level(7, Enemy, 1) [12,8] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI
+UNIT 0x7F Knight Lucio Level(7, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
+UNIT 
+
+BeginningScene:
+CHECK_TUTORIAL
+BEQ 0x0 0xC 0x0
+ENUT 0xb0 //turn on casual mode if easy
+LABEL 0x0
+//Text(Insert text here)
+LOAD1 0x1 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+ENUN
+LOAD1 0x1 Bad
+ENUN
+GotoPrepScreen
+ENDA
+
+EndingScene:
+MNC2 0x2D //Go to chapter 9
+ENDA
+
+MESSAGE Events end at offset CURRENTOFFSET
