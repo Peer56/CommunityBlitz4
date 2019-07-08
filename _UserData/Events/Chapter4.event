@@ -13,9 +13,9 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TurnEventPlayer(0,turn3Reinforcements,3)
-TurnEventPlayer(0,turn5Reinforcements,5)
-TurnEventPlayer(0,turn8Reinforcements,8)
+TurnEventPlayer(0,Turn3Reinforcements,3)
+TurnEventPlayer(0,Turn5Reinforcements,5)
+TurnEventPlayer(0,Turn8Reinforcements,8)
 END_MAIN
 
 CharacterBasedEvents:

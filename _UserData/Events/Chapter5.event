@@ -1,13 +1,4 @@
-#include EAstdlib.event
-
-#ifndef InlineEvents
-  #define ChName_DefaultChapterOffset 0x01000000
-  PUSH
-  ORG ChName_DefaultChapterOffset
-#endif
-
-#define ChName_ID 0x06
-EventPointerTable(ChName_ID, ChName_ThisChapter)
+EventPointerTable(0x1E, ChName_ThisChapter)
 
 ChName_ThisChapter:
 
@@ -18,26 +9,26 @@ POIN ChName_MiscBasedEvents
 POIN ChName_Dunno ChName_Dunno ChName_Dunno
 POIN ChName_Tutorial
 POIN ChName_Ballista1 ChName_Ballista2
-POIN ChName_Units1 ChName_Units1
+POIN GOODBOIS GOODBOIS
 POIN $0 $0 $0 $0 $0 $0
 POIN ChName_BeginningScene ChName_EndingScene
 
 ChName_TurnBasedEvents:
-TurnEventPlayer(0x0,EventAfterExitingPrepScreen,1)
-TURN
+//TurnEventPlayer(0x0,EventAfterExitingPrepScreen,1)
+END_MAIN
 
 ChName_CharacterBasedEvents:
 CharacterEvent(0x7,EphRecruit,Eirika,Ephraim)
 CharacterEvent(0x8,FordeRecruit,Eirika,Forde)
-CHAR
+END_MAIN
 
 ChName_LocationBasedEvents:
-LOCA
+END_MAIN
 
 ChName_MiscBasedEvents:
 CauseGameOverIfLordDies
 //Add Win Condition
-AFEV
+END_MAIN
 
 ChName_Dunno:
 END_MAIN
@@ -46,10 +37,10 @@ ChName_Tutorial:
 END_MAIN
 
 ChName_Ballista1:
-BLST
+END_MAIN
 
 ChName_Ballista2:
-BLST
+END_MAIN
 ALIGN 4
 
 ASSHATS:
@@ -67,7 +58,7 @@ UNIT 0x80 Pirate 0x0 Level(5, Enemy, 1) [7, 16] 0x00 0x00 0x00 0x00 [HandAxe] At
 UNIT 0x80 Archer 0x0 Level(6, Enemy, 1) [11, 19] 0x00 0x00 0x00 0x00 [Longbow, SteelBow] AttackInRangeAI
 UNIT 0x80 Myrmidon 0x0 Level(5, Enemy, 1) [10, 7] 0x00 0x00 0x00 0x00 [IronSword] AttackInRangeAI
 UNIT 0x80 Myrmidon_F 0x0 Level(6, Enemy, 1) [6, 9] 0x00 0x00 0x00 0x00 [IronSword] AttackInRangeAI
-UNIT 0x80 Cavalier_F 0x0 Level(5, Enemy, 1) [5, 14] 0x00 0x00 0x00 0x00 [Steel Sword, Javelin] PursueWithoutHeedAI
+UNIT 0x80 Cavalier_F 0x0 Level(5, Enemy, 1) [5, 14] 0x00 0x00 0x00 0x00 [SteelSword, Javelin] PursueWithoutHeedAI
 UNIT 0x80 Cavalier 0x0 Level(6, Enemy, 1) [7, 14] 0x02 0x00 0x00 0x00 [SteelLance, WindSword] PursueWithoutHeedAI
 UNIT Ephraim AxeCav 0x0 Level(5, Enemy, 0) [6, 13] 0x00 0x00 0x00 0x00 [DevilAxe, HandAxe] PursueWithoutHeedAI
 UNIT Forde Fighter 0x0 Level(5, Enemy, 0) [13, 16] 0x00 0x00 0x00 0x00 [KillerAxe] PursueWithoutHeedAI
@@ -91,13 +82,12 @@ ChName_BeginningScene:
 FADU 0x8
 LOAD1 ASSHATS
 ENUN
-LOAD1 GOODBOIS
-ENUN
-ENDB
+GotoPrepScreen
+ENDA
 
 
 ChName_EndingScene:
-MNC2 0x07
+MNC2 6
 ENDA
 
 // Events
@@ -109,7 +99,3 @@ FordeRecruit:
 TurnAlly(Forde)
 ENDA
 
-#ifndef InlineEvents
-  MESSAGE Events end at offset CURRENTOFFSET
-  POP
-#endif

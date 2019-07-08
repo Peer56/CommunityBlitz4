@@ -224,7 +224,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-TEX1 PlaceholderText
+Text(PlaceholderText)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -234,7 +234,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-TEX1 PlaceholderText
+Text(PlaceholderText)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -244,7 +244,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-TEX1 PlaceholderText
+Text(PlaceholderText)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -254,7 +254,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-TEX1 PlaceholderText
+Text(PlaceholderText)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -264,7 +264,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-TEX1 PlaceholderText
+Text(PlaceholderText)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA

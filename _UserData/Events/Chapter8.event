@@ -1,49 +1,8 @@
 ﻿//Chapter 8 Event by Ganzap
 //Map by Karkino
 //Theres a shit ton of definitions but the actual events are there i swear
-#include EAstdlib.event
-#define GiveItem(Item,Character) "CALL $591F40; SMOV 0x3 Item ; GIVEITEMTO Character"
-
 EventPointerTable(0x2A,PointerList)
-#include "REDAs.event"
-#ifndef Nomad
-#define Nomad Cavalier
-#endif
-#ifndef Nomad_F
-#define Nomad_F Cavalier_F
-#endif
-#ifndef NomadTrooper
-#define NomadTrooper Ranger
-#endif
-#ifndef NomadTrooper_F
-#define NomadTrooper_F Ranger_F
-#endif
-#ifndef Monk_F
-#define Monk_F Monk
-#endif
-#ifndef AxeCav_F
-#define AxeCav_F Cavalier_F
-#endif
-#ifndef SwordCav
-#define SwordCav Cavalier
-#endif
-#ifndef SwordCav_F
-#define SwordCav_F Cavalier_F
-#endif
-#ifndef LanceCav
-#define LanceCav Cavalier
-#endif
-#ifndef LanceCav_F
-#define LanceCav_F Cavalier_F
-#endif
-#ifndef AxeCav
-#define AxeCav Cavalier
-#endif
-#ifndef PlaceholderText
-#define PlaceholderText 0x903
-#endif
-#define Lucio Bazba
-#define SetAI(unitid,ai1,ai2)"SVAL 0x1 ai1|(ai2<<8); CHAI unitid"
+
 PointerList:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
