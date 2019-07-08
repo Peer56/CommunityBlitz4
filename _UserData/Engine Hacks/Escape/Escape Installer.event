@@ -3,12 +3,12 @@ ALIGN 4
 RefEscapeTable:
 #incbin "RefEscapeTable.dmp"
 POIN EscapeQuoteTable
-
+/*
 MESSAGE Deselect at CURRENTOFFSET
 ALIGN 4
 DeselectUnitForEscape:
 #incbin "DeselectUnit.dmp"
-
+*/
 ALIGN 4
 #include "EscapeEvent.event"
 
