@@ -11,9 +11,9 @@
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0x40"/>
    <property name="MapID" value="0x3F"/>
-   <property name="ObjectType" value="0x94"/>
-   <property name="PaletteID" value="0x95"/>
-   <property name="TileConfig" value="0x93"/>
+   <property name="ObjectType" value="1"/>
+   <property name="PaletteID" value="0x38"/>
+   <property name="TileConfig" value="3"/>
   </properties>
   <data encoding="csv">
 817,818,783,997,805,203,273,273,273,273,270,805,785,851,851,786,817,818,817,818,858,859,860,
