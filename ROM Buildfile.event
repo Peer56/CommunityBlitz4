@@ -1,6 +1,6 @@
 #ifdef _FE8_
 
-    #define __DEBUG__
+    //#define __DEBUG__
 	#include "EAstdlib.event"
     #include "Engine Hacks/SkillSystem/skill_definitions.event"
     #include "Definitions/Custom Definitions.event"
