@@ -39,3 +39,12 @@
 #define PlaceholderText 0x903
 #endif
 
+// TODO: move to own file
+#define Ch10Id 10
+#define Ch11Id 11
+
+// TODO: move to own file
+#define FERRY_AI1     10
+#define CH10_ALLY_AI1 11
+
+#define CH10_DAN_AI2  11

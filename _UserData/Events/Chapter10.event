@@ -1,0 +1,663 @@
+#ifndef STAN_CH10_INCLUDED
+#define STAN_CH10_INCLUDED
+
+#include "EAstdlib.event"
+
+#include "Chapter10Asmcs.lyn.event"
+
+#ifndef SetSymbolDefined
+  #define SetSymbolDefined
+  #define SetSymbol(aName, aValue) "PUSH; ORG (aValue); aName:; POP"
+#endif // SetSymbolDefined
+
+#ifndef ROM
+  #define ROM 0x08000000
+#endif // ROM
+
+SetSymbol(scPrepScreen,         $591FD8) // no args
+SetSymbol(scNoSkipFadeOut,      $591F40) // no args
+SetSymbol(scLoadReinforcements, $9EE274) // args: s2 = pointer to UNITs
+
+/* ================== */
+/* = CHAPTER CONFIG = */
+/* ================== */
+
+#define CharDanWyv DanWyv
+#define CharDanGoyle DanGoyle
+
+SetSymbol(flagSouthTiles, 10)
+SetSymbol(flagFleetKill,  11)
+SetSymbol(flagVillageA,   12)
+SetSymbol(flagVillageB,   13)
+SetSymbol(flagDanGoyle,   14)
+SetSymbol(flagDanTalk,    15)
+
+SetSymbol(cntFleetKillCount, 0)
+SetSymbol(cntRescueCycler,   1)
+
+gFleetCharList:
+	BYTE CharCh10FleetA CharCh10FleetB CharCh10FleetC CharCh10FleetD CharCh10FleetE
+	SetSymbol(FleetCount, CURRENTOFFSET - gFleetCharList)
+	BYTE 0
+
+gDanGoyleCharId:
+	BYTE CharDanGoyle
+
+/* ================ */
+/* = CHAPTER DATA = */
+/* ================ */
+
+EventPointerTable(Ch10AEvent, ThisChapter)
+
+ALIGN 4
+ThisChapter:
+	POIN TurnEventList
+	POIN CharacterEventList
+	POIN LocationEventList
+	POIN ActionEventList
+	POIN BlankEventList BlankEventList BlankEventList
+	POIN TutorialList
+	POIN TrapList TrapList2
+	POIN unPlayerList unPlayerList
+	WORD 0 0 0 0 0 0 /* lol skirmishes */
+	POIN scBeginning scEnding
+
+ALIGN 4
+TurnEventList:
+	// ASME 0 scRefreshRescued ASME_CheckRescues
+	SHORT $E 0; POIN scRefreshRescued ASME_CheckRescues
+
+	TURN 0 scFerryAReinf    [2, 0] 0
+	TURN 0 scPirateAReinf   [3, 0] 0
+	TURN 0 scWyvernReinf    [3, 0] 0
+	TURN 0 scFerryBReinf    [4, 0] 0
+	TURN 0 scPirateBReinf   [5, 0] 0
+	TURN 0 scFlyingReinf    [6, 0] 0
+	TURN 0 scBoatsStartMove [7, 0] 0
+	TURN 0 scAlliesReinf    [8, 0] 0
+
+	END_MAIN
+
+ALIGN 4
+CharacterEventList:
+	CHAR flagDanTalk scDanTalk CharDanWyv   Ria 0
+	CHAR flagDanTalk scDanTalk CharDanGoyle Ria 0
+
+	END_MAIN
+
+ALIGN 4
+LocationEventList:
+	Village(flagVillageA, scVillageA, 8,  12)
+	Village(flagVillageB, scVillageB, 15, 14)
+
+	END_MAIN
+
+ALIGN 4
+ActionEventList:
+	CauseGameOverIfLordDies
+	AFEV 0 scCountFleetKill flagFleetKill
+
+	AREA flagSouthTiles scAddSouthernDropTiles [10, 8] [16, 12]
+
+	END_MAIN
+
+ALIGN 4
+BlankEventList:
+	END_MAIN
+
+ALIGN 4
+TutorialList:
+	WORD 0
+
+ALIGN 4
+TrapList:
+TrapList2:
+	ENDTRAP
+
+ALIGN 4
+DeathQuotes:
+	DeathQuoteEidSilent(CharCh10FleetA, flagFleetKill)
+	DeathQuoteEidSilent(CharCh10FleetB, flagFleetKill)
+	DeathQuoteEidSilent(CharCh10FleetC, flagFleetKill)
+	DeathQuoteEidSilent(CharCh10FleetD, flagFleetKill)
+	DeathQuoteEidSilent(CharCh10FleetE, flagFleetKill)
+
+	SetChapterDeathQuoteList(Ch10Id, DeathQuotes)
+
+ALIGN 4
+AllyAi1: {
+	/* Action against speicific class (Fleet) */
+	BYTE 0x08 100 0xFF 0; WORD (Fleet) 0 0
+	AiRestart
+
+	InjectAi1(CH10_ALLY_AI1, AllyAi1)
+}
+
+ALIGN 4
+DanAi2: {
+	BYTE 0x0D 100 0xFF 0; WORD (Ria) 0 0 /* move until adjacent */
+	AiGotoIfNE(0, 2)
+
+	/* moved adjacent */
+	AiFunc(AiTransformMoveIntoTalk, DanAi2CharParam)
+
+	AiRestart
+
+DanAi2CharParam:
+	BYTE Ria
+
+	InjectAi2(CH10_DAN_AI2, DanAi2)
+}
+
+/* ================= */
+/* = CHAPTER UNITS = */
+/* ================= */
+
+ALIGN 4
+unPlayerList:
+	UNIT Eirika   General_F     0 Level(5,  Ally, True) [14, 4] 0 0 0 0 [SteelAxe, HandAxe, IronLance]   [0]
+	UNIT LArachel Troubadour    0 Level(15, Ally, True) [15, 4] 0 0 0 0 [Heal, Mend, Warp]               [0]
+	UNIT Kyle     Cavalier      0 Level(15, Ally, True) [15, 3] 0 0 0 0 [SteelLance, Javelin, IronSword] [0]
+	UNIT Lute     Mage_F        0 Level(15, Ally, True) [14, 2] 0 0 0 0 [Fire, Thunder, Vulnerary]       [0]
+	UNIT Tana     PegasusKnight 0 Level(15, Ally, True) [13, 3] 0 0 0 0 [IronLance, Javelin]             [0]
+	UNIT Colm     Thief         0 Level(15, Ally, True) [12, 4] 0 0 0 0 [IronSword, Lockpick]            [0]
+	UNIT Gerik    Mercenary     0 Level(15, Ally, True) [13, 5] 0 0 0 0 [SteelSword, IronSword]          [0]
+	UNIT Garcia   Fighter       0 Level(15, Ally, True) [14, 6] 0 0 0 0 [IronAxe, SteelAxe, HandAxe]     [0]
+	UNIT Neimi    Archer_F      0 Level(15, Ally, True) [15, 5] 0 0 0 0 [IronBow, SteelBow]              [0]
+
+	UNIT /* end */
+
+ALIGN 4
+unEnemyInitList:
+	UNIT CharCh10FleetA Fleet         0 Level(12, Enemy, True)  [1,  6]  0 0 0 0 [SilverBow] [0, 3]
+	UNIT CharCh10FleetB Fleet         0 Level(12, Enemy, False) [2,  4]  0 0 0 0 [SteelBow]  [0, 3]
+	UNIT CharCh10FleetC Fleet         0 Level(12, Enemy, False) [3,  5]  0 0 0 0 [SteelBow]  [0, 3]
+	UNIT CharCh10FleetD Fleet         0 Level(12, Enemy, False) [2,  8]  0 0 0 0 [SteelBow]  [0, 3]
+	UNIT CharCh10FleetE Fleet         0 Level(12, Enemy, False) [3,  7]  0 0 0 0 [SteelBow]  [0, 3]
+
+	UNIT CharCh10Gen    PegasusKnight 0 Level(15, Enemy, True)  [5,  6]  0 0 0 0 [Javelin]   [FERRY_AI1, 3]
+	UNIT CharCh10Gen    PegasusKnight 0 Level(15, Enemy, True)  [4,  4]  0 0 0 0 [Javelin]   [FERRY_AI1, 3]
+	UNIT CharCh10Gen    PegasusKnight 0 Level(15, Enemy, True)  [4,  8]  0 0 0 0 [Javelin]   [FERRY_AI1, 3]
+
+	UNIT /* end */
+
+ALIGN 4
+unPirateAReinfList:
+	UNIT CharCh10Pirate Pirate 0 Level(12, Enemy, True) [7, 18] 0 0 1 redaBEdge7 [HandAxe] [0, 4]
+	UNIT CharCh10Pirate Pirate 0 Level(12, Enemy, True) [9, 18] 0 0 1 redaBEdge9 [SteelAxe] [0, 4]
+
+	UNIT /* end */
+
+ALIGN 4
+unPirateBReinfList:
+	UNIT CharCh10Pirate Pirate 0 Level(12, Enemy, True) [7, 18] 0   0 1 redaBEdge7 [HandAxe] [0, 4]
+	UNIT CharCh10Pirate Pirate 0 Level(12, Enemy, True) [8, 18] 10b 0 1 redaBEdge8 [SteelAxe, HandAxe] [0, 4]
+	UNIT CharCh10Pirate Pirate 0 Level(12, Enemy, True) [9, 18] 0   0 1 redaBEdge9 [SteelAxe] [0, 4]
+
+	UNIT /* end */
+
+ALIGN 4
+unWyvernReinfList:
+	UNIT CharCh10Gen WyvernRider 0 Level(12, Enemy, True) [0, 6] 0 0 1 redaLEdge6 [IronLance] [0, 0]
+	UNIT CharCh10Gen WyvernRider 0 Level(12, Enemy, True) [0, 8] 0 0 1 redaLEdge8 [IronLance] [0, 0]
+
+	UNIT /* end */
+
+ALIGN 4
+unFlyingReinfList:
+	UNIT CharCh10Gen WyvernRider   0 Level(12, Enemy, True) [0, 4] 0 0 1 redaLEdge4 [SteelLance]    [0, 3]
+	UNIT CharCh10Gen PegasusKnight 0 Level(15, Enemy, True) [0, 5] 0 0 1 redaLEdge5 [Javelin]       [FERRY_AI1, 3]
+	UNIT CharCh10Gen WyvernLord    0 Level(3,  Enemy, True) [0, 6] 10b 0 1 redaLEdge6 [SilverLance] [0, 3]
+	UNIT CharCh10Gen PegasusKnight 0 Level(15, Enemy, True) [0, 7] 0 0 1 redaLEdge7 [Javelin]       [FERRY_AI1, 3]
+	UNIT CharCh10Gen WyvernRider   0 Level(12, Enemy, True) [0, 8] 0 0 1 redaLEdge8 [SteelLance]    [0, 3]
+
+	UNIT /* end */
+
+ALIGN 4
+unFerryAReinfList:
+	UNIT CharCh10Gen PegasusKnight 0 Level(15, Enemy, True)  [0, 3] 0 0 1 redaLEdge3 [Javelin]   [FERRY_AI1, 3]
+	UNIT CharCh10Gen PegasusKnight 0 Level(15, Enemy, True)  [0, 9] 0 0 1 redaLEdge9 [Javelin]   [FERRY_AI1, 3]
+
+	UNIT /* end */
+
+ALIGN 4
+unFerryBReinfList:
+	UNIT CharCh10Gen PegasusKnight 0 Level(15, Enemy, True)  [0, 5] 0 0 1 redaLEdge5 [Javelin]   [FERRY_AI1, 3]
+	UNIT CharCh10Gen PegasusKnight 0 Level(15, Enemy, True)  [0, 6] 0 0 1 redaLEdge6 [Javelin]   [FERRY_AI1, 3]
+	UNIT CharCh10Gen PegasusKnight 0 Level(15, Enemy, True)  [0, 7] 0 0 1 redaLEdge7 [Javelin]   [FERRY_AI1, 3]
+
+	UNIT /* end */
+
+ALIGN 4
+unAlliesReinfList:
+	UNIT CharCh10AllyFleet Fleet 0 Level(17, NPC, True) [0, 4] 0 0 1 redaLEdge4 [Ballista, SteelBow] [CH10_ALLY_AI1, 0]
+	UNIT CharCh10AllyFleet Fleet 0 Level(17, NPC, True) [0, 5] 0 0 1 redaLEdge5 [Ballista, SteelBow] [CH10_ALLY_AI1, 0]
+	UNIT CharCh10AllyFleet Fleet 0 Level(17, NPC, True) [0, 6] 0 0 1 redaLEdge6 [Ballista, SteelBow] [CH10_ALLY_AI1, 0]
+	UNIT CharCh10AllyFleet Fleet 0 Level(17, NPC, True) [0, 7] 0 0 1 redaLEdge7 [Ballista, SteelBow] [CH10_ALLY_AI1, 0]
+	UNIT CharCh10AllyFleet Fleet 0 Level(17, NPC, True) [0, 8] 0 0 1 redaLEdge8 [Ballista, SteelBow] [CH10_ALLY_AI1, 0]
+
+	UNIT /* end */
+
+ALIGN 4
+unWyvDanList:
+	UNIT CharDanWyv WyvernKnight 0 Level(5, Enemy, False) [0, 7] 10b 0 1 redaLEdge7 [KillerLance, ShortSpear, DelphiShield] [6, CH10_DAN_AI2]
+	UNIT /* end */
+
+ALIGN 4
+unGoyleDanList:
+	UNIT CharDanGoyle Deathgoyle 0 Level(5, Enemy, False) [8, 18] 10b 0 1 redaBEdge8 [KillerLance, ShortSpear, DelphiShield] [6, CH10_DAN_AI2]
+	UNIT /* end */
+
+ALIGN 4
+unRescueList:
+	/* this unit list works a bit differently, as units in this list will be loaded one at a time */
+	/* no end UNIT is necessary (as, again, only one UNIT is taken into account at one) */
+
+	/* NOTE: this group cannot hold more than 16 units */
+	/* (this is because event counters can only hold 16 values) */
+
+	UNIT CharCh10Gen Soldier       0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelLance] [0, 0]
+	UNIT CharCh10Gen Archer        0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelBow]   [0, 0]
+	UNIT CharCh10Gen Cavalier      0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelSword] [0, 0]
+	UNIT CharCh10Gen Shaman        0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [Flux]       [0, 0]
+	UNIT CharCh10Gen Pirate        0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelAxe]   [0, 4]
+	UNIT CharCh10Gen WyvernRider   0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelLance] [0, 0]
+	UNIT CharCh10Gen Cavalier      0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelLance] [0, 0]
+	UNIT CharCh10Gen Priest        0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [Physic]     [0, 0]
+	UNIT CharCh10Gen Hero          0 Level(3,  Enemy, True) [0, 0] 0 0 0 0 [SteelSword] [0, 0]
+	UNIT CharCh10Gen Shaman        0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [Nosferatu]  [0, 0]
+	UNIT CharCh10Gen Thief         0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [IronSword, Lockpick] [0, 0]
+	UNIT CharCh10Gen Mercenary     0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelSword] [0, 0]
+	UNIT CharCh10Gen PegasusKnight 0 Level(15, Enemy, True) [0, 0] 0 0 0 0 [Javelin]    [FERRY_AI1, 3]
+	UNIT CharCh10Gen Druid         0 Level(3,  Enemy, True) [0, 0] 0 0 0 0 [Flux]       [0, 0]
+	UNIT CharCh10Gen Pirate        0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [HandAxe]    [0, 4]
+	UNIT CharCh10Gen Fleet         0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelBow]   [0, 0]
+
+	SetSymbol(RescueUnitCount, (CURRENTOFFSET-unRescueList)/0x14)
+
+redaLEdge3: REDA [1, 3] 0 0 0 0
+redaLEdge4: REDA [0, 4] 0 0 0 0
+redaLEdge5: REDA [1, 5] 0 0 0 0
+redaLEdge6: REDA [0, 6] 0 0 0 0
+redaLEdge7: REDA [1, 7] 0 0 0 0
+redaLEdge8: REDA [0, 8] 0 0 0 0
+redaLEdge9: REDA [1, 9] 0 0 0 0
+
+redaBEdge7: REDA [7, 18] 0 0 0 0
+redaBEdge8: REDA [8, 17] 0 0 0 0
+redaBEdge9: REDA [9, 18] 0 0 0 0
+
+/* ================= */
+/* = HELPER SCENES = */
+/* ================= */
+
+ALIGN 4
+scInitRescueCycle: {
+	COUNTER_SET cntRescueCycler 0
+
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scLoadRescue: {
+	/* args: s2 = char id */
+
+	SetSymbol(end,   0)
+	SetSymbol(reset, 1)
+
+	COUNTER_CHECK cntRescueCycler
+
+	// r3 = counter * sizeof(UNIT)
+	SVAL r3 0x14 /* sizeof(UNIT) = 0x14 */
+	SMUL slotsParam(r3, r3, rC)
+
+	// r1 = unRescueList + counter*sizeof(UNIT)
+	SVAL r1 (ROM + unRescueList)
+	SADD slotsParam(r1, r1, r3)
+
+	ASMC ASMC_LoadRescued
+
+	BEQ end rC r0
+
+	COUNTER_CHECK cntRescueCycler
+	SVAL r1 (RescueUnitCount-1) // maximum value of counter
+
+	BEQ reset rC r1
+
+	// Increment Counter (as we sucessfully loaded a new rescued unit)
+	// EA Raw is broken, there's only one argument and it's the counted id
+	COUNTER_ADD cntRescueCycler 0
+
+	GOTO end
+
+LABEL reset
+	// Reset counter (as we reached the maximum value)
+	COUNTER_SET cntRescueCycler 0
+
+LABEL end
+	NoFade
+	ENDA
+}
+
+scAddNorthernDropTiles: {
+	SVAL r2 (ROM + NorthernDropTiles)
+	ASMC ASMC_AddFerryDropTiles
+
+	NoFade
+	ENDA
+
+ALIGN 4
+NorthernDropTiles:
+	// SHORT 5 0
+	SHORT 6 0
+	// SHORT 7 0
+	// SHORT 7 1
+	SHORT 7 2
+	// SHORT 8 2
+	// SHORT 8 3
+	SHORT 8 4
+	// SHORT 8 5
+
+	// Backup points to prevent cheese
+	SHORT 8  0
+	SHORT 9  2
+	SHORT 10 4
+
+	SHORT (-1) (-1)
+
+}
+
+scAddSouthernDropTiles: {
+	SVAL r2 (ROM + SouthernDropTiles)
+	ASMC ASMC_AddFerryDropTiles
+
+	NoFade
+	ENDA
+
+ALIGN 4
+SouthernDropTiles:
+	SHORT 9 9
+	// SHORT 9 10
+	SHORT 6 11
+	// SHORT 6 12
+	SHORT 5 12
+	// SHORT 5 13
+	// SHORT 4 13
+	// SHORT 3 13
+	SHORT 2 12
+	// SHORT 2 13
+
+	// More backup points to prevent cheese
+	SHORT 3 15
+	SHORT 5 14
+	SHORT 7 13
+
+	SHORT (-1) (-1)
+
+}
+
+ALIGN 4
+scInitDanState: {
+	SetSymbol(end, 0)
+
+	ASMC ASMC_GetGameTotalTurnCount
+
+#ifdef __DEBUG__
+
+	/* give total turn count amount of money */
+	/* to be able to keep track of what dan will be gotten */
+
+	SADD slotsParam(r3, rC, r0)
+	GIVEITEMTOMAIN 0
+
+#endif // __DEBUG__
+
+	SVAL r1 1
+	SAND slotsParam(r1, rC)
+
+	BEQ end r1 r0
+
+	ENUT flagDanGoyle
+
+LABEL end
+	NoFade
+	ENDA
+}
+
+/* ================== */
+/* = CHAPTER SCENES = */
+/* ================== */
+
+ALIGN 4
+scBeginning: {
+	// Load units
+
+#ifdef __DEBUG__
+
+	LOAD1 0 unPlayerList
+
+#endif // __DEBUG__
+
+	LOAD1 0 unEnemyInitList
+	ENUN
+
+	// Init chapter logic
+
+	CALL scInitRescueCycle
+	CALL scAddNorthernDropTiles
+	CALL scInitDanState
+
+	COUNTER_SET cntFleetKillCount 0
+
+	// Finish
+
+	CALL scPrepScreen
+
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scFerryAReinf: {
+	SVAL r2 (ROM + unFerryAReinfList)
+	CALL scLoadReinforcements
+
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scPirateAReinf: {
+	SetSymbol(end, 0)
+
+	SVAL r2 (ROM + unPirateAReinfList)
+	CALL scLoadReinforcements
+
+	CHECK_EVENTID flagDanGoyle
+
+	BEQ end rC r0
+
+	SVAL r2 (ROM + unGoyleDanList)
+	CALL scLoadReinforcements
+
+	ASMC ASMC_FixDanGoyle
+
+LABEL end
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scWyvernReinf: {
+	SetSymbol(end, 0)
+
+	SVAL r2 (ROM + unWyvernReinfList)
+	CALL scLoadReinforcements
+
+	CHECK_EVENTID flagDanGoyle
+
+	BNE end rC r0
+
+	SVAL r2 (ROM + unWyvDanList)
+	CALL scLoadReinforcements
+
+LABEL end
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scFerryBReinf: {
+	SVAL r2 (ROM + unFerryBReinfList)
+	CALL scLoadReinforcements
+
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scPirateBReinf: {
+	SVAL r2 (ROM + unPirateBReinfList)
+	CALL scLoadReinforcements
+
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scFlyingReinf: {
+	SVAL r2 (ROM + unFlyingReinfList)
+	CALL scLoadReinforcements
+
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scBoatsStartMove: {
+	SVAL r1 0 /* Ai: [0, 0] */
+
+	CHAI CharCh10FleetA
+	CHAI CharCh10FleetB
+	CHAI CharCh10FleetC
+	CHAI CharCh10FleetD
+	CHAI CharCh10FleetE
+
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scAlliesReinf: {
+	SVAL r2 (ROM + unAlliesReinfList)
+	CALL scLoadReinforcements
+
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scVillageA: {
+	SVAL r2 (ROM + BallistaTrapList)
+	ASMC ASMC_LoadTraps
+
+	NoFade
+	ENDA
+
+BallistaTrapList:
+	BLST [8, 13] KillerBallista
+	ENDTRAP
+
+}
+
+ALIGN 4
+scVillageB: {
+	SVAL r3 ElysianWhip
+	GIVETO (-1)
+
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scRefreshRescued: {
+	SVAL r2 CharCh10FleetA
+	CALL scLoadRescue
+
+	SVAL r2 CharCh10FleetB
+	CALL scLoadRescue
+
+	SVAL r2 CharCh10FleetC
+	CALL scLoadRescue
+
+	SVAL r2 CharCh10FleetD
+	CALL scLoadRescue
+
+	SVAL r2 CharCh10FleetE
+	CALL scLoadRescue
+
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scDanTalk: {
+	SetSymbol(not_goyle, 0)
+	SetSymbol(not_wyv,   1)
+
+	CHECK_EXISTS CharDanGoyle
+	BEQ not_goyle rC r0
+
+	CUSA CharDanGoyle
+
+LABEL not_goyle
+	CHECK_EXISTS CharDanWyv
+	BEQ not_wyv rC r0
+
+	CUSA CharDanWyv
+
+LABEL not_wyv
+
+#ifdef __DEBUG__
+
+	SVAL r3 776
+	GIVEITEMTOMAIN 0
+
+#endif // __DEBUG__
+
+	ASMC ASMC_FixActiveUnit
+
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scCountFleetKill: {
+	SetSymbol(end, 0)
+
+	ENUF flagFleetKill
+
+	/* reminder that COUNTER_ADD is broken */
+	COUNTER_ADD cntFleetKillCount 0
+
+	COUNTER_CHECK cntFleetKillCount
+
+	SVAL r1 (FleetCount)
+	BNE end rC r1
+
+	ENUT 3 /* important! otherwise no turn count at the end of the game */
+	CALL scEnding
+
+LABEL end
+	NoFade
+	ENDA
+}
+
+ALIGN 4
+scEnding: {
+	MNC2 Ch11Id
+	ENDA
+}
+
+#endif // STAN_CH10_INCLUDED
