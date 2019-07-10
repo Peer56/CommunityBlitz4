@@ -1,0 +1,26 @@
+#define Anna 0x3A
+#define AnnaClass Transporter
+#define AnnaMug //MugID here
+#define AnnaPalette1 //PaletteID here
+#define AnnaPalette2 //PaletteID here
+#define AnnaPalette3 //PaletteID here
+#define AnnaName //TextID here
+#define AnnaDescription //TextID here
+
+{
+	#define UnitID Anna
+	#define UnitClass AnnaClass
+	#define UnitMugID AnnaMug
+	#define UnitNameLocation AnnaName
+	#define UnitDescriptionLocation AnnaDescription
+	#define Palette1Number AnnaPalette1
+	#define Palette2Number AnnaPalette2
+	#define Palette3Number AnnaPalette3
+	#define UseUnitText //Comment out if you want to use text in the text buildfile
+	#include "Files/Support Installer.event"
+	#include "Files/Palette Installer.event"
+	#include "Files/Mug Installer.event"
+	#include "Files/Text Installer.event"
+	#include "Files/Data Installer.event"
+	#include "Files/Undefiner.event"
+}
