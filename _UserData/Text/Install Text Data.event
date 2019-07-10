@@ -9,6 +9,102 @@
 
 {
 
+__TEXTPROCESS160:
+#incbin ".TextEntries\text_buildfilePrologueName.fetxt.dmp"
+setText($160, __TEXTPROCESS160)
+
+__TEXTPROCESS161:
+#incbin ".TextEntries\text_buildfileChapter1Name.fetxt.dmp"
+setText($161, __TEXTPROCESS161)
+
+__TEXTPROCESS162:
+#incbin ".TextEntries\text_buildfileChapter2Name.fetxt.dmp"
+setText($162, __TEXTPROCESS162)
+
+__TEXTPROCESS163:
+#incbin ".TextEntries\text_buildfileChapter3Name.fetxt.dmp"
+setText($163, __TEXTPROCESS163)
+
+__TEXTPROCESS164:
+#incbin ".TextEntries\text_buildfileChapter4Name.fetxt.dmp"
+setText($164, __TEXTPROCESS164)
+
+__TEXTPROCESS165:
+#incbin ".TextEntries\text_buildfileChapter5Name.fetxt.dmp"
+setText($165, __TEXTPROCESS165)
+
+__TEXTPROCESS166:
+#incbin ".TextEntries\text_buildfileChapter6Name.fetxt.dmp"
+setText($166, __TEXTPROCESS166)
+
+__TEXTPROCESS167:
+#incbin ".TextEntries\text_buildfileChapter7Name.fetxt.dmp"
+setText($167, __TEXTPROCESS167)
+
+__TEXTPROCESS168:
+#incbin ".TextEntries\text_buildfileChapter8Name.fetxt.dmp"
+setText($168, __TEXTPROCESS168)
+
+__TEXTPROCESS169:
+#incbin ".TextEntries\text_buildfileChapter9Name.fetxt.dmp"
+setText($169, __TEXTPROCESS169)
+
+__TEXTPROCESS16A:
+#incbin ".TextEntries\text_buildfileChapter10Name.fetxt.dmp"
+setText($16A, __TEXTPROCESS16A)
+
+__TEXTPROCESS16B:
+#incbin ".TextEntries\text_buildfileChapter11Name.fetxt.dmp"
+setText($16B, __TEXTPROCESS16B)
+
+__TEXTPROCESS16C:
+#incbin ".TextEntries\text_buildfileChapter12Name.fetxt.dmp"
+setText($16C, __TEXTPROCESS16C)
+
+__TEXTPROCESS16D:
+#incbin ".TextEntries\text_buildfileChapter13Name.fetxt.dmp"
+setText($16D, __TEXTPROCESS16D)
+
+__TEXTPROCESS16E:
+#incbin ".TextEntries\text_buildfileChapter14Name.fetxt.dmp"
+setText($16E, __TEXTPROCESS16E)
+
+__TEXTPROCESS16F:
+#incbin ".TextEntries\text_buildfileChapter15Name.fetxt.dmp"
+setText($16F, __TEXTPROCESS16F)
+
+__TEXTPROCESS170:
+#incbin ".TextEntries\text_buildfileChapter16Name.fetxt.dmp"
+setText($170, __TEXTPROCESS170)
+
+__TEXTPROCESS171:
+#incbin ".TextEntries\text_buildfileChapter17Name.fetxt.dmp"
+setText($171, __TEXTPROCESS171)
+
+__TEXTPROCESS172:
+#incbin ".TextEntries\text_buildfileChapter18Name.fetxt.dmp"
+setText($172, __TEXTPROCESS172)
+
+__TEXTPROCESS173:
+#incbin ".TextEntries\text_buildfileChapter19Name.fetxt.dmp"
+setText($173, __TEXTPROCESS173)
+
+__TEXTPROCESS174:
+#incbin ".TextEntries\text_buildfileChapter20Name.fetxt.dmp"
+setText($174, __TEXTPROCESS174)
+
+__TEXTPROCESS175:
+#incbin ".TextEntries\text_buildfileEndgameName.fetxt.dmp"
+setText($175, __TEXTPROCESS175)
+
+__TEXTPROCESS176:
+#incbin ".TextEntries\text_buildfileEndgame2Name.fetxt.dmp"
+setText($176, __TEXTPROCESS176)
+
+__TEXTPROCESS177:
+#incbin ".TextEntries\text_buildfileEndgame3Name.fetxt.dmp"
+setText($177, __TEXTPROCESS177)
+
 __TEXTPROCESSD4C:
 #incbin ".TextEntries\text_buildfileZeroEntry.fetxt.dmp"
 setText($D4C, __TEXTPROCESSD4C)
