@@ -1,0 +1,38 @@
+
+#ifndef MAPANIM_6CStuff
+	#define MAPANIM_6CStuff
+	ALIGN 4
+	
+//Camera Positioning
+	TargetTileFocus:
+	#incbin "TargetTile_Focus.dmp"
+	
+	LightRuneAnim_TileFocus:
+	#incbin "TargetTile_AnimFocus.dmp"
+	POIN LightRune_AnimPosition | 1
+	
+	MineAnim_TargetTileFocus:
+	#incbin "TargetTile_AnimFocus.dmp"
+	POIN 0x8022300 | 1
+	
+	//focus camera on where unit will be after action
+	BattleActingUnit_DestFocus:
+	#incbin "BActingUnit_Focus.dmp"
+	BattleTargetUnit_DestFocus:
+	#incbin "BTargetUnit_Focus.dmp"
+	
+//Animation Positioning
+	AnimBG0_UnitFocus:
+	#incbin "APUnit_Focus.dmp"
+	POIN SetAnimPosition_BG0
+	
+	SetAnimPosition_BG0:
+	#incbin "SetAnimPositionBG0.dmp"
+	
+	LightRune_AnimPosition:
+	#incbin "LightRune_AnimPositionSet.dmp"
+//Tile changes
+	TargetTile_TileChange:
+	#incbin "TileChange.dmp"
+
+#endif

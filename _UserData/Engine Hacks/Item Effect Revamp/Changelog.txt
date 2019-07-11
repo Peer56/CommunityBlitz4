@@ -1,0 +1,34 @@
+Item Effect Revamp by Teraspark of FEU (Fire Emblem Universe) Changelog
+v1.0
+- initial release, no prep screen support
+- might vulneraries(Migvul) added
+- might staves (MigStaff) added
+- master keys implemented
+- item effect ids documented
+v1.2 
+- healing staves base might set
+- custom promotion item support added
+v1.3
+- static vulnerary added
+v1.4
+-prep screen support added
+-custom statboosters implmented
+v1.5
+-staff AI support added
+-files reorganized into folders
+
+v1.6
+- master key ai support
+- custom lockpick ai support
+- custom door/chest key support
+- custom item AI support added
+- fixed error in staff ai not changing a pointer
+
+v1.7
+- converted all tables to nmm csvs
+- redid use effect id check to take up less space
+
+intended features for future releases
+- dancer ring support
+- fixed out spell association
+- redo promo items

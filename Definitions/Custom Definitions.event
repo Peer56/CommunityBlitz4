@@ -17,6 +17,8 @@
 #include "Table Definitions.event"
 #include "Tileset Definitions.event"
 
+#include "_IER_CSV_Definitions.event"
+
 #ifndef DebuffTable
   #define DebuffTable 0x203f100
   #define DebuffTableSize 0x00000900
