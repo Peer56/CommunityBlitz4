@@ -23,8 +23,8 @@
 #define Irena Marisa
 #define Reagan Saleh
 #define Ingrid Ewan
-#define Dan LArachel
-//Dozla
+#define DanWyv LArachel
+#define DanGoyle Dozla
 #define Fraoch 0x1B
 //Rennac
 #define Karn Duessel
@@ -69,3 +69,12 @@
 #define Mizuki 0x5A
 
 //////////////////////////Generics
+
+#define CharCh10FleetA    0x82
+#define CharCh10FleetB    0x83
+#define CharCh10FleetC    0xA0
+#define CharCh10FleetD    0xA1
+#define CharCh10FleetE    0xA2
+#define CharCh10Gen       0xA3
+#define CharCh10Pirate    0xA4
+#define CharCh10AllyFleet 0xA5

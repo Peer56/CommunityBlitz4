@@ -4,6 +4,30 @@
 #ifndef TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT
 #define TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT
 
+#define PrologueName $160
+#define Chapter1Name $161
+#define Chapter2Name $162
+#define Chapter3Name $163
+#define Chapter4Name $164
+#define Chapter5Name $165
+#define Chapter6Name $166
+#define Chapter7Name $167
+#define Chapter8Name $168
+#define Chapter9Name $169
+#define Chapter10Name $16A
+#define Chapter11Name $16B
+#define Chapter12Name $16C
+#define Chapter13Name $16D
+#define Chapter14Name $16E
+#define Chapter15Name $16F
+#define Chapter16Name $170
+#define Chapter17Name $171
+#define Chapter18Name $172
+#define Chapter19Name $173
+#define Chapter20Name $174
+#define EndgameName $175
+#define Endgame2Name $176
+#define Endgame3Name $177
 #define ZeroEntry $D4C
 #define SampleText $D4D
 

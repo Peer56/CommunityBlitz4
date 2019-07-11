@@ -1,3 +1,5 @@
+#include "chapter_names.txt"
+
 #0xD4C ZeroEntry
 [X]
 
