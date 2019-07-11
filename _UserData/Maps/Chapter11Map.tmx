@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" orientation="orthogonal" renderorder="right-down" width="21" height="22" tilewidth="16" tileheight="16" nextobjectid="1">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="21" height="22" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="1">
  <tileset firstgid="1" name="2e002f30" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../Other Projects/WeeklyBlitz/Maps/FE8/2e002f30.png" width="512" height="512"/>
+  <image source="Tilesets/2E002F30.png" width="512" height="512"/>
  </tileset>
- <layer name="Main" width="21" height="22">
+ <layer id="1" name="Main" width="21" height="22">
   <properties>
    <property name="Anims1" value="0"/>
    <property name="ChapterID" value="Ch11AEvent"/>
@@ -39,7 +39,7 @@
 99,805,592,492,584,524,486,626,457,561,101,815,816,100,101,967,99,805,101,301,302
 </data>
  </layer>
- <layer name="V1D" width="21" height="22" visible="0">
+ <layer id="2" name="V1D" width="21" height="22" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0"/>
@@ -72,7 +72,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="V1S" width="21" height="22" visible="0">
+ <layer id="3" name="V1S" width="21" height="22" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
@@ -105,7 +105,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="V2D" width="21" height="22" visible="0">
+ <layer id="4" name="V2D" width="21" height="22" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="2"/>
@@ -138,7 +138,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="V2S" width="21" height="22" visible="0">
+ <layer id="5" name="V2S" width="21" height="22" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="3"/>
@@ -171,7 +171,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="V3D" width="21" height="22" visible="0">
+ <layer id="6" name="V3D" width="21" height="22" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="4"/>
@@ -204,7 +204,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="V3S" width="21" height="22" visible="0">
+ <layer id="7" name="V3S" width="21" height="22" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="5"/>
@@ -237,7 +237,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="V4D" width="21" height="22" visible="0">
+ <layer id="8" name="V4D" width="21" height="22" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="6"/>
@@ -270,7 +270,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="V4S" width="21" height="22" visible="0">
+ <layer id="9" name="V4S" width="21" height="22" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="7"/>
@@ -303,7 +303,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="V5D" width="21" height="22" visible="0">
+ <layer id="10" name="V5D" width="21" height="22" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="8"/>
@@ -336,7 +336,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="V5S" width="21" height="22" visible="0">
+ <layer id="11" name="V5S" width="21" height="22" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="9"/>
