@@ -20,8 +20,8 @@ MESSAGE Music Switch is off and songs are not written
 //#include "ModularClasses/Modular Class Installer.event"
 //#include "ModularItems/Modular Item Installer.event"
 //CSVs because modulars succ
-ALIGN 4
 #include "CSVs/Table Installer.event"
+#include "Animations/_Master Animation Installer.event"
 
 //Promotion Editors
 #include "Promotion Items/Promotion Item Editor.event"
