@@ -1,0 +1,146 @@
+
+//WarPath Ch. 19 Event for
+//Blitz 4: Reawakening
+
+
+EventPointerTable(0x5e,ThisChapter)
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+//PlayerUnits
+
+Units:
+UNIT 0x01 0x01 0x00 Level(1, Ally, 0) [7,11] 0x00 0x00 0x0 0x00 [0x00] NoAI //Spawn lord
+UNIT 0x2C General 0x00 Level(8, Ally, 0) [7,13] 0x00 0x00 0x0 0x00 [Tomahawk, Spear, Lightbrand] NoAI //Spawn General PC for 1st time
+UNIT 0x2B Valkyrie 0x00 Level(8, Ally, 0) [8,10] 0x00 0x00 0x0 0x00 [Aura, Divine, Elixir] NoAI //Spawn MK PC for 1st time
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [6,10] 0x00 0x00 0x0 0x00 [0x00] NoAI //Deployment slot
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [5,11] 0x00 0x00 0x0 0x00 [0x00] NoAI //Deployment slot
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [9,11] 0x00 0x00 0x0 0x00 [0x00] NoAI //Deployment slot
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [6,12] 0x00 0x00 0x0 0x00 [0x00] NoAI //Deployment slot
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [8,12] 0x00 0x00 0x0 0x00 [0x00] NoAI //Deployment slot
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [5,13] 0x00 0x00 0x0 0x00 [0x00] NoAI //Deployment slot
+UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [9,13] 0x00 0x00 0x0 0x00 [0x00] NoAI //Deployment slot
+UNIT
+
+
+TurnBasedEvents:
+TurnEventPlayer(0x0,Ch19Reinforce1,3)
+TurnEventPlayer(0x0,Ch19Reinforce1,6)
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Village(9, ValkVillage, 2,2)
+Village(10, GenVillage, 18,17)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatAll(EndingScene)
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+ALIGN 4
+
+BeginningScene:
+//Maybe have text here
+Text(PlaceholderText)
+LOAD1 0x1 Units
+ENUN
+LOAD1 0x1 Badd
+ENUN
+GotoPrepScreen
+ENDA
+
+EndingScene:
+//Maybe have text here
+Text(PlaceholderText)
+MNC2 20
+ENDA
+
+
+// Events
+
+//Village to the south
+ValkVillage:
+VillageEventItem(PlaceholderText, HouseBG, Boots)
+
+//Village to the north
+GenVillage:
+VillageEventItem(PlaceholderText, HouseBG, Speedwings)
+
+//Wyvern reinforcement event
+Ch19Reinforce1:
+ReinforcementEvent(FlierReinforceCh19)
+
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+Badd: //Inital Enemy Placement
+UNIT 0x53 General 0x00 Level(10, Enemy, 0) [0,23] 0x2 0x00 0x0 0x00 [BraveSword, BraveAxe, BraveLance] NeverMoveAI //General boss
+UNIT 0x94 General 0x00 Level(5, Enemy, 1) [15,23] 0x00 0x00 0x0 0x00 [Horseslayer] AttackInRangeAI
+UNIT 0x94 General 0x00 Level(6, Enemy, 1) [15,22] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI
+UNIT 0x94 General 0x00 Level(5, Enemy, 1) [2,17] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI
+UNIT 0x94 General 0x00 Level(6, Enemy, 1) [4,18] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI
+UNIT 0x94 General 0x00 Level(5, Enemy, 1) [10,18] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI
+UNIT 0x94 General 0x00 Level(6, Enemy, 1) [6,15] 0x00 0x00 0x0 0x00 [HandAxe] AttackInRangeAI
+UNIT 0x94 General 0x00 Level(5, Enemy, 1) [8,15] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI
+UNIT 0x94 Hero 0x00 Level(5, Enemy, 1) [2,20] 0x00 0x00 0x0 0x00 [HandAxe] AttackInRangeAI
+UNIT 0x94 Hero 0x00 Level(6, Enemy, 1) [3,22] 0x00 0x00 0x0 0x00 [HandAxe] AttackInRangeAI
+UNIT 0x94 Hero 0x00 Level(5, Enemy, 1) [12,21] 0x00 0x00 0x0 0x00 [SilverSword] AttackInRangeAI
+UNIT 0x94 Hero 0x00 Level(6, Enemy, 1) [18,22] 0x00 0x00 0x0 0x00 [Lightbrand] AttackInRangeAI
+UNIT 0x94 Hero 0x00 Level(5, Enemy, 1) [17,19] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI
+UNIT 0x94 Hero 0x00 Level(7, Enemy, 1) [19,20] 0x00 0x00 0x0 0x00 [Zanbato] AttackInRangeAI
+UNIT 0x94 Brigand 0x00 Level(17, Enemy, 1) [12,2] 0x00 0x00 0x0 0x00 [SilverAxe] BrigandAI //Brigand going for North village
+UNIT 0x94 Brigand 0x00 Level(18, Enemy, 1) [8,3] 0x00 0x00 0x0 0x00 [SilverAxe] BrigandAI //Brigand going for South village
+UNIT 0x57 Valkyrie 0x00 Level(10, Enemy, 0) [18,2] 0x2 0x00 0x0 0x00 [Aura, Physic] NeverMoveAI //General boss
+UNIT 0x95 Valkyrie 0x00 Level(5, Enemy, 1) [5,5] 0x00 0x00 0x0 0x00 [Divine] AttackInRangeAI
+UNIT 0x95 Valkyrie 0x00 Level(5, Enemy, 1) [17,0] 0x00 0x00 0x0 0x00 [Divine] AttackInRangeAI
+UNIT 0x95 Valkyrie 0x00 Level(5, Enemy, 1) [15,5] 0x00 0x00 0x0 0x00 [Divine] AttackInRangeAI
+UNIT 0x95 Valkyrie 0x00 Level(5, Enemy, 1) [1,3] 0x00 0x00 0x0 0x00 [Divine] AttackInRangeAI
+UNIT 0x95 Valkyrie 0x00 Level(5, Enemy, 1) [19,5] 0x00 0x00 0x0 0x00 [Divine] AttackInRangeAI
+UNIT 0x95 MageKnight 0x00 Level(5, Enemy, 1) [4,2] 0x00 0x00 0x0 0x00 [Elfire] AttackInRangeAI
+UNIT 0x95 MageKnight 0x00 Level(5, Enemy, 1) [3,4] 0x00 0x00 0x0 0x00 [Thunder, Mend] AttackInRangeAI
+UNIT 0x95 MageKnight 0x00 Level(5, Enemy, 1) [8,8] 0x00 0x00 0x0 0x00 [Fimbulvetr] AttackInRangeAI
+UNIT 0x95 MageKnight 0x00 Level(5, Enemy, 1) [6,8] 0x00 0x00 0x0 0x00 [Elfire] AttackInRangeAI
+UNIT 0x95 MageKnight 0x00 Level(5, Enemy, 1) [11,5] 0x00 0x00 0x0 0x00 [Thunder, Mend] AttackInRangeAI
+UNIT 0x95 MageKnight 0x00 Level(5, Enemy, 1) [14,2] 0x00 0x00 0x0 0x00 [Fimbulvetr] AttackInRangeAI
+UNIT
+
+
+FlierReinforceCh19: //Flier reinforcements to spawn over water
+UNIT 0x94 WyvernLord 0x00 Level(5, Enemy, 1) [0,10] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x94 WyvernLord 0x00 Level(6, Enemy, 1) [1,11] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI
+UNIT 0x94 WyvernLord 0x00 Level(7, Enemy, 1) [0,12] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI
+UNIT 0x94 WyvernLord 0x00 Level(5, Enemy, 1) [19,10] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x94 WyvernLord 0x00 Level(6, Enemy, 1) [18,11] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI
+UNIT 0x94 WyvernLord 0x00 Level(7, Enemy, 1) [19,12] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI
+
+
+
+// Shop Data

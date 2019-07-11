@@ -1,0 +1,305 @@
+EventPointerTable(0xD1, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 WaveFirst[3,0] 0x0
+TURN 0x0 WaveSecond[5,0] 0x0
+TURN 0x0 WaveThird[7,0] 0x0
+TURN 0x0 WaveFourth[9,0] 0x0
+TURN 0x0 WaveFifth[11,0] 0x0
+TURN 0x0 WaveSixth[13,0] 0x0
+TURN 0x0 WaveSeventh[15,0] 0x0
+END_MAIN
+
+WaveFirst:
+ReinforcementEvent(Wave1)
+ENDA
+
+Wave1:
+UNIT 0x80 Brigand Novala Level(12, Enemy, 1) [20,18] 0x00 0x00 0x0 0x00 [KillerAxe] BrigandAI 
+UNIT 0x80 Brigand Novala Level(12, Enemy, 1) [17,21] 0x00 0x00 0x0 0x00 [KillerAxe] BrigandAI 
+UNIT
+
+WaveSecond:
+ReinforcementEvent(Wave2)
+ENDA
+
+Wave2:
+UNIT 0x80 WyvernRider Novala Level(12, Enemy, 1) [20,18] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Novala Level(12, Enemy, 1) [17,21] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT
+
+WaveThird:
+ReinforcementEvent(Wave3)
+ENDA
+
+Wave3:
+UNIT 0x80 WyvernRider Novala Level(12, Enemy, 1) [19,0] 0x00 0x00 0x0 0x00 [ShortSpear] PursueWithoutHeedAI 
+UNIT 0x80 WyvernRider Novala Level(12, Enemy, 1) [0,20] 0x00 0x00 0x0 0x00 [ShortSpear] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Novala Level(1, Enemy, 1) [1,21] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Novala Level(1, Enemy, 1) [20,1] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT
+
+WaveFourth:
+ReinforcementEvent(Wave4)
+ENDA
+
+Wave4:
+UNIT 0x80 Cavalier Novala Level(12, Enemy, 1) [19,0] 0x00 0x00 0x0 0x00 [SilverSword, Zanbato] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Novala Level(12, Enemy, 1) [0,20] 0x00 0x00 0x0 0x00 [SilverSword, Wyrmslayer] PursueWithoutHeedAI 
+UNIT 0x80 Paladin Novala Level(2, Enemy, 1) [1,21] 0x00 0x00 0x0 0x00 [Spear, Horseslayer] PursueWithoutHeedAI 
+UNIT 0x80 Paladin Novala Level(2, Enemy, 1) [20,1] 0x00 0x00 0x0 0x00 [Spear, HeavySpear] PursueWithoutHeedAI   
+UNIT
+
+WaveFifth:
+ReinforcementEvent(Wave5)
+ENDA
+
+Wave5:
+UNIT 0x80 Druid_F Novala Level(2, Enemy, 1) [20,18] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+UNIT 0x80 Druid Novala Level(2, Enemy, 1) [17,21] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Druid_F Novala Level(2, Enemy, 1) [20,1] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+UNIT 0x80 Druid Novala Level(2, Enemy, 1) [1,21] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI  
+UNIT
+
+WaveSixth:
+ReinforcementEvent(Wave6)
+ENDA
+
+Wave6:
+UNIT 0x80 Paladin Novala Level(2, Enemy, 1) [20,18] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Novala Level(2, Enemy, 1) [17,21] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 Paladin Novala Level(2, Enemy, 1) [20,1] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Novala Level(2, Enemy, 1) [1,21] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
+UNIT
+
+WaveSeventh:
+ReinforcementEvent(Wave7)
+ENDA
+
+Wave7:
+UNIT 0x80 WyvernLord Novala Level(2, Enemy, 1) [19,0] 0x00 0x00 0x0 0x00 [SilverBlade, Spear] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Novala Level(2, Enemy, 1) [0,20] 0x00 0x00 0x0 0x00 [SilverLance, Zanbato] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Novala Level(2, Enemy, 1) [1,21] 0x00 0x00 0x0 0x00 [KillingEdge, Javelin] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Novala Level(2, Enemy, 1) [20,1] 0x00 0x00 0x0 0x00 [SilverLance, Armourslayer] PursueWithoutHeedAI 
+UNIT 0x80 Warrior Novala Level(2, Enemy, 1) [20,18] 0x00 0x00 0x0 0x00 [SilverAxe, SilverBow, Hammer, Halberd] PursueWithoutHeedAI 
+UNIT 0x80 Warrior Novala Level(2, Enemy, 1) [17,21] 0x00 0x00 0x0 0x00 [SilverAxe, SilverBow, Swordreaver, Longbow] PursueWithoutHeedAI
+UNIT
+
+CharacterBasedEvents:
+CharacterEventBothWays(0xA, RecruitTalk, Eirika, Fraoch)
+END_MAIN
+
+RecruitTalk:
+MUSS 0x30
+Text(PlaceholderText)
+REMA
+CUSA Fraoch//Fraoch joins the party!
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
+
+LocationBasedEvents:
+Village(0x7,VillageSeal,11,11)
+Village(0x8,VillageReMove,20,5)
+Village(0x9,VillageIcon,0,17)
+Village(0xA,VillageWindSword,1,18)
+Village(0xB,VillageTalisman,11,9)
+Armory(ArmoryItems1,16,0)
+House(0,HouseEvent1,17,1)
+House(0,HouseEvent2,9,10)
+House(0,HouseEvent3,2,16)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+AFEV 0xC Boss1Killed 0x10
+AFEV 0xD Boss2Killed 0x11
+END_MAIN
+
+Boss1Killed:
+CHECK_EVENTID 0x11
+BEQ 0x0 0xc 0x0
+  //if boss 2 is also dead
+  CALL EndingScene
+LABEL 0x0
+NoFade
+ENDA
+
+Boss2Killed:
+CHECK_EVENTID 0x10
+BEQ 0x0 0xc 0x0
+  //if boss 1 is also dead
+  CALL EndingScene
+LABEL 0x0
+NoFade
+ENDA
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [2,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [3,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [1,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [0,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [3,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [4,2] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [4,0] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [5,1] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [2,4] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [5,3] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [4,4] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+Rebels:
+UNIT Fraoch Sniper 0x00 Level(1, NPC, 0) [12,10] 0x00 0x00 0x0 0x00 [Longbow, KillerBow, IronBow] AttackInRangeAI 
+UNIT 0x84 Sniper Fraoch Level(1, NPC, 1) [10,9] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x84 Sniper Fraoch Level(1, NPC, 1) [10,11] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x84 Archer Fraoch Level(12, NPC, 1) [8,9] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
+UNIT 0x84 Archer Fraoch Level(12, NPC, 1) [8,11] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
+UNIT 0x84 Cavalier Fraoch Level(12, NPC, 1) [8,13] 0x00 0x00 0x0 0x00 [Wyrmslayer, IronBlade] AttackInRangeAI 
+UNIT 0x84 Cavalier Fraoch Level(12, NPC, 1) [13,8] 0x00 0x00 0x0 0x00 [Wyrmslayer, IronBlade] AttackInRangeAI 
+UNIT
+
+Bad:
+UNIT Novala Druid 0x00 Level(1, Enemy, 0) [18,18] 0x00 0x00 0x0 0x00 [Nosferatu, Fimbulvetr, Silence] AttackInRangeAI 
+UNIT Deathgoyle_boss Warrior Novala Level(1, Enemy, 0) [17,19] 0x00 0x00 0x0 0x00 [Tomahawk, SilverAxe, Swordreaver] AttackInRangeAI 
+UNIT 0x80 Warrior Novala Level(1, Enemy, 1) [15,18] 0x00 0x00 0x0 0x00 [Hatchet] GuardTileAI 
+UNIT 0x80 Warrior Novala Level(1, Enemy, 1) [18,16] 0x00 0x00 0x0 0x00 [Hatchet] GuardTileAI 
+UNIT 0x80 Druid Novala Level(1, Enemy, 1) [19,16] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
+UNIT 0x80 Druid Novala Level(1, Enemy, 1) [15,19] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 
+UNIT 0x80 WyvernLord Novala Level(1, Enemy, 1) [19,20] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 WyvernLord Novala Level(1, Enemy, 1) [2,19] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 WyvernLord Novala Level(1, Enemy, 1) [18,2] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x80 WyvernLord Novala Level(1, Enemy, 1) [2,12] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT 0x80 WyvernLord Novala Level(1, Enemy, 1) [14,4] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI 
+UNIT 0x80 Druid Novala Level(1, Enemy, 1) [19,11] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x80 Shaman Novala Level(10, Enemy, 1) [11,19] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x80 Fighter Novala Level(10, Enemy, 1) [9,18] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x80 Fighter Novala Level(10, Enemy, 1) [5,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Novala Level(10, Enemy, 1) [18,6] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Novala Level(10, Enemy, 1) [17,6] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Novala Level(10, Enemy, 1) [5,17] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Novala Level(10, Enemy, 1) [9,3] 0x00 0x00 0x0 0x00 [Hatchet, SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Shaman Novala Level(10, Enemy, 1) [10,4] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Novala Level(10, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [Javelin, SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Novala Level(10, Enemy, 1) [3,8] 0x00 0x00 0x0 0x00 [Javelin, SteelLance] PursueWithoutHeedAI 
+UNIT 0x80 Fighter Novala Level(10, Enemy, 1) [2,9] 0x00 0x00 0x0 0x00 [Hatchet, SteelAxe] PursueWithoutHeedAI 
+UNIT 0x80 Cavalier Novala Level(10, Enemy, 1) [17,13] 0x00 0x00 0x0 0x00 [IronBlade] PursueWithoutHeedAI 
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+CHECK_TUTORIAL
+BEQ 0x0 0xC 0x0
+ENUT 0xb0 //turn on casual mode if easy
+LABEL 0x0
+//Text(Ch0IntroTalk)
+LOAD1 0x1 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+ENUN
+LOAD1 0x1 Bad
+ENUN
+// GotoPrepScreen
+ENDA
+
+EndingScene:
+MNC2 12 //go to ch12
+NoFade
+ENDA
+
+VillageSeal:
+VillageEventItem(PlaceholderText, HouseBG, MasterProof)
+
+VillageIcon:
+VillageEventItem(PlaceholderText, HouseBG, GoddessIcon)
+
+VillageTalisman:
+VillageEventItem(PlaceholderText, HouseBG, Talisman)
+
+VillageWindSword:
+VillageEventItem(PlaceholderText, HouseBG, WindSword)
+
+VillageReMove:
+	// Set parameters
+	SVAL r1 ReMoveID
+	SVAL r2 (-1) // (-1) is active unit
+	
+	// Check if unit has skill
+	// If they have, goto label #0 (end)
+	ASMC (ASMC_HasSkill+1)
+	BNE 0 rC r0
+	
+	// Learn skill to unit
+	ASMC (ASMC_LearnNewSkill+1)
+	
+LABEL 0
+	// end
+	
+	Text(PlaceholderText)
+	
+	NoFade
+	ENDA
+	
+	// HouseEvent(PlaceholderText, HouseBG)
+
+HouseEvent1:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent2:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent3:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+ArmoryItems1:
+SHLI SteelAxe KillerAxe SteelLance KillerLance SteelBow KillerBow SteelSword KillingEdge
+ALIGN 4
