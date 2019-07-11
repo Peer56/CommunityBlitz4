@@ -1,0 +1,257 @@
+256
+0x00 None
+0x01 Reaver Effect
+0x02 Disable Hammerne
+0x03 Reaver Effect,Disable Hammerne
+0x04 Monster Lock
+0x05 Reaver Effect,Monster Lock
+0x06 Disable Hammerne,Monster Lock
+0x07 Reaver Effect,Disable Hammerne,Monster Lock
+0x08 Weapon Lock 1
+0x09 Reaver Effect,Weapon Lock 1
+0x0A Disable Hammerne,Weapon Lock 1
+0x0B Reaver Effect,Disable Hammerne,Weapon Lock 1
+0x0C Monster Lock,Weapon Lock 1
+0x0D Reaver Effect,Monster Lock,Weapon Lock 1
+0x0E Disable Hammerne,Monster Lock,Weapon Lock 1
+0x0F Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1
+0x10 Myrmidon/Swordmaster Lock
+0x11 Reaver Effect,Myrmidon/Swordmaster Lock
+0x12 Disable Hammerne,Myrmidon/Swordmaster Lock
+0x13 Reaver Effect,Disable Hammerne,Myrmidon/Swordmaster Lock
+0x14 Monster Lock,Myrmidon/Swordmaster Lock
+0x15 Reaver Effect,Monster Lock,Myrmidon/Swordmaster Lock
+0x16 Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock
+0x17 Reaver Effect,Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock
+0x18 Weapon Lock 1,Myrmidon/Swordmaster Lock
+0x19 Reaver Effect,Weapon Lock 1,Myrmidon/Swordmaster Lock
+0x1A Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock
+0x1B Reaver Effect,Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock
+0x1C Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock
+0x1D Reaver Effect,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock
+0x1E Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock
+0x1F Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock
+0x20 Hide Weapon Info
+0x21 Reaver Effect,Hide Weapon Info
+0x22 Disable Hammerne,Hide Weapon Info
+0x23 Reaver Effect,Disable Hammerne,Hide Weapon Info
+0x24 Monster Lock,Hide Weapon Info
+0x25 Reaver Effect,Monster Lock,Hide Weapon Info
+0x26 Disable Hammerne,Monster Lock,Hide Weapon Info
+0x27 Reaver Effect,Disable Hammerne,Monster Lock,Hide Weapon Info
+0x28 Weapon Lock 1,Hide Weapon Info
+0x29 Reaver Effect,Weapon Lock 1,Hide Weapon Info
+0x2A Disable Hammerne,Weapon Lock 1,Hide Weapon Info
+0x2B Reaver Effect,Disable Hammerne,Weapon Lock 1,Hide Weapon Info
+0x2C Monster Lock,Weapon Lock 1,Hide Weapon Info
+0x2D Reaver Effect,Monster Lock,Weapon Lock 1,Hide Weapon Info
+0x2E Disable Hammerne,Monster Lock,Weapon Lock 1,Hide Weapon Info
+0x2F Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Hide Weapon Info
+0x30 Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x31 Reaver Effect,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x32 Disable Hammerne,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x33 Reaver Effect,Disable Hammerne,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x34 Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x35 Reaver Effect,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x36 Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x37 Reaver Effect,Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x38 Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x39 Reaver Effect,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x3A Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x3B Reaver Effect,Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x3C Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x3D Reaver Effect,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x3E Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x3F Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info
+0x40 Negate Flying Effectiveness
+0x41 Reaver Effect,Negate Flying Effectiveness
+0x42 Disable Hammerne,Negate Flying Effectiveness
+0x43 Reaver Effect,Disable Hammerne,Negate Flying Effectiveness
+0x44 Monster Lock,Negate Flying Effectiveness
+0x45 Reaver Effect,Monster Lock,Negate Flying Effectiveness
+0x46 Disable Hammerne,Monster Lock,Negate Flying Effectiveness
+0x47 Reaver Effect,Disable Hammerne,Monster Lock,Negate Flying Effectiveness
+0x48 Weapon Lock 1,Negate Flying Effectiveness
+0x49 Reaver Effect,Weapon Lock 1,Negate Flying Effectiveness
+0x4A Disable Hammerne,Weapon Lock 1,Negate Flying Effectiveness
+0x4B Reaver Effect,Disable Hammerne,Weapon Lock 1,Negate Flying Effectiveness
+0x4C Monster Lock,Weapon Lock 1,Negate Flying Effectiveness
+0x4D Reaver Effect,Monster Lock,Weapon Lock 1,Negate Flying Effectiveness
+0x4E Disable Hammerne,Monster Lock,Weapon Lock 1,Negate Flying Effectiveness
+0x4F Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Negate Flying Effectiveness
+0x50 Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x51 Reaver Effect,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x52 Disable Hammerne,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x53 Reaver Effect,Disable Hammerne,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x54 Monster Lock,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x55 Reaver Effect,Monster Lock,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x56 Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x57 Reaver Effect,Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x58 Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x59 Reaver Effect,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x5A Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x5B Reaver Effect,Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x5C Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x5D Reaver Effect,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x5E Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x5F Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness
+0x60 Hide Weapon Info,Negate Flying Effectiveness
+0x61 Reaver Effect,Hide Weapon Info,Negate Flying Effectiveness
+0x62 Disable Hammerne,Hide Weapon Info,Negate Flying Effectiveness
+0x63 Reaver Effect,Disable Hammerne,Hide Weapon Info,Negate Flying Effectiveness
+0x64 Monster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x65 Reaver Effect,Monster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x66 Disable Hammerne,Monster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x67 Reaver Effect,Disable Hammerne,Monster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x68 Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness
+0x69 Reaver Effect,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness
+0x6A Disable Hammerne,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness
+0x6B Reaver Effect,Disable Hammerne,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness
+0x6C Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness
+0x6D Reaver Effect,Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness
+0x6E Disable Hammerne,Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness
+0x6F Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness
+0x70 Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x71 Reaver Effect,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x72 Disable Hammerne,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x73 Reaver Effect,Disable Hammerne,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x74 Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x75 Reaver Effect,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x76 Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x77 Reaver Effect,Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x78 Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x79 Reaver Effect,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x7A Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x7B Reaver Effect,Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x7C Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x7D Reaver Effect,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x7E Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x7F Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness
+0x80 Negate Criticals
+0x81 Reaver Effect,Negate Criticals
+0x82 Disable Hammerne,Negate Criticals
+0x83 Reaver Effect,Disable Hammerne,Negate Criticals
+0x84 Monster Lock,Negate Criticals
+0x85 Reaver Effect,Monster Lock,Negate Criticals
+0x86 Disable Hammerne,Monster Lock,Negate Criticals
+0x87 Reaver Effect,Disable Hammerne,Monster Lock,Negate Criticals
+0x88 Weapon Lock 1,Negate Criticals
+0x89 Reaver Effect,Weapon Lock 1,Negate Criticals
+0x8A Disable Hammerne,Weapon Lock 1,Negate Criticals
+0x8B Reaver Effect,Disable Hammerne,Weapon Lock 1,Negate Criticals
+0x8C Monster Lock,Weapon Lock 1,Negate Criticals
+0x8D Reaver Effect,Monster Lock,Weapon Lock 1,Negate Criticals
+0x8E Disable Hammerne,Monster Lock,Weapon Lock 1,Negate Criticals
+0x8F Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Negate Criticals
+0x90 Myrmidon/Swordmaster Lock,Negate Criticals
+0x91 Reaver Effect,Myrmidon/Swordmaster Lock,Negate Criticals
+0x92 Disable Hammerne,Myrmidon/Swordmaster Lock,Negate Criticals
+0x93 Reaver Effect,Disable Hammerne,Myrmidon/Swordmaster Lock,Negate Criticals
+0x94 Monster Lock,Myrmidon/Swordmaster Lock,Negate Criticals
+0x95 Reaver Effect,Monster Lock,Myrmidon/Swordmaster Lock,Negate Criticals
+0x96 Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Negate Criticals
+0x97 Reaver Effect,Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Negate Criticals
+0x98 Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Criticals
+0x99 Reaver Effect,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Criticals
+0x9A Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Criticals
+0x9B Reaver Effect,Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Criticals
+0x9C Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Criticals
+0x9D Reaver Effect,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Criticals
+0x9E Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Criticals
+0x9F Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Criticals
+0xA0 Hide Weapon Info,Negate Criticals
+0xA1 Reaver Effect,Hide Weapon Info,Negate Criticals
+0xA2 Disable Hammerne,Hide Weapon Info,Negate Criticals
+0xA3 Reaver Effect,Disable Hammerne,Hide Weapon Info,Negate Criticals
+0xA4 Monster Lock,Hide Weapon Info,Negate Criticals
+0xA5 Reaver Effect,Monster Lock,Hide Weapon Info,Negate Criticals
+0xA6 Disable Hammerne,Monster Lock,Hide Weapon Info,Negate Criticals
+0xA7 Reaver Effect,Disable Hammerne,Monster Lock,Hide Weapon Info,Negate Criticals
+0xA8 Weapon Lock 1,Hide Weapon Info,Negate Criticals
+0xA9 Reaver Effect,Weapon Lock 1,Hide Weapon Info,Negate Criticals
+0xAA Disable Hammerne,Weapon Lock 1,Hide Weapon Info,Negate Criticals
+0xAB Reaver Effect,Disable Hammerne,Weapon Lock 1,Hide Weapon Info,Negate Criticals
+0xAC Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Criticals
+0xAD Reaver Effect,Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Criticals
+0xAE Disable Hammerne,Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Criticals
+0xAF Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Criticals
+0xB0 Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xB1 Reaver Effect,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xB2 Disable Hammerne,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xB3 Reaver Effect,Disable Hammerne,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xB4 Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xB5 Reaver Effect,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xB6 Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xB7 Reaver Effect,Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xB8 Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xB9 Reaver Effect,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xBA Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xBB Reaver Effect,Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xBC Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xBD Reaver Effect,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xBE Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xBF Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Criticals
+0xC0 Negate Flying Effectiveness,Negate Criticals
+0xC1 Reaver Effect,Negate Flying Effectiveness,Negate Criticals
+0xC2 Disable Hammerne,Negate Flying Effectiveness,Negate Criticals
+0xC3 Reaver Effect,Disable Hammerne,Negate Flying Effectiveness,Negate Criticals
+0xC4 Monster Lock,Negate Flying Effectiveness,Negate Criticals
+0xC5 Reaver Effect,Monster Lock,Negate Flying Effectiveness,Negate Criticals
+0xC6 Disable Hammerne,Monster Lock,Negate Flying Effectiveness,Negate Criticals
+0xC7 Reaver Effect,Disable Hammerne,Monster Lock,Negate Flying Effectiveness,Negate Criticals
+0xC8 Weapon Lock 1,Negate Flying Effectiveness,Negate Criticals
+0xC9 Reaver Effect,Weapon Lock 1,Negate Flying Effectiveness,Negate Criticals
+0xCA Disable Hammerne,Weapon Lock 1,Negate Flying Effectiveness,Negate Criticals
+0xCB Reaver Effect,Disable Hammerne,Weapon Lock 1,Negate Flying Effectiveness,Negate Criticals
+0xCC Monster Lock,Weapon Lock 1,Negate Flying Effectiveness,Negate Criticals
+0xCD Reaver Effect,Monster Lock,Weapon Lock 1,Negate Flying Effectiveness,Negate Criticals
+0xCE Disable Hammerne,Monster Lock,Weapon Lock 1,Negate Flying Effectiveness,Negate Criticals
+0xCF Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Negate Flying Effectiveness,Negate Criticals
+0xD0 Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xD1 Reaver Effect,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xD2 Disable Hammerne,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xD3 Reaver Effect,Disable Hammerne,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xD4 Monster Lock,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xD5 Reaver Effect,Monster Lock,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xD6 Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xD7 Reaver Effect,Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xD8 Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xD9 Reaver Effect,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xDA Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xDB Reaver Effect,Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xDC Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xDD Reaver Effect,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xDE Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xDF Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Negate Flying Effectiveness,Negate Criticals
+0xE0 Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xE1 Reaver Effect,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xE2 Disable Hammerne,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xE3 Reaver Effect,Disable Hammerne,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xE4 Monster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xE5 Reaver Effect,Monster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xE6 Disable Hammerne,Monster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xE7 Reaver Effect,Disable Hammerne,Monster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xE8 Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xE9 Reaver Effect,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xEA Disable Hammerne,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xEB Reaver Effect,Disable Hammerne,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xEC Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xED Reaver Effect,Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xEE Disable Hammerne,Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xEF Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xF0 Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xF1 Reaver Effect,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xF2 Disable Hammerne,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xF3 Reaver Effect,Disable Hammerne,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xF4 Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xF5 Reaver Effect,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xF6 Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xF7 Reaver Effect,Disable Hammerne,Monster Lock,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xF8 Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xF9 Reaver Effect,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xFA Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xFB Reaver Effect,Disable Hammerne,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xFC Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xFD Reaver Effect,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xFE Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals
+0xFF Reaver Effect,Disable Hammerne,Monster Lock,Weapon Lock 1,Myrmidon/Swordmaster Lock,Hide Weapon Info,Negate Flying Effectiveness,Negate Criticals

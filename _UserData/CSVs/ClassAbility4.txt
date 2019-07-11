@@ -1,0 +1,257 @@
+256
+0x00 None
+0x01 Do Not Grant Exp
+0x02 Silencer/Lethality
+0x03 Do Not Grant Exp,Silencer/Lethality
+0x04 Magic Seal
+0x05 Do Not Grant Exp,Magic Seal
+0x06 Silencer/Lethality,Magic Seal
+0x07 Do Not Grant Exp,Silencer/Lethality,Magic Seal
+0x08 Summoning
+0x09 Do Not Grant Exp,Summoning
+0x0A Silencer/Lethality,Summoning
+0x0B Do Not Grant Exp,Silencer/Lethality,Summoning
+0x0C Magic Seal,Summoning
+0x0D Do Not Grant Exp,Magic Seal,Summoning
+0x0E Silencer/Lethality,Magic Seal,Summoning
+0x0F Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning
+0x10 Eirika Lock
+0x11 Do Not Grant Exp,Eirika Lock
+0x12 Silencer/Lethality,Eirika Lock
+0x13 Do Not Grant Exp,Silencer/Lethality,Eirika Lock
+0x14 Magic Seal,Eirika Lock
+0x15 Do Not Grant Exp,Magic Seal,Eirika Lock
+0x16 Silencer/Lethality,Magic Seal,Eirika Lock
+0x17 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Eirika Lock
+0x18 Summoning,Eirika Lock
+0x19 Do Not Grant Exp,Summoning,Eirika Lock
+0x1A Silencer/Lethality,Summoning,Eirika Lock
+0x1B Do Not Grant Exp,Silencer/Lethality,Summoning,Eirika Lock
+0x1C Magic Seal,Summoning,Eirika Lock
+0x1D Do Not Grant Exp,Magic Seal,Summoning,Eirika Lock
+0x1E Silencer/Lethality,Magic Seal,Summoning,Eirika Lock
+0x1F Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Eirika Lock
+0x20 Ephraim Lock
+0x21 Do Not Grant Exp,Ephraim Lock
+0x22 Silencer/Lethality,Ephraim Lock
+0x23 Do Not Grant Exp,Silencer/Lethality,Ephraim Lock
+0x24 Magic Seal,Ephraim Lock
+0x25 Do Not Grant Exp,Magic Seal,Ephraim Lock
+0x26 Silencer/Lethality,Magic Seal,Ephraim Lock
+0x27 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Ephraim Lock
+0x28 Summoning,Ephraim Lock
+0x29 Do Not Grant Exp,Summoning,Ephraim Lock
+0x2A Silencer/Lethality,Summoning,Ephraim Lock
+0x2B Do Not Grant Exp,Silencer/Lethality,Summoning,Ephraim Lock
+0x2C Magic Seal,Summoning,Ephraim Lock
+0x2D Do Not Grant Exp,Magic Seal,Summoning,Ephraim Lock
+0x2E Silencer/Lethality,Magic Seal,Summoning,Ephraim Lock
+0x2F Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Ephraim Lock
+0x30 Eirika Lock,Ephraim Lock
+0x31 Do Not Grant Exp,Eirika Lock,Ephraim Lock
+0x32 Silencer/Lethality,Eirika Lock,Ephraim Lock
+0x33 Do Not Grant Exp,Silencer/Lethality,Eirika Lock,Ephraim Lock
+0x34 Magic Seal,Eirika Lock,Ephraim Lock
+0x35 Do Not Grant Exp,Magic Seal,Eirika Lock,Ephraim Lock
+0x36 Silencer/Lethality,Magic Seal,Eirika Lock,Ephraim Lock
+0x37 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Eirika Lock,Ephraim Lock
+0x38 Summoning,Eirika Lock,Ephraim Lock
+0x39 Do Not Grant Exp,Summoning,Eirika Lock,Ephraim Lock
+0x3A Silencer/Lethality,Summoning,Eirika Lock,Ephraim Lock
+0x3B Do Not Grant Exp,Silencer/Lethality,Summoning,Eirika Lock,Ephraim Lock
+0x3C Magic Seal,Summoning,Eirika Lock,Ephraim Lock
+0x3D Do Not Grant Exp,Magic Seal,Summoning,Eirika Lock,Ephraim Lock
+0x3E Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Ephraim Lock
+0x3F Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Ephraim Lock
+0x40 Lyn Lock (Unused)
+0x41 Do Not Grant Exp,Lyn Lock (Unused)
+0x42 Silencer/Lethality,Lyn Lock (Unused)
+0x43 Do Not Grant Exp,Silencer/Lethality,Lyn Lock (Unused)
+0x44 Magic Seal,Lyn Lock (Unused)
+0x45 Do Not Grant Exp,Magic Seal,Lyn Lock (Unused)
+0x46 Silencer/Lethality,Magic Seal,Lyn Lock (Unused)
+0x47 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Lyn Lock (Unused)
+0x48 Summoning,Lyn Lock (Unused)
+0x49 Do Not Grant Exp,Summoning,Lyn Lock (Unused)
+0x4A Silencer/Lethality,Summoning,Lyn Lock (Unused)
+0x4B Do Not Grant Exp,Silencer/Lethality,Summoning,Lyn Lock (Unused)
+0x4C Magic Seal,Summoning,Lyn Lock (Unused)
+0x4D Do Not Grant Exp,Magic Seal,Summoning,Lyn Lock (Unused)
+0x4E Silencer/Lethality,Magic Seal,Summoning,Lyn Lock (Unused)
+0x4F Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Lyn Lock (Unused)
+0x50 Eirika Lock,Lyn Lock (Unused)
+0x51 Do Not Grant Exp,Eirika Lock,Lyn Lock (Unused)
+0x52 Silencer/Lethality,Eirika Lock,Lyn Lock (Unused)
+0x53 Do Not Grant Exp,Silencer/Lethality,Eirika Lock,Lyn Lock (Unused)
+0x54 Magic Seal,Eirika Lock,Lyn Lock (Unused)
+0x55 Do Not Grant Exp,Magic Seal,Eirika Lock,Lyn Lock (Unused)
+0x56 Silencer/Lethality,Magic Seal,Eirika Lock,Lyn Lock (Unused)
+0x57 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Eirika Lock,Lyn Lock (Unused)
+0x58 Summoning,Eirika Lock,Lyn Lock (Unused)
+0x59 Do Not Grant Exp,Summoning,Eirika Lock,Lyn Lock (Unused)
+0x5A Silencer/Lethality,Summoning,Eirika Lock,Lyn Lock (Unused)
+0x5B Do Not Grant Exp,Silencer/Lethality,Summoning,Eirika Lock,Lyn Lock (Unused)
+0x5C Magic Seal,Summoning,Eirika Lock,Lyn Lock (Unused)
+0x5D Do Not Grant Exp,Magic Seal,Summoning,Eirika Lock,Lyn Lock (Unused)
+0x5E Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Lyn Lock (Unused)
+0x5F Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Lyn Lock (Unused)
+0x60 Ephraim Lock,Lyn Lock (Unused)
+0x61 Do Not Grant Exp,Ephraim Lock,Lyn Lock (Unused)
+0x62 Silencer/Lethality,Ephraim Lock,Lyn Lock (Unused)
+0x63 Do Not Grant Exp,Silencer/Lethality,Ephraim Lock,Lyn Lock (Unused)
+0x64 Magic Seal,Ephraim Lock,Lyn Lock (Unused)
+0x65 Do Not Grant Exp,Magic Seal,Ephraim Lock,Lyn Lock (Unused)
+0x66 Silencer/Lethality,Magic Seal,Ephraim Lock,Lyn Lock (Unused)
+0x67 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Ephraim Lock,Lyn Lock (Unused)
+0x68 Summoning,Ephraim Lock,Lyn Lock (Unused)
+0x69 Do Not Grant Exp,Summoning,Ephraim Lock,Lyn Lock (Unused)
+0x6A Silencer/Lethality,Summoning,Ephraim Lock,Lyn Lock (Unused)
+0x6B Do Not Grant Exp,Silencer/Lethality,Summoning,Ephraim Lock,Lyn Lock (Unused)
+0x6C Magic Seal,Summoning,Ephraim Lock,Lyn Lock (Unused)
+0x6D Do Not Grant Exp,Magic Seal,Summoning,Ephraim Lock,Lyn Lock (Unused)
+0x6E Silencer/Lethality,Magic Seal,Summoning,Ephraim Lock,Lyn Lock (Unused)
+0x6F Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Ephraim Lock,Lyn Lock (Unused)
+0x70 Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x71 Do Not Grant Exp,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x72 Silencer/Lethality,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x73 Do Not Grant Exp,Silencer/Lethality,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x74 Magic Seal,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x75 Do Not Grant Exp,Magic Seal,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x76 Silencer/Lethality,Magic Seal,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x77 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x78 Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x79 Do Not Grant Exp,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x7A Silencer/Lethality,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x7B Do Not Grant Exp,Silencer/Lethality,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x7C Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x7D Do Not Grant Exp,Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x7E Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x7F Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused)
+0x80 Athos Lock (Unused)
+0x81 Do Not Grant Exp,Athos Lock (Unused)
+0x82 Silencer/Lethality,Athos Lock (Unused)
+0x83 Do Not Grant Exp,Silencer/Lethality,Athos Lock (Unused)
+0x84 Magic Seal,Athos Lock (Unused)
+0x85 Do Not Grant Exp,Magic Seal,Athos Lock (Unused)
+0x86 Silencer/Lethality,Magic Seal,Athos Lock (Unused)
+0x87 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Athos Lock (Unused)
+0x88 Summoning,Athos Lock (Unused)
+0x89 Do Not Grant Exp,Summoning,Athos Lock (Unused)
+0x8A Silencer/Lethality,Summoning,Athos Lock (Unused)
+0x8B Do Not Grant Exp,Silencer/Lethality,Summoning,Athos Lock (Unused)
+0x8C Magic Seal,Summoning,Athos Lock (Unused)
+0x8D Do Not Grant Exp,Magic Seal,Summoning,Athos Lock (Unused)
+0x8E Silencer/Lethality,Magic Seal,Summoning,Athos Lock (Unused)
+0x8F Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Athos Lock (Unused)
+0x90 Eirika Lock,Athos Lock (Unused)
+0x91 Do Not Grant Exp,Eirika Lock,Athos Lock (Unused)
+0x92 Silencer/Lethality,Eirika Lock,Athos Lock (Unused)
+0x93 Do Not Grant Exp,Silencer/Lethality,Eirika Lock,Athos Lock (Unused)
+0x94 Magic Seal,Eirika Lock,Athos Lock (Unused)
+0x95 Do Not Grant Exp,Magic Seal,Eirika Lock,Athos Lock (Unused)
+0x96 Silencer/Lethality,Magic Seal,Eirika Lock,Athos Lock (Unused)
+0x97 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Eirika Lock,Athos Lock (Unused)
+0x98 Summoning,Eirika Lock,Athos Lock (Unused)
+0x99 Do Not Grant Exp,Summoning,Eirika Lock,Athos Lock (Unused)
+0x9A Silencer/Lethality,Summoning,Eirika Lock,Athos Lock (Unused)
+0x9B Do Not Grant Exp,Silencer/Lethality,Summoning,Eirika Lock,Athos Lock (Unused)
+0x9C Magic Seal,Summoning,Eirika Lock,Athos Lock (Unused)
+0x9D Do Not Grant Exp,Magic Seal,Summoning,Eirika Lock,Athos Lock (Unused)
+0x9E Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Athos Lock (Unused)
+0x9F Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Athos Lock (Unused)
+0xA0 Ephraim Lock,Athos Lock (Unused)
+0xA1 Do Not Grant Exp,Ephraim Lock,Athos Lock (Unused)
+0xA2 Silencer/Lethality,Ephraim Lock,Athos Lock (Unused)
+0xA3 Do Not Grant Exp,Silencer/Lethality,Ephraim Lock,Athos Lock (Unused)
+0xA4 Magic Seal,Ephraim Lock,Athos Lock (Unused)
+0xA5 Do Not Grant Exp,Magic Seal,Ephraim Lock,Athos Lock (Unused)
+0xA6 Silencer/Lethality,Magic Seal,Ephraim Lock,Athos Lock (Unused)
+0xA7 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Ephraim Lock,Athos Lock (Unused)
+0xA8 Summoning,Ephraim Lock,Athos Lock (Unused)
+0xA9 Do Not Grant Exp,Summoning,Ephraim Lock,Athos Lock (Unused)
+0xAA Silencer/Lethality,Summoning,Ephraim Lock,Athos Lock (Unused)
+0xAB Do Not Grant Exp,Silencer/Lethality,Summoning,Ephraim Lock,Athos Lock (Unused)
+0xAC Magic Seal,Summoning,Ephraim Lock,Athos Lock (Unused)
+0xAD Do Not Grant Exp,Magic Seal,Summoning,Ephraim Lock,Athos Lock (Unused)
+0xAE Silencer/Lethality,Magic Seal,Summoning,Ephraim Lock,Athos Lock (Unused)
+0xAF Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Ephraim Lock,Athos Lock (Unused)
+0xB0 Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xB1 Do Not Grant Exp,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xB2 Silencer/Lethality,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xB3 Do Not Grant Exp,Silencer/Lethality,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xB4 Magic Seal,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xB5 Do Not Grant Exp,Magic Seal,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xB6 Silencer/Lethality,Magic Seal,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xB7 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xB8 Summoning,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xB9 Do Not Grant Exp,Summoning,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xBA Silencer/Lethality,Summoning,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xBB Do Not Grant Exp,Silencer/Lethality,Summoning,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xBC Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xBD Do Not Grant Exp,Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xBE Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xBF Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Athos Lock (Unused)
+0xC0 Lyn Lock (Unused),Athos Lock (Unused)
+0xC1 Do Not Grant Exp,Lyn Lock (Unused),Athos Lock (Unused)
+0xC2 Silencer/Lethality,Lyn Lock (Unused),Athos Lock (Unused)
+0xC3 Do Not Grant Exp,Silencer/Lethality,Lyn Lock (Unused),Athos Lock (Unused)
+0xC4 Magic Seal,Lyn Lock (Unused),Athos Lock (Unused)
+0xC5 Do Not Grant Exp,Magic Seal,Lyn Lock (Unused),Athos Lock (Unused)
+0xC6 Silencer/Lethality,Magic Seal,Lyn Lock (Unused),Athos Lock (Unused)
+0xC7 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Lyn Lock (Unused),Athos Lock (Unused)
+0xC8 Summoning,Lyn Lock (Unused),Athos Lock (Unused)
+0xC9 Do Not Grant Exp,Summoning,Lyn Lock (Unused),Athos Lock (Unused)
+0xCA Silencer/Lethality,Summoning,Lyn Lock (Unused),Athos Lock (Unused)
+0xCB Do Not Grant Exp,Silencer/Lethality,Summoning,Lyn Lock (Unused),Athos Lock (Unused)
+0xCC Magic Seal,Summoning,Lyn Lock (Unused),Athos Lock (Unused)
+0xCD Do Not Grant Exp,Magic Seal,Summoning,Lyn Lock (Unused),Athos Lock (Unused)
+0xCE Silencer/Lethality,Magic Seal,Summoning,Lyn Lock (Unused),Athos Lock (Unused)
+0xCF Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Lyn Lock (Unused),Athos Lock (Unused)
+0xD0 Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xD1 Do Not Grant Exp,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xD2 Silencer/Lethality,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xD3 Do Not Grant Exp,Silencer/Lethality,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xD4 Magic Seal,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xD5 Do Not Grant Exp,Magic Seal,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xD6 Silencer/Lethality,Magic Seal,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xD7 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xD8 Summoning,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xD9 Do Not Grant Exp,Summoning,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xDA Silencer/Lethality,Summoning,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xDB Do Not Grant Exp,Silencer/Lethality,Summoning,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xDC Magic Seal,Summoning,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xDD Do Not Grant Exp,Magic Seal,Summoning,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xDE Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xDF Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xE0 Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xE1 Do Not Grant Exp,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xE2 Silencer/Lethality,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xE3 Do Not Grant Exp,Silencer/Lethality,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xE4 Magic Seal,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xE5 Do Not Grant Exp,Magic Seal,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xE6 Silencer/Lethality,Magic Seal,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xE7 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xE8 Summoning,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xE9 Do Not Grant Exp,Summoning,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xEA Silencer/Lethality,Summoning,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xEB Do Not Grant Exp,Silencer/Lethality,Summoning,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xEC Magic Seal,Summoning,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xED Do Not Grant Exp,Magic Seal,Summoning,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xEE Silencer/Lethality,Magic Seal,Summoning,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xEF Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xF0 Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xF1 Do Not Grant Exp,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xF2 Silencer/Lethality,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xF3 Do Not Grant Exp,Silencer/Lethality,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xF4 Magic Seal,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xF5 Do Not Grant Exp,Magic Seal,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xF6 Silencer/Lethality,Magic Seal,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xF7 Do Not Grant Exp,Silencer/Lethality,Magic Seal,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xF8 Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xF9 Do Not Grant Exp,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xFA Silencer/Lethality,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xFB Do Not Grant Exp,Silencer/Lethality,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xFC Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xFD Do Not Grant Exp,Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xFE Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)
+0xFF Do Not Grant Exp,Silencer/Lethality,Magic Seal,Summoning,Eirika Lock,Ephraim Lock,Lyn Lock (Unused),Athos Lock (Unused)

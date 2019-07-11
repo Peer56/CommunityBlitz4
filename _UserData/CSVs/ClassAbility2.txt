@@ -1,0 +1,257 @@
+256
+0x00 None
+0x01 Promoted Unit
+0x02 Supply
+0x03 Promoted Unit,Supply
+0x04 Cavalry Unit Icon
+0x05 Promoted Unit,Cavalry Unit Icon
+0x06 Supply,Cavalry Unit Icon
+0x07 Promoted Unit,Supply,Cavalry Unit Icon
+0x08 Wyvern Unit Icon
+0x09 Promoted Unit,Wyvern Unit Icon
+0x0A Supply,Wyvern Unit Icon
+0x0B Promoted Unit,Supply,Wyvern Unit Icon
+0x0C Cavalry Unit Icon,Wyvern Unit Icon
+0x0D Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon
+0x0E Supply,Cavalry Unit Icon,Wyvern Unit Icon
+0x0F Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon
+0x10 Pegasus Unit Icon
+0x11 Promoted Unit,Pegasus Unit Icon
+0x12 Supply,Pegasus Unit Icon
+0x13 Promoted Unit,Supply,Pegasus Unit Icon
+0x14 Cavalry Unit Icon,Pegasus Unit Icon
+0x15 Promoted Unit,Cavalry Unit Icon,Pegasus Unit Icon
+0x16 Supply,Cavalry Unit Icon,Pegasus Unit Icon
+0x17 Promoted Unit,Supply,Cavalry Unit Icon,Pegasus Unit Icon
+0x18 Wyvern Unit Icon,Pegasus Unit Icon
+0x19 Promoted Unit,Wyvern Unit Icon,Pegasus Unit Icon
+0x1A Supply,Wyvern Unit Icon,Pegasus Unit Icon
+0x1B Promoted Unit,Supply,Wyvern Unit Icon,Pegasus Unit Icon
+0x1C Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon
+0x1D Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon
+0x1E Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon
+0x1F Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon
+0x20 Lord Unit
+0x21 Promoted Unit,Lord Unit
+0x22 Supply,Lord Unit
+0x23 Promoted Unit,Supply,Lord Unit
+0x24 Cavalry Unit Icon,Lord Unit
+0x25 Promoted Unit,Cavalry Unit Icon,Lord Unit
+0x26 Supply,Cavalry Unit Icon,Lord Unit
+0x27 Promoted Unit,Supply,Cavalry Unit Icon,Lord Unit
+0x28 Wyvern Unit Icon,Lord Unit
+0x29 Promoted Unit,Wyvern Unit Icon,Lord Unit
+0x2A Supply,Wyvern Unit Icon,Lord Unit
+0x2B Promoted Unit,Supply,Wyvern Unit Icon,Lord Unit
+0x2C Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit
+0x2D Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit
+0x2E Supply,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit
+0x2F Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit
+0x30 Pegasus Unit Icon,Lord Unit
+0x31 Promoted Unit,Pegasus Unit Icon,Lord Unit
+0x32 Supply,Pegasus Unit Icon,Lord Unit
+0x33 Promoted Unit,Supply,Pegasus Unit Icon,Lord Unit
+0x34 Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit
+0x35 Promoted Unit,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit
+0x36 Supply,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit
+0x37 Promoted Unit,Supply,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit
+0x38 Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit
+0x39 Promoted Unit,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit
+0x3A Supply,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit
+0x3B Promoted Unit,Supply,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit
+0x3C Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit
+0x3D Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit
+0x3E Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit
+0x3F Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit
+0x40 Female
+0x41 Promoted Unit,Female
+0x42 Supply,Female
+0x43 Promoted Unit,Supply,Female
+0x44 Cavalry Unit Icon,Female
+0x45 Promoted Unit,Cavalry Unit Icon,Female
+0x46 Supply,Cavalry Unit Icon,Female
+0x47 Promoted Unit,Supply,Cavalry Unit Icon,Female
+0x48 Wyvern Unit Icon,Female
+0x49 Promoted Unit,Wyvern Unit Icon,Female
+0x4A Supply,Wyvern Unit Icon,Female
+0x4B Promoted Unit,Supply,Wyvern Unit Icon,Female
+0x4C Cavalry Unit Icon,Wyvern Unit Icon,Female
+0x4D Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Female
+0x4E Supply,Cavalry Unit Icon,Wyvern Unit Icon,Female
+0x4F Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Female
+0x50 Pegasus Unit Icon,Female
+0x51 Promoted Unit,Pegasus Unit Icon,Female
+0x52 Supply,Pegasus Unit Icon,Female
+0x53 Promoted Unit,Supply,Pegasus Unit Icon,Female
+0x54 Cavalry Unit Icon,Pegasus Unit Icon,Female
+0x55 Promoted Unit,Cavalry Unit Icon,Pegasus Unit Icon,Female
+0x56 Supply,Cavalry Unit Icon,Pegasus Unit Icon,Female
+0x57 Promoted Unit,Supply,Cavalry Unit Icon,Pegasus Unit Icon,Female
+0x58 Wyvern Unit Icon,Pegasus Unit Icon,Female
+0x59 Promoted Unit,Wyvern Unit Icon,Pegasus Unit Icon,Female
+0x5A Supply,Wyvern Unit Icon,Pegasus Unit Icon,Female
+0x5B Promoted Unit,Supply,Wyvern Unit Icon,Pegasus Unit Icon,Female
+0x5C Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Female
+0x5D Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Female
+0x5E Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Female
+0x5F Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Female
+0x60 Lord Unit,Female
+0x61 Promoted Unit,Lord Unit,Female
+0x62 Supply,Lord Unit,Female
+0x63 Promoted Unit,Supply,Lord Unit,Female
+0x64 Cavalry Unit Icon,Lord Unit,Female
+0x65 Promoted Unit,Cavalry Unit Icon,Lord Unit,Female
+0x66 Supply,Cavalry Unit Icon,Lord Unit,Female
+0x67 Promoted Unit,Supply,Cavalry Unit Icon,Lord Unit,Female
+0x68 Wyvern Unit Icon,Lord Unit,Female
+0x69 Promoted Unit,Wyvern Unit Icon,Lord Unit,Female
+0x6A Supply,Wyvern Unit Icon,Lord Unit,Female
+0x6B Promoted Unit,Supply,Wyvern Unit Icon,Lord Unit,Female
+0x6C Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Female
+0x6D Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Female
+0x6E Supply,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Female
+0x6F Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Female
+0x70 Pegasus Unit Icon,Lord Unit,Female
+0x71 Promoted Unit,Pegasus Unit Icon,Lord Unit,Female
+0x72 Supply,Pegasus Unit Icon,Lord Unit,Female
+0x73 Promoted Unit,Supply,Pegasus Unit Icon,Lord Unit,Female
+0x74 Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x75 Promoted Unit,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x76 Supply,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x77 Promoted Unit,Supply,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x78 Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x79 Promoted Unit,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x7A Supply,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x7B Promoted Unit,Supply,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x7C Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x7D Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x7E Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x7F Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female
+0x80 Boss
+0x81 Promoted Unit,Boss
+0x82 Supply,Boss
+0x83 Promoted Unit,Supply,Boss
+0x84 Cavalry Unit Icon,Boss
+0x85 Promoted Unit,Cavalry Unit Icon,Boss
+0x86 Supply,Cavalry Unit Icon,Boss
+0x87 Promoted Unit,Supply,Cavalry Unit Icon,Boss
+0x88 Wyvern Unit Icon,Boss
+0x89 Promoted Unit,Wyvern Unit Icon,Boss
+0x8A Supply,Wyvern Unit Icon,Boss
+0x8B Promoted Unit,Supply,Wyvern Unit Icon,Boss
+0x8C Cavalry Unit Icon,Wyvern Unit Icon,Boss
+0x8D Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Boss
+0x8E Supply,Cavalry Unit Icon,Wyvern Unit Icon,Boss
+0x8F Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Boss
+0x90 Pegasus Unit Icon,Boss
+0x91 Promoted Unit,Pegasus Unit Icon,Boss
+0x92 Supply,Pegasus Unit Icon,Boss
+0x93 Promoted Unit,Supply,Pegasus Unit Icon,Boss
+0x94 Cavalry Unit Icon,Pegasus Unit Icon,Boss
+0x95 Promoted Unit,Cavalry Unit Icon,Pegasus Unit Icon,Boss
+0x96 Supply,Cavalry Unit Icon,Pegasus Unit Icon,Boss
+0x97 Promoted Unit,Supply,Cavalry Unit Icon,Pegasus Unit Icon,Boss
+0x98 Wyvern Unit Icon,Pegasus Unit Icon,Boss
+0x99 Promoted Unit,Wyvern Unit Icon,Pegasus Unit Icon,Boss
+0x9A Supply,Wyvern Unit Icon,Pegasus Unit Icon,Boss
+0x9B Promoted Unit,Supply,Wyvern Unit Icon,Pegasus Unit Icon,Boss
+0x9C Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Boss
+0x9D Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Boss
+0x9E Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Boss
+0x9F Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Boss
+0xA0 Lord Unit,Boss
+0xA1 Promoted Unit,Lord Unit,Boss
+0xA2 Supply,Lord Unit,Boss
+0xA3 Promoted Unit,Supply,Lord Unit,Boss
+0xA4 Cavalry Unit Icon,Lord Unit,Boss
+0xA5 Promoted Unit,Cavalry Unit Icon,Lord Unit,Boss
+0xA6 Supply,Cavalry Unit Icon,Lord Unit,Boss
+0xA7 Promoted Unit,Supply,Cavalry Unit Icon,Lord Unit,Boss
+0xA8 Wyvern Unit Icon,Lord Unit,Boss
+0xA9 Promoted Unit,Wyvern Unit Icon,Lord Unit,Boss
+0xAA Supply,Wyvern Unit Icon,Lord Unit,Boss
+0xAB Promoted Unit,Supply,Wyvern Unit Icon,Lord Unit,Boss
+0xAC Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Boss
+0xAD Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Boss
+0xAE Supply,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Boss
+0xAF Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Boss
+0xB0 Pegasus Unit Icon,Lord Unit,Boss
+0xB1 Promoted Unit,Pegasus Unit Icon,Lord Unit,Boss
+0xB2 Supply,Pegasus Unit Icon,Lord Unit,Boss
+0xB3 Promoted Unit,Supply,Pegasus Unit Icon,Lord Unit,Boss
+0xB4 Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xB5 Promoted Unit,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xB6 Supply,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xB7 Promoted Unit,Supply,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xB8 Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xB9 Promoted Unit,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xBA Supply,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xBB Promoted Unit,Supply,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xBC Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xBD Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xBE Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xBF Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Boss
+0xC0 Female,Boss
+0xC1 Promoted Unit,Female,Boss
+0xC2 Supply,Female,Boss
+0xC3 Promoted Unit,Supply,Female,Boss
+0xC4 Cavalry Unit Icon,Female,Boss
+0xC5 Promoted Unit,Cavalry Unit Icon,Female,Boss
+0xC6 Supply,Cavalry Unit Icon,Female,Boss
+0xC7 Promoted Unit,Supply,Cavalry Unit Icon,Female,Boss
+0xC8 Wyvern Unit Icon,Female,Boss
+0xC9 Promoted Unit,Wyvern Unit Icon,Female,Boss
+0xCA Supply,Wyvern Unit Icon,Female,Boss
+0xCB Promoted Unit,Supply,Wyvern Unit Icon,Female,Boss
+0xCC Cavalry Unit Icon,Wyvern Unit Icon,Female,Boss
+0xCD Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Female,Boss
+0xCE Supply,Cavalry Unit Icon,Wyvern Unit Icon,Female,Boss
+0xCF Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Female,Boss
+0xD0 Pegasus Unit Icon,Female,Boss
+0xD1 Promoted Unit,Pegasus Unit Icon,Female,Boss
+0xD2 Supply,Pegasus Unit Icon,Female,Boss
+0xD3 Promoted Unit,Supply,Pegasus Unit Icon,Female,Boss
+0xD4 Cavalry Unit Icon,Pegasus Unit Icon,Female,Boss
+0xD5 Promoted Unit,Cavalry Unit Icon,Pegasus Unit Icon,Female,Boss
+0xD6 Supply,Cavalry Unit Icon,Pegasus Unit Icon,Female,Boss
+0xD7 Promoted Unit,Supply,Cavalry Unit Icon,Pegasus Unit Icon,Female,Boss
+0xD8 Wyvern Unit Icon,Pegasus Unit Icon,Female,Boss
+0xD9 Promoted Unit,Wyvern Unit Icon,Pegasus Unit Icon,Female,Boss
+0xDA Supply,Wyvern Unit Icon,Pegasus Unit Icon,Female,Boss
+0xDB Promoted Unit,Supply,Wyvern Unit Icon,Pegasus Unit Icon,Female,Boss
+0xDC Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Female,Boss
+0xDD Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Female,Boss
+0xDE Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Female,Boss
+0xDF Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Female,Boss
+0xE0 Lord Unit,Female,Boss
+0xE1 Promoted Unit,Lord Unit,Female,Boss
+0xE2 Supply,Lord Unit,Female,Boss
+0xE3 Promoted Unit,Supply,Lord Unit,Female,Boss
+0xE4 Cavalry Unit Icon,Lord Unit,Female,Boss
+0xE5 Promoted Unit,Cavalry Unit Icon,Lord Unit,Female,Boss
+0xE6 Supply,Cavalry Unit Icon,Lord Unit,Female,Boss
+0xE7 Promoted Unit,Supply,Cavalry Unit Icon,Lord Unit,Female,Boss
+0xE8 Wyvern Unit Icon,Lord Unit,Female,Boss
+0xE9 Promoted Unit,Wyvern Unit Icon,Lord Unit,Female,Boss
+0xEA Supply,Wyvern Unit Icon,Lord Unit,Female,Boss
+0xEB Promoted Unit,Supply,Wyvern Unit Icon,Lord Unit,Female,Boss
+0xEC Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Female,Boss
+0xED Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Female,Boss
+0xEE Supply,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Female,Boss
+0xEF Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Lord Unit,Female,Boss
+0xF0 Pegasus Unit Icon,Lord Unit,Female,Boss
+0xF1 Promoted Unit,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xF2 Supply,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xF3 Promoted Unit,Supply,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xF4 Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xF5 Promoted Unit,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xF6 Supply,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xF7 Promoted Unit,Supply,Cavalry Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xF8 Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xF9 Promoted Unit,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xFA Supply,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xFB Promoted Unit,Supply,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xFC Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xFD Promoted Unit,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xFE Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss
+0xFF Promoted Unit,Supply,Cavalry Unit Icon,Wyvern Unit Icon,Pegasus Unit Icon,Lord Unit,Female,Boss

@@ -1,0 +1,257 @@
+256
+0x00 None
+0x01 Weapon
+0x02 Magic
+0x03 Weapon,Magic
+0x04 Staff
+0x05 Weapon,Staff
+0x06 Magic,Staff
+0x07 Weapon,Magic,Staff
+0x08 Unbreakable
+0x09 Weapon,Unbreakable
+0x0A Magic,Unbreakable
+0x0B Weapon,Magic,Unbreakable
+0x0C Staff,Unbreakable
+0x0D Weapon,Staff,Unbreakable
+0x0E Magic,Staff,Unbreakable
+0x0F Weapon,Magic,Staff,Unbreakable
+0x10 Unsellable
+0x11 Weapon,Unsellable
+0x12 Magic,Unsellable
+0x13 Weapon,Magic,Unsellable
+0x14 Staff,Unsellable
+0x15 Weapon,Staff,Unsellable
+0x16 Magic,Staff,Unsellable
+0x17 Weapon,Magic,Staff,Unsellable
+0x18 Unbreakable,Unsellable
+0x19 Weapon,Unbreakable,Unsellable
+0x1A Magic,Unbreakable,Unsellable
+0x1B Weapon,Magic,Unbreakable,Unsellable
+0x1C Staff,Unbreakable,Unsellable
+0x1D Weapon,Staff,Unbreakable,Unsellable
+0x1E Magic,Staff,Unbreakable,Unsellable
+0x1F Weapon,Magic,Staff,Unbreakable,Unsellable
+0x20 Brave Effect
+0x21 Weapon,Brave Effect
+0x22 Magic,Brave Effect
+0x23 Weapon,Magic,Brave Effect
+0x24 Staff,Brave Effect
+0x25 Weapon,Staff,Brave Effect
+0x26 Magic,Staff,Brave Effect
+0x27 Weapon,Magic,Staff,Brave Effect
+0x28 Unbreakable,Brave Effect
+0x29 Weapon,Unbreakable,Brave Effect
+0x2A Magic,Unbreakable,Brave Effect
+0x2B Weapon,Magic,Unbreakable,Brave Effect
+0x2C Staff,Unbreakable,Brave Effect
+0x2D Weapon,Staff,Unbreakable,Brave Effect
+0x2E Magic,Staff,Unbreakable,Brave Effect
+0x2F Weapon,Magic,Staff,Unbreakable,Brave Effect
+0x30 Unsellable,Brave Effect
+0x31 Weapon,Unsellable,Brave Effect
+0x32 Magic,Unsellable,Brave Effect
+0x33 Weapon,Magic,Unsellable,Brave Effect
+0x34 Staff,Unsellable,Brave Effect
+0x35 Weapon,Staff,Unsellable,Brave Effect
+0x36 Magic,Staff,Unsellable,Brave Effect
+0x37 Weapon,Magic,Staff,Unsellable,Brave Effect
+0x38 Unbreakable,Unsellable,Brave Effect
+0x39 Weapon,Unbreakable,Unsellable,Brave Effect
+0x3A Magic,Unbreakable,Unsellable,Brave Effect
+0x3B Weapon,Magic,Unbreakable,Unsellable,Brave Effect
+0x3C Staff,Unbreakable,Unsellable,Brave Effect
+0x3D Weapon,Staff,Unbreakable,Unsellable,Brave Effect
+0x3E Magic,Staff,Unbreakable,Unsellable,Brave Effect
+0x3F Weapon,Magic,Staff,Unbreakable,Unsellable,Brave Effect
+0x40 Magic Damage
+0x41 Weapon,Magic Damage
+0x42 Magic,Magic Damage
+0x43 Weapon,Magic,Magic Damage
+0x44 Staff,Magic Damage
+0x45 Weapon,Staff,Magic Damage
+0x46 Magic,Staff,Magic Damage
+0x47 Weapon,Magic,Staff,Magic Damage
+0x48 Unbreakable,Magic Damage
+0x49 Weapon,Unbreakable,Magic Damage
+0x4A Magic,Unbreakable,Magic Damage
+0x4B Weapon,Magic,Unbreakable,Magic Damage
+0x4C Staff,Unbreakable,Magic Damage
+0x4D Weapon,Staff,Unbreakable,Magic Damage
+0x4E Magic,Staff,Unbreakable,Magic Damage
+0x4F Weapon,Magic,Staff,Unbreakable,Magic Damage
+0x50 Unsellable,Magic Damage
+0x51 Weapon,Unsellable,Magic Damage
+0x52 Magic,Unsellable,Magic Damage
+0x53 Weapon,Magic,Unsellable,Magic Damage
+0x54 Staff,Unsellable,Magic Damage
+0x55 Weapon,Staff,Unsellable,Magic Damage
+0x56 Magic,Staff,Unsellable,Magic Damage
+0x57 Weapon,Magic,Staff,Unsellable,Magic Damage
+0x58 Unbreakable,Unsellable,Magic Damage
+0x59 Weapon,Unbreakable,Unsellable,Magic Damage
+0x5A Magic,Unbreakable,Unsellable,Magic Damage
+0x5B Weapon,Magic,Unbreakable,Unsellable,Magic Damage
+0x5C Staff,Unbreakable,Unsellable,Magic Damage
+0x5D Weapon,Staff,Unbreakable,Unsellable,Magic Damage
+0x5E Magic,Staff,Unbreakable,Unsellable,Magic Damage
+0x5F Weapon,Magic,Staff,Unbreakable,Unsellable,Magic Damage
+0x60 Brave Effect,Magic Damage
+0x61 Weapon,Brave Effect,Magic Damage
+0x62 Magic,Brave Effect,Magic Damage
+0x63 Weapon,Magic,Brave Effect,Magic Damage
+0x64 Staff,Brave Effect,Magic Damage
+0x65 Weapon,Staff,Brave Effect,Magic Damage
+0x66 Magic,Staff,Brave Effect,Magic Damage
+0x67 Weapon,Magic,Staff,Brave Effect,Magic Damage
+0x68 Unbreakable,Brave Effect,Magic Damage
+0x69 Weapon,Unbreakable,Brave Effect,Magic Damage
+0x6A Magic,Unbreakable,Brave Effect,Magic Damage
+0x6B Weapon,Magic,Unbreakable,Brave Effect,Magic Damage
+0x6C Staff,Unbreakable,Brave Effect,Magic Damage
+0x6D Weapon,Staff,Unbreakable,Brave Effect,Magic Damage
+0x6E Magic,Staff,Unbreakable,Brave Effect,Magic Damage
+0x6F Weapon,Magic,Staff,Unbreakable,Brave Effect,Magic Damage
+0x70 Unsellable,Brave Effect,Magic Damage
+0x71 Weapon,Unsellable,Brave Effect,Magic Damage
+0x72 Magic,Unsellable,Brave Effect,Magic Damage
+0x73 Weapon,Magic,Unsellable,Brave Effect,Magic Damage
+0x74 Staff,Unsellable,Brave Effect,Magic Damage
+0x75 Weapon,Staff,Unsellable,Brave Effect,Magic Damage
+0x76 Magic,Staff,Unsellable,Brave Effect,Magic Damage
+0x77 Weapon,Magic,Staff,Unsellable,Brave Effect,Magic Damage
+0x78 Unbreakable,Unsellable,Brave Effect,Magic Damage
+0x79 Weapon,Unbreakable,Unsellable,Brave Effect,Magic Damage
+0x7A Magic,Unbreakable,Unsellable,Brave Effect,Magic Damage
+0x7B Weapon,Magic,Unbreakable,Unsellable,Brave Effect,Magic Damage
+0x7C Staff,Unbreakable,Unsellable,Brave Effect,Magic Damage
+0x7D Weapon,Staff,Unbreakable,Unsellable,Brave Effect,Magic Damage
+0x7E Magic,Staff,Unbreakable,Unsellable,Brave Effect,Magic Damage
+0x7F Weapon,Magic,Staff,Unbreakable,Unsellable,Brave Effect,Magic Damage
+0x80 Uncounterable
+0x81 Weapon,Uncounterable
+0x82 Magic,Uncounterable
+0x83 Weapon,Magic,Uncounterable
+0x84 Staff,Uncounterable
+0x85 Weapon,Staff,Uncounterable
+0x86 Magic,Staff,Uncounterable
+0x87 Weapon,Magic,Staff,Uncounterable
+0x88 Unbreakable,Uncounterable
+0x89 Weapon,Unbreakable,Uncounterable
+0x8A Magic,Unbreakable,Uncounterable
+0x8B Weapon,Magic,Unbreakable,Uncounterable
+0x8C Staff,Unbreakable,Uncounterable
+0x8D Weapon,Staff,Unbreakable,Uncounterable
+0x8E Magic,Staff,Unbreakable,Uncounterable
+0x8F Weapon,Magic,Staff,Unbreakable,Uncounterable
+0x90 Unsellable,Uncounterable
+0x91 Weapon,Unsellable,Uncounterable
+0x92 Magic,Unsellable,Uncounterable
+0x93 Weapon,Magic,Unsellable,Uncounterable
+0x94 Staff,Unsellable,Uncounterable
+0x95 Weapon,Staff,Unsellable,Uncounterable
+0x96 Magic,Staff,Unsellable,Uncounterable
+0x97 Weapon,Magic,Staff,Unsellable,Uncounterable
+0x98 Unbreakable,Unsellable,Uncounterable
+0x99 Weapon,Unbreakable,Unsellable,Uncounterable
+0x9A Magic,Unbreakable,Unsellable,Uncounterable
+0x9B Weapon,Magic,Unbreakable,Unsellable,Uncounterable
+0x9C Staff,Unbreakable,Unsellable,Uncounterable
+0x9D Weapon,Staff,Unbreakable,Unsellable,Uncounterable
+0x9E Magic,Staff,Unbreakable,Unsellable,Uncounterable
+0x9F Weapon,Magic,Staff,Unbreakable,Unsellable,Uncounterable
+0xA0 Brave Effect,Uncounterable
+0xA1 Weapon,Brave Effect,Uncounterable
+0xA2 Magic,Brave Effect,Uncounterable
+0xA3 Weapon,Magic,Brave Effect,Uncounterable
+0xA4 Staff,Brave Effect,Uncounterable
+0xA5 Weapon,Staff,Brave Effect,Uncounterable
+0xA6 Magic,Staff,Brave Effect,Uncounterable
+0xA7 Weapon,Magic,Staff,Brave Effect,Uncounterable
+0xA8 Unbreakable,Brave Effect,Uncounterable
+0xA9 Weapon,Unbreakable,Brave Effect,Uncounterable
+0xAA Magic,Unbreakable,Brave Effect,Uncounterable
+0xAB Weapon,Magic,Unbreakable,Brave Effect,Uncounterable
+0xAC Staff,Unbreakable,Brave Effect,Uncounterable
+0xAD Weapon,Staff,Unbreakable,Brave Effect,Uncounterable
+0xAE Magic,Staff,Unbreakable,Brave Effect,Uncounterable
+0xAF Weapon,Magic,Staff,Unbreakable,Brave Effect,Uncounterable
+0xB0 Unsellable,Brave Effect,Uncounterable
+0xB1 Weapon,Unsellable,Brave Effect,Uncounterable
+0xB2 Magic,Unsellable,Brave Effect,Uncounterable
+0xB3 Weapon,Magic,Unsellable,Brave Effect,Uncounterable
+0xB4 Staff,Unsellable,Brave Effect,Uncounterable
+0xB5 Weapon,Staff,Unsellable,Brave Effect,Uncounterable
+0xB6 Magic,Staff,Unsellable,Brave Effect,Uncounterable
+0xB7 Weapon,Magic,Staff,Unsellable,Brave Effect,Uncounterable
+0xB8 Unbreakable,Unsellable,Brave Effect,Uncounterable
+0xB9 Weapon,Unbreakable,Unsellable,Brave Effect,Uncounterable
+0xBA Magic,Unbreakable,Unsellable,Brave Effect,Uncounterable
+0xBB Weapon,Magic,Unbreakable,Unsellable,Brave Effect,Uncounterable
+0xBC Staff,Unbreakable,Unsellable,Brave Effect,Uncounterable
+0xBD Weapon,Staff,Unbreakable,Unsellable,Brave Effect,Uncounterable
+0xBE Magic,Staff,Unbreakable,Unsellable,Brave Effect,Uncounterable
+0xBF Weapon,Magic,Staff,Unbreakable,Unsellable,Brave Effect,Uncounterable
+0xC0 Magic Damage,Uncounterable
+0xC1 Weapon,Magic Damage,Uncounterable
+0xC2 Magic,Magic Damage,Uncounterable
+0xC3 Weapon,Magic,Magic Damage,Uncounterable
+0xC4 Staff,Magic Damage,Uncounterable
+0xC5 Weapon,Staff,Magic Damage,Uncounterable
+0xC6 Magic,Staff,Magic Damage,Uncounterable
+0xC7 Weapon,Magic,Staff,Magic Damage,Uncounterable
+0xC8 Unbreakable,Magic Damage,Uncounterable
+0xC9 Weapon,Unbreakable,Magic Damage,Uncounterable
+0xCA Magic,Unbreakable,Magic Damage,Uncounterable
+0xCB Weapon,Magic,Unbreakable,Magic Damage,Uncounterable
+0xCC Staff,Unbreakable,Magic Damage,Uncounterable
+0xCD Weapon,Staff,Unbreakable,Magic Damage,Uncounterable
+0xCE Magic,Staff,Unbreakable,Magic Damage,Uncounterable
+0xCF Weapon,Magic,Staff,Unbreakable,Magic Damage,Uncounterable
+0xD0 Unsellable,Magic Damage,Uncounterable
+0xD1 Weapon,Unsellable,Magic Damage,Uncounterable
+0xD2 Magic,Unsellable,Magic Damage,Uncounterable
+0xD3 Weapon,Magic,Unsellable,Magic Damage,Uncounterable
+0xD4 Staff,Unsellable,Magic Damage,Uncounterable
+0xD5 Weapon,Staff,Unsellable,Magic Damage,Uncounterable
+0xD6 Magic,Staff,Unsellable,Magic Damage,Uncounterable
+0xD7 Weapon,Magic,Staff,Unsellable,Magic Damage,Uncounterable
+0xD8 Unbreakable,Unsellable,Magic Damage,Uncounterable
+0xD9 Weapon,Unbreakable,Unsellable,Magic Damage,Uncounterable
+0xDA Magic,Unbreakable,Unsellable,Magic Damage,Uncounterable
+0xDB Weapon,Magic,Unbreakable,Unsellable,Magic Damage,Uncounterable
+0xDC Staff,Unbreakable,Unsellable,Magic Damage,Uncounterable
+0xDD Weapon,Staff,Unbreakable,Unsellable,Magic Damage,Uncounterable
+0xDE Magic,Staff,Unbreakable,Unsellable,Magic Damage,Uncounterable
+0xDF Weapon,Magic,Staff,Unbreakable,Unsellable,Magic Damage,Uncounterable
+0xE0 Brave Effect,Magic Damage,Uncounterable
+0xE1 Weapon,Brave Effect,Magic Damage,Uncounterable
+0xE2 Magic,Brave Effect,Magic Damage,Uncounterable
+0xE3 Weapon,Magic,Brave Effect,Magic Damage,Uncounterable
+0xE4 Staff,Brave Effect,Magic Damage,Uncounterable
+0xE5 Weapon,Staff,Brave Effect,Magic Damage,Uncounterable
+0xE6 Magic,Staff,Brave Effect,Magic Damage,Uncounterable
+0xE7 Weapon,Magic,Staff,Brave Effect,Magic Damage,Uncounterable
+0xE8 Unbreakable,Brave Effect,Magic Damage,Uncounterable
+0xE9 Weapon,Unbreakable,Brave Effect,Magic Damage,Uncounterable
+0xEA Magic,Unbreakable,Brave Effect,Magic Damage,Uncounterable
+0xEB Weapon,Magic,Unbreakable,Brave Effect,Magic Damage,Uncounterable
+0xEC Staff,Unbreakable,Brave Effect,Magic Damage,Uncounterable
+0xED Weapon,Staff,Unbreakable,Brave Effect,Magic Damage,Uncounterable
+0xEE Magic,Staff,Unbreakable,Brave Effect,Magic Damage,Uncounterable
+0xEF Weapon,Magic,Staff,Unbreakable,Brave Effect,Magic Damage,Uncounterable
+0xF0 Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xF1 Weapon,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xF2 Magic,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xF3 Weapon,Magic,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xF4 Staff,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xF5 Weapon,Staff,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xF6 Magic,Staff,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xF7 Weapon,Magic,Staff,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xF8 Unbreakable,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xF9 Weapon,Unbreakable,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xFA Magic,Unbreakable,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xFB Weapon,Magic,Unbreakable,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xFC Staff,Unbreakable,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xFD Weapon,Staff,Unbreakable,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xFE Magic,Staff,Unbreakable,Unsellable,Brave Effect,Magic Damage,Uncounterable
+0xFF Weapon,Magic,Staff,Unbreakable,Unsellable,Brave Effect,Magic Damage,Uncounterable
