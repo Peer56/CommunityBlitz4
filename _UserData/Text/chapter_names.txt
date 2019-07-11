@@ -1,0 +1,71 @@
+# 0x160 PrologueName
+0: Reawakening[X]
+
+## Chapter1Name
+1: Iron Bond of Comrades[X]
+
+## Chapter2Name
+2: Fog Rolls In[X]
+
+## Chapter3Name
+3: On Water's Edge[X]
+
+## Chapter4Name
+4: Nameless Bonds[X]
+
+## Chapter5Name
+5: Labored Island[X]
+
+## Chapter6Name
+6: The Village Hero[X]
+
+## Chapter7Name
+7: Coast Unclear[X]
+
+## Chapter8Name
+8: Septette of Sorrow[X]
+
+## Chapter9Name
+9: Advance Backwards[X]
+
+## Chapter10Name
+Chapter 10[X]
+
+## Chapter11Name
+11: Rebel Arrow[X]
+
+## Chapter12Name
+12: Dark Trooper[X]
+
+## Chapter13Name
+13: Wyrm's Tempest[X]
+
+## Chapter14Name
+14: Returning Charge[X]
+
+## Chapter15Name
+15: Duskborn Sepulcher[X]
+
+## Chapter16Name
+16: Duo Maideno[X]
+
+## Chapter17Name
+17: The Spiraling Evils Above[X]
+
+## Chapter18Name
+Chapter 18[X]
+
+## Chapter19Name
+19: Pincer Attack[X]
+
+## Chapter20Name
+20: Castle Siege[X]
+
+## EndgameName
+21: Trial of the Mind[X]
+
+## Endgame2Name
+21x: Trial of the Heart[X]
+
+##Endgame3Name
+21xx: Trial of the Soul[X]

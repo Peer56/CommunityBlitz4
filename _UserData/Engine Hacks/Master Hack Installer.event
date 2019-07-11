@@ -5,3 +5,12 @@ ALIGN 4
 #include "Item Effect Revamp/IERevamp_Installer.event"
 
 #include "Fancy Staves/_FancyStavesInstaller.event"
+
+// Per Chapter Battle Quotes
+#include "PerChapterBattleQuotes/PerChapterBattleQuotes.event"
+
+// Ferry AI (for Ch10)
+#include "FerryAi/FerryAi.event"
+
+// Rescued enemies will die if their rescuers die while on terrain the rescued enemy cannot stand on (allies stay unchanged) (for Ch10)
+#include "DeathDropFix/DeathDropFix.event"
