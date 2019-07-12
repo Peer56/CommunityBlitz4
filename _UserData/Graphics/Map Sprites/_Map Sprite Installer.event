@@ -61,11 +61,11 @@ HalberdierMovingMapSprite:
 
 ALIGN 4
 MarauderStandingMapSprite:
-#incext Png2Dmp "Raider.png" --lz77
+#incext Png2Dmp "Marauder.png" --lz77
 
 ALIGN 4
 MarauderMovingMapSprite:
-#incext Png2Dmp "RaiderMov.png" --lz77
+#incext Png2Dmp "MarauderMov.png" --lz77
 
 ALIGN 4
 SwordCavStandingMapSprite:
