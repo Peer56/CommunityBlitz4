@@ -1,0 +1,93 @@
+#define StandingMapSprite(aId, width, height, gfxPointer) "PUSH; ORG 0x8AF880 + (aId * 8); SHORT height width; POIN gfxPointer; POP"
+#define MovingMapSprite(aId, apPointer, gfxPointer) "PUSH; ORG 0x9A2E00 + ((aId - 1) * 8); POIN gfxPointer apPointer; POP"
+/*
+These need different IDs
+
+StandingMapSprite(4, 1, 2, LanceCavStandingMapSprite)
+MovingMapSprite(0x38, 0x1C692C, LanceCavMovingMapSprite)
+StandingMapSprite(0x4F, 1, 2, SwordCavStandingMapSprite)
+MovingMapSprite(5, 0x1C692C, SwordCavMovingMapSprite)
+
+StandingMapSprite(0x50, 1, 2, AxeCavStandingMapSprite)
+MovingMapSprite(0x3A, 0x1C692C, AxeCavMovingMapSprite)
+
+StandingMapSprite(0x51, 1, 2, BowCavStandingMapSprite)
+MovingMapSprite(0x3D, 0x1C692C, BowCavMovingMapSprite)
+
+StandingMapSprite(0x4C,0,2,FRogueStandingMapSprite)
+MovingMapSprite(0x47,0x1DF548,FRogueMovingMapSprite)
+
+StandingMapSprite(0x9,0,2,FTheifStandingMapSprite)
+MovingMapSprite(0xE,0x1C945C,FThiefMovingMapSprite)
+
+StandingMapSprite(0x47,0,2,HalberdierStandingMapSprite)
+MovingMapSprite(0x56,0x1EDBC4,HalberdierMovingMapSprite)
+
+StandingMapSprite(0x45,2,3,MarauderStandingMapSprite)
+MovingMapSprite(0x54,0x1F7570,MarauderMovingMapSprite)
+*/
+
+ALIGN 4
+LanceCavStandingMapSprite:
+#incext Png2Dmp "CavLance.png" --lz77
+
+ALIGN 4
+LanceCavMovingMapSprite:
+#incext Png2Dmp "CavLanceAnim.png" --lz77
+
+ALIGN 4
+FRogueStandingMapSprite:
+#incext Png2Dmp "FRogue.png" --lz77
+
+ALIGN 4
+FRogueMovingMapSprite:
+#incext Png2Dmp "FRogueMov.png" --lz77
+
+ALIGN 4
+FTheifStandingMapSprite:
+#incext Png2Dmp "FThief.png" --lz77
+
+ALIGN 4
+FThiefMovingMapSprite:
+#incext Png2Dmp "FThiefMov.png" --lz77
+
+ALIGN 4
+HalberdierStandingMapSprite:
+#incext Png2Dmp "Halberdier.png" --lz77
+
+ALIGN 4
+HalberdierMovingMapSprite:
+#incext Png2Dmp "HalberdierMov.png" --lz77
+
+ALIGN 4
+MarauderStandingMapSprite:
+#incext Png2Dmp "Raider.png" --lz77
+
+ALIGN 4
+MarauderMovingMapSprite:
+#incext Png2Dmp "RaiderMov.png" --lz77
+
+ALIGN 4
+SwordCavStandingMapSprite:
+#incext Png2Dmp "CavSword.png" --lz77
+
+ALIGN 4
+SwordCavMovingMapSprite:
+#incext Png2Dmp "CavSwordAnim.png" --lz77
+
+ALIGN 4
+AxeCavStandingMapSprite:
+#incext Png2Dmp "CavAxe.png" --lz77
+
+ALIGN 4
+AxeCavMovingMapSprite:
+#incext Png2Dmp "CavAxeAnim.png" --lz77
+
+ALIGN 4
+BowCavStandingMapSprite:
+#incext Png2Dmp "BowCav.png" --lz77
+
+ALIGN 4
+BowCavMovingMapSprite:
+#incext Png2Dmp "BowCavMov.png" --lz77
+
