@@ -10,6 +10,10 @@ cd "%~dp0_UserData/Maps"
 
 echo: | (tmx2ea -s)
 
+cd "%~dp0_UserData/CSVs"
+
+echo: | (c2ea "%~dp0FE8_clean.gba")
+
 cd "%~dp0Event Assembler"
 
 Core A FE8 "-output:%~dp0FE8_hack.gba" "-input:%~dp0ROM Buildfile.event"

@@ -16,9 +16,12 @@ MESSAGE Music Switch is off and songs are not written
 #include "Text/Install Text Data.event"
 
 //Modulars
-#include "ModularCharacters/Modular Character Installer.event"
-#include "ModularClasses/Modular Class Installer.event"
-#include "ModularItems/Modular Item Installer.event"
+//#include "ModularCharacters/Modular Character Installer.event"
+//#include "ModularClasses/Modular Class Installer.event"
+//#include "ModularItems/Modular Item Installer.event"
+//CSVs because modulars succ
+#include "CSVs/Table Installer.event"
+#include "Animations/_Master Animation Installer.event"
 
 //Promotion Editors
 #include "Promotion Items/Promotion Item Editor.event"
@@ -49,7 +52,7 @@ ALIGN 4
 #include "Events/Master Event Installer.event"
 
 //Chapter Data
-#include "Chapter Data/Chapter Data Installer.event"
+//#include "Chapter Data/Chapter Data Installer.event"
 
 //Forced Deployment
 #include "Force Deploy/Force Deployer.event"

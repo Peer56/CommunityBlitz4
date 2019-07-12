@@ -1,0 +1,257 @@
+256
+0x00 None
+0x01 Unusable
+0x02 Negate Defenses
+0x03 Unusable,Negate Defenses
+0x04 Eirika Lock
+0x05 Unusable,Eirika Lock
+0x06 Negate Defenses,Eirika Lock
+0x07 Unusable,Negate Defenses,Eirika Lock
+0x08 Ephraim Lock
+0x09 Unusable,Ephraim Lock
+0x0A Negate Defenses,Ephraim Lock
+0x0B Unusable,Negate Defenses,Ephraim Lock
+0x0C Eirika Lock,Ephraim Lock
+0x0D Unusable,Eirika Lock,Ephraim Lock
+0x0E Negate Defenses,Eirika Lock,Ephraim Lock
+0x0F Unusable,Negate Defenses,Eirika Lock,Ephraim Lock
+0x10 Lyn Lock
+0x11 Unusable,Lyn Lock
+0x12 Negate Defenses,Lyn Lock
+0x13 Unusable,Negate Defenses,Lyn Lock
+0x14 Eirika Lock,Lyn Lock
+0x15 Unusable,Eirika Lock,Lyn Lock
+0x16 Negate Defenses,Eirika Lock,Lyn Lock
+0x17 Unusable,Negate Defenses,Eirika Lock,Lyn Lock
+0x18 Ephraim Lock,Lyn Lock
+0x19 Unusable,Ephraim Lock,Lyn Lock
+0x1A Negate Defenses,Ephraim Lock,Lyn Lock
+0x1B Unusable,Negate Defenses,Ephraim Lock,Lyn Lock
+0x1C Eirika Lock,Ephraim Lock,Lyn Lock
+0x1D Unusable,Eirika Lock,Ephraim Lock,Lyn Lock
+0x1E Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock
+0x1F Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock
+0x20 Athos Lock
+0x21 Unusable,Athos Lock
+0x22 Negate Defenses,Athos Lock
+0x23 Unusable,Negate Defenses,Athos Lock
+0x24 Eirika Lock,Athos Lock
+0x25 Unusable,Eirika Lock,Athos Lock
+0x26 Negate Defenses,Eirika Lock,Athos Lock
+0x27 Unusable,Negate Defenses,Eirika Lock,Athos Lock
+0x28 Ephraim Lock,Athos Lock
+0x29 Unusable,Ephraim Lock,Athos Lock
+0x2A Negate Defenses,Ephraim Lock,Athos Lock
+0x2B Unusable,Negate Defenses,Ephraim Lock,Athos Lock
+0x2C Eirika Lock,Ephraim Lock,Athos Lock
+0x2D Unusable,Eirika Lock,Ephraim Lock,Athos Lock
+0x2E Negate Defenses,Eirika Lock,Ephraim Lock,Athos Lock
+0x2F Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Athos Lock
+0x30 Lyn Lock,Athos Lock
+0x31 Unusable,Lyn Lock,Athos Lock
+0x32 Negate Defenses,Lyn Lock,Athos Lock
+0x33 Unusable,Negate Defenses,Lyn Lock,Athos Lock
+0x34 Eirika Lock,Lyn Lock,Athos Lock
+0x35 Unusable,Eirika Lock,Lyn Lock,Athos Lock
+0x36 Negate Defenses,Eirika Lock,Lyn Lock,Athos Lock
+0x37 Unusable,Negate Defenses,Eirika Lock,Lyn Lock,Athos Lock
+0x38 Ephraim Lock,Lyn Lock,Athos Lock
+0x39 Unusable,Ephraim Lock,Lyn Lock,Athos Lock
+0x3A Negate Defenses,Ephraim Lock,Lyn Lock,Athos Lock
+0x3B Unusable,Negate Defenses,Ephraim Lock,Lyn Lock,Athos Lock
+0x3C Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock
+0x3D Unusable,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock
+0x3E Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock
+0x3F Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock
+0x40 ??
+0x41 Unusable,??
+0x42 Negate Defenses,??
+0x43 Unusable,Negate Defenses,??
+0x44 Eirika Lock,??
+0x45 Unusable,Eirika Lock,??
+0x46 Negate Defenses,Eirika Lock,??
+0x47 Unusable,Negate Defenses,Eirika Lock,??
+0x48 Ephraim Lock,??
+0x49 Unusable,Ephraim Lock,??
+0x4A Negate Defenses,Ephraim Lock,??
+0x4B Unusable,Negate Defenses,Ephraim Lock,??
+0x4C Eirika Lock,Ephraim Lock,??
+0x4D Unusable,Eirika Lock,Ephraim Lock,??
+0x4E Negate Defenses,Eirika Lock,Ephraim Lock,??
+0x4F Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,??
+0x50 Lyn Lock,??
+0x51 Unusable,Lyn Lock,??
+0x52 Negate Defenses,Lyn Lock,??
+0x53 Unusable,Negate Defenses,Lyn Lock,??
+0x54 Eirika Lock,Lyn Lock,??
+0x55 Unusable,Eirika Lock,Lyn Lock,??
+0x56 Negate Defenses,Eirika Lock,Lyn Lock,??
+0x57 Unusable,Negate Defenses,Eirika Lock,Lyn Lock,??
+0x58 Ephraim Lock,Lyn Lock,??
+0x59 Unusable,Ephraim Lock,Lyn Lock,??
+0x5A Negate Defenses,Ephraim Lock,Lyn Lock,??
+0x5B Unusable,Negate Defenses,Ephraim Lock,Lyn Lock,??
+0x5C Eirika Lock,Ephraim Lock,Lyn Lock,??
+0x5D Unusable,Eirika Lock,Ephraim Lock,Lyn Lock,??
+0x5E Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,??
+0x5F Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,??
+0x60 Athos Lock,??
+0x61 Unusable,Athos Lock,??
+0x62 Negate Defenses,Athos Lock,??
+0x63 Unusable,Negate Defenses,Athos Lock,??
+0x64 Eirika Lock,Athos Lock,??
+0x65 Unusable,Eirika Lock,Athos Lock,??
+0x66 Negate Defenses,Eirika Lock,Athos Lock,??
+0x67 Unusable,Negate Defenses,Eirika Lock,Athos Lock,??
+0x68 Ephraim Lock,Athos Lock,??
+0x69 Unusable,Ephraim Lock,Athos Lock,??
+0x6A Negate Defenses,Ephraim Lock,Athos Lock,??
+0x6B Unusable,Negate Defenses,Ephraim Lock,Athos Lock,??
+0x6C Eirika Lock,Ephraim Lock,Athos Lock,??
+0x6D Unusable,Eirika Lock,Ephraim Lock,Athos Lock,??
+0x6E Negate Defenses,Eirika Lock,Ephraim Lock,Athos Lock,??
+0x6F Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Athos Lock,??
+0x70 Lyn Lock,Athos Lock,??
+0x71 Unusable,Lyn Lock,Athos Lock,??
+0x72 Negate Defenses,Lyn Lock,Athos Lock,??
+0x73 Unusable,Negate Defenses,Lyn Lock,Athos Lock,??
+0x74 Eirika Lock,Lyn Lock,Athos Lock,??
+0x75 Unusable,Eirika Lock,Lyn Lock,Athos Lock,??
+0x76 Negate Defenses,Eirika Lock,Lyn Lock,Athos Lock,??
+0x77 Unusable,Negate Defenses,Eirika Lock,Lyn Lock,Athos Lock,??
+0x78 Ephraim Lock,Lyn Lock,Athos Lock,??
+0x79 Unusable,Ephraim Lock,Lyn Lock,Athos Lock,??
+0x7A Negate Defenses,Ephraim Lock,Lyn Lock,Athos Lock,??
+0x7B Unusable,Negate Defenses,Ephraim Lock,Lyn Lock,Athos Lock,??
+0x7C Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??
+0x7D Unusable,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??
+0x7E Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??
+0x7F Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??
+0x80 ??
+0x81 Unusable,??
+0x82 Negate Defenses,??
+0x83 Unusable,Negate Defenses,??
+0x84 Eirika Lock,??
+0x85 Unusable,Eirika Lock,??
+0x86 Negate Defenses,Eirika Lock,??
+0x87 Unusable,Negate Defenses,Eirika Lock,??
+0x88 Ephraim Lock,??
+0x89 Unusable,Ephraim Lock,??
+0x8A Negate Defenses,Ephraim Lock,??
+0x8B Unusable,Negate Defenses,Ephraim Lock,??
+0x8C Eirika Lock,Ephraim Lock,??
+0x8D Unusable,Eirika Lock,Ephraim Lock,??
+0x8E Negate Defenses,Eirika Lock,Ephraim Lock,??
+0x8F Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,??
+0x90 Lyn Lock,??
+0x91 Unusable,Lyn Lock,??
+0x92 Negate Defenses,Lyn Lock,??
+0x93 Unusable,Negate Defenses,Lyn Lock,??
+0x94 Eirika Lock,Lyn Lock,??
+0x95 Unusable,Eirika Lock,Lyn Lock,??
+0x96 Negate Defenses,Eirika Lock,Lyn Lock,??
+0x97 Unusable,Negate Defenses,Eirika Lock,Lyn Lock,??
+0x98 Ephraim Lock,Lyn Lock,??
+0x99 Unusable,Ephraim Lock,Lyn Lock,??
+0x9A Negate Defenses,Ephraim Lock,Lyn Lock,??
+0x9B Unusable,Negate Defenses,Ephraim Lock,Lyn Lock,??
+0x9C Eirika Lock,Ephraim Lock,Lyn Lock,??
+0x9D Unusable,Eirika Lock,Ephraim Lock,Lyn Lock,??
+0x9E Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,??
+0x9F Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,??
+0xA0 Athos Lock,??
+0xA1 Unusable,Athos Lock,??
+0xA2 Negate Defenses,Athos Lock,??
+0xA3 Unusable,Negate Defenses,Athos Lock,??
+0xA4 Eirika Lock,Athos Lock,??
+0xA5 Unusable,Eirika Lock,Athos Lock,??
+0xA6 Negate Defenses,Eirika Lock,Athos Lock,??
+0xA7 Unusable,Negate Defenses,Eirika Lock,Athos Lock,??
+0xA8 Ephraim Lock,Athos Lock,??
+0xA9 Unusable,Ephraim Lock,Athos Lock,??
+0xAA Negate Defenses,Ephraim Lock,Athos Lock,??
+0xAB Unusable,Negate Defenses,Ephraim Lock,Athos Lock,??
+0xAC Eirika Lock,Ephraim Lock,Athos Lock,??
+0xAD Unusable,Eirika Lock,Ephraim Lock,Athos Lock,??
+0xAE Negate Defenses,Eirika Lock,Ephraim Lock,Athos Lock,??
+0xAF Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Athos Lock,??
+0xB0 Lyn Lock,Athos Lock,??
+0xB1 Unusable,Lyn Lock,Athos Lock,??
+0xB2 Negate Defenses,Lyn Lock,Athos Lock,??
+0xB3 Unusable,Negate Defenses,Lyn Lock,Athos Lock,??
+0xB4 Eirika Lock,Lyn Lock,Athos Lock,??
+0xB5 Unusable,Eirika Lock,Lyn Lock,Athos Lock,??
+0xB6 Negate Defenses,Eirika Lock,Lyn Lock,Athos Lock,??
+0xB7 Unusable,Negate Defenses,Eirika Lock,Lyn Lock,Athos Lock,??
+0xB8 Ephraim Lock,Lyn Lock,Athos Lock,??
+0xB9 Unusable,Ephraim Lock,Lyn Lock,Athos Lock,??
+0xBA Negate Defenses,Ephraim Lock,Lyn Lock,Athos Lock,??
+0xBB Unusable,Negate Defenses,Ephraim Lock,Lyn Lock,Athos Lock,??
+0xBC Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??
+0xBD Unusable,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??
+0xBE Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??
+0xBF Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??
+0xC0 ??,??
+0xC1 Unusable,??,??
+0xC2 Negate Defenses,??,??
+0xC3 Unusable,Negate Defenses,??,??
+0xC4 Eirika Lock,??,??
+0xC5 Unusable,Eirika Lock,??,??
+0xC6 Negate Defenses,Eirika Lock,??,??
+0xC7 Unusable,Negate Defenses,Eirika Lock,??,??
+0xC8 Ephraim Lock,??,??
+0xC9 Unusable,Ephraim Lock,??,??
+0xCA Negate Defenses,Ephraim Lock,??,??
+0xCB Unusable,Negate Defenses,Ephraim Lock,??,??
+0xCC Eirika Lock,Ephraim Lock,??,??
+0xCD Unusable,Eirika Lock,Ephraim Lock,??,??
+0xCE Negate Defenses,Eirika Lock,Ephraim Lock,??,??
+0xCF Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,??,??
+0xD0 Lyn Lock,??,??
+0xD1 Unusable,Lyn Lock,??,??
+0xD2 Negate Defenses,Lyn Lock,??,??
+0xD3 Unusable,Negate Defenses,Lyn Lock,??,??
+0xD4 Eirika Lock,Lyn Lock,??,??
+0xD5 Unusable,Eirika Lock,Lyn Lock,??,??
+0xD6 Negate Defenses,Eirika Lock,Lyn Lock,??,??
+0xD7 Unusable,Negate Defenses,Eirika Lock,Lyn Lock,??,??
+0xD8 Ephraim Lock,Lyn Lock,??,??
+0xD9 Unusable,Ephraim Lock,Lyn Lock,??,??
+0xDA Negate Defenses,Ephraim Lock,Lyn Lock,??,??
+0xDB Unusable,Negate Defenses,Ephraim Lock,Lyn Lock,??,??
+0xDC Eirika Lock,Ephraim Lock,Lyn Lock,??,??
+0xDD Unusable,Eirika Lock,Ephraim Lock,Lyn Lock,??,??
+0xDE Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,??,??
+0xDF Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,??,??
+0xE0 Athos Lock,??,??
+0xE1 Unusable,Athos Lock,??,??
+0xE2 Negate Defenses,Athos Lock,??,??
+0xE3 Unusable,Negate Defenses,Athos Lock,??,??
+0xE4 Eirika Lock,Athos Lock,??,??
+0xE5 Unusable,Eirika Lock,Athos Lock,??,??
+0xE6 Negate Defenses,Eirika Lock,Athos Lock,??,??
+0xE7 Unusable,Negate Defenses,Eirika Lock,Athos Lock,??,??
+0xE8 Ephraim Lock,Athos Lock,??,??
+0xE9 Unusable,Ephraim Lock,Athos Lock,??,??
+0xEA Negate Defenses,Ephraim Lock,Athos Lock,??,??
+0xEB Unusable,Negate Defenses,Ephraim Lock,Athos Lock,??,??
+0xEC Eirika Lock,Ephraim Lock,Athos Lock,??,??
+0xED Unusable,Eirika Lock,Ephraim Lock,Athos Lock,??,??
+0xEE Negate Defenses,Eirika Lock,Ephraim Lock,Athos Lock,??,??
+0xEF Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Athos Lock,??,??
+0xF0 Lyn Lock,Athos Lock,??,??
+0xF1 Unusable,Lyn Lock,Athos Lock,??,??
+0xF2 Negate Defenses,Lyn Lock,Athos Lock,??,??
+0xF3 Unusable,Negate Defenses,Lyn Lock,Athos Lock,??,??
+0xF4 Eirika Lock,Lyn Lock,Athos Lock,??,??
+0xF5 Unusable,Eirika Lock,Lyn Lock,Athos Lock,??,??
+0xF6 Negate Defenses,Eirika Lock,Lyn Lock,Athos Lock,??,??
+0xF7 Unusable,Negate Defenses,Eirika Lock,Lyn Lock,Athos Lock,??,??
+0xF8 Ephraim Lock,Lyn Lock,Athos Lock,??,??
+0xF9 Unusable,Ephraim Lock,Lyn Lock,Athos Lock,??,??
+0xFA Negate Defenses,Ephraim Lock,Lyn Lock,Athos Lock,??,??
+0xFB Unusable,Negate Defenses,Ephraim Lock,Lyn Lock,Athos Lock,??,??
+0xFC Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??,??
+0xFD Unusable,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??,??
+0xFE Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??,??
+0xFF Unusable,Negate Defenses,Eirika Lock,Ephraim Lock,Lyn Lock,Athos Lock,??,??

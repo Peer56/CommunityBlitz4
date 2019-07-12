@@ -1,0 +1,257 @@
+256
+0x00 None
+0x01 Mounted Aid Calc
+0x02 Canto
+0x03 Mounted Aid Calc,Canto
+0x04 Steal
+0x05 Mounted Aid Calc,Steal
+0x06 Canto,Steal
+0x07 Mounted Aid Calc,Canto,Steal
+0x08 Thief Skill
+0x09 Mounted Aid Calc,Thief Skill
+0x0A Canto,Thief Skill
+0x0B Mounted Aid Calc,Canto,Thief Skill
+0x0C Steal,Thief Skill
+0x0D Mounted Aid Calc,Steal,Thief Skill
+0x0E Canto,Steal,Thief Skill
+0x0F Mounted Aid Calc,Canto,Steal,Thief Skill
+0x10 Dance (Dancer)
+0x11 Mounted Aid Calc,Dance (Dancer)
+0x12 Canto,Dance (Dancer)
+0x13 Mounted Aid Calc,Canto,Dance (Dancer)
+0x14 Steal,Dance (Dancer)
+0x15 Mounted Aid Calc,Steal,Dance (Dancer)
+0x16 Canto,Steal,Dance (Dancer)
+0x17 Mounted Aid Calc,Canto,Steal,Dance (Dancer)
+0x18 Thief Skill,Dance (Dancer)
+0x19 Mounted Aid Calc,Thief Skill,Dance (Dancer)
+0x1A Canto,Thief Skill,Dance (Dancer)
+0x1B Mounted Aid Calc,Canto,Thief Skill,Dance (Dancer)
+0x1C Steal,Thief Skill,Dance (Dancer)
+0x1D Mounted Aid Calc,Steal,Thief Skill,Dance (Dancer)
+0x1E Canto,Steal,Thief Skill,Dance (Dancer)
+0x1F Mounted Aid Calc,Canto,Steal,Thief Skill,Dance (Dancer)
+0x20 Play (Bard)
+0x21 Mounted Aid Calc,Play (Bard)
+0x22 Canto,Play (Bard)
+0x23 Mounted Aid Calc,Canto,Play (Bard)
+0x24 Steal,Play (Bard)
+0x25 Mounted Aid Calc,Steal,Play (Bard)
+0x26 Canto,Steal,Play (Bard)
+0x27 Mounted Aid Calc,Canto,Steal,Play (Bard)
+0x28 Thief Skill,Play (Bard)
+0x29 Mounted Aid Calc,Thief Skill,Play (Bard)
+0x2A Canto,Thief Skill,Play (Bard)
+0x2B Mounted Aid Calc,Canto,Thief Skill,Play (Bard)
+0x2C Steal,Thief Skill,Play (Bard)
+0x2D Mounted Aid Calc,Steal,Thief Skill,Play (Bard)
+0x2E Canto,Steal,Thief Skill,Play (Bard)
+0x2F Mounted Aid Calc,Canto,Steal,Thief Skill,Play (Bard)
+0x30 Dance (Dancer),Play (Bard)
+0x31 Mounted Aid Calc,Dance (Dancer),Play (Bard)
+0x32 Canto,Dance (Dancer),Play (Bard)
+0x33 Mounted Aid Calc,Canto,Dance (Dancer),Play (Bard)
+0x34 Steal,Dance (Dancer),Play (Bard)
+0x35 Mounted Aid Calc,Steal,Dance (Dancer),Play (Bard)
+0x36 Canto,Steal,Dance (Dancer),Play (Bard)
+0x37 Mounted Aid Calc,Canto,Steal,Dance (Dancer),Play (Bard)
+0x38 Thief Skill,Dance (Dancer),Play (Bard)
+0x39 Mounted Aid Calc,Thief Skill,Dance (Dancer),Play (Bard)
+0x3A Canto,Thief Skill,Dance (Dancer),Play (Bard)
+0x3B Mounted Aid Calc,Canto,Thief Skill,Dance (Dancer),Play (Bard)
+0x3C Steal,Thief Skill,Dance (Dancer),Play (Bard)
+0x3D Mounted Aid Calc,Steal,Thief Skill,Dance (Dancer),Play (Bard)
+0x3E Canto,Steal,Thief Skill,Dance (Dancer),Play (Bard)
+0x3F Mounted Aid Calc,Canto,Steal,Thief Skill,Dance (Dancer),Play (Bard)
+0x40 Critical Boost
+0x41 Mounted Aid Calc,Critical Boost
+0x42 Canto,Critical Boost
+0x43 Mounted Aid Calc,Canto,Critical Boost
+0x44 Steal,Critical Boost
+0x45 Mounted Aid Calc,Steal,Critical Boost
+0x46 Canto,Steal,Critical Boost
+0x47 Mounted Aid Calc,Canto,Steal,Critical Boost
+0x48 Thief Skill,Critical Boost
+0x49 Mounted Aid Calc,Thief Skill,Critical Boost
+0x4A Canto,Thief Skill,Critical Boost
+0x4B Mounted Aid Calc,Canto,Thief Skill,Critical Boost
+0x4C Steal,Thief Skill,Critical Boost
+0x4D Mounted Aid Calc,Steal,Thief Skill,Critical Boost
+0x4E Canto,Steal,Thief Skill,Critical Boost
+0x4F Mounted Aid Calc,Canto,Steal,Thief Skill,Critical Boost
+0x50 Dance (Dancer),Critical Boost
+0x51 Mounted Aid Calc,Dance (Dancer),Critical Boost
+0x52 Canto,Dance (Dancer),Critical Boost
+0x53 Mounted Aid Calc,Canto,Dance (Dancer),Critical Boost
+0x54 Steal,Dance (Dancer),Critical Boost
+0x55 Mounted Aid Calc,Steal,Dance (Dancer),Critical Boost
+0x56 Canto,Steal,Dance (Dancer),Critical Boost
+0x57 Mounted Aid Calc,Canto,Steal,Dance (Dancer),Critical Boost
+0x58 Thief Skill,Dance (Dancer),Critical Boost
+0x59 Mounted Aid Calc,Thief Skill,Dance (Dancer),Critical Boost
+0x5A Canto,Thief Skill,Dance (Dancer),Critical Boost
+0x5B Mounted Aid Calc,Canto,Thief Skill,Dance (Dancer),Critical Boost
+0x5C Steal,Thief Skill,Dance (Dancer),Critical Boost
+0x5D Mounted Aid Calc,Steal,Thief Skill,Dance (Dancer),Critical Boost
+0x5E Canto,Steal,Thief Skill,Dance (Dancer),Critical Boost
+0x5F Mounted Aid Calc,Canto,Steal,Thief Skill,Dance (Dancer),Critical Boost
+0x60 Play (Bard),Critical Boost
+0x61 Mounted Aid Calc,Play (Bard),Critical Boost
+0x62 Canto,Play (Bard),Critical Boost
+0x63 Mounted Aid Calc,Canto,Play (Bard),Critical Boost
+0x64 Steal,Play (Bard),Critical Boost
+0x65 Mounted Aid Calc,Steal,Play (Bard),Critical Boost
+0x66 Canto,Steal,Play (Bard),Critical Boost
+0x67 Mounted Aid Calc,Canto,Steal,Play (Bard),Critical Boost
+0x68 Thief Skill,Play (Bard),Critical Boost
+0x69 Mounted Aid Calc,Thief Skill,Play (Bard),Critical Boost
+0x6A Canto,Thief Skill,Play (Bard),Critical Boost
+0x6B Mounted Aid Calc,Canto,Thief Skill,Play (Bard),Critical Boost
+0x6C Steal,Thief Skill,Play (Bard),Critical Boost
+0x6D Mounted Aid Calc,Steal,Thief Skill,Play (Bard),Critical Boost
+0x6E Canto,Steal,Thief Skill,Play (Bard),Critical Boost
+0x6F Mounted Aid Calc,Canto,Steal,Thief Skill,Play (Bard),Critical Boost
+0x70 Dance (Dancer),Play (Bard),Critical Boost
+0x71 Mounted Aid Calc,Dance (Dancer),Play (Bard),Critical Boost
+0x72 Canto,Dance (Dancer),Play (Bard),Critical Boost
+0x73 Mounted Aid Calc,Canto,Dance (Dancer),Play (Bard),Critical Boost
+0x74 Steal,Dance (Dancer),Play (Bard),Critical Boost
+0x75 Mounted Aid Calc,Steal,Dance (Dancer),Play (Bard),Critical Boost
+0x76 Canto,Steal,Dance (Dancer),Play (Bard),Critical Boost
+0x77 Mounted Aid Calc,Canto,Steal,Dance (Dancer),Play (Bard),Critical Boost
+0x78 Thief Skill,Dance (Dancer),Play (Bard),Critical Boost
+0x79 Mounted Aid Calc,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost
+0x7A Canto,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost
+0x7B Mounted Aid Calc,Canto,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost
+0x7C Steal,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost
+0x7D Mounted Aid Calc,Steal,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost
+0x7E Canto,Steal,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost
+0x7F Mounted Aid Calc,Canto,Steal,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost
+0x80 Ballista Access
+0x81 Mounted Aid Calc,Ballista Access
+0x82 Canto,Ballista Access
+0x83 Mounted Aid Calc,Canto,Ballista Access
+0x84 Steal,Ballista Access
+0x85 Mounted Aid Calc,Steal,Ballista Access
+0x86 Canto,Steal,Ballista Access
+0x87 Mounted Aid Calc,Canto,Steal,Ballista Access
+0x88 Thief Skill,Ballista Access
+0x89 Mounted Aid Calc,Thief Skill,Ballista Access
+0x8A Canto,Thief Skill,Ballista Access
+0x8B Mounted Aid Calc,Canto,Thief Skill,Ballista Access
+0x8C Steal,Thief Skill,Ballista Access
+0x8D Mounted Aid Calc,Steal,Thief Skill,Ballista Access
+0x8E Canto,Steal,Thief Skill,Ballista Access
+0x8F Mounted Aid Calc,Canto,Steal,Thief Skill,Ballista Access
+0x90 Dance (Dancer),Ballista Access
+0x91 Mounted Aid Calc,Dance (Dancer),Ballista Access
+0x92 Canto,Dance (Dancer),Ballista Access
+0x93 Mounted Aid Calc,Canto,Dance (Dancer),Ballista Access
+0x94 Steal,Dance (Dancer),Ballista Access
+0x95 Mounted Aid Calc,Steal,Dance (Dancer),Ballista Access
+0x96 Canto,Steal,Dance (Dancer),Ballista Access
+0x97 Mounted Aid Calc,Canto,Steal,Dance (Dancer),Ballista Access
+0x98 Thief Skill,Dance (Dancer),Ballista Access
+0x99 Mounted Aid Calc,Thief Skill,Dance (Dancer),Ballista Access
+0x9A Canto,Thief Skill,Dance (Dancer),Ballista Access
+0x9B Mounted Aid Calc,Canto,Thief Skill,Dance (Dancer),Ballista Access
+0x9C Steal,Thief Skill,Dance (Dancer),Ballista Access
+0x9D Mounted Aid Calc,Steal,Thief Skill,Dance (Dancer),Ballista Access
+0x9E Canto,Steal,Thief Skill,Dance (Dancer),Ballista Access
+0x9F Mounted Aid Calc,Canto,Steal,Thief Skill,Dance (Dancer),Ballista Access
+0xA0 Play (Bard),Ballista Access
+0xA1 Mounted Aid Calc,Play (Bard),Ballista Access
+0xA2 Canto,Play (Bard),Ballista Access
+0xA3 Mounted Aid Calc,Canto,Play (Bard),Ballista Access
+0xA4 Steal,Play (Bard),Ballista Access
+0xA5 Mounted Aid Calc,Steal,Play (Bard),Ballista Access
+0xA6 Canto,Steal,Play (Bard),Ballista Access
+0xA7 Mounted Aid Calc,Canto,Steal,Play (Bard),Ballista Access
+0xA8 Thief Skill,Play (Bard),Ballista Access
+0xA9 Mounted Aid Calc,Thief Skill,Play (Bard),Ballista Access
+0xAA Canto,Thief Skill,Play (Bard),Ballista Access
+0xAB Mounted Aid Calc,Canto,Thief Skill,Play (Bard),Ballista Access
+0xAC Steal,Thief Skill,Play (Bard),Ballista Access
+0xAD Mounted Aid Calc,Steal,Thief Skill,Play (Bard),Ballista Access
+0xAE Canto,Steal,Thief Skill,Play (Bard),Ballista Access
+0xAF Mounted Aid Calc,Canto,Steal,Thief Skill,Play (Bard),Ballista Access
+0xB0 Dance (Dancer),Play (Bard),Ballista Access
+0xB1 Mounted Aid Calc,Dance (Dancer),Play (Bard),Ballista Access
+0xB2 Canto,Dance (Dancer),Play (Bard),Ballista Access
+0xB3 Mounted Aid Calc,Canto,Dance (Dancer),Play (Bard),Ballista Access
+0xB4 Steal,Dance (Dancer),Play (Bard),Ballista Access
+0xB5 Mounted Aid Calc,Steal,Dance (Dancer),Play (Bard),Ballista Access
+0xB6 Canto,Steal,Dance (Dancer),Play (Bard),Ballista Access
+0xB7 Mounted Aid Calc,Canto,Steal,Dance (Dancer),Play (Bard),Ballista Access
+0xB8 Thief Skill,Dance (Dancer),Play (Bard),Ballista Access
+0xB9 Mounted Aid Calc,Thief Skill,Dance (Dancer),Play (Bard),Ballista Access
+0xBA Canto,Thief Skill,Dance (Dancer),Play (Bard),Ballista Access
+0xBB Mounted Aid Calc,Canto,Thief Skill,Dance (Dancer),Play (Bard),Ballista Access
+0xBC Steal,Thief Skill,Dance (Dancer),Play (Bard),Ballista Access
+0xBD Mounted Aid Calc,Steal,Thief Skill,Dance (Dancer),Play (Bard),Ballista Access
+0xBE Canto,Steal,Thief Skill,Dance (Dancer),Play (Bard),Ballista Access
+0xBF Mounted Aid Calc,Canto,Steal,Thief Skill,Dance (Dancer),Play (Bard),Ballista Access
+0xC0 Critical Boost,Ballista Access
+0xC1 Mounted Aid Calc,Critical Boost,Ballista Access
+0xC2 Canto,Critical Boost,Ballista Access
+0xC3 Mounted Aid Calc,Canto,Critical Boost,Ballista Access
+0xC4 Steal,Critical Boost,Ballista Access
+0xC5 Mounted Aid Calc,Steal,Critical Boost,Ballista Access
+0xC6 Canto,Steal,Critical Boost,Ballista Access
+0xC7 Mounted Aid Calc,Canto,Steal,Critical Boost,Ballista Access
+0xC8 Thief Skill,Critical Boost,Ballista Access
+0xC9 Mounted Aid Calc,Thief Skill,Critical Boost,Ballista Access
+0xCA Canto,Thief Skill,Critical Boost,Ballista Access
+0xCB Mounted Aid Calc,Canto,Thief Skill,Critical Boost,Ballista Access
+0xCC Steal,Thief Skill,Critical Boost,Ballista Access
+0xCD Mounted Aid Calc,Steal,Thief Skill,Critical Boost,Ballista Access
+0xCE Canto,Steal,Thief Skill,Critical Boost,Ballista Access
+0xCF Mounted Aid Calc,Canto,Steal,Thief Skill,Critical Boost,Ballista Access
+0xD0 Dance (Dancer),Critical Boost,Ballista Access
+0xD1 Mounted Aid Calc,Dance (Dancer),Critical Boost,Ballista Access
+0xD2 Canto,Dance (Dancer),Critical Boost,Ballista Access
+0xD3 Mounted Aid Calc,Canto,Dance (Dancer),Critical Boost,Ballista Access
+0xD4 Steal,Dance (Dancer),Critical Boost,Ballista Access
+0xD5 Mounted Aid Calc,Steal,Dance (Dancer),Critical Boost,Ballista Access
+0xD6 Canto,Steal,Dance (Dancer),Critical Boost,Ballista Access
+0xD7 Mounted Aid Calc,Canto,Steal,Dance (Dancer),Critical Boost,Ballista Access
+0xD8 Thief Skill,Dance (Dancer),Critical Boost,Ballista Access
+0xD9 Mounted Aid Calc,Thief Skill,Dance (Dancer),Critical Boost,Ballista Access
+0xDA Canto,Thief Skill,Dance (Dancer),Critical Boost,Ballista Access
+0xDB Mounted Aid Calc,Canto,Thief Skill,Dance (Dancer),Critical Boost,Ballista Access
+0xDC Steal,Thief Skill,Dance (Dancer),Critical Boost,Ballista Access
+0xDD Mounted Aid Calc,Steal,Thief Skill,Dance (Dancer),Critical Boost,Ballista Access
+0xDE Canto,Steal,Thief Skill,Dance (Dancer),Critical Boost,Ballista Access
+0xDF Mounted Aid Calc,Canto,Steal,Thief Skill,Dance (Dancer),Critical Boost,Ballista Access
+0xE0 Play (Bard),Critical Boost,Ballista Access
+0xE1 Mounted Aid Calc,Play (Bard),Critical Boost,Ballista Access
+0xE2 Canto,Play (Bard),Critical Boost,Ballista Access
+0xE3 Mounted Aid Calc,Canto,Play (Bard),Critical Boost,Ballista Access
+0xE4 Steal,Play (Bard),Critical Boost,Ballista Access
+0xE5 Mounted Aid Calc,Steal,Play (Bard),Critical Boost,Ballista Access
+0xE6 Canto,Steal,Play (Bard),Critical Boost,Ballista Access
+0xE7 Mounted Aid Calc,Canto,Steal,Play (Bard),Critical Boost,Ballista Access
+0xE8 Thief Skill,Play (Bard),Critical Boost,Ballista Access
+0xE9 Mounted Aid Calc,Thief Skill,Play (Bard),Critical Boost,Ballista Access
+0xEA Canto,Thief Skill,Play (Bard),Critical Boost,Ballista Access
+0xEB Mounted Aid Calc,Canto,Thief Skill,Play (Bard),Critical Boost,Ballista Access
+0xEC Steal,Thief Skill,Play (Bard),Critical Boost,Ballista Access
+0xED Mounted Aid Calc,Steal,Thief Skill,Play (Bard),Critical Boost,Ballista Access
+0xEE Canto,Steal,Thief Skill,Play (Bard),Critical Boost,Ballista Access
+0xEF Mounted Aid Calc,Canto,Steal,Thief Skill,Play (Bard),Critical Boost,Ballista Access
+0xF0 Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xF1 Mounted Aid Calc,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xF2 Canto,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xF3 Mounted Aid Calc,Canto,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xF4 Steal,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xF5 Mounted Aid Calc,Steal,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xF6 Canto,Steal,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xF7 Mounted Aid Calc,Canto,Steal,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xF8 Thief Skill,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xF9 Mounted Aid Calc,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xFA Canto,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xFB Mounted Aid Calc,Canto,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xFC Steal,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xFD Mounted Aid Calc,Steal,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xFE Canto,Steal,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access
+0xFF Mounted Aid Calc,Canto,Steal,Thief Skill,Dance (Dancer),Play (Bard),Critical Boost,Ballista Access

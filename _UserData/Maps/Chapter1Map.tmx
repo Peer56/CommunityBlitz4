@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="19" height="15" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="19" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="1">
  <tileset firstgid="1" name="01003803" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="../../../../Users/Yalçın/Desktop/Project Folder/FEMapCreator/Tilesets/FE8 - Fields - 01000203.png" trans="ffffff" width="512" height="512"/>
+  <image source="Tilesets/01000203.png" trans="ffffff" width="512" height="512"/>
  </tileset>
- <layer name="Tile Layer 1" width="19" height="15">
+ <layer id="1" name="Tile Layer 1" width="19" height="15">
   <properties>
    <property name="Anims1" value="5"/>
    <property name="ChapterID" value="1"/>
@@ -302,7 +302,7 @@
    <tile gid="562"/>
   </data>
  </layer>
- <layer name="Map Change 0" width="19" height="15">
+ <layer id="2" name="Map Change 0" width="19" height="15">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="0"/>
@@ -598,7 +598,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Map Change 1" width="19" height="15">
+ <layer id="3" name="Map Change 1" width="19" height="15">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="1"/>
@@ -894,7 +894,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Map Change 2" width="19" height="15">
+ <layer id="4" name="Map Change 2" width="19" height="15">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="2"/>
@@ -1190,7 +1190,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Map Change 3" width="19" height="15">
+ <layer id="5" name="Map Change 3" width="19" height="15">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="3"/>

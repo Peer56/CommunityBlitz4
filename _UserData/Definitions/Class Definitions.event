@@ -1,9 +1,46 @@
-#define RiaLord EirikaLord
+#define RiaLord EphraimLord
 #define ArmorKnight Knight
 
-#define SwordCav Cavalier //
-#define LanceCav Cavalier //
-#define AxeCav Cavalier   //temporary fixes
-#define Nomad Archer      //
-#define BowCav Archer     //
-#define Thief_F Thief     //
+#define RiaGreatLord EirikaLord
+#define EphLord 3
+#define Archsage_F 4
+#define Berserker_F 5
+#define CursedSword 6
+#define Deacon 10
+#define Marauder 14
+#define Monk_F 16
+#define Necromancer_F 18
+#define Nomad_F 32
+#define Nomad 36
+#define NomadTrooper_F 36
+#define NomadTrooper 54
+#define Rogue_F 55
+#define Spartan 56
+#define Templar 58
+#define Thief_F 61
+#define Transporter 62
+#define Halberdier 71
+#define SwordCavalier 85
+#define SwordCav SwordCavalier
+#define SwdCav SwordCav
+#define SwordCavalier_F 87
+#define SwordCav_F SwordCavalier_F
+#define SwdCav_F SwordCav_F
+#define LanceCavalier 124
+#define LanceCav LanceCavalier
+#define LncCav LanceCav
+#define LanceCavalier_F 125
+#define LanceCav_F LanceCavalier_F
+#define LncCav_F LanceCav_F
+#define AxeCavalier 126
+#define AxeCav AxeCavalier
+#define AxeCavalier_F 127
+#define AxeCav_F AxeCavalier_F
+#define Gazer ArchMogall
+#define MogallGazer Gazer
+#define Strigoi Deathgoyle
+#define FallenAngel Archsage_F
+#define BowCavalier Nomad
+#define BowCav Nomad
+#define BowCavalier_F Nomad
+#define BowCav_F Nomad
