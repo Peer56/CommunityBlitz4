@@ -1,0 +1,152 @@
+#include "Tools/Tool Helpers.txt"
+//this file defines the macro:
+//setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
+ALIGN 16
+RiaPortrait:
+#incext PortraitFormatter "Playables/Ria.png"
+GarthanPortrait:
+#incext PortraitFormatter "Playables/Garthan.png"
+EverettPortrait:
+#incext PortraitFormatter "Playables/Everett.png"
+IgnacePortrait:
+#incext PortraitFormatter "Playables/Ignace.png"
+EdithPortrait:
+#incext PortraitFormatter "Playables/Edith.png"
+MaurusPortrait:
+#incext PortraitFormatter "Playables/Maurus.png"
+FuriaPortrait:
+#incext PortraitFormatter "Playables/Furia.png"
+KatePortrait:
+#incext PortraitFormatter "Playables/Kate.png"
+LilacPortrait:
+#incext PortraitFormatter "Playables/Lilac.png"
+SayraPortrait:
+#incext PortraitFormatter "Playables/Sayra.png"
+JhonkaPortrait:
+#incext PortraitFormatter "Playables/Jhonka.png"
+AciesPortrait:
+#incext PortraitFormatter "Playables/Acies.png"
+YorrickPortrait:
+#incext PortraitFormatter "Playables/Yorrick.png"
+MintPortrait:
+#incext PortraitFormatter "Playables/Mint.png"
+GershonPortrait:
+#incext PortraitFormatter "Playables/Gershon.png"
+OsianPortrait:
+#incext PortraitFormatter "Playables/Osian.png"
+TonyPortrait:
+#incext PortraitFormatter "Playables/Tony.png"
+JuanPortrait:
+#incext PortraitFormatter "Playables/Juan.png"
+ReubenPortrait:
+#incext PortraitFormatter "Playables/Reuben.png"
+Anna1Portrait:
+#incext PortraitFormatter "Playables/Anna1.png"
+ArlaPortrait:
+#incext PortraitFormatter "Playables/Arla.png"
+IrenaPortrait:
+#incext PortraitFormatter "Playables/Irena.png"
+ReaganPortrait:
+#incext PortraitFormatter "Playables/Reagan.png"
+IngridPortrait:
+#incext PortraitFormatter "Playables/Ingrid.png"
+Dan1Portrait:
+#incext PortraitFormatter "Playables/Dan1.png"
+Dan2Portrait:
+#incext PortraitFormatter "Playables/Dan2.png"
+FraochPortrait:
+#incext PortraitFormatter "Playables/Fraoch.png"
+KarnPortrait:
+#incext PortraitFormatter "Playables/Karn.png"
+SonnyPortrait:
+#incext PortraitFormatter "Playables/Sonny.png"
+AlyaPortrait:
+#incext PortraitFormatter "Playables/Alya.png"
+HadiPortrait:
+#incext PortraitFormatter "Playables/Hadi.png"
+FeidlimidPortrait:
+#incext PortraitFormatter "Playables/Feidlimid.png"
+DogPortrait:
+#incext PortraitFormatter "Playables/Dog.png"
+VolstaggPortrait:
+#incext PortraitFormatter "Playables/Volstagg.png"
+RhosynPortrait:
+#incext PortraitFormatter "Playables/Rhosyn.png"
+ArwenPortrait:
+#incext PortraitFormatter "Playables/Arwen.png"
+EoPortrait:
+#incext PortraitFormatter "Playables/Eo.png"
+Anna2Portrait:
+#incext PortraitFormatter "Playables/Anna2.png"
+FelixPortrait:
+#incext PortraitFormatter "Playables/Felix.png"
+WandaPortrait:
+#incext PortraitFormatter "Playables/Wanda.png"
+ItzharPortrait:
+#incext PortraitFormatter "Playables/Itzhar.png"
+DestinyPortrait:
+#incext PortraitFormatter "Playables/Destiny.png"
+
+
+setMugEntry(RiaMug, RiaPortrait, 2, 5, 3, 3)
+setMugEntry(GarthanMug, GarthanPortrait, 2, 5, 2, 3)
+setMugEntry(EverettMug, EverettPortrait, 2, 5, 3, 3)
+setMugEntry(IgnaceMug, IgnacePortrait, 2, 5, 3, 3)
+setMugEntry(EdithMug, EdithPortrait, 2, 5, 3, 3)
+setMugEntry(MaurusMug, MaurusPortrait, 2, 5, 3, 3)
+setMugEntry(FuriaMug, FuriaPortrait, 4, 6, 4, 4)
+setMugEntry(KateMug, KatePortrait, 3, 6, 3, 4)
+setMugEntry(LilacMug, LilacPortrait, 2, 5, 3, 3)
+setMugEntry(SayraMug, SayraPortrait, 2, 6, 3, 4)
+setMugEntry(JhonkaMug, JhonkaPortrait, 3, 5, 3, 3)
+setMugEntry(AciesMug, AciesPortrait, 3, 4, 3, 2)
+setMugEntry(YorrickMug, YorrickPortrait, 3, 5, 3, 3)
+setMugEntry(MintMug, MintPortrait, 3, 6, 3, 4)
+setMugEntry(GershonMug, GershonPortrait, 2, 5, 3, 3)
+setMugEntry(OsianMug, OsianPortrait, 3, 6, 2, 4)
+setMugEntry(TonyMug, TonyPortrait, 2, 5, 3, 3)
+setMugEntry(JuanMug, JuanPortrait, 2, 5, 3, 3)
+setMugEntry(ReubenMug, ReubenPortrait, 3, 5, 4, 3)
+setMugEntry(Anna1Mug, Anna1Portrait, 2, 6, 3, 4)
+setMugEntry(ArlaMug, ArlaPortrait, 3, 6, 3, 4)
+setMugEntry(IrenaMug, IrenaPortrait, 2, 6, 3, 4)
+setMugEntry(ReaganMug, ReaganPortrait, 3, 6, 3, 4)
+setMugEntry(IngridMug, IngridPortrait, 3, 6, 3, 4)
+setMugEntry(Dan1Mug, Dan1Portrait, 2, 5, 3, 3)
+setMugEntry(Dan2Mug, Dan2Portrait, 2, 5, 3, 3)
+setMugEntry(FraochMug, FraochPortrait, 3, 5, 3, 3)
+setMugEntry(KarnMug, KarnPortrait, 2, 5, 3, 3)
+setMugEntry(SonnyMug, SonnyPortrait, 2, 5, 3, 3)
+setMugEntry(AlyaMug, AlyaPortrait, 3, 6, 3, 4)
+setMugEntry(HadiMug, HadiPortrait, 3, 5, 3, 3)
+setMugEntry(FeidlimidMug, FeidlimidPortrait, 2, 6, 3, 4)
+setMugEntry(DogMug, DogPortrait, 5, 8, 4, 6)
+setMugEntry(VolstaggMug, VolstaggPortrait, 2, 5, 3, 3)
+setMugEntry(RhosynMug, RhosynPortrait, 3, 5, 3, 3)
+setMugEntry(ArwenMug, ArwenPortrait, 2, 6, 3, 4)
+setMugEntry(EoMug, EoPortrait, 2, 5, 3, 3)
+setMugEntry(Anna2Mug, Anna2Portrait, 2, 6, 3, 4)
+setMugEntry(FelixMug, FelixPortrait, 2, 5, 3, 3)
+setMugEntry(WandaMug, WandaPortrait, 2, 5, 3, 3)
+setMugEntry(ItzharMug, ItzharPortrait, 2, 5, 3, 3)
+setMugEntry(DestinyMug, DestinyPortrait, 2, 5, 3, 3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

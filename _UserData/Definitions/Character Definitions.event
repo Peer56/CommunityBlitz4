@@ -1,44 +1,48 @@
 //////////////////////////Playables
-#define Ria Eirika
-#define Garthan Seth
-#define Everett Gilliam
-#define Ignace Franz
-#define Edith Moulder
-#define Maurus Vanessa
-#define Furia Ross
-#define Kate Neimi
-#define Sayra Colm
-#define Jhonka Garcia
-#define Acies Innes
-//Lute
-#define Yorrick Natasha
-#define Mint Cormag
-#define Gershon Ephraim
-#define Osian Forde
-#define Tony Kyle
-//Amelia
-#define Juan Artur
-#define Reuben Gerik
-#define Arla Tethys
-#define Irena Marisa
-#define Reagan Saleh
-#define Ingrid Ewan
-#define DanWyv LArachel
-#define DanGoyle Dozla
-#define Fraoch 0x1B
-//Rennac
-#define Karn Duessel
-#define Sonny Myrrh
-#define Alya Knoll
-#define Hadi Joshua
-#define Feidlimid Syrene
-//Tana
-#define Volstagg LyonCC
-//OrsonCC
-//...
-#define Anna RievCC
-#define Itzhar HaydenCC
-#define Destiny 0x2E
+#define Ria 1
+#define Garthan 2
+#define Everett 3
+#define Ignace 4
+#define Edith 5
+#define Maurus 6
+#define Furia 7
+#define Kate 8
+#define Lilac 9
+#define Sayra 10
+#define Jhonka 11
+#define Acies 12
+#define Yorrick 13
+#define Mint 14
+#define Gershon 15
+#define Osian 16
+#define Tony 17
+#define Juan 18
+#define Reuben 19
+#define Anna1 20
+#define Arla 21
+#define Irena 22
+#define Reagan 23
+#define Ingrid 24
+#define DanWyv 25
+#define Dan1 DanWyv
+#define DanGoyle 26
+#define Dan2 DanGoyle
+#define Fraoch 27
+#define Karn 28
+#define Sonny 29
+#define Alya 30
+#define Hadi 31
+#define Feidlimid 32
+#define Dog 33
+#define Volstagg 34
+#define Rhosyn 35
+#define Arwen 36
+#define Eo 37
+#define Anna2 38
+#define Felix 39
+#define Wanda 40
+#define Itzhar 41
+#define Destiny 42
 
 //////////////////////////Bosses
 #define Nathan 0x40
