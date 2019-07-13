@@ -2,39 +2,6 @@
 #include "Class Definitions.event"
 #include "Character Definitions.event"
 
-#ifndef Nomad
-#define Nomad Cavalier
-#endif
-#ifndef Nomad_F
-#define Nomad_F Cavalier_F
-#endif
-#ifndef NomadTrooper
-#define NomadTrooper Ranger
-#endif
-#ifndef NomadTrooper_F
-#define NomadTrooper_F Ranger_F
-#endif
-#ifndef Monk_F
-#define Monk_F Monk
-#endif
-#ifndef AxeCav_F
-#define AxeCav_F Cavalier_F
-#endif
-#ifndef SwordCav
-#define SwordCav Cavalier
-#endif
-#ifndef SwordCav_F
-#define SwordCav_F Cavalier_F
-#endif
-#ifndef LanceCav
-#define LanceCav Cavalier
-#endif
-#ifndef LanceCav_F
-#define LanceCav_F Cavalier_F
-#endif
-#ifndef AxeCav
-#define AxeCav Cavalier
-#endif
 #ifndef PlaceholderText
 #define PlaceholderText 0x903
 #endif
@@ -48,3 +15,24 @@
 #define CH10_ALLY_AI1 11
 
 #define CH10_DAN_AI2  11
+
+
+//Song defs
+#define Song_RickAstley 9
+#define Song_FE4Ch1 10
+#define Song_DwellingOfDoom 11
+#define Song_Seahorse 12
+#define Song_TrainRush 13
+#define Song_Bergentruckung 14
+#define Song_BoatMaps 15
+#define Song_BeneathANewLight 16
+#define Song_KaiTheme 17
+#define Song_TheDevoted 18
+#define Song_LockedGirl 19
+#define Song_QuestBattle 20
+#define Song_QuicklyDifficult 21
+#define Song_WorldBowser 22
+#define Song_Toccata 23
+#define Song_UNOwen 24
+#define Song_WithUs 25
+#define Song_FactoryInspection 26
