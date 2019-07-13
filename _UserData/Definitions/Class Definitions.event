@@ -44,3 +44,9 @@
 #define BowCav Nomad
 #define BowCavalier_F Nomad
 #define BowCav_F Nomad
+#define SwordAxePaladin 7
+#define SwordAxePaladin_F 8
+#define LanceSwordPaladin 128
+#define LanceSwordPaladin_F 129
+#define AxeLancePaladin 130
+#define AxeLancePaladin_F 131

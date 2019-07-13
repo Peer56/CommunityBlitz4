@@ -80,3 +80,5 @@
 #define WandaMug Wanda
 #define ItzharMug Itzhar
 #define DestinyMug Destiny
+
+#define InfantryType 0x40
