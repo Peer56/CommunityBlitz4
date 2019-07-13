@@ -1,31 +1,91 @@
 #define StandingMapSprite(aId, width, height, gfxPointer) "PUSH; ORG 0x8AF880 + (aId * 8); SHORT height width; POIN gfxPointer; POP"
 #define MovingMapSprite(aId, apPointer, gfxPointer) "PUSH; ORG 0x9A2E00 + ((aId - 1) * 8); POIN gfxPointer apPointer; POP"
-/*
-These need different IDs
 
-StandingMapSprite(4, 1, 2, LanceCavStandingMapSprite)
-MovingMapSprite(0x38, 0x1C692C, LanceCavMovingMapSprite)
-StandingMapSprite(0x4F, 1, 2, SwordCavStandingMapSprite)
-MovingMapSprite(5, 0x1C692C, SwordCavMovingMapSprite)
+StandingMapSprite(0x7B, 1, 2, LanceCavStandingMapSprite)
+MovingMapSprite(124, 0x1C692C, LanceCavMovingMapSprite)
 
-StandingMapSprite(0x50, 1, 2, AxeCavStandingMapSprite)
-MovingMapSprite(0x3A, 0x1C692C, AxeCavMovingMapSprite)
+StandingMapSprite(0x54, 1, 2, SwordCavStandingMapSprite)
+MovingMapSprite(85, 0x1C692C, SwordCavMovingMapSprite)
 
-StandingMapSprite(0x51, 1, 2, BowCavStandingMapSprite)
-MovingMapSprite(0x3D, 0x1C692C, BowCavMovingMapSprite)
+StandingMapSprite(0x7D, 1, 2, AxeCavStandingMapSprite)
+MovingMapSprite(126, 0x1C692C, AxeCavMovingMapSprite)
 
-StandingMapSprite(0x4C,0,2,FRogueStandingMapSprite)
-MovingMapSprite(0x47,0x1DF548,FRogueMovingMapSprite)
+StandingMapSprite(0x36,0,2,FRogueStandingMapSprite)
+MovingMapSprite(55,0x1DF548,FRogueMovingMapSprite)
 
-StandingMapSprite(0x9,0,2,FTheifStandingMapSprite)
-MovingMapSprite(0xE,0x1C945C,FThiefMovingMapSprite)
+StandingMapSprite(0x3C,0,2,FTheifStandingMapSprite)
+MovingMapSprite(61,0x1C945C,FThiefMovingMapSprite)
 
-StandingMapSprite(0x47,0,2,HalberdierStandingMapSprite)
-MovingMapSprite(0x56,0x1EDBC4,HalberdierMovingMapSprite)
+StandingMapSprite(0x46,0,2,HalberdierStandingMapSprite)
+MovingMapSprite(71,0x1EDBC4,HalberdierMovingMapSprite)
 
-StandingMapSprite(0x45,2,3,MarauderStandingMapSprite)
-MovingMapSprite(0x54,0x1F7570,MarauderMovingMapSprite)
-*/
+StandingMapSprite(0xD,2,3,MarauderStandingMapSprite)
+MovingMapSprite(14,0x1F7570,MarauderMovingMapSprite)
+
+StandingMapSprite(0x3,1,2,ArchsageFStandingMapSprite) 
+MovingMapSprite(0x4,0x1DC590,ArchsageFMovingMapSprite) //bishop
+
+StandingMapSprite(0x7E,1,2,AxeCavFStandingMapSprite)
+MovingMapSprite(127,0x1C692C,AxeCavFMovingMapSprite) //above cavs
+
+StandingMapSprite(0x58,1,2,BaelQueenStandingMapSprite)
+MovingMapSprite(89,0x1F3FA0,BaelQueenMovingMapSprite) //elder bael
+
+StandingMapSprite(0x4,1,2,BerserkerFStandingMapSprite)
+MovingMapSprite(0x5,0x1E6DF4,BerserkerFMovingMapSprite) //berserker
+
+StandingMapSprite(0x5,1,2,CursedSwordStandingMapSprite)
+MovingMapSprite(0x6,0x1F3FA0,CursedSwordMovingMapSprite) //fuck if I know
+
+StandingMapSprite(0x9,1,2,DeaconStandingMapSprite)
+MovingMapSprite(10,0x1EB99C,DeaconMovingMapSprite) //troubadour
+
+StandingMapSprite(0x1,1,2,HectorGreatLordStandingMapSprite)
+MovingMapSprite(2,HectorGreatLordAPData,HectorGreatLordMovingMapSprite)
+
+StandingMapSprite(0x0,1,2,HectorLordStandingMapSprite)
+MovingMapSprite(1,0x1E4340,HectorLordMovingMapSprite) //fighter
+
+StandingMapSprite(0x7C,1,2,LanceCavFStandingMapSprite)
+MovingMapSprite(125,0x1C692C,LanceCavFMovingMapSprite) //above cavs
+
+StandingMapSprite(0x5F,1,2,MogallGazerStandingMapSprite)
+MovingMapSprite(96,0x,MogallGazerMovingMapSprite) //arch mogall
+
+StandingMapSprite(0xF,1,2,MonkFStandingMapSprite)
+MovingMapSprite(16,0x1E7638,MonkFMovingMapSprite) //monk
+
+StandingMapSprite(0x11,1,2,NecromancerFStandingMapSprite)
+MovingMapSprite(18,0x1EE558,NecromancerFMovingMapSprite) //necromancer
+
+StandingMapSprite(0x21,1,2,NomadStandingMapSprite)
+MovingMapSprite(34,0x1C692C,NomadMovingMapSprite) //above cavs
+
+StandingMapSprite(0x1F,1,2,NomadFStandingMapSprite)
+MovingMapSprite(32,0x1C692C,NomadFMovingMapSprite) //above cavs
+
+StandingMapSprite(0x35,1,2,NomadTrooperStandingMapSprite)
+MovingMapSprite(54,0x1C692C,NomadTrooperMovingMapSprite) //above cavs
+
+StandingMapSprite(0x23,1,2,NomadTrooperFStandingMapSprite)
+MovingMapSprite(36,0x1C692C,NomadTrooperFMovingMapSprite) //above cavs
+
+StandingMapSprite(0x37,1,2,SpartanStandingMapSprite)
+MovingMapSprite(56,0x1CBD94,SpartanMovingMapSprite) //hero
+
+StandingMapSprite(0x,1,2,SwordCavFStandingMapSprite)
+MovingMapSprite(,0x1C692C,SwordCavFMovingMapSprite) //above cavs
+
+StandingMapSprite(0x39,1,2,TemplarStandingMapSprite)
+MovingMapSprite(58,0x1EC4FC,TemplarMovingMapSprite) //valkyrie
+
+StandingMapSprite(0x3D,1,2,TransporterStandingMapSprite)
+MovingMapSprite(62,0x1C692C,TransporterMovingMapSprite) //above cavs
+
+StandingMapSprite(0x2,1,2,0x1B7828)
+MovingMapSprite(0x3,0x1C3D7C,0x1C33CC)
+
+//graphics start here
 
 ALIGN 4
 LanceCavStandingMapSprite:
@@ -84,10 +144,165 @@ AxeCavMovingMapSprite:
 #incext Png2Dmp "CavAxeAnim.png" --lz77
 
 ALIGN 4
-BowCavStandingMapSprite:
-#incext Png2Dmp "BowCav.png" --lz77
+ArchsageFStandingMapSprite:
+#incext Png2Dmp "ArchsageF.png" --lz77
 
 ALIGN 4
-BowCavMovingMapSprite:
-#incext Png2Dmp "BowCavMov.png" --lz77
+ArchsageFMovingMapSprite:
+#incext Png2Dmp "ArchsageFMov.png" --lz77
 
+ALIGN 4
+AxeCavFStandingMapSprite:
+#incext Png2Dmp "AxeCavF.png" --lz77
+
+ALIGN 4
+AxeCavFMovingMapSprite:
+#incext Png2Dmp "AxeCavFMov.png" --lz77
+
+ALIGN 4
+BaelQueenStandingMapSprite:
+#incext Png2Dmp "BaelQueen.png" --lz77
+
+ALIGN 4
+BaelQueenMovingMapSprite:
+#incext Png2Dmp "BaelQueenMov.png" --lz77
+
+ALIGN 4
+BerserkerFStandingMapSprite:
+#incext Png2Dmp "BerserkerF.png" --lz77
+
+ALIGN 4
+BerserkerFMovingMapSprite:
+#incext Png2Dmp "BerserkerFMov.png" --lz77
+
+ALIGN 4
+CursedSwordStandingMapSprite:
+#incext Png2Dmp "CursedSword.png" --lz77
+
+ALIGN 4
+CursedSwordMovingMapSprite:
+#incext Png2Dmp "CursedSwordMov.png" --lz77
+
+ALIGN 4
+DeaconStandingMapSprite:
+#incext Png2Dmp "Deacon.png" --lz77
+
+ALIGN 4
+DeaconMovingMapSprite:
+#incext Png2Dmp "DeaconMov.png" --lz77
+
+ALIGN 4
+HectorGreatLordStandingMapSprite:
+#incext Png2Dmp "HectorGreatLord.png" --lz77
+
+ALIGN 4
+HectorGreatLordMovingMapSprite:
+#incext Png2Dmp "HectorGreatLordMov.png" --lz77
+
+ALIGN 4
+HectorLordStandingMapSprite:
+#incext Png2Dmp "HectorLord.png" --lz77
+
+ALIGN 4
+HectorLordMovingMapSprite:
+#incext Png2Dmp "HectorLordMov.png" --lz77
+
+ALIGN 4
+LanceCavFStandingMapSprite:
+#incext Png2Dmp "LanceCavF.png" --lz77
+
+ALIGN 4
+LanceCavFMovingMapSprite:
+#incext Png2Dmp "LanceCavFMov.png" --lz77
+
+ALIGN 4
+MogallGazerStandingMapSprite:
+#incext Png2Dmp "MogallGazer.png" --lz77
+
+ALIGN 4
+MogallGazerMovingMapSprite:
+#incext Png2Dmp "MogallGazerMov.png" --lz77
+
+ALIGN 4
+MonkFStandingMapSprite:
+#incext Png2Dmp "MonkF.png" --lz77
+
+ALIGN 4
+MonkFMovingMapSprite:
+#incext Png2Dmp "MonkFMov.png" --lz77
+
+ALIGN 4
+NecromancerFStandingMapSprite:
+#incext Png2Dmp "NecromancerF.png" --lz77
+
+ALIGN 4
+NecromancerFMovingMapSprite:
+#incext Png2Dmp "NecromancerFMov.png" --lz77
+
+ALIGN 4
+NomadStandingMapSprite:
+#incext Png2Dmp "Nomad.png" --lz77
+
+ALIGN 4
+NomadMovingMapSprite:
+#incext Png2Dmp "NomadMov.png" --lz77
+
+ALIGN 4
+NomadFStandingMapSprite:
+#incext Png2Dmp "NomadF.png" --lz77
+
+ALIGN 4
+NomadFMovingMapSprite:
+#incext Png2Dmp "NomadFMov.png" --lz77
+
+ALIGN 4
+NomadTrooperStandingMapSprite:
+#incext Png2Dmp "NomadTrooper.png" --lz77
+
+ALIGN 4
+NomadTrooperMovingMapSprite:
+#incext Png2Dmp "NomadTrooperMov.png" --lz77
+
+ALIGN 4
+NomadTrooperFStandingMapSprite:
+#incext Png2Dmp "NomadTrooperF.png" --lz77
+
+ALIGN 4
+NomadTrooperFMovingMapSprite:
+#incext Png2Dmp "NomadTrooperFMov.png" --lz77
+
+ALIGN 4
+SpartanStandingMapSprite:
+#incext Png2Dmp "Spartan.png" --lz77
+
+ALIGN 4
+SpartanMovingMapSprite:
+#incext Png2Dmp "SpartanMov.png" --lz77
+
+ALIGN 4
+SwordCavFStandingMapSprite:
+#incext Png2Dmp "SwordCavF.png" --lz77
+
+ALIGN 4
+SwordCavFMovingMapSprite:
+#incext Png2Dmp "SwordCavFMov.png" --lz77
+
+ALIGN 4
+TemplarStandingMapSprite:
+#incext Png2Dmp "Templar.png" --lz77
+
+ALIGN 4
+TemplarMovingMapSprite:
+#incext Png2Dmp "TemplarMov.png" --lz77
+
+ALIGN 4
+TransporterStandingMapSprite:
+#incext Png2Dmp "Transporter.png" --lz77
+
+ALIGN 4
+TransporterMovingMapSprite:
+#incext Png2Dmp "TransporterMov.png" --lz77
+
+ALIGN 4
+HectorGreatLordAPData:
+#incbin "GLHectAP.bin"
