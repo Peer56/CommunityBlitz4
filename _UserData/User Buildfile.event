@@ -1,6 +1,8 @@
 #define AnimationSwitch //undefine to not install animations
 #define MusicSwitch //undefine to not install music
 
+#undef ChapterDataTable
+
 #ifndef AnimationSwitch
 MESSAGE Animation Switch is off and animations are not written
 #endif

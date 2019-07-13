@@ -2,6 +2,10 @@ cd %~dp0
 
 copy FE8_clean.gba FE8_hack.gba
 
+cd %~dp0_UserData/Music"
+
+echo: | (AssembleMusic.cmd)
+
 cd "%~dp0_UserData/Text"
 
 echo: | (text-process-classic text_buildfile.txt --parser-exe "%~dp0Event Assembler/Tools/ParseFile.exe")

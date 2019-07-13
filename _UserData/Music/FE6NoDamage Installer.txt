@@ -1,0 +1,53 @@
+//#define SongTableOffset  0x224470
+//#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+SongTable(0x02CE,FE6NoDamage,6)
+
+    #include "MPlayDef.event"
+
+    #define    loop_sfx_grp_FE6NoDamage  FE6NoDamage_map
+    #define    loop_sfx_pri_FE6NoDamage  0
+    #define    loop_sfx_rev_FE6NoDamage  0
+    #define    loop_sfx_mvl_FE6NoDamage  127
+    #define    loop_sfx_key_FE6NoDamage  0
+    #define    loop_sfx_tbs_FE6NoDamage  1
+    #define    loop_sfx_exg_FE6NoDamage  0
+    #define    loop_sfx_cmp_FE6NoDamage  1
+
+    ALIGN 4
+
+loop_sfx_1:
+    BYTE        VOL     127*loop_sfx_mvl_FE6NoDamage/mxv
+    BYTE    KEYSH   loop_sfx_key_FE6NoDamage+0
+    BYTE        VOICE   0
+    BYTE        TIE     Cn3   v064
+    BYTE    W96
+loop_sfx_1_B1:
+    BYTE    W96
+    BYTE    W96
+    BYTE    GoTo
+     POIN2    loop_sfx_1_B1
+loop_sfx_1_B2:
+    BYTE    W06
+    BYTE        EOT     Cn3 
+    BYTE    FINE
+
+    ALIGN 4
+
+FE6NoDamage:
+    BYTE    1    // NumTrks
+    BYTE    0    // NumBlks
+    BYTE    loop_sfx_pri_FE6NoDamage    // Priority
+    BYTE    loop_sfx_rev_FE6NoDamage    // Reverb.
+
+    POIN2    loop_sfx_grp_FE6NoDamage
+
+    POIN2    loop_sfx_1
+
+    
+FE6NoDamage_map:
+WORD $3c00
+POIN FE6NoDamage_wav
+WORD $FF00FF
+
+FE6NoDamage_wav:
+#incbin "FE6NoDamage.bin"
