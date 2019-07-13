@@ -1,8 +1,6 @@
 #define AnimationSwitch //undefine to not install animations
 #define MusicSwitch //undefine to not install music
 
-#undef ChapterDataTable
-
 #ifndef AnimationSwitch
 MESSAGE Animation Switch is off and animations are not written
 #endif
@@ -23,6 +21,7 @@ MESSAGE Music Switch is off and songs are not written
 //#include "ModularItems/Modular Item Installer.event"
 
 //CSVs because modulars succ
+#undef ChapterDataTable
 #include "CSVs/Table Installer.event"
 
 //Animations

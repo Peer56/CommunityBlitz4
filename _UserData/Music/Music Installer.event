@@ -23,3 +23,42 @@ SongTable(11,DwellingOfDoom,MapMusicGroup)
 
 SongTable(12,seahorse,MapMusicGroup)
 #include "Songs/seahorse.event"
+
+SongTable(13,TrainRush,MapMusicGroup)
+#include "Songs/TrainRush.event"
+
+SongTable(14,Bergentruckung,MapMusicGroup)
+#include "Songs/Bergentruckung.event"
+
+SongTable(15,BoatMaps,MapMusicGroup)
+#include "Songs/BoatMaps.event"
+
+SongTable(16,BeneathANewLight,MapMusicGroup)
+#include "Songs/BeneathANewLight.event"
+
+SongTable(17,KaiTheme,MapMusicGroup)
+#include "Songs/KaiTheme.event"
+
+SongTable(18,L_Devoted,MapMusicGroup)
+#include "Songs/I_Devoted.event"
+
+SongTable(19,song01,MapMusicGroup)
+#include "Songs/LockedGirl.event"
+
+SongTable(20,questbattle,MapMusicGroup)
+#include "Songs/questbattle.event"
+
+SongTable(21,quicklydifficult,BattleMusicGroup)
+#include "Songs/quicklydifficult.event"
+
+SongTable(22,WorldBowser,MapMusicGroup)
+#include "Songs/WorldBowser.event"
+
+SongTable(23,ToccataAndDoomInDMinor,BattleMusicGroup)
+#include "Songs/ToccataAndDoomInDMinor.event"
+
+SongTable(24,unowen,MapMusicGroup)
+#include "Songs/unowen.event"
+
+SongTable(25,WithUs,MapMusicGroup)
+#include "Songs/WithUs.event"

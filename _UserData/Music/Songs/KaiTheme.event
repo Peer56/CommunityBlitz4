@@ -1,0 +1,2258 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	KaiTheme_grp  voicegroup000
+	#define	KaiTheme_pri  0
+	#define	KaiTheme_rev  0
+	#define	KaiTheme_mvl  25
+	#define	KaiTheme_key  0
+	#define	KaiTheme_tbs  1
+	#define	KaiTheme_exg  0
+	#define	KaiTheme_cmp  1
+
+	// .rodata
+	//	KaiTheme
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+KaiTheme_1:
+	BYTE	KEYSH   KaiTheme_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   119*KaiTheme_tbs/2
+	BYTE		VOICE   33
+	BYTE		PAN     c_v+0
+	BYTE		VOL     95*KaiTheme_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+KaiTheme_1_B1:
+// 004   ----------------------------------------
+KaiTheme_1_004:
+	BYTE		N18     Gs0   v060
+	BYTE	W18
+	BYTE		N17     Gs0   v052
+	BYTE	W18
+	BYTE		N11     Gs0   v064
+	BYTE	W12
+	BYTE		N09     Ds1   v068
+	BYTE	W24
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Ds1   v064
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+KaiTheme_1_005:
+	BYTE		N18     Gs0   v060
+	BYTE	W18
+	BYTE		        Gs0   v052
+	BYTE	W18
+	BYTE		N11     Cs1   v064
+	BYTE	W12
+	BYTE		        Ds1   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N23     Bn0   v068
+	BYTE	W24
+	BYTE	PEND
+// 006   ----------------------------------------
+KaiTheme_1_006:
+	BYTE		N18     En0   v060
+	BYTE	W18
+	BYTE		N17     En0   v052
+	BYTE	W18
+	BYTE		N11     En0   v064
+	BYTE	W12
+	BYTE		N23     En1   v068
+	BYTE	W24
+	BYTE		N11     Cs1 
+	BYTE	W12
+	BYTE		        En1   v064
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+KaiTheme_1_007:
+	BYTE		N18     Gs0   v060
+	BYTE	W18
+	BYTE		N17     Gs0   v052
+	BYTE	W18
+	BYTE		N11     Gs0   v064
+	BYTE	W12
+	BYTE		N23     Fs1   v068
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	KaiTheme_1_B1
+KaiTheme_1_B2:
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_007
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_004
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_005
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_1_006
+// 087   ----------------------------------------
+	BYTE		N18     Gs0   v060
+	BYTE	W18
+	BYTE		N17     Gs0   v052
+	BYTE	W18
+	BYTE		N11     Gs0   v064
+	BYTE	W12
+	BYTE		N23     Fs1   v068
+	BYTE	W24
+	BYTE		N11   
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W11
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+KaiTheme_2:
+	BYTE	KEYSH   KaiTheme_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   0
+	BYTE		PAN     c_v+0
+	BYTE		VOL     102*KaiTheme_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+KaiTheme_2_003:
+	BYTE	W84
+	BYTE		N05     Cs3   v064
+	BYTE	W05
+	BYTE		        Dn3 
+	BYTE	W05
+	BYTE		VOL     95*KaiTheme_mvl/mxv
+	BYTE	W02
+	BYTE	PEND
+KaiTheme_2_B1:
+// 004   ----------------------------------------
+KaiTheme_2_004:
+	BYTE		N92     Gs1   v064
+	BYTE		N92     Fs2   v068
+	BYTE		N92     Gs2   v056
+	BYTE		N92     Bn2 
+	BYTE		N92     Ds3   v064
+	BYTE	W96
+	BYTE	PEND
+// 005   ----------------------------------------
+KaiTheme_2_005:
+	BYTE		N92     En1   v064
+	BYTE		N92     En2   v056
+	BYTE		N92     Gs2 
+	BYTE		N92     Bn2 
+	BYTE		N92     Ds3   v072
+	BYTE	W96
+	BYTE	PEND
+// 006   ----------------------------------------
+KaiTheme_2_006:
+	BYTE		N92     Ds1   v064
+	BYTE		N92     Ds2   v056
+	BYTE		N92     Fs2 
+	BYTE		N92     As2 
+	BYTE		N92     Cs3   v072
+	BYTE	W96
+	BYTE	PEND
+// 007   ----------------------------------------
+KaiTheme_2_007:
+	BYTE		N18     Gs1   v060
+	BYTE		N18     Ds2   v052
+	BYTE		N18     Fs2 
+	BYTE		N18     Gs2   v060
+	BYTE		N18     Cs3   v056
+	BYTE	W18
+	BYTE		N07     Gs1   v052
+	BYTE		N07     Ds2   v044
+	BYTE		N07     Fs2 
+	BYTE		N07     Gs2 
+	BYTE		N07     Cs3   v060
+	BYTE	W18
+	BYTE		N32     Gs1   v064
+	BYTE		N56     Ds2   v056
+	BYTE		N56     Fs2 
+	BYTE		N56     Gs2 
+	BYTE		N32     Cn3   v072
+	BYTE	W36
+	BYTE		N23     Gs1   v068
+	BYTE		N23     En3   v072
+	BYTE	W24
+	BYTE	PEND
+// 008   ----------------------------------------
+KaiTheme_2_008:
+	BYTE		N92     Gs1   v064
+	BYTE		N92     Fs2   v056
+	BYTE		N92     Gs2 
+	BYTE		N92     Bn2 
+	BYTE		N92     Ds3   v072
+	BYTE	W96
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_006
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_007
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_008
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_006
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_007
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_008
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_005
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_006
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_007
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_008
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_005
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_006
+// 027   ----------------------------------------
+KaiTheme_2_027:
+	BYTE		N18     Gs1   v060
+	BYTE		N18     Ds2   v052
+	BYTE		N18     Fs2 
+	BYTE		N18     Gs2   v060
+	BYTE		N18     Cs3   v056
+	BYTE	W18
+	BYTE		N07     Gs1   v052
+	BYTE		N07     Ds2   v044
+	BYTE		N07     Fs2 
+	BYTE		N07     Gs2 
+	BYTE		N07     Cs3   v060
+	BYTE	W18
+	BYTE		N32     Gs1   v064
+	BYTE		N56     Ds2   v056
+	BYTE		N56     Fs2 
+	BYTE		N56     Gs2 
+	BYTE		N56     Cn3   v072
+	BYTE	W36
+	BYTE		N23     Gs1   v068
+	BYTE	W24
+	BYTE	PEND
+// 028   ----------------------------------------
+KaiTheme_2_028:
+	BYTE	W05
+	BYTE		VOL     102*KaiTheme_mvl/mxv
+	BYTE	W90
+	BYTE	W01
+	BYTE	PEND
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_003
+	BYTE	GoTo
+	 POIN2	KaiTheme_2_B1
+KaiTheme_2_B2:
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_004
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_005
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_006
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_007
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_008
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_005
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_006
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_007
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_008
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_005
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_006
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_007
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_008
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_006
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_007
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_008
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_005
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_006
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_027
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_2_028
+// 073   ----------------------------------------
+	BYTE	W96
+// 074   ----------------------------------------
+	BYTE	W96
+// 075   ----------------------------------------
+	BYTE	W96
+// 076   ----------------------------------------
+	BYTE	W96
+// 077   ----------------------------------------
+	BYTE	W96
+// 078   ----------------------------------------
+	BYTE	W96
+// 079   ----------------------------------------
+	BYTE	W96
+// 080   ----------------------------------------
+	BYTE	W96
+// 081   ----------------------------------------
+	BYTE	W96
+// 082   ----------------------------------------
+	BYTE	W96
+// 083   ----------------------------------------
+	BYTE	W96
+// 084   ----------------------------------------
+	BYTE	W96
+// 085   ----------------------------------------
+	BYTE	W96
+// 086   ----------------------------------------
+	BYTE	W96
+// 087   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+KaiTheme_3:
+	BYTE	KEYSH   KaiTheme_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   57
+	BYTE		PAN     c_v-1
+	BYTE		VOL     102*KaiTheme_mvl/mxv
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+KaiTheme_3_003:
+	BYTE	W84
+	BYTE		N05     Cs3   v064
+	BYTE	W05
+	BYTE		        Dn3 
+	BYTE	W07
+	BYTE	PEND
+KaiTheme_3_B1:
+// 004   ----------------------------------------
+KaiTheme_3_004:
+	BYTE		N92     Fs2   v068
+	BYTE		N92     Gs2   v056
+	BYTE		N92     Bn2 
+	BYTE		N92     Ds3   v064
+	BYTE	W96
+	BYTE	PEND
+// 005   ----------------------------------------
+KaiTheme_3_005:
+	BYTE		N92     En2   v056
+	BYTE		N92     Gs2 
+	BYTE		N92     Bn2 
+	BYTE		N92     Ds3   v072
+	BYTE	W96
+	BYTE	PEND
+// 006   ----------------------------------------
+KaiTheme_3_006:
+	BYTE		N92     Ds2   v056
+	BYTE		N92     Fs2 
+	BYTE		N92     As2 
+	BYTE		N92     Cs3   v072
+	BYTE	W96
+	BYTE	PEND
+// 007   ----------------------------------------
+KaiTheme_3_007:
+	BYTE		N18     Ds2   v052
+	BYTE		N18     Fs2 
+	BYTE		N18     Gs2   v060
+	BYTE		N18     Cs3   v056
+	BYTE	W18
+	BYTE		N07     Ds2   v044
+	BYTE		N07     Fs2 
+	BYTE		N07     Gs2 
+	BYTE		N07     Cs3   v060
+	BYTE	W18
+	BYTE		N56     Ds2   v056
+	BYTE		N56     Fs2 
+	BYTE		N56     Gs2 
+	BYTE		N32     Cn3   v072
+	BYTE	W36
+	BYTE		N23     En3 
+	BYTE	W24
+	BYTE	PEND
+// 008   ----------------------------------------
+KaiTheme_3_008:
+	BYTE		N92     Fs2   v056
+	BYTE		N92     Gs2 
+	BYTE		N92     Bn2 
+	BYTE		N92     Ds3   v072
+	BYTE	W96
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 027   ----------------------------------------
+KaiTheme_3_027:
+	BYTE		N18     Ds2   v052
+	BYTE		N18     Fs2 
+	BYTE		N18     Gs2   v060
+	BYTE		N18     Cs3   v056
+	BYTE	W18
+	BYTE		N07     Ds2   v044
+	BYTE		N07     Fs2 
+	BYTE		N07     Gs2 
+	BYTE		N07     Cs3   v060
+	BYTE	W18
+	BYTE		N56     Ds2   v056
+	BYTE		N56     Fs2 
+	BYTE		N56     Gs2 
+	BYTE		N56     Cn3   v072
+	BYTE	W60
+	BYTE	PEND
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_003
+	BYTE	GoTo
+	 POIN2	KaiTheme_3_B1
+KaiTheme_3_B2:
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_004
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_027
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_007
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_008
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_005
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_3_006
+// 087   ----------------------------------------
+	BYTE		N18     Ds2   v052
+	BYTE		N18     Fs2 
+	BYTE		N18     Gs2   v060
+	BYTE		N18     Cs3   v056
+	BYTE	W18
+	BYTE		N07     Ds2   v044
+	BYTE		N07     Fs2 
+	BYTE		N07     Gs2 
+	BYTE		N07     Cs3   v060
+	BYTE	W18
+	BYTE		N56     Ds2   v056
+	BYTE		N56     Fs2 
+	BYTE		N56     Gs2 
+	BYTE		N32     Cn3   v072
+	BYTE	W36
+	BYTE		N23     En3 
+	BYTE	W23
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+KaiTheme_4:
+	BYTE	KEYSH   KaiTheme_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   65
+	BYTE		VOL     115*KaiTheme_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+KaiTheme_4_B1:
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+KaiTheme_4_012:
+	BYTE	W12
+	BYTE		N05     Ds3   v076
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		N10     Gs3 
+	BYTE	W18
+	BYTE		N22     Bn3 
+	BYTE	W24
+	BYTE		N10     As3 
+	BYTE	W12
+	BYTE		        Fs3 
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+KaiTheme_4_013:
+	BYTE	W12
+	BYTE		N04     Gs3   v076
+	BYTE	W18
+	BYTE		N04   
+	BYTE	W12
+	BYTE		        Gn3 
+	BYTE	W06
+	BYTE		N10     Gs3 
+	BYTE	W24
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        As3 
+	BYTE	W06
+	BYTE		N10     Fs3 
+	BYTE	W12
+	BYTE	PEND
+// 014   ----------------------------------------
+KaiTheme_4_014:
+	BYTE	W12
+	BYTE		N10     En3   v076
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE	W18
+	BYTE		N22     Bn2 
+	BYTE	W24
+	BYTE		N23     Cs3 
+	BYTE	W24
+	BYTE	PEND
+// 015   ----------------------------------------
+KaiTheme_4_015:
+	BYTE		N18     Cs3   v068
+	BYTE	W18
+	BYTE		N07     Cs3   v064
+	BYTE	W18
+	BYTE		N32     En3   v076
+	BYTE	W36
+	BYTE		N22     Ds3 
+	BYTE	W24
+	BYTE	PEND
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_012
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_013
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_014
+// 019   ----------------------------------------
+KaiTheme_4_019:
+	BYTE		N18     Cs3   v068
+	BYTE	W18
+	BYTE		N07     Cs3   v064
+	BYTE	W18
+	BYTE		N32     En3   v076
+	BYTE	W36
+	BYTE		N23     Ds3 
+	BYTE	W24
+	BYTE	PEND
+// 020   ----------------------------------------
+	BYTE		TIE   
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W68
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W24
+	BYTE	W02
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+KaiTheme_4_028:
+	BYTE	W12
+	BYTE		N05     Ds3   v064
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W06
+	BYTE		        Fs3   v068
+	BYTE	W06
+	BYTE		N10     Gs3   v064
+	BYTE	W18
+	BYTE		N22     Bn3   v068
+	BYTE	W24
+	BYTE		N10     As3 
+	BYTE	W12
+	BYTE		        Fs3   v064
+	BYTE	W12
+	BYTE	PEND
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 031   ----------------------------------------
+KaiTheme_4_031:
+	BYTE	W12
+	BYTE		N16     En3   v064
+	BYTE	W18
+	BYTE		N10     Ds3 
+	BYTE	W12
+	BYTE		N16     As2 
+	BYTE	W18
+	BYTE		        Ds3 
+	BYTE	W18
+	BYTE		        Cs3 
+	BYTE	W18
+	BYTE	PEND
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 035   ----------------------------------------
+KaiTheme_4_035:
+	BYTE	W12
+	BYTE		N16     En3   v064
+	BYTE	W18
+	BYTE		N10     Ds3 
+	BYTE	W12
+	BYTE		N16     Cs3 
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE	W18
+	BYTE		        En3 
+	BYTE	W18
+	BYTE	PEND
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_031
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_035
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	KaiTheme_4_B1
+KaiTheme_4_B2:
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+// 054   ----------------------------------------
+	BYTE	W96
+// 055   ----------------------------------------
+	BYTE	W96
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_012
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_013
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_014
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_015
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_012
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_013
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_014
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_019
+// 064   ----------------------------------------
+	BYTE		TIE     Ds3   v076
+	BYTE	W96
+// 065   ----------------------------------------
+	BYTE	W68
+	BYTE	W02
+	BYTE		EOT   
+	BYTE	W24
+	BYTE	W02
+// 066   ----------------------------------------
+	BYTE	W96
+// 067   ----------------------------------------
+	BYTE	W96
+// 068   ----------------------------------------
+	BYTE	W96
+// 069   ----------------------------------------
+	BYTE	W96
+// 070   ----------------------------------------
+	BYTE	W96
+// 071   ----------------------------------------
+	BYTE	W96
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 075   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_031
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_035
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_031
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_4_028
+// 087   ----------------------------------------
+	BYTE	W12
+	BYTE		N16     En3   v064
+	BYTE	W18
+	BYTE		N10     Ds3 
+	BYTE	W12
+	BYTE		N16     Cs3 
+	BYTE	W18
+	BYTE		        Fs3 
+	BYTE	W18
+	BYTE		        En3 
+	BYTE	W17
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+KaiTheme_5:
+	BYTE	KEYSH   KaiTheme_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   127
+	BYTE		PAN     c_v-1
+	BYTE		VOL     82*KaiTheme_mvl/mxv
+	BYTE		N12     Bn0   v076
+	BYTE		N12     An1   v072
+	BYTE	W12
+	BYTE		N11     Gs1   v064
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Dn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1   v068
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+// 001   ----------------------------------------
+KaiTheme_5_001:
+	BYTE		N12     Bn0   v072
+	BYTE		N12     An1 
+	BYTE	W12
+	BYTE		N11     Gs1   v064
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Dn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1   v068
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1 
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Cn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE	W01
+	BYTE		N05     An1   v068
+	BYTE	W05
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE		N12     Ds1   v072
+	BYTE		N12     Ds2 
+	BYTE	W13
+	BYTE		N11     Ds1   v064
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Ds1   v068
+	BYTE	W11
+	BYTE		        Ds1   v064
+	BYTE		N11     Gs1 
+	BYTE	W13
+	BYTE		        Ds1   v068
+	BYTE	W11
+	BYTE		N05     Ds1   v064
+	BYTE	W01
+	BYTE		        Gs1 
+	BYTE	W05
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		N11     Ds1   v068
+	BYTE	W12
+	BYTE		        Ds1   v064
+	BYTE		N11     Gs1 
+	BYTE	W12
+KaiTheme_5_B1:
+// 004   ----------------------------------------
+KaiTheme_5_004:
+	BYTE		N12     Bn0   v072
+	BYTE		N12     An1 
+	BYTE	W12
+	BYTE		N11     Gs1   v064
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Dn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE	W01
+	BYTE		N05     An1   v068
+	BYTE	W05
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 005   ----------------------------------------
+KaiTheme_5_005:
+	BYTE		N12     Bn0   v076
+	BYTE		N12     An1   v072
+	BYTE	W12
+	BYTE		N11     Gs1   v064
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Dn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N05     An1   v068
+	BYTE	W06
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 006   ----------------------------------------
+KaiTheme_5_006:
+	BYTE		N06     Bn0   v076
+	BYTE		N06     An1   v072
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Cn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE	W01
+	BYTE		N05     An1   v068
+	BYTE	W05
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 007   ----------------------------------------
+KaiTheme_5_007:
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1 
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Cn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N05     An1   v068
+	BYTE	W06
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+KaiTheme_5_008:
+	BYTE		N12     Bn0   v076
+	BYTE		N12     An1   v072
+	BYTE	W12
+	BYTE		N11     Gs1   v064
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Dn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N05     An1   v068
+	BYTE	W06
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_005
+// 010   ----------------------------------------
+KaiTheme_5_010:
+	BYTE		N06     Bn0   v076
+	BYTE		N06     An1   v072
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N05     An1   v068
+	BYTE	W06
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 011   ----------------------------------------
+KaiTheme_5_011:
+	BYTE		N06     Bn0   v076
+	BYTE		N06     An1   v072
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Cn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N05     An1   v068
+	BYTE	W06
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 012   ----------------------------------------
+KaiTheme_5_012:
+	BYTE		N12     Bn0   v072
+	BYTE		N12     An1 
+	BYTE	W12
+	BYTE		N11     Gs1   v064
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Dn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N05     An1   v068
+	BYTE	W06
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_012
+// 014   ----------------------------------------
+KaiTheme_5_014:
+	BYTE		N06     Bn0   v076
+	BYTE		N06     An1   v072
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE	W01
+	BYTE		N05     An1   v068
+	BYTE	W05
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_006
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_005
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_008
+// 018   ----------------------------------------
+KaiTheme_5_018:
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1 
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Cn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1   v068
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 019   ----------------------------------------
+KaiTheme_5_019:
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1 
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1   v068
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_008
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_008
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_011
+// 023   ----------------------------------------
+KaiTheme_5_023:
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1 
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N05     An1   v068
+	BYTE	W06
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 024   ----------------------------------------
+KaiTheme_5_024:
+	BYTE		N12     Bn0   v076
+	BYTE		N12     An1   v072
+	BYTE	W12
+	BYTE		N11     Gs1   v064
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Dn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1   v068
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 025   ----------------------------------------
+KaiTheme_5_025:
+	BYTE		N12     Bn0   v076
+	BYTE		N12     An1   v072
+	BYTE	W12
+	BYTE		N11     Gs1   v064
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Dn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE	W01
+	BYTE		N05     An1   v068
+	BYTE	W05
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_006
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_010
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_008
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_025
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_018
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_006
+// 032   ----------------------------------------
+	BYTE		N12     Bn0   v072
+	BYTE		N12     An1 
+	BYTE	W12
+	BYTE		N11     Gs1   v064
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Dn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE	W01
+	BYTE		N05     An1   v068
+	BYTE	W05
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_005
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_011
+// 035   ----------------------------------------
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1 
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE	W01
+	BYTE		N05     An1   v068
+	BYTE	W05
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_005
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_005
+// 038   ----------------------------------------
+KaiTheme_5_038:
+	BYTE		N06     Bn0   v076
+	BYTE		N06     An1   v072
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1   v068
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_010
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_004
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_004
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_038
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_011
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_024
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_008
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_014
+// 047   ----------------------------------------
+	BYTE		N12     Ds1   v072
+	BYTE		N12     Ds2 
+	BYTE	W13
+	BYTE		N11     Ds1   v064
+	BYTE		N11     Gs1 
+	BYTE	W11
+	BYTE		        Ds1   v068
+	BYTE	W12
+	BYTE		        Ds1   v064
+	BYTE	W01
+	BYTE		        Gs1 
+	BYTE	W11
+	BYTE		        Ds1   v068
+	BYTE	W12
+	BYTE		N05     Gs1   v064
+	BYTE	W01
+	BYTE		        Ds1 
+	BYTE	W05
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N11     Ds1   v068
+	BYTE	W12
+	BYTE		        Ds1   v064
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE	GoTo
+	 POIN2	KaiTheme_5_B1
+KaiTheme_5_B2:
+// 048   ----------------------------------------
+KaiTheme_5_048:
+	BYTE		N12     Bn0   v076
+	BYTE		N12     An1   v072
+	BYTE	W12
+	BYTE		N11     Gs1   v064
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Dn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE	W01
+	BYTE		N05     An1   v068
+	BYTE	W05
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_005
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_038
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_018
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_008
+// 053   ----------------------------------------
+KaiTheme_5_053:
+	BYTE		N12     Bn0   v072
+	BYTE		N12     An1 
+	BYTE	W12
+	BYTE		N11     Gs1   v064
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Dn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N05     An1   v068
+	BYTE	W06
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 054   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_006
+// 055   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_014
+// 056   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_008
+// 057   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_012
+// 058   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_019
+// 059   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_007
+// 060   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_025
+// 061   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_048
+// 062   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_023
+// 063   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_010
+// 064   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_048
+// 065   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_012
+// 066   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_011
+// 067   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_038
+// 068   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_012
+// 069   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_005
+// 070   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_006
+// 071   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_011
+// 072   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_008
+// 073   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_025
+// 074   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_038
+// 075   ----------------------------------------
+KaiTheme_5_075:
+	BYTE		N06     Bn0   v076
+	BYTE		N06     An1   v072
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE	W01
+	BYTE		        Cn2   v068
+	BYTE	W11
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1   v068
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE	PEND
+// 076   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_001
+// 077   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_005
+// 078   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_014
+// 079   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_038
+// 080   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_004
+// 081   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_053
+// 082   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_019
+// 083   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_019
+// 084   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_005
+// 085   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_008
+// 086   ----------------------------------------
+	BYTE	PATT
+	 POIN2	KaiTheme_5_075
+// 087   ----------------------------------------
+	BYTE		N06     Bn0   v072
+	BYTE		N06     An1 
+	BYTE	W06
+	BYTE		N05     An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W12
+	BYTE		N06     Bn0   v072
+	BYTE		N05     An1   v068
+	BYTE	W06
+	BYTE		        An1   v064
+	BYTE	W06
+	BYTE		N11     Gs1 
+	BYTE	W12
+	BYTE		        Bn0   v072
+	BYTE		N11     Cn2   v068
+	BYTE	W12
+	BYTE		        Gs1   v064
+	BYTE	W11
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+KaiTheme:
+	BYTE	5	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	KaiTheme_pri	// Priority
+	BYTE	KaiTheme_rev	// Reverb.
+
+	POIN2	KaiTheme_grp
+
+	POIN2	KaiTheme_1
+	POIN2	KaiTheme_2
+	POIN2	KaiTheme_3
+	POIN2	KaiTheme_4
+	POIN2	KaiTheme_5
+
+	
