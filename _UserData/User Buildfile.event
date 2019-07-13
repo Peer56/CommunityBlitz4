@@ -21,7 +21,6 @@ MESSAGE Music Switch is off and songs are not written
 //#include "ModularItems/Modular Item Installer.event"
 
 //CSVs because modulars succ
-#undef ChapterDataTable
 #include "CSVs/Table Installer.event"
 
 //Animations
