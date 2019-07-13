@@ -1,0 +1,90 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	gaidenfanfare_grp  voicegroup000
+	#define	gaidenfanfare_pri  0
+	#define	gaidenfanfare_rev  0
+	#define	gaidenfanfare_mvl  85
+	#define	gaidenfanfare_key  0
+	#define	gaidenfanfare_tbs  1
+	#define	gaidenfanfare_exg  0
+	#define	gaidenfanfare_cmp  1
+
+	// .rodata
+	//	gaidenfanfare
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+gaidenfanfare_1:
+	BYTE	KEYSH   gaidenfanfare_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   175*gaidenfanfare_tbs/2
+	BYTE		VOICE   56
+	BYTE		VOL     84*gaidenfanfare_mvl/mxv
+	BYTE		N12     Bn3   v127
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N80   
+	BYTE	W60
+// 001   ----------------------------------------
+	BYTE	W21
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+gaidenfanfare_2:
+	BYTE		VOL     127*gaidenfanfare_mvl/mxv
+	BYTE	KEYSH   gaidenfanfare_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   60
+	BYTE		N12     Fs3   v127
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N80     Gs3 
+	BYTE	W60
+// 001   ----------------------------------------
+	BYTE	W21
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+gaidenfanfare_3:
+	BYTE	KEYSH   gaidenfanfare_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   10
+	BYTE		VOL     73*gaidenfanfare_mvl/mxv
+	BYTE		N12     En2   v127
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		N80   
+	BYTE	W60
+// 001   ----------------------------------------
+	BYTE	W21
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+gaidenfanfare:
+	BYTE	3	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	gaidenfanfare_pri	// Priority
+	BYTE	gaidenfanfare_rev	// Reverb.
+
+	POIN2	gaidenfanfare_grp
+
+	POIN2	gaidenfanfare_1
+	POIN2	gaidenfanfare_2
+	POIN2	gaidenfanfare_3
+
+	

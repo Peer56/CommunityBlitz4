@@ -2,7 +2,7 @@
 
 @cd %~dp0
 
-@cd "%~dp0Music"
+@cd "%~dp0Songs"
 
 echo Converting MIDIs...
 

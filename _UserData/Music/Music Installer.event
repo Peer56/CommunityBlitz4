@@ -11,4 +11,4 @@
 //#include "My_song.event"
 
 SongTable(1,never_gonna,MapMusicGroup)
-#include "never_gonna.event"
+#include "Songs/never_gonna.event"
