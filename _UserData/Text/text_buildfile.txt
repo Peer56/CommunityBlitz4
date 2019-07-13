@@ -7,3 +7,4 @@
 Your text here![X]
 
 #include "class_text.txt"
+#include "character_text.txt"
