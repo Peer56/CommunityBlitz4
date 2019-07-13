@@ -50,7 +50,7 @@ StandingMapSprite(0x7C,1,2,LanceCavFStandingMapSprite)
 MovingMapSprite(125,0x1C692C,LanceCavFMovingMapSprite) //above cavs
 
 StandingMapSprite(0x5F,1,2,MogallGazerStandingMapSprite)
-MovingMapSprite(96,0x,MogallGazerMovingMapSprite) //arch mogall
+MovingMapSprite(96,0x1F3FA0,MogallGazerMovingMapSprite) //arch mogall
 
 StandingMapSprite(0xF,1,2,MonkFStandingMapSprite)
 MovingMapSprite(16,0x1E7638,MonkFMovingMapSprite) //monk
@@ -73,8 +73,8 @@ MovingMapSprite(36,0x1C692C,NomadTrooperFMovingMapSprite) //above cavs
 StandingMapSprite(0x37,1,2,SpartanStandingMapSprite)
 MovingMapSprite(56,0x1CBD94,SpartanMovingMapSprite) //hero
 
-StandingMapSprite(0x,1,2,SwordCavFStandingMapSprite)
-MovingMapSprite(,0x1C692C,SwordCavFMovingMapSprite) //above cavs
+StandingMapSprite(0x56,1,2,SwordCavFStandingMapSprite)
+MovingMapSprite(87,0x1C692C,SwordCavFMovingMapSprite) //above cavs
 
 StandingMapSprite(0x39,1,2,TemplarStandingMapSprite)
 MovingMapSprite(58,0x1EC4FC,TemplarMovingMapSprite) //valkyrie
