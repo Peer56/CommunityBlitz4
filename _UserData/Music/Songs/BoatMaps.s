@@ -3,7 +3,7 @@
 	.equ	BoatMaps_grp, voicegroup000
 	.equ	BoatMaps_pri, 0
 	.equ	BoatMaps_rev, 0
-	.equ	BoatMaps_mvl, 127
+	.equ	BoatMaps_mvl, 85
 	.equ	BoatMaps_key, 0
 	.equ	BoatMaps_tbs, 1
 	.equ	BoatMaps_exg, 0

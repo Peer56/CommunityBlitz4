@@ -3,7 +3,7 @@
 	.equ	BeneathANewLight_grp, voicegroup000
 	.equ	BeneathANewLight_pri, 0
 	.equ	BeneathANewLight_rev, 0
-	.equ	BeneathANewLight_mvl, 127
+	.equ	BeneathANewLight_mvl, 85
 	.equ	BeneathANewLight_key, 0
 	.equ	BeneathANewLight_tbs, 1
 	.equ	BeneathANewLight_exg, 0

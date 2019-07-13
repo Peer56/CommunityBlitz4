@@ -4,7 +4,7 @@
 	#define	BeneathANewLight_grp  voicegroup000
 	#define	BeneathANewLight_pri  0
 	#define	BeneathANewLight_rev  0
-	#define	BeneathANewLight_mvl  127
+	#define	BeneathANewLight_mvl  85
 	#define	BeneathANewLight_key  0
 	#define	BeneathANewLight_tbs  1
 	#define	BeneathANewLight_exg  0

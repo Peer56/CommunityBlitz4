@@ -4,7 +4,7 @@
 	#define	BoatMaps_grp  voicegroup000
 	#define	BoatMaps_pri  0
 	#define	BoatMaps_rev  0
-	#define	BoatMaps_mvl  127
+	#define	BoatMaps_mvl  85
 	#define	BoatMaps_key  0
 	#define	BoatMaps_tbs  1
 	#define	BoatMaps_exg  0
