@@ -28,6 +28,9 @@
 #include "Chapter16Map.event"
 }
 {
+#include "Chapter18Map.event"
+}
+{
 #include "Chapter19Map.event"
 }
 {

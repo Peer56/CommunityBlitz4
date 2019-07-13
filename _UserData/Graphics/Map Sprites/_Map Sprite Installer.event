@@ -1,5 +1,5 @@
-#define StandingMapSprite(aId, width, height, gfxPointer) "PUSH; ORG 0x8AF880 + (aId * 8); SHORT height width; POIN gfxPointer; POP"
-#define MovingMapSprite(aId, apPointer, gfxPointer) "PUSH; ORG 0x9A2E00 + ((aId - 1) * 8); POIN gfxPointer apPointer; POP"
+#define StandingMapSprite(aId, width, height, gfxPointer) "PUSH; ORG StandingMapSpriteTable + (aId * 8); SHORT height width; POIN gfxPointer; POP"
+#define MovingMapSprite(aId, apPointer, gfxPointer) "PUSH; ORG MovingMapSpriteTable + ((aId - 1) * 8); POIN gfxPointer apPointer; POP"
 
 StandingMapSprite(0x7B, 1, 2, LanceCavStandingMapSprite)
 MovingMapSprite(124, 0x1C692C, LanceCavMovingMapSprite)

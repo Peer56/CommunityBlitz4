@@ -1,0 +1,133 @@
+##RiaLordName
+Lord[X]
+
+##RiaLordDesc
+Noble heirs to a ruling house.[N]
+They possess great potential.[X]
+
+##SwordCavName
+Swd Cavalier[X]
+
+##SwordCavDesc
+Mounted knights with swift movement.[N]
+Equip: Swords.[X]
+
+##LanceCavName
+Lnc Cavalier[X]
+
+##LanceCavDesc
+Mounted knights with swift movement.[N]
+Equip: Lances.[X]
+
+##AxeCavName
+Axe Cavalier[X]
+
+##AxeCavDesc
+Mounted knights with swift movement.[N]
+Equip: Axes.[X]
+
+##NomadName
+Nomad[X]
+
+##NomadDesc
+Mounted knights with swift movement.[N]
+Equip: Bows.[X]
+
+##NomadTrooperName
+Nmd Trooper[X]
+
+##NomadTrooperDesc
+Mounted knights with superior[N]
+abilities. Equip: Swords, bows.[X]
+
+##CursedSwordName
+Cursed Sword[X]
+
+##CursedSwordDesc
+An evil blade with[N]
+a mind of its own.[X]
+
+##RiaGreatLordName
+Great Lord[X]
+
+##RiaGreatLordDesc
+Armored lord whose fine qualities[N]
+sets them apart from their peers.[X]
+
+##DeaconName
+Deacon[X]
+
+##DeaconDesc
+Devout who wield staves from[N]
+horseback. Equip: Staves.[X]
+
+##TemplarName
+Templar[X]
+
+##TemplarDesc
+Battle cardinals who wield both staves[N]
+and light magic. Equip: Light, staves.[X]
+
+##SpartanName
+Spartan[X]
+
+##SpartanDesc
+Powerful soldiers versed in[N]
+combat. Equip: Swords, lances.[X]
+
+##BaelQueenName
+Bael Queen[X]
+
+##StrigoiName
+Strigoi[X]
+
+##TransporterName
+Transporter[X]
+
+##TransporterDesc
+A wagon used to carry[N]
+goods from place to place.[X]
+
+##TentName
+Tent[X]
+
+##TentDesc
+Portable housing used for storing[N]
+goods and as sleeping accommodations.[X]
+
+##FreelancerName
+Freelancer[X]
+
+##FreelancerDesc
+A lonesome fighter wandering[N]
+from place to place.[X]
+
+##GazerName
+Gazer[X]
+
+##TarvosElderName
+Tarvos Elder[X]
+
+##CerberusName
+Cerberus[X]
+
+##HalberdierName
+Halberdier[X]
+
+##HalberdierDesc
+Powerful soldiers with sharp[NL]
+skills. Equip: Lances.[X]
+
+##MarauderName
+Marauder[X]
+
+##MarauderDesc
+Ruthless brigand captains.[NL]
+Equip: Axes, Bows.[X]
+
+##ArchsageName
+Fallen Angel[X]
+
+##ArchsageDesc
+FallenAngelDesc[X]
+

@@ -19,9 +19,14 @@ MESSAGE Music Switch is off and songs are not written
 //#include "ModularCharacters/Modular Character Installer.event"
 //#include "ModularClasses/Modular Class Installer.event"
 //#include "ModularItems/Modular Item Installer.event"
+
 //CSVs because modulars succ
 #include "CSVs/Table Installer.event"
+
+//Animations
+#ifdef AnimationSwitch
 #include "Animations/_Master Animation Installer.event"
+#endif
 
 //Promotion Editors
 #include "Promotion Items/Promotion Item Editor.event"
