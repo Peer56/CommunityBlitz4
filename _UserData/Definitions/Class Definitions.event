@@ -11,7 +11,7 @@
 #define Monk_F 16
 #define Necromancer_F 18
 #define Nomad_F 32
-#define Nomad 36
+#define Nomad 34
 #define NomadTrooper_F 36
 #define NomadTrooper 54
 #define Rogue_F 55
