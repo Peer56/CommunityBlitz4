@@ -1,0 +1,4191 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	FactoryInspection_grp  voicegroup000
+	#define	FactoryInspection_pri  0
+	#define	FactoryInspection_rev  0
+	#define	FactoryInspection_mvl  85
+	#define	FactoryInspection_key  0
+	#define	FactoryInspection_tbs  1
+	#define	FactoryInspection_exg  0
+	#define	FactoryInspection_cmp  1
+
+	// .rodata
+	//	FactoryInspection
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+FactoryInspection_1:
+	BYTE	KEYSH   FactoryInspection_key+0
+FactoryInspection_1_B1:
+// 000   ----------------------------------------
+	BYTE	TEMPO   148*FactoryInspection_tbs/2
+	BYTE		VOICE   56
+	BYTE		PAN     c_v-31
+	BYTE		VOL     100*FactoryInspection_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W42
+// 001   ----------------------------------------
+FactoryInspection_1_001:
+	BYTE	W24
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE	PEND
+// 002   ----------------------------------------
+FactoryInspection_1_002:
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W42
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_1_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_1_002
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        Cn3   v127
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn3   v068
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn3   v127
+	BYTE		N06     En3 
+	BYTE		N06     Gn3 
+	BYTE	W06
+	BYTE		        Cn3   v068
+	BYTE		N06     En3 
+	BYTE		N06     Gn3 
+	BYTE	W54
+// 007   ----------------------------------------
+	BYTE	W36
+	BYTE		        Bn2   v127
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		        Bn2   v068
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		        Dn3   v127
+	BYTE		N06     En3 
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        Dn3   v068
+	BYTE		N06     En3 
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        Dn3   v127
+	BYTE		N06     Fs3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Dn3   v068
+	BYTE		N06     Fs3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gs3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gs3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	FactoryInspection_1_B1
+FactoryInspection_1_B2:
+// 054   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+FactoryInspection_2:
+	BYTE	KEYSH   FactoryInspection_key+0
+FactoryInspection_2_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   39
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*FactoryInspection_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N24     An1   v127
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W24
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W24
+// 001   ----------------------------------------
+FactoryInspection_2_001:
+	BYTE	W12
+	BYTE		N06     An1   v127
+	BYTE	W24
+	BYTE		N12     En1 
+	BYTE	W12
+	BYTE		N06     An1 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE	W12
+	BYTE	PEND
+// 002   ----------------------------------------
+FactoryInspection_2_002:
+	BYTE		N12     Gn1   v127
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W24
+	BYTE		N06   
+	BYTE	W24
+	BYTE		N12     Dn1 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE	PEND
+// 003   ----------------------------------------
+FactoryInspection_2_003:
+	BYTE	W12
+	BYTE		N06     Gn1   v127
+	BYTE	W24
+	BYTE		N12     Dn1 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE		N12   
+	BYTE	W24
+	BYTE	PEND
+// 004   ----------------------------------------
+FactoryInspection_2_004:
+	BYTE		N24     Fs1   v127
+	BYTE	W36
+	BYTE		N06   
+	BYTE	W24
+	BYTE		N12     Cs1 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W24
+	BYTE	PEND
+// 005   ----------------------------------------
+FactoryInspection_2_005:
+	BYTE	W24
+	BYTE		N06     Fs1   v127
+	BYTE	W12
+	BYTE		N12     Cs1 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		N24     Fs1 
+	BYTE	W24
+	BYTE	PEND
+// 006   ----------------------------------------
+FactoryInspection_2_006:
+	BYTE		N24     Fn1   v127
+	BYTE	W36
+	BYTE		N18   
+	BYTE	W24
+	BYTE		N12     Cn1 
+	BYTE	W12
+	BYTE		N24     Fn1 
+	BYTE	W24
+	BYTE	PEND
+// 007   ----------------------------------------
+FactoryInspection_2_007:
+	BYTE	W12
+	BYTE		N06     Fs2   v127
+	BYTE	W12
+	BYTE		N12     Bn1 
+	BYTE	W24
+	BYTE		        En1 
+	BYTE	W24
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE		        Gs1 
+	BYTE	W12
+	BYTE	PEND
+// 008   ----------------------------------------
+	BYTE		N24     An1 
+	BYTE	W36
+	BYTE		N12   
+	BYTE	W24
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W24
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_006
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_007
+// 016   ----------------------------------------
+FactoryInspection_2_016:
+	BYTE		N06     An1   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W24
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W24
+	BYTE	PEND
+// 017   ----------------------------------------
+FactoryInspection_2_017:
+	BYTE	W12
+	BYTE		N06     An1   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        An1 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 018   ----------------------------------------
+FactoryInspection_2_018:
+	BYTE		N06     Gn1   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W24
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W24
+	BYTE	PEND
+// 019   ----------------------------------------
+FactoryInspection_2_019:
+	BYTE	W12
+	BYTE		N06     Gn1   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE		        Gn1 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 020   ----------------------------------------
+FactoryInspection_2_020:
+	BYTE		N06     Fn1   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W24
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE	W24
+	BYTE	PEND
+// 021   ----------------------------------------
+FactoryInspection_2_021:
+	BYTE	W12
+	BYTE		N06     En1   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE	PEND
+// 022   ----------------------------------------
+FactoryInspection_2_022:
+	BYTE		N06     Dn1   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W24
+	BYTE		        Dn2 
+	BYTE	W24
+	BYTE		        Dn1 
+	BYTE	W12
+	BYTE	PEND
+// 023   ----------------------------------------
+FactoryInspection_2_023:
+	BYTE	W12
+	BYTE		N12     En2   v127
+	BYTE	W24
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		        En2 
+	BYTE	W24
+	BYTE		N06     Bn1 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE	PEND
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_016
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_017
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_018
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_019
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_020
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_021
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_022
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_023
+// 032   ----------------------------------------
+FactoryInspection_2_032:
+	BYTE		N24     Fs2   v127
+	BYTE	W24
+	BYTE		        Fs1 
+	BYTE	W24
+	BYTE		N12     Fs2 
+	BYTE	W12
+	BYTE		N30     Fs1 
+	BYTE	W36
+	BYTE	PEND
+// 033   ----------------------------------------
+FactoryInspection_2_033:
+	BYTE	W12
+	BYTE		N12     Fs2   v127
+	BYTE	W12
+	BYTE		N24     Fs1 
+	BYTE	W24
+	BYTE		N12     Cs2 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		        Fs1 
+	BYTE	W12
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE	PEND
+// 034   ----------------------------------------
+FactoryInspection_2_034:
+	BYTE		N24     Fn2   v127
+	BYTE	W24
+	BYTE		        Fn1 
+	BYTE	W24
+	BYTE		N12     Fn2 
+	BYTE	W12
+	BYTE		N30     Fn1 
+	BYTE	W36
+	BYTE	PEND
+// 035   ----------------------------------------
+FactoryInspection_2_035:
+	BYTE	W12
+	BYTE		N12     Cn2   v127
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE	W12
+	BYTE		        Fn1 
+	BYTE	W12
+	BYTE		        Fn2 
+	BYTE	W12
+	BYTE	PEND
+// 036   ----------------------------------------
+FactoryInspection_2_036:
+	BYTE		N24     Ds2   v127
+	BYTE	W24
+	BYTE		        Ds1 
+	BYTE	W24
+	BYTE		N12     Ds2 
+	BYTE	W12
+	BYTE		N30     Ds1 
+	BYTE	W36
+	BYTE	PEND
+// 037   ----------------------------------------
+	BYTE	W12
+	BYTE		N12     As1 
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE	W12
+	BYTE		        As1 
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+// 038   ----------------------------------------
+	BYTE		N24     Cs2 
+	BYTE	W24
+	BYTE		        Cs1 
+	BYTE	W24
+	BYTE		N12     Cs2 
+	BYTE	W12
+	BYTE		N30     Cs1 
+	BYTE	W36
+// 039   ----------------------------------------
+	BYTE	W12
+	BYTE		N12     Cn2 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE		        Cs1 
+	BYTE	W12
+	BYTE		        Cn2 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+	BYTE		        Cs1 
+	BYTE	W12
+	BYTE		        Cs2 
+	BYTE	W12
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_032
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_033
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_034
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_035
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_2_036
+// 045   ----------------------------------------
+	BYTE	W12
+	BYTE		N12     Ds2   v127
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE	W12
+	BYTE		N12   
+	BYTE	W12
+	BYTE		        Ds2 
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W24
+// 046   ----------------------------------------
+	BYTE		        En2 
+	BYTE	W24
+	BYTE		        En1 
+	BYTE	W24
+	BYTE		N12     En2 
+	BYTE	W12
+	BYTE		N24     En1 
+	BYTE	W24
+	BYTE		        En2 
+	BYTE	W12
+// 047   ----------------------------------------
+	BYTE	W12
+	BYTE		N12     En1 
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N12     En2 
+	BYTE	W12
+	BYTE		        En1 
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W24
+// 048   ----------------------------------------
+	BYTE		        Ds2 
+	BYTE	W24
+	BYTE		        Ds1 
+	BYTE	W24
+	BYTE		N12     Ds2 
+	BYTE	W12
+	BYTE		N24     Ds1 
+	BYTE	W24
+	BYTE		        Ds2 
+	BYTE	W12
+// 049   ----------------------------------------
+	BYTE	W12
+	BYTE		N12     Ds1 
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W24
+	BYTE		N12     Ds2 
+	BYTE	W12
+	BYTE		        Ds1 
+	BYTE	W12
+	BYTE		N24   
+	BYTE	W24
+// 050   ----------------------------------------
+	BYTE		        Dn2 
+	BYTE	W24
+	BYTE		BEND    c_v+0
+	BYTE	W72
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	FactoryInspection_2_B1
+FactoryInspection_2_B2:
+// 054   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+FactoryInspection_3:
+	BYTE	KEYSH   FactoryInspection_key+0
+FactoryInspection_3_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   10
+	BYTE		PAN     c_v+0
+	BYTE		VOL     80*FactoryInspection_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N36     An2   v127
+	BYTE	W48
+	BYTE		        An2   v100
+	BYTE	W48
+// 001   ----------------------------------------
+FactoryInspection_3_001:
+	BYTE		N36     An2   v060
+	BYTE	W48
+	BYTE		        An2   v076
+	BYTE	W48
+	BYTE	PEND
+// 002   ----------------------------------------
+FactoryInspection_3_002:
+	BYTE		N36     Gn2   v127
+	BYTE	W48
+	BYTE		        Gn2   v100
+	BYTE	W48
+	BYTE	PEND
+// 003   ----------------------------------------
+FactoryInspection_3_003:
+	BYTE		N36     Gn2   v060
+	BYTE	W48
+	BYTE		        Gn2   v076
+	BYTE	W36
+	BYTE		N06     An2   v127
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE	PEND
+// 004   ----------------------------------------
+FactoryInspection_3_004:
+	BYTE		N36     Fs2   v127
+	BYTE	W48
+	BYTE		        Fs2   v100
+	BYTE	W48
+	BYTE	PEND
+// 005   ----------------------------------------
+FactoryInspection_3_005:
+	BYTE		N36     Fs2   v060
+	BYTE	W48
+	BYTE		        Fs2   v076
+	BYTE	W36
+	BYTE		N06     Gn2   v127
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE	W06
+	BYTE	PEND
+// 006   ----------------------------------------
+FactoryInspection_3_006:
+	BYTE		N36     Fn2   v127
+	BYTE	W48
+	BYTE		        Fn2   v100
+	BYTE	W48
+	BYTE	PEND
+// 007   ----------------------------------------
+	BYTE		        En2   v127
+	BYTE	W48
+	BYTE		        Gs2 
+	BYTE	W48
+// 008   ----------------------------------------
+	BYTE		        An2 
+	BYTE	W48
+	BYTE		        An2   v100
+	BYTE	W48
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_3_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_3_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_3_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_3_004
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_3_005
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_3_006
+// 015   ----------------------------------------
+	BYTE		N36     En2   v127
+	BYTE	W48
+	BYTE		        Gs2 
+	BYTE	W36
+	BYTE		BEND    c_v+0
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	FactoryInspection_3_B1
+FactoryInspection_3_B2:
+// 054   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+FactoryInspection_4:
+	BYTE	KEYSH   FactoryInspection_key+0
+FactoryInspection_4_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   60
+	BYTE		PAN     c_v+46
+	BYTE		VOL     100*FactoryInspection_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W42
+// 001   ----------------------------------------
+FactoryInspection_4_001:
+	BYTE	W24
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE	PEND
+// 002   ----------------------------------------
+FactoryInspection_4_002:
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W42
+	BYTE	PEND
+// 003   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_4_001
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_4_002
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        Cn3   v127
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn3   v068
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn3   v127
+	BYTE		N06     En3 
+	BYTE		N06     Gn3 
+	BYTE	W06
+	BYTE		        Cn3   v068
+	BYTE		N06     En3 
+	BYTE		N06     Gn3 
+	BYTE	W54
+// 007   ----------------------------------------
+	BYTE	W36
+	BYTE		        Bn2   v127
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		        Bn2   v068
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		        Dn3   v127
+	BYTE		N06     En3 
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        Dn3   v068
+	BYTE		N06     En3 
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        Dn3   v127
+	BYTE		N06     Fs3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Dn3   v068
+	BYTE		N06     Fs3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gs3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gs3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		BEND    c_v+0
+	BYTE	W12
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	FactoryInspection_4_B1
+FactoryInspection_4_B2:
+// 054   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+FactoryInspection_5:
+	BYTE	KEYSH   FactoryInspection_key+0
+FactoryInspection_5_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   19
+	BYTE		PAN     c_v-41
+	BYTE		VOL     110*FactoryInspection_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+FactoryInspection_5_008:
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W42
+	BYTE	PEND
+// 009   ----------------------------------------
+FactoryInspection_5_009:
+	BYTE	W24
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_5_008
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_5_009
+// 012   ----------------------------------------
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        An2   v127
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        An2   v068
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W30
+// 013   ----------------------------------------
+	BYTE	W84
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+// 014   ----------------------------------------
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        Cn3   v127
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn3   v068
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn3   v127
+	BYTE		N06     En3 
+	BYTE		N06     Gn3 
+	BYTE	W06
+	BYTE		        Cn3   v068
+	BYTE		N06     En3 
+	BYTE		N06     Gn3 
+	BYTE	W66
+// 015   ----------------------------------------
+	BYTE	W24
+	BYTE		        Bn2   v127
+	BYTE		N06     Dn3 
+	BYTE		N06     Fn3 
+	BYTE	W06
+	BYTE		        Bn2   v068
+	BYTE		N06     Dn3 
+	BYTE		N06     Fn3 
+	BYTE	W06
+	BYTE		        Gn2   v127
+	BYTE		N06     Bn2 
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		        Gn2   v068
+	BYTE		N06     Bn2 
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		        Bn2   v127
+	BYTE		N06     Fn3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Bn2   v068
+	BYTE		N06     Fn3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Bn2   v127
+	BYTE		N06     En3 
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        Bn2   v068
+	BYTE		N06     En3 
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W48
+	BYTE		N24     Cs4   v120
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W24
+// 040   ----------------------------------------
+	BYTE		N48     Fn4 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 041   ----------------------------------------
+	BYTE		N24     Fn4 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Fn4 
+	BYTE	W24
+// 042   ----------------------------------------
+	BYTE		N48     Ds4 
+	BYTE	W48
+	BYTE		        Gs4 
+	BYTE	W48
+// 043   ----------------------------------------
+	BYTE		        Cn4 
+	BYTE	W48
+	BYTE		N24     As3 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+// 044   ----------------------------------------
+	BYTE		N48     As3 
+	BYTE	W48
+	BYTE		        Cn4 
+	BYTE	W48
+// 045   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 046   ----------------------------------------
+	BYTE		TIE     En4 
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 048   ----------------------------------------
+	BYTE		TIE     Ds4 
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 050   ----------------------------------------
+	BYTE		N24     Dn4 
+	BYTE	W24
+	BYTE		BEND    c_v+0
+	BYTE	W72
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	FactoryInspection_5_B1
+FactoryInspection_5_B2:
+// 054   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+FactoryInspection_6:
+	BYTE	KEYSH   FactoryInspection_key+0
+FactoryInspection_6_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   49
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*FactoryInspection_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+FactoryInspection_6_016:
+	BYTE		N12     En3   v127
+	BYTE		N12     En4   v116
+	BYTE	W90
+	BYTE		N06     Dn3   v127
+	BYTE		N06     Dn4   v116
+	BYTE	W06
+	BYTE	PEND
+// 017   ----------------------------------------
+FactoryInspection_6_017:
+	BYTE		N12     En3   v127
+	BYTE		N12     En4   v116
+	BYTE	W42
+	BYTE		N06     Fn3   v127
+	BYTE		N06     Fn4   v116
+	BYTE	W06
+	BYTE		N12     En3   v127
+	BYTE		N12     En4   v116
+	BYTE	W42
+	BYTE		N06     Dn3   v127
+	BYTE		N06     Dn4   v116
+	BYTE	W06
+	BYTE	PEND
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_6_016
+// 019   ----------------------------------------
+FactoryInspection_6_019:
+	BYTE		N12     En3   v127
+	BYTE		N12     En4   v116
+	BYTE	W42
+	BYTE		N06     An3   v127
+	BYTE		N06     An4   v112
+	BYTE	W06
+	BYTE		N12     En3   v127
+	BYTE		N12     En4   v112
+	BYTE	W42
+	BYTE		N06     Dn3   v127
+	BYTE		N06     Dn4   v112
+	BYTE	W06
+	BYTE	PEND
+// 020   ----------------------------------------
+FactoryInspection_6_020:
+	BYTE		N12     En3   v127
+	BYTE		N12     En4   v112
+	BYTE	W48
+	BYTE		        Cn3   v127
+	BYTE		N12     Cn4   v112
+	BYTE	W48
+	BYTE	PEND
+// 021   ----------------------------------------
+	BYTE		        Dn3   v127
+	BYTE		N12     Dn4   v112
+	BYTE	W48
+	BYTE		        Bn2   v127
+	BYTE		N12     Bn3   v112
+	BYTE	W48
+// 022   ----------------------------------------
+	BYTE		        An2   v127
+	BYTE		N12     An3   v112
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_6_016
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_6_017
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_6_016
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_6_019
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_6_020
+// 029   ----------------------------------------
+	BYTE		N12     Dn3   v127
+	BYTE		N12     Dn4   v112
+	BYTE	W48
+	BYTE		        Bn2   v127
+	BYTE		N12     Bn3   v112
+	BYTE	W12
+	BYTE		BEND    c_v+0
+	BYTE	W36
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	FactoryInspection_6_B1
+FactoryInspection_6_B2:
+// 054   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+FactoryInspection_7:
+	BYTE	KEYSH   FactoryInspection_key+0
+FactoryInspection_7_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		PAN     c_v+0
+	BYTE		VOL     82*FactoryInspection_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W84
+	BYTE	W03
+	BYTE		VOL     36*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        37*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        38*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        39*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        40*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        41*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        42*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        43*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        44*FactoryInspection_mvl/mxv
+	BYTE	W01
+// 016   ----------------------------------------
+	BYTE		        45*FactoryInspection_mvl/mxv
+	BYTE		TIE     An2   v127
+	BYTE		TIE     Cn3 
+	BYTE		TIE     En3 
+	BYTE	W01
+	BYTE		VOL     46*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        47*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        48*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        49*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        50*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        51*FactoryInspection_mvl/mxv
+	BYTE	W02
+	BYTE		        52*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        53*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        54*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        55*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        56*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        57*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        58*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        59*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        60*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        61*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        62*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        63*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        64*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        65*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        66*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        67*FactoryInspection_mvl/mxv
+	BYTE	W02
+	BYTE		        68*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        69*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        70*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        71*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        72*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        73*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        74*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        76*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        77*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FactoryInspection_mvl/mxv
+	BYTE	W07
+	BYTE		        87*FactoryInspection_mvl/mxv
+	BYTE	W06
+	BYTE		        85*FactoryInspection_mvl/mxv
+	BYTE	W06
+	BYTE		        87*FactoryInspection_mvl/mxv
+	BYTE	W42
+// 017   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		        38*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		EOT     An2 
+	BYTE		        Cn3 
+	BYTE		        En3 
+// 018   ----------------------------------------
+	BYTE		VOL     39*FactoryInspection_mvl/mxv
+	BYTE		TIE     Gn2 
+	BYTE		TIE     Bn2 
+	BYTE		TIE     Dn3 
+	BYTE	W01
+	BYTE		VOL     40*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        41*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        42*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        43*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        44*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        45*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        46*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        47*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        49*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        50*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        51*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        52*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        53*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        54*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        55*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        56*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        57*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        58*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        59*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        60*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        61*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        62*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        63*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        64*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        65*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        66*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        67*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        68*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        69*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        70*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        71*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        72*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        73*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        74*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        76*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        77*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        80*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        81*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        82*FactoryInspection_mvl/mxv
+	BYTE	W07
+	BYTE		        90*FactoryInspection_mvl/mxv
+	BYTE	W12
+	BYTE		        91*FactoryInspection_mvl/mxv
+	BYTE	W36
+// 019   ----------------------------------------
+	BYTE	W92
+	BYTE	W03
+	BYTE		        41*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		EOT     Gn2 
+	BYTE		        Bn2 
+	BYTE		        Dn3 
+// 020   ----------------------------------------
+	BYTE		VOL     43*FactoryInspection_mvl/mxv
+	BYTE		N96     Fn2 
+	BYTE		N96     An2 
+	BYTE		N96     Cn3 
+	BYTE	W01
+	BYTE		VOL     44*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        46*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        47*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        48*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        50*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        51*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        53*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        54*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        55*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        57*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        58*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        60*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        61*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        63*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        64*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        65*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        67*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        68*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        70*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        71*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        73*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        74*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        77*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        80*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        81*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        83*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        84*FactoryInspection_mvl/mxv
+	BYTE	W07
+	BYTE		        91*FactoryInspection_mvl/mxv
+	BYTE	W56
+	BYTE	W02
+	BYTE		        34*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        36*FactoryInspection_mvl/mxv
+	BYTE	W01
+// 021   ----------------------------------------
+	BYTE		        37*FactoryInspection_mvl/mxv
+	BYTE		N96     En2 
+	BYTE		N96     Gn2 
+	BYTE		N96     Bn2 
+	BYTE	W01
+	BYTE		VOL     39*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        40*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        42*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        44*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        45*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        47*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        48*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        50*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        52*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        53*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        55*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        56*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        58*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        59*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        61*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        63*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        64*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        66*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        67*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        69*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        71*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        72*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        74*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        77*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        80*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        82*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        83*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        84*FactoryInspection_mvl/mxv
+	BYTE	W06
+	BYTE		        91*FactoryInspection_mvl/mxv
+	BYTE	W56
+	BYTE	W03
+	BYTE		        34*FactoryInspection_mvl/mxv
+	BYTE	W01
+// 022   ----------------------------------------
+	BYTE		        38*FactoryInspection_mvl/mxv
+	BYTE		N96     Dn2 
+	BYTE		N96     Fn2 
+	BYTE		N96     An2 
+	BYTE	W04
+	BYTE		VOL     39*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        41*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        42*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        43*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        45*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        46*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        48*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        49*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        50*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        52*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        53*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        54*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        56*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        57*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        59*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        60*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        61*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        63*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        64*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        65*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        67*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        68*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        69*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        71*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        72*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        74*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        76*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        79*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        80*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        82*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        83*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        85*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        86*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        87*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        89*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        90*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        91*FactoryInspection_mvl/mxv
+	BYTE	W52
+	BYTE	W01
+	BYTE		        28*FactoryInspection_mvl/mxv
+	BYTE	W01
+// 023   ----------------------------------------
+	BYTE		        30*FactoryInspection_mvl/mxv
+	BYTE		N96     Gn2 
+	BYTE		N96     Bn2 
+	BYTE		N96     En3 
+	BYTE	W01
+	BYTE		VOL     32*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        33*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        35*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        36*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        38*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        39*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        41*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        43*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        44*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        46*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        47*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        49*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        51*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        52*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        54*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        55*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        57*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        58*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        60*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        58*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        59*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        60*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        62*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        63*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        64*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        65*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        66*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        68*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        69*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        70*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        71*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        73*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        74*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        76*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        77*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        79*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        80*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        81*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        82*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        83*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        84*FactoryInspection_mvl/mxv
+	BYTE	W52
+	BYTE	W01
+	BYTE		        34*FactoryInspection_mvl/mxv
+	BYTE	W01
+// 024   ----------------------------------------
+	BYTE		        35*FactoryInspection_mvl/mxv
+	BYTE		TIE     An2 
+	BYTE		TIE     Cn3 
+	BYTE		TIE     En3 
+	BYTE	W01
+	BYTE		VOL     37*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        39*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        41*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        42*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        44*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        46*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        48*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        49*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        51*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        53*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        55*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        56*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        58*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        60*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        62*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        63*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        65*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        67*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        69*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        74*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        77*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        80*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        81*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        83*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        84*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        86*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        87*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        89*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        90*FactoryInspection_mvl/mxv
+	BYTE	W64
+	BYTE	W01
+// 025   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     An2 
+	BYTE		        Cn3 
+	BYTE		        En3 
+// 026   ----------------------------------------
+	BYTE		VOL     42*FactoryInspection_mvl/mxv
+	BYTE		TIE     Gn2 
+	BYTE		TIE     Bn2 
+	BYTE		TIE     Dn3 
+	BYTE	W01
+	BYTE		VOL     44*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        45*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        46*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        47*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        49*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        50*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        51*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        52*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        54*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        55*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        56*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        57*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        58*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        60*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        61*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        62*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        63*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        65*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        66*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        67*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        68*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        70*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        71*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        72*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        73*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        76*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        77*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        79*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        81*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        82*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        83*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        84*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        86*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        87*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        88*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        88*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        89*FactoryInspection_mvl/mxv
+	BYTE	W56
+	BYTE	W01
+// 027   ----------------------------------------
+	BYTE	W92
+	BYTE	W02
+	BYTE		        35*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        36*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		EOT     Gn2 
+	BYTE		        Bn2 
+	BYTE		        Dn3 
+// 028   ----------------------------------------
+	BYTE		VOL     38*FactoryInspection_mvl/mxv
+	BYTE		N96     Fn2 
+	BYTE		N96     An2 
+	BYTE		N96     Cn3 
+	BYTE	W01
+	BYTE		VOL     39*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        41*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        43*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        44*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        46*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        48*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        49*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        51*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        52*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        54*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        56*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        57*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        59*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        60*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        62*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        64*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        65*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        67*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        69*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        70*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        72*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        73*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        77*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        80*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        82*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        83*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        85*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        86*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        88*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        90*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        91*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        93*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        95*FactoryInspection_mvl/mxv
+	BYTE	W07
+	BYTE		        94*FactoryInspection_mvl/mxv
+	BYTE	W48
+	BYTE	W03
+	BYTE		        32*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        34*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        36*FactoryInspection_mvl/mxv
+	BYTE	W01
+// 029   ----------------------------------------
+	BYTE		        38*FactoryInspection_mvl/mxv
+	BYTE		N96     En2 
+	BYTE		N96     Gn2 
+	BYTE		N96     Bn2 
+	BYTE	W01
+	BYTE		VOL     40*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        43*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        45*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        47*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        49*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        52*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        54*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        56*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        58*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        60*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        63*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        65*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        69*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        71*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        73*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        80*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        82*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        85*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        87*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        89*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        91*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        92*FactoryInspection_mvl/mxv
+	BYTE	W68
+	BYTE	W01
+	BYTE		        28*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        30*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        33*FactoryInspection_mvl/mxv
+	BYTE	W01
+// 030   ----------------------------------------
+	BYTE		        35*FactoryInspection_mvl/mxv
+	BYTE		N96     An2 
+	BYTE		N96     Dn3 
+	BYTE		N96     Fn3 
+	BYTE	W01
+	BYTE		VOL     37*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        40*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        42*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        45*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        47*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        49*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        52*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        54*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        56*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        59*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        61*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        64*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        66*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        68*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        71*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        73*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        80*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        85*FactoryInspection_mvl/mxv
+	BYTE	W03
+	BYTE		        86*FactoryInspection_mvl/mxv
+	BYTE	W02
+	BYTE		        87*FactoryInspection_mvl/mxv
+	BYTE	W02
+	BYTE		        88*FactoryInspection_mvl/mxv
+	BYTE	W02
+	BYTE		        89*FactoryInspection_mvl/mxv
+	BYTE	W02
+	BYTE		        90*FactoryInspection_mvl/mxv
+	BYTE	W02
+	BYTE		        91*FactoryInspection_mvl/mxv
+	BYTE	W02
+	BYTE		        92*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        91*FactoryInspection_mvl/mxv
+	BYTE	W56
+	BYTE	W03
+	BYTE		        33*FactoryInspection_mvl/mxv
+	BYTE	W01
+// 031   ----------------------------------------
+	BYTE		        36*FactoryInspection_mvl/mxv
+	BYTE		N48     En2 
+	BYTE		N48     An2 
+	BYTE		N48     Dn3 
+	BYTE	W01
+	BYTE		VOL     39*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        42*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        45*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        48*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        52*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        55*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        58*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        61*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        64*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        67*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        70*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        73*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        76*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        79*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        82*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        85*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        88*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        91*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        94*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        95*FactoryInspection_mvl/mxv
+	BYTE	W24
+	BYTE	W02
+	BYTE		        25*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        26*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        29*FactoryInspection_mvl/mxv
+	BYTE		N48     Gs2 
+	BYTE		N48     Bn2 
+	BYTE		N48     En3 
+	BYTE	W01
+	BYTE		VOL     32*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        35*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        38*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        41*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        44*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        47*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        50*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        54*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        57*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        60*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        63*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        76*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        77*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        79*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        80*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        81*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        82*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        84*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        85*FactoryInspection_mvl/mxv
+	BYTE	W01
+	BYTE		        86*FactoryInspection_mvl/mxv
+	BYTE	W03
+	BYTE		        88*FactoryInspection_mvl/mxv
+	BYTE	W24
+// 032   ----------------------------------------
+	BYTE		        82*FactoryInspection_mvl/mxv
+	BYTE		TIE     As3 
+	BYTE		TIE     Cs4 
+	BYTE		N48     Fn4 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 033   ----------------------------------------
+	BYTE		N96     Fn4 
+	BYTE	W96
+	BYTE		EOT     As3 
+	BYTE		        Cs4 
+// 034   ----------------------------------------
+FactoryInspection_7_034:
+	BYTE		N48     Gs3   v127
+	BYTE		TIE     Cn4 
+	BYTE		TIE     Ds4 
+	BYTE	W48
+	BYTE		N48     Gn3 
+	BYTE	W48
+	BYTE	PEND
+// 035   ----------------------------------------
+	BYTE		N96     Gs3 
+	BYTE	W96
+	BYTE		EOT     Cn4 
+	BYTE		        Ds4 
+// 036   ----------------------------------------
+	BYTE		TIE     Fs3 
+	BYTE		TIE     As3 
+	BYTE		N48     Cs4 
+	BYTE	W48
+	BYTE		        Cn4 
+	BYTE	W48
+// 037   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W48
+	BYTE		EOT     Fs3 
+	BYTE		        As3 
+	BYTE		N48     Fs3 
+	BYTE		N48     As3 
+	BYTE		N48     Ds4 
+	BYTE	W48
+// 038   ----------------------------------------
+	BYTE		TIE     Fn3 
+	BYTE		TIE     Gs3 
+	BYTE		N48     Cs4 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 039   ----------------------------------------
+	BYTE		N96     Cs4 
+	BYTE	W96
+	BYTE		EOT     Fn3 
+	BYTE		        Gs3 
+// 040   ----------------------------------------
+	BYTE		TIE     As3 
+	BYTE		TIE     Cs4 
+	BYTE		N48     Fn4 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 041   ----------------------------------------
+	BYTE		N96     Fn4 
+	BYTE	W96
+	BYTE		EOT     As3 
+	BYTE		        Cs4 
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_7_034
+// 043   ----------------------------------------
+	BYTE		N96     Gs3   v127
+	BYTE	W96
+	BYTE		EOT     Cn4 
+	BYTE		        Ds4 
+// 044   ----------------------------------------
+	BYTE		N96     Fs3 
+	BYTE		N96     As3 
+	BYTE		N48     Cs4 
+	BYTE	W48
+	BYTE		        Cn4 
+	BYTE	W48
+// 045   ----------------------------------------
+	BYTE		N96     Cs3 
+	BYTE		N96     Fs3 
+	BYTE		N96     An3 
+	BYTE	W92
+	BYTE	W03
+	BYTE		BEND    c_v-1
+	BYTE	W01
+// 046   ----------------------------------------
+	BYTE		        c_v-1
+	BYTE		TIE     Ds3 
+	BYTE		TIE     Gn3 
+	BYTE		TIE     Bn3 
+	BYTE	W01
+	BYTE		BEND    c_v+0
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+0
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+1
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+2
+	BYTE	W01
+	BYTE		        c_v+3
+	BYTE	W01
+	BYTE		        c_v+3
+	BYTE	W01
+	BYTE		        c_v+3
+	BYTE	W01
+	BYTE		        c_v+3
+	BYTE	W01
+	BYTE		        c_v+3
+	BYTE	W01
+	BYTE		        c_v+3
+	BYTE	W01
+	BYTE		        c_v+3
+	BYTE	W01
+	BYTE		        c_v+3
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+4
+	BYTE	W01
+	BYTE		        c_v+5
+	BYTE	W01
+	BYTE		        c_v+5
+	BYTE	W01
+	BYTE		        c_v+5
+	BYTE	W01
+	BYTE		        c_v+5
+	BYTE	W48
+	BYTE	W02
+// 047   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Ds3 
+	BYTE		        Gn3 
+	BYTE		        Bn3 
+// 048   ----------------------------------------
+	BYTE		BEND    c_v+0
+	BYTE		TIE     Gn3 
+	BYTE		TIE     Bn3 
+	BYTE		TIE     Ds4 
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     Gn3 
+	BYTE		        Bn3 
+	BYTE		        Ds4 
+// 050   ----------------------------------------
+	BYTE		N24     Dn3 
+	BYTE		N24     Fs3 
+	BYTE		N24     As3 
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W24
+	BYTE		BEND    c_v+0
+	BYTE	W72
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	FactoryInspection_7_B1
+FactoryInspection_7_B2:
+// 054   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.8) ****************//
+
+FactoryInspection_8:
+	BYTE	KEYSH   FactoryInspection_key+0
+FactoryInspection_8_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   68
+	BYTE		PAN     c_v-22
+	BYTE		VOL     102*FactoryInspection_mvl/mxv
+	BYTE		MOD     35
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+FactoryInspection_8_024:
+	BYTE		N90     En3   v088
+	BYTE		N90     En4   v127
+	BYTE	W90
+	BYTE		N06     Dn3   v088
+	BYTE		N06     Dn4   v127
+	BYTE	W06
+	BYTE	PEND
+// 025   ----------------------------------------
+	BYTE		N42     En3   v088
+	BYTE		N42     En4   v127
+	BYTE	W42
+	BYTE		N06     Fn3   v088
+	BYTE		N06     Fn4   v127
+	BYTE	W06
+	BYTE		N42     En3   v088
+	BYTE		N42     En4   v127
+	BYTE	W42
+	BYTE		N06     Dn3   v088
+	BYTE		N06     Dn4   v127
+	BYTE	W06
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_8_024
+// 027   ----------------------------------------
+	BYTE		N42     En3   v088
+	BYTE		N42     En4   v127
+	BYTE	W42
+	BYTE		N06     An3   v088
+	BYTE		N06     An4   v127
+	BYTE	W06
+	BYTE		N42     En3   v088
+	BYTE		N42     En4   v127
+	BYTE	W42
+	BYTE		N06     Dn3   v088
+	BYTE		N06     Dn4   v127
+	BYTE	W06
+// 028   ----------------------------------------
+	BYTE		N48     En3   v088
+	BYTE		N48     En4   v127
+	BYTE	W48
+	BYTE		        Cn3   v088
+	BYTE		N48     Cn4   v127
+	BYTE	W48
+// 029   ----------------------------------------
+	BYTE		        Dn3   v088
+	BYTE		N48     Dn4   v127
+	BYTE	W48
+	BYTE		        Bn2   v088
+	BYTE		N48     Bn3   v127
+	BYTE	W48
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W48
+	BYTE		N24     Cs4 
+	BYTE	W24
+	BYTE		        Ds4 
+	BYTE	W24
+// 040   ----------------------------------------
+	BYTE		N48     Fn4 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 041   ----------------------------------------
+	BYTE		N24     Fn4 
+	BYTE	W24
+	BYTE		        As3 
+	BYTE	W24
+	BYTE		        Cs4 
+	BYTE	W24
+	BYTE		        Fn4 
+	BYTE	W24
+// 042   ----------------------------------------
+	BYTE		N48     Ds4 
+	BYTE	W48
+	BYTE		        Gs4 
+	BYTE	W48
+// 043   ----------------------------------------
+	BYTE		        Cn4 
+	BYTE	W48
+	BYTE		N24     As3 
+	BYTE	W24
+	BYTE		        Cn4 
+	BYTE	W24
+// 044   ----------------------------------------
+	BYTE		N48     As3 
+	BYTE	W48
+	BYTE		        Cn4 
+	BYTE	W48
+// 045   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W48
+	BYTE		        Ds4 
+	BYTE	W48
+// 046   ----------------------------------------
+	BYTE		TIE     En4 
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 048   ----------------------------------------
+	BYTE		TIE     Ds4 
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT   
+// 050   ----------------------------------------
+	BYTE		N24     Dn4 
+	BYTE	W24
+	BYTE		BEND    c_v+0
+	BYTE	W72
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	FactoryInspection_8_B1
+FactoryInspection_8_B2:
+// 054   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.9) ****************//
+
+FactoryInspection_9:
+	BYTE	KEYSH   FactoryInspection_key+0
+FactoryInspection_9_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   0
+	BYTE		PAN     c_v+0
+	BYTE		VOL     114*FactoryInspection_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W48
+	BYTE		TIE     As0   v127
+	BYTE		TIE     Cs1 
+	BYTE		TIE     Dn1 
+	BYTE		TIE     En1 
+	BYTE	W48
+// 051   ----------------------------------------
+	BYTE	W96
+	BYTE		EOT     As0 
+	BYTE		        Cs1 
+	BYTE		        Dn1 
+	BYTE		        En1 
+// 052   ----------------------------------------
+	BYTE	W24
+	BYTE		TIE     As0 
+	BYTE		TIE     Cs1 
+	BYTE		TIE     Dn1 
+	BYTE		TIE     En1 
+	BYTE	W72
+// 053   ----------------------------------------
+	BYTE	W72
+	BYTE		EOT     As0 
+	BYTE		        Cs1 
+	BYTE		        Dn1 
+	BYTE		        En1 
+	BYTE		BEND    c_v+0
+	BYTE	W24
+	BYTE	GoTo
+	 POIN2	FactoryInspection_9_B1
+FactoryInspection_9_B2:
+// 054   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 10 (Midi-Chn.11) ****************//
+
+FactoryInspection_10:
+	BYTE	KEYSH   FactoryInspection_key+0
+FactoryInspection_10_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   21
+	BYTE		PAN     c_v+31
+	BYTE		VOL     106*FactoryInspection_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+// 008   ----------------------------------------
+FactoryInspection_10_008:
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W42
+	BYTE	PEND
+// 009   ----------------------------------------
+FactoryInspection_10_009:
+	BYTE	W24
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE	PEND
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_10_008
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_10_009
+// 012   ----------------------------------------
+	BYTE		N06     En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W18
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        An2   v127
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        An2   v068
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W30
+// 013   ----------------------------------------
+	BYTE	W84
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+// 014   ----------------------------------------
+	BYTE		        En3   v127
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Gn3 
+	BYTE		N06     Bn3 
+	BYTE	W06
+	BYTE		        Cn3   v127
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn3   v068
+	BYTE		N06     En3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Cn3   v127
+	BYTE		N06     En3 
+	BYTE		N06     Gn3 
+	BYTE	W06
+	BYTE		        Cn3   v068
+	BYTE		N06     En3 
+	BYTE		N06     Gn3 
+	BYTE	W66
+// 015   ----------------------------------------
+	BYTE	W24
+	BYTE		        Bn2   v127
+	BYTE		N06     Dn3 
+	BYTE		N06     Fn3 
+	BYTE	W06
+	BYTE		        Bn2   v068
+	BYTE		N06     Dn3 
+	BYTE		N06     Fn3 
+	BYTE	W06
+	BYTE		        Gn2   v127
+	BYTE		N06     Bn2 
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		        Gn2   v068
+	BYTE		N06     Bn2 
+	BYTE		N06     En3 
+	BYTE	W06
+	BYTE		        Bn2   v127
+	BYTE		N06     Fn3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Bn2   v068
+	BYTE		N06     Fn3 
+	BYTE		N06     An3 
+	BYTE	W06
+	BYTE		        Bn2   v127
+	BYTE		N06     En3 
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        Bn2   v068
+	BYTE		N06     En3 
+	BYTE		N06     Gs3 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     Bn3 
+	BYTE		N06     Dn4 
+	BYTE	W06
+	BYTE		        En3   v127
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+	BYTE		        En3   v068
+	BYTE		N06     An3 
+	BYTE		N06     Cn4 
+	BYTE	W06
+// 016   ----------------------------------------
+	BYTE		BEND    c_v+0
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+// 024   ----------------------------------------
+	BYTE	W96
+// 025   ----------------------------------------
+	BYTE	W96
+// 026   ----------------------------------------
+	BYTE	W96
+// 027   ----------------------------------------
+	BYTE	W96
+// 028   ----------------------------------------
+	BYTE	W96
+// 029   ----------------------------------------
+	BYTE	W96
+// 030   ----------------------------------------
+	BYTE	W96
+// 031   ----------------------------------------
+	BYTE	W96
+// 032   ----------------------------------------
+	BYTE	W96
+// 033   ----------------------------------------
+	BYTE	W96
+// 034   ----------------------------------------
+	BYTE	W96
+// 035   ----------------------------------------
+	BYTE	W96
+// 036   ----------------------------------------
+	BYTE	W96
+// 037   ----------------------------------------
+	BYTE	W96
+// 038   ----------------------------------------
+	BYTE	W96
+// 039   ----------------------------------------
+	BYTE	W96
+// 040   ----------------------------------------
+	BYTE	W96
+// 041   ----------------------------------------
+	BYTE	W96
+// 042   ----------------------------------------
+	BYTE	W96
+// 043   ----------------------------------------
+	BYTE	W96
+// 044   ----------------------------------------
+	BYTE	W96
+// 045   ----------------------------------------
+	BYTE	W96
+// 046   ----------------------------------------
+	BYTE	W96
+// 047   ----------------------------------------
+	BYTE	W96
+// 048   ----------------------------------------
+	BYTE	W96
+// 049   ----------------------------------------
+	BYTE	W96
+// 050   ----------------------------------------
+	BYTE	W96
+// 051   ----------------------------------------
+	BYTE	W96
+// 052   ----------------------------------------
+	BYTE	W96
+// 053   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	FactoryInspection_10_B1
+FactoryInspection_10_B2:
+// 054   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 11 (Midi-Chn.12) ****************//
+
+FactoryInspection_11:
+	BYTE	KEYSH   FactoryInspection_key+0
+FactoryInspection_11_B1:
+// 000   ----------------------------------------
+	BYTE		VOICE   123
+	BYTE		PAN     c_v+0
+	BYTE		VOL     127*FactoryInspection_mvl/mxv
+	BYTE		BEND    c_v+0
+	BYTE		N24     Cn1   v127
+	BYTE		N06     Cs1 
+	BYTE		N06     Gs1 
+	BYTE		N24     Cs2   v088
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v076
+	BYTE		N06     Gs1   v127
+	BYTE	W06
+	BYTE		        Cs1   v116
+	BYTE		N06     Gs1   v127
+	BYTE		N03     En4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v076
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v104
+	BYTE		N06     Gs1   v127
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v072
+	BYTE		N03     Fn4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v100
+	BYTE		N06     Gs1   v127
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v068
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v116
+	BYTE		N24     En1   v104
+	BYTE		N06     Gs1   v127
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v056
+	BYTE	W06
+	BYTE		        Cs1   v104
+	BYTE		N06     Gs1   v116
+	BYTE		N03     En4   v048
+	BYTE	W06
+	BYTE		N06     Cs1 
+	BYTE		N03     En4 
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v100
+	BYTE		N06     Gs1   v104
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v040
+	BYTE		N03     Fn4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v084
+	BYTE		N06     Gs1   v104
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v032
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+// 001   ----------------------------------------
+FactoryInspection_11_001:
+	BYTE		N06     Cs1   v127
+	BYTE		N06     Gs1 
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v076
+	BYTE	W06
+	BYTE		        Cs1   v116
+	BYTE		N06     Gs1 
+	BYTE		N03     En4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v076
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N24     Cn1   v127
+	BYTE		N06     Cs1   v104
+	BYTE		N06     Gs1 
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v072
+	BYTE		N03     Fn4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v100
+	BYTE		N06     Gs1   v104
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v068
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v116
+	BYTE		N24     En1   v104
+	BYTE		N06     Gs1   v127
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v056
+	BYTE	W06
+	BYTE		        Cs1   v104
+	BYTE		N06     Gs1   v116
+	BYTE		N03     En4   v048
+	BYTE	W06
+	BYTE		N06     Cs1 
+	BYTE		N03     En4 
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v100
+	BYTE		N06     Gs1   v116
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v092
+	BYTE		N06     Gs1   v116
+	BYTE		N03     Fn4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v096
+	BYTE		N06     Gs1   v120
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v108
+	BYTE		N06     Gs1   v127
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE	PEND
+// 002   ----------------------------------------
+FactoryInspection_11_002:
+	BYTE		N24     Cn1   v127
+	BYTE		N06     Cs1 
+	BYTE		N06     Gs1 
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v076
+	BYTE		N06     Gs1   v127
+	BYTE	W06
+	BYTE		        Cs1   v116
+	BYTE		N06     Gs1   v127
+	BYTE		N03     En4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v076
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v104
+	BYTE		N06     Gs1   v127
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v072
+	BYTE		N03     Fn4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v100
+	BYTE		N06     Gs1   v127
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v068
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v116
+	BYTE		N24     En1   v104
+	BYTE		N06     Gs1   v127
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v056
+	BYTE	W06
+	BYTE		        Cs1   v104
+	BYTE		N06     Gs1   v116
+	BYTE		N03     En4   v048
+	BYTE	W06
+	BYTE		N06     Cs1 
+	BYTE		N03     En4 
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v100
+	BYTE		N06     Gs1   v104
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v040
+	BYTE		N03     Fn4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v084
+	BYTE		N06     Gs1   v104
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v032
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE	PEND
+// 003   ----------------------------------------
+FactoryInspection_11_003:
+	BYTE		N06     Cs1   v127
+	BYTE		N06     Gs1 
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v076
+	BYTE	W06
+	BYTE		N24     Cn1   v127
+	BYTE		N06     Cs1   v116
+	BYTE		N06     Gs1 
+	BYTE		N03     En4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v076
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v104
+	BYTE		N06     Gs1 
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v072
+	BYTE		N03     Fn4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v100
+	BYTE		N06     Gs1   v104
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v068
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v116
+	BYTE		N24     En1   v104
+	BYTE		N06     Gs1   v127
+	BYTE		N03     En4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v056
+	BYTE	W06
+	BYTE		        Cs1   v104
+	BYTE		N06     Gs1   v116
+	BYTE		N03     En4   v048
+	BYTE	W06
+	BYTE		N06     Cs1 
+	BYTE		N03     En4 
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v100
+	BYTE		N06     Gs1   v116
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v092
+	BYTE		N06     Gs1   v116
+	BYTE		N03     Fn4   v048
+	BYTE	W03
+	BYTE		N03   
+	BYTE	W03
+	BYTE		N06     Cs1   v096
+	BYTE		N06     Gs1   v120
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE		N06     Cs1   v108
+	BYTE		N06     Gs1   v127
+	BYTE		N03     Fn4   v048
+	BYTE	W06
+	BYTE	PEND
+// 004   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 005   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 006   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 007   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 008   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 024   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 025   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 026   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 027   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 028   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 029   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 030   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 031   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 032   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 033   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 034   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 035   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 036   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 037   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 038   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 039   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 040   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 041   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 044   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 045   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 046   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 047   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 048   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 049   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+// 050   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 051   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_003
+// 052   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_002
+// 053   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FactoryInspection_11_001
+	BYTE	GoTo
+	 POIN2	FactoryInspection_11_B1
+FactoryInspection_11_B2:
+// 054   ----------------------------------------
+	BYTE		BEND    c_v+0
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+FactoryInspection:
+	BYTE	11	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	FactoryInspection_pri	// Priority
+	BYTE	FactoryInspection_rev	// Reverb.
+
+	POIN2	FactoryInspection_grp
+
+	POIN2	FactoryInspection_1
+	POIN2	FactoryInspection_2
+	POIN2	FactoryInspection_3
+	POIN2	FactoryInspection_4
+	POIN2	FactoryInspection_5
+	POIN2	FactoryInspection_6
+	POIN2	FactoryInspection_7
+	POIN2	FactoryInspection_8
+	POIN2	FactoryInspection_9
+	POIN2	FactoryInspection_10
+	POIN2	FactoryInspection_11
+
+	

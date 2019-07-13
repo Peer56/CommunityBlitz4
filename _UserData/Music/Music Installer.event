@@ -62,3 +62,6 @@ SongTable(24,unowen,MapMusicGroup)
 
 SongTable(25,WithUs,MapMusicGroup)
 #include "Songs/WithUs.event"
+
+SongTable(26,FactoryInspection,MapMusicGroup)
+#include "Songs/FactoryInspection.event"
