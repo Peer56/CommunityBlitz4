@@ -131,3 +131,23 @@ Fallen Angel[X]
 ##ArchsageDesc
 FallenAngelDesc[X]
 
+##LncSwdPalName
+Paladin[X]
+
+##LncSwdPalDesc
+Mounted knights with superior[N]
+abilities. Equip: Lances, Swords.[X]
+
+##AxeLncPalName
+Paladin[X]
+
+##AxeLncPalDesc
+Mounted knights with superior[N]
+abilities. Equip: Axes, Lances.[X]
+
+##SwdAxePalName
+Paladin[X]
+
+##SwdAxePalDesc
+Mounted knights with superior[N]
+abilities. Equip: Swords, Axes.[X]

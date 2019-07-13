@@ -69,5 +69,11 @@
 #define MarauderDesc $D72
 #define ArchsageName $D73
 #define ArchsageDesc $D74
+#define LncSwdPalName $D75
+#define LncSwdPalDesc $D76
+#define AxeLncPalName $D77
+#define AxeLncPalDesc $D78
+#define SwdAxePalName $D79
+#define SwdAxePalDesc $D7A
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

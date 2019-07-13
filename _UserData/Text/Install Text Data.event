@@ -269,6 +269,30 @@ __TEXTPROCESSD74:
 #incbin ".TextEntries\text_buildfileArchsageDesc.fetxt.dmp"
 setText($D74, __TEXTPROCESSD74)
 
+__TEXTPROCESSD75:
+#incbin ".TextEntries\text_buildfileLncSwdPalName.fetxt.dmp"
+setText($D75, __TEXTPROCESSD75)
+
+__TEXTPROCESSD76:
+#incbin ".TextEntries\text_buildfileLncSwdPalDesc.fetxt.dmp"
+setText($D76, __TEXTPROCESSD76)
+
+__TEXTPROCESSD77:
+#incbin ".TextEntries\text_buildfileAxeLncPalName.fetxt.dmp"
+setText($D77, __TEXTPROCESSD77)
+
+__TEXTPROCESSD78:
+#incbin ".TextEntries\text_buildfileAxeLncPalDesc.fetxt.dmp"
+setText($D78, __TEXTPROCESSD78)
+
+__TEXTPROCESSD79:
+#incbin ".TextEntries\text_buildfileSwdAxePalName.fetxt.dmp"
+setText($D79, __TEXTPROCESSD79)
+
+__TEXTPROCESSD7A:
+#incbin ".TextEntries\text_buildfileSwdAxePalDesc.fetxt.dmp"
+setText($D7A, __TEXTPROCESSD7A)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT
