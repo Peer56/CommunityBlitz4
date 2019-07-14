@@ -1,0 +1,3 @@
+#define __DEBUG__
+#define __SmeIsBadAtASM__
+#include "ROM Buildfile.event"
