@@ -50,3 +50,4 @@
 #define LanceSwordPaladin_F 129
 #define AxeLancePaladin 130
 #define AxeLancePaladin_F 131
+#define KnightLord 132
