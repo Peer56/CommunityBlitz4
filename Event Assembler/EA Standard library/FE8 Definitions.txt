@@ -194,6 +194,7 @@
 #define ElderBael 0x59
 #define Cyclops 0x5A
 #define Mauthedoog 0x5B
+#define MautheDoog Mauthedoog
 #define Gwyllgi 0x5C
 #define Tarvos 0x5D
 #define Maelduin 0x5E

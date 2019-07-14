@@ -52,10 +52,10 @@ MovingMapSprite(125,0x1C692C,LanceCavFMovingMapSprite) //above cavs
 StandingMapSprite(0x5F,1,2,MogallGazerStandingMapSprite)
 MovingMapSprite(96,0x1F3FA0,MogallGazerMovingMapSprite) //arch mogall
 
-StandingMapSprite(0xF,1,2,MonkFStandingMapSprite)
+StandingMapSprite(0xF,0,0,MonkFStandingMapSprite)
 MovingMapSprite(16,0x1E7638,MonkFMovingMapSprite) //monk
 
-StandingMapSprite(0x11,1,2,NecromancerFStandingMapSprite)
+StandingMapSprite(0x11,0,2,NecromancerFStandingMapSprite)
 MovingMapSprite(18,0x1EE558,NecromancerFMovingMapSprite) //necromancer
 
 StandingMapSprite(0x21,1,2,NomadStandingMapSprite)
@@ -70,7 +70,7 @@ MovingMapSprite(54,0x1C692C,NomadTrooperMovingMapSprite) //above cavs
 StandingMapSprite(0x23,1,2,NomadTrooperFStandingMapSprite)
 MovingMapSprite(36,0x1C692C,NomadTrooperFMovingMapSprite) //above cavs
 
-StandingMapSprite(0x37,1,2,SpartanStandingMapSprite)
+StandingMapSprite(0x37,2,2,SpartanStandingMapSprite)
 MovingMapSprite(56,0x1CBD94,SpartanMovingMapSprite) //hero
 
 StandingMapSprite(0x56,1,2,SwordCavFStandingMapSprite)
@@ -84,6 +84,11 @@ MovingMapSprite(62,0x1C692C,TransporterMovingMapSprite) //above cavs
 
 StandingMapSprite(0x2,1,2,0x1B7828)
 MovingMapSprite(0x3,0x1C3D7C,0x1C33CC)
+
+MovingMapSprite(0x80,0x1C7428,0x1C6A84)
+MovingMapSprite(0x81,0x1C7428,0x1C6A84)
+MovingMapSprite(0x82,0x1C7428,0x1C6A84)
+MovingMapSprite(0x83,0x1C7428,0x1C6A84)
 
 //graphics start here
 

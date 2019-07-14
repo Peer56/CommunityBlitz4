@@ -1,9 +1,10 @@
 #include "chapter_names.txt"
 
-#0xD4C ZeroEntry
+#0xD50 ZeroEntry
 [X]
 
 ## SampleText
 Your text here![X]
 
 #include "class_text.txt"
+#include "character_text.txt"
