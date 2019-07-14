@@ -25,6 +25,9 @@
 #include "Chapter14Map.event"
 }
 {
+#include "Chapter15Map.event"
+}
+{
 #include "Chapter16Map.event"
 }
 {
@@ -50,6 +53,9 @@
 }
 {
 #include "Chapter5Map.event"
+}
+{
+#include "Chapter6Map.event"
 }
 {
 #include "Chapter8Map.event"
