@@ -58,6 +58,9 @@
 #include "Chapter6Map.event"
 }
 {
+#include "Chapter7Map.event"
+}
+{
 #include "Chapter8Map.event"
 }
 {
