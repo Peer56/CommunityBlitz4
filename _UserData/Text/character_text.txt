@@ -261,10 +261,10 @@ A seasoned Valyrie.[N]
 Her unit has turned on her.[X]
 
 ##ItzharName
-Itzhar[X]
+Mystletainn[X]
 
 ##ItzharDesc
-Random bowman doing Gotoh shenanigans[X]
+The cursed blade itself.[X]
 
 ##DestinyName
 Destiny[X]
