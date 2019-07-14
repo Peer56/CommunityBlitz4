@@ -1,6 +1,6 @@
 #include "chapter_names.txt"
 
-#0xD50 ZeroEntry
+#0xD53 ZeroEntry
 [X]
 
 ## SampleText
