@@ -61,6 +61,8 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Seize(6,2)
+
 Armory(weaponlist,2,13)
 Vendor(itemlist,1,19)
 SecretShop(secretlist,1,14)
