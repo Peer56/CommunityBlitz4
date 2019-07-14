@@ -151,3 +151,9 @@ Paladin[X]
 ##SwdAxePalDesc
 Mounted knights with superior[N]
 abilities. Equip: Swords, Axes.[X]
+
+##KnightLordName
+Knight Lord[X]
+
+##KnightLordDesc
+KnightLordDesc[X]
