@@ -25,7 +25,6 @@
 #define Song_TrainRush 13
 #define Song_Bergentruckung 14
 #define Song_BoatMaps 15
-#define Song_BeneathANewLight 16
 #define Song_KaiTheme 17
 #define Song_TheDevoted 18
 #define Song_LockedGirl 19
@@ -36,6 +35,7 @@
 #define Song_UNOwen 24
 #define Song_WithUs 25
 #define Song_FactoryInspection 26
+#define Song_BeneathANewLight 27
 
 //mug IDs
 #define RiaMug Ria
