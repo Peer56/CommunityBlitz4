@@ -67,7 +67,7 @@
 #define Zelroth 0x54
 #define Wulfric 0x55
 #define Floorentius 0x56
-#define Algrim 0x57
+#define Algrim2 0x57
 #define Zephyr 0x58
 #define Godfrey 0x59
 #define Heinrik 0x5A
@@ -79,7 +79,7 @@
 #define Zelroth2 0x60
 #define Floorentius2 0x61
 #define Diqhed2 0x62
-#define Algrim2 0x63
+#define Algrim3 0x63
 #define Tempest 0x64
 #define Tomorsiif 0x65
 #define Mizuki 0x66

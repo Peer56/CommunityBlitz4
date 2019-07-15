@@ -422,12 +422,6 @@ Floorentius[X]
 ##FloorentiusDesc
 FloorentiusDesc[X]
 
-##AlgrimName
-Algrim[X]
-
-##AlgrimDesc
-AlgrimDesc[X]
-
 ##ZephyrName
 Zephyr[X]
 

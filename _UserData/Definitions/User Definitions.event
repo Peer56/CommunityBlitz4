@@ -81,7 +81,66 @@
 #define ItzharMug Itzhar
 #define DestinyMug Destiny
 
+//boss mug defs
+
+#define NathanMug Nathan
+#define BernerMug Berner
+#define SkaidriteMug Skaidrite
+#define IgnaveMug Ignave
+#define AlzoramMug Alzoram
+#define MerrariMug Merrari
+#define AlgrimMug Algrim
+#define AlgrimMug2 AlgrimMug
+#define MaulochMug Mauloch
+#define RicketsMug Rickets
+#define LucioMug Lucio
+#define CyrilleMug Cyrille
+#define BlunderbussMug Blunderbuss
+#define AvanthMug Avanth
+#define RansleyMug Ransley
+#define VercingeMug Vercinge
+#define DiqhedMug Diqhed
+#define EsmeMug Esme
+#define KorathMug Korath
+#define GaburasMug Gaburas
+#define AswangMug Aswang
+#define ZelrothMug Zelroth
+#define WulfricMug Wulfric
+#define FloorentiusMug Floorentius
+#define ZephyrMug Zephyr
+#define GodfreyMug Godfrey
+#define HeinrikMug Heinrik
+#define LucioMug2 Lucio2
+#define EsmeMug2 Esme2
+#define KorathMug2 Korath2
+#define WulfricMug2 Wulfric2
+#define AswangMug2 Aswang2
+#define ZelrothMug2 Zelroth2
+#define FloorentiusMug2 Floorentius2
+#define DiqhedMug2 Diqhed2
+#define AlgrimMug3 Algrim3
+#define TempestMug Tempest
+#define TomorsiifMug Tomorsiif
+#define MizukiMug Mizuki
+#define MorphLucioMug LucioMug2
+#define MorphEsmeMug EsmeMug2
+#define MorphKorathMug KorathMug2
+#define MorphWulfricMug WulfricMug2
+#define MorphAswangMug AswangMug2
+#define MorphZelrothMug ZelrothMug2
+#define MorphFloorentiusMug FloorentiusMug2
+#define MorphDiqhedMug DiqhedMug2
+#define MorphAlgrimMug AlgrimMug3
+
+
+
+//misc
+
 #define InfantryType 0x40
+#define MerrariName MerarriName
+#define MerrariDesc MerarriDesc
+#define VercingeName VerchingeName
+#define VercingeDesc VerchingeDesc
 
 //Goal text defs
 
