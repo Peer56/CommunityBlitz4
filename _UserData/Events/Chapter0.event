@@ -83,6 +83,11 @@ LABEL 0x2
 ENDA
 
 BeginningEvent:
+CHECK_TUTORIAL
+SVAL 1 1
+BNE 0 1 0xC
+    ENUT 0xB0
+LABEL 0
 LOAD1 0x1 Units
 ENUN
 LOAD1 0x1 Enemies
