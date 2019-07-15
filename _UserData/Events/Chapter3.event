@@ -59,7 +59,11 @@ ENDA
 
 EndingScene:
 Text(PlaceholderText)
-MoveToChapter(4)
+MNC2 4
+ENDA
+
+Reinforcements:
+ReinforcementEvent(ReinforcementUnits)
 ENDA
 
 Units:
@@ -100,7 +104,7 @@ AciesUnit:
 UNIT Acies Myrmidon 0x00 Level(4, NPC, 0) [5,11] 0x00 0x00 0x0 0x00 [Shamshir, Elixir] PursueWithoutHeedAI
 UNIT
 
-Reinforcements:
+ReinforcementUnits:
 UNIT 0x74 PegasusKnight 0x00 Level(6, Enemy, 1) [15,0] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI
 UNIT 0x74 PegasusKnight 0x00 Level(6, Enemy, 1) [14,1] 0x00 0x00 0x0 0x00 [Axereaver] PursueWithoutHeedAI
 UNIT 0x74 PegasusKnight 0x00 Level(6, Enemy, 1) [15,2] 0x00 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI
