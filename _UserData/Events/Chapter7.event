@@ -1,0 +1,203 @@
+#include EAstdlib.event
+
+EventPointerTable(0x27,ThisChapter)
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN Units Units
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 GargoyleDuo1Reinforcement [5,0] 0x0
+TURN 0x0 MercBoneReinforcement [9,0] 0x0
+TURN 0x0 GargoyleDuo2Reinforcement [12,0] 0x0
+END_MAIN
+ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
+
+CharacterBasedEvents:
+CHAR 0x0B RiaRecruitReuben [Ria,Reuben] 0x0
+CHAR 0x0B JuanRecruitReuben [Juan,Reuben] 0x0
+END_MAIN
+
+LocationBasedEvents:
+Village(0x8,C7VillageRobe,17,3)
+Village(0x9,C7VillageKillerAxe,2,11)
+Village(0xA,C7VillageLancereaver,8,23)
+Armory(C7ArmoryList,8,5)
+Vendor(C7VendorList,13,11)
+AREA 0x0 AnnaCheck [2,2] [2,2]
+Door(2,6)
+Door(3,6)
+Door(9,7)
+Door(10,7)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+
+END_MAIN
+
+Dunno:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+TrapData:
+ENDTRAP
+
+ALIGN 4
+
+Units:
+UNIT Ria RiaLord 0x00 Level(1, Ally, 0) [17,21] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Garthan Knight 0x00 Level(1, Ally, 0) [15,23] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Garthan Knight 0x00 Level(1, Ally, 0) [16,23] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Garthan Knight 0x00 Level(1, Ally, 0) [17,22] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Garthan Knight 0x00 Level(1, Ally, 0) [18,23] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Garthan Knight 0x00 Level(1, Ally, 0) [16,20] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Garthan Knight 0x00 Level(1, Ally, 0) [15,21] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Garthan Knight 0x00 Level(1, Ally, 0) [18,21] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT
+
+BeginningScene:
+LOAD2 0x1 Units
+ENUN
+LOAD1 0x1 NewUnits
+ENUN
+LOAD1 0x1 EnemyUnits
+ENUN
+GotoPrepScreen
+CAM1 Anna1
+CUMO Anna1
+STAL 30
+CAM1 [2,2]
+CUMO [2,2]
+STAL 30
+ENDA
+
+EndingScene:
+CUSN Anna1
+MNC2 8
+NoFade
+ENDA
+
+// Events
+AnnaCheck:
+CHECK_ACTIVEID Anna1
+BEQ 1 0 0xC
+CALL EndingScene
+LABEL 1
+NoFade
+ENDA
+
+C7VillageRobe:
+GiveItem(AngelicRobe,0xFFFF)
+NoFade
+ENDA
+
+C7VillageKillerAxe:
+GiveItem(KillerAxe,0xFFFF)
+NoFade
+ENDA
+
+C7VillageLancereaver:
+GiveItem(Lancereaver,0xFFFF)
+NoFade
+ENDA
+
+RiaRecruitReuben:
+CUSA Reuben
+NoFade
+ENDA
+
+JuanRecruitReuben:
+CUSA Reuben
+NoFade
+ENDA
+
+GargoyleDuo1Reinforcement:
+ReinforcementEvent(GargoyleDuo1ReinforcementUnit)
+ENDA
+
+MercBoneReinforcement:
+ReinforcementEvent(MercBoneReinforcementUnit)
+ENDA
+
+GargoyleDuo2Reinforcement:
+ReinforcementEvent(GargoyleDuo2ReinforcementUnit)
+ENDA
+
+// Manual Movement
+
+// Scripted Fights
+
+// Units
+
+NewUnits:
+UNIT Juan Mercenary 0x00 Level(7, Ally, 0) [16,22] 0x00 0x00 0x0 0x00 [SteelBlade, Armourslayer] NoAI 
+UNIT Anna1 Transporter 0x00 Level(1, Ally, 0) [18,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+EnemyUnits:
+UNIT Rickets Bonewalker 0x00 Level(11, Enemy, 0) [1,4] 0x2 0x00 0x0 0x00 [ShortSpear, IronBlade, HeroCrest] AttackInRangeAI 
+UNIT 0x7C Fleet 0x00 Level(6, Enemy, 1) [17,8] 0x00 0x00 0x0 0x00 [Ballista] GuardTileAI 
+UNIT 0x7C Fleet 0x00 Level(6, Enemy, 1) [16,6] 0x00 0x00 0x0 0x00 [Ballista] GuardTileAI 
+UNIT 0x7D Knight 0x00 Level(7, Enemy, 1) [7,3] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
+UNIT 0x7D Knight 0x00 Level(6, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [SteelLance] GuardTileAI 
+UNIT 0x7C Bonewalker_Bow 0x00 Level(7, Enemy, 1) [4,3] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x7C Pirate 0x00 Level(6, Enemy, 1) [2,20] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI 
+UNIT 0x7C Pirate 0x00 Level(6, Enemy, 1) [16,13] 0x00 0x00 0x0 0x00 [Halberd] PursueWithoutHeedAI 
+UNIT 0x7C Pirate 0x00 Level(6, Enemy, 1) [6,16] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI 
+UNIT 0x7C Brigand 0x00 Level(7, Enemy, 1) [6,20] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
+UNIT 0x7C Bael 0x00 Level(6, Enemy, 1) [13,11] 0x00 0x00 0x0 0x00 [SharpClaw] AttackInRangeAI 
+UNIT 0x7D Archer 0x00 Level(7, Enemy, 1) [11,10] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI 
+UNIT 0x7D Knight 0x00 Level(6, Enemy, 1) [9,24] 0x2 0x00 0x0 0x00 [Axereaver, Javelin] GuardTileAI 
+UNIT 0x7D Mage 0x00 Level(6, Enemy, 1) [9,2] 0x2 0x00 0x0 0x00 [Elfire] AttackInRangeAI 
+UNIT 0x7C Bonewalker 0x00 Level(7, Enemy, 1) [12,4] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+UNIT 0x7D Archer_F 0x00 Level(7, Enemy, 1) [7,6] 0x00 0x00 0x0 0x00 [Longbow] GuardTileAI 
+UNIT 0x7D Cavalier 0x00 Level(7, Enemy, 1) [18,0] 0x00 0x00 0x0 0x00 [IronLance] ChaseOnceApproachedAI 
+UNIT 0x7C Fleet 0x00 Level(6, Enemy, 1) [2,17] 0x2 0x00 0x0 0x00 [Ballista,_3000G] GuardTileAI 
+UNIT 0x7D Cavalier 0x00 Level(7, Enemy, 1) [3,9] 0x00 0x00 0x0 0x00 [Horseslayer] ChaseOnceApproachedAI 
+UNIT 0x7C Mercenary 0x00 Level(7, Enemy, 1) [11,20] 0x00 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
+UNIT 0x7C Pirate 0x00 Level(6, Enemy, 1) [10,21] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x7D Knight 0x00 Level(6, Enemy, 1) [2,12] 0x00 0x00 0x0 0x00 [HandAxe] GuardTileAI 
+UNIT 0x7C Bonewalker 0x00 Level(6, Enemy, 1) [5,13] 0x2 0x00 0x0 0x00 [SteelSword, DoorKey] AttackInRangeAI 
+UNIT 0x7C Shaman 0x00 Level(7, Enemy, 1) [6,8] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x7C Bael 0x00 Level(7, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [SharpClaw] PursueWithoutHeedAI 
+UNIT 0x7D Cavalier 0x00 Level(6, Enemy, 1) [4,7] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI 
+UNIT 0x7C Brigand 0x00 Level(6, Enemy, 1) [9,17] 0x00 0x00 0x0 0x00 [IronAxe] BrigandAI 
+UNIT 0x7D Knight 0x00 Level(7, Enemy, 1) [11,16] 0x00 0x00 0x0 0x00 [SteelAxe, Javelin] GuardTileAI 
+UNIT Reuben Pirate 0x00 Level(6, Enemy, 0) [9,12] 0x00 0x00 0x0 0x00 [SteelAxe, HandAxe] PursueWithoutHeedAI 
+UNIT 0x7C Bonewalker_Bow 0x00 Level(7, Enemy, 1) [0,8] 0x00 0x00 0x0 0x00 [ShortBow, GoddessIcon] ChaseOnceApproachedAI 
+UNIT
+
+GargoyleDuo1ReinforcementUnit:
+UNIT 0x7C Gargoyle 0x00 Level(7, Enemy, 1) [10,0] 0x2 0x00 0x0 0x00 [IronLance, DoorKey] PursueWithoutHeedAI 
+UNIT 0x7C Gargoyle 0x00 Level(6, Enemy, 1) [12,0] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+UNIT
+
+MercBoneReinforcementUnit:
+UNIT 0x7C Mercenary 0x00 Level(7, Enemy, 1) [1,14] 0x00 0x00 0x0 0x00 [SteelBlade] PursueWithoutHeedAI 
+UNIT 0x7C Bonewalker 0x00 Level(6, Enemy, 1) [0,13] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT
+
+GargoyleDuo2ReinforcementUnit:
+UNIT 0x7C Gargoyle 0x00 Level(7, Enemy, 1) [17,24] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x7C Gargoyle 0x00 Level(7, Enemy, 1) [15,24] 0x00 0x00 0x0 0x00 [Horseslayer] PursueWithoutHeedAI 
+UNIT
+
+// Shop Data
+C7ArmoryList:
+SHLI IronSword SteelSword Shadowkiller IronLance SteelLance BrightLance IronAxe SteelAxe Fiendcleaver IronBow SteelBow BeaconBow
+
+C7VendorList:
+SHLI Fire Thunder Flux Luna Lightning Shine Heal Mend Vulnerary Antidote
+
+MESSAGE Events end at offset CURRENTOFFSET

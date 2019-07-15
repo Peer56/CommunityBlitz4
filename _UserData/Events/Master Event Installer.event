@@ -28,7 +28,7 @@ ALIGN 4
 }
 ALIGN 4
 {
-//#include "Chapter7.event"
+#include "Chapter7.event"
 }
 ALIGN 4
 {
