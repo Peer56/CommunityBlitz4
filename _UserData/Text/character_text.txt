@@ -232,11 +232,11 @@ Arwen[X]
 ##ArwenDesc
 ArwenDesc[X]
 
-##EoName
-Eo[X]
+##BrentName
+Brent[X]
 
-##EoDesc
-EoDesc[X]
+##BrentDesc
+BrentDesc[X]
 
 ##Anna2Name
 Anna[X]
