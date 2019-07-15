@@ -6,10 +6,10 @@
  <layer id="1" name="Main" width="21" height="22">
   <properties>
    <property name="Anims1" value="0"/>
-   <property name="ChapterID" value="Ch11AEvent"/>
+   <property name="ChapterID" value="11"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="Ch11ATileChange"/>
-   <property name="MapID" value="Ch11AMap"/>
+   <property name="MapChangesID" value="0x32"/>
+   <property name="MapID" value="0x31"/>
    <property name="ObjectType" value="0x2e"/>
    <property name="PaletteID" value="0x2f"/>
    <property name="TileConfig" value="0x30"/>

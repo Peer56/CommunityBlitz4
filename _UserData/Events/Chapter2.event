@@ -129,7 +129,7 @@ UNIT 0x02 0x01 0x00 Level(1, Ally, 0) [13,2] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 // Sayra and Jhonka
-NPCs:
+NPCUnits:
 UNIT Colm Thief_F 0x00 Level(1, NPC, 0) [2,6] 0x00 0x03 0x0 0x00 [IronSword, Lockpick, Vulnerary] AttackInRangeAI // Sayra
 UNIT Garcia Brigand 0x00 Level(2, NPC, 0) [1,7] 0x00 0x03 0x0 0x00 [IronAxe, Vulnerary] AttackInRangeAI // Jhonka
 UNIT
@@ -157,13 +157,12 @@ UNIT
 
 ALIGN 4
 BeginningScene:
-LOAD2 0x1 Units
-ENUN
-LOAD1 0x1 NPC
+LOAD1 0x1 NPCUnits
 ENUN
 LOAD1 0x1 Enemies
 ENUN
 //Text(Ch2Opening)
+GotoPrepScreen
 NoFade
 ENDA
 

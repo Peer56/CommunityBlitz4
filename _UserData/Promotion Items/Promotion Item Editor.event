@@ -1,29 +1,29 @@
 HeroCrestList:
-BYTE Mercenary MercenaryF Myrmidon MyrmidonF Fighter Journeyman2 0x0
+BYTE Mercenary Myrmidon Myrmidon_F Fighter 0x0
 
 KnightCrestList:
-BYTE Cavalier CavalierF Knight KnightF Recruit2 0x0
+BYTE SwdCav SwdCav_F LncCav LncCav_F AxeCav AxeCav_F Knight Soldier 0x0
 
 OrionsBoltList:
-BYTE Archer ArcherF 0x0
+BYTE Archer Archer_F Nomad Nomad_F 0x0
 
 ElysianWhipList:
-BYTE PegasusKnight WyvernRider WyvernRiderF 0x0
+BYTE PegasusKnight WyvernRider 0x0
 
 GuidingRingList:
-BYTE Priest Cleric Mage MageF Monk Shaman ShamanF Troubadour Pupil2 0x0
+BYTE Priest Cleric Mage Mage_F Monk Monk_F Shaman Shaman_F Troubadour Deacon 0x0
 
 MasterSealList:
-BYTE Mercenary MercenaryF Myrmidon MyrmidonF Fighter Pirate Brigand Cavalier CavalierF Knight KnightF Archer ArcherF PegasusKnight WyvernRider WyvernRiderF Priest Cleric Mage MageF Shaman ShamanF Troubadour Thief Journeyman1 Pupil1 Recruit1 Journeyman2 Pupil2 Recruit2 Monk 0x0
+BYTE Mercenary Myrmidon Myrmidon_F Fighter SwdCav SwdCav_F LncCav LncCav_F AxeCav AxeCav_F Knight Soldier Archer Archer_F Nomad Nomad_F PegasusKnight WyvernRider Priest Cleric Mage Mage_F Monk Monk_F Shaman Shaman_F Troubadour Deacon Thief Thief_F Pirate Brigand Revenant Bonewalker Bael MautheDoog Tarvos Mogall Gargoyle Tent 0x0
 
 OceanSealList:
-BYTE Thief Pirate Brigand 0x0
+BYTE Thief Thief_F Pirate Brigand Tent 0x0
 
 LunarBraceList:
-BYTE EphraimLord 0x0
+BYTE Revenant Bonewalker Bael MautheDoog Tarvos Mogall Gargoyle 0x0
 
 SolarBraceList:
-BYTE EirikaLord 0x0
+BYTE RiaLord EphLord 0x0
 
 PUSH
 

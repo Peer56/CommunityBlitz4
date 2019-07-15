@@ -87,7 +87,8 @@ ENDA
 
 
 ChName_EndingScene:
-MNC2 6
+//MNC2 6
+MNC2 8 //temp
 ENDA
 
 // Events

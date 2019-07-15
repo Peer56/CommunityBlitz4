@@ -9,8 +9,8 @@
    <property name="Anims2" value="0"/>
    <property name="ChapterID" value="9"/>
    <property name="Main" value=""/>
-   <property name="MapChangesID" value="0x26"/>
-   <property name="MapID" value="0x25"/>
+   <property name="MapChangesID" value="0x29"/>
+   <property name="MapID" value="0x28"/>
    <property name="ObjectType" value="1"/>
    <property name="PaletteID" value="0x38"/>
    <property name="TileConfig" value="3"/>

@@ -215,27 +215,3 @@ PaletteID = 0xE6
 TileConfig = 0x7B
 Anims1 = 0x7D
 Anims2 = 0
-
-Der's Cave Tileset (Replaces some valni pointers)
-
-ObjectType = 0x8F
-PaletteID = 0x90
-TileConfig = 0x8E
-Anims1 = 0xCA
-Anims2 = 0
-
-Der's Bridges (replaces more valni pointers)
-
-ObjectType = 0x94
-PaletteID = 0x95
-TileConfig = 0x93
-Anims1 = 5
-Anims2 = 0
-
-Night Village
-
-ObjectType = 0xE
-PaletteID = 0x9F
-TileConfig = 0x10
-Anims1 = 0x12
-Anims2 = 0

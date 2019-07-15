@@ -38,6 +38,9 @@
 #define UM_CaptureDesc 0x58
 #define ArriveName 0x59
 #define ArriveDesc 0x5a
+#define UMText_Win 0x5b
+#define UMDesc_Win 0x5c
+#define UM_Debug 0x5d
 #define nameCamus 0x903
 #define nameSirius 0x904
 #define nameZeke 0x905

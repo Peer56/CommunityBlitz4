@@ -78,3 +78,12 @@ stats to capture an enemy.[X]
 ## ArriveDesc
 Arrive at a designated point.[X]
 
+## UMText_Win
+ Win[X]
+
+## UMDesc_Win
+This is your win button.[X]
+
+## UM_Debug
+ Debug[X]
+

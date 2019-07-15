@@ -42,17 +42,3 @@
 
 #include "FE8 Nightmare modules\Poison\Set Poison Item Table.event"
 
-#include "FE8 Nightmare modules\Skills\FE8 Character Level Up Skill Editor.event"
-
-#include "FE8 Nightmare modules\Skills\FE8 Class Level Up Skill Editor.event"
-
-#include "FE8 Nightmare modules\Skills\FE8 Class Skill Editor.event"
-
-#include "FE8 Nightmare modules\Skills\FE8 Level Up Skill Editor.event"
-
-#include "FE8 Nightmare modules\Skills\FE8 Personal Skill Editor.event"
-
-#include "FE8 Nightmare modules\Skills\FE8 Skill Animation Editor.event"
-
-#include "FE8 Nightmare modules\Skills\FE8 Skill Description Editor.event"
-

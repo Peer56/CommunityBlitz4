@@ -172,6 +172,6 @@ CUSA Mint
 ENDA
 
 EndingScene:
-MNC2 0x1 //go to ch1
+MNC2 5
 NoFade
 ENDA

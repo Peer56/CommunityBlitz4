@@ -4,7 +4,7 @@ ALIGN 4
 }
 ALIGN 4
 {
-//#include "Chapter1.event"
+#include "Chapter1.event"
 }
 ALIGN 4
 {
@@ -72,7 +72,7 @@ ALIGN 4
 }
 ALIGN 4
 {
-//#include "Chapter18.event"
+#include "Chapter18.event"
 }
 ALIGN 4
 {
@@ -80,9 +80,13 @@ ALIGN 4
 }
 ALIGN 4
 {
-//#include "Chapter20.event"
+#include "Chapter20.event"
 }
 ALIGN 4
 {
-//#include "Endgame.event"
+#include "Endgame1.event"
 }
+{
+//#include "Endgame2.event"
+}
+

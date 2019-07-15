@@ -11,7 +11,7 @@
    <property name="MapChangesID" value="0x13"/>
    <property name="MapID" value="0x11"/>
    <property name="ObjectType" value="0xE"/>
-   <property name="PaletteID" value="0xF"/>
+   <property name="PaletteID" value="0x72"/>
    <property name="TileConfig" value="0x10"/>
   </properties>
   <data>

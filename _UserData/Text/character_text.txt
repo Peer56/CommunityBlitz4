@@ -1,0 +1,381 @@
+##RiaName
+Ria[X]
+
+##RiaDesc
+The princess of Pelrya. A talented[N]
+axefighter who is merciless to foes.[X]
+
+##GarthanName
+Garthan[X]
+
+##GarthanDesc
+The head of Pelrya's knights. Ria's[N]
+retainer who's dedicated to his land.[X]
+
+##EverettName
+Everett[X]
+
+##EverettDesc
+EverettDesc[X]
+
+##IgnaceName
+Ignace[X]
+
+##IgnaceDesc
+IgnaceDesc[X]
+
+##EdithName
+Edith[X]
+
+##EdithDesc
+EdithDesc[X]
+
+##MaurusName
+Maurus[X]
+
+##MaurusDesc
+Maurus[X]
+
+##FuriaName
+Furia[X]
+
+##FuriaDesc
+A member of the Steelheart Mercenaries.[N]
+She enjoys the pay for her jobs.[X]
+
+##KateName
+Kate[X]
+
+##KateDesc
+The founder of the Steelheart Mercenaries.[N]
+She values her allies above all else.[X]
+
+##LilacName
+Lilac[X]
+
+##LilacDesc
+A shy, yet eccentric wannabe-author[N]
+with a love for foreign legends.[X]
+
+##SayraName
+Sayra[X]
+
+##SayraDesc
+An independent and confident girl.[N]
+Jhonka's younger sister.[X]
+
+##JhonkaName
+Jhonka[X]
+
+##JhonkaDesc
+A headstrong and loyal man.[N]
+Sayra's older brother.[X]
+
+##AciesName
+Acies[X]
+
+##AciesDesc
+A stubborn swordsman.[N]
+Attempts to be dark and mysterious.[X]
+
+##YorrickName
+Yorrick[X]
+
+##YorrickDesc
+A former Steelheart mercenary who[N]
+left as a freelancer. A patient man.[X]
+
+##MintName
+Mint[X]
+
+##MintDesc
+A cocky, charismatic hunter, and[N]
+the business partner of Yorrick.[X]
+
+##GershonName
+Gershon[X]
+
+##GershonDesc
+A cavalier unsure of why he's here.[X]
+
+##OsianName
+Osian[X]
+
+##OsianDesc
+A member of the Fiana Freeblades.[N]
+He has anger issues.[X]
+
+##TonyName
+Tony[X]
+
+##TonyDesc
+TonyDesc[X]
+
+##JuanName
+Juan[X]
+
+##JuanDesc
+A former mercenary with an eerily[N]
+calm demeanor. A close friend to Anna.[X]
+
+##ReubenName
+Reuben[X]
+
+##ReubenDesc
+A scruffy and hotheaded mercenary.[N]
+Can make dishes meaner than his axe.[X]
+
+##Anna1Name
+Anna[X]
+
+##Anna1Desc
+One of the most well-known merchants in the land.[N]
+She's participating in relief efforts.[X]
+
+##ArlaName
+Arla[X]
+
+##ArlaDesc
+A deserter of the Ustrana army,[N]
+and a member of the Steelheart Mercenaries.[N]
+A lazy jokester who takes nothing seriously.[X]
+
+##IrenaName
+Irena[X]
+
+##IrenaDesc
+A member of the Steelheart Mercenaries.[N]
+Steals because she's lazy.[X]
+
+##ReaganName
+Reagan[X]
+
+##ReaganDesc
+A young monk. Often mistaken[N]
+for the opposite sex.[X]
+
+##IngridName
+Ingrid[X]
+
+##IngridDesc
+A devout cleric on a horse.[X]
+
+##DanName
+Dan[X]
+
+##DanDesc
+DanDesc[X]
+
+##FraochName
+Fraoch[X]
+
+##FraochDesc
+The Dracodel Rebels Leader.[N]
+An ambitious schemer.[X]
+
+##KarnName
+Karn[X]
+
+##KarnDesc
+A mercenary famous for ripping[N]
+apart a Manakete with his fists.[X]
+
+##SonnyName
+Sonny[X]
+
+##SonnyDesc
+A wandering bard with an[N]
+affinity for soviet music.[N]
+Not too fond of subhumans.[X]
+
+##AlyaName
+Alya[X]
+
+##AlyaDesc
+A knight of the Wyrmland Kingdom.[N]
+Loves her country.[X]
+
+##HadiName
+Hadi[X]
+
+##HadiDesc
+A member of the clergy in Wyrmland.[N]
+Works with the rebels.[X]
+
+##FeidlimidName
+Feidlimid[X]
+
+##FeidlimidDesc
+A master magician.[X]
+
+##DogName
+Dog[X]
+
+##DogDesc
+Feidlimid's familiar.[X]
+
+##VolstaggName
+Volstagg[X]
+
+##VolstaggDesc
+VolstaggDesc[X]
+
+##RhosynName
+Rhosyn[X]
+
+##RhosynDesc
+RhosynDesc[X]
+
+##ArwenName
+Arwen[X]
+
+##ArwenDesc
+ArwenDesc[X]
+
+##EoName
+Eo[X]
+
+##EoDesc
+EoDesc[X]
+
+##Anna2Name
+Anna[X]
+
+##Anna2Desc
+One of a family of the most well-known[N]
+merchants in the land. She's taken up[N]
+arms against the Ustrana army.[X]
+
+##FelixName
+Felix[X]
+
+##FelixDesc
+A stout general.[N]
+His unit has turned on him.[X]
+
+##WandaName
+Wanda[X]
+
+##WandaDesc
+A seasoned Valyrie.[N]
+Her unit has turned on her.[X]
+
+##ItzharName
+Mystletainn[X]
+
+##ItzharDesc
+The cursed blade itself.[X]
+
+##DestinyName
+Destiny[X]
+
+##DestinyDesc
+DestinyDesc[X]
+
+
+
+
+
+##NathanName
+Nathan[X]
+
+##NathanDesc
+NathanDesc[X]
+
+##BernerName
+Berner[X]
+
+##BernerDesc
+A staff sergeant of the Conavell army.[N]
+Brash and arrogant.[X]
+
+##SkaidriteName
+Skaidrite[X]
+
+##SkaidriteDesc
+A mercenary hired by the[N]
+Conavell army with loose morals.[N] 
+Values only herself and coin.[X]
+
+##IgnaveName
+Ignave[X]
+
+##IgnaveDesc
+An officer in the Conavell army.[N]
+Cowardly and shrewd.Desc[X]
+
+##AlzoramName
+Alzoram[X]
+
+##AlzoramDesc
+A commander of Conavell, with connections[N]
+to a notorious band of slavers.[X]
+
+##MerarriName
+Merarri[X]
+
+##MerarriDesc
+Some pirate on a island.[X]
+
+##AlgrimName
+Algrim[X]
+
+##AlgrimDesc
+AlgrimDesc[X]
+
+##MaulochName
+Mauloch[X]
+
+##MaulochDesc
+MaulochDesc[X]
+
+##RicketsName
+Rickets[X]
+
+##RicketsDesc
+An insufferable, wealthy captain who formed[N]
+a pact of resurrection with Conavell's king.[X]
+
+##LucioName
+Lucio[X]
+
+##LucioDesc
+The young king of Conavell, who allied[N]
+himself with strana to invade Pelyra.[N]
+A vicious, cunning tactician.[X]
+
+##CyrilleName
+Cyrille[X]
+
+##CyrilleDesc
+CyrilleDesc[X]
+
+##EsmeName
+Esme[X]
+
+##EsmeDesc
+EsmeDesc[X]
+
+##KorathName
+Korath[X]
+
+##KorathDesc
+KorathDesc[X]
+
+##GaburasName
+Gaburas[X]
+
+##GaburasDesc
+GaburasDesc[X]
+
+##FloorentiusName
+Floorentius[X]
+
+##FloorentiusDesc
+FloorentiusDesc[X]
+
+##MizukiName
+Mizuki[X]
+
+##MizukiDesc
+MizukiDesc[X]

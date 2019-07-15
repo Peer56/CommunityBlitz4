@@ -9,6 +9,8 @@ PUSH
 
   ORG $59D1F8
     POIN UnitMenuTable
+  ORG $59D21C
+    POIN MainMenuTable
 
   // Make the unit menu wider (to fit longer words)
 
@@ -132,8 +134,24 @@ UnitMenuTable:
   UM_Item
   UM_Trade
   UM_Supply
+  
+  #ifdef __DEBUG__
+  MenuCommand(UMText_Win, UMDesc_Win, GreenText, Win_Usability, Win_Effect)
+  #endif
+  
   UM_Wait
 
   UM_Separator 
+
+MainMenuTable:
+  MM_Unit
+  MM_EveryOtherOneTooLazy //I'm not getting away with that one am I
+  MM_Suspend
+  #ifdef __DEBUG__
+  MenuCommand(UM_Debug, 0, GreenText, 0x4F449, DebugEffect)
+  #endif
+  MM_End
+  MM_Separator
+
 
 #endif // UNIT_MENU

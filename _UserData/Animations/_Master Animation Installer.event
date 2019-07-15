@@ -13,7 +13,7 @@
 
 //////////////Installed animations go here:
 
-#ifndef __DEBUG__
+
 {
 #include "NewClassAnimations/Archsage F Magic Installer.event"
 }
@@ -212,6 +212,296 @@
 {
 #include "NewClassAnimations/Assassin F Unarmed Installer.event"
 }
+{
+#include "RepalettesImprovedAnimations/Wyvern Knight Axe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Wyvern Knight Handaxe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Knight Axe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Knight Handaxe Installer.event"
+}
+{
+#include "NewClassAnimations/Cyclops Bow Installer.event"
+}
+{
+#include "NewClassAnimations/Knight Lord Lance Installer.event"
+}
+{
+#include "NewClassAnimations/Knight Lord Sword Installer.event"
+}
+{
+#include "NewClassAnimations/Knight Lord Unarmed Installer.event"
+}
+
+#ifndef __DEBUG__
+{
+#include "RepalettesImprovedAnimations/Archer F Bow Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Archer F Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Archer M Bow Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Archer M Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Bael Monster Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Bael Queen Monster Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Berserker M Axe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Berserker M Handaxe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Berserker M Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Bishop F Magic Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Bishop F Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Bishop M Magic Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Bishop M Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Cerberus Monster Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Cleric Staff Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Cleric Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Falcoknight Lance Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Falcoknight Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Falcoknight Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Gazer Magic Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Great Knight Axe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Great Knight Handaxe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Great Knight Lance Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Great Knight Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Great Knight Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Hero Axe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Hero Handaxe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Hero Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Hero Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Knight Lance Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Knight Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Knight Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Mage F Magic Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Mage M Magic Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Mauthe Doog Monster Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Mercenary Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Mercenary Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Monk M Magic Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Myrmidon F Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Myrmidon F Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Myrmidon M Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Myrmidon M Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Paladin Axe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Paladin Handaxe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Paladin Lance Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Paladin Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Paladin Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Pegasus Knight Lance Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Pegasus Knight Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Pirate Axe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Pirate Handaxe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Pirate Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Priest Staff Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Priest Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Rogue M Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Rogue M Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Sage M Magic Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Sage M Staff Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Shaman F Magic Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Sniper F Bow Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Sniper F Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Sniper M Bow Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Sniper M Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Soldier Lance Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Soldier Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Strigoi Lance Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Strigoi Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Swordmaster M Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Swordmaster M Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Tarvos Elder Axe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Tarvos Elder Bow Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Tarvos Elder Handaxe Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Tarvos Elder Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Tent Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Thief M Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Troubadour Staff Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Troubadour Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Valkyrie Magic Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Valkyrie Staff Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Wight Bow Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Wight Lance Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Wight Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Wight Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Wyvern Knight Lance Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Wyvern Knight Unarmed Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Wyvern Lord Lance Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Wyvern Lord Sword Installer.event"
+}
+{
+#include "RepalettesImprovedAnimations/Wyvern Lord Unarmed Installer.event"
+}
 #endif
 
 //////////////////////////////////////////////
@@ -307,6 +597,8 @@ WORD 0
 PaladinFAnim:
 SwordAnim(58)
 LanceAnim(59)
+AxeAnim(228)
+HandAxeAnim(229)
 UnarmedAnim(60)
 WORD 0
 
@@ -460,6 +752,8 @@ WORD 0
 
 WyvernKnightAnim:
 LanceAnim(98)
+AxeAnim(221)
+HandAxeAnim(222)
 UnarmedAnim(99)
 WORD 0
 
@@ -746,6 +1040,7 @@ WORD 0
 CyclopsAnim:
 AxeAnim(174)
 HandAxeAnim(175)
+BowAnim(227)
 UnarmedAnim(176)
 WORD 0
 
@@ -832,4 +1127,14 @@ AxeCavalierFAnim:
 AxeAnim(212)
 HandAxeAnim(213)
 UnarmedAnim(214)
+WORD 0
+
+TentAnim:
+UnarmedAnim(223)
+WORD 0
+
+KnightLordAnim:
+SwordAnim(224)
+LanceAnim(225)
+UnarmedAnim(226)
 WORD 0

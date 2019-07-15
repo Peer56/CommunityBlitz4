@@ -1,2 +1,68 @@
-//#define SongTableOffset 0x224470
-//#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+#include "drumfix_fe8.event"
+#ifndef SongTable
+#define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+#endif
+#define BattleMusicGroup 0
+#define MapMusicGroup 1
+#define SFXGroup 6
+
+//Example song
+//SongTable(99,My_song,MapMusicGroup)
+//#include "My_song.event"
+
+#include "FE6NoDamage Installer.txt"
+
+SongTable(9,never_gonna,MapMusicGroup)
+#include "Songs/never_gonna.event"
+
+SongTable(10,fe4ch1,MapMusicGroup)
+#include "Songs/fe4ch1.event"
+
+SongTable(11,DwellingOfDoom,MapMusicGroup)
+#include "Songs/DwellingOfDoom.event"
+
+SongTable(12,seahorse,MapMusicGroup)
+#include "Songs/seahorse.event"
+
+SongTable(13,TrainRush,MapMusicGroup)
+#include "Songs/TrainRush.event"
+
+SongTable(14,Bergentruckung,MapMusicGroup)
+#include "Songs/Bergentruckung.event"
+
+SongTable(15,BoatMaps,MapMusicGroup)
+#include "Songs/BoatMaps.event"
+
+SongTable(17,KaiTheme,MapMusicGroup)
+#include "Songs/KaiTheme.event"
+
+SongTable(18,L_Devoted,MapMusicGroup)
+#include "Songs/I_Devoted.event"
+
+SongTable(19,song01,MapMusicGroup)
+#include "Songs/LockedGirl.event"
+
+SongTable(20,questbattle,MapMusicGroup)
+#include "Songs/questbattle.event"
+
+SongTable(21,quicklydifficult,BattleMusicGroup)
+#include "Songs/quicklydifficult.event"
+
+SongTable(22,WorldBowser,MapMusicGroup)
+#include "Songs/WorldBowser.event"
+
+SongTable(23,ToccataAndDoomInDMinor,BattleMusicGroup)
+#include "Songs/ToccataAndDoomInDMinor.event"
+
+SongTable(24,unowen,MapMusicGroup)
+#include "Songs/unowen.event"
+
+SongTable(25,WithUs,MapMusicGroup)
+#include "Songs/WithUs.event"
+
+SongTable(26,FactoryInspection,MapMusicGroup)
+#include "Songs/FactoryInspection.event"
+
+SongTable(27,BeneathANewLight,MapMusicGroup)
+#include "Songs/BeneathANewLight.event"
+
