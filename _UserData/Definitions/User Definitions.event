@@ -82,3 +82,19 @@
 #define DestinyMug Destiny
 
 #define InfantryType 0x40
+
+//Goal text defs
+
+#define SurviveWindowText 0x19C
+#define DefeatBossWindowText 0x19D
+#define RoutWindowText 0x19E
+#define SeizeGateWindowText 0x19F
+#define SeizeThroneWindowText 0x1A1
+
+/* from table defs
+//Objective Display Definitions
+#define ObjectiveSeize 0x0
+#define ObjectiveRout 0x1
+#define ObjectiveDefend 0x2
+#define ObjectiveKillBoss 0x3
+*/

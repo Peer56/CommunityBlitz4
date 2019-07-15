@@ -6,5 +6,26 @@
 ## SampleText
 Your text here![X]
 
+##EscapeWindowText
+Escape[X]
+
+##ReconstructWindowText
+Reconstruct[X]
+
+##Kill2BossesWindowText
+Kill 2 Bosses[X]
+
+##DefeatFleetWindowText
+Defeat Fleet[X]
+
+##MultiSeizeWindowText
+Seize 3 Gates[X]
+
+##EscortConvoyWindowText
+Escort Convoy[X]
+
+##ArriveWindowText
+Arrive[X]
+
 #include "class_text.txt"
 #include "character_text.txt"
