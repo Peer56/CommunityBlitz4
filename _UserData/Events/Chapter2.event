@@ -136,7 +136,7 @@ UNIT
 
 // Enemies
 Enemies:
-UNIT Skaidrite Myrmidon_F 0x00 Level(5, Enemy, 0) [1,16] 0x03 0x00 0x0 0x00 [Lancereaver] NeverMoveAI //Lancereaver should be droppable
+UNIT Skaidrite Myrmidon_F 0x00 Level(5, Enemy, 0) [1,16] 0x02 0x00 0x0 0x00 [Lancereaver] NeverMoveAI //Lancereaver should be droppable
 UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [7,5] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
 UNIT 0x72 Fighter 0x00 Level(2, Enemy, 0) [8,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT 0x72 Mercenary 0x00 Level(2, Enemy, 0) [11,6] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
@@ -151,7 +151,7 @@ UNIT 0x72 Mage 0x00 Level(2, Enemy, 0) [11,15] 0x00 0x00 0x0 0x00 [Fire] AttackI
 UNIT 0x72 Monk 0x00 Level(2, Enemy, 0) [12,16] 0x00 0x00 0x0 0x00 [Lightning] AttackInRangeAI
 UNIT 0x72 Myrmidon 0x00 Level(2, Enemy, 0) [15,13] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI
 UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [15,17] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
-UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, 0) [8,17] 0x03 0x00 0x0 0x00 [Javelin, SteelSword, RedGem] AttackInRangeAI // Droppable Red Gem
+UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, 0) [8,17] 0x02 0x00 0x0 0x00 [Javelin, SteelSword, RedGem] AttackInRangeAI // Droppable Red Gem
 UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, 0) [0,16] 0x00 0x00 0x0 0x00 [IronLance, IronSword, RedGem] AttackInRangeAI // Stealable Red Gem
 UNIT
 
