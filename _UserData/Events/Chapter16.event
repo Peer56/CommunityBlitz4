@@ -174,8 +174,8 @@ UNIT Seth Paladin Eirika Level(1, Ally, 0) [23,26] 0x00 0x00 0x0 0x00 [0x00] NoA
 UNIT
 
 DuoMaidenos:
-UNIT GlenCC FalcoKnight Eirika Level(8, Ally, 0) [23,27] 0x00 0x00 0x0 0x00 [KillingEdge, ShortSpear, SteelSword] NoAI 
-UNIT SelenaCC Valkyrie Eirika Level(8, Ally, 0) [23,29] 0x00 0x00 0x0 0x00 [Divine, Barrier, Mend] NoAI 
+UNIT Rhosyn FalcoKnight Eirika Level(8, Ally, 0) [23,27] 0x00 0x00 0x0 0x00 [KillingEdge, ShortSpear, SteelSword] NoAI 
+UNIT Arwen Valkyrie Eirika Level(8, Ally, 0) [23,29] 0x00 0x00 0x0 0x00 [Divine, Barrier, Mend] NoAI 
 UNIT
 
 Bad: 

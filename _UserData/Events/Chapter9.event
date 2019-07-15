@@ -25,8 +25,8 @@ UNIT Seth Paladin Eirika Level(0,Ally,0) [12,1] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 NewUnits:
-UNIT Saleh Monk_F 0 Level(10,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Shine,GuidingRing] NoAI
-UNIT Ewan Troubadour 0 Level(8,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Mend,Rescue] NoAI
+UNIT Reagan Monk_F 0 Level(10,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Shine,GuidingRing] NoAI
+UNIT Ingrid Troubadour 0 Level(8,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Mend,Rescue] NoAI
 UNIT
 
 EnemyUnits:
