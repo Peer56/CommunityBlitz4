@@ -5,7 +5,7 @@
 SetChapterData(21,0x5F,0,0x60,0x61,0x62,Map,0,0,0x63)
 EventPointerTable(0x63, MapChanges)
 Map:
-#incbin "Endgame1_data.dmp"
+#incbin "Endgame1Map_data.dmp"
 
 MapChanges:
 TileMap(0,6,16,2,2,Tile_Layer_2)

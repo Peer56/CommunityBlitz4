@@ -67,5 +67,5 @@
 #include "Chapter9Map.event"
 }
 {
-#include "Endgame1.event"
+#include "Endgame1Map.event"
 }
