@@ -2,13 +2,15 @@
 Ria[X]
 
 ##RiaDesc
-RiaDesc[X]
+The princess of Pelrya. A talented[N]
+axefighter who is merciless to foes.[X]
 
 ##GarthanName
 Garthan[X]
 
 ##GarthanDesc
-GarthanDesc[X]
+The head of Pelrya's knights. Ria's[N]
+retainer who's dedicated to his land.[X]
 
 ##EverettName
 Everett[X]
@@ -38,16 +40,15 @@ Maurus[X]
 Furia[X]
 
 ##FuriaDesc
-A young mage of the Steelheart Mercenaries.[N]
-Above all else, she enjoys the pay for her jobs.[X]
+A member of the Steelheart Mercenaries.[N]
+She enjoys the pay for her jobs.[X]
 
 ##KateName
 Kate[X]
 
 ##KateDesc
-A former pegasus knight of Ustrana's 12th unit,[N]
-and founder of the Steelheart Mercenaries.[N]
-Her friends mean everything to her.[X]
+The founder of the Steelheart Mercenaries.[N]
+She values her allies above all else.[X]
 
 ##LilacName
 Lilac[X]
@@ -143,9 +144,8 @@ A lazy jokester who takes nothing seriously.[X]
 Irena[X]
 
 ##IrenaDesc
-A mercenary of the Steelheart Mercenaries,[N]
-and a clever thief. She steals, purely because[N]
-she is too lazy to work for what she wants.[X]
+A member of the Steelheart Mercenaries.[N]
+Steals because she's lazy.[X]
 
 ##ReaganName
 Reagan[X]
