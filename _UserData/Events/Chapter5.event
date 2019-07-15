@@ -84,11 +84,11 @@ UNIT Gershon AxeCav 0x0 Level(5,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 UNIT Osian Fighter 0x0 Level(5,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [IronAxe] NoAI
 
 ChName_BeginningScene:
-FADU 0x8
 LOAD1 0x1 NewUnits
 ENUN
 LOAD1 0 ASSHATS
 ENUN
+CLEA 0
 GotoPrepScreen
 ENDA
 
