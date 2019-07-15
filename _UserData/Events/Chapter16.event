@@ -1,0 +1,405 @@
+EventPointerTable(0x4B, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units1 Units1  //This unit group determines the number and position of deployment slots when there is a prep screen
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningScene EndingScene
+
+TurnBasedEvents:
+TURN 0x0 WaveFirst[3,0] 0x0
+TURN 0x0 WaveSecond[5,0] 0x0
+TURN 0x0 WaveThird[7,0] 0x0
+TURN 0x0 WaveFourth[10,0] 0x0
+TURN 0x0 WaveFifth[13,0] 0x0
+TURN 0x0 WaveSixth[17,0] 0x0
+TURN 0x0 WaveSeventh[19,0] 0x0
+END_MAIN
+
+WaveFirst:
+ReinforcementEvent(Wave1)
+ENDA
+
+Wave1:
+UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [24,0] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI
+UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [25,0] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [13,17] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI   
+UNIT
+
+WaveSecond:
+ReinforcementEvent(Wave2)
+ENDA
+
+Wave2:
+UNIT 0x80 Brigand Saar Level(20, Enemy, 1) [0,29] 0x00 0x00 0x0 0x00 [KillerAxe] BrigandAI
+UNIT 0x80 Brigand Saar Level(20, Enemy, 1) [0,26] 0x00 0x00 0x0 0x00 [KillerAxe] BrigandAI 
+UNIT
+
+WaveThird:
+ReinforcementEvent(Wave3)
+ENDA
+
+Wave3:
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [26,28] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [25,30] 0x00 0x00 0x0 0x00 [SilverAxe, Hammer] PursueWithoutHeedAI 
+UNIT 0x80 Paladin Saar Level(4, Enemy, 1) [1,6] 0x00 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI 
+UNIT 0x80 Paladin Saar Level(4, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [KillerLance, Zanbato] PursueWithoutHeedAI
+UNIT
+
+WaveFourth:
+ReinforcementEvent(Wave4)
+ENDA
+
+Wave4:
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [7,2] 0x00 0x00 0x0 0x00 [SilverLance, Axereaver] PursueWithoutHeedAI
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [8,3] 0x00 0x00 0x0 0x00 [SilverLance, Axereaver] PursueWithoutHeedAI
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Lancereaver] PursueWithoutHeedAI
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [14,16] 0x00 0x00 0x0 0x00 [SilverSword, Lancereaver] PursueWithoutHeedAI  
+UNIT
+
+WaveFifth:
+ReinforcementEvent(Wave5)
+ENDA
+
+Wave5:
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [14,16] 0x00 0x00 0x0 0x00 [SilverAxe, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Zanbato] PursueWithoutHeedAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SilverLance, Halberd] PursueWithoutHeedAI 
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,17] 0x00 0x00 0x0 0x00 [WindSword] PursueWithoutHeedAI   
+UNIT
+
+WaveSixth:
+ReinforcementEvent(Wave6)
+ENDA
+
+Wave6:
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [14,16] 0x00 0x00 0x0 0x00 [SilverAxe, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Zanbato] PursueWithoutHeedAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SilverLance, Halberd] PursueWithoutHeedAI 
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,17] 0x00 0x00 0x0 0x00 [WindSword] PursueWithoutHeedAI
+UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [25,25] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [26,28] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [25,30] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI
+UNIT
+
+WaveSeventh:
+ReinforcementEvent(Wave7)
+ENDA
+
+Wave7:
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [14,16] 0x00 0x00 0x0 0x00 [SilverAxe, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Zanbato] PursueWithoutHeedAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SilverLance, Halberd] PursueWithoutHeedAI 
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,17] 0x00 0x00 0x0 0x00 [WindSword] PursueWithoutHeedAI
+UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [25,25] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [26,28] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [25,30] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI
+UNIT 0x80 WyvernKnight Saar Level(20, Enemy, 1) [0,29] 0x00 0x00 0x0 0x00 [SilverAxe] BrigandAI
+UNIT 0x80 WyvernKnight Saar Level(20, Enemy, 1) [0,26] 0x00 0x00 0x0 0x00 [SilverLance] BrigandAI
+UNIT 0x80 MageKnight Saar Level(4, Enemy, 1) [1,6] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
+UNIT 0x80 MageKnight Saar Level(4, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
+UNIT 0x80 Valkyrie Saar Level(4, Enemy, 1) [7,2] 0x00 0x00 0x0 0x00 [Aura, Sleep] PursueWithoutHeedAI
+UNIT 0x80 Valkyrie Saar Level(4, Enemy, 1) [8,3] 0x00 0x00 0x0 0x00 [Aura, Silence] PursueWithoutHeedAI
+UNIT
+
+CharacterBasedEvents:
+END_MAIN
+
+RecruitTalk:
+MUSS 0x30
+Text(PlaceholderText)
+REMA
+CUSA Alya//Alya joins the party!
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
+
+LocationBasedEvents:
+Village(0x7,VillageLuna,9,7)
+Village(0x8,VillageRunesword,23,13)
+Village(0x9,VillageRestore,13,24)
+Village(0xA,VillageBarrier,8,28)
+Village(0xB,VillageCard,1,14)
+Armory(ArmoryItems1,20,15)
+Vendor(ShopItems1,18,4)
+Armory(ArmoryItems2,4,13)
+Vendor(ShopItems2,9,23)
+House(0,HouseEvent1,15,0)
+House(0,HouseEvent2,17,5)
+House(0,HouseEvent3,7,13)
+House(0,HouseEvent4,5,14)
+House(0,HouseEvent5,19,16)
+House(0,HouseEvent6,20,17)
+House(0,HouseEvent7,6,22)
+House(0,HouseEvent8,8,22)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+Seize(11, 4)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Units1:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [23,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [22,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [21,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [21,29] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [22,30] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [22,26] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [24,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [20,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [22,29] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [22,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [23,30] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, 0) [23,26] 0x00 0x00 0x0 0x00 [0x00] NoAI  
+UNIT
+
+DuoMaidenos:
+UNIT GlenCC FalcoKnight Eirika Level(8, Ally, 0) [23,27] 0x00 0x00 0x0 0x00 [KillingEdge, ShortSpear, SteelSword] NoAI 
+UNIT SelenaCC Valkyrie Eirika Level(8, Ally, 0) [23,29] 0x00 0x00 0x0 0x00 [Divine, Barrier, Mend] NoAI 
+UNIT
+
+Bad: 
+UNIT Macdaire MageKnight Saar Level(5, Enemy, 0) [3,22] 0x00 0x00 0x0 0x00 [Fimbulvetr, Silence] GuardTileAI 
+UNIT Beran Bishop Saar Level(5, Enemy, 0) [21,6] 0x00 0x00 0x0 0x00 [Aura, Physic] GuardTileAI 
+UNIT Saar Druid 0x00 Level(5, Enemy, 0) [3,4] 0x00 0x00 0x0 0x00 [Fenrir, Sleep] GuardTileAI 
+UNIT 0x80 MageKnight Saar Level(4, Enemy, 1) [4,24] 0x00 0x00 0x0 0x00 [Fimbulvetr] AttackInRangeAI 
+UNIT 0x80 Valkyrie Saar Level(4, Enemy, 1) [3,25] 0x00 0x00 0x0 0x00 [Aura] AttackInRangeAI 
+UNIT 0x80 Paladin Saar Level(4, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI 
+UNIT 0x80 Ranger Saar Level(4, Enemy, 1) [4,7] 0x00 0x00 0x0 0x00 [SilverSword, Longbow] AttackInRangeAI 
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [18,7] 0x00 0x00 0x0 0x00 [WindSword] AttackInRangeAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [19,8] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI 
+UNIT 0x80 Paladin_F Saar Level(4, Enemy, 1) [18,15] 0x00 0x00 0x0 0x00 [Spear, LightBrand] AttackInRangeAI 
+UNIT 0x80 Hero Saar Level(4, Enemy, 1) [11,25] 0x00 0x00 0x0 0x00 [Tomahawk] AttackInRangeAI 
+UNIT 0x80 Druid Saar Level(4, Enemy, 1) [7,10] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 Hero Saar Level(4, Enemy, 1) [6,10] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
+UNIT 0x80 Hero Saar Level(4, Enemy, 1) [6,30] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
+UNIT 0x80 Hero Saar Level(4, Enemy, 1) [13,5] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
+UNIT 0x80 Hero Saar Level(4, Enemy, 1) [21,12] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
+UNIT 0x80 Druid Saar Level(4, Enemy, 1) [20,12] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 Druid Saar Level(4, Enemy, 1) [6,29] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [2,16] 0x00 0x00 0x0 0x00 [BraveLance] AttackInRangeAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [25,5] 0x00 0x00 0x0 0x00 [BraveLance] AttackInRangeAI 
+UNIT 0x80 Paladin Saar Level(4, Enemy, 1) [24,8] 0x00 0x00 0x0 0x00 [SilverLance, SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 Paladin Saar Level(4, Enemy, 1) [25,9] 0x00 0x00 0x0 0x00 [Lancereaver, SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 Paladin Saar Level(4, Enemy, 1) [19,20] 0x00 0x00 0x0 0x00 [SilverBlade] PursueWithoutHeedAI 
+UNIT 0x80 Ranger Saar Level(3, Enemy, 1) [18,21] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 MageKnight Saar Level(3, Enemy, 1) [20,21] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
+UNIT 0x80 MageKnight Saar Level(3, Enemy, 1) [12,29] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
+UNIT 0x80 Hero Saar Level(3, Enemy, 1) [14,28] 0x00 0x00 0x0 0x00 [SilverBlade] PursueWithoutHeedAI 
+UNIT 0x80 Hero Saar Level(3, Enemy, 1) [14,30] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI 
+UNIT 0x80 Ranger Saar Level(3, Enemy, 1) [5,18] 0x00 0x00 0x0 0x00 [SilverBow, KillingEdge] PursueWithoutHeedAI 
+UNIT 0x80 FalcoKnight Saar Level(3, Enemy, 1) [5,17] 0x00 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI 
+UNIT 0x80 Bishop Saar Level(3, Enemy, 1) [6,19] 0x00 0x00 0x0 0x00 [Aura] PursueWithoutHeedAI 
+UNIT 0x80 Druid Saar Level(4, Enemy, 1) [6,14] 0x00 0x00 0x0 0x00 [Fenrir] GuardTileAI 
+UNIT 0x80 Druid Saar Level(4, Enemy, 1) [13,6] 0x00 0x00 0x0 0x00 [Fimbulvetr, Bolting] GuardTileAI 
+UNIT
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+BeginningScene:
+LOAD3 0x1 Units1
+ENUN
+LOAD1 0x1 DuoMaidenos
+ENUN
+LOAD1 0x1 Bad
+ENUN
+NoFade
+ENDA
+
+EndingScene:
+MNC2 18 //go to ch17
+NoFade
+ENDA
+
+VillageLuna:
+	// Set parameters
+	SVAL r1 LunaID
+	SVAL r2 (-1) // (-1) is active unit
+	
+	// Check if unit has skill
+	// If they have, goto label #0 (end)
+	ASMC (ASMC_HasSkill+1)
+	BNE 0 rC r0
+	
+	// Learn skill to unit
+	ASMC (ASMC_LearnNewSkill+1)
+	
+LABEL 0
+	// end
+	
+	Text(PlaceholderText)
+	
+	NoFade
+	ENDA
+	
+VillageRunesword:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 Runesword
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+VillageRestore:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 Restore
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+VillageBarrier:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 Barrier
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+VillageCard:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 SilverCard
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+	
+	// HouseEvent(PlaceholderText, HouseBG)
+	
+VillageBerserk:
+VillageEventItem(PlaceholderText, HouseBG, Berserk)
+
+HouseEvent1:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent2:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent3:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent4:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent5:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent6:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent7:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+HouseEvent8:
+MUSI //The music gets quieter for house scenes too
+FADI 10
+BACG 0x01 //Loads house with a fireplace background
+FADU 10
+Text(PlaceholderText)
+REMA
+MUNO //Undoes the music quieting effect
+ENDA
+
+ShopItems1:
+SHLI Heal Mend Elfire Physic Divine Flux PureWater Vulnerary Elixir Torch
+ALIGN 4
+
+ArmoryItems1:
+SHLI SteelAxe SilverAxe HandAxe SteelLance SilverLance Javelin SteelBow SilverBow ShortBow SteelSword SilverSword SteelBlade
+ALIGN 4
+
+ShopItems2:
+SHLI Fimbulvetr Aura Fenrir Rescue Fortify LightRune FillasMight
+ALIGN 4
+
+ArmoryItems2:
+SHLI KillerAxe Halberd Hammer KillerLance Horseslayer HeavySpear KillerBow Longbow KillingEdge Zanbato Armourslayer SilverBlade
+ALIGN 4

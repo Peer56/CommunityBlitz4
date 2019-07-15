@@ -1,6 +1,6 @@
 #include EAstdlib.event
 
-EventPointerTable(0x27,ThisChapter)
+EventPointerTable(0x24,ThisChapter)
 
 ThisChapter:
 POIN TurnBasedEvents
@@ -67,8 +67,6 @@ UNIT Garthan Knight 0x00 Level(1, Ally, 0) [18,21] 0x00 0x00 0x0 0x00 [0x00] NoA
 UNIT
 
 BeginningScene:
-LOAD2 0x1 Units
-ENUN
 LOAD1 0x1 NewUnits
 ENUN
 LOAD1 0x1 EnemyUnits
