@@ -1,7 +1,7 @@
 ﻿//Chapter 8 Event by Ganzap
 //Map by Karkino
 //Theres a shit ton of definitions but the actual events are there i swear
-EventPointerTable(0x2A,PointerList)
+EventPointerTable(0x27,PointerList)
 
 PointerList:
 POIN TurnBasedEvents
