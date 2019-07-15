@@ -3,7 +3,7 @@
 	.equ	WorldBowser_grp, voicegroup000
 	.equ	WorldBowser_pri, 0
 	.equ	WorldBowser_rev, 0
-	.equ	WorldBowser_mvl, 127
+	.equ	WorldBowser_mvl, 85
 	.equ	WorldBowser_key, 0
 	.equ	WorldBowser_tbs, 1
 	.equ	WorldBowser_exg, 0

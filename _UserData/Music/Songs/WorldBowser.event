@@ -4,7 +4,7 @@
 	#define	WorldBowser_grp  voicegroup000
 	#define	WorldBowser_pri  0
 	#define	WorldBowser_rev  0
-	#define	WorldBowser_mvl  127
+	#define	WorldBowser_mvl  85
 	#define	WorldBowser_key  0
 	#define	WorldBowser_tbs  1
 	#define	WorldBowser_exg  0

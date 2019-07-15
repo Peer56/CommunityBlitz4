@@ -3,7 +3,7 @@
 	.equ	ToccataAndDoomInDMinor_grp, voicegroup000
 	.equ	ToccataAndDoomInDMinor_pri, 0
 	.equ	ToccataAndDoomInDMinor_rev, 0
-	.equ	ToccataAndDoomInDMinor_mvl, 127
+	.equ	ToccataAndDoomInDMinor_mvl, 85
 	.equ	ToccataAndDoomInDMinor_key, 0
 	.equ	ToccataAndDoomInDMinor_tbs, 1
 	.equ	ToccataAndDoomInDMinor_exg, 0

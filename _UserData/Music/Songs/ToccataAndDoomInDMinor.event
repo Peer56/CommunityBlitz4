@@ -4,7 +4,7 @@
 	#define	ToccataAndDoomInDMinor_grp  voicegroup000
 	#define	ToccataAndDoomInDMinor_pri  0
 	#define	ToccataAndDoomInDMinor_rev  0
-	#define	ToccataAndDoomInDMinor_mvl  127
+	#define	ToccataAndDoomInDMinor_mvl  85
 	#define	ToccataAndDoomInDMinor_key  0
 	#define	ToccataAndDoomInDMinor_tbs  1
 	#define	ToccataAndDoomInDMinor_exg  0
