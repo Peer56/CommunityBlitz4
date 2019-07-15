@@ -1,43 +1,5 @@
 EventPointerTable(0x2A,Chapter9)
 
-#ifndef Monk_F
-#define Monk_F Monk
-#endif
-#ifndef AxeCav_F
-#define AxeCav_F Cavalier_F
-#endif
-#ifndef SwordCav
-#define SwordCav Cavalier
-#endif
-#ifndef SwordCav_F
-#define SwordCav_F Cavalier_F
-#endif
-#ifndef LanceCav
-#define LanceCav Cavalier
-#endif
-#ifndef LanceCav_F
-#define LanceCav_F Cavalier_F
-#endif
-#ifndef AxeCav
-#define AxeCav Cavalier
-#endif
-#ifndef Nomad
-#define Nomad Cavalier
-#endif
-#ifndef Nomad_F
-#define Nomad_F Cavalier_F
-#endif
-#ifndef NomadTrooper
-#define NomadTrooper Ranger
-#endif
-#ifndef NomadTrooper_F
-#define NomadTrooper_F Ranger_F
-#endif
-#ifndef PlaceholderText
-#define PlaceholderText 0x903
-#endif
-
-
 Chapter9:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
