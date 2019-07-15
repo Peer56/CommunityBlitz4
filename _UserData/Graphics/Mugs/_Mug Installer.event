@@ -86,6 +86,82 @@ ItzharPortrait:
 #incext PortraitFormatter "Playables/Itzhar.png"
 DestinyPortrait:
 #incext PortraitFormatter "Playables/Destiny.png"
+NathanPortrait:
+#incext PortraitFormatter "Bosses/Nathan.png"
+BernerPortrait:
+#incext PortraitFormatter "Bosses/Berner.png"
+SkaidritePortrait:
+#incext PortraitFormatter "Bosses/Skaidrite.png"
+IgnavePortrait:
+#incext PortraitFormatter "Bosses/Ignave.png"
+AlzoramPortrait:
+#incext PortraitFormatter "Bosses/Alzoram.png"
+MerarriPortrait:
+#incext PortraitFormatter "Bosses/Merarri.png"
+AlgrimPortrait:
+#incext PortraitFormatter "Bosses/Algrim.png"
+MaulochPortrait:
+#incext PortraitFormatter "Bosses/Mauloch.png"
+RicketsPortrait:
+#incext PortraitFormatter "Bosses/Rickets.png"
+LucioPortrait:
+#incext PortraitFormatter "Bosses/Lucio.png"
+CyrillePortrait:
+#incext PortraitFormatter "Bosses/Cyrille.png"
+BlunderbussPortrait:
+#incext PortraitFormatter "Bosses/Blunderbuss.png"
+AvanthPortrait:
+#incext PortraitFormatter "Bosses/Avanth.png"
+RansleyPortrait:
+#incext PortraitFormatter "Bosses/Ransley.png"
+VercingePortrait:
+#incext PortraitFormatter "Bosses/Vercinge.png"
+DiqhedPortrait:
+#incext PortraitFormatter "Bosses/Diqhed.png"
+EsmePortrait:
+#incext PortraitFormatter "Bosses/Esme.png"
+KorathPortrait:
+#incext PortraitFormatter "Bosses/Korath.png"
+GaburasPortrait:
+#incext PortraitFormatter "Bosses/Gaburas.png"
+AswangPortrait:
+#incext PortraitFormatter "Bosses/Aswang.png"
+ZelrothPortrait:
+#incext PortraitFormatter "Bosses/Zelroth.png"
+WulfricPortrait:
+#incext PortraitFormatter "Bosses/Wulfric.png"
+FloorentiusPortrait:
+#incext PortraitFormatter "Bosses/Floorentius.png"
+ZephyrPortrait:
+#incext PortraitFormatter "Bosses/Zephyr.png"
+GodfreyPortrait:
+#incext PortraitFormatter "Bosses/Godfrey.png"
+HeinrikPortrait:
+#incext PortraitFormatter "Bosses/Heinrik.png"
+MorphLucioPortrait:
+#incext PortraitFormatter "Bosses/MorphLucio.png"
+MorphEsmePortrait:
+#incext PortraitFormatter "Bosses/MorphEsme.png"
+MorphKorathPortrait:
+#incext PortraitFormatter "Bosses/MorphKorath.png"
+MorphWulfricPortrait:
+#incext PortraitFormatter "Bosses/MorphWulfric.png"
+MorphAswangPortrait:
+#incext PortraitFormatter "Bosses/MorphAswang.png"
+MorphZelrothPortrait:
+#incext PortraitFormatter "Bosses/MorphZelroth.png"
+MorphFloorentiusPortrait:
+#incext PortraitFormatter "Bosses/MorphFloorentius.png"
+MorphDiqhedPortrait:
+#incext PortraitFormatter "Bosses/MorphDiqhed.png"
+MorphAlgrimPortrait:
+#incext PortraitFormatter "Bosses/MorphAlgrim.png"
+TempestPortrait:
+#incext PortraitFormatter "Bosses/Tempest.png"
+TomorsiifPortrait:
+#incext PortraitFormatter "Bosses/Tomorsiif.png"
+MizukiPortrait:
+#incext PortraitFormatter "Bosses/Mizuki.png"
 
 
 setMugEntry(RiaMug, RiaPortrait, 2, 5, 3, 3)
@@ -130,23 +206,41 @@ setMugEntry(FelixMug, FelixPortrait, 2, 5, 3, 3)
 setMugEntry(WandaMug, WandaPortrait, 2, 5, 3, 3)
 setMugEntry(ItzharMug, ItzharPortrait, 2, 5, 3, 3)
 setMugEntry(DestinyMug, DestinyPortrait, 2, 5, 3, 3)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+setMugEntry(NathanMug, NathanPortrait, 0, 0, 0, 0)
+setMugEntry(BernerMug, BernerPortrait, 0, 0, 0, 0)
+setMugEntry(SkaidriteMug, SkaidritePortrait, 0, 0, 0, 0)
+setMugEntry(IgnaveMug, IgnavePortrait, 0, 0, 0, 0)
+setMugEntry(AlzoramMug, AlzoramPortrait, 0, 0, 0, 0)
+setMugEntry(MerarriMug, MerarriPortrait, 0, 0, 0, 0)
+setMugEntry(AlgrimMug, AlgrimPortrait, 0, 0, 0, 0)
+setMugEntry(MaulochMug, MaulochPortrait, 0, 0, 0, 0)
+setMugEntry(RicketsMug, RicketsPortrait, 0, 0, 0, 0)
+setMugEntry(LucioMug, LucioPortrait, 0, 0, 0, 0)
+setMugEntry(CyrilleMug, CyrillePortrait, 0, 0, 0, 0)
+setMugEntry(BlunderbussMug, BlunderbussPortrait, 0, 0, 0, 0)
+setMugEntry(AvanthMug, AvanthPortrait, 0, 0, 0, 0)
+setMugEntry(RansleyMug, RansleyPortrait, 0, 0, 0, 0)
+setMugEntry(VercingeMug, VercingePortrait, 0, 0, 0, 0)
+setMugEntry(DiqhedMug, DiqhedPortrait, 0, 0, 0, 0)
+setMugEntry(EsmeMug, EsmePortrait, 0, 0, 0, 0)
+setMugEntry(KorathMug, KorathPortrait, 0, 0, 0, 0)
+setMugEntry(GaburasMug, GaburasPortrait, 0, 0, 0, 0)
+setMugEntry(AswangMug, AswangPortrait, 0, 0, 0, 0)
+setMugEntry(ZelrothMug, ZelrothPortrait, 0, 0, 0, 0)
+setMugEntry(WulfricMug, WulfricPortrait, 0, 0, 0, 0)
+setMugEntry(FloorentiusMug, FloorentiusPortrait, 0, 0, 0, 0)
+setMugEntry(ZephyrMug, ZephyrPortrait, 0, 0, 0, 0)
+setMugEntry(GodfreyMug, GodfreyPortrait, 0, 0, 0, 0)
+setMugEntry(HeinrikMug, HeinrikPortrait, 0, 0, 0, 0)
+setMugEntry(MorphLucioMug, MorphLucioPortrait, 0, 0, 0, 0)
+setMugEntry(MorphEsmeMug, MorphEsmePortrait, 0, 0, 0, 0)
+setMugEntry(MorphKorathMug, MorphKorathPortrait, 0, 0, 0, 0)
+setMugEntry(MorphWulfricMug, MorphWulfricPortrait, 0, 0, 0, 0)
+setMugEntry(MorphAswangMug, MorphAswangPortrait, 0, 0, 0, 0)
+setMugEntry(MorphZelrothMug, MorphZelrothPortrait, 0, 0, 0, 0)
+setMugEntry(MorphFloorentiusMug, MorphFloorentiusPortrait, 0, 0, 0, 0)
+setMugEntry(MorphDiqhedMug, MorphDiqhedPortrait, 0, 0, 0, 0)
+setMugEntry(MorphAlgrimMug, MorphAlgrimPortrait, 0, 0, 0, 0)
+setMugEntry(TempestMug, TempestPortrait, 0, 0, 0, 0)
+setMugEntry(TomorsiifMug, TomorsiifPortrait, 0, 0, 0, 0)
+setMugEntry(MizukiMug, MizukiPortrait, 0, 0, 0, 0)
