@@ -1,7 +1,7 @@
 #define PromoBranchTableEntry(arg000,arg001) "BYTE arg000 arg001 "
 
 PUSH
-ORG 0xB9B470
+ORG 0xB9B494
 PromoBranchTableEntry(RiaGreatLord,0x0)
 PromoBranchTableEntry(0x0,0x0)
 PromoBranchTableEntry(KnightLord,0x0)

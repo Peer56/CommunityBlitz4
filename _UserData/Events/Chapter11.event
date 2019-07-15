@@ -1,4 +1,4 @@
-EventPointerTable(0xD1, PointerList)
+EventPointerTable(0x33, PointerList)
 
 PointerList:
 POIN TurnBasedEvents
@@ -227,11 +227,11 @@ LOAD1 0x1 Units1 //0x0 instead of 0x1 seems to be for allies on maps with prep s
 ENUN
 LOAD1 0x1 Bad
 ENUN
-// GotoPrepScreen
+GotoPrepScreen
 ENDA
 
 EndingScene:
-MNC2 12 //go to ch12
+MNC2 13 //go to ch12
 NoFade
 ENDA
 

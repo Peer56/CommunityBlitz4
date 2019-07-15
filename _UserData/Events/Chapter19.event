@@ -3,7 +3,7 @@
 //Blitz 4: Reawakening
 
 
-EventPointerTable(0x5e,ThisChapter)
+EventPointerTable(0x5a,ThisChapter)
 
 ThisChapter:
 POIN TurnBasedEvents

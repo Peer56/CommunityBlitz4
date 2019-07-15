@@ -47,7 +47,7 @@ gDanGoyleCharId:
 /* = CHAPTER DATA = */
 /* ================ */
 
-EventPointerTable(Ch10AEvent, ThisChapter)
+EventPointerTable(0x2D, ThisChapter)
 
 ALIGN 4
 ThisChapter:

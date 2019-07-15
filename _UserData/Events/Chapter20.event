@@ -79,6 +79,8 @@ CharacterBasedEvents:
 END_MAIN
 
 LocationBasedEvents:
+Village(7,Village1,8,14)
+Village(8,Village2,16,2)
 Seize(4,2)
 END_MAIN
 
@@ -109,7 +111,7 @@ NoFade
 ENDA
 
 EndingScene:
-MNC2 21
+MNC2 0
 NoFade
 ENDA
 
@@ -254,6 +256,28 @@ LOAD1 0x1 Reinforcements5
 ENUN
 LOAD1 0x1 Reinforcements6
 ENUN
+NoFade
+ENDA
+
+Village1:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 SecretBook
+GIVETO 0xFFFF
+MUNO
+NoFade
+ENDA
+
+Village2:
+MUSI
+SetBackground($1)
+Text(PlaceholderText)
+EndConvo
+SVAL 3 Boots
+GIVETO 0xFFFF
+MUNO
 NoFade
 ENDA
 
