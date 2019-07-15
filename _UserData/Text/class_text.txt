@@ -103,7 +103,7 @@ A lonesome fighter wandering[N]
 from place to place.[X]
 
 ##GazerName
-Gazer[X]
+Arch Mogall[X]
 
 ##TarvosElderName
 Tarvos Elder[X]
@@ -157,3 +157,6 @@ Knight Lord[X]
 
 ##KnightLordDesc
 KnightLordDesc[X]
+
+##NecrodragonName
+Necrodragon[X]

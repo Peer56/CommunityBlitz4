@@ -51,25 +51,38 @@
 #define Alzoram 0x44
 #define Merarri 0x45
 #define Algrim 0x46
-#define Rickets 0x47
-#define Lucio 0x48
-#define Cyrille 0x49
-//#define
-//#define
-//#define
-//#define
-#define Esme 0x4E
-#define Korath 0x4F
-#define Gaburas 0x59
-//#define
-#define Floorentius 0x51
-#define Flamebrand 0x56
-//#define
-//#define
-//#define
-#undef Fomortiis
-#define Fomortiis 0x55
-#define Mizuki 0x5A
+#define Mauloch 0x47
+#define Rickets 0x48
+#define Lucio 0x49
+#define Cyrille 0x4A
+#define Blunderbuss 0x4B
+#define Avanth 0x4C
+#define Ransley 0x4D
+#define Vercinge 0x4E
+#define Diqhed 0x4F
+#define Esme 0x50
+#define Korath 0x51
+#define Gaburas 0x52
+#define Aswang 0x53
+#define Zelroth 0x54
+#define Wulfric 0x55
+#define Floorentius 0x56
+#define Algrim 0x57
+#define Zephyr 0x58
+#define Godfrey 0x59
+#define Heinrik 0x5A
+#define Lucio2 0x5B
+#define Esme2 0x5C
+#define Korath2 0x5D
+#define Wulfric2 0x5E
+#define Aswang2 0x5F
+#define Zelroth2 0x60
+#define Floorentius2 0x61
+#define Diqhed2 0x62
+#define Algrim2 0x63
+#define Tempest 0x64
+#define Tomorsiif 0x65
+#define Mizuki 0x66
 
 //////////////////////////Generics
 
