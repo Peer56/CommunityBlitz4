@@ -50,6 +50,7 @@
 #define Ignave 0x43
 #define Alzoram 0x44
 #define Merarri 0x45
+#define Merrari Merarri
 #define Algrim 0x46
 #define Mauloch 0x47
 #define Rickets 0x48
