@@ -155,8 +155,8 @@
 #define RhosynDesc $DCF
 #define ArwenName $DD0
 #define ArwenDesc $DD1
-#define EoName $DD2
-#define EoDesc $DD3
+#define BrentName $DD2
+#define BrentDesc $DD3
 #define Anna2Name $DD4
 #define Anna2Desc $DD5
 #define FelixName $DD6

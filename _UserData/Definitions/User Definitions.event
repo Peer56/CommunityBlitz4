@@ -142,6 +142,8 @@
 #define MerrariDesc MerarriDesc
 #define VercingeName VerchingeName
 #define VercingeDesc VerchingeDesc
+#define Phantom GhostFighter
+#define Convoy Transporter
 
 //Goal text defs
 
@@ -158,3 +160,5 @@
 #define ObjectiveDefend 0x2
 #define ObjectiveKillBoss 0x3
 */
+
+
