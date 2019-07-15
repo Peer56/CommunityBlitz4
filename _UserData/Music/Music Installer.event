@@ -12,8 +12,8 @@
 
 #include "FE6NoDamage Installer.txt"
 
-SongTable(9,never_gonna,MapMusicGroup)
-#include "Songs/never_gonna.event"
+//SongTable(9,NeverGonna,MapMusicGroup)
+//#include "Songs/NeverGonna.event"
 
 SongTable(10,fe4ch1,MapMusicGroup)
 #include "Songs/fe4ch1.event"
