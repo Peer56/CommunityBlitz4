@@ -82,6 +82,9 @@ MovingMapSprite(58,0x1EC4FC,TemplarMovingMapSprite) //valkyrie
 StandingMapSprite(0x3D,1,2,TransporterStandingMapSprite)
 MovingMapSprite(62,0x1C692C,TransporterMovingMapSprite) //above cavs
 
+StandingMapSprite(0x7F,1,2,KnightLordStandingMapSprite)
+MovingMapSprite(0x84,0x1C692C,KnightLordMovingMapSprite)
+
 StandingMapSprite(0x2,1,2,0x1B7828)
 MovingMapSprite(0x3,0x1C3D7C,0x1C33CC)
 
@@ -311,3 +314,12 @@ TransporterMovingMapSprite:
 ALIGN 4
 HectorGreatLordAPData:
 #incbin "GLHectAP.bin"
+
+ALIGN 4
+KnightLordStandingMapSprite:
+#incext Png2Dmp "KnightLord.png" --lz77
+
+ALIGN 4
+KnightLordMovingMapSprite:
+#incext Png2Dmp "KnightLordMov.png" --lz77
+
