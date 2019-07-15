@@ -1,0 +1,86 @@
+EventPointerTable(0x64,Endgame1)
+
+
+Endgame1:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+PlayerUnits:
+UNIT Ria RiaLord 0 Level(0,Ally,0) [12,24] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [11,25] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [13,25] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [10,26] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [12,26] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [14,26] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [11,27] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [13,27] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [10,28] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [12,28] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [14,28] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [11,29] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [13,29] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [12,25] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [12,27] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [10,27] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,0) [14,27] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT
+
+EnemyUnits:
+UNIT
+
+TurnBasedEvents:
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+LocationBasedEvents:
+Door(1,24)
+Door(2,24)
+Door(6,24)
+Door(7,24)
+Door(17,24)
+Door(18,24)
+Door(22,24)
+Door(23,24)
+Door(6,16)
+Door(7,16)
+Door(17,16)
+Door(18,16)
+Chest(0,27)
+Chest(24,27)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+BeginningScene:
+GotoPrepScreen
+NoFade
+ENDA
+
+EndingScene:
+MNC2 22
+NoFade
+ENDA
+
