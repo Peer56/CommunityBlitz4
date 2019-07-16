@@ -1,27 +1,27 @@
 	.include "MPlayDef.s"
 
-	.equ	never_gonna_grp, voicegroup000
-	.equ	never_gonna_pri, 0
-	.equ	never_gonna_rev, 0
-	.equ	never_gonna_mvl, 85
-	.equ	never_gonna_key, 0
-	.equ	never_gonna_tbs, 1
-	.equ	never_gonna_exg, 0
-	.equ	never_gonna_cmp, 1
+	.equ	NeverGonna_grp, voicegroup000
+	.equ	NeverGonna_pri, 0
+	.equ	NeverGonna_rev, 0
+	.equ	NeverGonna_mvl, 85
+	.equ	NeverGonna_key, 0
+	.equ	NeverGonna_tbs, 1
+	.equ	NeverGonna_exg, 0
+	.equ	NeverGonna_cmp, 1
 
 	.section .rodata
-	.global	never_gonna
+	.global	NeverGonna
 	.align	2
 
 @**************** Track 1 (Midi-Chn.1) ****************@
 
-never_gonna_1:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_1:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
-	.byte	TEMPO , 118*never_gonna_tbs/2
+	.byte	TEMPO , 118*NeverGonna_tbs/2
 	.byte		VOICE , 123
 	.byte		PAN   , c_v-12
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W36
 	.byte		N01   , Dn2 , v108
 	.byte	W06
@@ -2618,19 +2618,19 @@ never_gonna_1:
 	.byte		        Gn1 , v088
 	.byte	W06
 	.byte	GOTO
-	 .word	never_gonna_1_B0
-never_gonna_1_B1:
+	 .word	NeverGonna_1_B0
+NeverGonna_1_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 2 (Midi-Chn.2) ****************@
 
-never_gonna_2:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_2:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 117
 	.byte		PAN   , c_v-21
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W23
 	.byte		BEND  , c_v+23
 	.byte	W12
@@ -2861,19 +2861,19 @@ never_gonna_2:
 @ 100   ----------------------------------------
 	.byte	W96
 	.byte	GOTO
-	 .word	never_gonna_2_B0
-never_gonna_2_B1:
+	 .word	NeverGonna_2_B0
+NeverGonna_2_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 3 (Midi-Chn.3) ****************@
 
-never_gonna_3:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_3:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 39
 	.byte		PAN   , c_v+21
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte		N05   , Ds0 , v108
@@ -2895,7 +2895,7 @@ never_gonna_3:
 	.byte		        Gs0 , v108
 	.byte	W06
 @ 002   ----------------------------------------
-never_gonna_3_002:
+NeverGonna_3_002:
 	.byte		N05   , Fn0 , v108
 	.byte	W12
 	.byte		N05   
@@ -3720,7 +3720,7 @@ never_gonna_3_002:
 	.byte	W06
 @ 046   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_3_002
+	 .word	NeverGonna_3_002
 @ 047   ----------------------------------------
 	.byte		N05   , Ds0 , v112
 	.byte	W12
@@ -4604,19 +4604,19 @@ never_gonna_3_002:
 	.byte		        Cs1 
 	.byte	W06
 	.byte	GOTO
-	 .word	never_gonna_3_B0
-never_gonna_3_B1:
+	 .word	NeverGonna_3_B0
+NeverGonna_3_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 4 (Midi-Chn.4) ****************@
 
-never_gonna_4:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_4:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 2
 	.byte		PAN   , c_v-11
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte		N30   , As2 , v092
@@ -5028,7 +5028,7 @@ never_gonna_4:
 	.byte		N54   , Fn3 , v088
 	.byte	W60
 @ 051   ----------------------------------------
-never_gonna_4_051:
+NeverGonna_4_051:
 	.byte		N30   , As2 , v088
 	.byte		N30   , Cs3 , v092
 	.byte		N30   , Fn3 
@@ -5067,7 +5067,7 @@ never_gonna_4_051:
 	.byte	W60
 @ 055   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_4_051
+	 .word	NeverGonna_4_051
 @ 056   ----------------------------------------
 	.byte		N12   , Gs2 , v092
 	.byte		N12   , Cn3 , v096
@@ -5367,19 +5367,19 @@ never_gonna_4_051:
 	.byte		        As3 , v092
 	.byte	W06
 	.byte	GOTO
-	 .word	never_gonna_4_B0
-never_gonna_4_B1:
+	 .word	NeverGonna_4_B0
+NeverGonna_4_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 5 (Midi-Chn.5) ****************@
 
-never_gonna_5:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_5:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 90
 	.byte		PAN   , c_v+14
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -5576,7 +5576,7 @@ never_gonna_5:
 @ 072   ----------------------------------------
 	.byte	W96
 @ 073   ----------------------------------------
-never_gonna_5_073:
+NeverGonna_5_073:
 	.byte		N90   , Cs3 , v084
 	.byte		N90   , Ds3 
 	.byte		N90   , Fs3 , v088
@@ -5591,7 +5591,7 @@ never_gonna_5_073:
 	.byte	W96
 @ 075   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_5_073
+	 .word	NeverGonna_5_073
 @ 076   ----------------------------------------
 	.byte		N12   , Cs3 , v088
 	.byte		N12   , Ds3 
@@ -5656,19 +5656,19 @@ never_gonna_5_073:
 @ 100   ----------------------------------------
 	.byte	W96
 	.byte	GOTO
-	 .word	never_gonna_5_B0
-never_gonna_5_B1:
+	 .word	NeverGonna_5_B0
+NeverGonna_5_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 6 (Midi-Chn.6) ****************@
 
-never_gonna_6:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_6:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 28
 	.byte		PAN   , c_v-30
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -5965,19 +5965,19 @@ never_gonna_6:
 @ 100   ----------------------------------------
 	.byte	W96
 	.byte	GOTO
-	 .word	never_gonna_6_B0
-never_gonna_6_B1:
+	 .word	NeverGonna_6_B0
+NeverGonna_6_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 7 (Midi-Chn.7) ****************@
 
-never_gonna_7:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_7:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 29
 	.byte		PAN   , c_v+30
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -6336,19 +6336,19 @@ never_gonna_7:
 @ 100   ----------------------------------------
 	.byte	W96
 	.byte	GOTO
-	 .word	never_gonna_7_B0
-never_gonna_7_B1:
+	 .word	NeverGonna_7_B0
+NeverGonna_7_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 8 (Midi-Chn.8) ****************@
 
-never_gonna_8:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_8:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 61
 	.byte		PAN   , c_v-13
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -6531,7 +6531,7 @@ never_gonna_8:
 @ 043   ----------------------------------------
 	.byte	W96
 @ 044   ----------------------------------------
-never_gonna_8_044:
+NeverGonna_8_044:
 	.byte	W60
 	.byte		N04   , Gs2 , v084
 	.byte		N04   , Gs3 
@@ -6660,7 +6660,7 @@ never_gonna_8_044:
 	.byte	W96
 @ 080   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_8_044
+	 .word	NeverGonna_8_044
 @ 081   ----------------------------------------
 	.byte	W96
 @ 082   ----------------------------------------
@@ -6731,7 +6731,7 @@ never_gonna_8_044:
 	.byte	W96
 @ 096   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_8_044
+	 .word	NeverGonna_8_044
 @ 097   ----------------------------------------
 	.byte	W96
 @ 098   ----------------------------------------
@@ -6741,19 +6741,19 @@ never_gonna_8_044:
 @ 100   ----------------------------------------
 	.byte	W96
 	.byte	GOTO
-	 .word	never_gonna_8_B0
-never_gonna_8_B1:
+	 .word	NeverGonna_8_B0
+NeverGonna_8_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 9 (Midi-Chn.9) ****************@
 
-never_gonna_9:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_9:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 48
 	.byte		PAN   , c_v+15
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte		N32   , Cs4 , v096
@@ -6846,7 +6846,7 @@ never_gonna_9:
 @ 020   ----------------------------------------
 	.byte	W96
 @ 021   ----------------------------------------
-never_gonna_9_021:
+NeverGonna_9_021:
 	.byte		N32   , Cs5 , v100
 	.byte	W36
 	.byte		        Ds5 
@@ -6868,7 +6868,7 @@ never_gonna_9_021:
 	.byte		N36   , Cs5 , v100
 	.byte	W06
 @ 023   ----------------------------------------
-never_gonna_9_023:
+NeverGonna_9_023:
 	.byte	W36
 	.byte		N32   , Ds5 , v096
 	.byte	W36
@@ -6876,7 +6876,7 @@ never_gonna_9_023:
 	.byte	W24
 	.byte	PEND
 @ 024   ----------------------------------------
-never_gonna_9_024:
+NeverGonna_9_024:
 	.byte	W72
 	.byte		N05   , Gs5 , v100
 	.byte	W06
@@ -6907,7 +6907,7 @@ never_gonna_9_024:
 	.byte		N36   , Cs5 
 	.byte	W06
 @ 027   ----------------------------------------
-never_gonna_9_027:
+NeverGonna_9_027:
 	.byte	W36
 	.byte		N32   , Ds5 , v100
 	.byte	W36
@@ -6945,9 +6945,9 @@ never_gonna_9_027:
 	.byte	W96
 @ 041   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_021
+	 .word	NeverGonna_9_021
 @ 042   ----------------------------------------
-never_gonna_9_042:
+NeverGonna_9_042:
 	.byte		N32   , Ds5 , v100
 	.byte	W36
 	.byte		        Fn5 , v096
@@ -6963,7 +6963,7 @@ never_gonna_9_042:
 	.byte	PEND
 @ 043   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_023
+	 .word	NeverGonna_9_023
 @ 044   ----------------------------------------
 	.byte	W72
 	.byte		N05   , Gs5 , v096
@@ -6975,7 +6975,7 @@ never_gonna_9_042:
 	.byte		N36   , Cs5 , v096
 	.byte	W06
 @ 045   ----------------------------------------
-never_gonna_9_045:
+NeverGonna_9_045:
 	.byte	W36
 	.byte		N32   , Ds5 , v096
 	.byte	W36
@@ -6996,7 +6996,7 @@ never_gonna_9_045:
 	.byte		N36   , Cs5 , v096
 	.byte	W06
 @ 047   ----------------------------------------
-never_gonna_9_047:
+NeverGonna_9_047:
 	.byte	W36
 	.byte		N32   , Ds5 , v096
 	.byte	W36
@@ -7009,7 +7009,7 @@ never_gonna_9_047:
 	.byte		EOT   
 	.byte	W21
 @ 049   ----------------------------------------
-never_gonna_9_049:
+NeverGonna_9_049:
 	.byte		N32   , Cs5 , v100
 	.byte	W36
 	.byte		        Ds5 
@@ -7019,7 +7019,7 @@ never_gonna_9_049:
 	.byte	PEND
 @ 050   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_042
+	 .word	NeverGonna_9_042
 @ 051   ----------------------------------------
 	.byte	W36
 	.byte		N32   , Ds5 , v100
@@ -7028,10 +7028,10 @@ never_gonna_9_049:
 	.byte	W24
 @ 052   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_024
+	 .word	NeverGonna_9_024
 @ 053   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_045
+	 .word	NeverGonna_9_045
 @ 054   ----------------------------------------
 	.byte		N32   , Ds5 , v100
 	.byte	W36
@@ -7047,7 +7047,7 @@ never_gonna_9_049:
 	.byte	W06
 @ 055   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_027
+	 .word	NeverGonna_9_027
 @ 056   ----------------------------------------
 	.byte	W72
 	.byte	W03
@@ -7100,7 +7100,7 @@ never_gonna_9_049:
 	.byte	W96
 @ 077   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_049
+	 .word	NeverGonna_9_049
 @ 078   ----------------------------------------
 	.byte		N32   , Ds5 , v096
 	.byte	W36
@@ -7116,9 +7116,9 @@ never_gonna_9_049:
 	.byte	W06
 @ 079   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_023
+	 .word	NeverGonna_9_023
 @ 080   ----------------------------------------
-never_gonna_9_080:
+NeverGonna_9_080:
 	.byte	W72
 	.byte		N05   , Gs5 , v100
 	.byte	W06
@@ -7150,14 +7150,14 @@ never_gonna_9_080:
 	.byte	W06
 @ 083   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_047
+	 .word	NeverGonna_9_047
 @ 084   ----------------------------------------
 	.byte	W72
 	.byte	W03
 	.byte		EOT   , Gs4 
 	.byte	W21
 @ 085   ----------------------------------------
-never_gonna_9_085:
+NeverGonna_9_085:
 	.byte		N32   , Cs5 , v100
 	.byte	W36
 	.byte		        Ds5 , v096
@@ -7180,13 +7180,13 @@ never_gonna_9_085:
 	.byte	W06
 @ 087   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_023
+	 .word	NeverGonna_9_023
 @ 088   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_080
+	 .word	NeverGonna_9_080
 @ 089   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_045
+	 .word	NeverGonna_9_045
 @ 090   ----------------------------------------
 	.byte		N32   , Ds5 , v096
 	.byte	W36
@@ -7202,7 +7202,7 @@ never_gonna_9_085:
 	.byte	W06
 @ 091   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_047
+	 .word	NeverGonna_9_047
 @ 092   ----------------------------------------
 	.byte	W72
 	.byte	W03
@@ -7210,7 +7210,7 @@ never_gonna_9_085:
 	.byte	W21
 @ 093   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_085
+	 .word	NeverGonna_9_085
 @ 094   ----------------------------------------
 	.byte		N32   , Ds5 , v100
 	.byte	W36
@@ -7242,7 +7242,7 @@ never_gonna_9_085:
 	.byte	W06
 @ 097   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_045
+	 .word	NeverGonna_9_045
 @ 098   ----------------------------------------
 	.byte		N32   , Ds5 , v096
 	.byte	W36
@@ -7258,26 +7258,26 @@ never_gonna_9_085:
 	.byte	W06
 @ 099   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_9_047
+	 .word	NeverGonna_9_047
 @ 100   ----------------------------------------
 	.byte	W72
 	.byte	W03
 	.byte		EOT   , Gs4 
 	.byte	W21
 	.byte	GOTO
-	 .word	never_gonna_9_B0
-never_gonna_9_B1:
+	 .word	NeverGonna_9_B0
+NeverGonna_9_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 10 (Midi-Chn.11) ****************@
 
-never_gonna_10:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_10:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 68
 	.byte		PAN   , c_v-8
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -7498,19 +7498,19 @@ never_gonna_10:
 @ 100   ----------------------------------------
 	.byte	W96
 	.byte	GOTO
-	 .word	never_gonna_10_B0
-never_gonna_10_B1:
+	 .word	NeverGonna_10_B0
+NeverGonna_10_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 11 (Midi-Chn.14) ****************@
 
-never_gonna_11:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_11:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 52
 	.byte		PAN   , c_v+20
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -8141,19 +8141,19 @@ never_gonna_11:
 	.byte		N44   , Cs4 
 	.byte	W72
 	.byte	GOTO
-	 .word	never_gonna_11_B0
-never_gonna_11_B1:
+	 .word	NeverGonna_11_B0
+NeverGonna_11_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 12 (Midi-Chn.15) ****************@
 
-never_gonna_12:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_12:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 52
 	.byte		PAN   , c_v-20
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -8408,19 +8408,19 @@ never_gonna_12:
 @ 100   ----------------------------------------
 	.byte	W96
 	.byte	GOTO
-	 .word	never_gonna_12_B0
-never_gonna_12_B1:
+	 .word	NeverGonna_12_B0
+NeverGonna_12_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @**************** Track 13 (Midi-Chn.16) ****************@
 
-never_gonna_13:
-	.byte	KEYSH , never_gonna_key+0
+NeverGonna_13:
+	.byte	KEYSH , NeverGonna_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 65
 	.byte		PAN   , c_v-9
-	.byte		VOL   , 100*never_gonna_mvl/mxv
+	.byte		VOL   , 100*NeverGonna_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
@@ -8512,7 +8512,7 @@ never_gonna_13:
 	.byte		N16   , Gs2 
 	.byte	W36
 @ 015   ----------------------------------------
-never_gonna_13_015:
+NeverGonna_13_015:
 	.byte	W12
 	.byte		N05   , As2 , v120
 	.byte	W12
@@ -8778,7 +8778,7 @@ never_gonna_13_015:
 	.byte	W36
 @ 035   ----------------------------------------
 	.byte	PATT
-	 .word	never_gonna_13_015
+	 .word	NeverGonna_13_015
 @ 036   ----------------------------------------
 	.byte		N11   , Ds3 , v124
 	.byte	W12
@@ -9646,34 +9646,34 @@ never_gonna_13_015:
 	.byte		N52   
 	.byte	W72
 	.byte	GOTO
-	 .word	never_gonna_13_B0
-never_gonna_13_B1:
+	 .word	NeverGonna_13_B0
+NeverGonna_13_B1:
 @ 101   ----------------------------------------
 	.byte	FINE
 
 @******************************************************@
 	.align	2
 
-never_gonna:
+NeverGonna:
 	.byte	13	@ NumTrks
 	.byte	0	@ NumBlks
-	.byte	never_gonna_pri	@ Priority
-	.byte	never_gonna_rev	@ Reverb.
+	.byte	NeverGonna_pri	@ Priority
+	.byte	NeverGonna_rev	@ Reverb.
 
-	.word	never_gonna_grp
+	.word	NeverGonna_grp
 
-	.word	never_gonna_1
-	.word	never_gonna_2
-	.word	never_gonna_3
-	.word	never_gonna_4
-	.word	never_gonna_5
-	.word	never_gonna_6
-	.word	never_gonna_7
-	.word	never_gonna_8
-	.word	never_gonna_9
-	.word	never_gonna_10
-	.word	never_gonna_11
-	.word	never_gonna_12
-	.word	never_gonna_13
+	.word	NeverGonna_1
+	.word	NeverGonna_2
+	.word	NeverGonna_3
+	.word	NeverGonna_4
+	.word	NeverGonna_5
+	.word	NeverGonna_6
+	.word	NeverGonna_7
+	.word	NeverGonna_8
+	.word	NeverGonna_9
+	.word	NeverGonna_10
+	.word	NeverGonna_11
+	.word	NeverGonna_12
+	.word	NeverGonna_13
 
 	.end

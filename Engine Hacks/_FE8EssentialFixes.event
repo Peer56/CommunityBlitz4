@@ -3,6 +3,13 @@
 
 PUSH
 
+// Fix CAM1/CAMERA2 going out of bounds
+  ORG $15D52
+  BYTE 14
+
+  ORG $15D66
+  BYTE 9
+
 //Fix Stone's map animation crashing no$ due to a bad decompression
   ORG $7E2B4
   BYTE 0x8

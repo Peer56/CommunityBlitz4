@@ -1,45 +1,5 @@
 EventPointerTable(0x41,Chapter14)
 
-#ifndef AxeCav_F
-#define AxeCav_F Cavalier_F
-#endif
-#ifndef SwordCav
-#define SwordCav Cavalier
-#endif
-#ifndef SwordCav_F
-#define SwordCav_F Cavalier_F
-#endif
-#ifndef LanceCav
-#define LanceCav Cavalier
-#endif
-#ifndef LanceCav_F
-#define LanceCav_F Cavalier_F
-#endif
-#ifndef AxeCav
-#define AxeCav Cavalier
-#endif
-#ifndef Nomad
-#define Nomad Cavalier
-#endif
-#ifndef Nomad_F
-#define Nomad_F Cavalier_F
-#endif
-#ifndef NomadTrooper
-#define NomadTrooper Ranger
-#endif
-#ifndef NomadTrooper_F
-#define NomadTrooper_F Ranger_F
-#endif
-#ifndef Halberdier
-#define Halberdier Knight
-#endif
-#ifndef Monk_F
-#define Monk_F Monk
-#endif
-#ifndef PlaceholderText
-#define PlaceholderText 0x903
-#endif
-
 Chapter14:
 POIN TurnBasedEvents
 POIN CharacterBasedEvents
@@ -68,8 +28,8 @@ UNIT Seth Paladin 0 Level(0,Ally,0) [1,13] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 NewUnits:
-UNIT Syrene Sage_F 0 Level(4,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Divine,Flux,Mend] NoAI
-UNIT Tana ArchMogall 0 Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [CrimsonEye] NoAI
+UNIT Feidlimid Sage_F 0 Level(4,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Divine,Flux,Mend] NoAI
+UNIT Dog ArchMogall 0 Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [CrimsonEye] NoAI
 UNIT
 
 EnemyUnits:
@@ -157,7 +117,7 @@ NoFade
 ENDA
 
 EndingScene:
-MNC2 18
+MNC2 16
 NoFade
 ENDA
 

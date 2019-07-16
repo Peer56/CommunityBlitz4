@@ -60,8 +60,8 @@ UNIT 0x80 Myrmidon 0x0 Level(5, Enemy, 1) [10, 7] 0x00 0x00 0x00 0x00 [IronSword
 UNIT 0x80 Myrmidon_F 0x0 Level(6, Enemy, 1) [6, 9] 0x00 0x00 0x00 0x00 [IronSword] AttackInRangeAI
 UNIT 0x80 Cavalier_F 0x0 Level(5, Enemy, 1) [5, 14] 0x00 0x00 0x00 0x00 [SteelSword, Javelin] PursueWithoutHeedAI
 UNIT 0x80 Cavalier 0x0 Level(6, Enemy, 1) [7, 14] 0x02 0x00 0x00 0x00 [SteelLance, WindSword] PursueWithoutHeedAI
-UNIT Ephraim AxeCav 0x0 Level(5, Enemy, 0) [6, 13] 0x00 0x00 0x00 0x00 [DevilAxe, HandAxe] PursueWithoutHeedAI
-UNIT Forde Fighter 0x0 Level(5, Enemy, 0) [13, 16] 0x00 0x00 0x00 0x00 [KillerAxe] PursueWithoutHeedAI
+UNIT Gershon AxeCav 0x0 Level(5, Enemy, 0) [6, 13] 0x00 0x00 0x00 0x00 [DevilAxe, HandAxe] PursueWithoutHeedAI
+UNIT Osian Fighter 0x0 Level(5, Enemy, 0) [13, 16] 0x00 0x00 0x00 0x00 [KillerAxe] PursueWithoutHeedAI
 UNIT 0x80 Mercenary 0x0 Level(6, Enemy, 1) [17, 17] 0x00 0x00 0x00 0x00 [IronBlade] AttackInRangeAI
 UNIT 0x80 Mage_F 0x0 Level(6, Enemy, 1) [14, 19] 0x00 0x00 0x00 0x00 [Thunder] AttackInRangeAI
 UNIT 0x80 WyvernRider 0x0 Level(6, Enemy, 1) [11, 11] 0x02 0x00 0x00 0x00 [SteelLance, Spear, Elixir] PursueWithoutHeedAI
@@ -77,18 +77,19 @@ UNIT Seth Paladin 0x0 Level(10, Ally, 0) [20, 21] 0x00 0x00 0x00 0x00 NoItems No
 UNIT Seth Paladin 0x0 Level(10, Ally, 0) [21, 22] 0x00 0x00 0x00 0x00 NoItems NoAI
 UNIT Seth Paladin 0x0 Level(10, Ally, 0) [22, 21] 0x00 0x00 0x00 0x00 NoItems NoAI
 UNIT Seth Paladin 0x0 Level(10, Ally, 0) [20, 23] 0x00 0x00 0x00 0x00 NoItems NoAI
+UNIT
 
 ChName_BeginningScene:
-FADU 0x8
 LOAD1 0 ASSHATS
 ENUN
+CLEA 0
 GotoPrepScreen
 ENDA
 
 
 ChName_EndingScene:
 //MNC2 6
-MNC2 8 //temp
+MNC2 7 //temp
 ENDA
 
 // Events

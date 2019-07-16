@@ -55,8 +55,8 @@ Door(6,16)
 Door(7,16)
 Door(17,16)
 Door(18,16)
-Chest(0,27)
-Chest(24,27)
+Chest(Hammerne,0,27)
+Chest(Latona,24,27)
 END_MAIN
 
 MiscBasedEvents:
@@ -80,7 +80,7 @@ NoFade
 ENDA
 
 EndingScene:
-MNC2 22
+MNC2 0
 NoFade
 ENDA
 

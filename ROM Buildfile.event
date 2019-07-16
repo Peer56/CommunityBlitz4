@@ -35,7 +35,7 @@
     //World Map Events
     #include "World Map Events/World Map Events Installer.event"
     
-    MESSAGE ROM space remaining is (0xBFFFFF - currentOffset)
+    MESSAGE "ROM space remaining is" (0xBFFFFF - currentOffset)
     
     ORG EndSpace
 

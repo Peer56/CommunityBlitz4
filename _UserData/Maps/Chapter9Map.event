@@ -8,10 +8,10 @@ Map:
 #incbin "Chapter9Map_data.dmp"
 
 MapChanges:
-TileMap(0,9,8,3,2,Tile_Layer_3)
-TileMap(1,10,9,1,1,Tile_Layer_2)
-TileMap(1,10,9,1,1,Tile_Layer_4)
-TileMap(1,10,9,1,1,Tile_Layer_5)
+TileMap(0,9,9,3,2,Tile_Layer_3)
+TileMap(1,10,10,1,1,Tile_Layer_2)
+TileMap(2,0,4,2,2,Tile_Layer_4)
+TileMap(3,0,5,1,1,Tile_Layer_5)
 TileMapEnd
 
 Tile_Layer_3:

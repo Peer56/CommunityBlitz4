@@ -156,8 +156,8 @@ NoFade
 ENDA
 
 SteelHeart:
-UNIT Marisa Thief Tethys Level(7, NPC, 0) [19,5] 0x00 0x00 0x1 REDA19R8 [Lancereaver, SlimSword, Lockpick] MoveWithLeaderAI
-UNIT Tethys Nomad_F Tethys Level(8, NPC, 0) [19,6] 0x00 0x00 0x1 REDA19R9 [KillerBow, SteelBow, Elixir] AttackInRangeAI
+UNIT Irena Thief Tethys Level(7, NPC, 0) [19,5] 0x00 0x00 0x1 REDA19R8 [Lancereaver, SlimSword, Lockpick] MoveWithLeaderAI
+UNIT Arla Nomad_F Tethys Level(8, NPC, 0) [19,6] 0x00 0x00 0x1 REDA19R9 [KillerBow, SteelBow, Elixir] AttackInRangeAI
 UNIT
 
 Units1:
