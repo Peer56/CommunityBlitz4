@@ -75,7 +75,7 @@ Door(7,16)
 Door(17,16)
 Door(18,16)
 Chest(Hammerne,0,27)
-Chest(Latona,24,27)
+Chest(Warp,24,27)
 END_MAIN
 
 MiscBasedEvents:
