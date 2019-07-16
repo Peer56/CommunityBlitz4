@@ -7,8 +7,6 @@
   <properties>
    <property name="Anims1" value="0"/>
    <property name="ChapterID" value="17"/>
-   <property name="Main" value=""/>
-   <property name="MapChangesID" value="0x4E"/>
    <property name="MapID" value="0x4D"/>
    <property name="ObjectType" value="SnowCastleObjectSet"/>
    <property name="PaletteID" value="SnowCastlePalette"/>
