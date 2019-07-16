@@ -27,7 +27,7 @@
 	B(EIDJump)
 	IEIDJump:
 	SHORT 0x4718	//bx r3
-	POIN ItemEffectTable
+	POIN IERevampTable
 	POIN Item_GetStat_EffectID | 1
 	
 	/*
