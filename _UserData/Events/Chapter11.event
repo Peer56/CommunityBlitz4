@@ -231,7 +231,7 @@ GotoPrepScreen
 ENDA
 
 EndingScene:
-MNC2 13 //go to ch12
+MNC2 12
 NoFade
 ENDA
 
