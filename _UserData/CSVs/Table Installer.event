@@ -10,3 +10,15 @@
 
 #include "Item Editor.event"
 
+#include "Walking Sounds Editor.event"
+
+#include "IERevamp Modules\FE8 Item AI Table.event"
+
+#include "IERevamp Modules\FE8 ItemBox Effect.event"
+
+#include "IERevamp Modules\FE8 Promotion Item Usability.event"
+
+#include "IERevamp Modules\FE8 Staff AI Table.event"
+
+#include "IERevamp Modules\FE8_Item_Effect_Revamp.event"
+
