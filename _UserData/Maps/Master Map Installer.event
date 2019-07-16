@@ -19,6 +19,9 @@
 #include "Chapter11Map.event"
 }
 {
+#include "Chapter12Map.event"
+}
+{
 #include "Chapter13Map.event"
 }
 {
@@ -71,4 +74,7 @@
 }
 {
 #include "Endgame1Map.event"
+}
+{
+#include "Endgame2Map.event"
 }
