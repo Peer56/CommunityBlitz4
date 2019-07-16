@@ -47,7 +47,7 @@ She enjoys the pay for her jobs.[X]
 Kate[X]
 
 ##KateDesc
-The founder of the Steelheart Mercenaries.[N]
+Leader of the Steelheart Mercenaries.[N]
 She values her allies above all else.[X]
 
 ##LilacName
@@ -129,16 +129,16 @@ Can make dishes meaner than his axe.[X]
 Anna[X]
 
 ##Anna1Desc
-One of the most well-known merchants in the land.[N]
+A well-known merchant among the land.[N]
 She's participating in relief efforts.[X]
 
 ##ArlaName
 Arla[X]
 
 ##ArlaDesc
-A deserter of the Ustrana army,[N]
-and a member of the Steelheart Mercenaries.[N]
-A lazy jokester who takes nothing seriously.[X]
+A deserter of the Ustrana army.[N]
+A member of the Steelheart Mercenaries,[N]
+who who takes nothing seriously.[X]
 
 ##IrenaName
 Irena[X]
