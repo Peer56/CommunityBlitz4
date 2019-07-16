@@ -1,0 +1,30 @@
+
+//quick fix for the ballista map sprites
+PUSH
+	//Empty Ballista map sprites
+	ORG $272E2
+	BYTE 0x69	//ballista 
+	ORG $272E6
+	BYTE 0x6A	//iron ballista
+	ORG $272EA
+	BYTE 0x6B	//killer ballista
+	
+	//Ballista Rider Map Sprites	
+		//Standing Sprites
+		ORG $17936
+		BYTE 0x66
+		ORG $1793A
+		BYTE 0x67
+		ORG $1793E
+		BYTE 0x68
+		
+		//Moving Sprites
+		ORG $78496
+		BYTE 0x67
+		ORG $7849A
+		BYTE 0x68
+		ORG $7849E
+		BYTE 0x69	
+	
+	MESSAGE "Updated ballista map sprites"
+POP

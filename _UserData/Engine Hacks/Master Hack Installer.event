@@ -2,6 +2,12 @@
 ALIGN 4
 #include "Escape/Escape Installer.event"
 
+#include "Item Effect Revamp/IERevamp_Installer.event"
+
+#include "Fancy Staves/_FancyStavesInstaller.event"
+
+#include "Ballista Map Sprite Fix.event"
+
 // Per Chapter Battle Quotes
 #include "PerChapterBattleQuotes/PerChapterBattleQuotes.event"
 

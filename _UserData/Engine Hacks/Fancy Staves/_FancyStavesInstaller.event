@@ -1,0 +1,45 @@
+#ifndef FreeSpace
+	#ifdef _FE8_
+		#define FreeSpace $B50000
+	#endif
+	ORG FreeSpace
+#endif
+
+//Made for esting new staff effects
+//#include "_FE8EssentialFixes.event"
+//#include "Text/Install Text Data.event"
+//#include "Table Installer.event"
+#include "_ItemArrayMacros.txt"
+#include "_TerrainIDList.event"
+
+MESSAGE "Fancy Staves" CURRENTOFFSET
+
+#include "_StaffTemplates.event"
+//#include "IERevamp_Installer.event"
+
+//REMOVING HEXING ROD STUFF BEFORE RELEASE
+#include "BallistaStaff_Setup.event" //remove until i fix how ballistae work
+//#include "LightruneStaff_Setup.event"
+//#include "MineStaff_Setup.event"
+//#include "RewarpStaff_Setup.event"
+//#include "StealStaff_Setup.event"
+//Consider moving Targeting stuff out of 6c folder since i need it for the usability check as well
+//#include "AgainStaff_Setup.event"
+#include "BurglarStaff_Setup.event"	//unlock staff but it opens both doors and chests WIP
+//#include "HexingRod_Setup.event"
+//move macros for setting item effects outside of the setup files
+
+{
+PUSH
+	ORG $2E2FC
+	jumpToHack(RemoveTrapFix)
+POP
+ALIGN 4
+RemoveTrapFix:
+#incbin "RemoveTrapFix.dmp" 
+}
+
+//Insert Custom Items
+#include "ItemEffects/SelfHealingItems_Setup.event"
+
+MESSAGE CURRENTOFFSET 

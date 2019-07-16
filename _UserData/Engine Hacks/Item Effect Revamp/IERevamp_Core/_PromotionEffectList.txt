@@ -1,0 +1,68 @@
+//list of effect ids used by promotion items
+//this is the list for promo items that are usable on the prep screen
+BYTE	0x19	//Hero Crest
+BYTE	0x1A	//Knight Crest
+BYTE	0x1B	//Orion's Bolt
+BYTE	0x1C	//Elysian Whip
+BYTE	0x1D	//Guiding Ring
+BYTE	0x2D	//Master Seal
+BYTE	0x2F	//Heaven Seal
+BYTE	0x30	//Ocean Seal
+BYTE	0x31	//Lunar Brace
+BYTE	0x32	//Solar Brace
+
+BYTE 0x0	//end of list
+
+{//fix vanilla promo stuff
+#include "Extensions\Hack Installation.txt"
+PUSH
+		//change stuff at promo item jump offsets
+		ORG $29394
+		SHORT 0x4A00
+		B(PromoCheckJump)
+		//POIN ClassList_HeroCrest
+		ORG $2939C
+		SHORT 0x4A00
+		B(PromoCheckJump)
+		//POIN ClassList_KnightCrest
+		ORG $293A4
+		SHORT 0x4A00
+		B(PromoCheckJump)
+		//POIN ClassList_OrionsBolt
+		ORG $293AC
+		SHORT 0x4A00
+		B(PromoCheckJump)
+		//POIN ClassList_ElysianWhip
+		ORG $293B4
+		SHORT 0x4A00
+		B(PromoCheckJump)
+		//POIN ClassList_GuidingRing
+		ORG $293BC
+		SHORT 0x4A00
+		B(PromoCheckJump)
+		//POIN ClassList_MasterSeal
+		//lord's promo items
+		ORG $293C4
+		SHORT 0x4A00
+		B(PromoCheckLordJump)
+		//POIN ClassList_LunarBrace
+		ORG $293CC
+		SHORT 0x4A00
+		B(PromoCheckLordJump)
+		//POIN ClassList_SolarBrace
+		ORG $293D4
+		SHORT 0x4A00
+		B(PromoCheckJump)
+		//POIN ClassList_HeavenSeal
+		ORG $293DC	//replaced the unused jump area
+		PromoCheckLordJump:
+		jumpToHack(PromoLordCheck)
+		ORG $293EA
+		SHORT 0x0
+		PromoCheckJump:
+		jumpToHack(PromoLevelCheck)
+		
+POP
+}
+
+//put stuff for new promo items here

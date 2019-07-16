@@ -1,0 +1,25 @@
+
+Symbol table '.symtab' contains 22 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 SECTION LOCAL  DEFAULT    1 
+     2: 00000000     0 SECTION LOCAL  DEFAULT    2 
+     3: 00000000     0 SECTION LOCAL  DEFAULT    3 
+     4: 00000000     0 NOTYPE  LOCAL  DEFAULT    1 $t
+     5: 00000048     0 NOTYPE  LOCAL  DEFAULT    1 ActionStruct
+     6: 0000004c     0 NOTYPE  LOCAL  DEFAULT    1 RamCharByID
+     7: 00000044     0 NOTYPE  LOCAL  DEFAULT    1 jump
+     8: 00000050     0 NOTYPE  LOCAL  DEFAULT    1 AttackerUpdate
+     9: 0000002a     0 NOTYPE  LOCAL  DEFAULT    1 skipDefender
+    10: 00000054     0 NOTYPE  LOCAL  DEFAULT    1 DefenderUpdate
+    11: 0000002e     0 NOTYPE  LOCAL  DEFAULT    1 $d
+    12: 00000030     0 NOTYPE  LOCAL  DEFAULT    1 $t
+    13: 00000058     0 NOTYPE  LOCAL  DEFAULT    1 Expthing
+    14: 0000005c     0 NOTYPE  LOCAL  DEFAULT    1 ItemGraphics
+    15: 00000048     0 NOTYPE  LOCAL  DEFAULT    1 $d
+    16: 00000000     0 SECTION LOCAL  DEFAULT    6 
+    17: 0000000c     0 NOTYPE  LOCAL  DEFAULT    9 $d
+    18: 00000000     0 SECTION LOCAL  DEFAULT    8 
+    19: 00000000     0 SECTION LOCAL  DEFAULT    4 
+    20: 00000000     0 SECTION LOCAL  DEFAULT    9 
+    21: 00000000     0 SECTION LOCAL  DEFAULT   11 
