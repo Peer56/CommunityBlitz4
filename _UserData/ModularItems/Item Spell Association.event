@@ -1,0 +1,9 @@
+#define ItemSpellAssociation(ItemNumber,IsMapOnly,RangedAnimation,EnableRangedAnimation,MapAnimation,DirectHPChange,MapSpriteDirection,AttackColor) "ORG SpellAssociationTable + ((ItemNumber-1) * 0x10); SpellAssociationEditor(ItemNumber,IsMapOnly,RangedAnimation,EnableRangedAnimation,0x0,MapAnimation,DirectHPChange,MapSpriteDirection,AttackColor,0x0)"
+
+PUSH
+	//Ballista Staff Animation
+	ItemSpellAssociation(0xA3,MapOnly,MapOnlyAnimation,0xff,Staff_LightRune_Anim|IsPointer,NoHPChange,0x0,0x0)
+	//Upgraded Unlock resuses unlock animation
+	ItemSpellAssociation(0xA4,MapOnly,MapOnlyAnimation,0xff,UnlockMapAnimation,NoHPChange,UnlockDirection,0x0)
+
+POP
