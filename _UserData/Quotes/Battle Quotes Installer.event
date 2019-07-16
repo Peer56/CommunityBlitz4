@@ -1,5 +1,8 @@
 #undef BattleQuoteTable
 
+//TwoWayBattleQuote(eventID,char1,char2,textID)
+//BattleQuote(eventID,char1,char2,textID)
+
 ALIGN 4
 BattleQuoteTable:
 TwoWayBattleQuote(0x0,ONeill,Prologue,0x916)
