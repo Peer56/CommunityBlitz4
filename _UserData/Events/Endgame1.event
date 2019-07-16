@@ -34,6 +34,25 @@ UNIT Seth Paladin 0 Level(0,Ally,0) [14,27] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 EnemyUnits:
+UNIT Lucio2 Sage 0 Level(20,Enemy,0) [6,18] 0x2 0x0 0x0 0x1 [Fimbulvetr] AttackInRangeAI
+UNIT Diqhed2 WyvernLord 0 Level(20,Enemy,0) [23,26] 0x2 0x0 0x0 0x1 [Vidofnir] AttackInRangeAI
+
+UNIT Korath2 Assassin 0 Level(20,Enemy,0) [6,26] 0x2 0x0 0x0 0x1 [Shamshir,BraveSword] AttackInRangeAI
+UNIT Wulfric2 MageKnight 0 Level(20,Enemy,0) [7,26] 0x2 0x0 0x0 0x1 [Excalibur] AttackInRangeAI
+
+UNIT Aswang2 Bishop 0 Level(20,Enemy,0) [17,26] 0x2 0x0 0x0 0x1 [Ivaldi,Latona] AttackInRangeAI
+UNIT Esme2 General_F 0 Level(20,Enemy,0) [7,18] 0x2 0x0 0x0 0x1 [BraveLance,BraveAxe,BraveSword] AttackInRangeAI
+
+UNIT Floorentius2 GreatKnight 0 Level(20,Enemy,0) [18,26] 0x2 0x0 0x0 0x1 [Audhulma] AttackInRangeAI
+
+UNIT Zelroth2 Summoner 0 Level(20,Enemy,0) [1,26] 0x2 0x0 0x0 0x1 [Gleipnir] AttackInRangeAI
+
+UNIT Algrim3 Berserker 0 Level(20,Enemy,0) [17,18] 0x2 0x0 0x0 0x1 [Garm] AttackInRangeAI
+
+UNIT
+
+GenericUnits:
+//todo: put a bunch of enemy monsters here
 UNIT
 
 TurnBasedEvents:
@@ -75,6 +94,10 @@ TrapData:
 END_MAIN
 
 BeginningScene:
+LOAD1 0x1 EnemyUnits
+ENUN
+LOAD1 0x1 GenericUnits
+ENUN
 GotoPrepScreen
 NoFade
 ENDA
