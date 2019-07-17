@@ -35,6 +35,7 @@ Chest(OrionsBolt,9,14)
 Chest(GuidingRing,0,22)
 Chest(Fenrir,13,25)
 ChestMoney(7500,9,12)
+Seize(0x0,EndingEvent,12,3)
 END_MAIN
 
 Dunno1:
