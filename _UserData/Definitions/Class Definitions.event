@@ -45,9 +45,15 @@
 #define BowCavalier_F Nomad
 #define BowCav_F Nomad
 #define SwordAxePaladin 7
+#define SwordPaladin SwordAxePaladin //alias
 #define SwordAxePaladin_F 8
+#define SwordPaladin_F SwordAxePaladin_F //alias
 #define LanceSwordPaladin 128
+#define LancePaladin LanceSwordPaladin //alias
 #define LanceSwordPaladin_F 129
+#define LancePaladin_F LanceSwordPaladin_F //alias
 #define AxeLancePaladin 130
+#define AxePaladin AxeLancePaladin //alias
 #define AxeLancePaladin_F 131
+#define AxePaladin_F AxeLancePaladin_F //alias
 #define KnightLord 132

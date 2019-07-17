@@ -1,0 +1,162 @@
+EventPointerTable(0x47, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units Units
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningEvent EndingEvent
+
+TurnBasedEvents:
+TurnEventPlayer(0x8,KorathReinforcements1,0x7,0x0)
+TurnEventPlayer(0x0,KorathReinforcements2,0x8,0x7)
+END_MAIN
+
+CharacterBasedEvents:
+CharacterEventBothWays(0x7,VolstaggRecruitmentRia,Ria,Volstagg)
+CharacterEventBothWays(0x7,VolstaggRecruitmentMaurus,Maurus,Volstagg)
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+LocationBasedEvents:
+Door(1,3)
+Door(1,20)
+Door(13,23)
+Chest(MasterSeal,0,1)
+Chest(OrionsBolt,9,14)
+Chest(GuidingRing,0,22)
+Chest(Fenrir,13,25)
+ChestMoney(7500,9,12)
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+Units:
+UNIT Ria RiaLord 0x00 Level(1, Ally, 0) [5,26] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [4,25] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [4,26] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [4,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [3,26] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [2,25] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [2,26] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [2,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [1,25] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [1,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [1,26] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [3,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Garthan GreatKnight 0x00 Level(1, Ally, 0) [3,25] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+Enemies:
+UNIT Gaburas Deathgoyle 0x00 Level(4, Enemy, 1) [12,3] 0x00 0x00 0x0 0x00 [Spear, Spear] NeverMoveAI
+UNIT 0x8C Sniper Gaburas Level(1, Enemy, 1) [9,25] 0x00 0x00 0x0 0x00 [KillerBow] AttackInRangeAI
+UNIT 0x8C Bonewalker_Bow Gaburas Level(20, Enemy, 1) [14,25] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI
+UNIT 0x8C AxePaladin Gaburas Level(3, Enemy, 1) [12,26] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI
+UNIT 0x8C Hero Gaburas Level(1, Enemy, 1) [12,16] 0x2 0x00 0x0 0x00 [SteelBlade] AttackInRangeAI
+UNIT 0x8C General Gaburas Level(1, Enemy, 1) [14,19] 0x2 0x00 0x0 0x00 [BraveLance, OceanSeal] AttackInRangeAI
+UNIT 0x8C Mauthedoog Gaburas Level(20, Enemy, 1) [6,17] 0x00 0x00 0x0 0x00 [SharpClaw] ChaseOnceApproachedAI
+UNIT 0x8C Mauthedoog Gaburas Level(20, Enemy, 1) [7,17] 0x00 0x00 0x0 0x00 [SharpClaw] ChaseOnceApproachedAI
+UNIT 0x8C Mauthedoog Gaburas Level(20, Enemy, 1) [5,19] 0x00 0x00 0x0 0x00 [SharpClaw] ChaseOnceApproachedAI
+UNIT 0x8C Berserker Gaburas Level(1, Enemy, 1) [4,21] 0x00 0x00 0x0 0x00 [Tomahawk] AttackInRangeAI
+UNIT 0x8C Gargoyle Gaburas Level(20, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [Axereaver, SilverLance] AttackInRangeAI
+UNIT 0x8C ElderBael Gaburas Level(1, Enemy, 1) [3,15] 0x00 0x00 0x0 0x00 [FetidClaw] AttackInRangeAI
+UNIT 0x8C Sage Gaburas Level(1, Enemy, 1) [2,13] 0x00 0x00 0x0 0x00 [Purge,Fire] NeverMoveAI
+UNIT 0x8C Swordmaster Gaburas Level(1, Enemy, 1) [6,11] 0x00 0x00 0x0 0x00 [KillingEdge] AttackInRangeAI
+UNIT 0x8C Druid Gaburas Level(1, Enemy, 1) [9,13] 0x00 0x00 0x0 0x00 [Nosferatu] AttackInRangeAI
+UNIT 0x8C Cyclops Gaburas Level(1, Enemy, 1) [10,3] 0x00 0x00 0x0 0x00 [Swordslayer, HandAxe] AttackInRangeAI
+UNIT 0x8C Bishop Gaburas Level(1, Enemy, 1) [0,4] 0x00 0x00 0x0 0x00 [Shine] AttackInRangeAI
+UNIT 0x8C GreatKnight Gaburas Level(1, Enemy, 1) [13,5] 0x00 0x00 0x0 0x00 [ShortSpear, Hammer] AttackInRangeAI
+UNIT 0x8C Warrior Gaburas Level(1, Enemy, 1) [12,1] 0x2 0x00 0x0 0x00 [BattleAxe, KillerBow, KnightCrest] AttackInRangeAI
+UNIT 0x8C Tarvos Gaburas Level(20, Enemy, 1) [0,9] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI
+UNIT 0x8C Tarvos Gaburas Level(20, Enemy, 1) [1,8] 0x00 0x00 0x0 0x00 [SilverAxe] AttackInRangeAI
+UNIT 0x8C Mogall Gaburas Level(20, Enemy, 1) [12,22] 0x00 0x00 0x0 0x00 [BloodyEye] AttackInRangeAI
+UNIT 0x8C GreatKnight Gaburas Level(1, Enemy, 1) [9,21] 0x00 0x00 0x0 0x00 [SilverBlade, Javelin] AttackInRangeAI
+UNIT 0x8C Halberdier Gaburas Level(3, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [ShortSpear] NeverMoveAI
+UNIT 0x8C ArmorKnight Gaburas Level(20, Enemy, 1) [7,9] 0x00 0x00 0x0 0x00 [ShortSpear] ChaseOnceApproachedAI
+UNIT 0x8C LanceCavalier Gaburas Level(20, Enemy, 1) [8,1] 0x00 0x00 0x0 0x00 [ShortSpear] AttackInRangeAI
+UNIT 0x8C LanceCavalier Gaburas Level(20, Enemy, 1) [6,1] 0x00 0x00 0x0 0x00 [ShortSpear] AttackInRangeAI
+UNIT 0x8C LanceCavalier Gaburas Level(20, Enemy, 1) [9,4] 0x00 0x00 0x0 0x00 [ShortSpear] AttackInRangeAI
+UNIT 0x8C Gwyllgi Gaburas Level(3, Enemy, 1) [3,3] 0x00 0x00 0x0 0x00 [HellFang] AttackInRangeAI
+UNIT 0x8C Entombed Gaburas Level(1, Enemy, 1) [1,21] 0x00 0x00 0x0 0x00 [FetidClaw] AttackInRangeAI
+UNIT 0x8C Revenant Gaburas Level(20, Enemy, 1) [0,22] 0x00 0x00 0x0 0x00 [FetidClaw] NeverMoveAI
+UNIT 0x8C Troubadour Gaburas Level(20, Enemy, 1) [7,1] 0x00 0x00 0x0 0x00 [Physic] NeverMoveAI
+UNIT
+
+VolstaggUnit:
+UNIT Volstagg Warrior 0x0 Level(2,Ally,0) [5,5] 0x0 0x0 0x0 0x0 [SilverAxe,Tomahawk] AttackInRangeAI
+UNIT
+
+KorathUnits1:
+UNIT Korath Assassin 0x0 Level(4,Enemy,1) [2,26] 0x0 0x0 0x0 0x0 [Shamshir,Runesword,Lancereaver,HoplonGuard] PursueWithoutHeedAI
+UNIT 0x8D Spartan Korath Level(1,Enemy,0) [1,25] 0x0 0x0 0x0 0x0 [SteelLance,IronSword] PursueWithoutHeedAI
+UNIT 0x8D Hero Korath Level(1,Enemy,0) [1,26] 0x0 0x0 0x0 0x0 [HandAxe,SteelSword] PursueWithoutHeedAI
+UNIT 0x8D Swordmaster Korath Level(1,Enemy,0) [1,27] 0x2 0x0 0x0 0x0 [WindSword,EnergyRing] PursueWithoutHeedAI
+UNIT
+
+KorathUnits2:
+UNIT 0x8D Spartan Korath Level(1,Enemy,0) [1,25] 0x0 0x0 0x0 0x0 [Javelin] PursueWithoutHeedAI
+UNIT 0x8D Hero Korath Level(1,Enemy,0) [1,26] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x8D Swordmaster Korath Level(1,Enemy,0) [1,27] 0x0 0x0 0x0 0x0 [SteelSword] PursueWithoutHeedAI
+UNIT
+
+KorathReinforcements1:
+LOAD1 0x1 KorathUnits1
+ENUN
+ENDA
+
+KorathReinforcements2:
+LOAD1 0x1 KorathUnits2
+ENUN
+ENDA
+
+VolstaggRecruitmentRia:
+Text(PlaceholderText)
+CUSA Volstagg
+ENDA
+
+VolstaggRecruitmentMaurus:
+Text(PlaceholderText)
+CUSA Volstagg
+ENDA
+
+BeginningEvent:
+LOAD2 0x1 Units
+ENUN
+LOAD1 0x1 Enemies
+ENUN
+LOAD1 0x1 VolstaggUnit
+ENUN
+NoFade
+GotoPrepScreen
+ENDA
+
+EndingEvent:
+MNC2 16
+NoFade
+ENDA
