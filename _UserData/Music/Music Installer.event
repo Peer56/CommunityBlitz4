@@ -30,7 +30,7 @@ SongTable(13,TrainRush,MapMusicGroup)
 SongTable(14,Bergentruckung,MapMusicGroup)
 #include "Songs/Bergentruckung.event"
 
-SongTable(15,BoatMaps,MapMusicGroup)
+SongTable(16,BoatMaps,MapMusicGroup)
 #include "Songs/BoatMaps.event"
 
 SongTable(17,KaiTheme,MapMusicGroup)
@@ -66,3 +66,5 @@ SongTable(26,FactoryInspection,MapMusicGroup)
 SongTable(27,BeneathANewLight,MapMusicGroup)
 #include "Songs/BeneathANewLight.event"
 
+SongTable(28,Friends,MapMusicGroup)
+#include "Songs/Friends.event"
