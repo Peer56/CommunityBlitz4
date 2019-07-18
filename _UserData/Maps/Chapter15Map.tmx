@@ -107,12 +107,12 @@
    <tile gid="339"/>
    <tile gid="307"/>
    <tile gid="376"/>
-   <tile gid="310"/>
+   <tile gid="179"/>
    <tile gid="209"/>
    <tile gid="273"/>
    <tile gid="241"/>
    <tile gid="273"/>
-   <tile gid="309"/>
+   <tile gid="179"/>
    <tile gid="376"/>
    <tile gid="376"/>
    <tile gid="307"/>
@@ -122,12 +122,12 @@
    <tile gid="310"/>
    <tile gid="468"/>
    <tile gid="468"/>
-   <tile gid="532"/>
+   <tile gid="116"/>
    <tile gid="75"/>
    <tile gid="76"/>
    <tile gid="76"/>
    <tile gid="77"/>
-   <tile gid="468"/>
+   <tile gid="116"/>
    <tile gid="468"/>
    <tile gid="468"/>
    <tile gid="468"/>
@@ -137,12 +137,12 @@
    <tile gid="532"/>
    <tile gid="242"/>
    <tile gid="242"/>
-   <tile gid="242"/>
+   <tile gid="147"/>
    <tile gid="273"/>
    <tile gid="273"/>
    <tile gid="273"/>
    <tile gid="273"/>
-   <tile gid="242"/>
+   <tile gid="147"/>
    <tile gid="242"/>
    <tile gid="274"/>
    <tile gid="242"/>
@@ -207,7 +207,7 @@
    <tile gid="67"/>
    <tile gid="407"/>
    <tile gid="307"/>
-   <tile gid="310"/>
+   <tile gid="179"/>
    <tile gid="209"/>
    <tile gid="241"/>
    <tile gid="339"/>
@@ -222,7 +222,7 @@
    <tile gid="242"/>
    <tile gid="339"/>
    <tile gid="468"/>
-   <tile gid="468"/>
+   <tile gid="116"/>
    <tile gid="75"/>
    <tile gid="77"/>
    <tile gid="339"/>
@@ -237,15 +237,15 @@
    <tile gid="67"/>
    <tile gid="339"/>
    <tile gid="178"/>
-   <tile gid="242"/>
-   <tile gid="273"/>
+   <tile gid="147"/>
+   <tile gid="210"/>
    <tile gid="273"/>
    <tile gid="309"/>
-   <tile gid="310"/>
+   <tile gid="179"/>
    <tile gid="209"/>
    <tile gid="273"/>
    <tile gid="273"/>
-   <tile gid="307"/>
+   <tile gid="179"/>
    <tile gid="376"/>
    <tile gid="307"/>
    <tile gid="376"/>
@@ -256,11 +256,11 @@
    <tile gid="81"/>
    <tile gid="273"/>
    <tile gid="467"/>
-   <tile gid="468"/>
+   <tile gid="116"/>
    <tile gid="75"/>
    <tile gid="76"/>
    <tile gid="77"/>
-   <tile gid="468"/>
+   <tile gid="116"/>
    <tile gid="468"/>
    <tile gid="468"/>
    <tile gid="468"/>
@@ -271,11 +271,11 @@
    <tile gid="113"/>
    <tile gid="209"/>
    <tile gid="274"/>
-   <tile gid="274"/>
+   <tile gid="147"/>
    <tile gid="273"/>
    <tile gid="81"/>
    <tile gid="273"/>
-   <tile gid="242"/>
+   <tile gid="147"/>
    <tile gid="242"/>
    <tile gid="274"/>
    <tile gid="242"/>
@@ -295,7 +295,7 @@
    <tile gid="273"/>
    <tile gid="273"/>
    <tile gid="273"/>
-   <tile gid="371"/>
+   <tile gid="179"/>
    <tile gid="209"/>
    <tile gid="241"/>
    <tile gid="273"/>
@@ -310,7 +310,7 @@
    <tile gid="273"/>
    <tile gid="273"/>
    <tile gid="273"/>
-   <tile gid="532"/>
+   <tile gid="116"/>
    <tile gid="209"/>
    <tile gid="241"/>
    <tile gid="81"/>
@@ -321,12 +321,12 @@
    <tile gid="209"/>
    <tile gid="273"/>
    <tile gid="273"/>
-   <tile gid="311"/>
+   <tile gid="339"/>
    <tile gid="209"/>
    <tile gid="273"/>
    <tile gid="273"/>
-   <tile gid="242"/>
-   <tile gid="241"/>
+   <tile gid="147"/>
+   <tile gid="210"/>
    <tile gid="273"/>
    <tile gid="113"/>
    <tile gid="209"/>
@@ -362,11 +362,11 @@
    <tile gid="273"/>
    <tile gid="307"/>
    <tile gid="376"/>
-   <tile gid="376"/>
+   <tile gid="179"/>
    <tile gid="307"/>
    <tile gid="307"/>
    <tile gid="376"/>
-   <tile gid="307"/>
+   <tile gid="179"/>
    <tile gid="307"/>
    <tile gid="209"/>
    <tile gid="273"/>
@@ -377,11 +377,11 @@
    <tile gid="307"/>
    <tile gid="468"/>
    <tile gid="468"/>
+   <tile gid="115"/>
    <tile gid="468"/>
    <tile gid="468"/>
    <tile gid="468"/>
-   <tile gid="468"/>
-   <tile gid="15"/>
+   <tile gid="174"/>
    <tile gid="274"/>
    <tile gid="273"/>
    <tile gid="81"/>
@@ -392,7 +392,7 @@
    <tile gid="274"/>
    <tile gid="7"/>
    <tile gid="7"/>
-   <tile gid="7"/>
+   <tile gid="244"/>
    <tile gid="7"/>
    <tile gid="7"/>
    <tile gid="7"/>
@@ -418,15 +418,15 @@
    <tile gid="273"/>
    <tile gid="339"/>
    <tile gid="209"/>
+   <tile gid="242"/>
    <tile gid="273"/>
-   <tile gid="273"/>
    <tile gid="6"/>
    <tile gid="6"/>
    <tile gid="6"/>
    <tile gid="6"/>
    <tile gid="6"/>
    <tile gid="6"/>
-   <tile gid="47"/>
+   <tile gid="109"/>
    <tile gid="273"/>
    <tile gid="273"/>
    <tile gid="273"/>
@@ -437,7 +437,7 @@
    <tile gid="307"/>
   </data>
  </layer>
- <layer name="Chest1" width="15" height="28">
+ <layer name="Chest1" width="15" height="28" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0x0"/>
@@ -868,7 +868,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Chest2" width="15" height="28">
+ <layer name="Chest2" width="15" height="28" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0x1"/>
@@ -1299,7 +1299,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Chest3" width="15" height="28">
+ <layer name="Chest3" width="15" height="28" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0x2"/>
@@ -1730,7 +1730,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Chest4" width="15" height="28">
+ <layer name="Chest4" width="15" height="28" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0x3"/>
@@ -2161,7 +2161,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Chest5" width="15" height="28">
+ <layer name="Chest5" width="15" height="28" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0x4"/>
@@ -2592,7 +2592,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Door1" width="15" height="28">
+ <layer name="Door1" width="15" height="28" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="0x5"/>
@@ -3023,7 +3023,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Door2" width="15" height="28">
+ <layer name="Door2" width="15" height="28" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="0x6"/>
@@ -3454,7 +3454,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Door3" width="15" height="28">
+ <layer name="Door3" width="15" height="28" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="0x7"/>
@@ -3885,7 +3885,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Wall1" width="15" height="28">
+ <layer name="Wall1" width="15" height="28" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="0x8"/>
@@ -4316,7 +4316,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Wall2" width="15" height="28">
+ <layer name="Wall2" width="15" height="28" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="0x9"/>

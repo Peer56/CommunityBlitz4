@@ -87,14 +87,14 @@ UNIT Garthan GreatKnight Ria Level(10, Ally, 0) [11,23] 0x00 0x00 0x0 0x00 [Silv
 UNIT 
 
 EnemyUnits:
-UNIT Murray EphraimSword 0x00 Level(18, Enemy, 0) [8,2] 0x2 0x00 0x0 0x00 [BraveSword, LightBrand, MasterProof] BossAI
+UNIT Murray EphraimLord 0x00 Level(18, Enemy, 0) [8,2] 0x2 0x00 0x0 0x00 [BraveSword, LightBrand, MasterProof] NeverMoveAI
 UNIT 0x86 SwordCavalier Murray Level(10, Enemy, 1) [1,17] 0x00 0x00 0x0 0x00 [SilverBlade] ChaseOnceApproachedAI
 UNIT 0x86 LanceCavalier Murray Level(10, Enemy, 1) [2,16] 0x00 0x00 0x0 0x00 [Javelin] ChaseOnceApproachedAI
 UNIT 0x86 AxeCavalier Murray Level(10, Enemy, 1) [1,15] 0x2 0x00 0x0 0x00 [HandAxe] ChaseOnceApproachedAI
 UNIT 0x86 SwordCavalier Murray Level(10, Enemy, 1) [18,10] 0x00 0x00 0x0 0x00 [SilverBlade] PursueWithoutHeedAI
 UNIT 0x86 LanceCavalier Murray Level(10, Enemy, 1) [19,10] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI
-UNIT 0x86 SwordKnight Murray Level(10, Enemy, 1) [15,18] 0x2 0x00 0x0 0x00 [KillingEdge] GuardTileAI
-UNIT 0x86 LanceKnight Murray Level(10, Enemy, 1) [15,14] 0x00 0x00 0x0 0x00 [BraveLance] GuardTileAI
+UNIT 0x86 ArmorKnight Murray Level(10, Enemy, 1) [15,18] 0x2 0x00 0x0 0x00 [KillingEdge] GuardTileAI
+UNIT 0x86 ArmorKnight Murray Level(10, Enemy, 1) [15,14] 0x00 0x00 0x0 0x00 [BraveLance] GuardTileAI
 UNIT 0x86 Mercenary Murray Level(10, Enemy, 1) [6,17] 0x2 0x00 0x0 0x00 [Armourslayer] AttackInRangeAI
 UNIT 0x86 Mercenary Murray Level(10, Enemy, 1) [7,16] 0x00 0x00 0x0 0x00 [SteelBlade] AttackInRangeAI
 UNIT 0x86 Mercenary Murray Level(10, Enemy, 1) [8,15] 0x00 0x00 0x0 0x00 [ShadowKiller] AttackInRangeAI
@@ -173,7 +173,7 @@ DarkJedi:
 UNIT Karn Hero 0x00 Level(1, Enemy, 0) [21,17] 0x2 0x00 0x0 REDA_OldDude [SteelBlade, KillerAxe, Speedwings] PursueWithoutHeedAI
 UNIT 0x86 Fighter Murray Level(14, Enemy, 1) [21,16] 0x2 0x00 0x0 REDA_Barst [BraveAxe] PursueWithoutHeedAI
 UNIT 0x86 Fighter Murray Level(14, Enemy, 1) [21,17] 0x00 0x00 0x0 REDA_Bord [SilverAxe] PursueWithoutHeedAI
-UNIT 0x86 Fighter Murray Level(14, Enemy, 1) [21,18] 0x00 0x00 0x0 REDA_Cord [Hammer, Handaxe] PursueWithoutHeedAI	
+UNIT 0x86 Fighter Murray Level(14, Enemy, 1) [21,18] 0x00 0x00 0x0 REDA_Cord [Hammer, HandAxe] PursueWithoutHeedAI	
 UNIT
 
 REDA_OldDude:
@@ -229,7 +229,7 @@ ENDA
 
 Forces2:
 UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [17,5] 0x00 0x00 0x0 REDA_Wyv1 [SteelAxe] PursueWithoutHeedAI
-UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [17,5] 0x00 0x00 0x0 REDA_Wyv2 [SwordReaver] PursueWithoutHeedAI
+UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [17,5] 0x00 0x00 0x0 REDA_Wyv2 [Swordreaver] PursueWithoutHeedAI
 UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [18,5] 0x00 0x00 0x0 REDA_Wyv3 [PoisonAxe] PursueWithoutHeedAI
 UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [18,5] 0x00 0x00 0x0 REDA_Wyv4 [HandAxe] PursueWithoutHeedAI
 
@@ -249,7 +249,7 @@ ENDA
 
 Forces3:
 UNIT 0x87 Soldier Murray Level(14, Enemy, 1) [12,12] 0x00 0x00 0x0 REDA_Sol1 [Axereaver] PursueWithoutHeedAI
-UNIT 0x87 Soldier Murray Level(14, Enemy, 1) [12,12] 0x00 0x00 0x0 REDA_Sol2 [SwordReaver] PursueWithoutHeedAI
+UNIT 0x87 Soldier Murray Level(14, Enemy, 1) [12,12] 0x00 0x00 0x0 REDA_Sol2 [Swordreaver] PursueWithoutHeedAI
 
 Forces4:
 UNIT 0x87 Mage Murray Level(14, Enemy, 1) [5,2] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI
@@ -261,25 +261,25 @@ REDA_Sol2:
 	REDA [12,11] 0 0 0 0	
 
 Sonny1:
-Text(RecruitText)
+Text(PlaceholderText)
 CUSA Sonny
 NoFade
 ENDA
 
 Sonny2:
-Text(RecruitText)
+Text(PlaceholderText)
 CUSA Sonny
 NoFade
 ENDA
 
 Katarn1:
-Text(RecruitText)
+Text(PlaceholderText)
 CUSA Karn
 NoFade
 ENDA
 
 Katarn2:
-Text(RecruitText)
+Text(PlaceholderText)
 CUSA Karn
 NoFade
 ENDA	
@@ -290,6 +290,7 @@ ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
 ConvoEvent(PlaceholderText)
+GotoPrepScreen
 ENDA
 	
 EndingScene:
