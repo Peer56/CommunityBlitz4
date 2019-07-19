@@ -51,11 +51,37 @@ UNIT Algrim3 Berserker 0 Level(20,Enemy,0) [17,18] 0x2 0x0 0x0 0x1 [Garm] Attack
 
 UNIT
 
+BigBoss:
+UNIT Tempest Manakete_2 0 Level(20,Enemy,0) [12,2] 0x0 0x0 0x0 0x1 [WretchedAir] NeverMoveAI
+UNIT
+
 GenericUnits:
-//todo: put a bunch of enemy monsters here
+UNIT 0x98 Deathgoyle 0 Level(20,Enemy,0) [9,23] 0x0 0x0 0x0 0x1 [SilverLance] AttackInRangeAI
+UNIT 0x98 Deathgoyle 0 Level(20,Enemy,0) [3,14] 0x0 0x0 0x0 0x1 [SilverLance] AttackInRangeAI
+UNIT 0x98 Deathgoyle 0 Level(20,Enemy,0) [23,19] 0x0 0x0 0x0 0x1 [SilverLance] AttackInRangeAI
+UNIT 0x98 Deathgoyle 0 Level(20,Enemy,0) [12,11] 0x0 0x0 0x0 0x1 [SilverLance] AttackInRangeAI
+UNIT 0x98 Gorgon 0 Level(20,Enemy,0) [9,14] 0x0 0x0 0x0 0x1 [Stone] AttackInRangeAI
+UNIT 0x98 Gorgon 0 Level(20,Enemy,0) [15,14] 0x0 0x0 0x0 0x1 [Stone] AttackInRangeAI
+UNIT 0x98 Maelduin 0 Level(20,Enemy,0) [16,22] 0x0 0x0 0x0 0x1 [SilverAxe,SilverBow] AttackInRangeAI
+UNIT 0x98 Maelduin 0 Level(20,Enemy,0) [11,18] 0x0 0x0 0x0 0x1 [SilverAxe,SilverBow] AttackInRangeAI
+UNIT 0x98 DracoZombie 0 Level(20,Enemy,0) [7,9] 0x0 0x0 0x0 0x1 [WretchedAir] AttackInRangeAI
+UNIT 0x98 DracoZombie 0 Level(20,Enemy,0) [17,9] 0x0 0x0 0x0 0x1 [WretchedAir] AttackInRangeAI
+UNIT 0x98 ElderBael 0 Level(20,Enemy,0) [22,23] 0x0 0x0 0x0 0x1 [LethalTalon] AttackInRangeAI
+UNIT 0x98 ElderBael 0 Level(20,Enemy,0) [21,14] 0x0 0x0 0x0 0x1 [LethalTalon] AttackInRangeAI
+UNIT 0x98 ElderBael 0 Level(20,Enemy,0) [2,4] 0x0 0x0 0x0 0x1 [LethalTalon] AttackInRangeAI
+UNIT 0x98 ElderBael 0 Level(20,Enemy,0) [22,4] 0x0 0x0 0x0 0x1 [LethalTalon] AttackInRangeAI
+UNIT 0x98 ArchMogall 0 Level(20,Enemy,0) [0,22] 0x0 0x0 0x0 0x1 [CrimsonEye] AttackInRangeAI
+UNIT 0x98 ArchMogall 0 Level(20,Enemy,0) [24,9] 0x0 0x0 0x0 0x1 [CrimsonEye] AttackInRangeAI
 UNIT
 
 TurnBasedEvents:
+TurnEventPlayer(0,DoorOpenEvent1,2)
+TurnEventPlayer(0,DoorOpenEvent2,4)
+TurnEventPlayer(0,DoorOpenEvent3,6)
+TurnEventPlayer(0,DoorOpenEvent4,8)
+TurnEventPlayer(0,DoorOpenEvent5,10)
+TurnEventPlayer(0,DoorOpenEvent6,12)
+TurnEventPlayer(0,BossSpawnEvent,14)
 END_MAIN
 
 CharacterBasedEvents:
@@ -107,3 +133,39 @@ MNC2 0
 NoFade
 ENDA
 
+
+DoorOpenEvent1:
+TILECHANGE 4
+NoFade
+ENDA
+
+DoorOpenEvent2:
+TILECHANGE 3
+NoFade
+ENDA
+
+DoorOpenEvent3:
+TILECHANGE 5
+NoFade
+ENDA
+
+DoorOpenEvent4:
+TILECHANGE 2
+NoFade
+ENDA
+
+DoorOpenEvent5:
+TILECHANGE 0
+NoFade
+ENDA
+
+DoorOpenEvent6:
+TILECHANGE 1
+NoFade
+ENDA
+
+BossSpawnEvent:
+LOAD1 0x1 BigBoss
+ENUN
+NoFade
+ENDA
