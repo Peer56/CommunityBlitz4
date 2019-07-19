@@ -621,3 +621,6 @@ ORG SkillIcon(ReMoveID)
 
 ORG SkillIcon(PowerstaffID)
 #incext Png2Dmp "Skill Icons\Powerstaff.png"
+
+ORG SkillIcon(RubygaleID)
+#incext Png2Dmp "Skill Icons\Rubygale.png"

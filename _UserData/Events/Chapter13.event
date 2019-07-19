@@ -67,10 +67,30 @@ UNIT 0x80 WyvernLord Tirado Level(4, Enemy, 1) [12,10] 0x00 0x00 0x0 0x00 [Brave
 UNIT
 
 CharacterBasedEvents:
-CharacterEventBothWays(0xA, RecruitTalk, Eirika, Alya)
+CharacterEventBothWays(0xA, RecruitTalkA, Eirika, Alya)
+CharacterEventBothWays(0xB, RecruitTalkH, Hadi, Alya)
+CharacterEventBothWays(0xC, RecruitTalkF, Fraoch, Alya)
 END_MAIN
 
-RecruitTalk:
+RecruitTalkA:
+MUSS 0x30
+Text(PlaceholderText)
+REMA
+CUSA Alya//Alya joins the party!
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
+
+RecruitTalkH:
+MUSS 0x30
+Text(PlaceholderText)
+REMA
+CUSA Alya//Alya joins the party!
+MURE 0x05 //Shifts back to map music
+NoFade
+ENDA
+
+RecruitTalkF:
 MUSS 0x30
 Text(PlaceholderText)
 REMA
@@ -113,30 +133,30 @@ END_MAIN
 
 Units1:
 UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [12,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [11,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [12,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [13,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [14,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [13,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [11,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [11,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [12,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [11,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [13,22] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [15,16] 0x00 0x00 0x0 0x00 [0x00] NoAI  
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [11,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [12,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [13,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [14,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [13,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [11,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [11,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [12,21] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [11,22] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [13,22] 0x00 0x00 0x0 0x00 [0x00] NoAI
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [15,16] 0x00 0x00 0x0 0x00 [0x00] NoAI  
 UNIT
 
 Bad: 
 UNIT Tirado WyvernLord 0x00 Level(5, Enemy, 0) [11,4] 0x00 0x00 0x0 0x00 [Spear, Lancereaver, SilverBlade, _3000G] NeverMoveAI
 UNIT Alya WyvernRider_F Tirado Level(15, Enemy, 0) [1,7] 0x00 0x00 0x0 0x00 [SteelLance, IronLance] AttackInRangeAI
-UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [17,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [19,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 SwdCav Tirado Level(15, Enemy, 1) [17,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x80 SwdCav Tirado Level(15, Enemy, 1) [19,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
 UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [18,13] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
-UNIT 0x80 Paladin Tirado Level(2, Enemy, 1) [21,20] 0x00 0x00 0x0 0x00 [Javelin, SteelSword] PursueWithoutHeedAI
+UNIT 0x80 LanceSwordPaladin Tirado Level(2, Enemy, 1) [21,20] 0x00 0x00 0x0 0x00 [Javelin, SteelSword] PursueWithoutHeedAI
 UNIT 0x80 Shaman Tirado Level(15, Enemy, 1) [20,22] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
 UNIT 0x80 Shaman Tirado Level(15, Enemy, 1) [19,21] 0x00 0x00 0x0 0x00 [Flux] PursueWithoutHeedAI
 UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [21,16] 0x00 0x00 0x0 0x00 [SteelAxe, SilverBow, _200G] PursueWithoutHeedAI
-UNIT 0x80 Paladin Tirado Level(2, Enemy, 1) [22,9] 0x00 0x00 0x0 0x00 [SilverLance, _200G] AttackInRangeAI
+UNIT 0x80 LanceSwordPaladin Tirado Level(2, Enemy, 1) [22,9] 0x00 0x00 0x0 0x00 [SilverLance, _200G] AttackInRangeAI
 UNIT 0x80 Warrior Tirado Level(3, Enemy, 1) [19,5] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI
 UNIT 0x80 Druid Tirado Level(3, Enemy, 1) [18,6] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI
 UNIT 0x80 Druid Tirado Level(3, Enemy, 1) [13,5] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI
@@ -152,11 +172,11 @@ UNIT 0x80 WyvernLord Tirado Level(2, Enemy, 1) [3,9] 0x00 0x00 0x0 0x00 [SteelBl
 UNIT 0x80 WyvernLord Tirado Level(2, Enemy, 1) [4,1] 0x2 0x00 0x0 0x00 [SteelLance, MasterProof] PursueWithoutHeedAI
 UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [4,17] 0x00 0x00 0x0 0x00 [SteelAxe, SilverBow] PursueWithoutHeedAI
 UNIT 0x80 Warrior Tirado Level(2, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [SteelAxe, SilverBow, _200G] AttackInRangeAI
-UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
-UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [7,20] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
-UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [8,21] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
-UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [5,14] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
-UNIT 0x80 Cavalier Tirado Level(15, Enemy, 1) [1,1] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
+UNIT 0x80 SwdCav Tirado Level(15, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
+UNIT 0x80 SwdCav Tirado Level(15, Enemy, 1) [7,20] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
+UNIT 0x80 SwdCav Tirado Level(15, Enemy, 1) [8,21] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
+UNIT 0x80 SwdCav Tirado Level(15, Enemy, 1) [5,14] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
+UNIT 0x80 SwdCav Tirado Level(15, Enemy, 1) [1,1] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI
 UNIT 0x80 Druid_F Tirado Level(4, Enemy, 1) [11,0] 0x00 0x00 0x0 0x00 [Flux, Sleep, Physic] HealUnits
 UNIT
 

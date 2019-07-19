@@ -344,7 +344,7 @@ opponent after combat.[N]
 (No effect if Move is --)[X]
 
 ## SD_Intimidate
-Intimidate: -10 Avoid to[N]
+Binding Aura: -10 Avoid to[N]
 all enemies within 2 tiles.[X]
 
 ## SD_Opportunist
@@ -857,3 +857,7 @@ another action at end of turn.[X]
 ##SD_Powerstaff
 Powerstaff: Get another action[N]
 after using a staff.[X]
+
+##SD_Rubygale
+Rubygale: Gain +1 Attack Speed[N]
+for every two squares moved.[X]

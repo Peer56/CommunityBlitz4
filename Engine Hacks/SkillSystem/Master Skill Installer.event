@@ -505,6 +505,11 @@ Puissance:
 POIN SkillTester
 WORD PuissanceID
 
+Rubygale:
+#incbin "New Skills/Rubygale.dmp"
+POIN SkillTester
+WORD RubygaleID
+
 BattleVeteran:
 #incbin "SoA Skills/BattleVeteran.dmp"
 POIN SkillTester
