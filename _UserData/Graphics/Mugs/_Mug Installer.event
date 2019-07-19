@@ -164,7 +164,7 @@ MizukiPortrait:
 #incext PortraitFormatter "Bosses/Mizuki.png"
 
 
-setMugEntry(RiaMug, RiaPortrait, 2, 5, 3, 3)
+setMugEntry(RiaMug, RiaPortrait, 3, 5, 3, 3)
 setMugEntry(GarthanMug, GarthanPortrait, 2, 5, 2, 3)
 setMugEntry(EverettMug, EverettPortrait, 2, 5, 3, 3)
 setMugEntry(IgnaceMug, IgnacePortrait, 2, 5, 3, 3)
