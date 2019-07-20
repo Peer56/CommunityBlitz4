@@ -2,6 +2,41 @@
 
 #include eastdlib.event
 
-SetChapterData(17,SnowCastleObjectSet,0,SnowCastlePalette,SnowCastleTileConfig,0x4D,Map,0,0,0)
+SetChapterData(17,SnowCastleObjectSet,0,SnowCastlePalette,SnowCastleTileConfig,0x4D,Map,0,0,0x55)
+EventPointerTable(0x55, MapChanges)
 Map:
 #incbin "Chapter17Map_data.dmp"
+
+MapChanges:
+TileMap(0,1,2,1,1,LeftDoor)
+TileMap(1,19,2,1,1,RightDoor)
+TileMap(2,0,0,1,1,Chest1)
+TileMap(3,2,0,1,1,Chest2)
+TileMap(4,19,0,1,1,Chest3)
+TileMap(5,20,1,1,1,Chest4)
+TileMapEnd
+
+LeftDoor:
+SHORT 0x464 
+ALIGN 4
+
+RightDoor:
+SHORT 0x464 
+ALIGN 4
+
+Chest1:
+SHORT 0x4 
+ALIGN 4
+
+Chest2:
+SHORT 0x4 
+ALIGN 4
+
+Chest3:
+SHORT 0x4 
+ALIGN 4
+
+Chest4:
+SHORT 0x4 
+ALIGN 4
+

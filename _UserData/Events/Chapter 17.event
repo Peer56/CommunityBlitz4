@@ -1,0 +1,239 @@
+#define Ch17Enemies 0x90
+#define Ch17Boss 0x51
+#define Chapter17EventID 0x56
+
+EventPointerTable(Chapter17EventID,ThisChapter)
+
+ThisChapter:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PrepScreenTemplate PrepScreenTemplate
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+
+TurnBasedEvents:
+	TURN 0x0 AnnounceReinforcements [3,0] 0x0 // Have the boss announce that Reinforcements are coming
+
+	// Different Reinforcements
+		TURN 0x0 Wave1 [5,0] 0x0
+		TURN 0x0 Wave2 [8,0] 0x0
+		TURN 0x0 Wave3 [10,0] 0x0
+		TURN 0x0 Wave4 [12,0] 0x0
+END_MAIN
+
+CharacterBasedEvents:
+	CharacterEvent(0x7,RecruitBrent,Eirika,Brent)
+END_MAIN
+
+LocationBasedEvents:
+	Seize(10,1) // If you don't specify any event, it will automatically run the EndingScene
+	
+	Door(1,2)
+	Door(19,2)
+	
+	//Chest in top left room
+		Chest(SilverSword,0,0)
+		Chest(SilverLance,2,0)
+		
+	//Chest in top right room
+		Chest(SilverAxe,19,0)
+		Chest(SilverBow,20,1)
+END_MAIN
+
+MiscBasedEvents:
+	CauseGameOverIfLordDies
+END_MAIN
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+TrapData:
+END_MAIN
+
+ALIGN 4
+//Events
+
+	//Reinforcement Events
+	
+		Wave1:
+			ReinforcementEvent(Reinforcements1)
+		ENDA
+	
+		Wave2:
+			ReinforcementEvent(Reinforcements2)
+		ENDA
+	
+		Wave3:
+			ReinforcementEvent(Reinforcements3)
+		ENDA
+	
+		Wave4:
+			ReinforcementEvent(Reinforcements4)
+		ENDA
+
+	//Important Events
+
+		BeginningScene:
+			//Load your existing player Units
+			LOAD3 0x1 PrepScreenTemplate
+			ENUN
+			
+			//Load the different Groups of enemies
+			LOAD1 0x1 InitialThroneRoom
+			LOAD1 0x1 InitialCenterRoom
+			LOAD1 0x1 InitialLeftCorridor
+			LOAD1 0x1 InitialRightCorridor
+			ENUN
+			
+			//Story Dialogue
+			Text(PlaceholderText) //Ch17Intro
+			REMA
+
+			//Go to the preparation Screen
+			GotoPrepScreen
+			NoFade
+		ENDA
+
+		EndingScene:
+			//Story Dialogue
+			Text(PlaceholderText) //Ch17Ending
+			REMA
+			
+			//Go to the next chapter
+			MNC2 19 //19 is the ID of chapter 18
+			NoFade //Do not fade
+		ENDA
+		
+	//Other Events
+	
+		AnnounceReinforcements:
+			Text(PlaceholderText) // Ch17AnnounceReinforcements
+			REMA
+			NoFade
+		ENDA
+		
+		RecruitBrent:
+			Text(PlaceholderText) // Ch17RecruitBrent
+			REMA
+			
+			//Turn Brent into an ally
+			CUSA Brent
+		ENDA
+
+//Units
+
+	//Your Units
+
+		PrepScreenTemplate:
+			UNIT Eirika EphraimLord 0x00 Level(1, Ally, 0) [10,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+			UNIT Seth LanceSwordPaladin 0x00 Level(1, Ally, 0) [9,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+			UNIT Seth LanceSwordPaladin 0x00 Level(1, Ally, 0) [11,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+			UNIT Seth LanceSwordPaladin 0x00 Level(1, Ally, 0) [8,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+			UNIT Seth LanceSwordPaladin 0x00 Level(1, Ally, 0) [12,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+			UNIT Seth LanceSwordPaladin 0x00 Level(1, Ally, 0) [13,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+			UNIT Seth LanceSwordPaladin 0x00 Level(1, Ally, 0) [7,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+			UNIT Seth LanceSwordPaladin 0x00 Level(1, Ally, 0) [9,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+			UNIT Seth LanceSwordPaladin 0x00 Level(1, Ally, 0) [11,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+			UNIT Seth LanceSwordPaladin 0x00 Level(1, Ally, 0) [10,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+			UNIT Seth LanceSwordPaladin 0x00 Level(1, Ally, 0) [7,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+			UNIT Seth LanceSwordPaladin 0x00 Level(1, Ally, 0) [13,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+		UNIT
+		
+	//Recruitable Units
+		MyGuyBrent:
+			UNIT Brent Spartan 0x00 Level(10, Ally, 0) [11,1] 0x00 0x00 0x0 0x00 [KillerLance] GuardTileAI 
+		UNIT
+
+	//Initial Enemies
+	
+		InitialThroneRoom:
+			UNIT Ch17Boss Sage 0x00 Level(10, Enemy, 0) [10,1] 0x00 0x00 0x0 0x00 [Fimbulvetr, Bolting] NeverMoveAI 
+			UNIT Ch17Enemies Swordmaster Ch17Boss Level(5, Enemy, 1) [7,4] 0x00 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
+			UNIT Ch17Enemies Swordmaster Ch17Boss Level(5, Enemy, 1) [13,4] 0x00 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
+			UNIT Ch17Enemies Hero Ch17Boss Level(5, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+			UNIT Ch17Enemies Hero Ch17Boss Level(5, Enemy, 1) [15,6] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+			UNIT Ch17Enemies Sniper Ch17Boss Level(5, Enemy, 1) [15,3] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+			UNIT Ch17Enemies Sniper Ch17Boss Level(5, Enemy, 1) [5,3] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+		UNIT
+	
+		InitialCenterRoom:
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [10,13] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies Knight Ch17Boss Level(15, Enemy, 1) [9,14] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+			UNIT Ch17Enemies Knight Ch17Boss Level(15, Enemy, 1) [11,14] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [6,9] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [7,9] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [13,9] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies Sniper Ch17Boss Level(5, Enemy, 1) [9,9] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+			UNIT Ch17Enemies Sniper Ch17Boss Level(5, Enemy, 1) [11,9] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+			UNIT Ch17Enemies Sage Ch17Boss Level(5, Enemy, 1) [10,10] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+		UNIT
+	
+		InitialLeftCorridor:
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [3,7] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [2,7] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [3,11] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [2,11] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [3,14] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [2,14] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+		UNIT
+	
+		InitialRightCorridor:
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [18,14] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [17,14] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [18,11] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [17,11] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [18,7] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+			UNIT Ch17Enemies General Ch17Boss Level(5, Enemy, 1) [17,7] 0x00 0x00 0x0 0x00 [SteelLance] NeverMoveAI 
+		UNIT
+
+	//Reinforcements
+	
+		Reinforcements1: // Paladin and Swordmaster Down Right and Down Left
+			UNIT Ch17Enemies Swordmaster Ch17Boss Level(5, Enemy, 1) [20,18] 0x00 0x00 0x0 0x00 [IronBlade] PursueWithoutHeedAI 
+			UNIT Ch17Enemies Swordmaster Ch17Boss Level(5, Enemy, 1) [0,18] 0x00 0x00 0x0 0x00 [IronBlade] PursueWithoutHeedAI 
+			UNIT Ch17Enemies LanceSwordPaladin Ch17Boss Level(5, Enemy, 1) [20,17] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+			UNIT Ch17Enemies LanceSwordPaladin Ch17Boss Level(5, Enemy, 1) [20,19] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+			UNIT Ch17Enemies LanceSwordPaladin Ch17Boss Level(5, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+			UNIT Ch17Enemies LanceSwordPaladin Ch17Boss Level(5, Enemy, 1) [0,19] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI 
+		UNIT
+		
+		Reinforcements2:
+			UNIT Ch17Enemies MageKnight Ch17Boss Level(5, Enemy, 1) [20,20] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies MageKnight Ch17Boss Level(5, Enemy, 1) [0,20] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies MageKnight Ch17Boss Level(5, Enemy, 1) [0,17] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies MageKnight Ch17Boss Level(5, Enemy, 1) [20,17] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies Sage Ch17Boss Level(5, Enemy, 1) [4,0] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies Sage Ch17Boss Level(5, Enemy, 1) [16,0] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+		UNIT
+
+		Reinforcements3:
+			UNIT Ch17Enemies Sage Ch17Boss Level(5, Enemy, 1) [14,14] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies Sage Ch17Boss Level(5, Enemy, 1) [6,14] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies Sage_F Ch17Boss Level(5, Enemy, 1) [15,10] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies Sage_F Ch17Boss Level(5, Enemy, 1) [5,10] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+		UNIT
+
+		Reinforcements4:
+			UNIT Ch17Enemies MageKnight Ch17Boss Level(5, Enemy, 1) [20,6] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies MageKnight Ch17Boss Level(5, Enemy, 1) [0,6] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies MageKnight Ch17Boss Level(5, Enemy, 1) [13,20] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies MageKnight Ch17Boss Level(5, Enemy, 1) [11,20] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies MageKnight Ch17Boss Level(5, Enemy, 1) [7,20] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies MageKnight Ch17Boss Level(5, Enemy, 1) [9,20] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies Sage Ch17Boss Level(5, Enemy, 1) [20,4] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies Sage Ch17Boss Level(5, Enemy, 1) [0,4] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies Sage Ch17Boss Level(5, Enemy, 1) [5,10] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+			UNIT Ch17Enemies Sage Ch17Boss Level(5, Enemy, 1) [15,10] 0x00 0x00 0x0 0x00 [Elfire] PursueWithoutHeedAI 
+		UNIT
