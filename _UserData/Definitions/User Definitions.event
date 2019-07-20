@@ -38,6 +38,8 @@
 #define Song_BeneathANewLight 27
 #define Song_Friends 28
 #define Song_DeadlySix 29
+#define Song_Battle 30
+#define Song_EnemyBattle 31
 
 //mug IDs
 #define RiaMug Ria

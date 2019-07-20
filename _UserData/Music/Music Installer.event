@@ -72,4 +72,10 @@ SongTable(28,Friends,MapMusicGroup)
 SongTable(29,DeadlySix,BattleMusicGroup)
 #include "Songs/DeadlySix.event"
 
+SongTable(30,Battle1,BattleMusicGroup)
+#include "Songs/Battle1.event"
+
+SongTable(31,EnemyBattle1,BattleMusicGroup)
+#include "Songs/EnemyBattle1.event"
+
 #include "Boss Music Editor.event"

@@ -1,0 +1,4753 @@
+//Event file generated from Sappy .s format.
+	#include "MPlayDef.event"
+
+	#define	Clash2_grp  voicegroup000
+	#define	Clash2_pri  0
+	#define	Clash2_rev  0
+	#define	Clash2_mvl  85
+	#define	Clash2_key  0
+	#define	Clash2_tbs  1
+	#define	Clash2_exg  0
+	#define	Clash2_cmp  1
+
+	// .rodata
+	//	Clash2
+	ALIGN 4
+
+//**************** Track 1 (Midi-Chn.1) ****************//
+
+Clash2_1:
+	BYTE	KEYSH   Clash2_key+0
+// 000   ----------------------------------------
+	BYTE	TEMPO   136*Clash2_tbs/2
+	BYTE		VOICE   29
+	BYTE		PAN     c_v-17
+	BYTE		VOL     112*Clash2_mvl/mxv
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE		N08     Cs3   v104
+	BYTE		N08     Fs3   v096
+	BYTE	W09
+	BYTE		        Cs3   v052
+	BYTE		N08     Fs3 
+	BYTE	W09
+	BYTE		        Dn3   v104
+	BYTE		N08     Gn3   v096
+	BYTE	W09
+	BYTE		        Dn3   v052
+	BYTE		N08     Gn3 
+	BYTE	W09
+	BYTE		        Bn2   v104
+	BYTE		N08     En3   v096
+	BYTE	W09
+	BYTE		        Bn2   v052
+	BYTE		N08     En3 
+	BYTE	W09
+	BYTE		        Gn3   v104
+	BYTE		N08     Cn4   v096
+	BYTE	W09
+	BYTE		        Gn3   v052
+	BYTE		N08     Cn4 
+	BYTE	W32
+	BYTE	W01
+// 003   ----------------------------------------
+	BYTE		VOL     107*Clash2_mvl/mxv
+	BYTE		MOD     0
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE		N92     Fs2   v072
+	BYTE		N92     Cs3 
+	BYTE	W07
+	BYTE		VOL     107*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        83*Clash2_mvl/mxv
+	BYTE	W16
+	BYTE		        84*Clash2_mvl/mxv
+	BYTE	W10
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W11
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W10
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W10
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W03
+// 005   ----------------------------------------
+	BYTE		N92     Fs2 
+	BYTE		N92     Dn3 
+	BYTE	W02
+	BYTE		VOL     92*Clash2_mvl/mxv
+	BYTE	W10
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        94*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        98*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        100*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        106*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        107*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        109*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        112*Clash2_mvl/mxv
+	BYTE	W10
+// 006   ----------------------------------------
+	BYTE		N17     Fs2 
+	BYTE	W18
+	BYTE		        Gn2 
+	BYTE	W18
+	BYTE		        Cn3 
+	BYTE	W21
+	BYTE		        Gn3 
+	BYTE	W21
+	BYTE		N05     Dn3   v096
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE		N44     Gs3   v084
+	BYTE	W04
+	BYTE		VOL     105*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N44     Bn3   v080
+	BYTE	W01
+	BYTE		VOL     94*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        100*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        107*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        110*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        112*Clash2_mvl/mxv
+	BYTE	W07
+Clash2_1_B1:
+// 008   ----------------------------------------
+	BYTE		VOL     112*Clash2_mvl/mxv
+	BYTE		N80     Fs3   v080
+	BYTE	W84
+	BYTE		N05     Fs3   v036
+	BYTE	W12
+// 009   ----------------------------------------
+	BYTE		N23     Fs3   v080
+	BYTE	W24
+	BYTE		N05     En3   v096
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		N17     Bn3   v080
+	BYTE	W18
+	BYTE		N05     Fs3   v096
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Bn3   v036
+	BYTE	W06
+	BYTE		        Fs3   v096
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+// 010   ----------------------------------------
+	BYTE		N23     An3   v080
+	BYTE	W24
+	BYTE		N05     Cs3   v096
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N32     An3   v080
+	BYTE	W36
+	BYTE		N05     En3   v096
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+// 011   ----------------------------------------
+	BYTE		N32     Gs3   v080
+	BYTE	W36
+	BYTE		        En4 
+	BYTE	W36
+	BYTE		N23     Fs4 
+	BYTE	W24
+// 012   ----------------------------------------
+	BYTE		N05     Fs4   v036
+	BYTE	W24
+	BYTE		        Cs4   v096
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N32     En4   v080
+	BYTE	W04
+	BYTE		VOL     107*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        98*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        107*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        112*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		N05     Dn3   v096
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+// 013   ----------------------------------------
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		N40     An3   v080
+	BYTE	W01
+	BYTE		VOL     104*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        100*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        112*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		N05     Bn3   v096
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+// 014   ----------------------------------------
+	BYTE		N44     Dn3   v080
+	BYTE	W05
+	BYTE		VOL     107*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        98*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        84*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        81*Clash2_mvl/mxv
+	BYTE	W14
+	BYTE		        82*Clash2_mvl/mxv
+	BYTE	W10
+	BYTE		        82*Clash2_mvl/mxv
+	BYTE	W09
+	BYTE		        83*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N44     En3 
+	BYTE	W08
+	BYTE		VOL     84*Clash2_mvl/mxv
+	BYTE	W09
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W10
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W07
+// 015   ----------------------------------------
+	BYTE		N44     Fs3 
+	BYTE	W03
+	BYTE		VOL     89*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        94*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        98*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		N44     Gs3 
+	BYTE	W02
+	BYTE		VOL     99*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        105*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        107*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        109*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        111*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        112*Clash2_mvl/mxv
+	BYTE	W12
+// 016   ----------------------------------------
+	BYTE		N05     Fs3   v088
+	BYTE	W06
+	BYTE		        Gs2 
+	BYTE	W06
+	BYTE		        An2 
+	BYTE	W06
+	BYTE		N56     Fs3   v080
+	BYTE	W60
+	BYTE		N05     Gs2 
+	BYTE	W06
+	BYTE		N03     Cs3 
+	BYTE	W04
+	BYTE		        Dn3 
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W04
+// 017   ----------------------------------------
+	BYTE		N23     Fs3 
+	BYTE	W24
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		N17     Bn3 
+	BYTE	W18
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+// 018   ----------------------------------------
+	BYTE		N23     An3 
+	BYTE	W24
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        Cs3   v068
+	BYTE	W06
+	BYTE		N23     An3   v080
+	BYTE	W24
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		        An3   v088
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+// 019   ----------------------------------------
+	BYTE		N32     Gs3 
+	BYTE	W03
+	BYTE		VOL     104*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        83*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        76*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        75*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        76*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        77*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        78*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        79*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        80*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        81*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        82*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N40     Bn3 
+	BYTE	W01
+	BYTE		VOL     83*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        84*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        112*Clash2_mvl/mxv
+	BYTE	W08
+	BYTE		N05     Bn3   v036
+	BYTE	W18
+// 020   ----------------------------------------
+	BYTE		N32     Cs4   v068
+	BYTE	W36
+	BYTE		        En4   v064
+	BYTE	W36
+	BYTE		N23     Bn3   v076
+	BYTE	W24
+// 021   ----------------------------------------
+	BYTE		N32     Fs3   v088
+	BYTE	W36
+	BYTE		        En3   v096
+	BYTE	W36
+	BYTE		N23     Gs2 
+	BYTE	W24
+// 022   ----------------------------------------
+	BYTE		N92     Cs3 
+	BYTE	W02
+	BYTE		VOL     108*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        82*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        79*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        80*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        81*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        82*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        83*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        84*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        94*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        100*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        109*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        112*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        111*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        109*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        106*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        83*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        81*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        78*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        75*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        72*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        68*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        65*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        61*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        57*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        52*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        48*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        43*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        38*Clash2_mvl/mxv
+	BYTE	W03
+// 023   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Clash2_1_B1
+Clash2_1_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 2 (Midi-Chn.2) ****************//
+
+Clash2_2:
+	BYTE		VOL     127*Clash2_mvl/mxv
+	BYTE	KEYSH   Clash2_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   109
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+Clash2_2_B1:
+// 008   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     Gs3   v112
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		N56     Gs3 
+	BYTE	W60
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		N03     En3 
+	BYTE	W04
+	BYTE		        Fs3 
+	BYTE	W02
+// 009   ----------------------------------------
+	BYTE	W02
+	BYTE		        Gs3 
+	BYTE	W04
+	BYTE		N23     An3 
+	BYTE	W24
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N40     En4 
+	BYTE	W42
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+// 010   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		N64     Cs4 
+	BYTE	W66
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+// 011   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		N32     Bn3 
+	BYTE	W36
+	BYTE		        Gs4 
+	BYTE	W36
+	BYTE		N23     An4 
+	BYTE	W18
+// 012   ----------------------------------------
+	BYTE	W06
+	BYTE		N76     Gs4 
+	BYTE	W78
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+// 013   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		N40     Cs4 
+	BYTE	W42
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+// 014   ----------------------------------------
+	BYTE		        En3 
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Clash2_2_B1
+Clash2_2_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 3 (Midi-Chn.3) ****************//
+
+Clash2_3:
+	BYTE		VOL     127*Clash2_mvl/mxv
+	BYTE	KEYSH   Clash2_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   61
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+Clash2_3_B1:
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W06
+	BYTE		N05     Gs3   v112
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		N56     Gs3   v108
+	BYTE	W60
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		N03     En3 
+	BYTE	W04
+	BYTE		        Fs3 
+	BYTE	W02
+// 017   ----------------------------------------
+	BYTE	W02
+	BYTE		        Gs3 
+	BYTE	W04
+	BYTE		N23     An3 
+	BYTE	W24
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N40     En4   v092
+	BYTE	W42
+	BYTE		N05     Gs3   v108
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+// 018   ----------------------------------------
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		N68     Cs4 
+	BYTE	W72
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+// 019   ----------------------------------------
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		N23     Fs4   v104
+	BYTE	W24
+	BYTE		N05     En4   v092
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		N32     Gs4   v088
+	BYTE	W36
+	BYTE		N06     En5   v080
+	BYTE	W06
+	BYTE		        Fs5 
+	BYTE	W06
+	BYTE		        Gs5 
+	BYTE	W06
+// 020   ----------------------------------------
+	BYTE		N32     An5 
+	BYTE	W36
+	BYTE		        Gs5 
+	BYTE	W36
+	BYTE		N23     Cs5 
+	BYTE	W24
+// 021   ----------------------------------------
+	BYTE		N32     An4   v092
+	BYTE	W36
+	BYTE		        Gs4 
+	BYTE	W36
+	BYTE		N23     Cs4   v096
+	BYTE	W24
+// 022   ----------------------------------------
+	BYTE		TIE     Fs4   v092
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W88
+	BYTE	W01
+	BYTE		EOT   
+	BYTE	W07
+	BYTE	GoTo
+	 POIN2	Clash2_3_B1
+Clash2_3_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 4 (Midi-Chn.4) ****************//
+
+Clash2_4:
+	BYTE	KEYSH   Clash2_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   30
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BEND    c_v+2
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE	W96
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W72
+	BYTE		VOL     115*Clash2_mvl/mxv
+	BYTE		PAN     c_v+19
+	BYTE		VOL     115*Clash2_mvl/mxv
+	BYTE	W24
+// 007   ----------------------------------------
+	BYTE		N05     Cs3   v080
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W12
+	BYTE		N11     Bn2 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Cs3   v076
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Gn3 
+	BYTE	W06
+Clash2_4_B1:
+// 008   ----------------------------------------
+	BYTE		N04     Fs2   v112
+	BYTE	W36
+	BYTE		N03     Fs2   v100
+	BYTE	W48
+	BYTE		N01     Fs2   v104
+	BYTE	W06
+	BYTE		N02     Fs2   v100
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE		N03     Fs2   v112
+	BYTE	W36
+	BYTE		N04   
+	BYTE	W60
+// 010   ----------------------------------------
+	BYTE		N04   
+	BYTE	W36
+	BYTE		N04   
+	BYTE	W48
+	BYTE		N02     Fs2   v104
+	BYTE	W06
+	BYTE		N03     Fs2   v100
+	BYTE	W06
+// 011   ----------------------------------------
+	BYTE		N03   
+	BYTE	W36
+	BYTE		N04     Fs2   v112
+	BYTE	W18
+	BYTE		        Fs1 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+// 012   ----------------------------------------
+	BYTE		        Fs2 
+	BYTE	W36
+	BYTE		N04   
+	BYTE	W48
+	BYTE		N02   
+	BYTE	W06
+	BYTE		N03     Fs2   v104
+	BYTE	W06
+// 013   ----------------------------------------
+	BYTE		        Fs2   v100
+	BYTE	W36
+	BYTE		        Fs2   v112
+	BYTE	W60
+// 014   ----------------------------------------
+	BYTE		N04     Fs2   v127
+	BYTE	W36
+	BYTE		        Fs2   v112
+	BYTE	W48
+	BYTE		N03   
+	BYTE	W06
+	BYTE		        Fs2   v104
+	BYTE	W06
+// 015   ----------------------------------------
+	BYTE		N05     Fs2   v100
+	BYTE	W36
+	BYTE		N04     Fs2   v112
+	BYTE	W18
+	BYTE		        Fs1 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        En1 
+	BYTE	W06
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Clash2_4_B1
+Clash2_4_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 5 (Midi-Chn.5) ****************//
+
+Clash2_5:
+	BYTE	KEYSH   Clash2_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   51
+	BYTE		PAN     c_v+13
+	BYTE		VOL     108*Clash2_mvl/mxv
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE	W96
+// 001   ----------------------------------------
+	BYTE		N03     Dn3   v096
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Dn4   v076
+	BYTE	W06
+	BYTE		        An3   v096
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		N03   
+	BYTE	W06
+	BYTE		        Bn3   v076
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+// 002   ----------------------------------------
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Fs3   v052
+	BYTE	W06
+	BYTE		        Dn4   v076
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        An3   v052
+	BYTE	W06
+	BYTE		        En4   v076
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        Gn3   v052
+	BYTE	W06
+	BYTE		        Cn5   v076
+	BYTE	W06
+	BYTE		        Gn4 
+	BYTE	W06
+	BYTE		        Cn4 
+	BYTE	W06
+	BYTE		        Gn3   v072
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Gn3   v084
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+// 003   ----------------------------------------
+	BYTE		        Fs3   v096
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Dn4   v076
+	BYTE	W06
+	BYTE		        An3   v096
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        Bn3   v076
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Gs3   v096
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+// 004   ----------------------------------------
+	BYTE		N92     An3   v084
+	BYTE	W08
+	BYTE		VOL     104*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        94*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W08
+// 005   ----------------------------------------
+	BYTE		N92     Bn3 
+	BYTE	W06
+	BYTE		VOL     105*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        100*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W10
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        94*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        107*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W01
+// 006   ----------------------------------------
+	BYTE		N06     Fs3   v108
+	BYTE		N06     Cs4   v124
+	BYTE	W06
+	BYTE		        Fs3   v064
+	BYTE		N06     Cs4   v080
+	BYTE	W06
+	BYTE		        Fs3   v044
+	BYTE		N06     Cs4   v056
+	BYTE	W06
+	BYTE		        Gn3   v112
+	BYTE		N06     Dn4   v124
+	BYTE	W06
+	BYTE		        Gn3   v068
+	BYTE		N06     Dn4   v080
+	BYTE	W06
+	BYTE		        Gn3   v044
+	BYTE		N06     Dn4   v060
+	BYTE	W06
+	BYTE		        Cn4   v112
+	BYTE		N06     Gn4   v124
+	BYTE	W06
+	BYTE		        Cn4   v068
+	BYTE		N06     Gn4   v080
+	BYTE	W06
+	BYTE		        Cn4   v044
+	BYTE		N06     Gn4   v060
+	BYTE	W06
+	BYTE		        Cn4   v044
+	BYTE		N03     Gn4   v060
+	BYTE	W04
+	BYTE		N06     Gn4   v116
+	BYTE		N06     Cn5   v112
+	BYTE	W06
+	BYTE		        Gn4   v076
+	BYTE		N06     Cn5   v072
+	BYTE	W06
+	BYTE		        Gn4   v052
+	BYTE		N06     Cn5 
+	BYTE	W08
+	BYTE		N05     Bn3   v108
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE		N36     En4   v084
+	BYTE	W04
+	BYTE		VOL     105*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        100*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        84*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        81*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        79*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        73*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        74*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        75*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        76*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        78*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        79*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        81*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        83*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N03     En4   v100
+	BYTE	W01
+	BYTE		VOL     88*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N03     Fn4 
+	BYTE	W01
+	BYTE		VOL     91*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N03     Fs4   v092
+	BYTE	W01
+	BYTE		VOL     96*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N44     Gn4 
+	BYTE	W04
+	BYTE		VOL     92*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        82*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        77*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        73*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        74*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        75*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        76*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        77*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        78*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        79*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        79*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        81*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        82*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        83*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        94*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W05
+Clash2_5_B1:
+// 008   ----------------------------------------
+	BYTE		N06     Gn4   v044
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W24
+	BYTE		N05     En3   v088
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		N52     En4   v060
+	BYTE	W54
+// 014   ----------------------------------------
+	BYTE		N44     Dn4 
+	BYTE	W06
+	BYTE		N05     Dn3   v096
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Dn3 
+	BYTE	W06
+	BYTE		N44     En4   v060
+	BYTE	W06
+	BYTE		N05     En3   v096
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W06
+// 015   ----------------------------------------
+	BYTE		N44     Fs4   v056
+	BYTE	W06
+	BYTE		N05     Fs3   v096
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Fs3 
+	BYTE	W06
+	BYTE		N44     Gs4   v048
+	BYTE	W06
+	BYTE		N05     Gs3   v096
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W06
+	BYTE		N03     An3 
+	BYTE	W04
+	BYTE		        Bn3 
+	BYTE	W04
+	BYTE		        Cs4 
+	BYTE	W04
+	BYTE		        Dn4 
+	BYTE	W04
+	BYTE		        En4 
+	BYTE	W04
+	BYTE		        Fs4 
+	BYTE	W04
+// 016   ----------------------------------------
+	BYTE		N05     Gs3   v112
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		N56     Gs3   v108
+	BYTE	W07
+	BYTE		VOL     95*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        79*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        80*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        81*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        82*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        83*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        106*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		N03     En3 
+	BYTE	W04
+	BYTE		        Fs3 
+	BYTE	W04
+	BYTE		        Gs3 
+	BYTE	W04
+// 017   ----------------------------------------
+	BYTE		N23     An3 
+	BYTE	W24
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		N40     En4   v092
+	BYTE	W42
+	BYTE		N05     Gs3   v108
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+// 018   ----------------------------------------
+	BYTE		N68     Cs4   v116
+	BYTE	W04
+	BYTE		VOL     101*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        94*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        73*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        65*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        58*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        51*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        51*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        52*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        53*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        54*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        55*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        56*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        56*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        57*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        58*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        59*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        60*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        61*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        62*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        62*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        64*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        65*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        66*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        68*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        68*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        70*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        72*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        73*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        75*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        77*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        79*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        81*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        84*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        100*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		N05     Bn3   v108
+	BYTE	W06
+	BYTE		        Cs4   v104
+	BYTE	W06
+	BYTE		        Dn4   v100
+	BYTE	W06
+	BYTE		        En4   v096
+	BYTE	W06
+// 019   ----------------------------------------
+	BYTE		N23     Fs4   v084
+	BYTE	W24
+	BYTE		N05     En4   v088
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		N40     Gs4   v084
+	BYTE	W42
+	BYTE		N05     En4   v088
+	BYTE	W06
+	BYTE		        Fs4 
+	BYTE	W06
+	BYTE		        Gs4 
+	BYTE	W06
+// 020   ----------------------------------------
+	BYTE		N32     An4 
+	BYTE	W28
+	BYTE		VOL     107*Clash2_mvl/mxv
+	BYTE	W08
+	BYTE		N32     Gs4 
+	BYTE	W06
+	BYTE		VOL     106*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        105*Clash2_mvl/mxv
+	BYTE	W08
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W14
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		N23     Cs4   v100
+	BYTE	W06
+	BYTE		VOL     102*Clash2_mvl/mxv
+	BYTE	W08
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W03
+// 021   ----------------------------------------
+	BYTE		N32     An3   v104
+	BYTE	W04
+	BYTE		VOL     100*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W08
+	BYTE		        98*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		N32     Gs3   v100
+	BYTE	W04
+	BYTE		VOL     96*Clash2_mvl/mxv
+	BYTE	W08
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        94*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		N23     Cs3   v096
+	BYTE	W05
+	BYTE		VOL     90*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W01
+// 022   ----------------------------------------
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE		TIE     Fs3   v092
+	BYTE	W02
+	BYTE		VOL     84*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        82*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        80*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        78*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        75*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        72*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        68*Clash2_mvl/mxv
+	BYTE	W09
+	BYTE		        68*Clash2_mvl/mxv
+	BYTE	W10
+	BYTE		        69*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        70*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        71*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        72*Clash2_mvl/mxv
+	BYTE	W09
+	BYTE		        73*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        73*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        74*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        75*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        77*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        78*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        79*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        79*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		        81*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        83*Clash2_mvl/mxv
+	BYTE	W03
+// 023   ----------------------------------------
+	BYTE	W01
+	BYTE		        84*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        85*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        86*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        87*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        88*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        89*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        94*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        100*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        106*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        107*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W17
+	BYTE		EOT   
+	BYTE	W01
+	BYTE	GoTo
+	 POIN2	Clash2_5_B1
+Clash2_5_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 6 (Midi-Chn.6) ****************//
+
+Clash2_6:
+	BYTE	KEYSH   Clash2_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   48
+	BYTE		PAN     c_v+8
+	BYTE		VOL     127*Clash2_mvl/mxv
+	BYTE		MOD     0
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		BEND    c_v+3
+	BYTE	W66
+	BYTE		N03     Gs2   v004
+	BYTE	W06
+	BYTE		        Gs2   v092
+	BYTE	W04
+	BYTE		        An2 
+	BYTE	W04
+	BYTE		        Bn2 
+	BYTE	W04
+	BYTE		        Cs3 
+	BYTE	W04
+	BYTE		        Dn3 
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W04
+// 001   ----------------------------------------
+	BYTE		N32     Dn3 
+	BYTE		N32     Fs3   v084
+	BYTE	W07
+	BYTE		VOL     123*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        118*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        113*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        91*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        92*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N03     Dn3   v092
+	BYTE	W01
+	BYTE		VOL     98*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE		N03     En3 
+	BYTE	W03
+	BYTE		VOL     100*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		N03     Fs3 
+	BYTE	W02
+	BYTE		VOL     102*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N44     En3   v088
+	BYTE		N44     Gs3 
+	BYTE	W01
+	BYTE		VOL     103*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     0
+	BYTE	W01
+	BYTE		        1
+	BYTE	W01
+	BYTE		VOL     106*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     1
+	BYTE	W01
+	BYTE		        2
+	BYTE	W01
+	BYTE		VOL     107*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     2
+	BYTE	W01
+	BYTE		        3
+	BYTE	W01
+	BYTE		VOL     109*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     3
+	BYTE	W01
+	BYTE		        4
+	BYTE	W01
+	BYTE		VOL     111*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     4
+	BYTE	W01
+	BYTE		        5
+	BYTE	W01
+	BYTE		VOL     112*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     5
+	BYTE	W01
+	BYTE		        6
+	BYTE	W01
+	BYTE		VOL     114*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     6
+	BYTE	W01
+	BYTE		        7
+	BYTE	W01
+	BYTE		VOL     116*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     7
+	BYTE	W01
+	BYTE		        8
+	BYTE	W01
+	BYTE		VOL     118*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     8
+	BYTE	W01
+	BYTE		        9
+	BYTE	W01
+	BYTE		VOL     120*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     9
+	BYTE	W01
+	BYTE		        10
+	BYTE	W01
+	BYTE		VOL     122*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     10
+	BYTE	W01
+	BYTE		        11
+	BYTE	W01
+	BYTE		VOL     124*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     11
+	BYTE	W01
+	BYTE		        12
+	BYTE	W01
+	BYTE		VOL     127*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     12
+	BYTE	W01
+	BYTE		        13
+	BYTE	W01
+	BYTE		        10
+	BYTE	W01
+	BYTE		        8
+	BYTE	W01
+	BYTE		        7
+	BYTE	W01
+	BYTE		        4
+	BYTE	W01
+	BYTE		        2
+	BYTE	W01
+// 002   ----------------------------------------
+	BYTE		        0
+	BYTE		N08     Cs3   v104
+	BYTE		N08     Fs3   v096
+	BYTE	W09
+	BYTE		        Cs3   v052
+	BYTE		N08     Fs3 
+	BYTE	W06
+	BYTE		VOL     126*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        125*Clash2_mvl/mxv
+	BYTE		N08     Dn3   v104
+	BYTE		N08     Gn3   v096
+	BYTE	W03
+	BYTE		VOL     124*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        123*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		N08     Dn3   v052
+	BYTE		N08     Gn3 
+	BYTE	W03
+	BYTE		VOL     122*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        121*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        120*Clash2_mvl/mxv
+	BYTE		N08     Bn2   v104
+	BYTE		N08     En3   v096
+	BYTE	W03
+	BYTE		VOL     119*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        118*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        117*Clash2_mvl/mxv
+	BYTE		N08     Bn2   v052
+	BYTE		N08     En3 
+	BYTE	W03
+	BYTE		VOL     116*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        115*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        113*Clash2_mvl/mxv
+	BYTE		N08     Gn3   v104
+	BYTE		N08     Cn4   v096
+	BYTE	W03
+	BYTE		VOL     112*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        111*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        110*Clash2_mvl/mxv
+	BYTE		N08     Gn3   v052
+	BYTE		N08     Cn4 
+	BYTE	W03
+	BYTE		VOL     108*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        107*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        106*Clash2_mvl/mxv
+	BYTE		N03     Bn2   v092
+	BYTE	W03
+	BYTE		VOL     104*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		N03     Cs3 
+	BYTE	W02
+	BYTE		VOL     103*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N03     Dn3 
+	BYTE	W01
+	BYTE		VOL     101*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE		N03     En3 
+	BYTE	W03
+	BYTE		VOL     98*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		N03     Fs3 
+	BYTE	W02
+	BYTE		VOL     96*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N03     Gs3 
+	BYTE	W01
+	BYTE		VOL     94*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W02
+// 003   ----------------------------------------
+	BYTE		N44     Fs3   v088
+	BYTE		N44     An3 
+	BYTE	W04
+	BYTE		VOL     94*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        98*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        100*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        106*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N44     Gs3 
+	BYTE		N44     Bn3   v092
+	BYTE	W01
+	BYTE		VOL     107*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        109*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        111*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        112*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        114*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        115*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        117*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        119*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        121*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        123*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        125*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        127*Clash2_mvl/mxv
+	BYTE	W12
+// 004   ----------------------------------------
+	BYTE		N92     An3   v096
+	BYTE		N92     Cs4   v076
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE	W01
+	BYTE		        1
+	BYTE	W02
+	BYTE		        1
+	BYTE	W01
+	BYTE		        1
+	BYTE	W02
+	BYTE		        1
+	BYTE		VOL     126*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     2
+	BYTE	W02
+	BYTE		        2
+	BYTE		VOL     125*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     2
+	BYTE	W02
+	BYTE		        3
+	BYTE	W01
+	BYTE		        3
+	BYTE	W02
+	BYTE		        3
+	BYTE		VOL     124*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     4
+	BYTE	W02
+	BYTE		        4
+	BYTE		VOL     123*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     4
+	BYTE	W02
+	BYTE		        4
+	BYTE		VOL     122*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     5
+	BYTE	W02
+	BYTE		        5
+	BYTE		VOL     121*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     5
+	BYTE	W02
+	BYTE		        6
+	BYTE	W01
+	BYTE		        6
+	BYTE	W02
+	BYTE		        6
+	BYTE		VOL     120*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     7
+	BYTE	W02
+	BYTE		        7
+	BYTE		VOL     119*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     7
+	BYTE	W02
+	BYTE		        8
+	BYTE		VOL     118*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     8
+	BYTE	W02
+	BYTE		        8
+	BYTE		VOL     117*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     8
+	BYTE	W02
+	BYTE		        9
+	BYTE		VOL     116*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     9
+	BYTE	W02
+	BYTE		        9
+	BYTE		VOL     114*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     10
+	BYTE	W02
+	BYTE		        10
+	BYTE		VOL     113*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     10
+	BYTE	W02
+	BYTE		        11
+	BYTE		VOL     112*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     11
+	BYTE	W02
+	BYTE		        11
+	BYTE		VOL     111*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     11
+	BYTE	W02
+	BYTE		        12
+	BYTE		VOL     109*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     12
+	BYTE	W02
+	BYTE		        12
+	BYTE		VOL     108*Clash2_mvl/mxv
+	BYTE		MOD     13
+	BYTE	W03
+	BYTE		VOL     106*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        105*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		        90*Clash2_mvl/mxv
+	BYTE		MOD     1
+	BYTE	W01
+	BYTE		        0
+	BYTE		VOL     89*Clash2_mvl/mxv
+	BYTE	W02
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE		        127*Clash2_mvl/mxv
+	BYTE	W66
+	BYTE		N03     An2   v004
+	BYTE	W06
+	BYTE		        An2   v112
+	BYTE	W04
+	BYTE		        Bn2 
+	BYTE	W04
+	BYTE		        Cs3 
+	BYTE	W04
+	BYTE		        Dn3 
+	BYTE	W04
+	BYTE		        En3 
+	BYTE	W04
+	BYTE		        Fs3 
+	BYTE	W04
+Clash2_6_B1:
+// 008   ----------------------------------------
+	BYTE		N05     Gs3   v112
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE	W06
+	BYTE		        Cs3 
+	BYTE	W06
+	BYTE		N56     Gs3 
+	BYTE	W06
+	BYTE		MOD     1
+	BYTE	W03
+	BYTE		        1
+	BYTE	W03
+	BYTE		        2
+	BYTE	W03
+	BYTE		        2
+	BYTE	W03
+	BYTE		        3
+	BYTE	W03
+	BYTE		        4
+	BYTE	W03
+	BYTE		        4
+	BYTE	W03
+	BYTE		        5
+	BYTE	W03
+	BYTE		        5
+	BYTE	W03
+	BYTE		        6
+	BYTE	W03
+	BYTE		        7
+	BYTE	W03
+	BYTE		        7
+	BYTE	W03
+	BYTE		        8
+	BYTE	W03
+	BYTE		        8
+	BYTE	W03
+	BYTE		        9
+	BYTE	W03
+	BYTE		        10
+	BYTE	W03
+	BYTE		        10
+	BYTE	W02
+	BYTE		        11
+	BYTE	W01
+	BYTE		        8
+	BYTE	W01
+	BYTE		        4
+	BYTE	W01
+	BYTE		        1
+	BYTE	W01
+	BYTE		        0
+	BYTE		N05     Cs3 
+	BYTE	W06
+	BYTE		N03     En3 
+	BYTE	W04
+	BYTE		        Fs3 
+	BYTE	W04
+	BYTE		        Gs3 
+	BYTE	W04
+// 009   ----------------------------------------
+	BYTE		N23     An3 
+	BYTE	W24
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W03
+	BYTE		MOD     0
+	BYTE	W01
+	BYTE		        1
+	BYTE	W02
+	BYTE		        1
+	BYTE		N40     En4 
+	BYTE	W01
+	BYTE		MOD     1
+	BYTE	W02
+	BYTE		        2
+	BYTE	W01
+	BYTE		        2
+	BYTE	W02
+	BYTE		        2
+	BYTE	W01
+	BYTE		        3
+	BYTE	W02
+	BYTE		        3
+	BYTE	W01
+	BYTE		        3
+	BYTE	W02
+	BYTE		        4
+	BYTE	W01
+	BYTE		        4
+	BYTE	W02
+	BYTE		        5
+	BYTE	W01
+	BYTE		        5
+	BYTE	W02
+	BYTE		        5
+	BYTE	W01
+	BYTE		        6
+	BYTE	W02
+	BYTE		        6
+	BYTE	W01
+	BYTE		        6
+	BYTE	W02
+	BYTE		        7
+	BYTE	W01
+	BYTE		        7
+	BYTE	W02
+	BYTE		        7
+	BYTE	W01
+	BYTE		        8
+	BYTE	W02
+	BYTE		        8
+	BYTE	W01
+	BYTE		        8
+	BYTE	W02
+	BYTE		        9
+	BYTE	W01
+	BYTE		        9
+	BYTE	W02
+	BYTE		        9
+	BYTE	W01
+	BYTE		        10
+	BYTE	W02
+	BYTE		        10
+	BYTE	W01
+	BYTE		        11
+	BYTE	W02
+	BYTE		        0
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+// 010   ----------------------------------------
+	BYTE		N64     Cs4 
+	BYTE	W06
+	BYTE		MOD     0
+	BYTE	W03
+	BYTE		        1
+	BYTE	W03
+	BYTE		        2
+	BYTE	W03
+	BYTE		        2
+	BYTE	W03
+	BYTE		        3
+	BYTE	W03
+	BYTE		        3
+	BYTE	W03
+	BYTE		VOL     126*Clash2_mvl/mxv
+	BYTE		MOD     4
+	BYTE	W03
+	BYTE		        4
+	BYTE	W03
+	BYTE		        5
+	BYTE	W03
+	BYTE		        6
+	BYTE	W03
+	BYTE		        6
+	BYTE	W01
+	BYTE		VOL     125*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		MOD     7
+	BYTE	W03
+	BYTE		        7
+	BYTE	W02
+	BYTE		VOL     124*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     8
+	BYTE	W03
+	BYTE		        8
+	BYTE	W03
+	BYTE		VOL     123*Clash2_mvl/mxv
+	BYTE		MOD     9
+	BYTE	W03
+	BYTE		        9
+	BYTE	W03
+	BYTE		        10
+	BYTE	W03
+	BYTE		        11
+	BYTE	W03
+	BYTE		        11
+	BYTE	W01
+	BYTE		        11
+	BYTE		VOL     121*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     7
+	BYTE	W01
+	BYTE		        0
+	BYTE		N05     Fs3 
+	BYTE	W05
+	BYTE		VOL     120*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		N05     Gs3 
+	BYTE	W06
+	BYTE		VOL     119*Clash2_mvl/mxv
+	BYTE		N05     An3 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W01
+	BYTE		VOL     117*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		N05     Cs4 
+	BYTE	W02
+	BYTE		VOL     115*Clash2_mvl/mxv
+	BYTE	W04
+// 011   ----------------------------------------
+	BYTE		N32     Bn3 
+	BYTE	W09
+	BYTE		MOD     0
+	BYTE	W03
+	BYTE		        0
+	BYTE	W03
+	BYTE		        1
+	BYTE	W02
+	BYTE		VOL     116*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     1
+	BYTE	W03
+	BYTE		        1
+	BYTE	W03
+	BYTE		        2
+	BYTE		VOL     117*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		MOD     2
+	BYTE	W03
+	BYTE		        2
+	BYTE	W03
+	BYTE		        2
+	BYTE	W03
+	BYTE		        3
+	BYTE		N32     Gs4 
+	BYTE	W02
+	BYTE		VOL     118*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     3
+	BYTE	W03
+	BYTE		        3
+	BYTE	W03
+	BYTE		        4
+	BYTE		VOL     119*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		MOD     4
+	BYTE	W03
+	BYTE		        4
+	BYTE	W02
+	BYTE		VOL     120*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     5
+	BYTE	W03
+	BYTE		        5
+	BYTE	W03
+	BYTE		VOL     121*Clash2_mvl/mxv
+	BYTE		MOD     6
+	BYTE	W03
+	BYTE		        6
+	BYTE	W03
+	BYTE		        7
+	BYTE	W01
+	BYTE		VOL     123*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		MOD     7
+	BYTE	W03
+	BYTE		        7
+	BYTE		N23     An4 
+	BYTE	W02
+	BYTE		VOL     124*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     8
+	BYTE	W03
+	BYTE		        8
+	BYTE	W03
+	BYTE		        9
+	BYTE		VOL     127*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		MOD     9
+	BYTE	W03
+	BYTE		        10
+	BYTE	W03
+	BYTE		        11
+	BYTE	W03
+	BYTE		        11
+	BYTE	W01
+	BYTE		        12
+	BYTE	W01
+	BYTE		        6
+	BYTE	W01
+// 012   ----------------------------------------
+	BYTE		        0
+	BYTE		N76     Gs4 
+	BYTE	W24
+	BYTE	W03
+	BYTE		MOD     0
+	BYTE	W02
+	BYTE		        1
+	BYTE	W01
+	BYTE		        1
+	BYTE	W02
+	BYTE		        1
+	BYTE	W01
+	BYTE		        2
+	BYTE	W02
+	BYTE		        2
+	BYTE	W01
+	BYTE		        2
+	BYTE	W02
+	BYTE		        3
+	BYTE	W01
+	BYTE		        3
+	BYTE	W02
+	BYTE		        3
+	BYTE	W01
+	BYTE		        4
+	BYTE	W02
+	BYTE		        4
+	BYTE	W01
+	BYTE		        4
+	BYTE	W02
+	BYTE		        5
+	BYTE	W01
+	BYTE		        5
+	BYTE	W02
+	BYTE		        5
+	BYTE	W01
+	BYTE		        6
+	BYTE	W02
+	BYTE		        6
+	BYTE	W01
+	BYTE		        6
+	BYTE	W02
+	BYTE		        7
+	BYTE		VOL     126*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     7
+	BYTE	W02
+	BYTE		        7
+	BYTE	W01
+	BYTE		        8
+	BYTE	W02
+	BYTE		        8
+	BYTE	W01
+	BYTE		        8
+	BYTE	W02
+	BYTE		        9
+	BYTE	W01
+	BYTE		        9
+	BYTE	W02
+	BYTE		        9
+	BYTE	W01
+	BYTE		        10
+	BYTE	W02
+	BYTE		        10
+	BYTE	W01
+	BYTE		        10
+	BYTE	W01
+	BYTE		VOL     125*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     11
+	BYTE	W01
+	BYTE		        11
+	BYTE	W02
+	BYTE		        12
+	BYTE	W01
+	BYTE		        0
+	BYTE		N05     Fs4 
+	BYTE	W06
+	BYTE		        En4 
+	BYTE	W06
+	BYTE		        Dn4 
+	BYTE	W06
+// 013   ----------------------------------------
+	BYTE		        Cs4 
+	BYTE	W06
+	BYTE		        Bn3 
+	BYTE	W05
+	BYTE		VOL     124*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		N40     Cs4 
+	BYTE	W03
+	BYTE		MOD     0
+	BYTE	W03
+	BYTE		        1
+	BYTE	W03
+	BYTE		        2
+	BYTE	W03
+	BYTE		        2
+	BYTE	W03
+	BYTE		        3
+	BYTE	W01
+	BYTE		VOL     123*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		MOD     3
+	BYTE	W03
+	BYTE		        4
+	BYTE	W03
+	BYTE		        4
+	BYTE	W03
+	BYTE		        5
+	BYTE	W03
+	BYTE		        5
+	BYTE	W03
+	BYTE		        6
+	BYTE		VOL     122*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		MOD     6
+	BYTE	W03
+	BYTE		        7
+	BYTE	W01
+	BYTE		        7
+	BYTE	W01
+	BYTE		        3
+	BYTE	W01
+	BYTE		        0
+	BYTE		N05     Dn4 
+	BYTE	W06
+	BYTE		        Cs4 
+	BYTE	W02
+	BYTE		VOL     120*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		N05     Bn3 
+	BYTE	W06
+	BYTE		        An3 
+	BYTE	W06
+	BYTE		        Gs3 
+	BYTE	W01
+	BYTE		VOL     119*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		N05     Fs3 
+	BYTE	W06
+	BYTE		        En3 
+	BYTE	W05
+	BYTE		VOL     118*Clash2_mvl/mxv
+	BYTE	W01
+// 014   ----------------------------------------
+	BYTE		        117*Clash2_mvl/mxv
+	BYTE		N28     Fs3 
+	BYTE	W09
+	BYTE		MOD     0
+	BYTE	W04
+	BYTE		        0
+	BYTE	W03
+	BYTE		        1
+	BYTE	W03
+	BYTE		        1
+	BYTE	W04
+	BYTE		        1
+	BYTE	W03
+	BYTE		        1
+	BYTE	W04
+	BYTE		        1
+	BYTE		N05     Dn3 
+	BYTE	W03
+	BYTE		MOD     2
+	BYTE	W02
+	BYTE		VOL     118*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     2
+	BYTE		N05     En3 
+	BYTE	W04
+	BYTE		MOD     2
+	BYTE	W02
+	BYTE		N05     Fs3 
+	BYTE	W01
+	BYTE		MOD     2
+	BYTE	W03
+	BYTE		        2
+	BYTE	W02
+	BYTE		N28     Gs3 
+	BYTE	W02
+	BYTE		MOD     3
+	BYTE	W03
+	BYTE		        3
+	BYTE	W03
+	BYTE		        3
+	BYTE	W04
+	BYTE		        3
+	BYTE	W03
+	BYTE		        3
+	BYTE	W03
+	BYTE		        4
+	BYTE	W04
+	BYTE		        4
+	BYTE	W01
+	BYTE		VOL     119*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		MOD     4
+	BYTE	W03
+	BYTE		        4
+	BYTE	W02
+	BYTE		N05     En3 
+	BYTE	W02
+	BYTE		MOD     4
+	BYTE	W03
+	BYTE		        5
+	BYTE	W01
+	BYTE		N05     Fs3 
+	BYTE	W02
+	BYTE		MOD     5
+	BYTE	W03
+	BYTE		VOL     120*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     5
+	BYTE		N05     Gs3 
+	BYTE	W03
+	BYTE		MOD     5
+	BYTE	W03
+// 015   ----------------------------------------
+	BYTE		N28     An3 
+	BYTE	W01
+	BYTE		MOD     5
+	BYTE	W03
+	BYTE		        6
+	BYTE	W03
+	BYTE		        6
+	BYTE	W04
+	BYTE		        6
+	BYTE		VOL     121*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		MOD     6
+	BYTE	W03
+	BYTE		        6
+	BYTE	W04
+	BYTE		        7
+	BYTE	W03
+	BYTE		        7
+	BYTE	W03
+	BYTE		        7
+	BYTE	W02
+	BYTE		VOL     122*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		N05     Fs3 
+	BYTE	W01
+	BYTE		MOD     7
+	BYTE	W03
+	BYTE		        7
+	BYTE	W02
+	BYTE		N05     Gs3 
+	BYTE	W01
+	BYTE		MOD     8
+	BYTE	W04
+	BYTE		        8
+	BYTE	W01
+	BYTE		N05     An3 
+	BYTE	W02
+	BYTE		MOD     8
+	BYTE	W03
+	BYTE		VOL     123*Clash2_mvl/mxv
+	BYTE		MOD     8
+	BYTE	W01
+	BYTE		N44     Bn3 
+	BYTE	W03
+	BYTE		MOD     8
+	BYTE	W03
+	BYTE		        9
+	BYTE	W03
+	BYTE		        9
+	BYTE	W04
+	BYTE		        9
+	BYTE	W03
+	BYTE		        9
+	BYTE	W01
+	BYTE		VOL     125*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		MOD     9
+	BYTE	W03
+	BYTE		        10
+	BYTE	W03
+	BYTE		        10
+	BYTE	W04
+	BYTE		        10
+	BYTE	W03
+	BYTE		        10
+	BYTE	W02
+	BYTE		VOL     127*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		MOD     10
+	BYTE	W04
+	BYTE		        11
+	BYTE	W01
+	BYTE		        10
+	BYTE	W01
+	BYTE		        8
+	BYTE	W01
+	BYTE		        7
+	BYTE	W01
+	BYTE		        5
+	BYTE	W01
+	BYTE		        3
+	BYTE	W01
+	BYTE		        2
+	BYTE	W01
+	BYTE		        0
+	BYTE	W01
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W72
+	BYTE	W02
+	BYTE		VOL     125*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        122*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        119*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        116*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        113*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        110*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        107*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		        93*Clash2_mvl/mxv
+	BYTE		N03     Fs2   v004
+	BYTE	W06
+// 018   ----------------------------------------
+	BYTE		N32     Fs2   v120
+	BYTE	W05
+	BYTE		VOL     94*Clash2_mvl/mxv
+	BYTE	W11
+	BYTE		        95*Clash2_mvl/mxv
+	BYTE	W11
+	BYTE		        96*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        97*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		N56     Cs3 
+	BYTE	W08
+	BYTE		VOL     98*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        99*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        100*Clash2_mvl/mxv
+	BYTE	W11
+	BYTE		        101*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        103*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        104*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        105*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        106*Clash2_mvl/mxv
+	BYTE	W02
+// 019   ----------------------------------------
+	BYTE		N23     Dn3 
+	BYTE	W03
+	BYTE		VOL     107*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        109*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        110*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		N05     Cs3 
+	BYTE	W02
+	BYTE		VOL     111*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		N05     Dn3 
+	BYTE	W01
+	BYTE		VOL     112*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		N32     En3 
+	BYTE	W01
+	BYTE		VOL     113*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        114*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        116*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        117*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        118*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        120*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        121*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N23     Dn3 
+	BYTE	W04
+	BYTE		VOL     123*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		        125*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        127*Clash2_mvl/mxv
+	BYTE	W09
+// 020   ----------------------------------------
+	BYTE		N92     Cs3   v124
+	BYTE	W28
+	BYTE	W01
+	BYTE		VOL     126*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        125*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        124*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        123*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        122*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        121*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        120*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        119*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        118*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        117*Clash2_mvl/mxv
+	BYTE	W04
+// 021   ----------------------------------------
+	BYTE		N23     An2   v104
+	BYTE		N32     Dn3   v127
+	BYTE	W03
+	BYTE		VOL     116*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        115*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        114*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        113*Clash2_mvl/mxv
+	BYTE		N05     An2   v104
+	BYTE	W06
+	BYTE		        Bn2 
+	BYTE	W02
+	BYTE		VOL     112*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		N40     Cs3 
+	BYTE		N40     En3   v124
+	BYTE	W03
+	BYTE		VOL     111*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        110*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        109*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        107*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        106*Clash2_mvl/mxv
+	BYTE	W04
+	BYTE		N05     An2   v104
+	BYTE		N05     Cs3 
+	BYTE	W03
+	BYTE		VOL     105*Clash2_mvl/mxv
+	BYTE	W03
+	BYTE		N05     Bn2 
+	BYTE		N05     Dn3   v124
+	BYTE	W04
+	BYTE		VOL     104*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N05     Cs3   v104
+	BYTE		N05     En3   v124
+	BYTE	W05
+	BYTE		VOL     103*Clash2_mvl/mxv
+	BYTE	W01
+// 022   ----------------------------------------
+	BYTE		        102*Clash2_mvl/mxv
+	BYTE		N28     Dn3   v108
+	BYTE		N28     Fs3   v127
+	BYTE	W17
+	BYTE		VOL     103*Clash2_mvl/mxv
+	BYTE	W13
+	BYTE		N05     Bn2   v112
+	BYTE		N05     Dn3 
+	BYTE	W04
+	BYTE		VOL     104*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N05     Cs3   v108
+	BYTE		N05     En3   v127
+	BYTE	W06
+	BYTE		VOL     105*Clash2_mvl/mxv
+	BYTE		N05     Dn3   v108
+	BYTE		N05     Fs3   v127
+	BYTE	W06
+	BYTE		N28     En3   v108
+	BYTE		N28     Gs3   v127
+	BYTE	W11
+	BYTE		VOL     106*Clash2_mvl/mxv
+	BYTE	W09
+	BYTE		        108*Clash2_mvl/mxv
+	BYTE	W08
+	BYTE		        109*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N05     Cs3   v112
+	BYTE		N05     En3 
+	BYTE	W06
+	BYTE		        Dn3   v108
+	BYTE		N05     Fs3   v127
+	BYTE	W01
+	BYTE		VOL     110*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		N05     En3   v108
+	BYTE		N05     Gs3   v127
+	BYTE	W03
+	BYTE		VOL     113*Clash2_mvl/mxv
+	BYTE	W03
+// 023   ----------------------------------------
+	BYTE		N28     Fs3   v108
+	BYTE		N28     An3   v124
+	BYTE	W03
+	BYTE		VOL     114*Clash2_mvl/mxv
+	BYTE	W13
+	BYTE		        115*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        116*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        117*Clash2_mvl/mxv
+	BYTE	W02
+	BYTE		N05     Dn3   v112
+	BYTE		N05     Fs3 
+	BYTE	W05
+	BYTE		VOL     118*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		N05     En3   v104
+	BYTE		N05     Gs3   v124
+	BYTE	W05
+	BYTE		VOL     119*Clash2_mvl/mxv
+	BYTE	W01
+	BYTE		N05     Fs3   v104
+	BYTE		N05     An3   v124
+	BYTE	W06
+	BYTE		VOL     120*Clash2_mvl/mxv
+	BYTE		N23     Gs3   v108
+	BYTE		N23     Bn3   v124
+	BYTE	W06
+	BYTE		VOL     121*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        122*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        123*Clash2_mvl/mxv
+	BYTE	W05
+	BYTE		N23     Bn3   v092
+	BYTE		N23     Gn4   v108
+	BYTE	W01
+	BYTE		VOL     124*Clash2_mvl/mxv
+	BYTE	W06
+	BYTE		        125*Clash2_mvl/mxv
+	BYTE	W07
+	BYTE		        127*Clash2_mvl/mxv
+	BYTE	W10
+	BYTE	GoTo
+	 POIN2	Clash2_6_B1
+Clash2_6_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 7 (Midi-Chn.7) ****************//
+
+Clash2_7:
+	BYTE	KEYSH   Clash2_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   34
+	BYTE		PAN     c_v+0
+	BYTE		VOL     125*Clash2_mvl/mxv
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		N11     Fs1   v124
+	BYTE	W12
+	BYTE		N04     Fs2   v104
+	BYTE	W06
+	BYTE		        Fs1   v116
+	BYTE	W12
+	BYTE		        Fs1   v092
+	BYTE	W06
+	BYTE		N08     Fs1   v120
+	BYTE	W12
+	BYTE		N11     Fs1   v100
+	BYTE	W12
+	BYTE		N05     Fs2 
+	BYTE	W06
+	BYTE		N07     Fs1   v096
+	BYTE	W12
+	BYTE		N02     Fs1   v127
+	BYTE	W06
+	BYTE		N05     Gs1   v116
+	BYTE	W06
+	BYTE		N04     Cs2   v124
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE		N11     Fs2 
+	BYTE	W18
+	BYTE		N04     En2   v104
+	BYTE	W12
+	BYTE		        Cs2   v116
+	BYTE	W12
+	BYTE		N02     Gs1   v120
+	BYTE	W12
+	BYTE		N05     Fs1 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        Cs2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Fs1 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+// 002   ----------------------------------------
+	BYTE		N11     Fs1   v124
+	BYTE	W12
+	BYTE		N04     Fs2   v092
+	BYTE	W06
+	BYTE		        Fs1   v116
+	BYTE	W12
+	BYTE		        Fs1   v100
+	BYTE	W06
+	BYTE		N02     Fs1   v120
+	BYTE	W06
+	BYTE		        Fs1   v100
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N09     Fs2   v120
+	BYTE	W12
+	BYTE		N07     Fs1   v096
+	BYTE	W12
+	BYTE		N02     Fs1   v127
+	BYTE	W06
+	BYTE		N05     Fs2   v096
+	BYTE	W06
+	BYTE		N04     Fs1   v124
+	BYTE	W06
+// 003   ----------------------------------------
+	BYTE		        Fs2 
+	BYTE	W06
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE	W06
+	BYTE		        Cs2 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE	W12
+	BYTE		N05     Bn1   v127
+	BYTE	W06
+	BYTE		        Cs2   v100
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE	W06
+	BYTE		        En2 
+	BYTE	W06
+	BYTE		        Cs2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+// 004   ----------------------------------------
+	BYTE		N11     Fs1   v124
+	BYTE	W12
+	BYTE		N04     Fs2   v104
+	BYTE	W06
+	BYTE		        Fs1   v116
+	BYTE	W12
+	BYTE		        Fs1   v104
+	BYTE	W06
+	BYTE		N02     Fs1   v120
+	BYTE	W06
+	BYTE		        Fs1   v100
+	BYTE	W06
+	BYTE		N11   
+	BYTE	W12
+	BYTE		N05     Fs2 
+	BYTE	W06
+	BYTE		N07     Fs1   v096
+	BYTE	W12
+	BYTE		N02     Fs1   v127
+	BYTE	W06
+	BYTE		N05     Gs1   v116
+	BYTE	W06
+	BYTE		N04     Cs2   v124
+	BYTE	W06
+// 005   ----------------------------------------
+	BYTE		N11     Fs1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N04     En2   v104
+	BYTE	W12
+	BYTE		        Cs2   v116
+	BYTE	W12
+	BYTE		N02     Gs1   v120
+	BYTE	W12
+	BYTE		N05     Fs1 
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		        Cs2 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE	W06
+// 006   ----------------------------------------
+	BYTE		N11     Fs1   v124
+	BYTE	W12
+	BYTE		N04     Fs2   v096
+	BYTE	W06
+	BYTE		        Fs1   v124
+	BYTE	W12
+	BYTE		        Fs1   v096
+	BYTE	W06
+	BYTE		N06     Fs1   v124
+	BYTE	W12
+	BYTE		N11     Fs1   v100
+	BYTE	W12
+	BYTE		N05     Gn2   v108
+	BYTE	W06
+	BYTE		N07     Fs1   v096
+	BYTE	W12
+	BYTE		N02     Fs1   v127
+	BYTE	W06
+	BYTE		N05     Fs2   v096
+	BYTE	W06
+	BYTE		N04     Fs1   v124
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE		        Cs2 
+	BYTE	W06
+	BYTE		        Dn2 
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		        Bn1 
+	BYTE	W06
+	BYTE		        Cs2 
+	BYTE	W06
+	BYTE		        Dn2 
+	BYTE	W06
+	BYTE		        Fs2 
+	BYTE	W06
+	BYTE		N05     Dn2   v127
+	BYTE	W06
+	BYTE		        Cs2   v100
+	BYTE	W06
+	BYTE		        Fs1 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE	W06
+	BYTE		        Cs2 
+	BYTE	W06
+	BYTE		        Gn2 
+	BYTE	W06
+Clash2_7_B1:
+// 008   ----------------------------------------
+Clash2_7_008:
+	BYTE		N11     Fs1   v124
+	BYTE	W12
+	BYTE		N04     Fs2   v104
+	BYTE	W06
+	BYTE		        Fs1   v116
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N02     Fs1   v120
+	BYTE	W06
+	BYTE		N11     Fs1   v100
+	BYTE	W12
+	BYTE		N05     Fs2 
+	BYTE	W06
+	BYTE		N07     Fs1   v096
+	BYTE	W12
+	BYTE		N02     Fs1   v127
+	BYTE	W06
+	BYTE		N05     Fs2   v096
+	BYTE	W06
+	BYTE		N04     Fs1   v124
+	BYTE	W06
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_008
+// 010   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_008
+// 011   ----------------------------------------
+Clash2_7_011:
+	BYTE		N11     Fs1   v124
+	BYTE	W12
+	BYTE		N04     Fs2   v104
+	BYTE	W06
+	BYTE		        Fs1   v116
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N02     Fs1   v120
+	BYTE	W12
+	BYTE		N05     Fs1   v127
+	BYTE	W06
+	BYTE		        Gn1   v100
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Bn1 
+	BYTE	W06
+	BYTE		        An1 
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+	BYTE	PEND
+// 012   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_008
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_008
+// 014   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_008
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_011
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_008
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_008
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_008
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_011
+// 020   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_008
+// 021   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_008
+// 022   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_008
+// 023   ----------------------------------------
+	BYTE	PATT
+	 POIN2	Clash2_7_011
+	BYTE	GoTo
+	 POIN2	Clash2_7_B1
+Clash2_7_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 8 (Midi-Chn.8) ****************//
+
+Clash2_8:
+	BYTE	KEYSH   Clash2_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   124
+	BYTE		VOL     107*Clash2_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE		N06     Cn1   v120
+	BYTE		N12     Dn2   v072
+	BYTE	W12
+	BYTE		N03     Gn1   v116
+	BYTE	W04
+	BYTE		        An1   v120
+	BYTE	W02
+	BYTE		N06     Cn1   v100
+	BYTE	W02
+	BYTE		N03     Gn1   v120
+	BYTE	W04
+	BYTE		N11     En1   v112
+	BYTE	W06
+	BYTE		N06     Cn1   v108
+	BYTE	W06
+	BYTE		        Cn1   v127
+	BYTE		N05     En1   v076
+	BYTE		N12     En2 
+	BYTE	W12
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Cn2   v108
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N02     An1   v120
+	BYTE	W06
+	BYTE		N06     Cn1   v112
+	BYTE		N05     Fn1   v127
+	BYTE	W06
+	BYTE		        Dn1   v100
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Dn1   v127
+	BYTE	W06
+	BYTE		N06     Cn1 
+	BYTE		N05     An1   v124
+	BYTE	W06
+	BYTE		        Fn1   v127
+	BYTE	W06
+// 001   ----------------------------------------
+	BYTE		N06     Cn1 
+	BYTE		N02     Dn1 
+	BYTE	W03
+	BYTE		        Ds1   v056
+	BYTE	W03
+	BYTE		        En1   v052
+	BYTE	W03
+	BYTE		        Dn1   v056
+	BYTE	W03
+	BYTE		N06     Cn1   v088
+	BYTE		N02     En1   v060
+	BYTE	W03
+	BYTE		        Dn1 
+	BYTE	W03
+	BYTE		N06     Cn1   v127
+	BYTE		N02     En1   v068
+	BYTE	W03
+	BYTE		        Dn1   v072
+	BYTE	W03
+	BYTE		        Dn1   v127
+	BYTE	W03
+	BYTE		        Ds1   v068
+	BYTE	W03
+	BYTE		N06     Cn1   v127
+	BYTE		N02     En1   v052
+	BYTE	W03
+	BYTE		        Dn1   v056
+	BYTE	W03
+	BYTE		        En1   v072
+	BYTE	W03
+	BYTE		        Dn1   v064
+	BYTE	W03
+	BYTE		N06     Cn1   v127
+	BYTE		N02     En1   v068
+	BYTE	W03
+	BYTE		        Dn1   v080
+	BYTE	W03
+	BYTE		N05     Dn1   v120
+	BYTE	W06
+	BYTE		N06     Cn1   v096
+	BYTE		N05     En1   v124
+	BYTE	W06
+	BYTE		N06     Cn1 
+	BYTE		N05     Dn1   v080
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Dn1 
+	BYTE	W06
+	BYTE		        Dn1   v076
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     En1   v124
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Dn1   v124
+	BYTE	W06
+	BYTE		N06     Cn1 
+	BYTE		N05     En1   v068
+	BYTE	W06
+// 002   ----------------------------------------
+	BYTE		N06     Cn1   v124
+	BYTE		N12     Cs2   v076
+	BYTE	W18
+	BYTE		N06     Cn1   v124
+	BYTE		N11     En1   v112
+	BYTE		N12     En2   v076
+	BYTE	W12
+	BYTE		N06     Cn1   v108
+	BYTE	W06
+	BYTE		        Cn1   v127
+	BYTE		N11     En1   v112
+	BYTE		N12     Gn2   v072
+	BYTE	W12
+	BYTE		N06     Cn1   v108
+	BYTE		N02     Cn2   v100
+	BYTE	W03
+	BYTE		        Bn1   v108
+	BYTE	W03
+	BYTE		N05     Cn1   v104
+	BYTE		N02     Cn2   v112
+	BYTE		N12     En2   v076
+	BYTE	W03
+	BYTE		N02     Bn1   v116
+	BYTE	W03
+	BYTE		N05     Dn1   v124
+	BYTE	W06
+	BYTE		N06     Cn1 
+	BYTE		N02     Fn1   v127
+	BYTE	W03
+	BYTE		        Fn1   v124
+	BYTE	W03
+	BYTE		N05     Dn1   v104
+	BYTE		N06     Fs1   v040
+	BYTE		N06     As1   v056
+	BYTE	W06
+	BYTE		N05     Cn1   v104
+	BYTE		N05     Dn1 
+	BYTE		N06     As1   v076
+	BYTE	W06
+	BYTE		N05     Cn1   v104
+	BYTE		N05     An1   v120
+	BYTE	W06
+	BYTE		        Fn1   v124
+	BYTE	W06
+// 003   ----------------------------------------
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Cn2   v112
+	BYTE	W06
+	BYTE		        Fn1   v120
+	BYTE		N05     As1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     An1 
+	BYTE		N05     As1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fn1   v120
+	BYTE		N05     As1   v064
+	BYTE	W06
+	BYTE		        Cn2   v100
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N02     Gs1   v064
+	BYTE		N02     An1   v116
+	BYTE	W03
+	BYTE		        Fn1 
+	BYTE		N02     Gs1   v044
+	BYTE	W03
+	BYTE		        Gs1   v056
+	BYTE		N02     An1   v124
+	BYTE	W03
+	BYTE		        Gn1   v127
+	BYTE		N02     Gs1   v048
+	BYTE	W03
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fn1   v127
+	BYTE		N02     Gs1   v052
+	BYTE	W03
+	BYTE		        As1   v064
+	BYTE	W03
+	BYTE		N05     Dn1   v127
+	BYTE		N12     Cs2   v076
+	BYTE	W06
+	BYTE		N05     En1   v127
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Dn1   v072
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Dn1   v124
+	BYTE		N12     Ds2   v072
+	BYTE	W12
+	BYTE		N06     Cn1   v120
+	BYTE		N05     En1   v127
+	BYTE	W06
+	BYTE		N06     Cn1 
+	BYTE		N05     Dn1 
+	BYTE		N12     Gn2   v084
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     En1   v072
+	BYTE	W06
+// 004   ----------------------------------------
+	BYTE		N06     Cn1   v120
+	BYTE		N12     Cs2   v080
+	BYTE	W12
+	BYTE		N03     Gn1   v116
+	BYTE	W04
+	BYTE		        An1   v112
+	BYTE	W02
+	BYTE		N06     Cn1   v104
+	BYTE	W02
+	BYTE		N03     Gn1   v108
+	BYTE	W04
+	BYTE		N11     En1   v116
+	BYTE	W06
+	BYTE		N06     Cn1   v112
+	BYTE	W06
+	BYTE		        Cn1   v127
+	BYTE		N12     En2   v076
+	BYTE	W12
+	BYTE		N06     Cn1   v112
+	BYTE		N05     Cn2   v104
+	BYTE	W06
+	BYTE		        Cn2   v112
+	BYTE	W06
+	BYTE		N02     An1   v120
+	BYTE	W03
+	BYTE		        Gn1   v127
+	BYTE	W03
+	BYTE		N06     Cn1   v108
+	BYTE		N05     Fn1   v127
+	BYTE	W06
+	BYTE		        Dn1   v108
+	BYTE	W06
+	BYTE		N06     Cn1   v116
+	BYTE		N05     Dn1   v127
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     An1   v127
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+// 005   ----------------------------------------
+	BYTE		N06     Cn1 
+	BYTE		N05     Cn2   v124
+	BYTE		N12     En2   v076
+	BYTE	W12
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     An1   v124
+	BYTE		N12     Cs2   v068
+	BYTE	W06
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fn1 
+	BYTE		N12     Gs2   v084
+	BYTE	W06
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Ds1   v124
+	BYTE		N12     En2   v080
+	BYTE	W06
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		        Dn1   v124
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     En1 
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Dn1   v127
+	BYTE	W06
+	BYTE		        Gn1 
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fn1   v127
+	BYTE	W06
+	BYTE		N06     Cn1 
+	BYTE		N05     Gn1 
+	BYTE		N05     Bn1   v120
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Gn1   v124
+	BYTE		N05     Cn2   v127
+	BYTE	W06
+// 006   ----------------------------------------
+	BYTE		N06     Cn1 
+	BYTE		N12     Cs2   v080
+	BYTE	W18
+	BYTE		N06     Cn1   v124
+	BYTE		N11     En1   v116
+	BYTE		N12     En2   v080
+	BYTE	W12
+	BYTE		N05     Cn1   v100
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N11     En1   v116
+	BYTE		N12     Cs2   v084
+	BYTE	W12
+	BYTE		N05     Cn1   v104
+	BYTE		N02     Cn2   v100
+	BYTE	W03
+	BYTE		        Bn1   v104
+	BYTE	W03
+	BYTE		        Cn2   v124
+	BYTE	W03
+	BYTE		        Bn1 
+	BYTE	W03
+	BYTE		N05     Cn1   v127
+	BYTE		N05     Dn1   v124
+	BYTE		N24     Gn2   v096
+	BYTE	W06
+	BYTE		N02     Fn1   v127
+	BYTE	W03
+	BYTE		N02   
+	BYTE	W03
+	BYTE		N05     Dn1   v108
+	BYTE		N01     Fs1   v068
+	BYTE	W03
+	BYTE		        Fs1   v052
+	BYTE	W03
+	BYTE		N05     Cn1   v104
+	BYTE		N05     Dn1   v127
+	BYTE		N01     Gs1   v052
+	BYTE	W03
+	BYTE		N01   
+	BYTE	W03
+	BYTE		N05     Cn1   v104
+	BYTE		N05     An1   v127
+	BYTE	W06
+	BYTE		        Fn1 
+	BYTE	W06
+// 007   ----------------------------------------
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Cn2   v108
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fn1   v112
+	BYTE	W06
+	BYTE		        An1   v124
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fn1 
+	BYTE	W06
+	BYTE		        Cn2   v112
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N02     Gs1   v064
+	BYTE		N02     An1   v116
+	BYTE	W03
+	BYTE		        Fn1   v120
+	BYTE		N02     Gs1   v040
+	BYTE	W03
+	BYTE		        Gs1   v056
+	BYTE		N02     An1   v124
+	BYTE	W03
+	BYTE		        Gn1 
+	BYTE		N02     Gs1   v048
+	BYTE	W03
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fn1 
+	BYTE		N02     Gs1   v052
+	BYTE	W03
+	BYTE		        As1   v064
+	BYTE	W03
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Dn1   v124
+	BYTE		N17     Cs2   v072
+	BYTE	W06
+	BYTE		N05     En1   v127
+	BYTE	W06
+	BYTE		N06     Cn1 
+	BYTE		N05     Dn1   v080
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Dn1 
+	BYTE		N17     Ds2   v080
+	BYTE	W06
+	BYTE		N05     Dn1   v088
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     En1 
+	BYTE	W06
+	BYTE		N06     Cn1 
+	BYTE		N05     Dn1 
+	BYTE		N12     Gn2   v072
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     En1   v080
+	BYTE	W06
+Clash2_8_B1:
+// 008   ----------------------------------------
+	BYTE		N06     Cn1   v124
+	BYTE		N12     Cs2   v080
+	BYTE	W12
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v064
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		        En1   v120
+	BYTE		N11     As1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE	W06
+	BYTE		N05     Fs1   v060
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		        As1   v048
+	BYTE	W06
+	BYTE		        Gs1 
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v036
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		        En1   v112
+	BYTE		N05     As1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v032
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     As1   v048
+	BYTE	W06
+// 009   ----------------------------------------
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Gs1   v048
+	BYTE	W06
+	BYTE		        Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v052
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		        En1   v108
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Gs1   v052
+	BYTE	W06
+	BYTE		        Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N11     As1   v040
+	BYTE	W12
+	BYTE		N05     Gs1   v052
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v032
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N05     As1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v060
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     As1   v048
+	BYTE	W06
+// 010   ----------------------------------------
+	BYTE		N06     Cn1   v127
+	BYTE		N11     As1   v060
+	BYTE	W12
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		        En1   v112
+	BYTE		N11     As1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE	W06
+	BYTE		N05     Fs1   v036
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		        As1 
+	BYTE	W06
+	BYTE		        Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Fs1   v052
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N05     As1   v036
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     As1   v060
+	BYTE	W06
+// 011   ----------------------------------------
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		        Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Gs1   v036
+	BYTE	W06
+	BYTE		        Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N11     As1   v048
+	BYTE	W12
+	BYTE		N05     Gs1 
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v060
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v036
+	BYTE	W06
+	BYTE		N06     Dn1   v124
+	BYTE	W06
+	BYTE		        Cn1   v127
+	BYTE		N06     En1   v120
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     En1   v124
+	BYTE	W06
+// 012   ----------------------------------------
+	BYTE		        Cn1   v127
+	BYTE		N12     Cs2   v072
+	BYTE	W12
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v036
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v060
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N11     As1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE	W06
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v060
+	BYTE	W06
+	BYTE		        As1   v048
+	BYTE	W06
+	BYTE		        Gs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v036
+	BYTE	W06
+	BYTE		        En1   v108
+	BYTE		N05     As1   v060
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v052
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     As1   v052
+	BYTE	W06
+// 013   ----------------------------------------
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Gs1   v052
+	BYTE	W06
+	BYTE		        Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v032
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		        En1   v108
+	BYTE		N05     Gs1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Gs1   v056
+	BYTE	W06
+	BYTE		        Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N11     As1   v052
+	BYTE	W12
+	BYTE		N05     Gs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N05     As1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     As1   v048
+	BYTE	W06
+// 014   ----------------------------------------
+	BYTE		N06     Cn1   v127
+	BYTE		N11     As1   v048
+	BYTE	W12
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		        En1   v108
+	BYTE		N11     As1   v064
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE	W06
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		        As1   v052
+	BYTE	W06
+	BYTE		        Gs1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N05     As1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v036
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     As1   v056
+	BYTE	W06
+// 015   ----------------------------------------
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Gs1   v048
+	BYTE	W06
+	BYTE		        Fs1 
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v052
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		        En1   v120
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Gs1   v048
+	BYTE	W06
+	BYTE		        Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N11     As1   v060
+	BYTE	W12
+	BYTE		N05     Gs1   v052
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     En1   v124
+	BYTE	W06
+	BYTE		        Cn1   v127
+	BYTE		N06     Dn1   v124
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     En1   v127
+	BYTE	W06
+// 016   ----------------------------------------
+	BYTE		        Cn1 
+	BYTE		N12     Cs2   v072
+	BYTE	W12
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		        En1   v112
+	BYTE		N11     As1   v052
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE	W06
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		        As1   v052
+	BYTE	W06
+	BYTE		        Gs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		        En1   v120
+	BYTE		N05     As1   v052
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     As1   v048
+	BYTE	W06
+// 017   ----------------------------------------
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Gs1   v056
+	BYTE	W06
+	BYTE		        Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v052
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v052
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N05     Gs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Gs1   v048
+	BYTE	W06
+	BYTE		        Fs1   v036
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N11     As1   v048
+	BYTE	W12
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v052
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N05     As1   v052
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v060
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v052
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     As1   v048
+	BYTE	W06
+// 018   ----------------------------------------
+	BYTE		N06     Cn1   v120
+	BYTE		N11     As1   v036
+	BYTE	W12
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		        En1   v108
+	BYTE		N11     As1   v052
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE	W06
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Fs1   v036
+	BYTE	W06
+	BYTE		        As1   v056
+	BYTE	W06
+	BYTE		        Gs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		        En1   v120
+	BYTE		N05     As1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v036
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Fs1   v036
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     As1   v060
+	BYTE	W06
+// 019   ----------------------------------------
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		        Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		        En1   v120
+	BYTE		N05     Gs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		        Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N11     As1   v044
+	BYTE	W12
+	BYTE		N05     Gs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		N06     Dn1   v124
+	BYTE	W06
+	BYTE		        Cn1   v127
+	BYTE		N06     En1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Dn1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     En1   v124
+	BYTE	W06
+// 020   ----------------------------------------
+	BYTE		        Cn1   v127
+	BYTE		N12     Cs2   v080
+	BYTE	W12
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N11     As1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE	W06
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		        As1   v052
+	BYTE	W06
+	BYTE		        Gs1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Fs1   v036
+	BYTE	W06
+	BYTE		        En1   v120
+	BYTE		N05     As1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Fs1   v036
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     As1   v044
+	BYTE	W06
+// 021   ----------------------------------------
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Gs1   v056
+	BYTE	W06
+	BYTE		        Fs1   v036
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Gs1   v060
+	BYTE	W06
+	BYTE		        Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N11     As1   v056
+	BYTE	W12
+	BYTE		N05     Gs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		        En1   v112
+	BYTE		N05     As1   v060
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     As1   v052
+	BYTE	W06
+// 022   ----------------------------------------
+	BYTE		N06     Cn1   v127
+	BYTE		N11     As1   v048
+	BYTE	W12
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v040
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N11     As1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE	W06
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v052
+	BYTE	W06
+	BYTE		        As1   v036
+	BYTE	W06
+	BYTE		        Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		        En1   v116
+	BYTE		N05     As1   v056
+	BYTE	W06
+	BYTE		N06     Cn1   v120
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     As1   v048
+	BYTE	W06
+// 023   ----------------------------------------
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Gs1   v052
+	BYTE	W06
+	BYTE		        Fs1   v048
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Fs1   v032
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v048
+	BYTE	W06
+	BYTE		        En1   v108
+	BYTE		N05     Gs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v127
+	BYTE		N05     Gs1   v052
+	BYTE	W06
+	BYTE		        Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N11     As1   v056
+	BYTE	W12
+	BYTE		N05     Gs1 
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v044
+	BYTE	W06
+	BYTE		N06     Cn1   v124
+	BYTE		N05     Fs1   v060
+	BYTE	W06
+	BYTE		N06     Dn1   v127
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     En1 
+	BYTE	W06
+	BYTE		        Cn1 
+	BYTE		N06     Dn1 
+	BYTE	W06
+	BYTE		        Cn1   v124
+	BYTE		N06     En1   v127
+	BYTE	W06
+	BYTE	GoTo
+	 POIN2	Clash2_8_B1
+Clash2_8_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.9) ****************//
+
+Clash2_9:
+	BYTE	KEYSH   Clash2_key+0
+// 000   ----------------------------------------
+	BYTE		VOICE   49
+	BYTE		VOL     69*Clash2_mvl/mxv
+	BYTE		N12     Fs3   v127
+	BYTE		N12     An3 
+	BYTE		N12     Cs4 
+	BYTE		N12     Fs4 
+	BYTE	W36
+	BYTE		        Bn3 
+	BYTE		N12     Dn4 
+	BYTE		N12     Gn4 
+	BYTE	W60
+// 001   ----------------------------------------
+	BYTE	W96
+// 002   ----------------------------------------
+	BYTE		N08     Cs4   v104
+	BYTE		N08     Fs4   v096
+	BYTE	W09
+	BYTE		        Cs4   v052
+	BYTE		N08     Fs4 
+	BYTE	W09
+	BYTE		        Dn4   v104
+	BYTE		N08     Gn4   v096
+	BYTE	W09
+	BYTE		        Dn4   v052
+	BYTE		N08     Gn4 
+	BYTE	W09
+	BYTE		        Bn3   v104
+	BYTE		N08     En4   v096
+	BYTE	W09
+	BYTE		        Bn3   v052
+	BYTE		N08     En4 
+	BYTE	W09
+	BYTE		        Gn4   v104
+	BYTE		N08     Cn5   v096
+	BYTE	W09
+	BYTE		        Gn4   v052
+	BYTE		N08     Cn5 
+	BYTE	W32
+	BYTE	W01
+// 003   ----------------------------------------
+	BYTE	W96
+// 004   ----------------------------------------
+	BYTE	W96
+// 005   ----------------------------------------
+	BYTE	W96
+// 006   ----------------------------------------
+	BYTE	W96
+// 007   ----------------------------------------
+	BYTE	W96
+Clash2_9_B1:
+// 008   ----------------------------------------
+	BYTE	W96
+// 009   ----------------------------------------
+	BYTE	W96
+// 010   ----------------------------------------
+	BYTE	W96
+// 011   ----------------------------------------
+	BYTE	W96
+// 012   ----------------------------------------
+	BYTE	W96
+// 013   ----------------------------------------
+	BYTE	W96
+// 014   ----------------------------------------
+	BYTE	W96
+// 015   ----------------------------------------
+	BYTE	W96
+// 016   ----------------------------------------
+	BYTE	W96
+// 017   ----------------------------------------
+	BYTE	W96
+// 018   ----------------------------------------
+	BYTE	W96
+// 019   ----------------------------------------
+	BYTE	W96
+// 020   ----------------------------------------
+	BYTE	W96
+// 021   ----------------------------------------
+	BYTE	W96
+// 022   ----------------------------------------
+	BYTE	W96
+// 023   ----------------------------------------
+	BYTE	W96
+	BYTE	GoTo
+	 POIN2	Clash2_9_B1
+Clash2_9_B2:
+// 024   ----------------------------------------
+	BYTE	FINE
+
+//******************************************************//
+	ALIGN 4
+
+Clash2:
+	BYTE	9	// NumTrks
+	BYTE	0	// NumBlks
+	BYTE	Clash2_pri	// Priority
+	BYTE	Clash2_rev	// Reverb.
+
+	POIN2	Clash2_grp
+
+	POIN2	Clash2_1
+	POIN2	Clash2_2
+	POIN2	Clash2_3
+	POIN2	Clash2_4
+	POIN2	Clash2_5
+	POIN2	Clash2_6
+	POIN2	Clash2_7
+	POIN2	Clash2_8
+	POIN2	Clash2_9
+
+	
