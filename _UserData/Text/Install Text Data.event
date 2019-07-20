@@ -930,328 +930,332 @@ __TEXTPROCESSE20:
 setText($E20, __TEXTPROCESSE20)
 
 __TEXTPROCESSE21:
-#incbin ".TextEntries\text_buildfileRiaDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileNameGenericBandit.fetxt.dmp"
 setText($E21, __TEXTPROCESSE21)
 
 __TEXTPROCESSE22:
-#incbin ".TextEntries\text_buildfileGarthanDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileRiaDeathQuote.fetxt.dmp"
 setText($E22, __TEXTPROCESSE22)
 
 __TEXTPROCESSE23:
-#incbin ".TextEntries\text_buildfileEverettDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileGarthanDeathQuote.fetxt.dmp"
 setText($E23, __TEXTPROCESSE23)
 
 __TEXTPROCESSE24:
-#incbin ".TextEntries\text_buildfileIgnaceDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileEverettDeathQuote.fetxt.dmp"
 setText($E24, __TEXTPROCESSE24)
 
 __TEXTPROCESSE25:
-#incbin ".TextEntries\text_buildfileEdithDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileIgnaceDeathQuote.fetxt.dmp"
 setText($E25, __TEXTPROCESSE25)
 
 __TEXTPROCESSE26:
-#incbin ".TextEntries\text_buildfileMaurusDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileEdithDeathQuote.fetxt.dmp"
 setText($E26, __TEXTPROCESSE26)
 
 __TEXTPROCESSE27:
-#incbin ".TextEntries\text_buildfileFuriaDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMaurusDeathQuote.fetxt.dmp"
 setText($E27, __TEXTPROCESSE27)
 
 __TEXTPROCESSE28:
-#incbin ".TextEntries\text_buildfileKateDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileFuriaDeathQuote.fetxt.dmp"
 setText($E28, __TEXTPROCESSE28)
 
 __TEXTPROCESSE29:
-#incbin ".TextEntries\text_buildfileLilacDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileKateDeathQuote.fetxt.dmp"
 setText($E29, __TEXTPROCESSE29)
 
 __TEXTPROCESSE2A:
-#incbin ".TextEntries\text_buildfileSayraDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileLilacDeathQuote.fetxt.dmp"
 setText($E2A, __TEXTPROCESSE2A)
 
 __TEXTPROCESSE2B:
-#incbin ".TextEntries\text_buildfileJhonkaDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileSayraDeathQuote.fetxt.dmp"
 setText($E2B, __TEXTPROCESSE2B)
 
 __TEXTPROCESSE2C:
-#incbin ".TextEntries\text_buildfileAciesDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileJhonkaDeathQuote.fetxt.dmp"
 setText($E2C, __TEXTPROCESSE2C)
 
 __TEXTPROCESSE2D:
-#incbin ".TextEntries\text_buildfileYorrickDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAciesDeathQuote.fetxt.dmp"
 setText($E2D, __TEXTPROCESSE2D)
 
 __TEXTPROCESSE2E:
-#incbin ".TextEntries\text_buildfileMintDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileYorrickDeathQuote.fetxt.dmp"
 setText($E2E, __TEXTPROCESSE2E)
 
 __TEXTPROCESSE2F:
-#incbin ".TextEntries\text_buildfileGershonDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMintDeathQuote.fetxt.dmp"
 setText($E2F, __TEXTPROCESSE2F)
 
 __TEXTPROCESSE30:
-#incbin ".TextEntries\text_buildfileOsianDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileGershonDeathQuote.fetxt.dmp"
 setText($E30, __TEXTPROCESSE30)
 
 __TEXTPROCESSE31:
-#incbin ".TextEntries\text_buildfileTonyDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileOsianDeathQuote.fetxt.dmp"
 setText($E31, __TEXTPROCESSE31)
 
 __TEXTPROCESSE32:
-#incbin ".TextEntries\text_buildfileJuanDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileTonyDeathQuote.fetxt.dmp"
 setText($E32, __TEXTPROCESSE32)
 
 __TEXTPROCESSE33:
-#incbin ".TextEntries\text_buildfileReubenDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileJuanDeathQuote.fetxt.dmp"
 setText($E33, __TEXTPROCESSE33)
 
 __TEXTPROCESSE34:
-#incbin ".TextEntries\text_buildfileAnna1DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileReubenDeathQuote.fetxt.dmp"
 setText($E34, __TEXTPROCESSE34)
 
 __TEXTPROCESSE35:
-#incbin ".TextEntries\text_buildfileArlaDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAnna1DeathQuote.fetxt.dmp"
 setText($E35, __TEXTPROCESSE35)
 
 __TEXTPROCESSE36:
-#incbin ".TextEntries\text_buildfileIrenaDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileArlaDeathQuote.fetxt.dmp"
 setText($E36, __TEXTPROCESSE36)
 
 __TEXTPROCESSE37:
-#incbin ".TextEntries\text_buildfileReaganDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileIrenaDeathQuote.fetxt.dmp"
 setText($E37, __TEXTPROCESSE37)
 
 __TEXTPROCESSE38:
-#incbin ".TextEntries\text_buildfileIngridDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileReaganDeathQuote.fetxt.dmp"
 setText($E38, __TEXTPROCESSE38)
 
 __TEXTPROCESSE39:
-#incbin ".TextEntries\text_buildfileDan1DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileIngridDeathQuote.fetxt.dmp"
 setText($E39, __TEXTPROCESSE39)
 
 __TEXTPROCESSE3A:
-#incbin ".TextEntries\text_buildfileDan2DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileDan1DeathQuote.fetxt.dmp"
 setText($E3A, __TEXTPROCESSE3A)
 
 __TEXTPROCESSE3B:
-#incbin ".TextEntries\text_buildfileFraochDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileDan2DeathQuote.fetxt.dmp"
 setText($E3B, __TEXTPROCESSE3B)
 
 __TEXTPROCESSE3C:
-#incbin ".TextEntries\text_buildfileKarnDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileFraochDeathQuote.fetxt.dmp"
 setText($E3C, __TEXTPROCESSE3C)
 
 __TEXTPROCESSE3D:
-#incbin ".TextEntries\text_buildfileSonnyDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileKarnDeathQuote.fetxt.dmp"
 setText($E3D, __TEXTPROCESSE3D)
 
 __TEXTPROCESSE3E:
-#incbin ".TextEntries\text_buildfileAlyaDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileSonnyDeathQuote.fetxt.dmp"
 setText($E3E, __TEXTPROCESSE3E)
 
 __TEXTPROCESSE3F:
-#incbin ".TextEntries\text_buildfileHadiDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAlyaDeathQuote.fetxt.dmp"
 setText($E3F, __TEXTPROCESSE3F)
 
 __TEXTPROCESSE40:
-#incbin ".TextEntries\text_buildfileFeidlimidDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileHadiDeathQuote.fetxt.dmp"
 setText($E40, __TEXTPROCESSE40)
 
 __TEXTPROCESSE41:
-#incbin ".TextEntries\text_buildfileDogDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileFeidlimidDeathQuote.fetxt.dmp"
 setText($E41, __TEXTPROCESSE41)
 
 __TEXTPROCESSE42:
-#incbin ".TextEntries\text_buildfileVolstaggDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileDogDeathQuote.fetxt.dmp"
 setText($E42, __TEXTPROCESSE42)
 
 __TEXTPROCESSE43:
-#incbin ".TextEntries\text_buildfileRhosynDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileVolstaggDeathQuote.fetxt.dmp"
 setText($E43, __TEXTPROCESSE43)
 
 __TEXTPROCESSE44:
-#incbin ".TextEntries\text_buildfileArwenDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileRhosynDeathQuote.fetxt.dmp"
 setText($E44, __TEXTPROCESSE44)
 
 __TEXTPROCESSE45:
-#incbin ".TextEntries\text_buildfileBrentDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileArwenDeathQuote.fetxt.dmp"
 setText($E45, __TEXTPROCESSE45)
 
 __TEXTPROCESSE46:
-#incbin ".TextEntries\text_buildfileAnna2DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileBrentDeathQuote.fetxt.dmp"
 setText($E46, __TEXTPROCESSE46)
 
 __TEXTPROCESSE47:
-#incbin ".TextEntries\text_buildfileFelixDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAnna2DeathQuote.fetxt.dmp"
 setText($E47, __TEXTPROCESSE47)
 
 __TEXTPROCESSE48:
-#incbin ".TextEntries\text_buildfileWandaDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileFelixDeathQuote.fetxt.dmp"
 setText($E48, __TEXTPROCESSE48)
 
 __TEXTPROCESSE49:
-#incbin ".TextEntries\text_buildfileMystletainnDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileWandaDeathQuote.fetxt.dmp"
 setText($E49, __TEXTPROCESSE49)
 
 __TEXTPROCESSE4A:
-#incbin ".TextEntries\text_buildfileDestinyDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMystletainnDeathQuote.fetxt.dmp"
 setText($E4A, __TEXTPROCESSE4A)
 
 __TEXTPROCESSE4B:
-#incbin ".TextEntries\text_buildfileNathanDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileDestinyDeathQuote.fetxt.dmp"
 setText($E4B, __TEXTPROCESSE4B)
 
 __TEXTPROCESSE4C:
-#incbin ".TextEntries\text_buildfileBernerDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileNathanDeathQuote.fetxt.dmp"
 setText($E4C, __TEXTPROCESSE4C)
 
 __TEXTPROCESSE4D:
-#incbin ".TextEntries\text_buildfileSkaidriteDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileBernerDeathQuote.fetxt.dmp"
 setText($E4D, __TEXTPROCESSE4D)
 
 __TEXTPROCESSE4E:
-#incbin ".TextEntries\text_buildfileIgnaveDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileSkaidriteDeathQuote.fetxt.dmp"
 setText($E4E, __TEXTPROCESSE4E)
 
 __TEXTPROCESSE4F:
-#incbin ".TextEntries\text_buildfileAlzoramDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileIgnaveDeathQuote.fetxt.dmp"
 setText($E4F, __TEXTPROCESSE4F)
 
 __TEXTPROCESSE50:
-#incbin ".TextEntries\text_buildfileMerarriDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAlzoramDeathQuote.fetxt.dmp"
 setText($E50, __TEXTPROCESSE50)
 
 __TEXTPROCESSE51:
-#incbin ".TextEntries\text_buildfileAlgrimDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMerarriDeathQuote.fetxt.dmp"
 setText($E51, __TEXTPROCESSE51)
 
 __TEXTPROCESSE52:
-#incbin ".TextEntries\text_buildfileMaulochDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAlgrimDeathQuote.fetxt.dmp"
 setText($E52, __TEXTPROCESSE52)
 
 __TEXTPROCESSE53:
-#incbin ".TextEntries\text_buildfileRicketsDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMaulochDeathQuote.fetxt.dmp"
 setText($E53, __TEXTPROCESSE53)
 
 __TEXTPROCESSE54:
-#incbin ".TextEntries\text_buildfileLucioDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileRicketsDeathQuote.fetxt.dmp"
 setText($E54, __TEXTPROCESSE54)
 
 __TEXTPROCESSE55:
-#incbin ".TextEntries\text_buildfileCyrilleDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileLucioDeathQuote.fetxt.dmp"
 setText($E55, __TEXTPROCESSE55)
 
 __TEXTPROCESSE56:
-#incbin ".TextEntries\text_buildfileBlunderbussDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileCyrilleDeathQuote.fetxt.dmp"
 setText($E56, __TEXTPROCESSE56)
 
 __TEXTPROCESSE57:
-#incbin ".TextEntries\text_buildfileAvanthDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileBlunderbussDeathQuote.fetxt.dmp"
 setText($E57, __TEXTPROCESSE57)
 
 __TEXTPROCESSE58:
-#incbin ".TextEntries\text_buildfileRansleyDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAvanthDeathQuote.fetxt.dmp"
 setText($E58, __TEXTPROCESSE58)
 
 __TEXTPROCESSE59:
-#incbin ".TextEntries\text_buildfileVercingeDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileRansleyDeathQuote.fetxt.dmp"
 setText($E59, __TEXTPROCESSE59)
 
 __TEXTPROCESSE5A:
-#incbin ".TextEntries\text_buildfileDiqhedDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileVercingeDeathQuote.fetxt.dmp"
 setText($E5A, __TEXTPROCESSE5A)
 
 __TEXTPROCESSE5B:
-#incbin ".TextEntries\text_buildfileEsmeDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileDiqhedDeathQuote.fetxt.dmp"
 setText($E5B, __TEXTPROCESSE5B)
 
 __TEXTPROCESSE5C:
-#incbin ".TextEntries\text_buildfileKorathDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileEsmeDeathQuote.fetxt.dmp"
 setText($E5C, __TEXTPROCESSE5C)
 
 __TEXTPROCESSE5D:
-#incbin ".TextEntries\text_buildfileGaburasDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileKorathDeathQuote.fetxt.dmp"
 setText($E5D, __TEXTPROCESSE5D)
 
 __TEXTPROCESSE5E:
-#incbin ".TextEntries\text_buildfileAswangDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileGaburasDeathQuote.fetxt.dmp"
 setText($E5E, __TEXTPROCESSE5E)
 
 __TEXTPROCESSE5F:
-#incbin ".TextEntries\text_buildfileZelrothDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAswangDeathQuote.fetxt.dmp"
 setText($E5F, __TEXTPROCESSE5F)
 
 __TEXTPROCESSE60:
-#incbin ".TextEntries\text_buildfileWulfricDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileZelrothDeathQuote.fetxt.dmp"
 setText($E60, __TEXTPROCESSE60)
 
 __TEXTPROCESSE61:
-#incbin ".TextEntries\text_buildfileFloorentiusDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileWulfricDeathQuote.fetxt.dmp"
 setText($E61, __TEXTPROCESSE61)
 
 __TEXTPROCESSE62:
-#incbin ".TextEntries\text_buildfileAlgrim2DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileFloorentiusDeathQuote.fetxt.dmp"
 setText($E62, __TEXTPROCESSE62)
 
 __TEXTPROCESSE63:
-#incbin ".TextEntries\text_buildfileZephyrDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAlgrim2DeathQuote.fetxt.dmp"
 setText($E63, __TEXTPROCESSE63)
 
 __TEXTPROCESSE64:
-#incbin ".TextEntries\text_buildfileGodfreyDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileZephyrDeathQuote.fetxt.dmp"
 setText($E64, __TEXTPROCESSE64)
 
 __TEXTPROCESSE65:
-#incbin ".TextEntries\text_buildfileHeinrikDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileGodfreyDeathQuote.fetxt.dmp"
 setText($E65, __TEXTPROCESSE65)
 
 __TEXTPROCESSE66:
-#incbin ".TextEntries\text_buildfileLucio2DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileHeinrikDeathQuote.fetxt.dmp"
 setText($E66, __TEXTPROCESSE66)
 
 __TEXTPROCESSE67:
-#incbin ".TextEntries\text_buildfileEsme2DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileLucio2DeathQuote.fetxt.dmp"
 setText($E67, __TEXTPROCESSE67)
 
 __TEXTPROCESSE68:
-#incbin ".TextEntries\text_buildfileKorath2DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileEsme2DeathQuote.fetxt.dmp"
 setText($E68, __TEXTPROCESSE68)
 
 __TEXTPROCESSE69:
-#incbin ".TextEntries\text_buildfileAswang2DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileKorath2DeathQuote.fetxt.dmp"
 setText($E69, __TEXTPROCESSE69)
 
 __TEXTPROCESSE6A:
-#incbin ".TextEntries\text_buildfileZelroth2DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAswang2DeathQuote.fetxt.dmp"
 setText($E6A, __TEXTPROCESSE6A)
 
 __TEXTPROCESSE6B:
-#incbin ".TextEntries\text_buildfileWulfric2DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileZelroth2DeathQuote.fetxt.dmp"
 setText($E6B, __TEXTPROCESSE6B)
 
 __TEXTPROCESSE6C:
-#incbin ".TextEntries\text_buildfileFloorentius2DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileWulfric2DeathQuote.fetxt.dmp"
 setText($E6C, __TEXTPROCESSE6C)
 
 __TEXTPROCESSE6D:
-#incbin ".TextEntries\text_buildfileDiqhed2DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileFloorentius2DeathQuote.fetxt.dmp"
 setText($E6D, __TEXTPROCESSE6D)
 
 __TEXTPROCESSE6E:
-#incbin ".TextEntries\text_buildfileAlgrim3DeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileDiqhed2DeathQuote.fetxt.dmp"
 setText($E6E, __TEXTPROCESSE6E)
 
 __TEXTPROCESSE6F:
-#incbin ".TextEntries\text_buildfileTempestDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileAlgrim3DeathQuote.fetxt.dmp"
 setText($E6F, __TEXTPROCESSE6F)
 
 __TEXTPROCESSE70:
-#incbin ".TextEntries\text_buildfileTomorsiifDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileTempestDeathQuote.fetxt.dmp"
 setText($E70, __TEXTPROCESSE70)
 
 __TEXTPROCESSE71:
-#incbin ".TextEntries\text_buildfileMizukiDeathQuote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileTomorsiifDeathQuote.fetxt.dmp"
 setText($E71, __TEXTPROCESSE71)
+
+__TEXTPROCESSE72:
+#incbin ".TextEntries\text_buildfileMizukiDeathQuote.fetxt.dmp"
+setText($E72, __TEXTPROCESSE72)
 
 }
 

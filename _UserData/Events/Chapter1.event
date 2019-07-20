@@ -59,11 +59,11 @@ UNIT
 
 NewUnits:
 UNIT Kate PegasusKnight 0x00 Level(1, Ally, 0) [1,13] 0x00 0x00 0x0 0x00 [SlimLance,IronLance] NoAI 
-UNIT Furia Mage 0x00 Level(2, Ally, 0) [2,12] 0x00 0x00 0x0 0x00 [Fire,Vulnerary] NoAI 
+UNIT Furia Mage_F 0x00 Level(2, Ally, 0) [2,12] 0x00 0x00 0x0 0x00 [Fire,Vulnerary] NoAI 
 UNIT
 
 LilacUnit:
-UNIT Lilac Shaman 0x0 Level(2, Ally, 0) [9,10] 0x0 0x0 0x1 REDA9R11 [Flux] NoAI
+UNIT Lilac Shaman_F 0x0 Level(2, Ally, 0) [9,10] 0x0 0x0 0x1 REDA9R11 [Flux] NoAI
 UNIT
 
 Enemies:

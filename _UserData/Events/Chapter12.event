@@ -253,7 +253,7 @@ NoFade
 ENDA	
 	
 BeginningScene:
-LOAD1 0x1 Units //0x0 instead of 0x1 seems to be for allies on maps with prep screens
+LOAD2 0x1 Units //0x0 instead of 0x1 seems to be for allies on maps with prep screens
 ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
@@ -268,5 +268,3 @@ GIVEITEMTOMAIN 0
 FADI 60
 MNC2 13
 ENDA
-
-MESSAGE Events end at offset CURRENTOFFSET

@@ -484,3 +484,6 @@ Mizuki[X]
 
 ##MizukiDesc
 MizukiDesc[X]
+
+##NameGenericBandit
+Bandit[X]

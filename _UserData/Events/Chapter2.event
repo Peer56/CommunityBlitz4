@@ -25,6 +25,8 @@ TURN 0x0 CavalierReinforcement [8,0] 0x0
 END_MAIN
 
 CharacterBasedEvents:
+CharacterEventBothWays(0xA, RecruitTalk, Ria, Sayra)
+CharacterEventBothWays(0xA, RecruitTalk, Ria, Jhonka)
 END_MAIN
 
 LocationBasedEvents:
@@ -154,6 +156,12 @@ UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [15,17] 0x00 0x00 0x0 0x00 [IronLance]
 UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, 0) [8,17] 0x02 0x00 0x0 0x00 [Javelin, SteelSword, RedGem] AttackInRangeAI // Droppable Red Gem
 UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, 0) [0,16] 0x00 0x00 0x0 0x00 [IronLance, IronSword, RedGem] AttackInRangeAI // Stealable Red Gem
 UNIT
+
+RecruitTalk:
+Text(PlaceholderText)
+CUSA Sayra
+CUSA Jhonka
+ENDA
 
 ALIGN 4
 BeginningScene:

@@ -197,5 +197,3 @@ SHLI IronSword SteelSword Shadowkiller IronLance SteelLance BrightLance IronAxe 
 
 C7VendorList:
 SHLI Fire Thunder Flux Luna Lightning Shine Heal Mend Vulnerary Antidote
-
-MESSAGE Events end at offset CURRENTOFFSET

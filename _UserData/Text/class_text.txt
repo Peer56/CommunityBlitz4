@@ -6,14 +6,14 @@ Noble heirs to a ruling house.[N]
 They possess great potential.[X]
 
 ##SwordCavName
-Swd Cavalier[X]
+Swd. Cavalier[X]
 
 ##SwordCavDesc
 Mounted knights with swift movement.[N]
 Equip: Swords.[X]
 
 ##LanceCavName
-Lnc Cavalier[X]
+Lnc. Cavalier[X]
 
 ##LanceCavDesc
 Mounted knights with swift movement.[N]
@@ -34,7 +34,7 @@ Mounted knights with swift movement.[N]
 Equip: Bows.[X]
 
 ##NomadTrooperName
-Nmd Trooper[X]
+Nmd. Trooper[X]
 
 ##NomadTrooperDesc
 Mounted knights with superior[N]
@@ -132,21 +132,21 @@ Fallen Angel[X]
 FallenAngelDesc[X]
 
 ##LncSwdPalName
-Paladin[X]
+Lnc. Paladin[X]
 
 ##LncSwdPalDesc
 Mounted knights with superior[N]
 abilities. Equip: Lances, Swords.[X]
 
 ##AxeLncPalName
-Paladin[X]
+Axe Paladin[X]
 
 ##AxeLncPalDesc
 Mounted knights with superior[N]
 abilities. Equip: Axes, Lances.[X]
 
 ##SwdAxePalName
-Paladin[X]
+Swd. Paladin[X]
 
 ##SwdAxePalDesc
 Mounted knights with superior[N]

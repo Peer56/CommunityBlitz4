@@ -150,13 +150,5 @@ VillageEventItem(PlaceholderText, HouseBG, KillerAxe)
 NoFade
 ENDA
 
-
-// Manual Movement
-
-// Scripted Fights
-
-// Shop Data
 Armory:
 SHLI SteelSword SteelLance SteelAxe SteelBow
-
-MESSAGE Events end at offset currentOffset
