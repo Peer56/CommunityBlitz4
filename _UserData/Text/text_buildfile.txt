@@ -29,3 +29,4 @@ Arrive[X]
 
 #include "class_text.txt"
 #include "character_text.txt"
+#include "death_text.txt"

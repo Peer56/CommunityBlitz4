@@ -37,10 +37,13 @@
 #define Rhosyn 35
 #define Arwen 36
 #define Eo 37
+#define Brent Eo
 #define Anna2 38
 #define Felix 39
 #define Wanda 40
 #define Itzhar 41
+#define Mystletainn Itzhar
+#define Myst Mystletainn
 #define Destiny 42
 
 //////////////////////////Bosses

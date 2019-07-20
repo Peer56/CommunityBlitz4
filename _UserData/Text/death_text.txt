@@ -1,0 +1,244 @@
+## RiaDeathQuote
+[OpenMidRight][LoadRia]Oof[A][X]
+
+## GarthanDeathQuote
+[OpenMidRight][LoadGarthan]Oof[A][X]
+
+## EverettDeathQuote
+[OpenMidRight][LoadEverett]Oof[A][X]
+
+## IgnaceDeathQuote
+[OpenMidRight][LoadIgnace]Oof[A][X]
+
+## EdithDeathQuote
+[OpenMidRight][LoadEdith]Oof[A][X]
+
+## MaurusDeathQuote
+[OpenMidRight][LoadMaurus]Oof[A][X]
+
+## FuriaDeathQuote
+[OpenMidRight][LoadFuria]Oof[A][X]
+
+## KateDeathQuote
+[OpenMidRight][LoadKate]Oof[A][X]
+
+## LilacDeathQuote
+[OpenMidRight][LoadLilac]Oof[A][X]
+
+## SayraDeathQuote
+[OpenMidRight][LoadSayra]Oof[A][X]
+
+## JhonkaDeathQuote
+[OpenMidRight][LoadJhonka]Oof[A][X]
+
+## AciesDeathQuote
+[OpenMidRight][LoadAcies]Oof[A][X]
+
+## YorrickDeathQuote
+[OpenMidRight][LoadYorrick]Oof[A][X]
+
+## MintDeathQuote
+[OpenMidRight][LoadMint]Oof[A][X]
+
+## GershonDeathQuote
+[OpenMidRight][LoadGershon]Oof[A][X]
+
+## OsianDeathQuote
+[OpenMidRight][LoadOsian]Oof[A][X]
+
+## TonyDeathQuote
+[OpenMidRight][LoadTony]Oof[A][X]
+
+## JuanDeathQuote
+[OpenMidRight][LoadJuan]Oof[A][X]
+
+## ReubenDeathQuote
+[OpenMidRight][LoadReuben]Oof[A][X]
+
+## Anna1DeathQuote
+[OpenMidRight][LoadAnna1]Oof[A][X]
+
+## ArlaDeathQuote
+[OpenMidRight][LoadArla]Oof[A][X]
+
+## IrenaDeathQuote
+[OpenMidRight][LoadIrena]Oof[A][X]
+
+## ReaganDeathQuote
+[OpenMidRight][LoadReagan]Oof[A][X]
+
+## IngridDeathQuote
+[OpenMidRight][LoadIngrid]Oof[A][X]
+
+## Dan1DeathQuote
+[OpenMidRight][LoadDan1]Oof[A][X]
+
+## Dan2DeathQuote
+[OpenMidRight][LoadDan2]Oof[A][X]
+
+## FraochDeathQuote
+[OpenMidRight][LoadFraoch]Oof[A][X]
+
+## KarnDeathQuote
+[OpenMidRight][LoadKarn]Oof[A][X]
+
+## SonnyDeathQuote
+[OpenMidRight][LoadSonny]Oof[A][X]
+
+## AlyaDeathQuote
+[OpenMidRight][LoadAlya]Oof[A][X]
+
+## HadiDeathQuote
+[OpenMidRight][LoadHadi]Oof[A][X]
+
+## FeidlimidDeathQuote
+[OpenMidRight][LoadFeidlimid]Oof[A][X]
+
+## DogDeathQuote
+[OpenMidRight][LoadDog]Oof[A][X]
+
+## VolstaggDeathQuote
+[OpenMidRight][LoadVolstagg]Oof[A][X]
+
+## RhosynDeathQuote
+[OpenMidRight][LoadRhosyn]Oof[A][X]
+
+## ArwenDeathQuote
+[OpenMidRight][LoadArwen]Oof[A][X]
+
+## BrentDeathQuote
+[OpenMidRight][LoadBrent]Oof[A][X]
+
+## Anna2DeathQuote
+[OpenMidRight][LoadAnna2]Oof[A][X]
+
+## FelixDeathQuote
+[OpenMidRight][LoadFelix]Oof[A][X]
+
+## WandaDeathQuote
+[OpenMidRight][LoadWanda]Oof[A][X]
+
+## MystletainnDeathQuote
+[OpenMidRight][LoadMystletainn]Oof[A][X]
+
+## DestinyDeathQuote
+[OpenMidRight][LoadDestiny]Oof[A][X]
+
+
+## NathanDeathQuote
+[OpenMidLeft][LoadNathan]Oof[A][X]
+
+## BernerDeathQuote
+[OpenMidLeft][LoadBerner]Oof[A][X]
+
+## SkaidriteDeathQuote
+[OpenMidLeft][LoadSkaidrite]Oof[A][X]
+
+## IgnaveDeathQuote
+[OpenMidLeft][LoadIgnave]Oof[A][X]
+
+## AlzoramDeathQuote
+[OpenMidLeft][LoadAlzoram]Oof[A][X]
+
+## MerarriDeathQuote
+[OpenMidLeft][LoadMerarri]Oof[A][X]
+
+## AlgrimDeathQuote
+[OpenMidLeft][LoadAlgrim]Oof[A][X]
+
+## MaulochDeathQuote
+[OpenMidLeft][LoadMauloch]Oof[A][X]
+
+## RicketsDeathQuote
+[OpenMidLeft][LoadRickets]Oof[A][X]
+
+## LucioDeathQuote
+[OpenMidLeft][LoadLucio]Oof[A][X]
+
+## CyrilleDeathQuote
+[OpenMidLeft][LoadCyrille]Oof[A][X]
+
+## BlunderbussDeathQuote
+[OpenMidLeft][LoadBlunderbuss]Oof[A][X]
+
+## AvanthDeathQuote
+[OpenMidLeft][LoadAvanth]Oof[A][X]
+
+## RansleyDeathQuote
+[OpenMidLeft][LoadRansley]Oof[A][X]
+
+## VercingeDeathQuote
+[OpenMidLeft][LoadVercinge]Oof[A][X]
+
+## DiqhedDeathQuote
+[OpenMidLeft][LoadDiqhed]Oof[A][X]
+
+## EsmeDeathQuote
+[OpenMidLeft][LoadEsme]Oof[A][X]
+
+## KorathDeathQuote
+[OpenMidLeft][LoadKorath]Oof[A][X]
+
+## GaburasDeathQuote
+[OpenMidLeft][LoadGaburas]Oof[A][X]
+
+## AswangDeathQuote
+[OpenMidLeft][LoadAswang]Oof[A][X]
+
+## ZelrothDeathQuote
+[OpenMidLeft][LoadZelroth]Oof[A][X]
+
+## WulfricDeathQuote
+[OpenMidLeft][LoadWulfric]Oof[A][X]
+
+## FloorentiusDeathQuote
+[OpenMidLeft][LoadFloorentius]Oof[A][X]
+
+## Algrim2DeathQuote
+[OpenMidLeft][LoadAlgrim]Oof[A][X]
+
+## ZephyrDeathQuote
+[OpenMidLeft][LoadZephyr]Oof[A][X]
+
+## GodfreyDeathQuote
+[OpenMidLeft][LoadGodfrey]Oof[A][X]
+
+## HeinrikDeathQuote
+[OpenMidLeft][LoadHeinrik]Oof[A][X]
+
+## Lucio2DeathQuote
+[OpenMidLeft][LoadLucio2]Oof[A][X]
+
+## Esme2DeathQuote
+[OpenMidLeft][LoadEsme2]Oof[A][X]
+
+## Korath2DeathQuote
+[OpenMidLeft][LoadKorath2]Oof[A][X]
+
+## Aswang2DeathQuote
+[OpenMidLeft][LoadAswang2]Oof[A][X]
+
+## Zelroth2DeathQuote
+[OpenMidLeft][LoadZelroth2]Oof[A][X]
+
+## Wulfric2DeathQuote
+[OpenMidLeft][LoadWulfric2]Oof[A][X]
+
+## Floorentius2DeathQuote
+[OpenMidLeft][LoadFloorentius2]Oof[A][X]
+
+## Diqhed2DeathQuote
+[OpenMidLeft][LoadDiqhed2]Oof[A][X]
+
+## Algrim3DeathQuote
+[OpenMidLeft][LoadAlgrim3]Oof[A][X]
+
+## TempestDeathQuote
+[OpenMidLeft][LoadTempest]Oof[A][X]
+
+## TomorsiifDeathQuote
+[OpenMidLeft][LoadTomorsiif]Oof[A][X]
+
+## MizukiDeathQuote
+[OpenMidLeft][LoadMizuki]Oof[A][X]
+
