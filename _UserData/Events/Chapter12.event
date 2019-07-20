@@ -170,10 +170,10 @@ NoFade
 ENDA	
 	
 DarkJedi:
-UNIT Karn Hero 0x00 Level(1, Enemy, 0) [21,17] 0x2 0x00 0x0 REDA_OldDude [SteelBlade, KillerAxe, Speedwings] PursueWithoutHeedAI
-UNIT 0x86 Fighter Murray Level(14, Enemy, 1) [21,16] 0x2 0x00 0x0 REDA_Barst [BraveAxe] PursueWithoutHeedAI
-UNIT 0x86 Fighter Murray Level(14, Enemy, 1) [21,17] 0x00 0x00 0x0 REDA_Bord [SilverAxe] PursueWithoutHeedAI
-UNIT 0x86 Fighter Murray Level(14, Enemy, 1) [21,18] 0x00 0x00 0x0 REDA_Cord [Hammer, HandAxe] PursueWithoutHeedAI	
+UNIT Karn Hero 0x00 Level(1, Enemy, 0) [21,17] 0x2 0x00 0x0 REDA19R17 [SteelBlade, KillerAxe, Speedwings] PursueWithoutHeedAI
+UNIT 0x86 Fighter Murray Level(14, Enemy, 1) [21,16] 0x2 0x00 0x0 REDA18R18 [BraveAxe] PursueWithoutHeedAI
+UNIT 0x86 Fighter Murray Level(14, Enemy, 1) [21,17] 0x00 0x00 0x0 REDA20R16 [SilverAxe] PursueWithoutHeedAI
+UNIT 0x86 Fighter Murray Level(14, Enemy, 1) [21,18] 0x00 0x00 0x0 REDA20R18 [Hammer, HandAxe] PursueWithoutHeedAI	
 UNIT
 
 REDA_OldDude:
@@ -190,75 +190,43 @@ ReinforcementEvent(Forces1)
 ENDA
 
 Forces1:
-UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,0] 0x00 0x00 0x0 REDA_Peg1 [KillerLance] PursueWithoutHeedAI
-UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,1] 0x00 0x00 0x0 REDA_Peg2 [Axereaver] PursueWithoutHeedAI
-UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,2] 0x00 0x00 0x0 REDA_Peg3 [Spear] PursueWithoutHeedAI
-UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,1] 0x2 0x00 0x0 REDA_Peg4 [BraveLance] PursueWithoutHeedAI
-UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,2] 0x00 0x00 0x0 REDA_Peg5 [SilverLance] PursueWithoutHeedAI
+UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,0] 0x00 0x00 0x0 REDA1R1 [KillerLance] PursueWithoutHeedAI
+UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,1] 0x00 0x00 0x0 REDA0R2 [Axereaver] PursueWithoutHeedAI
+UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,2] 0x00 0x00 0x0 REDA0R4 [Spear] PursueWithoutHeedAI
+UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,1] 0x2 0x00 0x0 REDA1R3 [BraveLance] PursueWithoutHeedAI
+UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,2] 0x00 0x00 0x0 REDA2R2 [SilverLance] PursueWithoutHeedAI
 
-REDA_Peg1:
-	REDA [1,1] 0 0 0 0
-REDA_Peg2:
-	REDA [0,2] 0 0 0 0	
-REDA_Peg3:
-	REDA [0,4] 0 0 0 0
-REDA_Peg4:
-	REDA [1,3] 0 0 0 0
-REDA_Peg5:
-	REDA [2,2] 0 0 0 0
-		
 PegReinforcements2:
 ReinforcementEvent(Forces2)
 ENDA
 
 Forces2:
-UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,0] 0x00 0x00 0x0 REDA_Peg1 [SilverLance] PursueWithoutHeedAI
-UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,1] 0x00 0x00 0x0 REDA_Peg2 [Axereaver] PursueWithoutHeedAI
-UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [1,0] 0x00 0x00 0x0 REDA_Peg3 [Spear] PursueWithoutHeedAI
+UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,0] 0x00 0x00 0x0 REDA0R2 [SilverLance] PursueWithoutHeedAI
+UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,1] 0x00 0x00 0x0 REDA1R1 [Axereaver] PursueWithoutHeedAI
+UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [1,0] 0x00 0x00 0x0 REDA2R0 [Spear] PursueWithoutHeedAI
 
-REDA_Peg1:
-	REDA [0,2] 0 0 0 0
-REDA_Peg2:
-	REDA [1,1] 0 0 0 0	
-REDA_Peg3:
-	REDA [2,0] 0 0 0 0
-	
 WyvernReinfors:
 ReinforcementEvent(Forces3)
 ENDA
 
-Forces2:
-UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [17,5] 0x00 0x00 0x0 REDA_Wyv1 [SteelAxe] PursueWithoutHeedAI
-UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [17,5] 0x00 0x00 0x0 REDA_Wyv2 [Swordreaver] PursueWithoutHeedAI
-UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [18,5] 0x00 0x00 0x0 REDA_Wyv3 [PoisonAxe] PursueWithoutHeedAI
-UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [18,5] 0x00 0x00 0x0 REDA_Wyv4 [HandAxe] PursueWithoutHeedAI
+Forces3:
+UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [17,5] 0x00 0x00 0x0 REDA16R6 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [17,5] 0x00 0x00 0x0 REDA19R6 [Swordreaver] PursueWithoutHeedAI
+UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [18,5] 0x00 0x00 0x0 REDA16R3 [PoisonAxe] PursueWithoutHeedAI
+UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [18,5] 0x00 0x00 0x0 REDA19R3 [HandAxe] PursueWithoutHeedAI
 
-REDA_Wyv1:
-	REDA [16,6] 0 0 0 0
-REDA_Wyv2:
-	REDA [19,6] 0 0 0 0	
-REDA_Wyv3:
-	REDA [16,3] 0 0 0 0	
-REDA_Wyv4:
-	REDA [19,3] 0 0 0 0
-	
 SoldierReinfors:
-ReinforcementEvent(Forces3)
 ReinforcementEvent(Forces4)
+ReinforcementEvent(Forces5)
 ENDA
 
-Forces3:
-UNIT 0x87 Soldier Murray Level(14, Enemy, 1) [12,12] 0x00 0x00 0x0 REDA_Sol1 [Axereaver] PursueWithoutHeedAI
-UNIT 0x87 Soldier Murray Level(14, Enemy, 1) [12,12] 0x00 0x00 0x0 REDA_Sol2 [Swordreaver] PursueWithoutHeedAI
-
 Forces4:
+UNIT 0x87 Soldier Murray Level(14, Enemy, 1) [12,12] 0x00 0x00 0x0 REDA11R12 [Axereaver] PursueWithoutHeedAI
+UNIT 0x87 Soldier Murray Level(14, Enemy, 1) [12,12] 0x00 0x00 0x0 REDA12R11 [Swordreaver] PursueWithoutHeedAI
+
+Forces5:
 UNIT 0x87 Mage Murray Level(14, Enemy, 1) [5,2] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI
 UNIT 0x87 Mage Murray Level(14, Enemy, 1) [11,2] 0x00 0x00 0x0 0x00 [Elfire, Thunder] PursueWithoutHeedAI
-
-REDA_Sol1:
-	REDA [11,12] 0 0 0 0
-REDA_Sol2:
-	REDA [12,11] 0 0 0 0	
 
 Sonny1:
 Text(PlaceholderText)
