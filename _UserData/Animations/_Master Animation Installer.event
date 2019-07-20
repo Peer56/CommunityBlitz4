@@ -237,7 +237,7 @@
 #include "NewClassAnimations/Knight Lord Unarmed Installer.event"
 }
 
-#ifndef __DEBUG__
+//#ifndef __DEBUG__
 {
 #include "RepalettesImprovedAnimations/Archer F Bow Installer.event"
 }
@@ -502,7 +502,7 @@
 {
 #include "RepalettesImprovedAnimations/Wyvern Lord Unarmed Installer.event"
 }
-#endif
+//#endif
 
 //////////////////////////////////////////////
 
