@@ -10,10 +10,6 @@
 
 #include "Item Editor.event"
 
-#include "Mag Char Editor.event"
-
-#include "Mag Class Editor.event"
-
 #include "Walking Sounds Editor.event"
 
 #include "IERevamp Modules\FE8 Item AI Table.event"
