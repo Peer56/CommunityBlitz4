@@ -27,6 +27,9 @@ Escort Convoy[X]
 ##ArriveWindowText
 Arrive[X]
 
+##BearClawName
+Bear Claw[X]
+
 #include "class_text.txt"
 #include "character_text.txt"
 #include "death_text.txt"

@@ -83,7 +83,6 @@ UNIT 0x70 Bonewalker Berner Level(2, Enemy, 1) [10,1] 0x00 0x00 0x0 0x00 [Axerea
 UNIT 0x70 Archer Berner Level(3, Enemy, 1) [0,2] 0x00 0x00 0x0 0x00 [IronBow] AttackInRangeAI
 UNIT 0x70 Mercenary Berner Level(2, Enemy, 1) [1,7] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI
 UNIT 0x70 Mogall Berner Level(3, Enemy, 1) [18,11] 0x00 0x00 0x0 0x00 [EvilEye] AttackInRangeAI
-UNIT 0x70 Brigand Berner Level(2, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT
 
 VillageSouth:
