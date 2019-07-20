@@ -1,0 +1,17 @@
+PUSH
+ORG 0x88638
+POIN StatScreenImg
+ORG 0x88644
+POIN StatScreenTSA
+ORG 0x88640
+POIN StatScreenPal
+POP
+
+StatScreenImg:
+#incbin "StatScreenImg.bin"
+
+StatScreenTSA:
+#incbin "StatScreenTSA.bin"
+
+StatScreenPal:
+#incbin "StatScreenPal.bin"
