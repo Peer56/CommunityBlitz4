@@ -37,6 +37,7 @@
 #define Song_FactoryInspection 26
 #define Song_BeneathANewLight 27
 #define Song_Friends 28
+#define Song_DeadlySix 29
 
 //mug IDs
 #define RiaMug Ria
@@ -138,7 +139,7 @@
 
 //misc
 
-#define InfantryType 0x40
+#define InfantryType 0x100
 #define MerrariName MerarriName
 #define MerrariDesc MerarriDesc
 #define VercingeName VerchingeName

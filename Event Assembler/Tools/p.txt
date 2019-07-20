@@ -1,0 +1,7 @@
+MESSAGE Searching for pointers to 0x758A60
+PUSH
+MESSAGE Pointer changed at 0x72908
+ORG 0x72908
+POIN fe8_clean.gba
+
+POP

@@ -1,0 +1,52 @@
+#define BattleMusicEntry(charID,songID) "BYTE charID 0 0 0 songID 0 0 0"
+#define BattleMusicEnd "BYTE $FF $FF $FF $FF $FF $FF $FF $FF" 
+
+PUSH
+ORG 0x72908
+POIN BossMusicList
+POP
+
+BossMusicList:
+BattleMusicEntry(Nathan,Song_DeadlySix)
+BattleMusicEntry(Berner,Song_DeadlySix)
+BattleMusicEntry(Skaidrite,Song_DeadlySix)
+BattleMusicEntry(Ignave,Song_DeadlySix)
+BattleMusicEntry(Alzoram,Song_DeadlySix)
+BattleMusicEntry(Merarri,Song_DeadlySix)
+BattleMusicEntry(Algrim,Song_Toccata)
+BattleMusicEntry(Mauloch,Song_DeadlySix)
+BattleMusicEntry(Rickets,Song_DeadlySix)
+BattleMusicEntry(Lucio,Song_Toccata)
+BattleMusicEntry(Cyrille,Song_DeadlySix)
+BattleMusicEntry(Blunderbuss,Song_DeadlySix)
+BattleMusicEntry(Avanth,Song_DeadlySix)
+BattleMusicEntry(Ransley,Song_DeadlySix)
+BattleMusicEntry(Vercinge,Song_DeadlySix)
+BattleMusicEntry(Diqhed,Song_Toccata)
+BattleMusicEntry(Esme,Song_Toccata)
+BattleMusicEntry(Korath,Song_Toccata)
+BattleMusicEntry(Gaburas,Song_Toccata)
+BattleMusicEntry(Aswang,Song_Toccata)
+BattleMusicEntry(Zelroth,Song_Toccata)
+BattleMusicEntry(Wulfric,Song_Toccata)
+BattleMusicEntry(Floorentius,Song_Toccata)
+BattleMusicEntry(Algrim2,Song_Toccata)
+BattleMusicEntry(Zephyr,Song_Toccata)
+BattleMusicEntry(Godfrey,Song_Toccata)
+BattleMusicEntry(Heinrik,Song_Toccata)
+BattleMusicEntry(Lucio2,Song_QuestBattle)
+BattleMusicEntry(Esme2,Song_QuestBattle)
+BattleMusicEntry(Korath2,Song_QuestBattle)
+BattleMusicEntry(Wulfric2,Song_QuestBattle)
+BattleMusicEntry(Aswang2,Song_QuestBattle)
+BattleMusicEntry(Zelroth2,Song_QuestBattle)
+BattleMusicEntry(Floorentius2,Song_QuestBattle)
+BattleMusicEntry(Diqhed2,Song_QuestBattle)
+BattleMusicEntry(Algrim3,Song_QuestBattle)
+BattleMusicEntry(Tempest,Song_QuestBattle)
+BattleMusicEntry(Tomorsiif,Song_RickAstley)
+BattleMusicEntry(Mizuki,Song_RickAstley)
+BattleMusicEnd
+
+
+
