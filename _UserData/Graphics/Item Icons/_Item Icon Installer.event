@@ -1,0 +1,8 @@
+PUSH
+
+ORG WeaponIconOffset($8)
+#incext Png2Dmp "BearClaw.png"
+ORG WeaponIconOffset($B0)
+#incext Png2Dmp "Crabhammer.png"
+ 
+POP

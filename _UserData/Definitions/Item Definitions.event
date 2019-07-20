@@ -1,1 +1,3 @@
 #define BearClaw Rapier
+#define Crabhammer Sieglinde
+#define CrabHammer Sieglinde //alias
