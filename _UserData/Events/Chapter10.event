@@ -258,11 +258,11 @@ unRescueList:
 
 	UNIT CharCh10Gen Soldier       0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelLance] [0, 0]
 	UNIT CharCh10Gen Archer        0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelBow]   [0, 0]
-	UNIT CharCh10Gen Cavalier      0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelSword] [0, 0]
+	UNIT CharCh10Gen SwordCav      0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelSword] [0, 0]
 	UNIT CharCh10Gen Shaman        0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [Flux]       [0, 0]
 	UNIT CharCh10Gen Pirate        0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelAxe]   [0, 4]
 	UNIT CharCh10Gen WyvernRider   0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelLance] [0, 0]
-	UNIT CharCh10Gen Cavalier      0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelLance] [0, 0]
+	UNIT CharCh10Gen LanceCav      0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [SteelLance] [0, 0]
 	UNIT CharCh10Gen Priest        0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [Physic]     [0, 0]
 	UNIT CharCh10Gen Hero          0 Level(3,  Enemy, True) [0, 0] 0 0 0 0 [SteelSword] [0, 0]
 	UNIT CharCh10Gen Shaman        0 Level(12, Enemy, True) [0, 0] 0 0 0 0 [Nosferatu]  [0, 0]
