@@ -1261,6 +1261,330 @@ __TEXTPROCESSE73:
 #incbin ".TextEntries\text_buildfileMizukiDeathQuote.fetxt.dmp"
 setText($E73, __TEXTPROCESSE73)
 
+__TEXTPROCESSE74:
+#incbin ".TextEntries\text_buildfileCh0House1.fetxt.dmp"
+setText($E74, __TEXTPROCESSE74)
+
+__TEXTPROCESSE75:
+#incbin ".TextEntries\text_buildfileCh0House2.fetxt.dmp"
+setText($E75, __TEXTPROCESSE75)
+
+__TEXTPROCESSE76:
+#incbin ".TextEntries\text_buildfileCh0House3.fetxt.dmp"
+setText($E76, __TEXTPROCESSE76)
+
+__TEXTPROCESSE77:
+#incbin ".TextEntries\text_buildfileCh1Village1.fetxt.dmp"
+setText($E77, __TEXTPROCESSE77)
+
+__TEXTPROCESSE78:
+#incbin ".TextEntries\text_buildfileCh1Village2.fetxt.dmp"
+setText($E78, __TEXTPROCESSE78)
+
+__TEXTPROCESSE79:
+#incbin ".TextEntries\text_buildfileCh2Village1.fetxt.dmp"
+setText($E79, __TEXTPROCESSE79)
+
+__TEXTPROCESSE7A:
+#incbin ".TextEntries\text_buildfileCh2Village2.fetxt.dmp"
+setText($E7A, __TEXTPROCESSE7A)
+
+__TEXTPROCESSE7B:
+#incbin ".TextEntries\text_buildfileCh3Village1.fetxt.dmp"
+setText($E7B, __TEXTPROCESSE7B)
+
+__TEXTPROCESSE7C:
+#incbin ".TextEntries\text_buildfileCh3Village2.fetxt.dmp"
+setText($E7C, __TEXTPROCESSE7C)
+
+__TEXTPROCESSE7D:
+#incbin ".TextEntries\text_buildfileCh3House1.fetxt.dmp"
+setText($E7D, __TEXTPROCESSE7D)
+
+__TEXTPROCESSE7E:
+#incbin ".TextEntries\text_buildfileCh6SharedVillage1.fetxt.dmp"
+setText($E7E, __TEXTPROCESSE7E)
+
+__TEXTPROCESSE7F:
+#incbin ".TextEntries\text_buildfileCh6SharedVillage2.fetxt.dmp"
+setText($E7F, __TEXTPROCESSE7F)
+
+__TEXTPROCESSE80:
+#incbin ".TextEntries\text_buildfileCh6SharedVillage3.fetxt.dmp"
+setText($E80, __TEXTPROCESSE80)
+
+__TEXTPROCESSE81:
+#incbin ".TextEntries\text_buildfileCh6Village1Text1.fetxt.dmp"
+setText($E81, __TEXTPROCESSE81)
+
+__TEXTPROCESSE82:
+#incbin ".TextEntries\text_buildfileCh6Village1Text2.fetxt.dmp"
+setText($E82, __TEXTPROCESSE82)
+
+__TEXTPROCESSE83:
+#incbin ".TextEntries\text_buildfileCh6Village2Text1.fetxt.dmp"
+setText($E83, __TEXTPROCESSE83)
+
+__TEXTPROCESSE84:
+#incbin ".TextEntries\text_buildfileCh6Village2Text2.fetxt.dmp"
+setText($E84, __TEXTPROCESSE84)
+
+__TEXTPROCESSE85:
+#incbin ".TextEntries\text_buildfileCh6Village3Text1.fetxt.dmp"
+setText($E85, __TEXTPROCESSE85)
+
+__TEXTPROCESSE86:
+#incbin ".TextEntries\text_buildfileCh6Village3Text2.fetxt.dmp"
+setText($E86, __TEXTPROCESSE86)
+
+__TEXTPROCESSE87:
+#incbin ".TextEntries\text_buildfileCh7Village1.fetxt.dmp"
+setText($E87, __TEXTPROCESSE87)
+
+__TEXTPROCESSE88:
+#incbin ".TextEntries\text_buildfileCh7Village2.fetxt.dmp"
+setText($E88, __TEXTPROCESSE88)
+
+__TEXTPROCESSE89:
+#incbin ".TextEntries\text_buildfileCh7Village3.fetxt.dmp"
+setText($E89, __TEXTPROCESSE89)
+
+__TEXTPROCESSE8A:
+#incbin ".TextEntries\text_buildfileCh9Village1.fetxt.dmp"
+setText($E8A, __TEXTPROCESSE8A)
+
+__TEXTPROCESSE8B:
+#incbin ".TextEntries\text_buildfileCh9Village2.fetxt.dmp"
+setText($E8B, __TEXTPROCESSE8B)
+
+__TEXTPROCESSE8C:
+#incbin ".TextEntries\text_buildfileCh9House1.fetxt.dmp"
+setText($E8C, __TEXTPROCESSE8C)
+
+__TEXTPROCESSE8D:
+#incbin ".TextEntries\text_buildfileCh11Village1.fetxt.dmp"
+setText($E8D, __TEXTPROCESSE8D)
+
+__TEXTPROCESSE8E:
+#incbin ".TextEntries\text_buildfileCh11Village2.fetxt.dmp"
+setText($E8E, __TEXTPROCESSE8E)
+
+__TEXTPROCESSE8F:
+#incbin ".TextEntries\text_buildfileCh11Village3.fetxt.dmp"
+setText($E8F, __TEXTPROCESSE8F)
+
+__TEXTPROCESSE90:
+#incbin ".TextEntries\text_buildfileCh11Village4.fetxt.dmp"
+setText($E90, __TEXTPROCESSE90)
+
+__TEXTPROCESSE91:
+#incbin ".TextEntries\text_buildfileCh11Village5.fetxt.dmp"
+setText($E91, __TEXTPROCESSE91)
+
+__TEXTPROCESSE92:
+#incbin ".TextEntries\text_buildfileCh11House1.fetxt.dmp"
+setText($E92, __TEXTPROCESSE92)
+
+__TEXTPROCESSE93:
+#incbin ".TextEntries\text_buildfileCh11House2.fetxt.dmp"
+setText($E93, __TEXTPROCESSE93)
+
+__TEXTPROCESSE94:
+#incbin ".TextEntries\text_buildfileCh11House3.fetxt.dmp"
+setText($E94, __TEXTPROCESSE94)
+
+__TEXTPROCESSE95:
+#incbin ".TextEntries\text_buildfileCh11House4.fetxt.dmp"
+setText($E95, __TEXTPROCESSE95)
+
+__TEXTPROCESSE96:
+#incbin ".TextEntries\text_buildfileCh11House5.fetxt.dmp"
+setText($E96, __TEXTPROCESSE96)
+
+__TEXTPROCESSE97:
+#incbin ".TextEntries\text_buildfileCh11House6.fetxt.dmp"
+setText($E97, __TEXTPROCESSE97)
+
+__TEXTPROCESSE98:
+#incbin ".TextEntries\text_buildfileCh11House7.fetxt.dmp"
+setText($E98, __TEXTPROCESSE98)
+
+__TEXTPROCESSE99:
+#incbin ".TextEntries\text_buildfileCh11House8.fetxt.dmp"
+setText($E99, __TEXTPROCESSE99)
+
+__TEXTPROCESSE9A:
+#incbin ".TextEntries\text_buildfileCh11House9.fetxt.dmp"
+setText($E9A, __TEXTPROCESSE9A)
+
+__TEXTPROCESSE9B:
+#incbin ".TextEntries\text_buildfileCh13Village1.fetxt.dmp"
+setText($E9B, __TEXTPROCESSE9B)
+
+__TEXTPROCESSE9C:
+#incbin ".TextEntries\text_buildfileCh13Village2.fetxt.dmp"
+setText($E9C, __TEXTPROCESSE9C)
+
+__TEXTPROCESSE9D:
+#incbin ".TextEntries\text_buildfileCh13Village3.fetxt.dmp"
+setText($E9D, __TEXTPROCESSE9D)
+
+__TEXTPROCESSE9E:
+#incbin ".TextEntries\text_buildfileCh13House1.fetxt.dmp"
+setText($E9E, __TEXTPROCESSE9E)
+
+__TEXTPROCESSE9F:
+#incbin ".TextEntries\text_buildfileCh13House2.fetxt.dmp"
+setText($E9F, __TEXTPROCESSE9F)
+
+__TEXTPROCESSEA0:
+#incbin ".TextEntries\text_buildfileCh13House3.fetxt.dmp"
+setText($EA0, __TEXTPROCESSEA0)
+
+__TEXTPROCESSEA1:
+#incbin ".TextEntries\text_buildfileCh13House4.fetxt.dmp"
+setText($EA1, __TEXTPROCESSEA1)
+
+__TEXTPROCESSEA2:
+#incbin ".TextEntries\text_buildfileCh13House5.fetxt.dmp"
+setText($EA2, __TEXTPROCESSEA2)
+
+__TEXTPROCESSEA3:
+#incbin ".TextEntries\text_buildfileCh14Village1.fetxt.dmp"
+setText($EA3, __TEXTPROCESSEA3)
+
+__TEXTPROCESSEA4:
+#incbin ".TextEntries\text_buildfileCh14House1.fetxt.dmp"
+setText($EA4, __TEXTPROCESSEA4)
+
+__TEXTPROCESSEA5:
+#incbin ".TextEntries\text_buildfileCh14House2.fetxt.dmp"
+setText($EA5, __TEXTPROCESSEA5)
+
+__TEXTPROCESSEA6:
+#incbin ".TextEntries\text_buildfileCh14House3.fetxt.dmp"
+setText($EA6, __TEXTPROCESSEA6)
+
+__TEXTPROCESSEA7:
+#incbin ".TextEntries\text_buildfileCh14House4.fetxt.dmp"
+setText($EA7, __TEXTPROCESSEA7)
+
+__TEXTPROCESSEA8:
+#incbin ".TextEntries\text_buildfileCh14House5.fetxt.dmp"
+setText($EA8, __TEXTPROCESSEA8)
+
+__TEXTPROCESSEA9:
+#incbin ".TextEntries\text_buildfileCh14House6.fetxt.dmp"
+setText($EA9, __TEXTPROCESSEA9)
+
+__TEXTPROCESSEAA:
+#incbin ".TextEntries\text_buildfileCh14House7.fetxt.dmp"
+setText($EAA, __TEXTPROCESSEAA)
+
+__TEXTPROCESSEAB:
+#incbin ".TextEntries\text_buildfileCh14House8.fetxt.dmp"
+setText($EAB, __TEXTPROCESSEAB)
+
+__TEXTPROCESSEAC:
+#incbin ".TextEntries\text_buildfileCh14House9.fetxt.dmp"
+setText($EAC, __TEXTPROCESSEAC)
+
+__TEXTPROCESSEAD:
+#incbin ".TextEntries\text_buildfileCh14House10.fetxt.dmp"
+setText($EAD, __TEXTPROCESSEAD)
+
+__TEXTPROCESSEAE:
+#incbin ".TextEntries\text_buildfileCh14House11.fetxt.dmp"
+setText($EAE, __TEXTPROCESSEAE)
+
+__TEXTPROCESSEAF:
+#incbin ".TextEntries\text_buildfileCh14House12.fetxt.dmp"
+setText($EAF, __TEXTPROCESSEAF)
+
+__TEXTPROCESSEB0:
+#incbin ".TextEntries\text_buildfileCh16Village1.fetxt.dmp"
+setText($EB0, __TEXTPROCESSEB0)
+
+__TEXTPROCESSEB1:
+#incbin ".TextEntries\text_buildfileCh16Village2.fetxt.dmp"
+setText($EB1, __TEXTPROCESSEB1)
+
+__TEXTPROCESSEB2:
+#incbin ".TextEntries\text_buildfileCh16Village3.fetxt.dmp"
+setText($EB2, __TEXTPROCESSEB2)
+
+__TEXTPROCESSEB3:
+#incbin ".TextEntries\text_buildfileCh16Village4.fetxt.dmp"
+setText($EB3, __TEXTPROCESSEB3)
+
+__TEXTPROCESSEB4:
+#incbin ".TextEntries\text_buildfileCh16Village5.fetxt.dmp"
+setText($EB4, __TEXTPROCESSEB4)
+
+__TEXTPROCESSEB5:
+#incbin ".TextEntries\text_buildfileCh16House1.fetxt.dmp"
+setText($EB5, __TEXTPROCESSEB5)
+
+__TEXTPROCESSEB6:
+#incbin ".TextEntries\text_buildfileCh16House2.fetxt.dmp"
+setText($EB6, __TEXTPROCESSEB6)
+
+__TEXTPROCESSEB7:
+#incbin ".TextEntries\text_buildfileCh16House3.fetxt.dmp"
+setText($EB7, __TEXTPROCESSEB7)
+
+__TEXTPROCESSEB8:
+#incbin ".TextEntries\text_buildfileCh16House4.fetxt.dmp"
+setText($EB8, __TEXTPROCESSEB8)
+
+__TEXTPROCESSEB9:
+#incbin ".TextEntries\text_buildfileCh16House5.fetxt.dmp"
+setText($EB9, __TEXTPROCESSEB9)
+
+__TEXTPROCESSEBA:
+#incbin ".TextEntries\text_buildfileCh16House6.fetxt.dmp"
+setText($EBA, __TEXTPROCESSEBA)
+
+__TEXTPROCESSEBB:
+#incbin ".TextEntries\text_buildfileCh16House7.fetxt.dmp"
+setText($EBB, __TEXTPROCESSEBB)
+
+__TEXTPROCESSEBC:
+#incbin ".TextEntries\text_buildfileCh16House8.fetxt.dmp"
+setText($EBC, __TEXTPROCESSEBC)
+
+__TEXTPROCESSEBD:
+#incbin ".TextEntries\text_buildfileCh18Village1.fetxt.dmp"
+setText($EBD, __TEXTPROCESSEBD)
+
+__TEXTPROCESSEBE:
+#incbin ".TextEntries\text_buildfileCh18Village2.fetxt.dmp"
+setText($EBE, __TEXTPROCESSEBE)
+
+__TEXTPROCESSEBF:
+#incbin ".TextEntries\text_buildfileCh18House1.fetxt.dmp"
+setText($EBF, __TEXTPROCESSEBF)
+
+__TEXTPROCESSEC0:
+#incbin ".TextEntries\text_buildfileCh18House2.fetxt.dmp"
+setText($EC0, __TEXTPROCESSEC0)
+
+__TEXTPROCESSEC1:
+#incbin ".TextEntries\text_buildfileCh19Village1.fetxt.dmp"
+setText($EC1, __TEXTPROCESSEC1)
+
+__TEXTPROCESSEC2:
+#incbin ".TextEntries\text_buildfileCh19Village2.fetxt.dmp"
+setText($EC2, __TEXTPROCESSEC2)
+
+__TEXTPROCESSEC3:
+#incbin ".TextEntries\text_buildfileCh20Village1.fetxt.dmp"
+setText($EC3, __TEXTPROCESSEC3)
+
+__TEXTPROCESSEC4:
+#incbin ".TextEntries\text_buildfileCh20Village2.fetxt.dmp"
+setText($EC4, __TEXTPROCESSEC4)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

@@ -123,10 +123,10 @@
 #define ZelrothMug2 Zelroth2
 #define FloorentiusMug2 Floorentius2
 #define DiqhedMug2 Diqhed2
-#define AlgrimMug3 Algrim3
-#define TempestMug Tempest
-#define TomorsiifMug Tomorsiif
-#define MizukiMug Mizuki
+#define AlgrimMug3 0x69
+#define TempestMug 0xAB
+#define TomorsiifMug 0xAC
+#define MizukiMug 0xAD
 #define MorphLucioMug LucioMug2
 #define MorphEsmeMug EsmeMug2
 #define MorphKorathMug KorathMug2
@@ -137,7 +137,18 @@
 #define MorphDiqhedMug DiqhedMug2
 #define MorphAlgrimMug AlgrimMug3
 
-
+#define Villager1Mug 0xAE
+#define Villager2Mug 0xAF
+#define Villager3Mug 0xB0
+#define Villager4Mug 0xB1
+#define Villager5Mug 0xB2
+#define Villager6Mug 0xB3
+#define Villager7Mug 0xB4
+#define Villager8Mug 0xB5
+#define Villager9Mug 0xB6
+#define Villager10Mug 0xB7
+#define Villager11Mug 0xB8
+#define Villager12Mug 0xB9
 
 //misc
 

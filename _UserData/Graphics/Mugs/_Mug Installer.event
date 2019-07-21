@@ -162,6 +162,30 @@ TomorsiifPortrait:
 #incext PortraitFormatter "Bosses/Tomorsiif.png"
 MizukiPortrait:
 #incext PortraitFormatter "Bosses/Mizuki.png"
+VillagerPortrait1:
+#incext PortraitFormatter "NPCs/88.png"
+VillagerPortrait2:
+#incext PortraitFormatter "NPCs/89.png"
+VillagerPortrait3:
+#incext PortraitFormatter "NPCs/90.png"
+VillagerPortrait4:
+#incext PortraitFormatter "NPCs/91.png"
+VillagerPortrait5:
+#incext PortraitFormatter "NPCs/92.png"
+VillagerPortrait6:
+#incext PortraitFormatter "NPCs/93.png"
+VillagerPortrait7:
+#incext PortraitFormatter "NPCs/94.png"
+VillagerPortrait8:
+#incext PortraitFormatter "NPCs/95.png"
+VillagerPortrait9:
+#incext PortraitFormatter "NPCs/96.png"
+VillagerPortrait10:
+#incext PortraitFormatter "NPCs/97.png"
+VillagerPortrait11:
+#incext PortraitFormatter "NPCs/98.png"
+VillagerPortrait12:
+#incext PortraitFormatter "NPCs/99.png"
 
 
 setMugEntry(RiaMug, RiaPortrait, 3, 5, 3, 3)
@@ -245,3 +269,16 @@ setMugEntry(MorphAlgrimMug, MorphAlgrimPortrait, 0, 0, 0, 0)
 setMugEntry(TempestMug, TempestPortrait, 0, 0, 0, 0)
 setMugEntry(TomorsiifMug, TomorsiifPortrait, 0, 0, 0, 0)
 setMugEntry(MizukiMug, MizukiPortrait, 4, 6, 4, 4)
+
+setMugEntry(Villager1Mug, VillagerPortrait1, 2, 6, 3, 4)
+setMugEntry(Villager2Mug, VillagerPortrait2, 2, 7, 3, 5)
+setMugEntry(Villager3Mug, VillagerPortrait3, 2, 5, 3, 3)
+setMugEntry(Villager4Mug, VillagerPortrait4, 2, 6, 3, 4)
+setMugEntry(Villager5Mug, VillagerPortrait5, 2, 5, 3, 3)
+setMugEntry(Villager6Mug, VillagerPortrait6, 2, 5, 3, 3)
+setMugEntry(Villager7Mug, VillagerPortrait7, 2, 7, 3, 5)
+setMugEntry(Villager8Mug, VillagerPortrait8, 2, 6, 3, 4)
+setMugEntry(Villager9Mug, VillagerPortrait9, 2, 6, 3, 4)
+setMugEntry(Villager10Mug, VillagerPortrait10, 2, 6, 3, 4)
+setMugEntry(Villager11Mug, VillagerPortrait11, 2, 6, 3, 4)
+setMugEntry(Villager12Mug, VillagerPortrait12, 2, 7, 3, 5)
