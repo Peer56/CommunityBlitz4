@@ -11,3 +11,14 @@ POIN SupportConversationTable
 ORG $847FC
 POIN SupportConversationTable
 POP
+
+
+/*
+SupportLevelData:
+BYTE Partner1 Partner2 Partner3 Partner4 Partner5 Partner6 Partner7
+BYTE BaseValue1 BaseValue2 BaseValue3 BaseValue4 BaseValue5 BaseValue6 BaseValue7
+BYTE Growth1 Growth2 Growth3 Growth4 Growth5 Growth6 Growth7
+BYTE NumberOfPartners
+SHORT 0
+*/
+
