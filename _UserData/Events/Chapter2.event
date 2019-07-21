@@ -65,11 +65,11 @@ ENDTRAP
 ALIGN 4
 
 VillageTorch:
-VillageEventItem(Ch2Village1, Village, Torch) //Gives item to the active character (the one visiting)
+VillageEventItem(PlaceholderText, Village, Torch) //Gives item to the active character (the one visiting)
 ENDA
 
 VillageDevilAxe:
-VillageEventItem(Ch2Village2, Village, DevilAxe) //Gives item to the active character (the one visiting)
+VillageEventItem(PlaceholderText, Village, DevilAxe) //Gives item to the active character (the one visiting)
 ENDA
 
 HiddenItem:
@@ -138,23 +138,23 @@ UNIT
 
 // Enemies
 Enemies:
-UNIT Skaidrite Myrmidon_F 0x00 Level(5, Enemy, 0) [1,16] 0x02 0x00 0x0 0x00 [Lancereaver] NeverMoveAI //Lancereaver should be droppable
-UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [7,5] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x72 Fighter 0x00 Level(2, Enemy, 0) [8,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x72 Mercenary 0x00 Level(2, Enemy, 0) [11,6] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
-UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [12,5] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x72 Mercenary 0x00 Level(2, Enemy, 0) [11,9] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x72 Archer 0x00 Level(2, Enemy, 0) [12,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
-UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [6,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [1,10] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x72 Archer 0x00 Level(2, Enemy, 0) [1,13] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
-UNIT 0x72 Fighter 0x00 Level(2, Enemy, 0) [2,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x72 Mage 0x00 Level(2, Enemy, 0) [11,15] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI
-UNIT 0x72 Monk 0x00 Level(2, Enemy, 0) [12,16] 0x00 0x00 0x0 0x00 [Lightning] AttackInRangeAI
-UNIT 0x72 Myrmidon 0x00 Level(2, Enemy, 0) [15,13] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI
-UNIT 0x72 Soldier 0x00 Level(2, Enemy, 0) [15,17] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
-UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, 0) [8,17] 0x02 0x00 0x0 0x00 [Javelin, SteelSword, RedGem] AttackInRangeAI // Droppable Red Gem
-UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, 0) [0,16] 0x00 0x00 0x0 0x00 [IronLance, IronSword, RedGem] AttackInRangeAI // Stealable Red Gem
+UNIT Skaidrite Myrmidon_F 0x00 Level(5, Enemy, 1) [1,16] 0x02 0x00 0x0 0x00 [Lancereaver] NeverMoveAI //Lancereaver should be droppable
+UNIT 0x72 Soldier 0x00 Level(2, Enemy, 1) [7,5] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x72 Fighter 0x00 Level(2, Enemy, 1) [8,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x72 Mercenary 0x00 Level(2, Enemy, 1) [11,6] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT 0x72 Soldier 0x00 Level(2, Enemy, 1) [12,5] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x72 Mercenary 0x00 Level(2, Enemy, 1) [11,9] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x72 Archer 0x00 Level(2, Enemy, 1) [12,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
+UNIT 0x72 Soldier 0x00 Level(2, Enemy, 1) [6,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x72 Soldier 0x00 Level(2, Enemy, 1) [1,10] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x72 Archer 0x00 Level(2, Enemy, 1) [1,13] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
+UNIT 0x72 Fighter 0x00 Level(2, Enemy, 1) [2,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x72 Mage 0x00 Level(2, Enemy, 1) [11,15] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI
+UNIT 0x72 Monk 0x00 Level(2, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [Lightning] AttackInRangeAI
+UNIT 0x72 Myrmidon 0x00 Level(2, Enemy, 1) [15,13] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI
+UNIT 0x72 Soldier 0x00 Level(2, Enemy, 1) [15,17] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
+UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, 1) [8,17] 0x02 0x00 0x0 0x00 [Javelin, SteelSword, RedGem] AttackInRangeAI // Droppable Red Gem
+UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, 1) [0,16] 0x00 0x00 0x0 0x00 [IronLance, IronSword, RedGem] AttackInRangeAI // Stealable Red Gem
 UNIT
 
 RecruitTalk:

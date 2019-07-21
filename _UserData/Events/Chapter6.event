@@ -1,0 +1,490 @@
+//Custom AI
+#ifndef InjectAi1
+	#define InjectAi1(aId, aScr) "PUSH; ORG 0x5A9184+(4*(aId)); POIN (aScr); POP"
+#endif //InjectAi1
+#ifndef InjectAi2
+	#define InjectAi2(aId, aScr) "PUSH; ORG 0x5A9138+(4*(aId)); POIN (aScr); POP"
+#endif //InjectAi2
+
+#define AiMoveTowardsPoint(aX, aY) "BYTE 0x0C (aX) 0xFF (aY); WORD 0 0 0"
+#define AiRestart "BYTE 0x03 0 0xFF 0; WORD 0 0 0"
+
+InjectAi2(0x8, AiScrMoveToPointNorthVillage)
+InjectAi2(0xD, AiScrMoveToPointNorthVillage)
+InjectAi2(0x10, AiScrMoveToPointNorthVillage)
+
+ALIGN 4
+AiScrMoveToPointNorthVillage:
+    AiMoveTowardsPoint(8, 2)
+    AiRestart
+
+ALIGN 4
+AiScrMoveToPointEastVillage:
+    AiMoveTowardsPoint(18, 5)
+    AiRestart
+	
+ALIGN 4
+AiScrMoveToPointSouthVillage:
+    AiMoveTowardsPoint(16, 15)
+    AiRestart
+	
+#define MoveToNorthVillageAI [0,0x8,0,0]
+#define MoveToEastVillageAI [0,0xD,0,0]
+#define MoveToSouthVillageAI [0,0x10,0,0]
+
+//Label Defs
+#define NorthReinforcementsLabel   $1
+#define EastReinforcementsLabel    $2
+#define SouthReinforcementsLabel   $3
+#define NorthVisitLabel1           $4
+#define NorthVisitLabel2           $5
+#define NorthVisitLabel3           $6
+#define NorthVisitLabel4           $7
+#define NorthConstructionLabel1    $8
+#define NorthConstructionLabel2    $9
+#define NorthConstructionLabel3    $A
+#define NorthConstructionLabel4    $B
+#define NorthDestructionLabel      $C
+#define EastVisitLabel1            $D
+#define EastVisitLabel2            $E
+#define EastVisitLabel3            $F
+#define EastVisitLabel4            $10
+#define EastConstructionLabel1     $11
+#define EastConstructionLabel2     $12
+#define EastConstructionLabel3     $13
+#define EastConstructionLabel4     $14
+#define EastDestructionLabel       $15
+#define SouthVisitLabel1           $16
+#define SouthVisitLabel2           $17
+#define SouthVisitLabel3           $18
+#define SouthVisitLabel4           $19
+#define SouthConstructionLabel1    $1A
+#define SouthConstructionLabel2    $1B
+#define SouthConstructionLabel3    $1C
+#define SouthConstructionLabel4    $1D
+#define SouthDestructionLabel      $1E
+#define EndingEventLabel1          $1F
+#define EndingEventLabel2          $20
+
+//Chapter Events
+EventPointerTable(0x24, PointerList)
+
+PointerList:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno1 Dunno2 Dunno3 Tutorial
+POIN Traps1 Traps2
+POIN Units Units
+POIN $0 $0 $0
+POIN $0 $0 $0
+POIN BeginningEvent EndingEvent
+
+TurnBasedEvents:
+TURN 0xD BossSwitchEvent [0x4,0x0] 0x8
+TURN 0x0 VillageNorthConstruction [0x0,0xFF] 0x0
+TURN 0x0 VillageEastConstruction [0x0,0xFF] 0x0
+TURN 0x0 VillageSouthConstruction [0x0,0xFF] 0x0
+TURN 0x0 ReinforcementsNorth [0x0,0xFF] 0x0
+TURN 0x0 ReinforcementsEast [0x0,0xFF] 0x0
+TURN 0x0 ReinforcementsSouth [0x0,0xFF] 0x0
+TURN 0x0 ReinforcementsPirates [0x9,0x12] 0x0
+TURN 0xE ReinforcementsFleet [0x9,0x0] 0x0
+END_MAIN
+
+CharacterBasedEvents:
+END_MAIN
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+LocationBasedEvents:
+Village(0x0,VillageNorthVisit,8,2)
+Village(0x0,VillageSouthVisit,18,5)
+Village(0x0,VillageEastVisit,16,15)
+AREA 0x0 VillageNorthDestruction [7,0] [9,2]
+AREA 0x0 VillageEastDestruction [17,3] [19,5]
+AREA 0x0 VillageSouthDestruction [15,13] [17,15]
+END_MAIN
+
+Dunno1:
+END_MAIN
+
+Dunno2:
+END_MAIN
+
+Dunno3:
+END_MAIN
+
+Tutorial:
+END_MAIN
+
+Traps1:
+ENDTRAP
+ALIGN 4
+
+Traps2:
+ENDTRAP
+ALIGN 4
+
+Units:
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [19,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin 0x00 Level(1, Ally, 0) [20,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin 0x00 Level(1, Ally, 0) [20,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin 0x00 Level(1, Ally, 0) [21,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin 0x00 Level(1, Ally, 0) [21,5] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin 0x00 Level(1, Ally, 0) [22,6] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin 0x00 Level(1, Ally, 0) [22,8] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin 0x00 Level(1, Ally, 0) [22,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin 0x00 Level(1, Ally, 0) [20,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin 0x00 Level(1, Ally, 0) [22,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT
+
+Bandits:
+UNIT Algrim Berserker 0x00 Level(18, Enemy, 1) [8,2] 0x00 0x00 0x0 0x00 [BraveAxe, Tomahawk] GuardTileAI 
+UNIT 0x7A Archer 0x0 Level(6, Enemy, 1) [5,12] 0x00 0x00 0x0 0x00 [SteelBow] AttackInRangeAI 
+UNIT 0x7A WyvernRider 0x0 Level(6, Enemy, 1) [20,15] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI 
+UNIT 0x7A Brigand 0x0 Level(6, Enemy, 1) [15,16] 0x00 0x00 0x0 0x00 [Halberd, HandAxe] AttackInRangeAI 
+UNIT 0x7A Brigand 0x0 Level(6, Enemy, 1) [11,7] 0x00 0x00 0x0 0x00 [SteelAxe] AttackInRangeAI 
+UNIT 0x7A SwordCavalier 0x0 Level(6, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
+UNIT 0x7A LanceCavalier 0x0 Level(6, Enemy, 1) [12,9] 0x00 0x00 0x0 0x00 [Axereaver] PursueWithoutHeedAI 
+UNIT 0x7A WyvernRider 0x0 Level(6, Enemy, 1) [20,1] 0x2 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI 
+UNIT 0x7A Mercenary 0x00 Level(18, Enemy, 1) [16,13] 0x00 0x00 0x0 0x00 [IronBlade] AttackInRangeAI 
+UNIT 0x7A Myrmidon 0x00 Level(6, Enemy, 1) [16,8] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x7A Shaman 0x00 Level(6, Enemy, 1) [15,6] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x7A Archer 0x00 Level(6, Enemy, 1) [16,12] 0x00 0x00 0x0 0x00 [Longbow] GuardTileAI 
+UNIT 0x7A Knight 0x00 Level(6, Enemy, 1) [8,13] 0x00 0x00 0x0 0x00 [BraveAxe] AttackInRangeAI 
+UNIT 0x7A WyvernRider 0x00 Level(6, Enemy, 1) [3,11] 0x00 0x00 0x0 0x00 [Javelin] AttackInRangeAI 
+UNIT 0x7A Priest 0x00 Level(6, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [Physic] HealUnits 
+UNIT 0x7A Brigand 0x00 Level(6, Enemy, 1) [2,16] 0x00 0x00 0x0 0x00 [HandAxe] AttackInRangeAI 
+UNIT 0x7A Mage 0x00 Level(6, Enemy, 1) [8,15] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI 
+UNIT 0x7A Thief 0x00 Level(6, Enemy, 1) [12,12] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI 
+UNIT 0x7A Mercenary 0x00 Level(6, Enemy, 1) [8,10] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI 
+UNIT 0x7A Shaman 0x00 Level(6, Enemy, 1) [11,4] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI 
+UNIT 0x7A Fighter 0x00 Level(6, Enemy, 1) [7,7] 0x00 0x00 0x0 0x00 [IronAxe] AttackInRangeAI 
+UNIT 0x7A Fighter 0x00 Level(6, Enemy, 1) [8,7] 0x00 0x00 0x0 0x00 [Swordreaver] GuardTileAI 
+UNIT 0x7A AxeCavalier 0x00 Level(6, Enemy, 1) [10,1] 0x00 0x00 0x0 0x00 [KillerAxe] AttackInRangeAI 
+UNIT 0x7A Archer 0x00 Level(6, Enemy, 1) [14,0] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
+UNIT
+
+TonyUnit:
+UNIT Tony Soldier 0x0 Level(6,Ally,0) [19,6] 0x0 0x0 0x0 0x0 [SlimLance,Axereaver] NoAI
+UNIT
+
+MaulochUnit:
+UNIT Mauloch Brigand 0x0 Level(7,Enemy,1) [8,2] 0x0 0x0 0x0 0x0 [KillerAxe,HandAxe] NeverMoveAI
+UNIT
+
+ReinforcementsNorthUnits:
+UNIT 0x7A Brigand 0x0 Level(6,Enemy,1) [11,6] 0x0 0x0 0x0 0x0 [SteelAxe] MoveToNorthVillageAI
+UNIT 0x7A WyvernRider 0x0 Level(6,Enemy,1) [17,0] 0x0 0x0 0x0 0x0 [IronLance] MoveToNorthVillageAI
+UNIT
+
+ReinforcementsEastUnits:
+UNIT 0x7A Brigand 0x0 Level(6,Enemy,1) [21,4] 0x0 0x0 0x0 0x0 [IronAxe] MoveToEastVillageAI
+UNIT 0x7A Mercenary 0x0 Level(6,Enemy,1) [22,8] 0x0 0x0 0x0 0x0 [LightBrand] MoveToEastVillageAI
+UNIT
+
+ReinforcementsSouthUnits:
+UNIT 0x7A Brigand 0x0 Level(6,Enemy,1) [21,15] 0x0 0x0 0x0 0x0 [HandAxe] MoveToSouthVillageAI
+UNIT 0x7A WyvernRider 0x0 Level(6,Enemy,1) [2,14] 0x0 0x0 0x0 0x0 [Javelin] MoveToSouthVillageAI
+UNIT
+
+ReinforcementsPiratesUnits:
+UNIT 0x7B Pirate 0x0 Level(6,Enemy,1) [1,2] 0x0 0x0 0x0 0x0 [SteelAxe] PursueWithoutHeedAI
+UNIT
+
+ReinforcementsFleetUnits:
+UNIT 0x7B Fleet 0x0 Level(6,Enemy,1) [2,2] 0x0 0x0 0x1 REDA4R6 [IronBallista] AttackInRangeAI
+UNIT
+
+ReinforcementsPirates:
+LOAD1 0x1 ReinforcementsPiratesUnits
+ENUN
+ENDA
+
+ReinforcementsFleet:
+LOAD1 0x1 ReinforcementsFleetUnits
+ENUN
+ENDA
+
+ReinforcementsNorth:
+CHECK_EVENTID 0x7
+BEQ NorthReinforcementsLabel 0xC 0x0
+LOAD1 0x1 ReinforcementsNorthUnits
+ENUN
+LABEL NorthReinforcementsLabel
+ENDA
+
+ReinforcementsEast:
+CHECK_EVENTID 0x9
+BEQ EastReinforcementsLabel 0xC 0x0
+LOAD1 0x1 ReinforcementsEastUnits
+ENUN
+LABEL EastReinforcementsLabel
+ENDA
+
+ReinforcementsSouth:
+CHECK_EVENTID 0xB
+BEQ SouthReinforcementsLabel 0xC 0x0
+LOAD1 0x1 ReinforcementsSouthUnits
+ENUN
+LABEL SouthReinforcementsLabel
+ENDA
+
+VillageNorthVisit:
+CHECK_EVENTID 0x7
+BNE NorthVisitLabel1 0xC 0x0
+//Text(CH6ConstructionStartText)
+ENUT 0x7
+GOTO NorthVisitLabel2
+LABEL NorthVisitLabel1
+COUNTER_CHECK 0x0
+SVAL 0x1 0x3
+BLT NorthVisitLabel3 0xC 0x1
+CHECK_EVENTID 0x8
+BNE NorthVisitLabel4 0xC 0x0
+//Text(CH6VillageNorthRewardCutscene)
+GiveItem(KnightCrest,0xFFFF)
+ENUT 0x8
+GOTO NorthVisitLabel2
+LABEL NorthVisitLabel4
+//Text(CH6VillageNorthRepeatCutscene)
+GOTO NorthVisitLabel2
+LABEL NorthVisitLabel3
+//Text(CH6ConstructionProgressText)
+LABEL NorthVisitLabel2
+ENDA
+
+VillageNorthConstruction:
+CHECK_EVENTID 0x7
+BEQ NorthConstructionLabel1 0xC 0x0
+CAM2 [8,1]
+COUNTER_CHECK 0x0
+BNE NorthConstructionLabel2 0xC 0x0
+Increment(0x0)
+TILECHANGE 0x0
+GOTO NorthConstructionLabel1
+LABEL NorthConstructionLabel2
+SVAL 0x1 0x1
+BNE NorthConstructionLabel3 0xC 0x1
+Increment(0x0)
+TILECHANGE 0x1
+GOTO NorthConstructionLabel1
+LABEL NorthConstructionLabel3
+SVAL 0x1 0x2
+BNE NorthConstructionLabel4 0xC 0x1
+Increment(0x0)
+TILECHANGE 0x2
+//Text(CH6ConstructionFinishedText)
+LABEL NorthConstructionLabel1
+ENDA
+
+VillageNorthDestruction:
+CHECK_ALLEGIANCE 0xFFFF
+SVAL 0x1 0x2
+BNE NorthDestructionLabel 0xC 0x1
+SOUN 0x00AF //Destroy Snag/Wall Sound
+TILEREVERSE 0x2
+TILEREVERSE 0x1
+TILEREVERSE 0x0
+COUNTER_SET 0x0 0x0
+LABEL NorthDestructionLabel
+ENDA
+
+VillageEastVisit:
+CHECK_EVENTID 0x9
+BNE EastVisitLabel1 0xC 0x0
+//Text(CH6ConstructionStartText)
+ENUT 0x9
+GOTO EastVisitLabel2
+LABEL EastVisitLabel1
+COUNTER_CHECK 0x1
+SVAL 0x1 0x3
+BLT EastVisitLabel3 0xC 0x1
+CHECK_EVENTID 0xA
+BNE EastVisitLabel4 0xC 0x0
+//Text(CH6VillageEastRewardCutscene)
+GiveItem(Mend,0xFFFF)
+ENUT 0xA
+GOTO EastVisitLabel2
+LABEL EastVisitLabel4
+//Text(CH6VillageEastRepeatCutscene)
+GOTO EastVisitLabel2
+LABEL EastVisitLabel3
+//Text(CH6ConstructionProgressText)
+LABEL EastVisitLabel2
+ENDA
+
+VillageEastConstruction:
+CHECK_EVENTID 0x9
+BEQ EastConstructionLabel1 0xC 0x0
+CAM2 [18,4]
+COUNTER_CHECK 0x1
+BNE EastConstructionLabel2 0xC 0x0
+Increment(0x1)
+TILECHANGE 0x3
+GOTO EastConstructionLabel1
+LABEL EastConstructionLabel2
+SVAL 0x1 0x1
+BNE EastConstructionLabel3 0xC 0x1
+Increment(0x1)
+TILECHANGE 0x4
+GOTO EastConstructionLabel1
+LABEL EastConstructionLabel3
+SVAL 0x1 0x2
+BNE EastConstructionLabel4 0xC 0x1
+Increment(0x1)
+TILECHANGE 0x5
+//Text(CH6ConstructionFinishedText)
+LABEL EastConstructionLabel1
+ENDA
+
+VillageEastDestruction:
+CHECK_ALLEGIANCE 0xFFFF
+SVAL 0x1 0x2
+BNE EastDestructionLabel 0xC 0x1
+SOUN 0x00AF //Destroy Snag/Wall Sound
+TILEREVERSE 0x5
+TILEREVERSE 0x4
+TILEREVERSE 0x3
+COUNTER_SET 0x1 0x0
+LABEL EastDestructionLabel
+ENDA
+
+VillageSouthVisit:
+CHECK_EVENTID 0xB
+BNE SouthVisitLabel1 0xC 0x0
+//Text(CH6ConstructionStartText)
+ENUT 0xB
+GOTO SouthVisitLabel2
+LABEL SouthVisitLabel1
+COUNTER_CHECK 0x2
+SVAL 0x1 0x3
+BLT SouthVisitLabel3 0xC 0x1
+CHECK_EVENTID 0xC
+BNE SouthVisitLabel4 0xC 0x0
+//Text(CH6VillageSouthRewardCutscene)
+GiveItem(RedGem,0xFFFF)
+ENUT 0xC
+GOTO SouthVisitLabel2
+LABEL SouthVisitLabel4
+//Text(CH6VillageSouthRepeatCutscene)
+GOTO SouthVisitLabel2
+LABEL SouthVisitLabel3
+//Text(CH6ConstructionProgressText)
+LABEL SouthVisitLabel2
+ENDA
+
+VillageSouthConstruction:
+CHECK_EVENTID 0xB
+BEQ SouthConstructionLabel1 0xC 0x0
+CAM2 [16,14]
+COUNTER_CHECK 0x2
+BNE SouthConstructionLabel2 0xC 0x0
+Increment(0x2)
+TILECHANGE 0x6
+GOTO SouthConstructionLabel1
+LABEL SouthConstructionLabel2
+SVAL 0x1 0x1
+BNE SouthConstructionLabel3 0xC 0x1
+Increment(0x2)
+TILECHANGE 0x7
+GOTO SouthConstructionLabel1
+LABEL SouthConstructionLabel3
+SVAL 0x1 0x2
+BNE SouthConstructionLabel4 0xC 0x1
+Increment(0x2)
+TILECHANGE 0x8
+//Text(CH6ConstructionFinishedText)
+LABEL SouthConstructionLabel1
+ENDA
+
+VillageSouthDestruction:
+CHECK_ALLEGIANCE 0xFFFF
+SVAL 0x1 0x2
+BNE SouthDestructionLabel 0xC 0x1
+SOUN 0x00AF //Destroy Snag/Wall Sound
+TILEREVERSE 0x8
+TILEREVERSE 0x7
+TILEREVERSE 0x6
+COUNTER_SET 0x2 0x0
+LABEL SouthDestructionLabel
+ENDA
+
+BossSwitchEvent:
+CAM2 [8,1]
+MOVE 0x0 Algrim [10,0]
+REMU Algrim
+ENUN
+LOAD1 0x1 MaulochUnit
+ENUN
+ENDA
+
+BeginningEvent:
+LOAD2 0x1 Units
+ENUN
+LOAD1 0x1 TonyUnit
+ENUN
+LOAD1 0x1 Bandits
+ENUN
+GotoPrepScreen
+ENDA
+
+EndingEvent:
+TILECHANGE 0x9
+TILECHANGE 0xA
+TILECHANGE 0xB
+CHECK_ALIVE Tony
+BNE EndingEventLabel2 0xC 0x0
+CheckLevel(Tony)
+SVAL 0x1 0x5
+BLT EndingEventLabel1 0x1 0xC
+//Text(CH6TonyFailed)
+REMU Tony
+GOTO EndingEventLabel2
+LABEL EndingEventLabel1
+//Text(CH6TonyRecruitment)
+LABEL EndingEventLabel2
+MNC2 7
+ENDA
+
+//Custom AI Undefs
+#undef MoveToEastVillageAI
+#undef MoveToNorthVillageAI
+#undef MoveToSouthVillageAI
+//Label Undefs
+#undef NorthReinforcementsLabel
+#undef EastReinforcementsLabel
+#undef SouthReinforcementsLabel
+#undef NorthVisitLabel1
+#undef NorthVisitLabel2
+#undef NorthVisitLabel3
+#undef NorthVisitLabel4
+#undef NorthConstructionLabel1
+#undef NorthConstructionLabel2
+#undef NorthConstructionLabel3
+#undef NorthConstructionLabel4
+#undef NorthDestructionLabel
+#undef EastVisitLabel1
+#undef EastVisitLabel2
+#undef EastVisitLabel3
+#undef EastVisitLabel4
+#undef EastConstructionLabel1
+#undef EastConstructionLabel2
+#undef EastConstructionLabel3
+#undef EastConstructionLabel4
+#undef EastDestructionLabel
+#undef SouthVisitLabel1
+#undef SouthVisitLabel2
+#undef SouthVisitLabel3
+#undef SouthVisitLabel4
+#undef SouthConstructionLabel1
+#undef SouthConstructionLabel2
+#undef SouthConstructionLabel3
+#undef SouthConstructionLabel4
+#undef SouthDestructionLabel
+#undef EndingEventLabel1
+#undef EndingEventLabel2

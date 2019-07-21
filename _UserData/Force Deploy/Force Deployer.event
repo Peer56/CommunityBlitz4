@@ -1,8 +1,5 @@
 ForceDeployList:
 ForceDeployEntry(Eirika,0xFF)
-ForceDeployEntry(Seth,0xFF)
-ForceDeployEntry(Saleh,9)
-ForceDeployEntry(Ewan,9)
 EndForceDeploy
 
 PUSH

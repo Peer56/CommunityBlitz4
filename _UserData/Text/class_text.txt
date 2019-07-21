@@ -6,14 +6,14 @@ Noble heirs to a ruling house.[N]
 They possess great potential.[X]
 
 ##SwordCavName
-Swd. Cavalier[X]
+Swd Cavalier[X]
 
 ##SwordCavDesc
 Mounted knights with swift movement.[N]
 Equip: Swords.[X]
 
 ##LanceCavName
-Lnc. Cavalier[X]
+Lnc Cavalier[X]
 
 ##LanceCavDesc
 Mounted knights with swift movement.[N]

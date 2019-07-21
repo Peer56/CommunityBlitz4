@@ -92,5 +92,5 @@ CheckStatusDurationASMC:
 #incbin "check_statusduration.dmp"
 ALIGN 4
 //check mag (str/mag split; 0x3A)
-CheckASMC:
+CheckMagicASMC:
 #incbin "check_mag.dmp"
