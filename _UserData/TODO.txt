@@ -1,4 +1,20 @@
 1) Dialogue for villages, houses, reinforcements
+
+0-House x3
+1-Village x2
+2-Village x2
+3-Village x2, House x1
+6-Village x3 x2 +3
+7-Village x3
+9-Village x2, House x1
+11-Village x5, House x9
+13-Village x3, House x5
+14-Village x1, House x12
+16-Village x5, House x8
+18-Village x2, House x2
+19-Village x2
+20-Village x2
+
 2) Supports
 3) Balance (This is probably never ending)
 4) Frames for mugs
