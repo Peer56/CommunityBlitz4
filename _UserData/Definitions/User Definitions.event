@@ -137,7 +137,7 @@
 #define MorphDiqhedMug DiqhedMug2
 #define MorphAlgrimMug AlgrimMug3
 
-#define Villager1Mug 0xAE
+#define Villager1Mug 0xBA
 #define Villager2Mug 0xAF
 #define Villager3Mug 0xB0
 #define Villager4Mug 0xB1
