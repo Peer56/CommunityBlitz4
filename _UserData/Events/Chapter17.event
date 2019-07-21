@@ -111,7 +111,7 @@ ALIGN 4
 			REMA
 			
 			//Go to the next chapter
-			MNC2 19 //19 is the ID of chapter 18
+			MNC2 18 
 			NoFade //Do not fade
 		ENDA
 		

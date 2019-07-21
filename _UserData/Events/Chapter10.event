@@ -656,7 +656,7 @@ LABEL end
 
 ALIGN 4
 scEnding: {
-	MNC2 Ch11Id
+	MNC2 11
 	ENDA
 }
 

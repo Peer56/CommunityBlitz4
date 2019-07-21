@@ -1,0 +1,8 @@
+1) Dialogue for villages, houses, reinforcements
+2) Supports
+3) Balance (This is probably never ending)
+4) Frames for mugs
+5) New battle screen ui
+5) Maybe new backgrounds
+6) More palettes
+7) Checking to make sure things don't crash

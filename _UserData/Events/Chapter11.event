@@ -251,7 +251,7 @@ BEQ 0x1 0xC 0x0 // Branch to label 1 if unit does not exist
         CUSA Fraoch
 LABEL 1 // Fraoch does not exist / Fraoch is player unit
 // do nothing
-MNC2 13 //go to ch13
+MNC2 12
 NoFade
 ENDA
 
