@@ -150,5 +150,7 @@ VillageEventItem(PlaceholderText, HouseBG, KillerAxe)
 NoFade
 ENDA
 
+ALIGN 4
 Armory:
 SHLI SteelSword SteelLance SteelAxe SteelBow
+ALIGN 4
