@@ -2,10 +2,6 @@
 #include "Class Definitions.event"
 #include "Character Definitions.event"
 
-#ifndef PlaceholderText
-#define PlaceholderText 0x903
-#endif
-
 // TODO: move to own file
 #define Ch10Id 10
 #define Ch11Id 11
