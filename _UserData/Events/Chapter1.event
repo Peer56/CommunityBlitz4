@@ -86,12 +86,24 @@ UNIT 0x70 Mogall Berner Level(3, Enemy, 1) [18,11] 0x00 0x00 0x0 0x00 [EvilEye] 
 UNIT
 
 VillageSouth:
+MUSI
+SetBackground($1)
+Text(Ch1Village1)
+EndConvo
 LOAD1 0x1 LilacUnit
 ENUN
+MUNO
+NoFade
 ENDA
 
 VillageNorth:
+MUSI
+SetBackground($1)
+Text(Ch1Village2)
+EndConvo
 GiveMoney(1000)
+MUNO
+NoFade
 ENDA
 
 BeginningEvent:

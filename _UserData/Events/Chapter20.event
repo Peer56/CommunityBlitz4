@@ -262,7 +262,7 @@ ENDA
 Village1:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch20Village1)
 EndConvo
 SVAL 3 SecretBook
 GIVETO 0xFFFF
@@ -273,7 +273,7 @@ ENDA
 Village2:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch20Village2)
 EndConvo
 SVAL 3 Boots
 GIVETO 0xFFFF

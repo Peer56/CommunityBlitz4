@@ -124,7 +124,7 @@ ENDA
 VillageEvent:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14Village1)
 EndConvo
 SVAL 3 MasterSeal
 GIVETO 0xFFFF
@@ -143,7 +143,7 @@ ALIGN 4
 House1:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House1)
 EndConvo
 MUNO
 NoFade
@@ -152,7 +152,7 @@ ENDA
 House2:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House2)
 EndConvo
 MUNO
 NoFade
@@ -161,7 +161,7 @@ ENDA
 House3:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House3)
 EndConvo
 MUNO
 NoFade
@@ -170,7 +170,7 @@ ENDA
 House4:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House4)
 EndConvo
 MUNO
 NoFade
@@ -179,7 +179,7 @@ ENDA
 House5:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House5)
 EndConvo
 MUNO
 NoFade
@@ -188,7 +188,7 @@ ENDA
 House6:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House6)
 EndConvo
 MUNO
 NoFade
@@ -197,7 +197,7 @@ ENDA
 House7:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House7)
 EndConvo
 MUNO
 NoFade
@@ -206,7 +206,7 @@ ENDA
 House8:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House8)
 EndConvo
 MUNO
 NoFade
@@ -215,7 +215,7 @@ ENDA
 House9:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House9)
 EndConvo
 MUNO
 NoFade
@@ -224,7 +224,7 @@ ENDA
 House10:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House10)
 EndConvo
 MUNO
 NoFade
@@ -233,7 +233,7 @@ ENDA
 House11:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House11)
 EndConvo
 MUNO
 NoFade
@@ -242,7 +242,7 @@ ENDA
 House12:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch14House12)
 EndConvo
 MUNO
 NoFade

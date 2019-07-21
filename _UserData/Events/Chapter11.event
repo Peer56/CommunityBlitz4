@@ -256,16 +256,16 @@ NoFade
 ENDA
 
 VillageSeal:
-VillageEventItem(PlaceholderText, HouseBG, MasterProof)
+VillageEventItem(Ch11Village1, HouseBG, MasterProof)
 
 VillageIcon:
-VillageEventItem(PlaceholderText, HouseBG, GoddessIcon)
+VillageEventItem(Ch11Village2, HouseBG, GoddessIcon)
 
 VillageTalisman:
-VillageEventItem(PlaceholderText, HouseBG, Talisman)
+VillageEventItem(Ch11Village3, HouseBG, Talisman)
 
 VillageWindSword:
-VillageEventItem(PlaceholderText, HouseBG, WindSword)
+VillageEventItem(Ch11Village4, HouseBG, WindSword)
 
 VillageReMove:
 	// Set parameters
@@ -283,7 +283,7 @@ VillageReMove:
 LABEL 0
 	// end
 	
-	Text(PlaceholderText)
+	Text(Ch11Village5)
 	
 	NoFade
 	ENDA
@@ -295,7 +295,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-Text(PlaceholderText)
+Text(Ch11House1)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -305,7 +305,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-Text(PlaceholderText)
+Text(Ch11House2)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -315,7 +315,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-Text(PlaceholderText)
+Text(Ch11House3)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA

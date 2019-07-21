@@ -66,9 +66,10 @@ Seize(6,2)
 Armory(weaponlist,2,13)
 Vendor(itemlist,1,19)
 SecretShop(secretlist,1,14)
-Village(0x0,SmallVill,3,17)
-Village(0x0,LargeVill,1,10)
-Village(0x0,Ruins,13,1)
+Village(7,SmallVill,3,17)
+Village(8,LargeVill,1,10)
+Village(9,Ruins,13,1)
+House(0,HouseEvent,1,14)
 END_MAIN
 
 MiscBasedEvents:
@@ -120,15 +121,15 @@ MNC2 19
 ENDA
 
 LargeVill:
-	VillageEventItem(PlaceholderText, Village, WhiteGem)
+	VillageEventItem(Ch18Village1, Village, WhiteGem)
 
 
 SmallVill:
-	VillageEventItem(PlaceholderText, Village, Zanbato)
+	VillageEventItem(Ch18Village2, Village, Zanbato)
 
 
 Ruins:
-	VillageEventItem(PlaceholderText, Village, Boots)
+	VillageEventItem(Ch18Village3, Village, Boots)
 
 SpawnRaiders:
 LoadReinforcements(Raiders1)
@@ -217,3 +218,13 @@ UNIT
 
 MoreMonsters1:
 UNIT
+
+HouseEvent:
+MUSI
+SetBackground($1)
+Text(Ch18House1)
+EndConvo
+MUNO
+NoFade
+ENDA
+

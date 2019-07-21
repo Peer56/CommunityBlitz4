@@ -89,11 +89,11 @@ ENDA
 
 //Village to the south
 ValkVillage:
-VillageEventItem(PlaceholderText, HouseBG, Boots)
+VillageEventItem(Ch19Village1, HouseBG, Boots)
 
 //Village to the north
 GenVillage:
-VillageEventItem(PlaceholderText, HouseBG, Speedwings)
+VillageEventItem(Ch19Village2, HouseBG, Speedwings)
 
 //Wyvern reinforcement event
 Ch19Reinforce1:

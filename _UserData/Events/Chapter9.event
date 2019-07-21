@@ -66,6 +66,7 @@ Village(7,Village2,0,5)
 Vendor(VendorList,0,12)
 Armory(ArmoryList,0,11)
 Seize(0,26)
+House(0,HouseEvent,13,0)
 END_MAIN
 
 MiscBasedEvents:
@@ -118,7 +119,7 @@ UNIT
 Village1:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch9Village1)
 EndConvo
 SVAL 3 KnightCrest
 GIVETO 0xFFFF
@@ -129,7 +130,7 @@ ENDA
 Village2:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch9Village2)
 EndConvo
 SVAL 3 HeroCrest
 GIVETO 0xFFFF
@@ -144,4 +145,12 @@ ALIGN 4
 ArmoryList:
 SHLI SteelSword WindSword SteelLance Javelin SteelAxe HandAxe SteelBow Longbow
 ALIGN 4
+
+HouseEvent:
+MUSI
+SetBackground($1)
+Text(Ch9House1)
+EndConvo
+NoFade
+ENDA
 

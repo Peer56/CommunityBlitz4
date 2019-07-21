@@ -8,24 +8,33 @@
 [X]
 
 ##Ch1Village1
+#Lilac recruit
 [X]
 
 ##Ch1Village2
+#1000g
 [X]
 
 ##Ch2Village1
+#Torch
 [X]
 
 ##Ch2Village2
+#Devil Axe
 [X]
 
 ##Ch3Village1
+#Energy Ring
 [X]
 
 ##Ch3Village2
+#Killer Axe
 [X]
 
 ##Ch3House1
+[X]
+
+##Ch3House2
 [X]
 
 ##Ch6SharedVillage1
@@ -38,54 +47,67 @@
 [X]
 
 ##Ch6Village1Text1
+#
 [X]
 
 ##Ch6Village1Text2
 [X]
 
 ##Ch6Village2Text1
+#
 [X]
 
 ##Ch6Village2Text2
 [X]
 
 ##Ch6Village3Text1
+#
 [X]
 
 ##Ch6Village3Text2
 [X]
 
 ##Ch7Village1
+#Angelic Robe
 [X]
 
 ##Ch7Village2
+#Killer Axe
 [X]
 
 ##Ch7Village3
+#Lancereaver
 [X]
 
 ##Ch9Village1
+#Knight Crest
 [X]
 
 ##Ch9Village2
+#Hero Crest
 [X]
 
 ##Ch9House1
 [X]
 
 ##Ch11Village1
+#Master Seal
 [X]
 
 ##Ch11Village2
+#Goddess Icon
 [X]
 
 ##Ch11Village3
+#Talisman
 [X]
 
 ##Ch11Village4
+#Wind Sword
 [X]
 
 ##Ch11Village5
+#Re-Move skill
 [X]
 
 ##Ch11House1
@@ -97,28 +119,12 @@
 ##Ch11House3
 [X]
 
-##Ch11House4
-[X]
-
-##Ch11House5
-[X]
-
-##Ch11House6
-[X]
-
-##Ch11House7
-[X]
-
-##Ch11House8
-[X]
-
-##Ch11House9
-[X]
-
 ##Ch13Village1
+#Berserk staff
 [X]
 
 ##Ch13Village2
+#Wrath skill
 [OpenMidRight][LoadCurrent][OpenMidLeft][LoadVillager2]
 Cool bug Fact's[A][NL]
 You dumb fucking[NL]
@@ -128,6 +134,7 @@ buffoon, you bumbling[A][NL]
 idiot. Fuck you.[A][X]
 
 ##Ch13Village3
+#Hadi recruit
 [X]
 
 ##Ch13House1
@@ -146,6 +153,7 @@ idiot. Fuck you.[A][X]
 [X]
 
 ##Ch14Village1
+#
 [X]
 
 ##Ch14House1
@@ -185,18 +193,23 @@ idiot. Fuck you.[A][X]
 [X]
 
 ##Ch16Village1
+#Luna skill
 [X]
 
 ##Ch16Village2
+#Runesword
 [X]
 
 ##Ch16Village3
+#Restore
 [X]
 
 ##Ch16Village4
+#Barrier
 [X]
 
 ##Ch16Village5
+#Member Card
 [X]
 
 ##Ch16House1
@@ -224,25 +237,32 @@ idiot. Fuck you.[A][X]
 [X]
 
 ##Ch18Village1
+#White Gem
 [X]
 
 ##Ch18Village2
+#Zanbato
+[X]
+
+##Ch18Village3
+#Boots
 [X]
 
 ##Ch18House1
 [X]
 
-##Ch18House2
-[X]
-
 ##Ch19Village1
+#Boots
 [X]
 
 ##Ch19Village2
+#Speedwings
 [X]
 
 ##Ch20Village1
+#Secret Book
 [X]
 
 ##Ch20Village2
+#Boots
 [X]

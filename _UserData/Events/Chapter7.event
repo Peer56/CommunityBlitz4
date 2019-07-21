@@ -95,18 +95,34 @@ LABEL 1
 NoFade
 ENDA
 
+
 C7VillageRobe:
+MUSI
+SetBackground($1)
+Text(Ch1Village1)
+EndConvo
 GiveItem(AngelicRobe,0xFFFF)
+MUNO
 NoFade
 ENDA
 
 C7VillageKillerAxe:
+MUSI
+SetBackground($1)
+Text(Ch7Village2)
+EndConvo
 GiveItem(KillerAxe,0xFFFF)
+MUNO
 NoFade
 ENDA
 
 C7VillageLancereaver:
+MUSI
+SetBackground($1)
+Text(Ch7Village3)
+EndConvo
 GiveItem(Lancereaver,0xFFFF)
+MUNO
 NoFade
 ENDA
 

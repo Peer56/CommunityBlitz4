@@ -244,16 +244,16 @@ VillageLuna:
 	
 	// Check if unit has skill
 	// If they have, goto label #0 (end)
-	ASMC (ASMC_HasSkill+1)
+	ASMC (ASMC_HasSkill|1)
 	BNE 0 rC r0
 	
 	// Learn skill to unit
-	ASMC (ASMC_LearnNewSkill+1)
+	ASMC (ASMC_LearnNewSkill|1)
 	
 LABEL 0
 	// end
 	
-	Text(PlaceholderText)
+	Text(Ch16Village1)
 	
 	NoFade
 	ENDA
@@ -261,7 +261,7 @@ LABEL 0
 VillageRunesword:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch16Village2)
 EndConvo
 SVAL 3 Runesword
 GIVETO 0xFFFF
@@ -272,7 +272,7 @@ ENDA
 VillageRestore:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch16Village3)
 EndConvo
 SVAL 3 Restore
 GIVETO 0xFFFF
@@ -283,7 +283,7 @@ ENDA
 VillageBarrier:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch16Village4)
 EndConvo
 SVAL 3 Barrier
 GIVETO 0xFFFF
@@ -294,9 +294,9 @@ ENDA
 VillageCard:
 MUSI
 SetBackground($1)
-Text(PlaceholderText)
+Text(Ch16Village5)
 EndConvo
-SVAL 3 SilverCard
+SVAL 3 MemberCard
 GIVETO 0xFFFF
 MUNO
 NoFade
@@ -313,7 +313,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-Text(PlaceholderText)
+Text(Ch16House1)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -323,7 +323,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-Text(PlaceholderText)
+Text(Ch16House2)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -333,7 +333,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-Text(PlaceholderText)
+Text(Ch16House3)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -343,7 +343,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-Text(PlaceholderText)
+Text(Ch16House4)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -353,7 +353,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-Text(PlaceholderText)
+Text(Ch16House5)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -363,7 +363,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-Text(PlaceholderText)
+Text(Ch16House6)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -373,7 +373,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-Text(PlaceholderText)
+Text(Ch16House7)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
@@ -383,7 +383,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 BACG 0x01 //Loads house with a fireplace background
 FADU 10
-Text(PlaceholderText)
+Text(Ch16House8)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA

@@ -25,6 +25,9 @@ END_MAIN
 
 LocationBasedEvents:
 AREA 0x0 PursueAIChange [10,4] [14,9]
+House(0,House1,10,8)
+House(0,House2,11,4)
+House(0,House3,13,5)
 END_MAIN
 
 Dunno1:
@@ -97,5 +100,32 @@ ENDA
 
 EndingEvent:
 MNC2 0x1
+NoFade
+ENDA
+
+House1:
+MUSI
+SetBackground($1)
+Text(Ch0House1)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House2:
+MUSI
+SetBackground($1)
+Text(Ch0House2)
+EndConvo
+MUNO
+NoFade
+ENDA
+
+House3:
+MUSI
+SetBackground($1)
+Text(Ch0House3)
+EndConvo
+MUNO
 NoFade
 ENDA

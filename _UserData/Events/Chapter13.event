@@ -201,7 +201,7 @@ NoFade
 ENDA
 
 VillageBerserk:
-VillageEventItem(PlaceholderText, HouseBG, Berserk)
+VillageEventItem(Ch13Village1, HouseBG, Berserk)
 
 VillageWrath:
 	// Set parameters
@@ -219,7 +219,7 @@ VillageWrath:
 LABEL 0
 	// end
 	
-	Text(PlaceholderText)
+	Text(Ch13Village2)
 	
 	NoFade
 	ENDA
@@ -227,9 +227,13 @@ LABEL 0
 	// HouseEvent(PlaceholderText, HouseBG)
 	
 VillageHadi:
-Text(VillageText)
+MUSI
+SetBackground($1)
+Text(Ch13Village3)
+EndConvo
 LOAD1 0x1 HadiBlock
 ENUN
+MUNO
 NoFade
 ENDA
 

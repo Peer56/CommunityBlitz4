@@ -65,11 +65,11 @@ ENDTRAP
 ALIGN 4
 
 VillageTorch:
-VillageEventItem(PlaceholderText, Village, Torch) //Gives item to the active character (the one visiting)
+VillageEventItem(Ch2Village1, Village, Torch) //Gives item to the active character (the one visiting)
 ENDA
 
 VillageDevilAxe:
-VillageEventItem(PlaceholderText, Village, DevilAxe) //Gives item to the active character (the one visiting)
+VillageEventItem(Ch2Village2, Village, DevilAxe) //Gives item to the active character (the one visiting)
 ENDA
 
 HiddenItem:
