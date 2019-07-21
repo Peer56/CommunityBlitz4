@@ -492,7 +492,7 @@
    <tile gid="748"/>
   </data>
  </layer>
- <layer id="2" name="Map Change 0" width="19" height="25">
+ <layer id="2" name="Map Change 0" width="19" height="25" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="0"/>
@@ -1950,7 +1950,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="5" name="Map Change 3" width="19" height="25">
+ <layer id="5" name="Map Change 3" width="19" height="25" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="3"/>
@@ -2436,7 +2436,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="6" name="Map Change 4" width="19" height="25">
+ <layer id="6" name="Map Change 4" width="19" height="25" visible="0">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="4"/>
@@ -2922,7 +2922,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="7" name="Map Change 5" width="19" height="25">
+ <layer id="7" name="Map Change 5" width="19" height="25" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="5"/>
@@ -3408,7 +3408,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="8" name="Map Change 6" width="19" height="25">
+ <layer id="8" name="Map Change 6" width="19" height="25" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="6"/>
@@ -3894,7 +3894,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="9" name="Map Change 7" width="19" height="25">
+ <layer id="9" name="Map Change 7" width="19" height="25" visible="0">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="7"/>
