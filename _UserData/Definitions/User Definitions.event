@@ -176,4 +176,27 @@
 #define ObjectiveKillBoss 0x3
 */
 
-
+//ASMC Check Suite
+#define CheckLevel(Character) "SVAL 0x1 Character; ASMC CheckLevelASMC|1"
+#define CheckExperience(Character) "SVAL 0x1 Character; ASMC CheckExperienceASMC|1"
+#define CheckMaxHP(Character) "SVAL 0x1 Character; ASMC CheckMaxHPASMC|1"
+#define CheckCurrentHP(Character) "SVAL 0x1 Character; ASMC CheckCurrentHPASMC|1"
+#define CheckStrength(Character) "SVAL 0x1 Character; ASMC CheckLStrengthASMC|1"
+#define CheckSkill(Character) "SVAL 0x1 Character; ASMC CheckSkillASMC|1"
+#define CheckSpeed(Character) "SVAL 0x1 Character; ASMC CheckSpeedASMC|1"
+#define CheckDefense(Character) "SVAL 0x1 Character; ASMC CheckDefenseASMC|1"
+#define CheckResistance(Character) "SVAL 0x1 Character; ASMC CheckResistanceASMC|1"
+#define CheckConstitution(Character) "SVAL 0x1 Character; ASMC CheckConstitutionASMC|1"
+#define CheckMovement(Character) "SVAL 0x1 Character; ASMC CheckMovementASMC|1"
+#define CheckInventory(Character,Item) "SVAL 0x1 Character; SVAL 0x2 Item; ASMC CheckHasItemASMC|1"
+#define CheckSwordRank(Character) "SVAL 0x1 Character; ASMC CheckSwordRankASMC|1"
+#define CheckLanceRank(Character) "SVAL 0x1 Character; ASMC CheckLanceRankASMC|1"
+#define CheckAxeRank(Character) "SVAL 0x1 Character; ASMC CheckAxeRankASMC|1"
+#define CheckBowRank(Character) "SVAL 0x1 Character; ASMC CheckBowRankASMC|1"
+#define CheckStaffRank(Character) "SVAL 0x1 Character; ASMC CheckStaffRankASMC|1"
+#define CheckAnimaRank(Character) "SVAL 0x1 Character; ASMC CheckAnimaRankASMC|1"
+#define CheckLightRank(Character) "SVAL 0x1 Character; ASMC CheckLightRankASMC|1"
+#define CheckDarkRank(Character) "SVAL 0x1 Character; ASMC CheckDarkRankASMC|1"
+#define CheckStatusEffect(Character) "SVAL 0x1 Character; ASMC CheckStatusEffectASMC|1"
+#define CheckStatusDuration(Character) "SVAL 0x1 Character; ASMC CheckStatusDurationASMC|1"
+//#define CheckMagic(Character) "SVAL 0x1 Character; ASMC CheckMagicASMC|1" //add ifdefs for strmag split?
