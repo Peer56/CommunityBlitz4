@@ -30,6 +30,10 @@ Arrive[X]
 ##BearClawName
 Bear Claw[X]
 
+##PlaceholderText
+[OpenMidRight][LoadRia]
+This is placeholder text![A][X]
+
 #include "class_text.txt"
 #include "character_text.txt"
 #include "death_text.txt"
