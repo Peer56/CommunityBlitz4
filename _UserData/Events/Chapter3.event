@@ -22,7 +22,7 @@ END_MAIN
 
 LocationBasedEvents:
 Village(0x7,House1,10,1)
-Armory(Armory,4,2)
+Armory(ArmoryList,4,2)
 House(0x9,House2,7,10)
 House(0x10,House3,6,15)
 Village(0x11,House4,10,1)
@@ -151,6 +151,6 @@ NoFade
 ENDA
 
 ALIGN 4
-Armory:
+ArmoryList:
 SHLI SteelSword SteelLance SteelAxe SteelBow
 ALIGN 4
