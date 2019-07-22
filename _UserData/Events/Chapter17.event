@@ -1,6 +1,6 @@
 #define Ch17Enemies 0x90
 #define Ch17Boss 0x51
-#define Chapter17EventID 0x56
+#define Chapter17EventID 0x4f
 
 EventPointerTable(Chapter17EventID,ThisChapter)
 

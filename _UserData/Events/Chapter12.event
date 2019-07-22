@@ -87,7 +87,7 @@ UNIT Garthan GreatKnight Ria Level(10, Ally, 0) [11,23] 0x00 0x00 0x0 0x00 [Silv
 UNIT 
 
 EnemyUnits:
-UNIT Murray EphraimLord 0x00 Level(18, Enemy, 0) [8,2] 0x2 0x00 0x0 0x00 [BraveSword, LightBrand, MasterProof] NeverMoveAI
+UNIT Murray EphLord 0x00 Level(18, Enemy, 0) [8,2] 0x2 0x00 0x0 0x00 [BraveSword, LightBrand, MasterProof] NeverMoveAI
 UNIT 0x86 SwordCavalier Murray Level(10, Enemy, 1) [1,17] 0x00 0x00 0x0 0x00 [SilverBlade] ChaseOnceApproachedAI
 UNIT 0x86 LanceCavalier Murray Level(10, Enemy, 1) [2,16] 0x00 0x00 0x0 0x00 [Javelin] ChaseOnceApproachedAI
 UNIT 0x86 AxeCavalier Murray Level(10, Enemy, 1) [1,15] 0x2 0x00 0x0 0x00 [HandAxe] ChaseOnceApproachedAI
@@ -253,11 +253,9 @@ NoFade
 ENDA	
 	
 BeginningScene:
-LOAD2 0x1 Units //0x0 instead of 0x1 seems to be for allies on maps with prep screens
-ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
-ConvoEvent(PlaceholderText)
+Text(PlaceholderText)
 GotoPrepScreen
 ENDA
 	

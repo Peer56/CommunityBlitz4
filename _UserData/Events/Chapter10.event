@@ -240,12 +240,12 @@ unAlliesReinfList:
 
 ALIGN 4
 unWyvDanList:
-	UNIT CharDanWyv WyvernKnight 0 Level(5, Enemy, False) [0, 7] 10b 0 1 redaLEdge7 [KillerLance, ShortSpear, DelphiShield] [6, CH10_DAN_AI2]
+	UNIT Dan1 WyvernKnight 0 Level(5, Enemy, False) [0, 7] 10b 0 1 redaLEdge7 [KillerLance, ShortSpear, DelphiShield] [6, CH10_DAN_AI2]
 	UNIT /* end */
 
 ALIGN 4
 unGoyleDanList:
-	UNIT CharDanGoyle Deathgoyle 0 Level(5, Enemy, False) [8, 18] 10b 0 1 redaBEdge8 [KillerLance, ShortSpear, DelphiShield] [6, CH10_DAN_AI2]
+	UNIT Dan2 Deathgoyle 0 Level(5, Enemy, False) [8, 18] 10b 0 1 redaBEdge8 [KillerLance, ShortSpear, DelphiShield] [6, CH10_DAN_AI2]
 	UNIT /* end */
 
 ALIGN 4
@@ -432,12 +432,6 @@ LABEL end
 ALIGN 4
 scBeginning: {
 	// Load units
-
-#ifdef __DEBUG__
-
-	LOAD1 0 unPlayerList
-
-#endif // __DEBUG__
 
 	LOAD1 0 unEnemyInitList
 	ENUN

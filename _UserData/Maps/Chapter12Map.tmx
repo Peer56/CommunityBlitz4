@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="22" height="24" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="22" height="24" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="1">
  <tileset firstgid="1" name="FE7 - Snow Castle - 91009293" tilewidth="16" tileheight="16" tilecount="0" columns="32">
   <image source="Tilesets/FE7 - Snow Castle - 91009293.png" trans="ffffff" width="512" height="512"/>
  </tileset>
- <layer name="Tile Layer 1" width="22" height="24">
+ <layer id="1" name="Tile Layer 1" width="22" height="24">
   <properties>
    <property name="Anims1" value="0"/>
    <property name="ChapterID" value="12"/>
    <property name="Main" value=""/>
    <property name="MapChangesID" value="0x36"/>
    <property name="MapID" value="0x35"/>
-   <property name="ObjectType" value="0xEC"/>
-   <property name="PaletteID" value="0xED"/>
-   <property name="TileConfig" value="0xEE"/>
+   <property name="ObjectType" value="SnowCastleObjectSet"/>
+   <property name="PaletteID" value="SnowCastlePalette"/>
+   <property name="TileConfig" value="SnowCastleTileConfig"/>
   </properties>
   <data>
    <tile gid="461"/>
@@ -545,7 +545,7 @@
    <tile gid="814"/>
   </data>
  </layer>
- <layer name="Door 1" width="22" height="24">
+ <layer id="2" name="Door 1" width="22" height="24">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="0"/>
@@ -1084,7 +1084,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Door 2" width="22" height="24">
+ <layer id="3" name="Door 2" width="22" height="24">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
@@ -1623,7 +1623,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Door 3" width="22" height="24">
+ <layer id="4" name="Door 3" width="22" height="24">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="2"/>
@@ -2162,7 +2162,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Door 4" width="22" height="24">
+ <layer id="5" name="Door 4" width="22" height="24">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="3"/>
@@ -2701,7 +2701,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Door 5" width="22" height="24">
+ <layer id="6" name="Door 5" width="22" height="24">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="4"/>
@@ -3240,7 +3240,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Door 6" width="22" height="24">
+ <layer id="7" name="Door 6" width="22" height="24">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="5"/>
@@ -3779,7 +3779,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Chest 1" width="22" height="24">
+ <layer id="8" name="Chest 1" width="22" height="24">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="6"/>
@@ -4318,7 +4318,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Chest 2" width="22" height="24">
+ <layer id="9" name="Chest 2" width="22" height="24">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="7"/>
@@ -4857,7 +4857,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Chest 3" width="22" height="24">
+ <layer id="10" name="Chest 3" width="22" height="24">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="8"/>
@@ -5396,7 +5396,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Chest 4" width="22" height="24">
+ <layer id="11" name="Chest 4" width="22" height="24">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="9"/>
@@ -5935,7 +5935,7 @@
    <tile/>
   </data>
  </layer>
- <layer name="Chest 5" width="22" height="24">
+ <layer id="12" name="Chest 5" width="22" height="24">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="10"/>

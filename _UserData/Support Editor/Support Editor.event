@@ -22,3 +22,290 @@ BYTE NumberOfPartners
 SHORT 0
 */
 
+RiaSupportData:
+BYTE Maurus Sayra Gershon Osian Reuben Irena Anna2
+BYTE 0 0 0 0 0 0 0
+BYTE 4 6 6 4 6 4 6
+BYTE 7
+SHORT 0
+
+GarthanSupportData:
+BYTE Ria Everett Ignace Edith Maurus Wanda 0
+BYTE 0 0 0 0 0 0 0
+BYTE 4 4 4 4 4 6 0
+BYTE 6
+SHORT 0
+
+EverettSupportData:
+BYTE Garthan Edith Ignace Maurus Mint Ingrid Hadi
+BYTE 0 0 0 0 0 0 0
+BYTE 4 6 4 4 4 6 4
+BYTE 7
+SHORT 0
+
+IgnaceSupportData:
+BYTE Ria Garthan Edith Kate Furia Arla Irena
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 6 6 6 6 6
+BYTE 7
+SHORT 0
+
+EdithSupportData:
+BYTE Garthan Ignace Maurus Sayra Acies Gershon Arla
+BYTE 0 0 0 0 0 0 0
+BYTE 4 6 6 4 6 6 4
+BYTE 7
+SHORT 0
+
+MaurusSupportData:
+BYTE Ria Garthan Everett Edith Jhonka Tony 0
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 4 6 4 4 0
+BYTE 6
+SHORT 0
+
+FuriaSupportData:
+BYTE Ignace Kate Acies Tony Irena Sonny Brent
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 6 6 4 6 6
+BYTE 7
+SHORT 0
+
+KateSupportData:
+BYTE Ria Ignace Furia Arla Irena Fraoch Brent
+BYTE 0 0 0 0 0 0 0
+BYTE 4 6 4 4 4 4 6
+BYTE 7
+SHORT 0
+
+LilacSupportData:
+BYTE Acies Juan Reuben Reagan Sonny Anna2 Mystletainn
+BYTE 0 0 0 0 0 0 0
+BYTE 4 4 4 4 4 4 4
+BYTE 7
+SHORT 0
+
+SayraSupportData:
+BYTE Edith Jhonka Acies Osian Juan Irena Karn
+BYTE 0 0 0 0 0 0 0
+BYTE 4 8 6 6 6 4 6
+BYTE 7
+SHORT 0
+
+JhonkaSupportData:
+BYTE Maurus Sayra Gershon Osian Reuben Irena Anna2
+BYTE 0 0 0 0 0 0 0
+BYTE 4 8 4 4 4 6 6
+BYTE 7
+SHORT 0
+
+AciesSupportData:
+BYTE Edith Furia Lilac Sayra Juan Anna2 Mystletainn
+BYTE 0 0 0 0 0 0 0
+BYTE 6 6 4 6 4 4 4
+BYTE 7
+SHORT 0
+
+YorrickSupportData:
+BYTE Mint Reuben Reagan Sonny Hadi Arwen 0
+BYTE 0 0 0 0 0 0 0
+BYTE 8 4 4 4 4 6 0
+BYTE 6
+SHORT 0
+
+MintSupportData:
+BYTE Everett Yorrick Reuben Ingrid Fraoch Volstagg Wanda
+BYTE 0 0 0 0 0 0 0
+BYTE 4 8 4 6 4 4 4
+BYTE 7
+SHORT 0
+
+GershonSupportData:
+BYTE Edith Jhonka Osian Karn Dan1 Dan2 Felix
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 8 4 4 4 4
+BYTE 7
+SHORT 0
+
+OsianSupportData:
+BYTE Sayra Jhonka Gershon Hadi Dan1 Dan2 Felix
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 8 4 4 4 4
+BYTE 7
+SHORT 0
+
+TonySupportData:
+BYTE Maurus Furia Irena Juan Alya Rhosyn Brent
+BYTE 0 0 0 0 0 0 0
+BYTE 4 6 6 4 4 6 4
+BYTE 7
+SHORT 0
+
+JuanSupportData:
+BYTE Lilac Sayra Acies Tony Arla Anna2 Mystletainn
+BYTE 0 0 0 0 0 0 0
+BYTE 4 6 4 4 6 6 4
+BYTE 7
+SHORT 0
+
+ReubenSupportData:
+BYTE Lilac Jhonka Yorrick Mint Arla Anna2 Felix
+BYTE 0 0 0 0 0 0 0
+BYTE 4 4 4 4 6 6 4
+BYTE 7
+SHORT 0
+
+ArlaSupportData:
+BYTE Ignace Edith Kate Juan Reuben Irena Brent
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 4 6 6 4 8
+BYTE 7
+SHORT 0
+
+IrenaSupportData:
+BYTE Ignace Furia Kate Sayra Jhonka Tony Arla
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 4 4 6 6 4
+BYTE 7
+SHORT 0
+
+ReaganSupportData:
+BYTE Lilac Yorrick Ingrid Feidlimid Dog Brent 0
+BYTE 0 0 0 0 0 0 0
+BYTE 4 4 6 6 4 6 0
+BYTE 6
+SHORT 0
+
+IngridSupportData:
+BYTE Everett Mint Reagan Sonny Feidlimid Dan1 Dan2
+BYTE 0 0 0 0 0 0 0
+BYTE 6 6 6 6 4 6 6
+BYTE 7
+SHORT 0
+
+Dan1SupportData:
+BYTE Gershon Osian Ingrid Alya Dog Rhosyn Felix
+BYTE 0 0 0 0 0 0 0
+BYTE 4 4 6 4 4 6 4
+BYTE 7
+SHORT 0
+
+Dan2SupportData:
+BYTE Gershon Osian Ingrid Alya Dog Rhosyn Felix
+BYTE 0 0 0 0 0 0 0
+BYTE 4 4 6 4 4 6 4
+BYTE 7
+SHORT 0
+
+FraochSupportData:
+BYTE Ria Kate Mint Alya Hadi Feidlimid Arwen
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 4 6 4 4 4
+BYTE 7
+SHORT 0
+
+KarnSupportData:
+BYTE Sayra Gershon Sonny Volstagg Brent Wanda 0
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 8 4 4 4 0
+BYTE 6
+SHORT 0
+
+SonnySupportData:
+BYTE Furia Lilac Yorrick Ingrid Karn Alya Wanda
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 4 6 8 6 4
+BYTE 7
+SHORT 0
+
+AlyaSupportData:
+BYTE Tony Fraoch Sonny Dan1 Dan2 Rhosyn Arwen
+BYTE 0 0 0 0 0 0 0
+BYTE 4 6 6 4 4 4 4
+BYTE 7
+SHORT 0
+
+HadiSupportData:
+BYTE Everett Yorrick Osian Fraoch Feidlimid Arwen Wanda
+BYTE 0 0 0 0 0 0 0
+BYTE 4 4 4 4 6 4 6
+BYTE 7
+SHORT 0
+
+FeidlimidSupportData:
+BYTE Ria Reagan Ingrid Fraoch Hadi Dog Rhosyn
+BYTE 0 0 0 0 0 0 0
+BYTE 4 6 4 4 6 8 4
+BYTE 7
+SHORT 0
+
+DogSupportData:
+BYTE Feidlimid Reagan Dan1 Dan2 0 0 0
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 4 4 0 0 0
+BYTE 4
+SHORT 0
+
+VolstaggSupportData:
+BYTE Ria Yorrick Karn Brent Anna2 Felix 0
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 4 4 6 4 0
+BYTE 6
+SHORT 0
+
+RhosynSupportData:
+BYTE Tony Dan1 Dan2 Alya Feidlimid Arwen Mystletainn
+BYTE 0 0 0 0 0 0 0
+BYTE 6 6 6 4 4 4 4
+BYTE 7
+SHORT 0
+
+ArwenSupportData:
+BYTE Yorrick Fraoch Alya Hadi Rhosyn Wanda 0
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 4 4 4 4 0
+BYTE 6
+SHORT 0
+
+BrentSupportData:
+BYTE Furia Kate Tony Arla Reagan Karn Volstagg
+BYTE 0 0 0 0 0 0 0
+BYTE 6 6 4 8 6 4 4
+BYTE 7
+SHORT 0
+
+AnnaSupportData:
+BYTE Lilac Jhonka Acies Juan Reuben Volstagg Mystletainn
+BYTE 0 0 0 0 0 0 0
+BYTE 4 4 4 4 4 4 4
+BYTE 7
+SHORT 0
+
+FelixSupportData:
+BYTE Gershon Osian Reuben Dan1 Dan2 Volstagg Wanda
+BYTE 0 0 0 0 0 0 0
+BYTE 4 4 4 4 4 4 6
+BYTE 7
+SHORT 0
+
+WandaSupportData:
+BYTE Garthan Maurus Karn Sonny Hadi Arwen Felix
+BYTE 0 0 0 0 0 0 0
+BYTE 6 4 4 4 6 4 6
+BYTE 7
+SHORT 0
+
+MystletainnSupportData:
+BYTE Lilac Acies Juan Rhosyn Anna2 0 0
+BYTE 0 0 0 0 0 0 0
+BYTE 4 4 4 4 4 0 0
+BYTE 5
+SHORT 0
+
+DestinySupportData:
+BYTE 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0
+BYTE 0 0 0 0 0 0 0
+BYTE 0
+SHORT 0
+

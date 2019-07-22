@@ -6,8 +6,8 @@
 	#define InjectAi2(aId, aScr) "PUSH; ORG 0x5A9138+(4*(aId)); POIN (aScr); POP"
 #endif //InjectAi2
 
-#define AiMoveTowardsPoint(aX, aY) "BYTE 0x0C (aX) 0xFF (aY); WORD 0 0 0"
-#define AiRestart "BYTE 0x03 0 0xFF 0; WORD 0 0 0"
+//#define AiMoveTowardsPoint(aX, aY) "BYTE 0x0C (aX) 0xFF (aY); WORD 0 0 0"
+//#define AiRestart "BYTE 0x03 0 0xFF 0; WORD 0 0 0"
 
 InjectAi2(0x8, AiScrMoveToPointNorthVillage)
 InjectAi2(0xD, AiScrMoveToPointNorthVillage)
