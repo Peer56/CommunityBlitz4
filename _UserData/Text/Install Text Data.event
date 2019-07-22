@@ -1569,6 +1569,10 @@ __TEXTPROCESSEC0:
 #incbin ".TextEntries\text_buildfileCh20Village2.fetxt.dmp"
 setText($EC0, __TEXTPROCESSEC0)
 
+__TEXTPROCESSEC1:
+#incbin ".TextEntries\text_buildfilePlaceholderSupportText.fetxt.dmp"
+setText($EC1, __TEXTPROCESSEC1)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

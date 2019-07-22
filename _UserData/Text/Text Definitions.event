@@ -394,5 +394,6 @@
 #define Ch19Village2 $EBE
 #define Ch20Village1 $EBF
 #define Ch20Village2 $EC0
+#define PlaceholderSupportText $EC1
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT
