@@ -165,6 +165,8 @@ ENDA
 
 ALIGN 4
 BeginningScene:
+LOAD2 0x1 Units
+ENUN
 LOAD1 0x1 NPCUnits
 ENUN
 LOAD1 0x1 Enemies

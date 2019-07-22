@@ -112,8 +112,8 @@ PUSH
   ORG 0x897C4
   SHORT 0x200E 0x5620 //mov r0, #0x0E; ldsb r0, [r4, r0]
   ORG 0x206948
-  BYTE 0
-
+  BYTE 0 
+  
   //Don't draw portrait on item select menu if unit is generic
   ORG $22BE8
   SHORT $6808 $7980 $2800
@@ -145,8 +145,8 @@ PUSH
   WORD 0xFFFFFFFF 0xFFFFFFFF
 
   //No Link Arena
-  ORG $AB90E
-  BYTE 0x0 0x0 0x0 0x20
+  //ORG $AB90E
+  //BYTE 0x0 0x0 0x0 0x20
 
 
 POP
