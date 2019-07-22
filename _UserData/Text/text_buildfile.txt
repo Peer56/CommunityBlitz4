@@ -38,3 +38,4 @@ This is placeholder text![A][X]
 #include "character_text.txt"
 #include "death_text.txt"
 #include "residence_text.txt"
+#include "support_text.txt"

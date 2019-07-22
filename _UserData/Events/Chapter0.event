@@ -20,11 +20,11 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+AREA 0x0 PursueAIChange [10,4] [14,9]
 DefeatAll(EndingEvent)
 END_MAIN
 
 LocationBasedEvents:
-AREA 0x0 PursueAIChange [10,4] [14,9]
 House(0,House1,10,8)
 House(0,House2,11,4)
 House(0,House3,13,5)
