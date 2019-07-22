@@ -182,7 +182,7 @@ ORG $CCE8C
 POIN (PromotionBranchTable-2)
 ORG $CDB74
 POIN (PromotionBranchTable-2)
-
+/*
 ORG $3462C
 POIN ChapterDataTable
 ORG $B5E68
@@ -195,7 +195,7 @@ ORG $B6328
 POIN ChapterDataTable
 ORG $B6500
 POIN ChapterDataTable
-
+*/
 ORG $26730
 POIN StandingMapSpriteTable
 ORG $267B0
