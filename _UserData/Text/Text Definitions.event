@@ -27,7 +27,6 @@
 #define Chapter20Name $174
 #define EndgameName $175
 #define Endgame2Name $176
-#define Endgame3Name $177
 #define ZeroEntry $D53
 #define SampleText $D54
 #define EscapeWindowText $D55

@@ -101,10 +101,6 @@ __TEXTPROCESS176:
 #incbin ".TextEntries\text_buildfileEndgame2Name.fetxt.dmp"
 setText($176, __TEXTPROCESS176)
 
-__TEXTPROCESS177:
-#incbin ".TextEntries\text_buildfileEndgame3Name.fetxt.dmp"
-setText($177, __TEXTPROCESS177)
-
 __TEXTPROCESSD53:
 #incbin ".TextEntries\text_buildfileZeroEntry.fetxt.dmp"
 setText($D53, __TEXTPROCESSD53)
