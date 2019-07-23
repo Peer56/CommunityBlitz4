@@ -140,6 +140,7 @@ UNIT Seth Paladin 0x00 Level(1, Ally, 0) [22,8] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT Seth Paladin 0x00 Level(1, Ally, 0) [22,9] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT Seth Paladin 0x00 Level(1, Ally, 0) [20,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT Seth Paladin 0x00 Level(1, Ally, 0) [22,7] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin 0x00 Level(1, Ally, 0) [21,8] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 Bandits:
@@ -203,11 +204,13 @@ UNIT
 ReinforcementsPirates:
 LOAD1 0x1 ReinforcementsPiratesUnits
 ENUN
+NoFade
 ENDA
 
 ReinforcementsFleet:
 LOAD1 0x1 ReinforcementsFleetUnits
 ENUN
+NoFade
 ENDA
 
 ReinforcementsNorth:
@@ -216,6 +219,7 @@ BEQ NorthReinforcementsLabel 0xC 0x0
 LOAD1 0x1 ReinforcementsNorthUnits
 ENUN
 LABEL NorthReinforcementsLabel
+NoFade
 ENDA
 
 ReinforcementsEast:
@@ -224,6 +228,7 @@ BEQ EastReinforcementsLabel 0xC 0x0
 LOAD1 0x1 ReinforcementsEastUnits
 ENUN
 LABEL EastReinforcementsLabel
+NoFade
 ENDA
 
 ReinforcementsSouth:
@@ -232,6 +237,7 @@ BEQ SouthReinforcementsLabel 0xC 0x0
 LOAD1 0x1 ReinforcementsSouthUnits
 ENUN
 LABEL SouthReinforcementsLabel
+NoFade
 ENDA
 
 VillageNorthVisit:
@@ -256,6 +262,7 @@ GOTO NorthVisitLabel2
 LABEL NorthVisitLabel3
 //Text(CH6ConstructionProgressText)
 LABEL NorthVisitLabel2
+NoFade
 ENDA
 
 VillageNorthConstruction:
@@ -280,6 +287,7 @@ Increment(0x0)
 TILECHANGE 0x2
 //Text(CH6ConstructionFinishedText)
 LABEL NorthConstructionLabel1
+NoFade
 ENDA
 
 VillageNorthDestruction:
@@ -292,6 +300,7 @@ TILEREVERSE 0x1
 TILEREVERSE 0x0
 COUNTER_SET 0x0 0x0
 LABEL NorthDestructionLabel
+NoFade
 ENDA
 
 VillageEastVisit:
@@ -316,6 +325,7 @@ GOTO EastVisitLabel2
 LABEL EastVisitLabel3
 //Text(CH6ConstructionProgressText)
 LABEL EastVisitLabel2
+NoFade
 ENDA
 
 VillageEastConstruction:
@@ -340,6 +350,7 @@ Increment(0x1)
 TILECHANGE 0x5
 //Text(CH6ConstructionFinishedText)
 LABEL EastConstructionLabel1
+NoFade
 ENDA
 
 VillageEastDestruction:
@@ -352,6 +363,7 @@ TILEREVERSE 0x4
 TILEREVERSE 0x3
 COUNTER_SET 0x1 0x0
 LABEL EastDestructionLabel
+NoFade
 ENDA
 
 VillageSouthVisit:
@@ -376,6 +388,7 @@ GOTO SouthVisitLabel2
 LABEL SouthVisitLabel3
 //Text(CH6ConstructionProgressText)
 LABEL SouthVisitLabel2
+NoFade
 ENDA
 
 VillageSouthConstruction:
@@ -400,6 +413,7 @@ Increment(0x2)
 TILECHANGE 0x8
 //Text(CH6ConstructionFinishedText)
 LABEL SouthConstructionLabel1
+NoFade
 ENDA
 
 VillageSouthDestruction:
@@ -412,6 +426,7 @@ TILEREVERSE 0x7
 TILEREVERSE 0x6
 COUNTER_SET 0x2 0x0
 LABEL SouthDestructionLabel
+NoFade
 ENDA
 
 BossSwitchEvent:
@@ -421,6 +436,7 @@ REMU Algrim
 ENUN
 LOAD1 0x1 MaulochUnit
 ENUN
+NoFade
 ENDA
 
 BeginningEvent:
@@ -431,6 +447,7 @@ ENUN
 LOAD1 0x1 Bandits
 ENUN
 GotoPrepScreen
+NoFade
 ENDA
 
 EndingEvent:
@@ -449,6 +466,7 @@ LABEL EndingEventLabel1
 //Text(CH6TonyRecruitment)
 LABEL EndingEventLabel2
 MNC2 7
+NoFade
 ENDA
 
 //Custom AI Undefs

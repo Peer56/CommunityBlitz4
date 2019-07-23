@@ -101,7 +101,7 @@ MUSI
 SetBackground($1)
 Text(Ch1Village2)
 EndConvo
-GiveMoney(1000)
+GiveItem(Torch,0xFFFF)
 MUNO
 NoFade
 ENDA

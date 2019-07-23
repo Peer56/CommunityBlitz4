@@ -1,5 +1,10 @@
 ForceDeployList:
-ForceDeployEntry(Eirika,0xFF)
+ForceDeployEntry(Ria,0xFF)
+ForceDeployEntry(Yorrick,4)
+ForceDeployEntry(Reagan,9)
+ForceDeployEntry(Ingrid,9)
+ForceDeployEntry(Feidlimid,14)
+ForceDeployEntry(Dog,14)
 EndForceDeploy
 
 PUSH

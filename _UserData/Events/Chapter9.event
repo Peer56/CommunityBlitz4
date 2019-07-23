@@ -22,6 +22,7 @@ UNIT Seth Paladin Eirika Level(0,Ally,0) [15,0] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Seth Paladin Eirika Level(0,Ally,0) [15,1] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Seth Paladin Eirika Level(0,Ally,0) [12,0] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Seth Paladin Eirika Level(0,Ally,0) [12,1] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin Eirika Level(0,Ally,0) [11,0] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 NewUnits:

@@ -28,7 +28,7 @@ UNIT Seth Paladin 0 Level(0,Ally,0) [1,13] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 NewUnits:
-UNIT Feidlimid Sage_F 0 Level(4,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Divine,Flux,Mend] NoAI
+UNIT Feidlimid Sage_F 0 Level(4,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Divine,Elfire,Mend] NoAI
 UNIT Dog ArchMogall 0 Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [CrimsonEye] NoAI
 UNIT
 

@@ -28,8 +28,6 @@ UNIT Seth Paladin 0 Level(0,Ally,0) [14,13] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Seth Paladin 0 Level(0,Ally,0) [15,16] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Seth Paladin 0 Level(0,Ally,0) [12,16] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT Seth Paladin 0 Level(0,Ally,0) [15,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [12,15] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [16,16] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 NewUnits:

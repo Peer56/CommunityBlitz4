@@ -17,7 +17,7 @@ TURN 0x0 Reinforcements[5,0] 0x0
 END_MAIN
 
 CharacterBasedEvents:
-CharacterEvent(0x8, RecruitAcies, Eirika, Innes)
+CharacterEvent(0x8, RecruitAcies, Ria, Acies)
 END_MAIN
 
 LocationBasedEvents:
@@ -73,10 +73,8 @@ UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [16,5] 0x00 0x00 0x0 0x00 [0x00] No
 UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [16,6] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [16,7] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [15,6] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [16,8] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [16,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [17,8] 0x00 0x00 0x0 0x00 [0x00] NoAI
-UNIT Seth EphraimLord 0x00 Level(1, Ally, 0) [17,9] 0x00 0x00 0x0 0x00 [0x00] NoAI
 UNIT
 
 Enemies:
@@ -113,10 +111,11 @@ UNIT
 
 // Events
 RecruitAcies:
-MUSC 0x30 //recruitment
+MUSS Song_WithUs
 Text(PlaceholderText)
 CUSA Acies
 REMA
+MURE 0
 NoFade
 ENDA
 
