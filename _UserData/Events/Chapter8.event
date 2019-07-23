@@ -30,6 +30,19 @@ Text(PlaceholderText)
 SetAI(Bazba,0x03,0x03)
 ENDA
 
+LocationBasedEvents:
+Seize(8,EndingScene,11,3) //Seize to win the game
+Door(1,8)//Door on far left
+Door(2,8)
+Door(10,7)//Door on middle
+Door(11,7)
+Chest(LightBrand,18,0)//Chest in top right corner
+Chest(Barrier,18,2)//Below top right chest in top right corner
+ChestMoney(5000,3,3)//Bottom Chest in far left corner
+Chest(KillerAxe,2,1)//Left Chest in far left corner
+Chest(KnightsCrest,4,1)//Right Chest in far left corner
+END_MAIN
+
 SteelHeartArrive:
 LOAD1 0x1 SteelHeart
 ENUN
@@ -113,22 +126,11 @@ CUSA Marisa
 MURE 0x05 //Shifts back to map music
 NoFade
 ENDA
-LocationBasedEvents:
-Seize(8,EndingScene,11,3) //Seize to win the game
-Door(1,8)//Door on far left
-Door(2,8)
-Door(10,7)//Door on middle
-Door(11,7)
-Chest(LightBrand,18,0)//Chest in top right corner
-Chest(Barrier,18,2)//Below top right chest in top right corner
-ChestMoney(5000,3,3)//Bottom Chest in far left corner
-Chest(KillerAxe,2,1)//Left Chest in far left corner
-Chest(KnightsCrest,4,1)//Right Chest in far left corner
-AREA 7 SpecialIrenaEvent [9,11] [10,11]
-END_MAIN
+
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+AREA 7 SpecialIrenaEvent [9,11] [10,11]
 END_MAIN
 
 Dunno:
