@@ -112,11 +112,11 @@ House(0,HouseEvent2,8,12)
 House(0,HouseEvent3,14,12)
 House(0,HouseEvent4,22,11)
 House(0,HouseEvent5,22,14)
+Seize(11,4)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-Seize(11, 4)
 END_MAIN
 
 Dunno1:

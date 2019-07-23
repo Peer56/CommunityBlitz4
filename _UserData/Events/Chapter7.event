@@ -32,7 +32,6 @@ Village(0x9,C7VillageKillerAxe,2,11)
 Village(0xA,C7VillageLancereaver,8,23)
 Armory(C7ArmoryList,8,5)
 Vendor(C7VendorList,13,11)
-AREA 0x0 AnnaCheck [2,2] [2,2]
 Door(2,6)
 Door(3,6)
 Door(9,7)
@@ -40,6 +39,7 @@ Door(10,7)
 END_MAIN
 
 MiscBasedEvents:
+AREA 0x0 AnnaCheck [2,2] [2,2]
 CauseGameOverIfLordDies
 
 END_MAIN

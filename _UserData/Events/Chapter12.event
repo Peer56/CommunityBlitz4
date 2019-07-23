@@ -195,6 +195,7 @@ UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,1] 0x00 0x00 0x0 REDA0R2 [
 UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,2] 0x00 0x00 0x0 REDA0R4 [Spear] PursueWithoutHeedAI
 UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,1] 0x2 0x00 0x0 REDA1R3 [BraveLance] PursueWithoutHeedAI
 UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,2] 0x00 0x00 0x0 REDA2R2 [SilverLance] PursueWithoutHeedAI
+UNIT
 
 PegReinforcements2:
 ReinforcementEvent(Forces2)
@@ -204,6 +205,7 @@ Forces2:
 UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,0] 0x00 0x00 0x0 REDA0R2 [SilverLance] PursueWithoutHeedAI
 UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [0,1] 0x00 0x00 0x0 REDA1R1 [Axereaver] PursueWithoutHeedAI
 UNIT 0x87 PegasusKnight Murray Level(11, Enemy, 1) [1,0] 0x00 0x00 0x0 REDA2R0 [Spear] PursueWithoutHeedAI
+UNIT
 
 WyvernReinfors:
 ReinforcementEvent(Forces3)
@@ -214,6 +216,7 @@ UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [17,5] 0x00 0x00 0x0 REDA16R6 [
 UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [17,5] 0x00 0x00 0x0 REDA19R6 [Swordreaver] PursueWithoutHeedAI
 UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [18,5] 0x00 0x00 0x0 REDA16R3 [PoisonAxe] PursueWithoutHeedAI
 UNIT 0x87 WyvernRider Murray Level(11, Enemy, 1) [18,5] 0x00 0x00 0x0 REDA19R3 [HandAxe] PursueWithoutHeedAI
+UNIT
 
 SoldierReinfors:
 ReinforcementEvent(Forces4)
@@ -223,10 +226,12 @@ ENDA
 Forces4:
 UNIT 0x87 Soldier Murray Level(14, Enemy, 1) [12,12] 0x00 0x00 0x0 REDA11R12 [Axereaver] PursueWithoutHeedAI
 UNIT 0x87 Soldier Murray Level(14, Enemy, 1) [12,12] 0x00 0x00 0x0 REDA12R11 [Swordreaver] PursueWithoutHeedAI
+UNIT
 
 Forces5:
 UNIT 0x87 Mage Murray Level(14, Enemy, 1) [5,2] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI
 UNIT 0x87 Mage Murray Level(14, Enemy, 1) [11,2] 0x00 0x00 0x0 0x00 [Elfire, Thunder] PursueWithoutHeedAI
+UNIT
 
 Sonny1:
 Text(PlaceholderText)

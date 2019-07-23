@@ -16,25 +16,28 @@
 
     //Text
     #include "Text/Install Text Data.event"
+	MESSAGE Basefile text ends at currentOffset
 
     //Graphics
     #include "Graphics/MasterGraphicInstaller.event"
+	MESSAGE Basefile graphics end at currentOffset
 
     //CSV tables
     #include "Tables/Table Installer.event"
 	#include "Skills/Skill Lists.event"
 	#include "Skills/Table Installer.event"
-	
 
     //Post-table data
     #include "PostTable/Posttable Installer.event"
+	MESSAGE Basefile tables end at currentOffset
 
     //Engine Hacks
     #include "Engine Hacks/_MasterHackInstaller.event"
+	MESSAGE Basefile engine hax end at currentOffset
 
     //World Map Events
     #include "World Map Events/World Map Events Installer.event"
-    
+	
     MESSAGE "ROM space remaining is" (0xBFFFFF - currentOffset)
     
     ORG EndSpace
@@ -43,6 +46,7 @@
     #undef TABLE_DEFINITIONS
     
     //User Data
+	MESSAGE User Data begins at currentOffset
     #include "_UserData/User Buildfile.event"
 
     MESSAGE Used free space ends at currentOffset

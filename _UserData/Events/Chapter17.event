@@ -86,8 +86,8 @@ ALIGN 4
 
 		BeginningScene:
 			//Load your existing player Units
-			LOAD3 0x1 PrepScreenTemplate
-			ENUN
+			//LOAD3 0x1 PrepScreenTemplate
+			//ENUN
 			
 			//Load the different Groups of enemies
 			LOAD1 0x1 InitialThroneRoom

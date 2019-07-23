@@ -139,11 +139,11 @@ House(0,HouseEvent5,19,16)
 House(0,HouseEvent6,20,17)
 House(0,HouseEvent7,6,22)
 House(0,HouseEvent8,8,22)
+Seize(11,4)
 END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-Seize(11, 4)
 END_MAIN
 
 Dunno1:
@@ -223,12 +223,11 @@ ENDTRAP
 ALIGN 4
 
 BeginningScene:
-LOAD3 0x1 Units1
-ENUN
 LOAD1 0x1 DuoMaidenos
 ENUN
 LOAD1 0x1 Bad
 ENUN
+GotoPrepScreen
 NoFade
 ENDA
 

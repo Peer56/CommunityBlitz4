@@ -14,10 +14,12 @@ MESSAGE Music Switch is off and songs are not written
 
 //Text
 #include "Text/Install Text Data.event"
+MESSAGE User text data ends at currentOffset
 
 //CSVs because modulars succ
 #include "CSVs/Table Installer.event"
 #include "Promotion/Promotion Branch Editor.event"
+MESSAGE CSVs end at currentOffset
 
 //Modulars
 //#include "ModularCharacters/Modular Character Installer.event"
@@ -26,10 +28,12 @@ MESSAGE Music Switch is off and songs are not written
 
 //Engine Hacks
 #include "Engine Hacks/Master Hack Installer.event"
+MESSAGE Engine Hax end at currentOffset
 
 //Animations
 #ifdef AnimationSwitch
 #include "Animations/_Master Animation Installer.event"
+MESSAGE Animations end at currentOffset
 #endif
 
 //Promotion Editors
@@ -37,25 +41,31 @@ MESSAGE Music Switch is off and songs are not written
 
 //Graphics
 #include "Graphics/Master Graphic Installer.event"
+MESSAGE Graphics end at currentOffset
 
 //Maps
 ALIGN 4
 #include "Maps/Master Map Installer.event"
+MESSAGE Maps end at currentOffset
 
 //Music
 #ifdef MusicSwitch
 #include "Music/Music Installer.event"
+MESSAGE Music ends at currentOffset
 #endif
 
 //Quotes
 #include "Quotes/Battle Quotes Installer.event"
 #include "Quotes/Death Quotes Installer.event"
+MESSAGE Quote data ends at currentOffset
 
 //Supports
 #include "Support Editor/Support Editor.event"
+MESSAGE Support data ends at currentOffset
 
 //Events
 #include "Events/Master Event Installer.event"
+MESSAGE Event data ends at currentOffset
 
 //Chapter Data
 //#include "Chapter Data/Chapter Data Installer.event"

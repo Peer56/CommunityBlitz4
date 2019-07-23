@@ -32,7 +32,6 @@ END_MAIN
 LocationBasedEvents:
 Village(0x8,VillageTorch,1,5)
 Village(0x9,VillageDevilAxe,14,12)
-AREA 0x10 HiddenItem [0,2] [0,2]
 //Seize
 Seize(1,16)
 #ifdef __DEBUG__
@@ -42,6 +41,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+AREA 0x10 HiddenItem [0,2] [0,2]
 END_MAIN
 
 Dunno1:

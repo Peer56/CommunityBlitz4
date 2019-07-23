@@ -164,23 +164,23 @@ SHORT 0
 */
 
 RiaSupportData:
-BYTE Maurus Sayra Gershon Osian Reuben Irena Anna2
+BYTE Garthan Ignace Maurus Kate Fraoch Feidlimid Volstagg
 BYTE 0 0 0 0 0 0 0
 BYTE 4 6 6 4 6 4 6
 BYTE 7
 SHORT 0
 
 GarthanSupportData:
-BYTE Ria Everett Ignace Edith Maurus Wanda 0
+BYTE Ria Everett Ignace Edith Maurus Karn Wanda
 BYTE 0 0 0 0 0 0 0
-BYTE 4 4 4 4 4 6 0
-BYTE 6
+BYTE 4 4 4 4 4 4 6
+BYTE 7
 SHORT 0
 
 EverettSupportData:
-BYTE Garthan Edith Ignace Maurus Mint Ingrid Hadi
+BYTE Garthan Edith Reagan Maurus Mint Ingrid Hadi
 BYTE 0 0 0 0 0 0 0
-BYTE 4 6 4 4 4 6 4
+BYTE 4 6 6 4 4 6 4
 BYTE 7
 SHORT 0
 
@@ -192,17 +192,17 @@ BYTE 7
 SHORT 0
 
 EdithSupportData:
-BYTE Garthan Ignace Maurus Sayra Acies Gershon Arla
+BYTE Garthan Ignace Maurus Arla Acies Gershon Everett
 BYTE 0 0 0 0 0 0 0
-BYTE 4 6 6 4 6 6 4
+BYTE 4 6 6 4 6 6 6
 BYTE 7
 SHORT 0
 
 MaurusSupportData:
-BYTE Ria Garthan Everett Edith Jhonka Tony 0
+BYTE Ria Garthan Everett Edith Jhonka Tony Wanda
 BYTE 0 0 0 0 0 0 0
-BYTE 6 4 4 6 4 4 0
-BYTE 6
+BYTE 6 4 4 6 4 4 4
+BYTE 7
 SHORT 0
 
 FuriaSupportData:
@@ -227,7 +227,7 @@ BYTE 7
 SHORT 0
 
 SayraSupportData:
-BYTE Edith Jhonka Acies Osian Juan Irena Karn
+BYTE Mystletainn Jhonka Acies Osian Juan Irena Karn
 BYTE 0 0 0 0 0 0 0
 BYTE 4 8 6 6 6 4 6
 BYTE 7
@@ -243,19 +243,19 @@ SHORT 0
 AciesSupportData:
 BYTE Edith Furia Lilac Sayra Juan Anna2 Mystletainn
 BYTE 0 0 0 0 0 0 0
-BYTE 6 6 4 6 4 4 4
+BYTE 6 6 4 6 4 6 4
 BYTE 7
 SHORT 0
 
 YorrickSupportData:
-BYTE Mint Reuben Reagan Sonny Hadi Arwen 0
+BYTE Mint Reuben Reagan Sonny Hadi Arwen Volstagg
 BYTE 0 0 0 0 0 0 0
-BYTE 8 4 4 4 4 6 0
-BYTE 6
+BYTE 8 4 4 4 4 6 4
+BYTE 7
 SHORT 0
 
 MintSupportData:
-BYTE Everett Yorrick Reuben Ingrid Fraoch Volstagg Wanda
+BYTE Everett Yorrick Reuben Ingrid Fraoch Volstagg Arwen
 BYTE 0 0 0 0 0 0 0
 BYTE 4 8 4 6 4 4 4
 BYTE 7
@@ -311,10 +311,10 @@ BYTE 7
 SHORT 0
 
 ReaganSupportData:
-BYTE Lilac Yorrick Ingrid Feidlimid Dog Brent 0
+BYTE Lilac Yorrick Ingrid Feidlimid Dog Brent Everett
 BYTE 0 0 0 0 0 0 0
-BYTE 4 4 6 6 4 6 0
-BYTE 6
+BYTE 4 4 6 6 4 6 6
+BYTE 7
 SHORT 0
 
 IngridSupportData:
@@ -346,10 +346,10 @@ BYTE 7
 SHORT 0
 
 KarnSupportData:
-BYTE Sayra Gershon Sonny Volstagg Brent Wanda 0
+BYTE Sayra Gershon Sonny Volstagg Brent Wanda Garthan
 BYTE 0 0 0 0 0 0 0
-BYTE 6 4 8 4 4 4 0
-BYTE 6
+BYTE 6 4 8 4 4 4 4
+BYTE 7
 SHORT 0
 
 SonnySupportData:
@@ -381,17 +381,17 @@ BYTE 7
 SHORT 0
 
 DogSupportData:
-BYTE Feidlimid Reagan Dan1 Dan2 0 0 0
+BYTE Feidlimid Reagan Dan1 Dan2 Mystletainn 0 0
 BYTE 0 0 0 0 0 0 0
-BYTE 6 4 4 4 0 0 0
-BYTE 4
+BYTE 8 4 4 4 4 0 0
+BYTE 5
 SHORT 0
 
 VolstaggSupportData:
-BYTE Ria Yorrick Karn Brent Anna2 Felix 0
+BYTE Ria Yorrick Karn Brent Anna2 Felix Mint
 BYTE 0 0 0 0 0 0 0
-BYTE 6 4 4 4 6 4 0
-BYTE 6
+BYTE 6 4 4 4 6 4 4
+BYTE 7
 SHORT 0
 
 RhosynSupportData:
@@ -402,10 +402,10 @@ BYTE 7
 SHORT 0
 
 ArwenSupportData:
-BYTE Yorrick Fraoch Alya Hadi Rhosyn Wanda 0
+BYTE Yorrick Fraoch Alya Hadi Rhosyn Wanda Mint
 BYTE 0 0 0 0 0 0 0
-BYTE 6 4 4 4 4 4 0
-BYTE 6
+BYTE 6 4 4 4 4 4 4
+BYTE 7
 SHORT 0
 
 BrentSupportData:
@@ -418,7 +418,7 @@ SHORT 0
 AnnaSupportData:
 BYTE Lilac Jhonka Acies Juan Reuben Volstagg Mystletainn
 BYTE 0 0 0 0 0 0 0
-BYTE 4 4 4 4 4 4 4
+BYTE 4 6 6 6 6 6 4
 BYTE 7
 SHORT 0
 
@@ -437,10 +437,10 @@ BYTE 7
 SHORT 0
 
 MystletainnSupportData:
-BYTE Lilac Acies Juan Rhosyn Anna2 0 0
+BYTE Lilac Acies Juan Rhosyn Anna2 Dog Sayra
 BYTE 0 0 0 0 0 0 0
-BYTE 4 4 4 4 4 0 0
-BYTE 5
+BYTE 4 4 4 4 4 4 4
+BYTE 7
 SHORT 0
 
 DestinySupportData:

@@ -333,8 +333,8 @@ MaulochDesc[X]
 Rickets[X]
 
 ##RicketsDesc
-An insufferable, wealthy captain who formed[N]
-a pact of resurrection with Conavell's king.[X]
+A wealthy captain who formed a pact[N]
+of resurrection with Conavell's king.[X]
 
 ##LucioName
 Lucio[X]

@@ -67,7 +67,7 @@ AiScrMoveToPointSouthVillage:
 #define EndingEventLabel2          $20
 
 //Chapter Events
-EventPointerTable(0x24, PointerList)
+EventPointerTable(0x21, PointerList)
 
 PointerList:
 POIN TurnBasedEvents
@@ -98,15 +98,15 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
+AREA 0x0 VillageNorthDestruction [7,0] [9,2]
+AREA 0x0 VillageEastDestruction [17,3] [19,5]
+AREA 0x0 VillageSouthDestruction [15,13] [17,15]
 END_MAIN
 
 LocationBasedEvents:
 Village(0x0,VillageNorthVisit,8,2)
 Village(0x0,VillageSouthVisit,18,5)
 Village(0x0,VillageEastVisit,16,15)
-AREA 0x0 VillageNorthDestruction [7,0] [9,2]
-AREA 0x0 VillageEastDestruction [17,3] [19,5]
-AREA 0x0 VillageSouthDestruction [15,13] [17,15]
 END_MAIN
 
 Dunno1:
