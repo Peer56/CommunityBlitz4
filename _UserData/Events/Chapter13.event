@@ -147,7 +147,7 @@ UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [15,16] 0x00 0x00 0x0 0x00 
 UNIT
 
 Bad: 
-UNIT Tirado WyvernLord 0x00 Level(5, Enemy, 0) [11,4] 0x00 0x00 0x0 0x00 [Spear, Lancereaver, SilverBlade, _3000G] NeverMoveAI
+UNIT Diqhed WyvernLord 0x00 Level(5, Enemy, 0) [11,4] 0x00 0x00 0x0 0x00 [Spear, Lancereaver, SilverBlade, _3000G] NeverMoveAI
 UNIT Alya WyvernRider_F Tirado Level(15, Enemy, 0) [1,7] 0x00 0x00 0x0 0x00 [SteelLance, IronLance] AttackInRangeAI
 UNIT 0x80 SwdCav Tirado Level(15, Enemy, 1) [17,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
 UNIT 0x80 SwdCav Tirado Level(15, Enemy, 1) [19,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI

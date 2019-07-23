@@ -37,7 +37,7 @@ UNIT Itzhar CursedSword 0 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [LightBrand,Sil
 UNIT
 
 EnemyUnits:
-UNIT 0x54 Spartan 0 Level(16,Enemy,0) [4,2] 0x2 0x0 0x0 0x1 [Spear,LightBrand,Elixir] NeverMoveAI
+UNIT Heinrik Spartan 0 Level(16,Enemy,0) [4,2] 0x2 0x0 0x0 0x1 [Spear,LightBrand,Elixir] NeverMoveAI
 UNIT 0x96 Hero 0 Level(12,Enemy,1) [17,6] 0x0 0x0 0x0 0x1 [SteelBlade,HandAxe] AttackInRangeAI
 UNIT 0x96 Hero 0 Level(12,Enemy,1) [18,12] 0x0 0x0 0x0 0x1 [SilverSword,SteelAxe] AttackInRangeAI
 UNIT 0x96 Swordmaster_F 0 Level(12,Enemy,1) [18,4] 0x2 0x0 0x0 0x1 [Shamshir] AttackInRangeAI

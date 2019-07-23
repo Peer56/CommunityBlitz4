@@ -2,7 +2,7 @@
 
 EventPointerTable(0x56,ThisChapter)
 
-#define Ch18Boss 0x52
+#define Ch18Boss Algrim2
 #define Ch18Generic 0x92
 #define Ch18Generic2 0x93
 #define CH18GenLvl 15

@@ -183,8 +183,8 @@ UNIT 0x84 SwdCav Fraoch Level(12, NPC, 1) [13,8] 0x00 0x00 0x0 0x00 [Wyrmslayer,
 UNIT
 
 Bad:
-UNIT Novala Druid 0x00 Level(1, Enemy, 0) [18,18] 0x00 0x00 0x0 0x00 [Nosferatu, Fimbulvetr, Silence] AttackInRangeAI 
-UNIT Deathgoyle_boss Warrior Novala Level(1, Enemy, 0) [17,19] 0x00 0x00 0x0 0x00 [Tomahawk, SilverAxe, Swordreaver] AttackInRangeAI 
+UNIT Ransley Druid 0x00 Level(1, Enemy, 0) [18,18] 0x00 0x00 0x0 0x00 [Nosferatu, Fimbulvetr, Silence] AttackInRangeAI 
+UNIT Avanth Warrior Novala Level(1, Enemy, 0) [17,19] 0x00 0x00 0x0 0x00 [Tomahawk, SilverAxe, Swordreaver] AttackInRangeAI 
 UNIT 0x80 Warrior Novala Level(1, Enemy, 1) [15,18] 0x00 0x00 0x0 0x00 [Hatchet] GuardTileAI 
 UNIT 0x80 Warrior Novala Level(1, Enemy, 1) [18,16] 0x00 0x00 0x0 0x00 [Hatchet] GuardTileAI 
 UNIT 0x80 Druid Novala Level(1, Enemy, 1) [19,16] 0x00 0x00 0x0 0x00 [Flux] GuardTileAI 

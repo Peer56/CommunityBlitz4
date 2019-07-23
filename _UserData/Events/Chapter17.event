@@ -1,5 +1,5 @@
 #define Ch17Enemies 0x90
-#define Ch17Boss 0x51
+#define Ch17Boss Floorentius
 #define Chapter17EventID 0x4f
 
 EventPointerTable(Chapter17EventID,ThisChapter)
