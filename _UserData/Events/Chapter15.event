@@ -128,11 +128,13 @@ UNIT
 KorathReinforcements1:
 LOAD1 0x1 KorathUnits1
 ENUN
+NoFade
 ENDA
 
 KorathReinforcements2:
 LOAD1 0x1 KorathUnits2
 ENUN
+NoFade
 ENDA
 
 VolstaggRecruitmentRia:
@@ -143,11 +145,10 @@ ENDA
 VolstaggRecruitmentMaurus:
 Text(PlaceholderText)
 CUSA Volstagg
+NoFade
 ENDA
 
 BeginningEvent:
-LOAD2 0x1 Units
-ENUN
 LOAD1 0x1 Enemies
 ENUN
 LOAD1 0x1 VolstaggUnit

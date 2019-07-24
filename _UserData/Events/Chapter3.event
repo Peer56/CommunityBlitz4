@@ -50,8 +50,6 @@ LOAD1 0x1 Enemies
 ENUN
 LOAD1 0x1 AciesUnit
 ENUN
-LOAD2 0x1 Units
-ENUN
 Text(PlaceholderText)
 GotoPrepScreen
 ENDA

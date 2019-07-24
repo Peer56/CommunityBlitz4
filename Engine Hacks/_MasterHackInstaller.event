@@ -132,7 +132,7 @@ POP
   #include "SuspendDebuffs/Debuffs.event"
 
   //Stat Screens palette by allegiance
-  // #include "StatScreenAllegiance/StatScreenAllegiance.event"
+  //#include "StatScreenAllegiance/StatScreenAllegiance.event"
 
   //menu semitransparency
   #include "Misc/SemitransparencyChanges.event"

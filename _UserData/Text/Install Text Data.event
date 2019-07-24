@@ -1569,6 +1569,10 @@ __TEXTPROCESSEC1:
 #incbin ".TextEntries\text_buildfilePlaceholderSupportText.fetxt.dmp"
 setText($EC1, __TEXTPROCESSEC1)
 
+__TEXTPROCESSEC2:
+#incbin ".TextEntries\text_buildfileCH6OpeningScrollText.fetxt.dmp"
+setText($EC2, __TEXTPROCESSEC2)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT
