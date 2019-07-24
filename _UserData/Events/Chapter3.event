@@ -21,11 +21,11 @@ CharacterEvent(0x8, RecruitAcies, Ria, Acies)
 END_MAIN
 
 LocationBasedEvents:
-Village(0x7,House1,10,1)
-Armory(ArmoryList,4,2)
-House(0x9,House2,7,10)
-House(0x10,House3,6,15)
-Village(0x11,House4,10,1)
+Village(0x7,House1,7,1)
+Armory(ArmoryList,1,1)
+Village(0x9,House2,4,8)
+Village(0x10,House3,5,13)
+Village(0x11,House4,1,16)
 END_MAIN
 
 MiscBasedEvents:
@@ -86,7 +86,7 @@ UNIT 0x75 Fighter 0x00 Level(4, Enemy, 1) [4,2] 0x00 0x00 0x0 0x00 [SteelAxe] At
 UNIT 0x74 Mage 0x74 Level(5, Enemy, 1) [6,2] 0x00 0x00 0x0 0x00 [Thunder] MoveWithLeaderAI
 UNIT 0x74 Brigand 0x00 Level(3, Enemy, 1) [8,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT 0x74 SwordCav 0x00 Level(3, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x74 Shaman 0x00 Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [Nosferatu] [0x0C,0x03]
+UNIT 0x74 Shaman 0x00 Level(4, Enemy, 1) [0,14] 0x00 0x00 0x0 0x00 [Nosferatu] AttackInRangeAI
 UNIT 0x74 Knight 0x00 Level(5, Enemy, 1) [3,17] 0x00 0x00 0x0 0x00 [SteelAxe, Spear] GuardTileAI
 UNIT 0x74 Fighter 0x00 Level(3, Enemy, 1) [2,10] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT 0x74 Mercenary 0x00 Level(4, Enemy, 1) [0,6] 0x00 0x00 0x0 0x00 [IronBlade] PursueWithoutHeedAI
@@ -115,7 +115,7 @@ MUSS Song_WithUs
 Text(PlaceholderText)
 CUSA Acies
 REMA
-MURE 0
+MURE 5
 NoFade
 ENDA
 
@@ -127,19 +127,19 @@ ENDA
 House2:
 MUSI //The music gets quieter for house scenes too
 FADI 10
-BACG 0x01 //Loads house with a fireplace background
+SetBackground(1)
 FADU 10
-//Text(PlaceholderText)
-REMA
+Text(PlaceholderText)
+EndConvo
 MUNO //Undoes the music quieting effect
 ENDA
 
 House3:
 MUSI //The music gets quieter for house scenes too
 FADI 10
-BACG 0x01 //Loads house with a fireplace background
+SetBackground(1)
 FADU 10
-//Text(PlaceholderText)
+Text(PlaceholderText)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
