@@ -106,7 +106,7 @@ from place to place.[X]
 Arch Mogall[X]
 
 ##TarvosElderName
-Tarvos Elder[X]
+Maelduin[X]
 
 ##CerberusName
 Cerberus[X]
