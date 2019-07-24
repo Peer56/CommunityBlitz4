@@ -35,16 +35,28 @@ Ree[A][X]
 Ree[A][X]
 
 ## AvanthBattleQuote
-Ree[A][X]
+You seem like an honest
+bunch but Diqhed controls
+us with an iron grip.[A]
+Sorry to do this...[A]
+[X]
 
 ## RansleyBattleQuote
-Ree[A][X]
+We never wished to take
+up arms against you...[A]
+But we have no choice.[A]
+[X]
 
 ## VercingeBattleQuote
 Ree[A][X]
 
 ## DiqhedBattleQuote
-Ree[A][X]
+You think you can defeat me?[A]
+I am the king of Wyrmland![A]
+This means I am very strong![A]
+Fighting strong enemies kills you![A]
+You die when you are killed![A]
+Thanks for attending my TED talk.[X]
 
 ## EsmeBattleQuote
 Ree[A][X]
@@ -56,13 +68,29 @@ Ree[A][X]
 Ree[A][X]
 
 ## AswangBattleQuote
-Ree[A][X]
+Women can be baddies too
+you know![A]
+[X]
 
 ## ZelrothBattleQuote
-Ree[A][X]
+Hehehe... I bet you envy
+how easy it is to be a
+bad guy...[A]
+No one asks for your 
+character development...[A]
+No need to be a viable unit...[A]
+You can even have a terrible
+portrait, no one will care...[A]
+My life is so easy, I just sit
+here and pose no threat at all.[A]
+You player units must wish to be me,
+free from scrutiny... Hehe...[A]
+[X]
 
 ## WulfricBattleQuote
-Ree[A][X]
+Please don't have a horse
+effective weapon...[A]
+[X]
 
 ## FloorentiusBattleQuote
 Ree[A][X]
