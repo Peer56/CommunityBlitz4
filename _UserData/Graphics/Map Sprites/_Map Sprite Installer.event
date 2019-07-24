@@ -93,6 +93,11 @@ MovingMapSprite(0x81,0x1C7428,0x1C6A84)
 MovingMapSprite(0x82,0x1C7428,0x1C6A84)
 MovingMapSprite(0x83,0x1C7428,0x1C6A84)
 
+StandingMapSprite(0x2D,0x0,0x0,ShamanFStandingMapSprite)
+MovingMapSprite(0x2E, 0x81dd888, ShamanFMovingMapSprite)
+StandingMapSprite(0x2F,0x0,0x0,DruidFStandingMapSprite)
+MovingMapSprite(0x30, 0x81de2c4, DruidFMovingMapSprite)
+
 //graphics start here
 
 ALIGN 4
@@ -323,3 +328,18 @@ ALIGN 4
 KnightLordMovingMapSprite:
 #incext Png2Dmp "KnightLordMov.png" --lz77
 
+ALIGN 4
+ShamanFStandingMapSprite:
+#incext Png2Dmp "ShamanF Standing.png" --lz77
+
+ALIGN 4
+ShamanFMovingMapSprite:
+#incext Png2Dmp "ShamanF Moving.png" --lz77
+
+ALIGN 4
+DruidFStandingMapSprite:
+#incext Png2Dmp "DruidF Standing.png" --lz77
+
+ALIGN 4
+DruidFMovingMapSprite:
+#incext Png2Dmp "DruidF Moving.png" --lz77
