@@ -35,28 +35,28 @@ Ree[A][X]
 Ree[A][X]
 
 ## AvanthBattleQuote
-You seem like an honest
-bunch but Diqhed controls
-us with an iron grip.[A]
-Sorry to do this...[A]
+You seem like an honest[NL]
+bunch but Diqhed controls[NL]
+us with an iron grip.[A][NL]
+Sorry to do this...[A][NL]
 [X]
 
 ## RansleyBattleQuote
-We never wished to take
-up arms against you...[A]
-But we have no choice.[A]
+We never wished to take[NL]
+up arms against you...[A][NL]
+But we have no choice.[A][NL]
 [X]
 
 ## VercingeBattleQuote
 Ree[A][X]
 
 ## DiqhedBattleQuote
-You think you can defeat me?[A]
-I am the king of Wyrmland![A]
-This means I am very strong![A]
-Fighting strong enemies kills you![A]
-You die when you are killed![A]
-Thanks for attending my TED talk.[X]
+You think you can defeat me?[A][NL]
+I am the king of Wyrmland![A][NL]
+This means I am very strong![A][NL]
+Fighting strong enemies kills you![A][NL]
+You die when you are killed![A][NL]
+Thanks for attending my TED talk.[X][NL]
 
 ## EsmeBattleQuote
 Ree[A][X]
@@ -68,28 +68,28 @@ Ree[A][X]
 Ree[A][X]
 
 ## AswangBattleQuote
-Women can be baddies too
-you know![A]
+Women can be baddies too[NL]
+you know![A][NL]
 [X]
 
 ## ZelrothBattleQuote
-Hehehe... I bet you envy
-how easy it is to be a
-bad guy...[A]
-No one asks for your 
-character development...[A]
-No need to be a viable unit...[A]
-You can even have a terrible
-portrait, no one will care...[A]
-My life is so easy, I just sit
-here and pose no threat at all.[A]
-You player units must wish to be me,
-free from scrutiny... Hehe...[A]
+Hehehe... I bet you envy[NL]
+how easy it is to be a[NL]
+bad guy...[A][NL]
+No one asks for your[NL]
+character development...[A][NL]
+No need to be a viable unit...[A][NL]
+You can even have a terrible[NL]
+portrait, no one will care...[A][NL]
+My life is so easy, I just sit[NL]
+here and pose no threat at all.[A][NL]
+You player units must wish to be me,[NL]
+free from scrutiny... Hehe...[A][NL]
 [X]
 
 ## WulfricBattleQuote
-Please don't have a horse
-effective weapon...[A]
+Please don't have a horse[NL]
+effective weapon...[A][NL]
 [X]
 
 ## FloorentiusBattleQuote
