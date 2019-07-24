@@ -83,7 +83,7 @@ FelixPortrait:
 WandaPortrait:
 #incext PortraitFormatter "Playables/Wanda.png"
 ItzharPortrait:
-#incext PortraitFormatter "Playables/Itzhar.png"
+#incext PortraitFormatter "Playables/Mystletainn.png"
 DestinyPortrait:
 #incext PortraitFormatter "Playables/Destiny.png"
 NathanPortrait:
@@ -228,7 +228,7 @@ setMugEntry(EoMug, EoPortrait, 2, 5, 3, 3)
 setMugEntry(Anna2Mug, Anna2Portrait, 2, 6, 3, 4)
 setMugEntry(FelixMug, FelixPortrait, 2, 5, 3, 3)
 setMugEntry(WandaMug, WandaPortrait, 2, 5, 3, 3)
-setMugEntry(ItzharMug, ItzharPortrait, 2, 5, 3, 3)
+setMugEntry(ItzharMug, ItzharPortrait, 3, 5, 3, 3)
 setMugEntry(DestinyMug, DestinyPortrait, 2, 5, 3, 3)
 
 setMugEntry(NathanMug, NathanPortrait, 3, 5, 3, 3)

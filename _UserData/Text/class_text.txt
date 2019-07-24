@@ -41,7 +41,7 @@ Mounted knights with superior[N]
 abilities. Equip: Swords, bows.[X]
 
 ##CursedSwordName
-Cursed Sword[X]
+Cursed Blade[X]
 
 ##CursedSwordDesc
 An evil blade with[N]
