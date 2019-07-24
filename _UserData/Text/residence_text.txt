@@ -135,6 +135,15 @@ idiot. Fuck you.[A][X]
 
 ##Ch13Village3
 #Hadi recruit
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadHadi]
+I'll keep it simple.[A][NL]
+Diqhed doesn't like the clergy.[A][NL]
+So that means me and my fellow[NL]
+church goers will soon be dead.[A][NL]
+Of course, if I join your lot,[A][NL]
+He ought soon be dead, making me[NL]
+A whole lot less dead.[A][NL]
+Compared to sticking here at least.[A][NL]
 [X]
 
 ##Ch13House1
