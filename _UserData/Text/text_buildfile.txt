@@ -39,3 +39,5 @@ This is placeholder text![A][X]
 #include "death_text.txt"
 #include "residence_text.txt"
 #include "support_text.txt"
+
+#include "ch6_cutscenes.txt"

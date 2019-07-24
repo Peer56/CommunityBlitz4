@@ -120,8 +120,6 @@ TrapData:
 END_MAIN
 
 BeginningScene:
-LOAD2 0x1 PlayerUnits
-ENUN
 LOAD1 0x1 EnemyUnits
 ENUN
 LOAD1 0x1 GenericUnits

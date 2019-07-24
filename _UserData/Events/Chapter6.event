@@ -91,6 +91,7 @@ TURN 0x0 ReinforcementsEast [0x0,0xFF] 0x0
 TURN 0x0 ReinforcementsSouth [0x0,0xFF] 0x0
 TURN 0x0 ReinforcementsPirates [0x9,0x12] 0x0
 TURN 0xE ReinforcementsFleet [0x9,0x0] 0x0
+TURN 0x0 Turn1ScrollText [1,0] 0x0
 END_MAIN
 
 CharacterBasedEvents:
@@ -201,6 +202,12 @@ ReinforcementsFleetUnits:
 UNIT 0x7B Fleet 0x0 Level(6,Enemy,1) [2,2] 0x0 0x0 0x1 REDA4R6 [IronBallista] AttackInRangeAI
 UNIT
 
+Turn1ScrollText:
+CAM1 Ria
+CenterTextbox(CH6OpeningScrollText)
+NoFade
+ENDA
+
 ReinforcementsPirates:
 LOAD1 0x1 ReinforcementsPiratesUnits
 ENUN
@@ -282,7 +289,7 @@ TILECHANGE 0x1
 GOTO NorthConstructionLabel1
 LABEL NorthConstructionLabel3
 SVAL 0x1 0x2
-BNE NorthConstructionLabel4 0xC 0x1
+BNE NorthConstructionLabel1 0xC 0x1
 Increment(0x0)
 TILECHANGE 0x2
 //Text(CH6ConstructionFinishedText)
@@ -345,7 +352,7 @@ TILECHANGE 0x4
 GOTO EastConstructionLabel1
 LABEL EastConstructionLabel3
 SVAL 0x1 0x2
-BNE EastConstructionLabel4 0xC 0x1
+BNE EastConstructionLabel1 0xC 0x1
 Increment(0x1)
 TILECHANGE 0x5
 //Text(CH6ConstructionFinishedText)
@@ -408,7 +415,7 @@ TILECHANGE 0x7
 GOTO SouthConstructionLabel1
 LABEL SouthConstructionLabel3
 SVAL 0x1 0x2
-BNE SouthConstructionLabel4 0xC 0x1
+BNE SouthConstructionLabel1 0xC 0x1
 Increment(0x2)
 TILECHANGE 0x8
 //Text(CH6ConstructionFinishedText)
@@ -440,8 +447,6 @@ NoFade
 ENDA
 
 BeginningEvent:
-LOAD2 0x1 Units
-ENUN
 LOAD1 0x1 TonyUnit
 ENUN
 LOAD1 0x1 Bandits
@@ -451,9 +456,6 @@ NoFade
 ENDA
 
 EndingEvent:
-TILECHANGE 0x9
-TILECHANGE 0xA
-TILECHANGE 0xB
 CHECK_ALIVE Tony
 BNE EndingEventLabel2 0xC 0x0
 CheckLevel(Tony)

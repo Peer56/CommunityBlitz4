@@ -141,8 +141,6 @@ ALIGN 4
 BeginningScene:
 LOAD1 0x1 EnemyUnits
 ENUN
-LOAD2 0x1 Units1
-ENUN
 LOAD2 0x1 EnemyWyverns
 ENUN
 LOAD1 0x1 YorrickGroup
