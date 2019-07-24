@@ -37,6 +37,7 @@ This is placeholder text![A][X]
 #include "class_text.txt"
 #include "character_text.txt"
 #include "death_text.txt"
+#include "battle_text.txt"
 #include "residence_text.txt"
 #include "support_text.txt"
 
