@@ -20,7 +20,7 @@ PUSH
   // Debug Startup Screen
   #ifdef __DEBUG__
     ORG 0x000AD8   // this is somewhere in the startup routine
-//      BL(0x01C090) // Call the debug startup menu
+      BL(0x01C090) // Call the debug startup menu
   #endif
 POP
 
