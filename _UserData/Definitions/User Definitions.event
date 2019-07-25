@@ -198,6 +198,17 @@
 //#define CheckMagic(Character) "SVAL 0x1 Character; ASMC CheckMagicASMC|1" //add ifdefs for strmag split?
 
 
+//generic minimug defs
+#define NoGenericMiniMug 0
+#define DragonGenericMiniMug 1
+#define AllySoldierGenericMiniMug 2
+#define SoldierGenericMiniMug 3
+#define MonsterGenericMiniMug 4
+#define AllyBanditGenericMiniMug 5
+#define BanditGenericMiniMug 6
+#define PhantomGenericMiniMug 7
+
+
 MizukiPrfStatBoosts: //because there's really no better place for this
 BYTE 0 10 5 5 3 10 5 0 0 0 0 0
 
