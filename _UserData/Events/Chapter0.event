@@ -20,7 +20,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AREA 0x0 PursueAIChange [10,4] [14,9]
+AREA 0x7 PursueAIChange [10,4] [14,9]
 DefeatAll(EndingEvent)
 END_MAIN
 
