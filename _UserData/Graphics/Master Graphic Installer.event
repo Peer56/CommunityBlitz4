@@ -6,7 +6,10 @@
 PUSH
   ORG $AC188
   POIN NewDifficultyButtons
+  ORG $802558
+  #incbin "BattleScreenPalettes.dmp"
 POP
 
 NewDifficultyButtons:
 #incext Png2Dmp "difficulty.png" --lz77
+
