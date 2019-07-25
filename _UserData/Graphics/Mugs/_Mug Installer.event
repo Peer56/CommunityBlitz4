@@ -190,7 +190,7 @@ VillagerPortrait12:
 
 setMugEntry(RiaMug, RiaPortrait, 3, 5, 3, 3)
 setMugEntry(GarthanMug, GarthanPortrait, 2, 5, 2, 3)
-setMugEntry(EverettMug, EverettPortrait, 2, 5, 3, 3)
+setMugEntry(EverettMug, EverettPortrait, 2, 6, 3, 4)
 setMugEntry(IgnaceMug, IgnacePortrait, 3, 6, 3, 4)
 setMugEntry(EdithMug, EdithPortrait, 2, 5, 3, 3)
 setMugEntry(MaurusMug, MaurusPortrait, 2, 5, 2, 3)
