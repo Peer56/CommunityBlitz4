@@ -10,6 +10,10 @@ cd "%~dp0_UserData/Text"
 
 echo: | (text-process-classic text_buildfile.txt --parser-exe "%~dp0Event Assembler/Tools/ParseFile.exe")
 
+cd "%~dp0_UserData/Palettes"
+
+echo: | (pal2EAv2.3 "%~dp0_UserData/Palettes/palette_input.txt")
+
 cd "%~dp0_UserData/Maps"
 
 echo: | (tmx2ea -s)

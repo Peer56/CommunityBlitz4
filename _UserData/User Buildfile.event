@@ -43,6 +43,10 @@ MESSAGE Animations end at currentOffset
 #include "Graphics/Master Graphic Installer.event"
 MESSAGE Graphics end at currentOffset
 
+//Palettes
+#include "Palettes/Palette Setup.event"
+MESSAGE Battle Sprite Palettes end at currentOffset
+
 //Maps
 ALIGN 4
 #include "Maps/Master Map Installer.event"
