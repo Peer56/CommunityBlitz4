@@ -13,6 +13,7 @@ POIN $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
+TurnEventPlayer(0x0,EventAfterExitingPrepScreen,1)
 TurnEventPlayer(0,Turn3Reinforcements,3)
 TurnEventPlayer(0,Turn5Reinforcements,5)
 TurnEventPlayer(0,Turn8Reinforcements,8)
@@ -126,7 +127,7 @@ UNIT 0x76 Fighter 0x44 Level(6,Enemy,1) [15,0] 0x00 0x00 0x0 0x00 [Tomahawk] Def
 UNIT
 
 YorrickGroup:
-UNIT Yorrick Monk 0x00 Level(5, Ally, 0) [1,15] 0x00 0x00 0x0 0x00 [Lightning, Vulnerary] NoAI
+UNIT Yorrick Monk 0x00 Level(5, NPC, 0) [1,15] 0x00 0x00 0x0 0x00 [Lightning, Vulnerary] NoAI
 UNIT Mint Archer 0x00 Level(4, NPC, 0) [18,15] 0x00 0x00 0x0 0x00 [Vulnerary] NoAI
 UNIT
 
@@ -147,6 +148,10 @@ LOAD1 0x1 YorrickGroup
 ENUN
 GotoPrepScreen
 NoFade
+ENDA
+
+EventAfterExitingPrepScreen:
+CUSA Yorrick
 ENDA
 
 Turn3Reinforcements:
