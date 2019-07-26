@@ -282,3 +282,150 @@ setMugEntry(Villager9Mug, VillagerPortrait9, 2, 6, 3, 4)
 setMugEntry(Villager10Mug, VillagerPortrait10, 2, 6, 3, 4)
 setMugEntry(Villager11Mug, VillagerPortrait11, 2, 6, 3, 4)
 setMugEntry(Villager12Mug, VillagerPortrait12, 2, 7, 3, 5)
+
+
+//////////////////////////////////////////////////////////////////////
+
+
+ArchMogallClassCardFile:
+#incext Png2Dmp "Generics/ArchMogall.png" --lz77
+
+ArchMogallClassCardPalette:
+#incext Png2Dmp "Generics/ArchMogall.png" --palette-only
+
+AssassinClassCardFile:
+#incext Png2Dmp "Generics/Assassin.png" --lz77
+
+AssassinClassCardPalette:
+#incext Png2Dmp "Generics/Assassin.png" --palette-only
+
+AxeCavFClassCardFile:
+#incext Png2Dmp "Generics/AxeCavF.png" --lz77
+
+AxeCavFClassCardPalette:
+#incext Png2Dmp "Generics/AxeCavF.png" --palette-only
+
+AxeCavMClassCardFile:
+#incext Png2Dmp "Generics/AxeCavM.png" --lz77
+
+AxeCavMClassCardPalette:
+#incext Png2Dmp "Generics/AxeCavM.png" --palette-only
+
+AxePalClassCardFile:
+#incext Png2Dmp "Generics/AxePal.png" --lz77
+
+AxePalClassCardPalette:
+#incext Png2Dmp "Generics/AxePal.png" --palette-only
+
+BaelQueenClassCardFile:
+#incext Png2Dmp "Generics/BaelQueen.png" --lz77
+
+BaelQueenClassCardPalette:
+#incext Png2Dmp "Generics/BaelQueen.png" --palette-only
+
+CerberusClassCardFile:
+#incext Png2Dmp "Generics/Cerberus.png" --lz77
+
+CerberusClassCardPalette:
+#incext Png2Dmp "Generics/Cerberus.png" --palette-only
+
+CursedSwordClassCardFile:
+#incext Png2Dmp "Generics/CursedSword.png" --lz77
+
+CursedSwordClassCardPalette:
+#incext Png2Dmp "Generics/CursedSword.png" --palette-only
+
+DancerClassCardFile:
+#incext Png2Dmp "Generics/Dancer.png" --lz77
+
+DancerClassCardPalette:
+#incext Png2Dmp "Generics/Dancer.png" --palette-only
+
+HalberdierClassCardFile:
+#incext Png2Dmp "Generics/Halberdier.png" --lz77
+
+HalberdierClassCardPalette:
+#incext Png2Dmp "Generics/Halberdier.png" --palette-only
+
+LanceCavFClassCardFile:
+#incext Png2Dmp "Generics/LanceCavF.png" --lz77
+
+LanceCavFClassCardPalette:
+#incext Png2Dmp "Generics/LanceCavF.png" --palette-only
+
+LanceCavMClassCardFile:
+#incext Png2Dmp "Generics/LanceCavM.png" --lz77
+
+LanceCavMClassCardPalette:
+#incext Png2Dmp "Generics/LanceCavM.png" --palette-only
+
+MaelduinClassCardFile:
+#incext Png2Dmp "Generics/Maelduin.png" --lz77
+
+MaelduinClassCardPalette:
+#incext Png2Dmp "Generics/Maelduin.png" --palette-only
+
+MarauderClassCardFile:
+#incext Png2Dmp "Generics/Marauder.png" --lz77
+
+MarauderClassCardPalette:
+#incext Png2Dmp "Generics/Marauder.png" --palette-only
+
+SpartanClassCardFile:
+#incext Png2Dmp "Generics/Spartan.png" --lz77
+
+SpartanClassCardPalette:
+#incext Png2Dmp "Generics/Spartan.png" --palette-only
+
+StrigoiClassCardFile:
+#incext Png2Dmp "Generics/Strigoi.png" --lz77
+
+StrigoiClassCardPalette:
+#incext Png2Dmp "Generics/Strigoi.png" --palette-only
+
+SwordCavFClassCardFile:
+#incext Png2Dmp "Generics/SwordCavF.png" --lz77
+
+SwordCavFClassCardPalette:
+#incext Png2Dmp "Generics/SwordCavF.png" --palette-only
+
+SwordCavMClassCardFile:
+#incext Png2Dmp "Generics/SwordCavM.png" --lz77
+
+SwordCavMClassCardPalette:
+#incext Png2Dmp "Generics/SwordCavM.png" --palette-only
+
+SwordPalClassCardFile:
+#incext Png2Dmp "Generics/SwordPal.png" --lz77
+
+SwordPalClassCardPalette:
+#incext Png2Dmp "Generics/SwordPal.png" --palette-only
+
+WightClassCardFile:
+#incext Png2Dmp "Generics/Wight.png" --lz77
+
+WightClassCardPalette:
+#incext Png2Dmp "Generics/Wight.png" --palette-only
+
+
+
+setCardEntry(ArchMogallGenericMug,ArchMogallClassCardFile,ArchMogallClassCardPalette)
+setCardEntry(AssassinGenericMug,AssassinClassCardFile,AssassinClassCardPalette)
+setCardEntry(AxeCavFGenericMug,AxeCavFClassCardFile,AxeCavFClassCardPalette)
+setCardEntry(AxeCavMGenericMug,AxeCavMClassCardFile,AxeCavMClassCardPalette)
+setCardEntry(AxePalGenericMug,AxePalClassCardFile,AxePalClassCardPalette)
+setCardEntry(BaelQueenGenericMug,BaelQueenClassCardFile,BaelQueenClassCardPalette)
+setCardEntry(CerberusGenericMug,CerberusClassCardFile,CerberusClassCardPalette)
+setCardEntry(CursedSwordGenericMug,CursedSwordClassCardFile,CursedSwordClassCardPalette)
+setCardEntry(DancerGenericMug,DancerClassCardFile,DancerClassCardPalette)
+setCardEntry(HalberdierGenericMug,HalberdierClassCardFile,HalberdierClassCardPalette)
+setCardEntry(LanceCavFGenericMug,LanceCavFClassCardFile,LanceCavFClassCardPalette)
+setCardEntry(LanceCavMGenericMug,LanceCavMClassCardFile,LanceCavMClassCardPalette)
+setCardEntry(MaelduinGenericMug,MaelduinClassCardFile,MaelduinClassCardPalette)
+setCardEntry(MarauderGenericMug,MarauderClassCardFile,MarauderClassCardPalette)
+setCardEntry(SpartanGenericMug,SpartanClassCardFile,SpartanClassCardPalette)
+setCardEntry(StrigoiGenericMug,StrigoiClassCardFile,StrigoiClassCardPalette)
+setCardEntry(SwordCavFGenericMug,SwordCavFClassCardFile,SwordCavFClassCardPalette)
+setCardEntry(SwordCavMGenericMug,SwordCavMClassCardFile,SwordCavMClassCardPalette)
+setCardEntry(SwordPalGenericMug,SwordPalClassCardFile,SwordPalClassCardPalette)
+setCardEntry(WightGenericMug,WightClassCardFile,WightClassCardPalette)

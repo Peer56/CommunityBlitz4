@@ -36,6 +36,75 @@ JhonkaBrigandPalette:
 AciesMrymidonPalette:
 	#incbin "./_palettes/AciesMrymidonPalette.lzpal" 
 
+YorrickMonkPalette:
+	#incbin "./_palettes/YorrickMonkPalette.lzpal" 
+
+MintArcherPalette:
+	#incbin "./_palettes/MintArcherPalette.lzpal" 
+
+GershonCavPalette:
+	#incbin "./_palettes/GershonCavPalette.lzpal" 
+
+OsianFighterPalette:
+	#incbin "./_palettes/OsianFighterPalette.lzpal" 
+
+TonySoldierPalette:
+	#incbin "./_palettes/TonySoldierPalette.lzpal" 
+
+JuanMercPalette:
+	#incbin "./_palettes/JuanMercPalette.lzpal" 
+
+JuanHeroPalette:
+	#incbin "./_palettes/JuanHeroPalette.lzpal" 
+
+ReubenPiratePalette:
+	#incbin "./_palettes/ReubenPiratePalette.lzpal" 
+
+ArlaNomadFPalette:
+	#incbin "./_palettes/ArlaNomadFPalette.lzpal" 
+
+IrenaThiefFPalette:
+	#incbin "./_palettes/IrenaThiefFPalette.lzpal" 
+
+ReaganMonkFPalette:
+	#incbin "./_palettes/ReaganMonkFPalette.lzpal" 
+
+IngridTroubadourPalette:
+	#incbin "./_palettes/IngridTroubadourPalette.lzpal" 
+
+FraochSniperPalette:
+	#incbin "./_palettes/FraochSniperPalette.lzpal" 
+
+KarnHeroPalette:
+	#incbin "./_palettes/KarnHeroPalette.lzpal" 
+
+AlyaWyvernRiderPalette:
+	#incbin "./_palettes/AlyaWyvernRiderPalette.lzpal" 
+
+HadiBishopPalette:
+	#incbin "./_palettes/HadiBishopPalette.lzpal" 
+
+FeidlimidSageFPalette:
+	#incbin "./_palettes/FeidlimidSageFPalette.lzpal" 
+
+RhosynFalcoknightPalette:
+	#incbin "./_palettes/RhosynFalcoknightPalette.lzpal" 
+
+ArwenValkyriePaette:
+	#incbin "./_palettes/ArwenValkyriePaette.lzpal" 
+
+MystletainnPalette:
+	#incbin "./_palettes/MystletainnPalette.lzpal" 
+
+NathanBrigandPalette:
+	#incbin "./_palettes/NathanBrigandPalette.lzpal" 
+
+BernerCavPalette:
+	#incbin "./_palettes/BernerCavPalette.lzpal" 
+
+SkaidriteMrymFPalette:
+	#incbin "./_palettes/SkaidriteMrymFPalette.lzpal" 
+
 GenericArcherPalettes:
 	#incbin "./_palettes/GenericArcherPalettes.lzpal" 
 

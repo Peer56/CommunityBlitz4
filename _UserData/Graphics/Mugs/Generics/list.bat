@@ -1,0 +1,1 @@
+@dir *.png /b > list.txt

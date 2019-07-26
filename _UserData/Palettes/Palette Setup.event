@@ -48,6 +48,98 @@
 	setPalette(0x1F,AciesMrymidonPalette)
 	setCBSP(0x1F,Acies,0x3,Myrmidon)
 
+// YorrickMonkPalette
+	setPalette(0x22,YorrickMonkPalette)
+	setCBSP(0x22,Yorrick,0x3,Monk)
+
+// MintArcherPalette
+	setPalette(0x25,MintArcherPalette)
+	setCBSP(0x25,Mint,0x3,Archer)
+
+// GershonCavPalette
+	setPalette(0x28,GershonCavPalette)
+	setCBSP(0x28,Gershon,0x3,AxeCav)
+
+// OsianFighterPalette
+	setPalette(0x2B,OsianFighterPalette)
+	setCBSP(0x2B,Osian,0x3,Fighter)
+
+// TonySoldierPalette
+	setPalette(0x2E,TonySoldierPalette)
+	setCBSP(0x2E,Tony,0x3,Soldier)
+
+// JuanMercPalette
+	setPalette(0x31,JuanMercPalette)
+	setCBSP(0x31,Juan,0x3,Mercenary)
+
+// JuanHeroPalette
+	setPalette(0x32,JuanHeroPalette)
+	setCBSP(0x32,Juan,0x4,Hero)
+
+// ReubenPiratePalette
+	setPalette(0x34,ReubenPiratePalette)
+	setCBSP(0x34,Reuben,0x3,Pirate)
+
+// ArlaNomadFPalette
+	setPalette(0x37,ArlaNomadFPalette)
+	setCBSP(0x37,Arla,0x3,Nomad_F)
+
+// IrenaThiefFPalette
+	setPalette(0x3A,IrenaThiefFPalette)
+	setCBSP(0x3A,Irena,0x3,Thief_F)
+
+// ReaganMonkFPalette
+	setPalette(0x3D,ReaganMonkFPalette)
+	setCBSP(0x3D,Reagan,0x3,Monk_F)
+
+// IngridTroubadourPalette
+	setPalette(0x40,IngridTroubadourPalette)
+	setCBSP(0x40,Ingrid,0x3,Troubadour)
+
+// FraochSniperPalette
+	setPalette(0x46,FraochSniperPalette)
+	setCBSP(0x46,Fraoch,0x3,Sniper)
+
+// KarnHeroPalette
+	setPalette(0x47,KarnHeroPalette)
+	setCBSP(0x47,Karn,0x3,Hero)
+
+// AlyaWyvernRiderPalette
+	setPalette(0x49,AlyaWyvernRiderPalette)
+	setCBSP(0x49,Alya,0x3,WyvernRider_F)
+
+// HadiBishopPalette
+	setPalette(0x52,HadiBishopPalette)
+	setCBSP(0x52,Hadi,0x3,Bishop)
+
+// FeidlimidSageFPalette
+	setPalette(0x53,FeidlimidSageFPalette)
+	setCBSP(0x53,Feidlimid,0x3,Sage_F)
+
+// RhosynFalcoknightPalette
+	setPalette(0x56,RhosynFalcoknightPalette)
+	setCBSP(0x56,Rhosyn,0x3,Falcoknight)
+
+// ArwenValkyriePaette
+	setPalette(0x57,ArwenValkyriePaette)
+	setCBSP(0x57,Arwen,0x3,Valkyrie)
+
+// MystletainnPalette
+	setPalette(0x5C,MystletainnPalette)
+	setCBSP(0x5C,Mystletainn,CursedSword,0x0)
+
+// NathanBrigandPalette
+	setPalette(0x60,NathanBrigandPalette)
+	setCBSP(0x60,Nathan,0x3,Brigand)
+
+// BernerCavPalette
+	setPalette(0x61,BernerCavPalette)
+	setCBSP(0x61,Berner,0x3,LanceCav)
+
+// SkaidriteMrymFPalette
+	setPalette(0x62,SkaidriteMrymFPalette)
+	setCBSP(0x62,Skaidrite,0x3,Myrmidon_F)
+
 // GenericArcherPalettes
 	setGenericPalette(38,GenericArcherPalettes)
 	setGenericPalette(39,GenericArcherPalettes)
