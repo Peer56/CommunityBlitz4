@@ -36,6 +36,10 @@
 	setPalette(0x10,FuriaMagePalette)
 	setCBSP(0x10,Furia,0x3, Mage_F)
 
+// LilacShamanFPalette
+	setPalette(0x16,LilacShamanFPalette)
+	setCBSP(0x16,Lilac,0x3,Shaman_F)
+
 // SayraThiefFPalette
 	setPalette(0x19,SayraThiefFPalette)
 	setCBSP(0x19,Sayra,0x3,Thief_F)
@@ -139,6 +143,38 @@
 // SkaidriteMrymFPalette
 	setPalette(0x62,SkaidriteMrymFPalette)
 	setCBSP(0x62,Skaidrite,0x3,Myrmidon_F)
+
+// GlaiveFighterPalette
+	setPalette(0x63,GlaiveFighterPalette)
+	setCBSP(0x63,Glaive,0x3,Fighter)
+
+// AlzoramWyvernRiderPalette
+	setPalette(0x64,AlzoramWyvernRiderPalette)
+	setCBSP(0x64,Alzoram,0x3,WyvernRider)
+
+// MerarriPiratePalette
+	setPalette(0x65,MerarriPiratePalette)
+	setCBSP(0x65,Merarri,0x3,Pirate)
+
+// AlgrimBerserkerPalette
+	setPalette(0x66,AlgrimBerserkerPalette)
+	setCBSP(0x66,Algrim,0x3,Berserker)
+
+// MerarriArmorKnightPalette
+	setPalette(0x67,MerarriArmorKnightPalette)
+	setCBSP(0x67,Merarri,0x3,ArmorKnight)
+
+// RicketsBonewalkerPalette
+	setPalette(0x68,RicketsBonewalkerPalette)
+	setCBSP(0x68,Rickets,0x3,Bonewalker)
+
+// LucioSagePalette
+	setPalette(0x69,LucioSagePalette)
+	setCBSP(0x69,Lucio,0x3,Sage)
+
+// CyrilleCavPalette
+	setPalette(0x6A,CyrilleCavPalette)
+	setCBSP(0x6A,Cyrille,0x3,AxeCav_F)
 
 // GenericArcherPalettes
 	setGenericPalette(38,GenericArcherPalettes)

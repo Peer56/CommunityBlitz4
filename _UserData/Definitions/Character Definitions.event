@@ -51,6 +51,7 @@
 #define Berner 0x41
 #define Skaidrite 0x42
 #define Ignave 0x43
+#define Glaive Ignave
 #define Alzoram 0x44
 #define Merarri 0x45
 #define Merrari Merarri

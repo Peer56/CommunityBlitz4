@@ -27,6 +27,9 @@ MaurusArmorKnightPalette:
 FuriaMagePalette:
 	#incbin "./_palettes/FuriaMagePalette.lzpal" 
 
+LilacShamanFPalette:
+	#incbin "./_palettes/LilacShamanFPalette.lzpal" 
+
 SayraThiefFPalette:
 	#incbin "./_palettes/SayraThiefFPalette.lzpal" 
 
@@ -104,6 +107,30 @@ BernerCavPalette:
 
 SkaidriteMrymFPalette:
 	#incbin "./_palettes/SkaidriteMrymFPalette.lzpal" 
+
+GlaiveFighterPalette:
+	#incbin "./_palettes/GlaiveFighterPalette.lzpal" 
+
+AlzoramWyvernRiderPalette:
+	#incbin "./_palettes/AlzoramWyvernRiderPalette.lzpal" 
+
+MerarriPiratePalette:
+	#incbin "./_palettes/MerarriPiratePalette.lzpal" 
+
+AlgrimBerserkerPalette:
+	#incbin "./_palettes/AlgrimBerserkerPalette.lzpal" 
+
+MerarriArmorKnightPalette:
+	#incbin "./_palettes/MerarriArmorKnightPalette.lzpal" 
+
+RicketsBonewalkerPalette:
+	#incbin "./_palettes/RicketsBonewalkerPalette.lzpal" 
+
+LucioSagePalette:
+	#incbin "./_palettes/LucioSagePalette.lzpal" 
+
+CyrilleCavPalette:
+	#incbin "./_palettes/CyrilleCavPalette.lzpal" 
 
 GenericArcherPalettes:
 	#incbin "./_palettes/GenericArcherPalettes.lzpal" 
