@@ -26,8 +26,9 @@
 
 //# char{0x13} "KatePegKnightPalette" set{Kate,0x3,PegasusKnight}
 
-//# char{0x16} "LilacShamanFPalette" set{Lilac,0x3,Shaman_F}
-
+# char{0x16} "LilacShamanFPalette" set{Lilac,0x3,Shaman_F}
+	F552FF7FFF6BBB2A341DD115D510D118C9192609661C6C4DE7286420040CA514
+	
 # char{0x19} "SayraThiefFPalette" set{Sayra,0x3,Thief_F}
 	5553FF7FFF6BDC42AA14F34BCA32A71D567B6F5E88415135B855B4148E1CA514
 
@@ -121,6 +122,17 @@
 	
 # char{0x62} "SkaidriteMrymFPalette" set{Skaidrite,0x3,Myrmidon_F}
 	5553FF7FFF6B1F4B2E1934678F52EA3DBE56F93D0C219873B256682DC418A514
+
+//# char{0x63} "GlaiveFighterPalette" set{Glaive,0x3,Fighter}
+
+# char{0x64} "AlzoramWyvernRiderPalette" set{Alzoram,0x3,WyvernRider}
+	5553FF7FB3081815183A1E4BB02D5A4F312EF926FA45B53D70352B2DC810A514
+
+# char{0x65} "MerarriPiratePalette" set{Merarri,0x3,Pirate}
+	744D29118E11341EFF7F38774F628A49A5144F15F825BF42BF673129563D1B5A
+
+# char{0x66} "AlgrimBerserkerPalette" set{Algrim,0x3,Berserker}
+	5553FF7FFF6B1D47392EB51D2E19F65A9856B0392B29FF071A2AF2104B08A514
 
 //Generic Palettes
 # gen{38,39,40,41} "GenericArcherPalettes"
