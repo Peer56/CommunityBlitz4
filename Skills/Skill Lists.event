@@ -152,18 +152,18 @@ BYTE 00 00
 ALIGN 4
 
 ShamanSkillList:
-BYTE 1 AnathemaID
-BYTE 00 00
-ALIGN 4
-
-DruidSkillList:
-BYTE 255 AnathemaID
 BYTE 1 MaleficAuraID
 BYTE 00 00
 ALIGN 4
 
+DruidSkillList:
+BYTE 255 MaleficAuraID
+BYTE 1 PragmaticID
+BYTE 00 00
+ALIGN 4
+
 SummonerSkillList:
-BYTE 255 AnathemaID
+BYTE 255 MaleficAuraID
 BYTE 1 LifetakerID
 BYTE 00 00
 ALIGN 4
