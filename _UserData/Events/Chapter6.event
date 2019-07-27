@@ -107,7 +107,7 @@ END_MAIN
 LocationBasedEvents:
 Village(0x0,VillageNorthVisit,8,2)
 Village(0x0,VillageSouthVisit,18,5)
-Village(0x0,VillageEastVisit,16,15)
+Village(0x0,VillageEastVisit,16,15) 
 END_MAIN
 
 Dunno1:

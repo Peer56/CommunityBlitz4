@@ -108,8 +108,8 @@ BernerCavPalette:
 SkaidriteMrymFPalette:
 	#incbin "./_palettes/SkaidriteMrymFPalette.lzpal" 
 
-GlaiveFighterPalette:
-	#incbin "./_palettes/GlaiveFighterPalette.lzpal" 
+IgnaveFighterPalette:
+	#incbin "./_palettes/IgnaveFighterPalette.lzpal" 
 
 AlzoramWyvernRiderPalette:
 	#incbin "./_palettes/AlzoramWyvernRiderPalette.lzpal" 
@@ -131,6 +131,36 @@ LucioSagePalette:
 
 CyrilleCavPalette:
 	#incbin "./_palettes/CyrilleCavPalette.lzpal" 
+
+AvanthWarriorPalette:
+	#incbin "./_palettes/AvanthWarriorPalette.lzpal" 
+
+RansleyDruidPalette:
+	#incbin "./_palettes/RansleyDruidPalette.lzpal" 
+
+VercingeEphLordPalette:
+	#incbin "./_palettes/VercingeEphLordPalette.lzpal" 
+
+DiqhedWyvernLordPalette:
+	#incbin "./_palettes/DiqhedWyvernLordPalette.lzpal" 
+
+EsmeGeneralPalette:
+	#incbin "./_palettes/EsmeGeneralPalette.lzpal" 
+
+KorathAssassinPalette:
+	#incbin "./_palettes/KorathAssassinPalette.lzpal" 
+
+WulfricMageKnightPalette:
+	#incbin "./_palettes/WulfricMageKnightPalette.lzpal" 
+
+AswangBishopPalette:
+	#incbin "./_palettes/AswangBishopPalette.lzpal" 
+
+ZelrothSummonerPalette:
+	#incbin "./_palettes/ZelrothSummonerPalette.lzpal" 
+
+FloorentiusGKPalette:
+	#incbin "./_palettes/FloorentiusGKPalette.lzpal" 
 
 GenericArcherPalettes:
 	#incbin "./_palettes/GenericArcherPalettes.lzpal" 

@@ -144,9 +144,9 @@
 	setPalette(0x62,SkaidriteMrymFPalette)
 	setCBSP(0x62,Skaidrite,0x3,Myrmidon_F)
 
-// GlaiveFighterPalette
-	setPalette(0x63,GlaiveFighterPalette)
-	setCBSP(0x63,Glaive,0x3,Fighter)
+// IgnaveFighterPalette
+	setPalette(0x63,IgnaveFighterPalette)
+	setCBSP(0x63,Ignave,0x3,Fighter)
 
 // AlzoramWyvernRiderPalette
 	setPalette(0x64,AlzoramWyvernRiderPalette)
@@ -175,6 +175,46 @@
 // CyrilleCavPalette
 	setPalette(0x6A,CyrilleCavPalette)
 	setCBSP(0x6A,Cyrille,0x3,AxeCav_F)
+
+// AvanthWarriorPalette
+	setPalette(0x6C,AvanthWarriorPalette)
+	setCBSP(0x6C,Avanth,0x3,Warrior)
+
+// RansleyDruidPalette
+	setPalette(0x6D,RansleyDruidPalette)
+	setCBSP(0x6D,Ransley,0x3,Druid)
+
+// VercingeEphLordPalette
+	setPalette(0x6E,VercingeEphLordPalette)
+	setCBSP(0x6E,Vercinge,0x3,EphLord)
+
+// DiqhedWyvernLordPalette
+	setPalette(0x6F,DiqhedWyvernLordPalette)
+	setCBSP(0x6F,Diqhed,0x3,WyvernLord)
+
+// EsmeGeneralPalette
+	setPalette(0x70,EsmeGeneralPalette)
+	setCBSP(0x70,Esme,0x3,General_F)
+
+// KorathAssassinPalette
+	setPalette(0x71,KorathAssassinPalette)
+	setCBSP(0x71,Korath,0x3,Assassin)
+
+// WulfricMageKnightPalette
+	setPalette(0x73,WulfricMageKnightPalette)
+	setCBSP(0x73,Wulfric,0x3,MageKnight)
+
+// AswangBishopPalette
+	setPalette(0x74,AswangBishopPalette)
+	setCBSP(0x74,Aswang,0x3,Bishop_F)
+
+// ZelrothSummonerPalette
+	setPalette(0x75,ZelrothSummonerPalette)
+	setCBSP(0x75,Zelroth,0x3,Summoner)
+
+// FloorentiusGKPalette
+	setPalette(0x76,FloorentiusGKPalette)
+	setCBSP(0x76,Floorentius,0x3,GreatKnight)
 
 // GenericArcherPalettes
 	setGenericPalette(38,GenericArcherPalettes)

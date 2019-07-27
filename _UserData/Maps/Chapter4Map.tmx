@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="20" height="17" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="1">
+<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="20" height="17" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
  <tileset firstgid="1" name="3C00683E" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="Tilesets/3C00683E.png" trans="ffffff" width="512" height="512"/>
  </tileset>
- <layer id="1" name="Main" width="20" height="17">
+ <layer name="Main" width="20" height="17">
   <properties>
    <property name="Anims1" value="0"/>
    <property name="Anims2" value="0"/>
@@ -192,7 +192,7 @@
    <tile gid="98"/>
    <tile gid="824"/>
    <tile gid="822"/>
-   <tile gid="456"/>
+   <tile gid="451"/>
    <tile gid="721"/>
    <tile gid="720"/>
    <tile gid="721"/>
@@ -212,7 +212,7 @@
    <tile gid="824"/>
    <tile gid="822"/>
    <tile gid="98"/>
-   <tile gid="488"/>
+   <tile gid="483"/>
    <tile gid="721"/>
    <tile gid="752"/>
    <tile gid="756"/>
@@ -358,7 +358,7 @@
    <tile gid="853"/>
   </data>
  </layer>
- <layer id="3" name="Upper Right Door" width="20" height="17">
+ <layer name="Upper Right Door" width="20" height="17">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="0"/>
@@ -709,7 +709,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="2" name="Boss Room Door" width="20" height="17">
+ <layer name="Boss Room Door" width="20" height="17">
   <properties>
    <property name="Height" value="2"/>
    <property name="ID" value="1"/>
@@ -1060,7 +1060,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="7" name="Middle Top Chest" width="20" height="17">
+ <layer name="Middle Top Chest" width="20" height="17">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="2"/>
@@ -1411,7 +1411,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="6" name="Far Left Chest" width="20" height="17">
+ <layer name="Far Left Chest" width="20" height="17">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="3"/>
@@ -1762,7 +1762,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="4" name="Chest Room Door" width="20" height="17" visible="0">
+ <layer name="Chest Room Door" width="20" height="17" visible="0">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="4"/>
@@ -2113,7 +2113,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="8" name="Far Right Chest" width="20" height="17">
+ <layer name="Far Right Chest" width="20" height="17">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="5"/>
@@ -2464,7 +2464,7 @@
    <tile/>
   </data>
  </layer>
- <layer id="5" name="Yorrick Door" width="20" height="17">
+ <layer name="Yorrick Door" width="20" height="17">
   <properties>
    <property name="Height" value="3"/>
    <property name="ID" value="6"/>
