@@ -23,3 +23,5 @@
   #define DebuffTable 0x203f100
   #define DebuffTableSize 0x00000900
 #endif
+
+#define AttackInHalfRangeAI		"[0x0C,0x03]"

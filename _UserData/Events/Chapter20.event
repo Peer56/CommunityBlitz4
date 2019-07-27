@@ -14,52 +14,52 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 PlayerUnits:
-UNIT Ria RiaLord 0 Level(0,Ally,0) [13,13] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Itzhar CursedSword 0 Level(0,Ally,0) [12,13] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [13,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [14,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [13,15] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [14,15] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [15,15] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [13,16] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [14,16] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [12,14] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [14,13] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [15,16] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [12,16] 0x0 0x0 0x0 0x1 NoItems NoAI
-UNIT Seth Paladin 0 Level(0,Ally,0) [15,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Ria RiaLord 0 Level(0,Ally,False) [13,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Itzhar CursedSword 0 Level(0,Ally,False) [12,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [13,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [14,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [13,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [14,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [15,15] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [13,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [14,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [12,14] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [14,13] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [15,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [12,16] 0x0 0x0 0x0 0x1 NoItems NoAI
+UNIT Seth Paladin 0 Level(0,Ally,False) [15,14] 0x0 0x0 0x0 0x1 NoItems NoAI
 UNIT
 
 NewUnits:
-UNIT Itzhar CursedSword 0 Level(15,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [LightBrand,SilverSword] NoAI
+UNIT Itzhar CursedSword 0 Level(15,Ally,False) [0,0] 0x0 0x0 0x0 0x1 [LightBrand,SilverSword] NoAI
 UNIT
 
 EnemyUnits:
-UNIT Heinrik Spartan 0 Level(16,Enemy,0) [4,2] 0x2 0x0 0x0 0x1 [Spear,LightBrand,Elixir] NeverMoveAI
-UNIT 0x96 Hero 0 Level(12,Enemy,1) [17,6] 0x0 0x0 0x0 0x1 [SteelBlade,HandAxe] AttackInRangeAI
-UNIT 0x96 Hero 0 Level(12,Enemy,1) [18,12] 0x0 0x0 0x0 0x1 [SilverSword,SteelAxe] AttackInRangeAI
-UNIT 0x96 Swordmaster_F 0 Level(12,Enemy,1) [18,4] 0x2 0x0 0x0 0x1 [Shamshir] AttackInRangeAI
-UNIT 0x96 AxeLancePaladin 0 Level(12,Enemy,1) [4,13] 0x0 0x0 0x0 0x1 [SteelAxe,SilverLance] AttackInRangeAI
-UNIT 0x96 LanceSwordPaladin 0 Level(12,Enemy,1) [5,9] 0x0 0x0 0x0 0x1 [Javelin,SteelSword] AttackInRangeAI
-UNIT 0x96 SwordAxePaladin 0 Level(12,Enemy,1) [2,5] 0x0 0x0 0x0 0x1 [SilverSword,HandAxe] AttackInRangeAI
-UNIT 0x96 Halberdier 0 Level(12,Enemy,1) [17,10] 0x0 0x0 0x0 0x1 [KillerLance] AttackInRangeAI
-UNIT 0x96 Halberdier 0 Level(12,Enemy,1) [12,6] 0x0 0x0 0x0 0x1 [SilverLance] AttackInRangeAI
-UNIT 0x96 Spartan 0 Level(12,Enemy,1) [8,16] 0x2 0x0 0x0 0x1 [ShortSpear,SteelSword] AttackInRangeAI
-UNIT 0x96 Spartan 0 Level(12,Enemy,1) [10,1] 0x2 0x0 0x0 0x1 [SteelLance,WindSword] AttackInRangeAI
-UNIT 0x96 Sage 0 Level(12,Enemy,1) [2,15] 0x0 0x0 0x0 0x1 [Elfire] AttackInRangeAI
-UNIT 0x96 Sage_F 0 Level(12,Enemy,1) [19,3] 0x0 0x0 0x0 0x1 [Aura,Physic] HealUnits
-UNIT 0x96 Sage_F 0 Level(12,Enemy,1) [6,6] 0x0 0x0 0x0 0x1 [Bolting] AttackInRangeAI
-UNIT 0x96 Sage_F 0 Level(12,Enemy,1) [3,3] 0x0 0x0 0x0 0x1 [Excalibur] AttackInRangeAI
-UNIT 0x96 MageKnight 0 Level(12,Enemy,1) [10,10] 0x0 0x0 0x0 0x1 [Elfire] AttackInRangeAI
-UNIT 0x96 General 0 Level(12,Enemy,1) [14,10] 0x0 0x0 0x0 0x1 [SilverAxe] AttackInRangeAI
-UNIT 0x96 General 0 Level(12,Enemy,1) [8,8] 0x0 0x0 0x0 0x1 [SilverSword] AttackInRangeAI
-UNIT 0x96 Druid 0 Level(12,Enemy,1) [19,13] 0x2 0x0 0x0 0x1 [Nosferatu] AttackInRangeAI
-UNIT 0x96 Druid 0 Level(12,Enemy,1) [15,6] 0x0 0x0 0x0 0x1 [Flux] AttackInRangeAI
-UNIT 0x96 Bishop 0 Level(12,Enemy,1) [6,13] 0x0 0x0 0x0 0x1 [Aura,Mend] HealUnits
-UNIT 0x96 Bishop 0 Level(12,Enemy,1) [6,10] 0x0 0x0 0x0 0x1 [Divine,Physic] HealUnits
-UNIT 0x96 Templar 0 Level(12,Enemy,1) [4,5] 0x0 0x0 0x0 0x1 [Divine] AttackInRangeAI
-UNIT 0x96 NomadTrooper_F 0 Level(12,Enemy,1) [7,0] 0x0 0x0 0x0 0x1 [SteelSword,SilverBow] AttackInRangeAI
-UNIT 0x96 Sniper 0 Level(12,Enemy,1) [13,0] 0x0 0x0 0x0 0x1 [KillerBow] AttackInRangeAI
+UNIT Heinrik Spartan 0 Level(16,Enemy,False) [4,2] 0x2 0x0 0x0 0x1 [Spear,LightBrand,Elixir] NeverMoveAI
+UNIT 0x96 Hero 0 Level(12,Enemy,True) [17,6] 0x0 0x0 0x0 0x1 [SteelBlade,HandAxe] AttackInRangeAI
+UNIT 0x96 Hero 0 Level(12,Enemy,True) [18,12] 0x0 0x0 0x0 0x1 [SilverSword,SteelAxe] AttackInRangeAI
+UNIT 0x96 Swordmaster_F 0 Level(12,Enemy,True) [18,4] 0x2 0x0 0x0 0x1 [Shamshir] AttackInRangeAI
+UNIT 0x96 AxeLancePaladin 0 Level(12,Enemy,True) [4,13] 0x0 0x0 0x0 0x1 [SteelAxe,SilverLance] AttackInRangeAI
+UNIT 0x96 LanceSwordPaladin 0 Level(12,Enemy,True) [5,9] 0x0 0x0 0x0 0x1 [Javelin,SteelSword] AttackInRangeAI
+UNIT 0x96 SwordAxePaladin 0 Level(12,Enemy,True) [2,5] 0x0 0x0 0x0 0x1 [SilverSword,HandAxe] AttackInRangeAI
+UNIT 0x96 Halberdier 0 Level(12,Enemy,True) [17,10] 0x0 0x0 0x0 0x1 [KillerLance] AttackInRangeAI
+UNIT 0x96 Halberdier 0 Level(12,Enemy,True) [12,6] 0x0 0x0 0x0 0x1 [SilverLance] AttackInRangeAI
+UNIT 0x96 Spartan 0 Level(12,Enemy,True) [8,16] 0x2 0x0 0x0 0x1 [ShortSpear,SteelSword] AttackInRangeAI
+UNIT 0x96 Spartan 0 Level(12,Enemy,True) [10,1] 0x2 0x0 0x0 0x1 [SteelLance,WindSword] AttackInRangeAI
+UNIT 0x96 Sage 0 Level(12,Enemy,True) [2,15] 0x0 0x0 0x0 0x1 [Elfire] AttackInRangeAI
+UNIT 0x96 Sage_F 0 Level(12,Enemy,True) [19,3] 0x0 0x0 0x0 0x1 [Aura,Physic] HealUnits
+UNIT 0x96 Sage_F 0 Level(12,Enemy,True) [6,6] 0x0 0x0 0x0 0x1 [Bolting] AttackInRangeAI
+UNIT 0x96 Sage_F 0 Level(12,Enemy,True) [3,3] 0x0 0x0 0x0 0x1 [Excalibur] AttackInRangeAI
+UNIT 0x96 MageKnight 0 Level(12,Enemy,True) [10,10] 0x0 0x0 0x0 0x1 [Elfire] AttackInRangeAI
+UNIT 0x96 General 0 Level(12,Enemy,True) [14,10] 0x0 0x0 0x0 0x1 [SilverAxe] AttackInRangeAI
+UNIT 0x96 General 0 Level(12,Enemy,True) [8,8] 0x0 0x0 0x0 0x1 [SilverSword] AttackInRangeAI
+UNIT 0x96 Druid 0 Level(12,Enemy,True) [19,13] 0x2 0x0 0x0 0x1 [Nosferatu] AttackInRangeAI
+UNIT 0x96 Druid 0 Level(12,Enemy,True) [15,6] 0x0 0x0 0x0 0x1 [Flux] AttackInRangeAI
+UNIT 0x96 Bishop 0 Level(12,Enemy,True) [6,13] 0x0 0x0 0x0 0x1 [Aura,Mend] HealUnits
+UNIT 0x96 Bishop 0 Level(12,Enemy,True) [6,10] 0x0 0x0 0x0 0x1 [Divine,Physic] HealUnits
+UNIT 0x96 Templar 0 Level(12,Enemy,True) [4,5] 0x0 0x0 0x0 0x1 [Divine] AttackInRangeAI
+UNIT 0x96 NomadTrooper_F 0 Level(12,Enemy,True) [7,0] 0x0 0x0 0x0 0x1 [SteelSword,SilverBow] AttackInRangeAI
+UNIT 0x96 Sniper 0 Level(12,Enemy,True) [13,0] 0x0 0x0 0x0 0x1 [KillerBow] AttackInRangeAI
 UNIT
 
 TurnBasedEvents:
@@ -114,27 +114,27 @@ NoFade
 ENDA
 
 Reinforcements1:
-UNIT 0x96 WyvernKnight 0 Level(12,Enemy,1) [1,0] 0x0 0x0 0x0 0x1 [SilverAxe,SilverLance] AttackInRangeAI
+UNIT 0x96 WyvernKnight 0 Level(12,Enemy,True) [1,0] 0x0 0x0 0x0 0x1 [SilverAxe,SilverLance] AttackInRangeAI
 UNIT
 
 Reinforcements2:
-UNIT 0x96 WyvernLord 0 Level(12,Enemy,1) [2,1] 0x0 0x0 0x0 0x1 [SilverSword,SilverLance] AttackInRangeAI
+UNIT 0x96 WyvernLord 0 Level(12,Enemy,True) [2,1] 0x0 0x0 0x0 0x1 [SilverSword,SilverLance] AttackInRangeAI
 UNIT
 
 Reinforcements3:
-UNIT 0x96 Falcoknight 0 Level(12,Enemy,1) [0,9] 0x0 0x0 0x0 0x1 [SilverLance] AttackInRangeAI
+UNIT 0x96 Falcoknight 0 Level(12,Enemy,True) [0,9] 0x0 0x0 0x0 0x1 [SilverLance] AttackInRangeAI
 UNIT
 
 Reinforcements4:
-UNIT 0x96 Berserker 0 Level(12,Enemy,1) [3,15] 0x0 0x0 0x0 0x1 [SilverAxe,SilverBow] AttackInRangeAI
+UNIT 0x96 Berserker 0 Level(12,Enemy,True) [3,15] 0x0 0x0 0x0 0x1 [SilverAxe,SilverBow] AttackInRangeAI
 UNIT
 
 Reinforcements5:
-UNIT 0x96 Warrior 0 Level(12,Enemy,1) [7,7] 0x0 0x0 0x0 0x1 [SilverAxe,SilverBow] AttackInRangeAI
+UNIT 0x96 Warrior 0 Level(12,Enemy,True) [7,7] 0x0 0x0 0x0 0x1 [SilverAxe,SilverBow] AttackInRangeAI
 UNIT
 
 Reinforcements6:
-UNIT 0x96 Spartan 0 Level(12,Enemy,1) [14,5] 0x0 0x0 0x0 0x1 [SilverSword,SilverLance] AttackInRangeAI
+UNIT 0x96 Spartan 0 Level(12,Enemy,True) [14,5] 0x0 0x0 0x0 0x1 [SilverSword,SilverLance] AttackInRangeAI
 UNIT
 
 ReinforcementEvent1:

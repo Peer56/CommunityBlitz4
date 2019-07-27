@@ -40,7 +40,7 @@ ThiefArrive:
 ReinforcementEvent(ThiefGang)
 
 ThiefGang:
-UNIT 0x66 Thief Lucio Level(5, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] LootingThiefAI
+UNIT 0x66 Thief Lucio Level(5, Enemy, True) [0,11] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] LootingThiefAI
 UNIT
 
 Reinforcement1:
@@ -56,25 +56,25 @@ Reinforcement4:
 ReinforcementEvent(Wave4)
 
 Wave2:
-UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [1,0] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [5,0] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x7F Fighter Lucio Level(7, Enemy, True) [1,0] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x7F Fighter Lucio Level(7, Enemy, True) [5,0] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
 UNIT
 
 Wave1:
-UNIT 0x7F WyvernRider Lucio Level(6, Enemy, 1) [19,19] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x7F Archer Lucio Level(8, Enemy, 1) [9,10] DropItem 0x00 0x0 0x00 [IronBow, DoorKey] PursueWithoutHeedAI
-UNIT 0x7F Mercenary Lucio Level(6, Enemy, 1) [3,11] DropItem 0x00 0x0 0x00 [IronBlade, DoorKey] PursueWithoutHeedAI
+UNIT 0x7F WyvernRider Lucio Level(6, Enemy, True) [19,19] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
+UNIT 0x7F Archer Lucio Level(8, Enemy, True) [9,10] DropItem 0x00 0x0 0x00 [IronBow, DoorKey] PursueWithoutHeedAI
+UNIT 0x7F Mercenary Lucio Level(6, Enemy, True) [3,11] DropItem 0x00 0x0 0x00 [IronBlade, DoorKey] PursueWithoutHeedAI
 UNIT
 
 Wave3:
-UNIT 0x7F LanceCav Lucio Level(7, Enemy, 1) [0,19] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
-UNIT 0x7F LanceCav Lucio Level(7, Enemy, 1) [0,20] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI
+UNIT 0x7F LanceCav Lucio Level(7, Enemy, True) [0,19] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x7F LanceCav Lucio Level(7, Enemy, True) [0,20] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI
 UNIT
 
 //Final wave of enemies
 Wave4:
-UNIT 0x7F SwordCav Lucio Level(7, Enemy, 1) [1,19] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
-UNIT 0x7F LanceCav Lucio Level(7, Enemy, 1) [1,20] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI
+UNIT 0x7F SwordCav Lucio Level(7, Enemy, True) [1,19] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x7F LanceCav Lucio Level(7, Enemy, True) [1,20] 0x00 0x00 0x0 0x00 [Javelin] PursueWithoutHeedAI
 UNIT
 
 
@@ -161,56 +161,56 @@ UNIT Arla Nomad_F Tethys Level(8, NPC, 0) [19,6] 0x00 0x00 0x1 REDA19R9 [KillerB
 UNIT
 
 Units1:
-UNIT Eirika EirikaLord Eirika Level(1, Ally, 0) [1,19] 0x00 0x00 0x0 0x00 [Rapier, SteelSword] NoAI
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [2,20] 0x00 0x00 0x0 0x00 [0x00] NoAI  
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [0,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [3,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [1,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [0,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [3,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [2,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [4,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Paladin Eirika Level(1, Ally, 0) [4,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Eirika EirikaLord Eirika Level(1, Ally, False) [1,19] 0x00 0x00 0x0 0x00 [Rapier, SteelSword] NoAI
+UNIT Seth Paladin Eirika Level(1, Ally, False) [2,20] 0x00 0x00 0x0 0x00 [0x00] NoAI  
+UNIT Seth Paladin Eirika Level(1, Ally, False) [0,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, False) [3,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, False) [1,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, False) [0,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, False) [3,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, False) [2,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, False) [4,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Paladin Eirika Level(1, Ally, False) [4,20] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 Bad:
-UNIT Lucio Sage Lucio Level(5, Enemy, 0) [11,3] DropItem 0x00 0x0 0x00 [Thunder, Bolting] NeverMoveAI
-UNIT 0x7F Knight Lucio Level(6, Enemy, 1) [1,10] 0x00 0x00 0x0 0x00 [SteelLance] GuardTileAI
-UNIT 0x7F Knight Lucio Level(6, Enemy, 1) [2,10] 0x00 0x00 0x0 0x00 [SteelLance] GuardTileAI
-UNIT 0x7F LanceCav Lucio Level(7, Enemy, 1) [3,12] 0x00 0x00 0x0 0x00 [Javelin, SteelSword] AttackInRangeAI
-UNIT 0x7F Shaman Lucio Level(7, Enemy, 1) [10,9] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI
-UNIT 0x7F Mage Lucio Level(8, Enemy, 1) [8,20] DropItem 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI
-UNIT 0x7F Priest Lucio Level(6, Enemy, 1) [16,14] DropItem 0x00 0x0 0x00 [Mend, Physic] HealUnits
-UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [13,19] 0x00 0x00 0x0 0x00 [Halberd, HandAxe] GuardTileAI
-UNIT 0x7F Mercenary Lucio Level(8, Enemy, 1) [2,13] 0x00 0x00 0x0 0x00 [SteelSword] GuardTileAI
-UNIT 0x7F Priest Lucio Level(6, Enemy, 1) [9,4] 0x00 0x00 0x0 0x00 [Physic] HealUnits
-UNIT 0x7F Priest Lucio Level(7, Enemy, 1) [13,4] 0x00 0x00 0x0 0x00 [Physic] HealUnits
-UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [10,20] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
-UNIT 0x7F PegasusKnight Lucio Level(7, Enemy, 1) [19,20] DropItem 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI
-UNIT 0x7F WyvernRider Lucio Level(7, Enemy, 1) [19,19] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
-UNIT 0x7F Mage Lucio Level(8, Enemy, 1) [13,10] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI
-UNIT 0x7F Knight Lucio Level(7, Enemy, 1) [3,5] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI
-UNIT 0x7F Knight Lucio Level(6, Enemy, 1) [2,4] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI
-UNIT 0x7F Knight Lucio Level(7, Enemy, 1) [4,4] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI
-UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [7,4] 0x00 0x00 0x0 0x00 [HandAxe] AttackInRangeAI
-UNIT 0x7F Fighter Lucio Level(7, Enemy, 1) [7,3] 0x00 0x00 0x0 0x00 [HandAxe] AttackInRangeAI
-UNIT 0x7F Myrmidon Lucio Level(8, Enemy, 1) [7,3] DropItem 0x00 0x0 0x00 [Lancereaver] PursueWithoutHeedAI
-UNIT 0x7F Soldier Lucio Level(7, Enemy, 1) [17,6] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI
-UNIT 0x7F Monk Lucio Level(7, Enemy, 1) [16,10] 0x00 0x00 0x0 0x00 [Shine] AttackInRangeAI
-UNIT 0x7F Archer Lucio Level(6, Enemy, 1) [18,11] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI
-UNIT 0x7F Fighter Lucio Level(6, Enemy, 1) [18,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x7F Myrmidon Lucio Level(7, Enemy, 1) [11,20] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI
-UNIT 0x7F LanceCav Lucio Level(7, Enemy, 1) [0,11] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
-UNIT 0x7F SwordCav Lucio Level(7, Enemy, 1) [7,18] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
-UNIT 0x7F Soldier Lucio Level(7, Enemy, 1) [14,10] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
-UNIT 0x7F Soldier Lucio Level(8, Enemy, 1) [3,13] DropItem 0x00 0x0 0x00 [Javelin] GuardTileAI
-UNIT 0x7F Pirate Lucio Level(7, Enemy, 1) [18,3] DropItem 0x00 0x0 0x00 [KillerAxe, ChestKey] GuardTileAI
-UNIT 0x7F Archer Lucio Level(6, Enemy, 1) [16,16] 0x00 0x00 0x0 0x00 [SteelBow, Longbow] AttackInRangeAI
-UNIT 0x7F SwordCav Lucio Level(7, Enemy, 1) [18,16] 0x00 0x00 0x0 0x00 [IronBlade, Vulnerary] AttackInRangeAI
-UNIT 0x7F Soldier Lucio Level(8, Enemy, 1) [14,12] DropItem 0x00 0x0 0x00 [Axereaver,Javelin] AttackInRangeAI
-UNIT 0x7F Archer Lucio Level(7, Enemy, 1) [9,8] 0x00 0x00 0x0 0x00 [Longbow, BodyRing] AttackInRangeAI
-UNIT 0x7F Archer Lucio Level(7, Enemy, 1) [12,8] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI
-UNIT 0x7F Knight Lucio Level(7, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
+UNIT Lucio Sage Lucio Level(5, Enemy, False) [11,3] DropItem 0x00 0x0 0x00 [Thunder, Bolting] NeverMoveAI
+UNIT 0x7F Knight Lucio Level(6, Enemy, True) [1,10] 0x00 0x00 0x0 0x00 [SteelLance] GuardTileAI
+UNIT 0x7F Knight Lucio Level(6, Enemy, True) [2,10] 0x00 0x00 0x0 0x00 [SteelLance] GuardTileAI
+UNIT 0x7F LanceCav Lucio Level(7, Enemy, True) [3,12] 0x00 0x00 0x0 0x00 [Javelin, SteelSword] AttackInRangeAI
+UNIT 0x7F Shaman Lucio Level(7, Enemy, True) [10,9] 0x00 0x00 0x0 0x00 [Flux] AttackInRangeAI
+UNIT 0x7F Mage Lucio Level(8, Enemy, True) [8,20] DropItem 0x00 0x0 0x00 [Thunder] PursueWithoutHeedAI
+UNIT 0x7F Priest Lucio Level(6, Enemy, True) [16,14] DropItem 0x00 0x0 0x00 [Mend, Physic] HealUnits
+UNIT 0x7F Fighter Lucio Level(7, Enemy, True) [13,19] 0x00 0x00 0x0 0x00 [Halberd, HandAxe] GuardTileAI
+UNIT 0x7F Mercenary Lucio Level(8, Enemy, True) [2,13] 0x00 0x00 0x0 0x00 [SteelSword] GuardTileAI
+UNIT 0x7F Priest Lucio Level(6, Enemy, True) [9,4] 0x00 0x00 0x0 0x00 [Physic] HealUnits
+UNIT 0x7F Priest Lucio Level(7, Enemy, True) [13,4] 0x00 0x00 0x0 0x00 [Physic] HealUnits
+UNIT 0x7F Fighter Lucio Level(7, Enemy, True) [10,20] 0x00 0x00 0x0 0x00 [SteelAxe] PursueWithoutHeedAI
+UNIT 0x7F PegasusKnight Lucio Level(7, Enemy, True) [19,20] DropItem 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI
+UNIT 0x7F WyvernRider Lucio Level(7, Enemy, True) [19,19] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x7F Mage Lucio Level(8, Enemy, True) [13,10] 0x00 0x00 0x0 0x00 [Thunder] AttackInRangeAI
+UNIT 0x7F Knight Lucio Level(7, Enemy, True) [3,5] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x7F Knight Lucio Level(6, Enemy, True) [2,4] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x7F Knight Lucio Level(7, Enemy, True) [4,4] 0x00 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x7F Fighter Lucio Level(7, Enemy, True) [7,4] 0x00 0x00 0x0 0x00 [HandAxe] AttackInRangeAI
+UNIT 0x7F Fighter Lucio Level(7, Enemy, True) [7,3] 0x00 0x00 0x0 0x00 [HandAxe] AttackInRangeAI
+UNIT 0x7F Myrmidon Lucio Level(8, Enemy, True) [7,3] DropItem 0x00 0x0 0x00 [Lancereaver] PursueWithoutHeedAI
+UNIT 0x7F Soldier Lucio Level(7, Enemy, True) [17,6] 0x00 0x00 0x0 0x00 [SteelLance] AttackInRangeAI
+UNIT 0x7F Monk Lucio Level(7, Enemy, True) [16,10] 0x00 0x00 0x0 0x00 [Shine] AttackInRangeAI
+UNIT 0x7F Archer Lucio Level(6, Enemy, True) [18,11] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI
+UNIT 0x7F Fighter Lucio Level(6, Enemy, True) [18,8] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x7F Myrmidon Lucio Level(7, Enemy, True) [11,20] 0x00 0x00 0x0 0x00 [SteelSword] AttackInRangeAI
+UNIT 0x7F LanceCav Lucio Level(7, Enemy, True) [0,11] 0x00 0x00 0x0 0x00 [SteelLance] PursueWithoutHeedAI
+UNIT 0x7F SwordCav Lucio Level(7, Enemy, True) [7,18] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT 0x7F Soldier Lucio Level(7, Enemy, True) [14,10] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
+UNIT 0x7F Soldier Lucio Level(8, Enemy, True) [3,13] DropItem 0x00 0x0 0x00 [Javelin] GuardTileAI
+UNIT 0x7F Pirate Lucio Level(7, Enemy, True) [18,3] DropItem 0x00 0x0 0x00 [KillerAxe, ChestKey] GuardTileAI
+UNIT 0x7F Archer Lucio Level(6, Enemy, True) [16,16] 0x00 0x00 0x0 0x00 [SteelBow, Longbow] AttackInRangeAI
+UNIT 0x7F SwordCav Lucio Level(7, Enemy, True) [18,16] 0x00 0x00 0x0 0x00 [IronBlade, Vulnerary] AttackInRangeAI
+UNIT 0x7F Soldier Lucio Level(8, Enemy, True) [14,12] DropItem 0x00 0x0 0x00 [Axereaver,Javelin] AttackInRangeAI
+UNIT 0x7F Archer Lucio Level(7, Enemy, True) [9,8] 0x00 0x00 0x0 0x00 [Longbow, BodyRing] AttackInRangeAI
+UNIT 0x7F Archer Lucio Level(7, Enemy, True) [12,8] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI
+UNIT 0x7F Knight Lucio Level(7, Enemy, True) [14,9] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
 UNIT 
 
 BeginningScene:

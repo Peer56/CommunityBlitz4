@@ -15,6 +15,7 @@ TileMap(3,13,8,1,1,Far_Left_Chest)
 TileMap(4,16,7,2,3,Chest_Room_Door)
 TileMap(5,15,9,1,1,Far_Right_Chest)
 TileMap(6,16,14,2,3,Yorrick_Door)
+TileMap(7,18,1,1,1,Upper_Right_Chest)
 TileMapEnd
 
 Upper_Right_Door:
@@ -43,5 +44,9 @@ ALIGN 4
 
 Yorrick_Door:
 SHORT 0x7a8 0xcdc 0xce0 0xcd4 0x728 0xcd0 
+ALIGN 4
+
+Upper_Right_Chest:
+SHORT 0x104 
 ALIGN 4
 

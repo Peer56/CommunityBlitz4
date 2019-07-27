@@ -20,31 +20,31 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 NormUnits:
-UNIT Eirika EphraimLord 0x00 Level(1, Ally, 0) [14,15] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [12,15] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [13,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [14,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [14,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [13,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [12,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [14,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [13,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [13,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [13,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [14,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Eirika EphraimLord 0x00 Level(1, Ally, False) [14,15] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [12,15] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [13,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [14,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [14,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [13,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [12,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [14,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [13,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [13,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [13,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [14,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 HardUnits:
-UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [13,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [14,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [14,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [14,15] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [13,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [12,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [14,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [13,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [13,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth Knight 0x00 Level(1, Ally, 0) [14,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, False) [13,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [14,13] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [14,14] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [14,15] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [13,16] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [12,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [14,17] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [13,18] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [13,12] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth Knight 0x00 Level(1, Ally, False) [14,19] 0x00 0x00 0x0 0x00 [0x00] NoAI 
 UNIT
 
 TurnBasedEvents:
@@ -163,57 +163,57 @@ ALIGN 4
 
 //Enemy Units
 NormEnemies:
-UNIT Ch18Boss MageKnight 0x00 Level(1, Enemy, 0) [6,2] 0x00 0x00 0x0 0x00 [Fimbulvetr,Bolting,Sleep] NeverMoveAI 
-UNIT Ch18Generic GreatKnight Ch18Boss Level(CH18GenLvl, Enemy, 1) [4,3] 0x00 0x00 0x0 0x00 [Tomahawk] NeverMoveAI
-UNIT Ch18Generic GreatKnight Ch18Boss Level(CH18GenLvl, Enemy, 1) [8,3] 0x00 0x00 0x0 0x00 [Tomahawk] NeverMoveAI
-UNIT Ch18Generic Hero Ch18Boss Level(CH18GenLvl, Enemy, 1) [7,9] 0x00 0x00 0x0 0x00 [Tomahawk] NoAI 
-UNIT Ch18Generic Hero Ch18Boss Level(CH18GenLvl, Enemy, 1) [9,10] 0x00 0x00 0x0 0x00 [SilverAxe] NoAI 
-UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl+2, Enemy, 1) [11,5] 0x02 0x00 0x0 0x00 [Thunder] AttackInRangeAI
-UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl+2, Enemy, 1) [3,11] 0x02 0x00 0x0 0x00 [Thunder] AttackInRangeAI
-UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl, Enemy, 1) [4,2] 0x00 0x00 0x0 0x00 [Elfire] ChaseOnceApproachedAI 
-UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl, Enemy, 1) [8,2] 0x00 0x00 0x0 0x00 [Elfire] ChaseOnceApproachedAI 
+UNIT Ch18Boss MageKnight 0x00 Level(1, Enemy, False) [6,2] 0x00 0x00 0x0 0x00 [Fimbulvetr,Bolting,Sleep] NeverMoveAI 
+UNIT Ch18Generic GreatKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [4,3] 0x00 0x00 0x0 0x00 [Tomahawk] NeverMoveAI
+UNIT Ch18Generic GreatKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [8,3] 0x00 0x00 0x0 0x00 [Tomahawk] NeverMoveAI
+UNIT Ch18Generic Hero Ch18Boss Level(CH18GenLvl, Enemy, True) [7,9] 0x00 0x00 0x0 0x00 [Tomahawk] NoAI 
+UNIT Ch18Generic Hero Ch18Boss Level(CH18GenLvl, Enemy, True) [9,10] 0x00 0x00 0x0 0x00 [SilverAxe] NoAI 
+UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl+2, Enemy, True) [11,5] 0x02 0x00 0x0 0x00 [Thunder] AttackInRangeAI
+UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl+2, Enemy, True) [3,11] 0x02 0x00 0x0 0x00 [Thunder] AttackInRangeAI
+UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [4,2] 0x00 0x00 0x0 0x00 [Elfire] ChaseOnceApproachedAI 
+UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [8,2] 0x00 0x00 0x0 0x00 [Elfire] ChaseOnceApproachedAI 
 UNIT
 
 Monsters:
-UNIT Ch18Generic2 Summoner Ch18Boss Level(CH18GenLvl, Enemy, 1) [3,19] 0x00 0x00 0x0 0x00 [Nosferatu,Physic] AttackInRangeAI
-UNIT Ch18Generic2 Summoner Ch18Boss Level(CH18GenLvl, Enemy, 1) [13,2] 0x00 0x00 0x0 0x00 [Nosferatu,Physic] AttackInRangeAI 
-UNIT Ch18Generic Gorgon 0x00 Level(CH18GenLvl, Enemy, 1) [1,6] 0x00 0x00 0x0 0x00 [DemonSurge,Stone] NoAI 
-UNIT Ch18Generic Wight_Bow 0x00 Level(CH18GenLvl, Enemy, 1) [4,9] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
-UNIT Ch18Generic Wight_Bow 0x00 Level(CH18GenLvl, Enemy, 1) [9,6] 0x00 0x00 0x0 0x00 [SilverBow] ChaseOnceApproachedAI 
-UNIT Ch18Generic Wight 0x00 Level(CH18GenLvl, Enemy, 1) [9,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT Ch18Generic Wight 0x00 Level(CH18GenLvl, Enemy, 1) [7,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
-UNIT Ch18Generic ArchMogall 0x00 Level(CH18GenLvl, Enemy,1) [13,0] 0x00 0x00 0x0 0x00 [CrimsonEye] ChaseOnceApproachedAI
-UNIT Ch18Generic ArchMogall 0x00 Level(CH18GenLvl, Enemy,1) [1,1] 0x00 0x00 0x0 0x00 [CrimsonEye] ChaseOnceApproachedAI
+UNIT Ch18Generic2 Summoner Ch18Boss Level(CH18GenLvl, Enemy, True) [3,19] 0x00 0x00 0x0 0x00 [Nosferatu,Physic] AttackInRangeAI
+UNIT Ch18Generic2 Summoner Ch18Boss Level(CH18GenLvl, Enemy, True) [13,2] 0x00 0x00 0x0 0x00 [Nosferatu,Physic] AttackInRangeAI 
+UNIT Ch18Generic Gorgon 0x00 Level(CH18GenLvl, Enemy, True) [1,6] 0x00 0x00 0x0 0x00 [DemonSurge,Stone] NoAI 
+UNIT Ch18Generic Wight_Bow 0x00 Level(CH18GenLvl, Enemy, True) [4,9] 0x00 0x00 0x0 0x00 [Longbow] AttackInRangeAI 
+UNIT Ch18Generic Wight_Bow 0x00 Level(CH18GenLvl, Enemy, True) [9,6] 0x00 0x00 0x0 0x00 [SilverBow] ChaseOnceApproachedAI 
+UNIT Ch18Generic Wight 0x00 Level(CH18GenLvl, Enemy, True) [9,12] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT Ch18Generic Wight 0x00 Level(CH18GenLvl, Enemy, True) [7,14] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI 
+UNIT Ch18Generic ArchMogall 0x00 Level(CH18GenLvl, Enemy,True) [13,0] 0x00 0x00 0x0 0x00 [CrimsonEye] ChaseOnceApproachedAI
+UNIT Ch18Generic ArchMogall 0x00 Level(CH18GenLvl, Enemy,True) [1,1] 0x00 0x00 0x0 0x00 [CrimsonEye] ChaseOnceApproachedAI
 UNIT
 
 Raiders1:
-UNIT Ch18Generic ElderBael 0x0 Level(CH18GenLvl, Enemy, 1) [14,9] 0x00 0x00 0x0 0x00 [FetidClaw] BrigandAI
+UNIT Ch18Generic ElderBael 0x0 Level(CH18GenLvl, Enemy, True) [14,9] 0x00 0x00 0x0 0x00 [FetidClaw] BrigandAI
 UNIT
 
 Raiders2:
-UNIT Ch18Generic ElderBael 0x0 Level(CH18GenLvl, Enemy, 1) [9,20] 0x00 0x00 0x0 0x00 [FetidClaw] BrigandAI
+UNIT Ch18Generic ElderBael 0x0 Level(CH18GenLvl, Enemy, True) [9,20] 0x00 0x00 0x0 0x00 [FetidClaw] BrigandAI
 UNIT
 /*
 Raiders3:
 UNIT
 */
 FlierUnits:
-UNIT Ch18Generic Deathgoyle 0x00 Level(CH18GenLvl, Enemy, 1) [0,15] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
-UNIT Ch18Generic Deathgoyle 0x00 Level(CH18GenLvl, Enemy, 1) [0,16] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
+UNIT Ch18Generic Deathgoyle 0x00 Level(CH18GenLvl, Enemy, True) [0,15] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Ch18Generic Deathgoyle 0x00 Level(CH18GenLvl, Enemy, True) [0,16] 0x00 0x00 0x0 0x00 [Spear] PursueWithoutHeedAI 
 UNIT
 
 FlierUnits2:
-UNIT Ch18Generic Deathgoyle 0x00 Level(CH18GenLvl, Enemy, 1) [0,0] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
+UNIT Ch18Generic Deathgoyle 0x00 Level(CH18GenLvl, Enemy, True) [0,0] 0x00 0x00 0x0 0x00 [SilverLance] PursueWithoutHeedAI 
 UNIT
 
 MorePeople1:
-UNIT Ch18Generic GreatKnight Ch18Boss Level(CH18GenLvl, Enemy, 1) [4,0] 0x00 0x00 0x0 0x00 [SilverAxe] NoAI
-UNIT Ch18Generic GreatKnight Ch18Boss Level(CH18GenLvl, Enemy, 1) [8,0] 0x00 0x00 0x0 0x00 [SilverAxe] NoAI
+UNIT Ch18Generic GreatKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [4,0] 0x00 0x00 0x0 0x00 [SilverAxe] NoAI
+UNIT Ch18Generic GreatKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [8,0] 0x00 0x00 0x0 0x00 [SilverAxe] NoAI
 UNIT 
 
 MorePeople2:
-UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl, Enemy, 1) [4,1] 0x00 0x00 0x0 0x00 [Elfire] ChaseOnceApproachedAI 
-UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl, Enemy, 1) [8,1] 0x00 0x00 0x0 0x00 [Elfire] ChaseOnceApproachedAI 
+UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [4,1] 0x00 0x00 0x0 0x00 [Elfire] ChaseOnceApproachedAI 
+UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [8,1] 0x00 0x00 0x0 0x00 [Elfire] ChaseOnceApproachedAI 
 UNIT
 
 MoreMonsters1:

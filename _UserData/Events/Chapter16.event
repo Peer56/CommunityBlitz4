@@ -27,10 +27,10 @@ ReinforcementEvent(Wave1)
 ENDA
 
 Wave1:
-UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [24,0] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI
-UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [25,0] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI 
-UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI 
-UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [13,17] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI   
+UNIT 0x80 Berserker Saar Level(4, Enemy, True) [24,0] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI
+UNIT 0x80 Berserker Saar Level(4, Enemy, True) [25,0] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, True) [12,16] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, True) [13,17] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI   
 UNIT
 
 WaveSecond:
@@ -38,8 +38,8 @@ ReinforcementEvent(Wave2)
 ENDA
 
 Wave2:
-UNIT 0x80 Brigand Saar Level(20, Enemy, 1) [0,29] 0x00 0x00 0x0 0x00 [KillerAxe] BrigandAI
-UNIT 0x80 Brigand Saar Level(20, Enemy, 1) [0,26] 0x00 0x00 0x0 0x00 [KillerAxe] BrigandAI 
+UNIT 0x80 Brigand Saar Level(20, Enemy, True) [0,29] 0x00 0x00 0x0 0x00 [KillerAxe] BrigandAI
+UNIT 0x80 Brigand Saar Level(20, Enemy, True) [0,26] 0x00 0x00 0x0 0x00 [KillerAxe] BrigandAI 
 UNIT
 
 WaveThird:
@@ -47,10 +47,10 @@ ReinforcementEvent(Wave3)
 ENDA
 
 Wave3:
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [26,28] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [25,30] 0x00 0x00 0x0 0x00 [SilverAxe, Hammer] PursueWithoutHeedAI 
-UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, 1) [1,6] 0x00 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI 
-UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [KillerLance, Zanbato] PursueWithoutHeedAI
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [26,28] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [25,30] 0x00 0x00 0x0 0x00 [SilverAxe, Hammer] PursueWithoutHeedAI 
+UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, True) [1,6] 0x00 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI 
+UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, True) [0,7] 0x00 0x00 0x0 0x00 [KillerLance, Zanbato] PursueWithoutHeedAI
 UNIT
 
 WaveFourth:
@@ -58,10 +58,10 @@ ReinforcementEvent(Wave4)
 ENDA
 
 Wave4:
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [7,2] 0x00 0x00 0x0 0x00 [SilverLance, Axereaver] PursueWithoutHeedAI
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [8,3] 0x00 0x00 0x0 0x00 [SilverLance, Axereaver] PursueWithoutHeedAI
-UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Lancereaver] PursueWithoutHeedAI
-UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [14,16] 0x00 0x00 0x0 0x00 [SilverSword, Lancereaver] PursueWithoutHeedAI  
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [7,2] 0x00 0x00 0x0 0x00 [SilverLance, Axereaver] PursueWithoutHeedAI
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [8,3] 0x00 0x00 0x0 0x00 [SilverLance, Axereaver] PursueWithoutHeedAI
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, True) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Lancereaver] PursueWithoutHeedAI
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, True) [14,16] 0x00 0x00 0x0 0x00 [SilverSword, Lancereaver] PursueWithoutHeedAI  
 UNIT
 
 WaveFifth:
@@ -69,10 +69,10 @@ ReinforcementEvent(Wave5)
 ENDA
 
 Wave5:
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [14,16] 0x00 0x00 0x0 0x00 [SilverAxe, Horseslayer] PursueWithoutHeedAI
-UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Zanbato] PursueWithoutHeedAI 
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SilverLance, Halberd] PursueWithoutHeedAI 
-UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,17] 0x00 0x00 0x0 0x00 [WindSword] PursueWithoutHeedAI   
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [14,16] 0x00 0x00 0x0 0x00 [SilverAxe, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, True) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Zanbato] PursueWithoutHeedAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [12,16] 0x00 0x00 0x0 0x00 [SilverLance, Halberd] PursueWithoutHeedAI 
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, True) [13,17] 0x00 0x00 0x0 0x00 [WindSword] PursueWithoutHeedAI   
 UNIT
 
 WaveSixth:
@@ -80,13 +80,13 @@ ReinforcementEvent(Wave6)
 ENDA
 
 Wave6:
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [14,16] 0x00 0x00 0x0 0x00 [SilverAxe, Horseslayer] PursueWithoutHeedAI
-UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Zanbato] PursueWithoutHeedAI 
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SilverLance, Halberd] PursueWithoutHeedAI 
-UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,17] 0x00 0x00 0x0 0x00 [WindSword] PursueWithoutHeedAI
-UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [25,25] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
-UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [26,28] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
-UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [25,30] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [14,16] 0x00 0x00 0x0 0x00 [SilverAxe, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, True) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Zanbato] PursueWithoutHeedAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [12,16] 0x00 0x00 0x0 0x00 [SilverLance, Halberd] PursueWithoutHeedAI 
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, True) [13,17] 0x00 0x00 0x0 0x00 [WindSword] PursueWithoutHeedAI
+UNIT 0x80 Berserker Saar Level(4, Enemy, True) [25,25] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, True) [26,28] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, True) [25,30] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI
 UNIT
 
 WaveSeventh:
@@ -94,19 +94,19 @@ ReinforcementEvent(Wave7)
 ENDA
 
 Wave7:
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [14,16] 0x00 0x00 0x0 0x00 [SilverAxe, Horseslayer] PursueWithoutHeedAI
-UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Zanbato] PursueWithoutHeedAI 
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [12,16] 0x00 0x00 0x0 0x00 [SilverLance, Halberd] PursueWithoutHeedAI 
-UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [13,17] 0x00 0x00 0x0 0x00 [WindSword] PursueWithoutHeedAI
-UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [25,25] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
-UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [26,28] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
-UNIT 0x80 Berserker Saar Level(4, Enemy, 1) [25,30] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI
-UNIT 0x80 WyvernKnight Saar Level(20, Enemy, 1) [0,29] 0x00 0x00 0x0 0x00 [SilverAxe] BrigandAI
-UNIT 0x80 WyvernKnight Saar Level(20, Enemy, 1) [0,26] 0x00 0x00 0x0 0x00 [SilverLance] BrigandAI
-UNIT 0x80 MageKnight Saar Level(4, Enemy, 1) [1,6] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
-UNIT 0x80 MageKnight Saar Level(4, Enemy, 1) [0,7] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
-UNIT 0x80 Valkyrie Saar Level(4, Enemy, 1) [7,2] 0x00 0x00 0x0 0x00 [Aura, Sleep] PursueWithoutHeedAI
-UNIT 0x80 Valkyrie Saar Level(4, Enemy, 1) [8,3] 0x00 0x00 0x0 0x00 [Aura, Silence] PursueWithoutHeedAI
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [14,16] 0x00 0x00 0x0 0x00 [SilverAxe, Horseslayer] PursueWithoutHeedAI
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, True) [13,15] 0x00 0x00 0x0 0x00 [SilverSword, Zanbato] PursueWithoutHeedAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [12,16] 0x00 0x00 0x0 0x00 [SilverLance, Halberd] PursueWithoutHeedAI 
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, True) [13,17] 0x00 0x00 0x0 0x00 [WindSword] PursueWithoutHeedAI
+UNIT 0x80 Berserker Saar Level(4, Enemy, True) [25,25] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, True) [26,28] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI 
+UNIT 0x80 Berserker Saar Level(4, Enemy, True) [25,30] 0x00 0x00 0x0 0x00 [KillerAxe] PursueWithoutHeedAI
+UNIT 0x80 WyvernKnight Saar Level(20, Enemy, True) [0,29] 0x00 0x00 0x0 0x00 [SilverAxe] BrigandAI
+UNIT 0x80 WyvernKnight Saar Level(20, Enemy, True) [0,26] 0x00 0x00 0x0 0x00 [SilverLance] BrigandAI
+UNIT 0x80 MageKnight Saar Level(4, Enemy, True) [1,6] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
+UNIT 0x80 MageKnight Saar Level(4, Enemy, True) [0,7] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
+UNIT 0x80 Valkyrie Saar Level(4, Enemy, True) [7,2] 0x00 0x00 0x0 0x00 [Aura, Sleep] PursueWithoutHeedAI
+UNIT 0x80 Valkyrie Saar Level(4, Enemy, True) [8,3] 0x00 0x00 0x0 0x00 [Aura, Silence] PursueWithoutHeedAI
 UNIT
 
 CharacterBasedEvents:
@@ -159,59 +159,59 @@ Tutorial:
 END_MAIN
 
 Units1:
-UNIT Eirika EirikaLord 0x00 Level(1, Ally, 0) [23,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [22,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [21,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [21,29] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [22,30] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [22,26] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [24,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [20,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [22,29] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [22,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [23,30] 0x00 0x00 0x0 0x00 [0x00] NoAI 
-UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, 0) [23,26] 0x00 0x00 0x0 0x00 [0x00] NoAI  
+UNIT Eirika EirikaLord 0x00 Level(1, Ally, False) [23,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, False) [22,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, False) [21,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, False) [21,29] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, False) [22,30] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, False) [22,26] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, False) [24,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, False) [20,28] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, False) [22,29] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, False) [22,27] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, False) [23,30] 0x00 0x00 0x0 0x00 [0x00] NoAI 
+UNIT Seth LanceSwordPaladin Eirika Level(1, Ally, False) [23,26] 0x00 0x00 0x0 0x00 [0x00] NoAI  
 UNIT
 
 DuoMaidenos:
-UNIT Rhosyn FalcoKnight Eirika Level(8, Ally, 0) [23,27] 0x00 0x00 0x0 0x00 [KillingEdge, ShortSpear, SteelSword] NoAI 
-UNIT Arwen Valkyrie Eirika Level(8, Ally, 0) [23,29] 0x00 0x00 0x0 0x00 [Divine, Barrier, Mend] NoAI 
+UNIT Rhosyn FalcoKnight Eirika Level(8, Ally, False) [23,27] 0x00 0x00 0x0 0x00 [KillingEdge, ShortSpear, SteelSword] NoAI 
+UNIT Arwen Valkyrie Eirika Level(8, Ally, False) [23,29] 0x00 0x00 0x0 0x00 [Divine, Barrier, Mend] NoAI 
 UNIT
 
 Bad: 
 UNIT Wulfric MageKnight Saar Level(5, Enemy, 0) [3,22] 0x00 0x00 0x0 0x00 [Fimbulvetr, Silence] GuardTileAI 
 UNIT Aswang Bishop Saar Level(5, Enemy, 0) [21,6] 0x00 0x00 0x0 0x00 [Aura, Physic] GuardTileAI 
 UNIT Zelroth Druid 0x00 Level(5, Enemy, 0) [3,4] 0x00 0x00 0x0 0x00 [Fenrir, Sleep] GuardTileAI 
-UNIT 0x80 MageKnight Saar Level(4, Enemy, 1) [4,24] 0x00 0x00 0x0 0x00 [Fimbulvetr] AttackInRangeAI 
-UNIT 0x80 Valkyrie Saar Level(4, Enemy, 1) [3,25] 0x00 0x00 0x0 0x00 [Aura] AttackInRangeAI 
-UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, 1) [5,6] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI 
-UNIT 0x80 Ranger Saar Level(4, Enemy, 1) [4,7] 0x00 0x00 0x0 0x00 [SilverSword, Longbow] AttackInRangeAI 
-UNIT 0x80 FalcoKnight Saar Level(4, Enemy, 1) [18,7] 0x00 0x00 0x0 0x00 [WindSword] AttackInRangeAI 
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [19,8] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI 
-UNIT 0x80 LanceSwordPaladin_F Saar Level(4, Enemy, 1) [18,15] 0x00 0x00 0x0 0x00 [Spear, LightBrand] AttackInRangeAI 
-UNIT 0x80 Hero Saar Level(4, Enemy, 1) [11,25] 0x00 0x00 0x0 0x00 [Tomahawk] AttackInRangeAI 
-UNIT 0x80 Druid Saar Level(4, Enemy, 1) [7,10] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
-UNIT 0x80 Hero Saar Level(4, Enemy, 1) [6,10] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
-UNIT 0x80 Hero Saar Level(4, Enemy, 1) [6,30] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
-UNIT 0x80 Hero Saar Level(4, Enemy, 1) [13,5] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
-UNIT 0x80 Hero Saar Level(4, Enemy, 1) [21,12] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
-UNIT 0x80 Druid Saar Level(4, Enemy, 1) [20,12] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
-UNIT 0x80 Druid Saar Level(4, Enemy, 1) [6,29] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [2,16] 0x00 0x00 0x0 0x00 [BraveLance] AttackInRangeAI 
-UNIT 0x80 WyvernKnight Saar Level(4, Enemy, 1) [25,5] 0x00 0x00 0x0 0x00 [BraveLance] AttackInRangeAI 
-UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, 1) [24,8] 0x00 0x00 0x0 0x00 [SilverLance, SilverSword] PursueWithoutHeedAI 
-UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, 1) [25,9] 0x00 0x00 0x0 0x00 [Lancereaver, SilverSword] PursueWithoutHeedAI 
-UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, 1) [19,20] 0x00 0x00 0x0 0x00 [SilverBlade] PursueWithoutHeedAI 
-UNIT 0x80 Ranger Saar Level(3, Enemy, 1) [18,21] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
-UNIT 0x80 MageKnight Saar Level(3, Enemy, 1) [20,21] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
-UNIT 0x80 MageKnight Saar Level(3, Enemy, 1) [12,29] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
-UNIT 0x80 Hero Saar Level(3, Enemy, 1) [14,28] 0x00 0x00 0x0 0x00 [SilverBlade] PursueWithoutHeedAI 
-UNIT 0x80 Hero Saar Level(3, Enemy, 1) [14,30] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI 
-UNIT 0x80 Ranger Saar Level(3, Enemy, 1) [5,18] 0x00 0x00 0x0 0x00 [SilverBow, KillingEdge] PursueWithoutHeedAI 
-UNIT 0x80 FalcoKnight Saar Level(3, Enemy, 1) [5,17] 0x00 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI 
-UNIT 0x80 Bishop Saar Level(3, Enemy, 1) [6,19] 0x00 0x00 0x0 0x00 [Aura] PursueWithoutHeedAI 
-UNIT 0x80 Druid Saar Level(4, Enemy, 1) [6,14] 0x00 0x00 0x0 0x00 [Fenrir] GuardTileAI 
-UNIT 0x80 Druid Saar Level(4, Enemy, 1) [13,6] 0x00 0x00 0x0 0x00 [Fimbulvetr, Bolting] GuardTileAI 
+UNIT 0x80 MageKnight Saar Level(4, Enemy, True) [4,24] 0x00 0x00 0x0 0x00 [Fimbulvetr] AttackInRangeAI 
+UNIT 0x80 Valkyrie Saar Level(4, Enemy, True) [3,25] 0x00 0x00 0x0 0x00 [Aura] AttackInRangeAI 
+UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, True) [5,6] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI 
+UNIT 0x80 Ranger Saar Level(4, Enemy, True) [4,7] 0x00 0x00 0x0 0x00 [SilverSword, Longbow] AttackInRangeAI 
+UNIT 0x80 FalcoKnight Saar Level(4, Enemy, True) [18,7] 0x00 0x00 0x0 0x00 [WindSword] AttackInRangeAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [19,8] 0x00 0x00 0x0 0x00 [Spear] AttackInRangeAI 
+UNIT 0x80 LanceSwordPaladin_F Saar Level(4, Enemy, True) [18,15] 0x00 0x00 0x0 0x00 [Spear, LightBrand] AttackInRangeAI 
+UNIT 0x80 Hero Saar Level(4, Enemy, True) [11,25] 0x00 0x00 0x0 0x00 [Tomahawk] AttackInRangeAI 
+UNIT 0x80 Druid Saar Level(4, Enemy, True) [7,10] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 Hero Saar Level(4, Enemy, True) [6,10] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
+UNIT 0x80 Hero Saar Level(4, Enemy, True) [6,30] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
+UNIT 0x80 Hero Saar Level(4, Enemy, True) [13,5] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
+UNIT 0x80 Hero Saar Level(4, Enemy, True) [21,12] 0x00 0x00 0x0 0x00 [Tomahawk] GuardTileAI 
+UNIT 0x80 Druid Saar Level(4, Enemy, True) [20,12] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 Druid Saar Level(4, Enemy, True) [6,29] 0x00 0x00 0x0 0x00 [Nosferatu] GuardTileAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [2,16] 0x00 0x00 0x0 0x00 [BraveLance] AttackInRangeAI 
+UNIT 0x80 WyvernKnight Saar Level(4, Enemy, True) [25,5] 0x00 0x00 0x0 0x00 [BraveLance] AttackInRangeAI 
+UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, True) [24,8] 0x00 0x00 0x0 0x00 [SilverLance, SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, True) [25,9] 0x00 0x00 0x0 0x00 [Lancereaver, SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 LanceSwordPaladin Saar Level(4, Enemy, True) [19,20] 0x00 0x00 0x0 0x00 [SilverBlade] PursueWithoutHeedAI 
+UNIT 0x80 Ranger Saar Level(3, Enemy, True) [18,21] 0x00 0x00 0x0 0x00 [SilverSword] PursueWithoutHeedAI 
+UNIT 0x80 MageKnight Saar Level(3, Enemy, True) [20,21] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
+UNIT 0x80 MageKnight Saar Level(3, Enemy, True) [12,29] 0x00 0x00 0x0 0x00 [Fimbulvetr] PursueWithoutHeedAI 
+UNIT 0x80 Hero Saar Level(3, Enemy, True) [14,28] 0x00 0x00 0x0 0x00 [SilverBlade] PursueWithoutHeedAI 
+UNIT 0x80 Hero Saar Level(3, Enemy, True) [14,30] 0x00 0x00 0x0 0x00 [SilverAxe] PursueWithoutHeedAI 
+UNIT 0x80 Ranger Saar Level(3, Enemy, True) [5,18] 0x00 0x00 0x0 0x00 [SilverBow, KillingEdge] PursueWithoutHeedAI 
+UNIT 0x80 FalcoKnight Saar Level(3, Enemy, True) [5,17] 0x00 0x00 0x0 0x00 [KillerLance] PursueWithoutHeedAI 
+UNIT 0x80 Bishop Saar Level(3, Enemy, True) [6,19] 0x00 0x00 0x0 0x00 [Aura] PursueWithoutHeedAI 
+UNIT 0x80 Druid Saar Level(4, Enemy, True) [6,14] 0x00 0x00 0x0 0x00 [Fenrir] GuardTileAI 
+UNIT 0x80 Druid Saar Level(4, Enemy, True) [13,6] 0x00 0x00 0x0 0x00 [Fimbulvetr, Bolting] GuardTileAI 
 UNIT
 
 Traps1:
