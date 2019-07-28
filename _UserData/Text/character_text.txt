@@ -224,13 +224,15 @@ VolstaggDesc[X]
 Rhosyn[X]
 
 ##RhosynDesc
-RhosynDesc[X]
+Arwen's loyal retainer. Squad[N]
+leader of Alpinia Sky Knights.[X]
 
 ##ArwenName
 Arwen[X]
 
 ##ArwenDesc
-ArwenDesc[X]
+Princess of Alpinia. Fighting[N]
+for her country's freedom[X]
 
 ##BrentName
 Brent[X]
