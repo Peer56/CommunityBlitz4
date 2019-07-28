@@ -168,8 +168,8 @@ UNIT Ch18Generic GreatKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [4,3] 0x00 
 UNIT Ch18Generic GreatKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [8,3] 0x00 0x00 0x0 0x00 [Tomahawk] NeverMoveAI
 UNIT Ch18Generic Hero Ch18Boss Level(CH18GenLvl, Enemy, True) [7,9] 0x00 0x00 0x0 0x00 [Tomahawk] NoAI 
 UNIT Ch18Generic Hero Ch18Boss Level(CH18GenLvl, Enemy, True) [9,10] 0x00 0x00 0x0 0x00 [SilverAxe] NoAI 
-UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl+2, Enemy, True) [11,5] 0x02 0x00 0x0 0x00 [Thunder] AttackInRangeAI
-UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl+2, Enemy, True) [3,11] 0x02 0x00 0x0 0x00 [Thunder] AttackInRangeAI
+UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl+2, Enemy, True) [11,5] ItemDrop 0x00 0x0 0x00 [Thunder] AttackInRangeAI
+UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl+2, Enemy, True) [3,11] ItemDrop 0x00 0x0 0x00 [Thunder] AttackInRangeAI
 UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [4,2] 0x00 0x00 0x0 0x00 [Elfire] ChaseOnceApproachedAI 
 UNIT Ch18Generic MageKnight Ch18Boss Level(CH18GenLvl, Enemy, True) [8,2] 0x00 0x00 0x0 0x00 [Elfire] ChaseOnceApproachedAI 
 UNIT

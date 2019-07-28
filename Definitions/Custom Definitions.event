@@ -25,3 +25,4 @@
 #endif
 
 #define AttackInHalfRangeAI		"[0x0C,0x03]"
+#define ItemDrop 0x02
