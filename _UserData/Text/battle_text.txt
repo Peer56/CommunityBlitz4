@@ -35,28 +35,26 @@ Ree[A][X]
 Ree[A][X]
 
 ## AvanthBattleQuote
-You seem like an honest[NL]
-bunch but Diqhed controls[NL]
-us with an iron grip.[A][NL]
-Sorry to do this...[A][NL]
-[X]
+[BattleText]
+You seem like an honest bunch but Diqhed controls us with an iron grip.
+Sorry to do this...[X]
 
 ## RansleyBattleQuote
-We never wished to take[NL]
-up arms against you...[A][NL]
-But we have no choice.[A][NL]
-[X]
+[BattleText]
+We never wished to take up arms against you...
+But we have no choice.[X]
 
 ## VercingeBattleQuote
 Ree[A][X]
 
 ## DiqhedBattleQuote
-You think you can defeat me?[A][NL]
-I am the king of Wyrmland![A][NL]
-This means I am very strong![A][NL]
-Fighting strong enemies kills you![A][NL]
-You die when you are killed![A][NL]
-Thanks for attending my TED talk.[X][NL]
+[BattleText]
+You think you can defeat me?
+I am the king of Wyrmland!
+This means I am very strong!
+Fighting strong enemies kills you!
+You die when you are killed!
+Thanks for attending my TED talk.[X]
 
 ## EsmeBattleQuote
 Ree[A][X]
@@ -68,29 +66,21 @@ Ree[A][X]
 Ree[A][X]
 
 ## AswangBattleQuote
-Women can be baddies too[NL]
-you know![A][NL]
-[X]
+[BattleText]
+Women can be baddies too you know![X]
 
 ## ZelrothBattleQuote
-Hehehe... I bet you envy[NL]
-how easy it is to be a[NL]
-bad guy...[A][NL]
-No one asks for your[NL]
-character development...[A][NL]
-No need to be a viable unit...[A][NL]
-You can even have a terrible[NL]
-portrait, no one will care...[A][NL]
-My life is so easy, I just sit[NL]
-here and pose no threat at all.[A][NL]
-You player units must wish to be me,[NL]
-free from scrutiny... Hehe...[A][NL]
-[X]
+[BattleText]
+Hehehe... I bet you envy how easy it is to be a bad guy...
+No one asks for your character development...
+No need to be a viable unit...
+You can even have a terrible portrait, no one will care...
+My life is so easy, I just sit here and pose no threat at all.
+You player units must wish to be me, free from scrutiny... Hehe...[X]
 
 ## WulfricBattleQuote
-Please don't have a horse[NL]
-effective weapon...[A][NL]
-[X]
+[BattleText]
+Please don't have a horse effective weapon...[X]
 
 ## FloorentiusBattleQuote
 Ree[A][X]

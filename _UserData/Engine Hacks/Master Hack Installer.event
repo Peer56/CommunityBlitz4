@@ -18,3 +18,5 @@ ALIGN 4
 #include "DeathDropFix/DeathDropFix.event"
 
 #include "ASMCCheckSuite/ASMC Check Installer.event"
+
+#include "AutoNewline/Installer.event"
