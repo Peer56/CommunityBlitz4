@@ -20,3 +20,5 @@ ALIGN 4
 #include "ASMCCheckSuite/ASMC Check Installer.event"
 
 #include "AutoNewline/Installer.event"
+
+#include "LevelUpRework/Installer.event"

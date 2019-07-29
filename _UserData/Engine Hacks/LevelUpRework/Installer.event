@@ -1,0 +1,72 @@
+#ifndef LEVELUPREWORK
+#define LEVELUPREWORK
+
+#ifdef _FE8_
+
+// Level Up Rework. Hack by Zeta/Gilgamesh
+// Free to use/modify
+
+// !! IMPORTANT !!
+// Maximum levels above 31 will not function
+// There is no current save data expansion that supports levels higher than 31, either.
+GlobalMaxLevel:
+BYTE 20
+
+// !! IMPORTANT !!
+// Maximum luck above 31 will not function, UNLESS you have a save data expansion installed (ex: ExpandedModularSave)
+// Furthermore if you actually want to display changed max luck properly, I suggest
+// installing ModularStatScreen, going into mss_defs.s and finding/changing
+// the draw luck bar function to respect the new maximum.
+GlobalMaxLuck:
+BYTE 30
+
+// minimum number of stats that can increase per levelup
+GlobalMinStatIncreases:
+BYTE 1
+
+// minimum number of stats that can increase per levelup for units with the lord character or class ability
+// overrides the above for said units
+LordMinStatIncreases:
+BYTE 1
+
+// Change/add entries as desired. Anything not on this table will have the GlobalMaxLevel
+// unless it has the 'max level 10' character or class ability (ex: vanilla trainees).
+ClassLevelLimitTable:
+SHORT 0x0
+
+
+// lyn output of LevelUpRework.c
+PUSH
+ORG $2ba28
+ALIGN 4
+SHORT $4778 $46C0
+WORD $E59FC000 $E12FFF1C
+POIN CheckBattleUnitLevelUp
+POP
+ALIGN 4
+PUSH
+ORG CURRENTOFFSET+$1;GetBattleUnitLevelLimit:
+ORG CURRENTOFFSET+$40;GetPossibleStatIncreases:
+ORG CURRENTOFFSET+$c0;CalculateLevelUp:
+ORG CURRENTOFFSET+$1b8;CheckBattleUnitLevelUp:
+POP
+SHORT $B570 $C818 $6AA2 $6A9B $4313 $2280 $312 $4013 $200A $2B00 $D10B $4A08 $4D08 $7810 $5A $1952 $7811 $2900 $D003 $7926 $428E $D103 $7850 $BC70 $BC02 $4708 $3301 $E7F1
+POIN GlobalMaxLevel
+POIN ClassLevelLimitTable
+SHORT $B530 $2512 $2413 $6841 $5745 $570C $2 $6803 $2000 $42A5 $DA02 $7F18 $1E44 $41A0 $2514 $2414 $5755 $570C $42A5 $DA05 $7F5C $2C00 $D002 $3001 $600 $E00 $2515 $2415 $5755 $570C $42A5 $DA05 $7F9C $2C00 $D002 $3001 $600 $E00 $2516 $2416 $5755 $570C $42A5 $DA05 $7FDC $2C00 $D002 $3001 $600 $E00 $2517 $2417 $5755 $570C $42A5 $DA06 $1C5C $7FE4 $2C00 $D002 $3001 $600 $E00 $2418 $7E09 $5714 $609 $1609 $428C $DA06 $1C99 $7FC9 $2900 $D002 $3001 $600 $E00 $2119 $5651 $4A07 $7812 $4291 $DA06 $3303 $7FDB $2B00 $D002 $3001 $600 $E00 $BC30 $BC02 $4708 $46C0
+POIN GlobalMaxLuck
+SHORT $B5F0 $B089 $5 $F7FF $FF9B $2800 $D03C $4B66 $682F $686E $781A $6AB1 $6ABB $430B $49B $D501 $4B62 $781A $603 $1C11 $E1B $429A $D900 $1C01 $60B $E1B $9307 $2300 $1C $9306 $9305 $9304 $9303 $9302 $9301 $9A07 $42A2 $D821 $2A $3273 $7810 $9901 $1808 $7010 $9902 $7850 $1808 $7050 $9903 $7890 $1808 $7090 $9904 $78D0 $1808 $70D0 $9905 $7910 $1808 $7110 $9906 $7950 $180E $7156 $3579 $7828 $181B $702B $B009 $BCF0 $BC01 $4700 $2212 $2313 $56AA $56F3 $429A $DB00 $E07F $4B44 $7F38 $F000 $F8AD $603 $E1B $1C $9301 $1E63 $419C $2214 $2314 $2100 $56AA $56F3 $9102 $429A $DA0A $4B3B $7F78 $F000 $F89B $603 $E1B $9302 $D002 $3401 $624 $E24 $2215 $2315 $2100 $56AA $56F3 $9103 $429A $DA0A $4B31 $7FB8 $F000 $F888 $603 $E1B $9303 $D002 $3401 $624 $E24 $2216 $2316 $2100 $56AA $56F3 $9104 $429A $DA0A $4B28 $7FF8 $F000 $F875 $603 $E1B $9304 $D002 $3401 $624 $E24 $2217 $2317 $2100 $56AA $56F3 $9105 $429A $DA0B $1C7B $7FD8 $4B1D $F000 $F861 $603 $E1B $9305 $D002 $3401 $624 $E24 $2218 $2318 $2100 $56AA $56F3 $9106 $429A $DA0B $1CBB $7FD8 $4B13 $F000 $F84D $603 $E1B $9306 $D002 $3401 $624 $E24 $2119 $4B0F $5669 $781A $2300 $4291 $DB00 $E760 $1CFB $7FD8 $4B09 $F000 $F839 $603 $E1B $D100 $E757 $3401 $624 $E24 $E753 $2300 $9301 $1C $E785 $46C0
+POIN GlobalMinStatIncreases
+POIN LordMinStatIncreases
+BYTE $A1 $B9 $2 $8
+POIN GlobalMaxLuck
+SHORT $B570 $4B10 $4 $F000 $F81F $2800 $D017 $7A66 $2E63 $D914 $20 $F7FF $FE97 $2308 $56E3 $5 $4283 $DA0C $3301 $3E64 $7223 $7266 $20 $F7FF $FF0B $2308 $56E3 $429D $D101 $23FF $7263 $BC70 $BC01 $4700
+BYTE $F5 $B9 $2 $8
+SHORT $4718 $46C0
+
+
+#else // _FE8_
+  ERROR ArenaLevelLimit is for FE8
+#endif // _FE8_
+
+#endif // LEVELUPREWORK
