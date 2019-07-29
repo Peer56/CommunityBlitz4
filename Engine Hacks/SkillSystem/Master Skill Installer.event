@@ -533,6 +533,7 @@ WORD LoyaltyID
 Thunderstorm:
 #incbin "SoA Skills/Thunderstorm.dmp"
 POIN SkillTester
+POIN ItemTable
 WORD ThunderstormID
 
 Outrider:
