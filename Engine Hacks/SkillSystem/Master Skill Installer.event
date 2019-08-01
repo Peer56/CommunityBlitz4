@@ -555,6 +555,7 @@ WORD ChargeID
 Infiltrator:
 #incbin "SoA Skills/Infiltrator.dmp"
 POIN SkillTester
+POIN AuraSkillCheck
 WORD InfiltratorID
 
 Vanity:
