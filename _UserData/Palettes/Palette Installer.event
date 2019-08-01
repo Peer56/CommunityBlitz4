@@ -18,14 +18,29 @@ EverettPriestPalette:
 IgnaceCavPalette:
 	#incbin "./_palettes/IgnaceCavPalette.lzpal" 
 
+IgnaceGKPalette:
+	#incbin "./_palettes/IgnaceGKPalette.lzpal" 
+
 EdithCavPalette:
 	#incbin "./_palettes/EdithCavPalette.lzpal" 
+
+EdithGKPalette:
+	#incbin "./_palettes/EdithGKPalette.lzpal" 
 
 MaurusArmorKnightPalette:
 	#incbin "./_palettes/MaurusArmorKnightPalette.lzpal" 
 
+MaurusGKPalette:
+	#incbin "./_palettes/MaurusGKPalette.lzpal" 
+
 FuriaMagePalette:
 	#incbin "./_palettes/FuriaMagePalette.lzpal" 
+
+FuriaSageFPalette:
+	#incbin "./_palettes/FuriaSageFPalette.lzpal" 
+
+FuriaMageKnightPalette:
+	#incbin "./_palettes/FuriaMageKnightPalette.lzpal" 
 
 LilacShamanFPalette:
 	#incbin "./_palettes/LilacShamanFPalette.lzpal" 
@@ -162,9 +177,36 @@ ZelrothSummonerPalette:
 FloorentiusGKPalette:
 	#incbin "./_palettes/FloorentiusGKPalette.lzpal" 
 
+GodfreyGeneralPalette:
+	#incbin "./_palettes/GodfreyGeneralPalette.lzpal" 
+
+GenericMercPalettes:
+	#incbin "./_palettes/GenericMercPalettes.lzpal" 
+
+GenericMyrmPalettes:
+	#incbin "./_palettes/GenericMyrmPalettes.lzpal" 
+
 GenericArcherPalettes:
 	#incbin "./_palettes/GenericArcherPalettes.lzpal" 
 
+GreatKnightPalettes:
+	#incbin "./_palettes/GreatKnightPalettes.lzpal" 
+
+MageMPalettes:
+	#incbin "./_palettes/MageMPalettes.lzpal" 
+
+MageFPalettes:
+	#incbin "./_palettes/MageFPalettes.lzpal" 
+
+GenericBishopPalettes:
+	#incbin "./_palettes/GenericBishopPalettes.lzpal" 
+
 GenericSoldierPalettes:
 	#incbin "./_palettes/GenericSoldierPalettes.lzpal" 
+
+GenericPiratePalettes:
+	#incbin "./_palettes/GenericPiratePalettes.lzpal" 
+
+GenericBaelPalettes:
+	#incbin "./_palettes/GenericBaelPalettes.lzpal" 
 

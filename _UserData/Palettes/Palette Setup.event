@@ -24,17 +24,37 @@
 	setPalette(0x7,IgnaceCavPalette)
 	setCBSP(0x7,Ignace, 0x3, LanceCav)
 
+// IgnaceGKPalette
+	setPalette(0x9,IgnaceGKPalette)
+	setCBSP(0x9,Ignace, 0x5, GreatKnight)
+
 // EdithCavPalette
 	setPalette(0xA,EdithCavPalette)
 	setCBSP(0xA,Edith, 0x3, SwordCav_F)
+
+// EdithGKPalette
+	setPalette(0xC,EdithGKPalette)
+	setCBSP(0xC,Edith, 0x5, GreatKnight_F)
 
 // MaurusArmorKnightPalette
 	setPalette(0xD,MaurusArmorKnightPalette)
 	setCBSP(0xD,Maurus,0x3, ArmorKnight)
 
+// MaurusGKPalette
+	setPalette(0xF,MaurusGKPalette)
+	setCBSP(0xF,Maurus,0x5,GreatKnight)
+
 // FuriaMagePalette
 	setPalette(0x10,FuriaMagePalette)
 	setCBSP(0x10,Furia,0x3, Mage_F)
+
+// FuriaSageFPalette
+	setPalette(0x11,FuriaSageFPalette)
+	setCBSP(0x11,Furia,0x4,Sage_F)
+
+// FuriaMageKnightPalette
+	setPalette(0x12,FuriaMageKnightPalette)
+	setCBSP(0x12,Furia,0x5,MageKnight_F)
 
 // LilacShamanFPalette
 	setPalette(0x16,LilacShamanFPalette)
@@ -159,6 +179,8 @@
 // AlgrimBerserkerPalette
 	setPalette(0x66,AlgrimBerserkerPalette)
 	setCBSP(0x66,Algrim,0x3,Berserker)
+	setCBSP(0x66,Algrim2,0x3,Berserker)
+	setCBSP(0x66,Algrim3,0x3,Berserker)
 
 // MerarriArmorKnightPalette
 	setPalette(0x67,MerarriArmorKnightPalette)
@@ -171,6 +193,7 @@
 // LucioSagePalette
 	setPalette(0x69,LucioSagePalette)
 	setCBSP(0x69,Lucio,0x3,Sage)
+	setCBSP(0x69,Lucio2,0x3,Sage)
 
 // CyrilleCavPalette
 	setPalette(0x6A,CyrilleCavPalette)
@@ -191,30 +214,50 @@
 // DiqhedWyvernLordPalette
 	setPalette(0x6F,DiqhedWyvernLordPalette)
 	setCBSP(0x6F,Diqhed,0x3,WyvernLord)
+	setCBSP(0x6F,Diqhed2,0x3,WyvernLord)
 
 // EsmeGeneralPalette
 	setPalette(0x70,EsmeGeneralPalette)
 	setCBSP(0x70,Esme,0x3,General_F)
+	setCBSP(0x70,Esme2,0x3,General_F)
 
 // KorathAssassinPalette
 	setPalette(0x71,KorathAssassinPalette)
 	setCBSP(0x71,Korath,0x3,Assassin)
+	setCBSP(0x71,Korath2,0x3,Assassin)
 
 // WulfricMageKnightPalette
 	setPalette(0x73,WulfricMageKnightPalette)
 	setCBSP(0x73,Wulfric,0x3,MageKnight)
+	setCBSP(0x73,Wulfric2,0x3,MageKnight)
 
 // AswangBishopPalette
 	setPalette(0x74,AswangBishopPalette)
+	setCBSP(0x74,Aswang,0x3,Bishop_F)
 	setCBSP(0x74,Aswang,0x3,Bishop_F)
 
 // ZelrothSummonerPalette
 	setPalette(0x75,ZelrothSummonerPalette)
 	setCBSP(0x75,Zelroth,0x3,Summoner)
+	setCBSP(0x75,Zelroth2,0x3,Summoner)
 
 // FloorentiusGKPalette
 	setPalette(0x76,FloorentiusGKPalette)
 	setCBSP(0x76,Floorentius,0x3,GreatKnight)
+
+// GodfreyGeneralPalette
+	setPalette(0x78,GodfreyGeneralPalette)
+	setCBSP(0x78,Godfrey,0x3,General)
+
+// GenericMercPalettes
+	setGenericPalette(11,GenericMercPalettes)
+	setGenericPalette(12,GenericMercPalettes)
+
+// GenericMyrmPalettes
+	setGenericPalette(17,GenericMyrmPalettes)
+	setGenericPalette(18,GenericMyrmPalettes)
+	setGenericPalette(19,GenericMyrmPalettes)
+	setGenericPalette(20,GenericMyrmPalettes)
 
 // GenericArcherPalettes
 	setGenericPalette(38,GenericArcherPalettes)
@@ -222,6 +265,33 @@
 	setGenericPalette(40,GenericArcherPalettes)
 	setGenericPalette(41,GenericArcherPalettes)
 
+// GreatKnightPalettes
+	setGenericPalette(78,GreatKnightPalettes)
+	setGenericPalette(79,GreatKnightPalettes)
+	setGenericPalette(80,GreatKnightPalettes)
+	setGenericPalette(81,GreatKnightPalettes)
+	setGenericPalette(82,GreatKnightPalettes)
+
+// MageMPalettes
+	setGenericPalette(107,MageMPalettes)
+
+// MageFPalettes
+	setGenericPalette(108,MageFPalettes)
+
+// GenericBishopPalettes
+	setGenericPalette(129,GenericBishopPalettes)
+	setGenericPalette(130,GenericBishopPalettes)
+	setGenericPalette(131,GenericBishopPalettes)
+	setGenericPalette(132,GenericBishopPalettes)
+
 // GenericSoldierPalettes
 	setGenericPalette(152,GenericSoldierPalettes)
 	setGenericPalette(153,GenericSoldierPalettes)
+
+// GenericPiratePalettes
+	setGenericPalette(154,GenericPiratePalettes)
+	setGenericPalette(155,GenericPiratePalettes)
+	setGenericPalette(156,GenericPiratePalettes)
+
+// GenericBaelPalettes
+	setGenericPalette(172,GenericBaelPalettes)
