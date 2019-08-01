@@ -10,6 +10,8 @@
 
 #include "Item Editor.event"
 
+#include "Promotion Branch Editor.event"
+
 #include "Walking Sounds Editor.event"
 
 #include "IERevamp Modules\FE8 Item AI Table.event"
