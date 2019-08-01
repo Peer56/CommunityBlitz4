@@ -38,3 +38,6 @@ Chapter Names as Text by CirclesEverywhere
 Various Fixes by 7743, Hextator, Venno, Brendor, Nintenlord, Gryz, Agro
 Magic Split by Kirb, RobertFPY, Snakey1
 Chapter Help Text by Leonarth
+Page 4 Skills - Kirb, rtext by Zeta
+LevelUpRework - Zeta
+AutoNewline - Zeta

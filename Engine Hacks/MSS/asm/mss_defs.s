@@ -118,6 +118,66 @@
   add r7, #8
 .endm
 
+.macro draw_buffered_text, tile_x, tile_y, width=10, colour=3
+  mov r0, sp
+  mov r1, #\width
+  str r1, [r0]
+  mov r0, #0
+  ldr r1, =(tile_origin+(0x20*2*\tile_y)+(2*\tile_x))
+  mov r2, #\colour
+  mov r3, #0
+  blh DrawText, r4
+  bl  Restore_Palette
+.endm
+
+.macro draw_skillname_at tile_x, tile_y, textID=0, width=10, colour=3, growth_func=-1		@growth func is # of growth getter in growth_getters_table; 0=hp, 1=str, 2=skl, etc
+  mov r3, r7
+  mov r1, #\width
+  @r3 is current buffer location, r1 is width.
+  ldrh r2,[r3] @current number
+  add r2,r1 @for the next one.
+  strb r1, [r3, #4] @store width
+  strb r2, [r3, #8] @assign the next one.
+  .if \textID
+    ldr r0, =#\textID @otherwise assume it's in r0
+  .endif
+  blh BufferText
+  bl GetSkillNameFromSkillDesc
+  mov r2, #0x0
+  str r2, [sp]
+  str r0, [sp, #4]
+  mov r2, #\colour @colour
+  .ifge \growth_func
+  ldr r1,[sp,#0xC]			@growth getters table
+  mov r0,#\growth_func-1
+  lsl r0,#2
+  ldr r1,[r1,r0]			@relevant growth getter function
+  mov r0,r8
+  mov r14,r1
+  .short 0xF800				@returns growth
+  mov r1,sp
+  add r1,#0x18
+  ldr r2,[sp,#0x14]			@growth options word and'd with 0x10, so non-zero if stat name color should reflect growth
+  .set pal_index, (Get_Palette_Index - . - 6)
+  ldr r3,=pal_index
+  add r3,pc
+  ldr r3,[r3]
+  mov r14,r3
+  .short 0xF800	@given growth, returns palette index, and does some shenanigans
+  mov r2,r0
+  .endif
+  mov r0, r7
+  ldr r1, =(tile_origin+(0x20*2*\tile_y)+(2*\tile_x))
+  mov r3, #0
+  blh DrawText, r4
+  .ifge \growth_func
+  ldr r1,[sp,#0x14]
+  ldr r0,[sp,#0x18]
+  bl  Restore_Palette		@see that func for an explanation (mss_page1_skills)
+  .endif
+  add r7, #8
+.endm
+ 
 .macro draw_bar_at bar_x, bar_y, getter, offset, bar_id
   mov r0, r8
   blh      \getter
@@ -859,4 +919,26 @@
 		mov     r0,r4    
 		bl      DrawSkillIcon 
 	.endif
+.endm
+
+.macro setup_menu
+ldr r0, =0x020234A8
+mov r1, #0
+blh #0x08001220+1 @FillBgMap
+ldr r0, =0xFFFFFFFF @-1
+blh #0x0804E0A8+1 @LoadUIWindowPalette
+.endm
+
+.macro draw_menu, tile_x, tile_y, width, height
+push {r4}
+sub sp, #4
+mov r0, #0
+str r0, [sp]
+mov r0, #\tile_x+0xC
+mov r1, #\tile_y+0x2
+mov r2, #\width
+mov r3, #\height
+blh #0x804E368+1, reg=r4 @MakeNewUiWindowTsa
+add sp, #4
+pop {r4}
 .endm

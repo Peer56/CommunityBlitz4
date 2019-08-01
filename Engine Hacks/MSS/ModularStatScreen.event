@@ -135,6 +135,15 @@
   ALIGN 4
   MSS_page4:
     #incbin "asm/mss_page4.dmp"
+	POIN SkillIcons
+    POIN Skill_Getter
+    POIN SkillTester
+    WORD SaviorID
+    WORD CelerityID
+    WORD SS_SkillsText
+    WORD SS_TalkText
+    POIN SkillDescTable
+
 
   ALIGN 4
   NewPageNameGraphic:
@@ -258,13 +267,14 @@
   New_Palettes:
     #include "Display Growths Options/New Palette.txt"
 
+/*
   ALIGN 4
   TxtData0x0D4B:
     String(Donate to Circles)
     BYTE 0
 
   setText(0x0D4B,TxtData0x0D4B)
-
+*/
   /*
 
   stat screen R menu is at 8a00b38
@@ -395,22 +405,34 @@
   RText_Page4:
 
   ST_Name4:
-    RMenu(0,ST_Class4,0,ST_Donate,0x18,0x50,0x0,NameDescGetter)
+    RMenu(0,ST_Class4,0,P4_Skill1,0x18,0x50,0x0,NameDescGetter)
 
   ST_Class4:
-    RMenu(ST_Name4,ST_Level4,0,ST_Donate,0x6,0x68,0x6E8,ClassDescGetter)
+    RMenu(ST_Name4,ST_Level4,0,P4_Skill1,0x6,0x68,0x6E8,ClassDescGetter)
 
   ST_Level4:
     RMenu(ST_Class4,ST_HP4,0,ST_Exp4,0x6,0x78,0x542)
 
   ST_Exp4:
-    RMenu(ST_Class4,ST_HP4,ST_Level4,ST_Donate,0x26,0x78,0x543)
+    RMenu(ST_Class4,ST_HP4,ST_Level4,P4_Skill1,0x26,0x78,0x543)
 
   ST_HP4:
-    RMenu(ST_Level4,0,0,ST_Donate,0x6,0x88,0x544)
+    RMenu(ST_Level4,0,0,P4_Skill1,0x6,0x88,0x544)
+		
+  P4_Skill1:
+    RMenu(0,P4_Skill2,ST_Name4,0,0x66,0x20,0,RTextLoop,SkillDescGetter)
 
-  ST_Donate:
-    RMenu(0,0,ST_Name4,0,0x86,0x48,DonateURL)
+  P4_Skill2:
+    RMenu(P4_Skill1,P4_Skill3,ST_Name4,0,0x66,0x30,1,RTextLoop,SkillDescGetter+4)
+
+  P4_Skill3:
+    RMenu(P4_Skill2,P4_Skill4,ST_Name4,0,0x66,0x40,2,RTextLoop,SkillDescGetter+8)
+  P4_Skill4:
+    RMenu(P4_Skill3,P4_Skill5,ST_Name4,0,0x66,0x50,3,RTextLoop,SkillDescGetter+12)
+  P4_Skill5:
+    RMenu(P4_Skill4,P4_Skill6,ST_Name4,0,0x66,0x60,4,RTextLoop,SkillDescGetter+16)
+  P4_Skill6:
+    RMenu(P4_Skill5,0,ST_Name4,0,0x66,0x20,5,RTextLoop,SkillDescGetter+20)
 
 #else // _FE8_
   ERROR Modular Stat Screen hack is for FE8
