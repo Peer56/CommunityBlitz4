@@ -566,7 +566,7 @@ WORD VanityID
 MageSlayer:
 #incbin "SoA Skills/MageSlayer.dmp"
 POIN SkillTester
-WORD VanityID
+WORD MageSlayerID
 
 KnightAspirant:
 #incbin "SoA Skills/KnightAspirant.dmp"
