@@ -21,6 +21,20 @@
 
 ##Ch2Village2
 #Devil Axe
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadVillager5]
+You fool! You absolute buffoon![A][N]
+You think you can challenge me[N]
+in my own realm!?[A][N]
+You think you can just rebel[N]
+against my authority!?[A][N]
+You dare come into my house[N]
+and upturn my dining chairs,[A][N]
+and spill coffee grounds in my Keurig!?[A][N]
+You thought you were safe in your[N]
+chainmail armor behind that screen of yours.[A][N]
+[ToggleRed]I will take these laminate wood[N]
+floor boards and destroy you![ToggleRed][A][N]
+I didn't want war, but I didn't start it![A]
 [X]
 
 ##Ch3Village1
@@ -32,9 +46,38 @@
 [X]
 
 ##Ch3House1
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadVillager4]
+God is dead.[A][N]
+God wemains dead.[A][N]
+And we have kiwwed him.[A][N]
+How shaww we comfowt ouwsewves,[N]
+the mwuwdewews of aww mwuwdewews?[A][N]
+What was howist and mwightiest of[N]
+aww that the wowwd has owned has[A][N]
+bwed to death undew ouw knives.[A][N]
+Who wiww wipe this bwood off us?[A][N]
+What watew is thewe to cwean ouwsewves?[A][N]
 [X]
 
 ##Ch3House2
+[OpenMidRight][LoadCurrent][OpenMidLeft][LoadVillager12]
+I am so tired of peeing.[A][N]
+I drink the water,[N]
+which I apparently need to live or something,[A][N]
+then I have to go put the water[N]
+somewhere else five minutes later.[A][N]
+I drink the water,[N]
+I go to a place to un-drink the water,[A][N]
+I wash my hands,[N]
+I leave,[A][N]
+then I have to drink MORE water.[A][N]
+Guess where that water ends up? Not in me![A][N]
+I give the water to my body and like a[N]
+child it tosses it out and demands more.[A][N]
+All hours of the day,[N]
+all hours of the night,[A][N]
+no matter what I am doing my life is[N]
+interrupted by PISS and this is BULLSHIT![A]
 [X]
 
 ##Ch6SharedVillage1

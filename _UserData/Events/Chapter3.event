@@ -136,7 +136,7 @@ NoFade
 ENDA
 
 House1:
-VillageEventItem(PlaceholderText, HouseBG, EnergyRing)
+VillageEventItem(Ch3Village1, HouseBG, EnergyRing)
 NoFade
 ENDA
 
@@ -145,7 +145,7 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 SetBackground(1)
 FADU 10
-Text(PlaceholderText)
+Text(Ch3House1)
 EndConvo
 MUNO //Undoes the music quieting effect
 ENDA
@@ -155,13 +155,13 @@ MUSI //The music gets quieter for house scenes too
 FADI 10
 SetBackground(1)
 FADU 10
-Text(PlaceholderText)
+Text(Ch3House2)
 REMA
 MUNO //Undoes the music quieting effect
 ENDA
 
 House4:
-VillageEventItem(PlaceholderText, HouseBG, KillerAxe)
+VillageEventItem(Ch3Village2, HouseBG, KillerAxe)
 NoFade
 ENDA
 
