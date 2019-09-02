@@ -20,9 +20,17 @@
 	setPalette(0x4,EverettPriestPalette)
 	setCBSP(0x4,Everett, 0x3, Priest)
 
+// EverettBishopPalette
+	setPalette(0x5,EverettBishopPalette)
+	setCBSP(0x5,Everett, 0x4, Bishop)
+
 // IgnaceCavPalette
 	setPalette(0x7,IgnaceCavPalette)
 	setCBSP(0x7,Ignace, 0x3, LanceCav)
+
+// IgnacePaladinPalette
+	setPalette(0x8,IgnacePaladinPalette)
+	setCBSP(0x8,Ignace, 0x4, LancePaladin)
 
 // IgnaceGKPalette
 	setPalette(0x9,IgnaceGKPalette)
@@ -32,6 +40,10 @@
 	setPalette(0xA,EdithCavPalette)
 	setCBSP(0xA,Edith, 0x3, SwordCav_F)
 
+// EdithPaladinPalette
+	setPalette(0xB,EdithPaladinPalette)
+	setCBSP(0xB,Edith,0x4,SwordPaladin_F )
+
 // EdithGKPalette
 	setPalette(0xC,EdithGKPalette)
 	setCBSP(0xC,Edith, 0x5, GreatKnight_F)
@@ -39,6 +51,10 @@
 // MaurusArmorKnightPalette
 	setPalette(0xD,MaurusArmorKnightPalette)
 	setCBSP(0xD,Maurus,0x3, ArmorKnight)
+
+// MaurusGeneralPalette
+	setPalette(0xE,MaurusGeneralPalette)
+	setCBSP(0xE,Maurus,0x4,General)
 
 // MaurusGKPalette
 	setPalette(0xF,MaurusGKPalette)
@@ -60,6 +76,10 @@
 	setPalette(0x16,LilacShamanFPalette)
 	setCBSP(0x16,Lilac,0x3,Shaman_F)
 
+// LilacSummonerFPalette
+	setPalette(0x18,LilacSummonerFPalette)
+	setCBSP(0x18,Lilac,0x5,Summoner_F)
+
 // SayraThiefFPalette
 	setPalette(0x19,SayraThiefFPalette)
 	setCBSP(0x19,Sayra,0x3,Thief_F)
@@ -76,6 +96,10 @@
 	setPalette(0x22,YorrickMonkPalette)
 	setCBSP(0x22,Yorrick,0x3,Monk)
 
+// YorrickBishopPalette
+	setPalette(0x23,YorrickBishopPalette)
+	setCBSP(0x23,Yorrick,0x4,Bishop)
+
 // MintArcherPalette
 	setPalette(0x25,MintArcherPalette)
 	setCBSP(0x25,Mint,0x3,Archer)
@@ -84,13 +108,33 @@
 	setPalette(0x28,GershonCavPalette)
 	setCBSP(0x28,Gershon,0x3,AxeCav)
 
+// GershonPaladinPalette
+	setPalette(0x29,GershonPaladinPalette)
+	setCBSP(0x29,Gershon,0x4,AxePaladin)
+
+// GershonGKPalette
+	setPalette(0x2A,GershonGKPalette)
+	setCBSP(0x2A,Gershon,0x5,GreatKnight)
+
 // OsianFighterPalette
 	setPalette(0x2B,OsianFighterPalette)
 	setCBSP(0x2B,Osian,0x3,Fighter)
 
+// OsianWarriorPalette
+	setPalette(0x2C,OsianWarriorPalette)
+	setCBSP(0x2C,Osian,0x4,Warrior)
+
 // TonySoldierPalette
 	setPalette(0x2E,TonySoldierPalette)
 	setCBSP(0x2E,Tony,0x3,Soldier)
+
+// TonyHalberdierPalette
+	setPalette(0x2F,TonyHalberdierPalette)
+	setCBSP(0x2F,Tony,0x4,Halberdier)
+
+// TonySpartanPalette
+	setPalette(0x30,TonySpartanPalette)
+	setCBSP(0x30,Tony,0x5,Spartan)
 
 // JuanMercPalette
 	setPalette(0x31,JuanMercPalette)
@@ -100,9 +144,17 @@
 	setPalette(0x32,JuanHeroPalette)
 	setCBSP(0x32,Juan,0x4,Hero)
 
+// JuanSpartanPalette
+	setPalette(0x33,JuanSpartanPalette)
+	setCBSP(0x33,Juan,0x5,Spartan)
+
 // ReubenPiratePalette
 	setPalette(0x34,ReubenPiratePalette)
 	setCBSP(0x34,Reuben,0x3,Pirate)
+
+// ReubenWarriorPalette
+	setPalette(0x36,ReubenWarriorPalette)
+	setCBSP(0x36,Reuben,0x5,Warrior)
 
 // ArlaNomadFPalette
 	setPalette(0x37,ArlaNomadFPalette)
@@ -115,6 +167,10 @@
 // ReaganMonkFPalette
 	setPalette(0x3D,ReaganMonkFPalette)
 	setCBSP(0x3D,Reagan,0x3,Monk_F)
+
+// ReaganBishopFPalette
+	setPalette(0x3E,ReaganBishopFPalette)
+	setCBSP(0x3E,Reagan,0x4,Bishop_F)
 
 // IngridTroubadourPalette
 	setPalette(0x40,IngridTroubadourPalette)
@@ -140,6 +196,10 @@
 	setPalette(0x53,FeidlimidSageFPalette)
 	setCBSP(0x53,Feidlimid,0x3,Sage_F)
 
+// VolstaggWarriorPalette
+	setPalette(0x55,VolstaggWarriorPalette)
+	setCBSP(0x55,Volstagg,0x3,Warrior)
+
 // RhosynFalcoknightPalette
 	setPalette(0x56,RhosynFalcoknightPalette)
 	setCBSP(0x56,Rhosyn,0x3,Falcoknight)
@@ -147,6 +207,14 @@
 // ArwenValkyriePaette
 	setPalette(0x57,ArwenValkyriePaette)
 	setCBSP(0x57,Arwen,0x3,Valkyrie)
+
+// BrentSpartanPalette
+	setPalette(0x58,BrentSpartanPalette)
+	setCBSP(0x58,Brent,0x3,Spartan)
+
+// FelixGeneralPalette
+	setPalette(0x5A,FelixGeneralPalette)
+	setCBSP(0x5A,Felix,0x3,General)
 
 // MystletainnPalette
 	setPalette(0x5C,MystletainnPalette)
@@ -283,6 +351,11 @@
 	setGenericPalette(130,GenericBishopPalettes)
 	setGenericPalette(131,GenericBishopPalettes)
 	setGenericPalette(132,GenericBishopPalettes)
+
+// GenericSpartanPalettes
+	setGenericPalette(149,GenericSpartanPalettes)
+	setGenericPalette(150,GenericSpartanPalettes)
+	setGenericPalette(151,GenericSpartanPalettes)
 
 // GenericSoldierPalettes
 	setGenericPalette(152,GenericSoldierPalettes)

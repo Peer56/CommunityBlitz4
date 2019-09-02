@@ -15,8 +15,14 @@ GarthanGKPalette:
 EverettPriestPalette:
 	#incbin "./_palettes/EverettPriestPalette.lzpal" 
 
+EverettBishopPalette:
+	#incbin "./_palettes/EverettBishopPalette.lzpal" 
+
 IgnaceCavPalette:
 	#incbin "./_palettes/IgnaceCavPalette.lzpal" 
+
+IgnacePaladinPalette:
+	#incbin "./_palettes/IgnacePaladinPalette.lzpal" 
 
 IgnaceGKPalette:
 	#incbin "./_palettes/IgnaceGKPalette.lzpal" 
@@ -24,11 +30,17 @@ IgnaceGKPalette:
 EdithCavPalette:
 	#incbin "./_palettes/EdithCavPalette.lzpal" 
 
+EdithPaladinPalette:
+	#incbin "./_palettes/EdithPaladinPalette.lzpal" 
+
 EdithGKPalette:
 	#incbin "./_palettes/EdithGKPalette.lzpal" 
 
 MaurusArmorKnightPalette:
 	#incbin "./_palettes/MaurusArmorKnightPalette.lzpal" 
+
+MaurusGeneralPalette:
+	#incbin "./_palettes/MaurusGeneralPalette.lzpal" 
 
 MaurusGKPalette:
 	#incbin "./_palettes/MaurusGKPalette.lzpal" 
@@ -45,6 +57,9 @@ FuriaMageKnightPalette:
 LilacShamanFPalette:
 	#incbin "./_palettes/LilacShamanFPalette.lzpal" 
 
+LilacSummonerFPalette:
+	#incbin "./_palettes/LilacSummonerFPalette.lzpal" 
+
 SayraThiefFPalette:
 	#incbin "./_palettes/SayraThiefFPalette.lzpal" 
 
@@ -57,17 +72,35 @@ AciesMrymidonPalette:
 YorrickMonkPalette:
 	#incbin "./_palettes/YorrickMonkPalette.lzpal" 
 
+YorrickBishopPalette:
+	#incbin "./_palettes/YorrickBishopPalette.lzpal" 
+
 MintArcherPalette:
 	#incbin "./_palettes/MintArcherPalette.lzpal" 
 
 GershonCavPalette:
 	#incbin "./_palettes/GershonCavPalette.lzpal" 
 
+GershonPaladinPalette:
+	#incbin "./_palettes/GershonPaladinPalette.lzpal" 
+
+GershonGKPalette:
+	#incbin "./_palettes/GershonGKPalette.lzpal" 
+
 OsianFighterPalette:
 	#incbin "./_palettes/OsianFighterPalette.lzpal" 
 
+OsianWarriorPalette:
+	#incbin "./_palettes/OsianWarriorPalette.lzpal" 
+
 TonySoldierPalette:
 	#incbin "./_palettes/TonySoldierPalette.lzpal" 
+
+TonyHalberdierPalette:
+	#incbin "./_palettes/TonyHalberdierPalette.lzpal" 
+
+TonySpartanPalette:
+	#incbin "./_palettes/TonySpartanPalette.lzpal" 
 
 JuanMercPalette:
 	#incbin "./_palettes/JuanMercPalette.lzpal" 
@@ -75,8 +108,14 @@ JuanMercPalette:
 JuanHeroPalette:
 	#incbin "./_palettes/JuanHeroPalette.lzpal" 
 
+JuanSpartanPalette:
+	#incbin "./_palettes/JuanSpartanPalette.lzpal" 
+
 ReubenPiratePalette:
 	#incbin "./_palettes/ReubenPiratePalette.lzpal" 
+
+ReubenWarriorPalette:
+	#incbin "./_palettes/ReubenWarriorPalette.lzpal" 
 
 ArlaNomadFPalette:
 	#incbin "./_palettes/ArlaNomadFPalette.lzpal" 
@@ -86,6 +125,9 @@ IrenaThiefFPalette:
 
 ReaganMonkFPalette:
 	#incbin "./_palettes/ReaganMonkFPalette.lzpal" 
+
+ReaganBishopFPalette:
+	#incbin "./_palettes/ReaganBishopFPalette.lzpal" 
 
 IngridTroubadourPalette:
 	#incbin "./_palettes/IngridTroubadourPalette.lzpal" 
@@ -105,11 +147,20 @@ HadiBishopPalette:
 FeidlimidSageFPalette:
 	#incbin "./_palettes/FeidlimidSageFPalette.lzpal" 
 
+VolstaggWarriorPalette:
+	#incbin "./_palettes/VolstaggWarriorPalette.lzpal" 
+
 RhosynFalcoknightPalette:
 	#incbin "./_palettes/RhosynFalcoknightPalette.lzpal" 
 
 ArwenValkyriePaette:
 	#incbin "./_palettes/ArwenValkyriePaette.lzpal" 
+
+BrentSpartanPalette:
+	#incbin "./_palettes/BrentSpartanPalette.lzpal" 
+
+FelixGeneralPalette:
+	#incbin "./_palettes/FelixGeneralPalette.lzpal" 
 
 MystletainnPalette:
 	#incbin "./_palettes/MystletainnPalette.lzpal" 
@@ -200,6 +251,9 @@ MageFPalettes:
 
 GenericBishopPalettes:
 	#incbin "./_palettes/GenericBishopPalettes.lzpal" 
+
+GenericSpartanPalettes:
+	#incbin "./_palettes/GenericSpartanPalettes.lzpal" 
 
 GenericSoldierPalettes:
 	#incbin "./_palettes/GenericSoldierPalettes.lzpal" 
