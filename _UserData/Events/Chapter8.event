@@ -16,7 +16,7 @@ POIN $0 $0 $0 $0 $0 $0
 POIN BeginningScene EndingScene
 
 TurnBasedEvents:
-TurnEventPlayer(9,SteelHeartArrive,4)
+TurnEventPlayer(9,SteelHeartArrive,6)
 TURN 0x0 Reinforcement1[5,0] 0x0
 TURN 0x0 ThiefArrive[6,0] 0x0
 TURN 0x0 Reinforcement2[4,0] 0x0
@@ -27,7 +27,7 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 LucioAIChange:
 Text(PlaceholderText)
-SetAI(Bazba,0x03,0x03)
+SetAI(Lucia,0x03,0x03)
 ENDA
 
 SteelHeartArrive:
@@ -40,7 +40,7 @@ ThiefArrive:
 ReinforcementEvent(ThiefGang)
 
 ThiefGang:
-UNIT 0x66 Thief Lucio Level(5, Enemy, True) [0,11] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] LootingThiefAI
+UNIT 0x7F Thief Lucio Level(5, Enemy, True) [0,11] 0x00 0x00 0x0 0x00 [IronSword, Lockpick] LootingThiefAI
 UNIT
 
 Reinforcement1:
@@ -79,9 +79,9 @@ UNIT
 
 
 CharacterBasedEvents:
-CharacterEventBothWays(10,RecruitSM1,Ross,Tethys)
-CharacterEventBothWays(11,RecruitSM2,Neimi,Tethys)
-CharacterEventBothWays(12,RecruitSM3,Moulder,Tethys)
+//CharacterEventBothWays(10,RecruitSM1,Ross,Tethys)
+//CharacterEventBothWays(11,RecruitSM2,Neimi,Tethys)
+//CharacterEventBothWays(12,RecruitSM3,Moulder,Tethys)
 END_MAIN
 
 RecruitSM1:
@@ -128,7 +128,7 @@ END_MAIN
 
 MiscBasedEvents:
 CauseGameOverIfLordDies
-AREA 7 SpecialIrenaEvent [9,11] [10,11]
+//AREA 7 SpecialIrenaEvent [9,11] [10,11]
 END_MAIN
 
 Dunno:
@@ -156,8 +156,8 @@ NoFade
 ENDA
 
 SteelHeart:
-UNIT Irena Thief Tethys Level(7, NPC, 0) [19,5] 0x00 0x00 0x1 REDA19R8 [Lancereaver, SlimSword, Lockpick] MoveWithLeaderAI
-UNIT Arla Nomad_F Tethys Level(8, NPC, 0) [19,6] 0x00 0x00 0x1 REDA19R9 [KillerBow, SteelBow, Elixir] AttackInRangeAI
+UNIT Irena Thief Tethys Level(7, Ally, 0) [19,5] 0x00 0x00 0x1 REDA19R8 [Lancereaver, SlimSword, Lockpick] AttackInRangeAI
+UNIT Arla Nomad_F Tethys Level(8, Ally, 0) [19,6] 0x00 0x00 0x1 REDA19R9 [KillerBow, SteelBow, Elixir] AttackInRangeAI
 UNIT
 
 Units1:
@@ -174,7 +174,7 @@ UNIT Seth Paladin Eirika Level(1, Ally, False) [4,20] 0x00 0x00 0x0 0x00 [0x00] 
 UNIT
 
 Bad:
-UNIT Lucio Sage Lucio Level(5, Enemy, False) [11,3] DropItem 0x00 0x0 0x00 [Thunder, Bolting] NeverMoveAI
+UNIT Lucio Sage Lucio Level(5, Enemy, False) [11,3] DropItem 0x00 0x0 0x00 [Thunder] NeverMoveAI
 UNIT 0x7F Knight Lucio Level(6, Enemy, True) [1,10] 0x00 0x00 0x0 0x00 [SteelLance] GuardTileAI
 UNIT 0x7F Knight Lucio Level(6, Enemy, True) [2,10] 0x00 0x00 0x0 0x00 [SteelLance] GuardTileAI
 UNIT 0x7F LanceCav Lucio Level(7, Enemy, True) [3,12] 0x00 0x00 0x0 0x00 [Javelin, SteelSword] AttackInRangeAI
