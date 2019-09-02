@@ -132,7 +132,7 @@ UNIT
 
 // Sayra and Jhonka
 NPCUnits:
-UNIT Sayra Thief_F 0x00 Level(1, NPC, False) [3,6] 0x00 0x03 0x0 0x00 [IronSword, Lockpick, Vulnerary] AttackInHalfRangeAI // Sayra
+UNIT Sayra Thief_F 0x00 Level(1, NPC, False) [3,6] 0x00 0x03 0x0 0x00 [IronSword, Lockpick, Vulnerary] NeverMoveAI // Sayra
 UNIT Jhonka Brigand 0x00 Level(2, NPC, False) [1,6] 0x00 0x03 0x0 0x00 [IronAxe, Vulnerary] AttackInHalfRangeAI	 // Jhonka
 UNIT
 
@@ -140,21 +140,21 @@ UNIT
 Enemies:
 UNIT Skaidrite Myrmidon_F 0x00 Level(5, Enemy, False) [1,16] ItemDrop 0x00 0x0 0x00 [Lancereaver] NeverMoveAI //Lancereaver should be droppable
 UNIT 0x72 Soldier 0x00 Level(2, Enemy, True) [7,5] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x72 Fighter 0x00 Level(2, Enemy, True) [8,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x72 Mercenary 0x00 Level(2, Enemy, True) [11,6] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
+UNIT 0x72 Fighter 0x00 Level(1, Enemy, True) [8,6] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x72 Mercenary 0x00 Level(1, Enemy, True) [11,6] 0x00 0x00 0x0 0x00 [IronSword] PursueWithoutHeedAI
 UNIT 0x72 Soldier 0x00 Level(2, Enemy, True) [12,5] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
-UNIT 0x72 Mercenary 0x00 Level(2, Enemy, True) [11,9] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
+UNIT 0x72 Mercenary 0x00 Level(1, Enemy, True) [11,9] 0x00 0x00 0x0 0x00 [SteelSword] PursueWithoutHeedAI
 UNIT 0x72 Archer 0x00 Level(2, Enemy, True) [12,10] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
 UNIT 0x72 Soldier 0x00 Level(2, Enemy, True) [6,12] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
 UNIT 0x72 Soldier 0x00 Level(2, Enemy, True) [2,10] 0x00 0x00 0x0 0x00 [IronLance] PursueWithoutHeedAI
 UNIT 0x72 Archer 0x00 Level(2, Enemy, True) [1,14] 0x00 0x00 0x0 0x00 [IronBow] PursueWithoutHeedAI
-UNIT 0x72 Fighter 0x00 Level(2, Enemy, True) [2,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
-UNIT 0x72 Mage 0x00 Level(2, Enemy, True) [11,15] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI
+UNIT 0x72 Fighter 0x00 Level(1, Enemy, True) [2,12] 0x00 0x00 0x0 0x00 [IronAxe] PursueWithoutHeedAI
+UNIT 0x72 Mage 0x00 Level(1, Enemy, True) [11,15] 0x00 0x00 0x0 0x00 [Fire] AttackInRangeAI
 UNIT 0x72 Monk 0x00 Level(2, Enemy, True) [12,16] 0x00 0x00 0x0 0x00 [Lightning] AttackInRangeAI
-UNIT 0x72 Myrmidon 0x00 Level(2, Enemy, True) [15,13] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI
+UNIT 0x72 Myrmidon 0x00 Level(1, Enemy, True) [15,13] 0x00 0x00 0x0 0x00 [IronSword] AttackInRangeAI
 UNIT 0x72 Soldier 0x00 Level(2, Enemy, True) [15,17] 0x00 0x00 0x0 0x00 [IronLance] AttackInRangeAI
-UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, True) [8,17] ItemDrop 0x00 0x0 0x00 [Javelin, SteelSword, RedGem] AttackInRangeAI // Droppable Red Gem
-UNIT 0x72 ArmorKnight 0x00 Level(2, Enemy, True) [0,16] 0x00 0x00 0x0 0x00 [IronLance, IronSword, RedGem] AttackInRangeAI // Stealable Red Gem
+UNIT 0x72 ArmorKnight 0x00 Level(1, Enemy, True) [8,17] ItemDrop 0x00 0x0 0x00 [Javelin, SteelSword, RedGem] AttackInRangeAI // Droppable Red Gem
+UNIT 0x72 ArmorKnight 0x00 Level(1, Enemy, True) [0,16] 0x00 0x00 0x0 0x00 [IronLance, IronSword, RedGem] AttackInRangeAI // Stealable Red Gem
 UNIT
 
 RecruitTalk:
