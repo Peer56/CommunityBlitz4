@@ -27,7 +27,7 @@ END_MAIN
 ALIGN 32 //For some reason, CharacterBasedEvents have to be 32-Aligned?
 LucioAIChange:
 Text(PlaceholderText)
-SetAI(Lucia,0x03,0x03)
+SetAI(Lucio,0x03,0x03)
 ENDA
 
 SteelHeartArrive:
