@@ -18,6 +18,9 @@ EverettPriestPalette:
 EverettBishopPalette:
 	#incbin "./_palettes/EverettBishopPalette.lzpal" 
 
+EverettSagePalette:
+	#incbin "./_palettes/EverettSagePalette.lzpal" 
+
 IgnaceCavPalette:
 	#incbin "./_palettes/IgnaceCavPalette.lzpal" 
 
@@ -57,6 +60,9 @@ FuriaMageKnightPalette:
 LilacShamanFPalette:
 	#incbin "./_palettes/LilacShamanFPalette.lzpal" 
 
+LilacDruidFPalette:
+	#incbin "./_palettes/LilacDruidFPalette.lzpal" 
+
 LilacSummonerFPalette:
 	#incbin "./_palettes/LilacSummonerFPalette.lzpal" 
 
@@ -74,6 +80,9 @@ YorrickMonkPalette:
 
 YorrickBishopPalette:
 	#incbin "./_palettes/YorrickBishopPalette.lzpal" 
+
+YorrickSagePalette:
+	#incbin "./_palettes/YorrickSagePalette.lzpal" 
 
 MintArcherPalette:
 	#incbin "./_palettes/MintArcherPalette.lzpal" 
@@ -113,6 +122,9 @@ JuanSpartanPalette:
 
 ReubenPiratePalette:
 	#incbin "./_palettes/ReubenPiratePalette.lzpal" 
+
+ReubenBerserkerPalette:
+	#incbin "./_palettes/ReubenBerserkerPalette.lzpal" 
 
 ReubenWarriorPalette:
 	#incbin "./_palettes/ReubenWarriorPalette.lzpal" 

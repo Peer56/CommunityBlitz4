@@ -24,6 +24,10 @@
 	setPalette(0x5,EverettBishopPalette)
 	setCBSP(0x5,Everett, 0x4, Bishop)
 
+// EverettSagePalette
+	setPalette(0x6,EverettSagePalette)
+	setCBSP(0x6,Everett, 0x5, Sage)
+
 // IgnaceCavPalette
 	setPalette(0x7,IgnaceCavPalette)
 	setCBSP(0x7,Ignace, 0x3, LanceCav)
@@ -76,6 +80,10 @@
 	setPalette(0x16,LilacShamanFPalette)
 	setCBSP(0x16,Lilac,0x3,Shaman_F)
 
+// LilacDruidFPalette
+	setPalette(0x17,LilacDruidFPalette)
+	setCBSP(0x17,Lilac,0x4,Druid_F)
+
 // LilacSummonerFPalette
 	setPalette(0x18,LilacSummonerFPalette)
 	setCBSP(0x18,Lilac,0x5,Summoner_F)
@@ -99,6 +107,10 @@
 // YorrickBishopPalette
 	setPalette(0x23,YorrickBishopPalette)
 	setCBSP(0x23,Yorrick,0x4,Bishop)
+
+// YorrickSagePalette
+	setPalette(0x24,YorrickSagePalette)
+	setCBSP(0x24,Yorrick,0x5,Sage)
 
 // MintArcherPalette
 	setPalette(0x25,MintArcherPalette)
@@ -151,6 +163,10 @@
 // ReubenPiratePalette
 	setPalette(0x34,ReubenPiratePalette)
 	setCBSP(0x34,Reuben,0x3,Pirate)
+
+// ReubenBerserkerPalette
+	setPalette(0x35,ReubenBerserkerPalette)
+	setCBSP(0x35,Reuben,0x4,Berserker)
 
 // ReubenWarriorPalette
 	setPalette(0x36,ReubenWarriorPalette)
