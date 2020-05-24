@@ -27,7 +27,7 @@ END_MAIN
 
 ChName_MiscBasedEvents:
 CauseGameOverIfLordDies
-//Add Win Condition
+DefeatAll(ChName_EndingScene) //Add Win Condition
 END_MAIN
 
 ChName_Dunno:
