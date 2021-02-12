@@ -7,4 +7,4 @@ POP
 
 ALIGN 4
 RemoveGlowy:
-#incext Png2Dmp "RemoveGlowy.png" --lz77
+#incbin "RemoveGlowy.dmp"

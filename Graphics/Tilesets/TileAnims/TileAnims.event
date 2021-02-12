@@ -2,52 +2,52 @@ EventPointerTable(CaveWaterTileAnimations,CaveAnimation)
 
 ALIGN 4
 CaveAnimation0:
-#incext png2dmp "CaveAnim.mapanime 1_000.png"
+#incbin "CaveAnim.mapanime 1_000.dmp"
 ALIGN 4
 CaveAnimation1:
-#incext png2dmp "CaveAnim.mapanime 1_001.png"
+#incbin "CaveAnim.mapanime 1_001.dmp"
 ALIGN 4
 CaveAnimation2:
-#incext png2dmp "CaveAnim.mapanime 1_002.png"
+#incbin "CaveAnim.mapanime 1_002.dmp"
 ALIGN 4
 CaveAnimation3:
-#incext png2dmp "CaveAnim.mapanime 1_003.png"
+#incbin "CaveAnim.mapanime 1_003.dmp"
 ALIGN 4
 CaveAnimation4:
-#incext png2dmp "CaveAnim.mapanime 1_004.png"
+#incbin "CaveAnim.mapanime 1_004.dmp"
 ALIGN 4
 CaveAnimation5:
-#incext png2dmp "CaveAnim.mapanime 1_005.png"
+#incbin "CaveAnim.mapanime 1_005.dmp"
 ALIGN 4
 CaveAnimation6:
-#incext png2dmp "CaveAnim.mapanime 1_006.png"
+#incbin "CaveAnim.mapanime 1_006.dmp"
 ALIGN 4
 CaveAnimation7:
-#incext png2dmp "CaveAnim.mapanime 1_007.png"
+#incbin "CaveAnim.mapanime 1_007.dmp"
 ALIGN 4
 CaveAnimation8:
-#incext png2dmp "CaveAnim.mapanime 1_008.png"
+#incbin "CaveAnim.mapanime 1_008.dmp"
 ALIGN 4
 CaveAnimation9:
-#incext png2dmp "CaveAnim.mapanime 1_009.png"
+#incbin "CaveAnim.mapanime 1_009.dmp"
 ALIGN 4
 CaveAnimation10:
-#incext png2dmp "CaveAnim.mapanime 1_010.png"
+#incbin "CaveAnim.mapanime 1_010.dmp"
 ALIGN 4
 CaveAnimation11:
-#incext png2dmp "CaveAnim.mapanime 1_011.png"
+#incbin "CaveAnim.mapanime 1_011.dmp"
 ALIGN 4
 CaveAnimation12:
-#incext png2dmp "CaveAnim.mapanime 1_012.png"
+#incbin "CaveAnim.mapanime 1_012.dmp"
 ALIGN 4
 CaveAnimation13:
-#incext png2dmp "CaveAnim.mapanime 1_013.png"
+#incbin "CaveAnim.mapanime 1_013.dmp"
 ALIGN 4
 CaveAnimation14:
-#incext png2dmp "CaveAnim.mapanime 1_014.png"
+#incbin "CaveAnim.mapanime 1_014.dmp"
 ALIGN 4
 CaveAnimation15:
-#incext png2dmp "CaveAnim.mapanime 1_015.png"
+#incbin "CaveAnim.mapanime 1_015.dmp"
 
 ALIGN 4
 CaveAnimation:
@@ -94,52 +94,52 @@ EventPointerTable(SnowWaterTileAnimations,FE6WaterTilesetAnimation)
 
 ALIGN 4
 FE6Water1:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_000.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_000.dmp"
 ALIGN 4
 FE6Water2:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_001.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_001.dmp"
 ALIGN 4
 FE6Water3:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_002.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_002.dmp"
 ALIGN 4
 FE6Water4:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_003.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_003.dmp"
 ALIGN 4
 FE6Water5:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_004.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_004.dmp"
 ALIGN 4
 FE6Water6:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_005.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_005.dmp"
 ALIGN 4
 FE6Water7:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_006.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_006.dmp"
 ALIGN 4
 FE6Water8:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_007.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_007.dmp"
 ALIGN 4
 FE6Water9:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_008.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_008.dmp"
 ALIGN 4
 FE6Water10:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_009.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_009.dmp"
 ALIGN 4
 FE6Water11:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_010.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_010.dmp"
 ALIGN 4
 FE6Water12:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_011.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_011.dmp"
 ALIGN 4
 FE6Water13:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_012.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_012.dmp"
 ALIGN 4
 FE6Water14:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_013.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_013.dmp"
 ALIGN 4
 FE6Water15:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_014.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_014.dmp"
 ALIGN 4
 FE6Water16:
-#incext Png2Dmp "FE6 Water Tile Animations.mapanime 1_015.png"
+#incbin "FE6 Water Tile Animations.mapanime 1_015.dmp"
 
 ALIGN 4
 FE6IceAnimationData:

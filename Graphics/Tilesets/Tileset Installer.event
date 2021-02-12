@@ -2,11 +2,11 @@
 
 ALIGN 4
 SnowTilesetObjects:
-#incext Png2Dmp "Compressed Images/Snow.png" --lz77
+#incbin "Compressed Images/Snow.dmp"
 
 ALIGN 4
 SnowTilesetPalette:
-#incext Png2Dmp "Compressed Images/Snow.png" --palette-only
+#incbin "Compressed Images/Snow.pal.dmp"
 
 ALIGN 4
 SnowTilesetTileConfig:
@@ -18,11 +18,11 @@ EventPointerTable(SnowTileConfig,SnowTilesetTileConfig)
 
 ALIGN 4
 SnowCastleTilesetObjects:
-#incext Png2Dmp "Compressed Images/Snow Castle.png" --lz77
+#incbin "Compressed Images/Snow Castle.dmp"
 
 ALIGN 4
 SnowCastleTilesetPalette:
-#incext Png2Dmp "Compressed Images/Snow Castle.png" --palette-only
+#incbin "Compressed Images/Snow Castle.pal.dmp"
 
 ALIGN 4
 SnowCastleTilesetTileConfig:
@@ -34,11 +34,11 @@ EventPointerTable(SnowCastleTileConfig,SnowCastleTilesetTileConfig)
 
 ALIGN 4
 FrontierTilesetObjects:
-#incext Png2Dmp "Compressed Images/Frontier.png" --lz77
+#incbin "Compressed Images/Frontier.dmp"
 
 ALIGN 4
 FrontierTilesetPalette:
-#incext Png2Dmp "Compressed Images/Frontier.png" --palette-only
+#incbin "Compressed Images/Frontier.pal.dmp"
 
 ALIGN 4
 FrontierTilesetTileConfig:
@@ -50,11 +50,11 @@ EventPointerTable(FrontierTileConfig,FrontierTilesetTileConfig)
 
 ALIGN 4
 FrontierVillageTilesetObjects:
-#incext Png2Dmp "Compressed Images/Frontier Village.png" --lz77
+#incbin "Compressed Images/Frontier Village.dmp"
 
 ALIGN 4
 FrontierVillageTilesetPalette:
-#incext Png2Dmp "Compressed Images/Frontier Village.png" --palette-only
+#incbin "Compressed Images/Frontier Village.pal.dmp"
 
 ALIGN 4
 FrontierVillageTilesetTileConfig:
@@ -66,11 +66,11 @@ EventPointerTable(FrontierVillageTileConfig,FrontierVillageTilesetTileConfig)
 
 ALIGN 4
 DesertTilesetObjects:
-#incext Png2Dmp "Compressed Images/Desert.png" --lz77
+#incbin "Compressed Images/Desert.dmp"
 
 ALIGN 4
 DesertTilesetPalette:
-#incext Png2Dmp "Compressed Images/Desert.png" --palette-only
+#incbin "Compressed Images/Desert.pal.dmp"
 
 ALIGN 4
 DesertTilesetTileConfig:
@@ -82,11 +82,11 @@ EventPointerTable(DesertTileConfig,DesertTilesetTileConfig)
 
 ALIGN 4
 CastleTownTilesetObjects:
-#incext Png2Dmp "Compressed Images/Castle Town.png" --lz77
+#incbin "Compressed Images/Castle Town.dmp"
 
 ALIGN 4
 CastleTownTilesetPalette:
-#incext Png2Dmp "Compressed Images/Castle Town.png" --palette-only
+#incbin "Compressed Images/Castle Town.pal.dmp"
 
 ALIGN 4
 CastleTownTilesetTileConfig:
@@ -98,11 +98,11 @@ EventPointerTable(CastleTownTileConfig,CastleTownTilesetTileConfig)
 
 ALIGN 4
 CaveTilesetObjects:
-#incext Png2Dmp "Compressed Images/Cave.png" --lz77
+#incbin "Compressed Images/Cave.dmp"
 
 ALIGN 4
 CaveTilesetPalette:
-#incext Png2Dmp "Compressed Images/Cave.png" --palette-only
+#incbin "Compressed Images/Cave.pal.dmp"
 
 ALIGN 4
 CaveTilesetTileConfig:
@@ -116,11 +116,11 @@ EventPointerTable(CaveTileConfig,CaveTilesetTileConfig)
 
 ALIGN 4
 VillageTilesetObjects:
-#incext Png2Dmp "Compressed Images/Village.png" --lz77
+#incbin "Compressed Images/Village.dmp"
 
 ALIGN 4
 VillageTilesetPalette:
-#incext Png2Dmp "Compressed Images/Village.png" --palette-only
+#incbin "Compressed Images/Village.pal.dmp"
 
 ALIGN 4
 VillageTilesetTileConfig:
@@ -132,23 +132,23 @@ EventPointerTable(VillageTileConfig,VillageTilesetTileConfig)
 
 ALIGN 4
 CastleTilesetObjects:
-#incext Png2Dmp "Compressed Images/Castle.png" --lz77
+#incbin "Compressed Images/Castle.dmp"
 
 ALIGN 4
 CastleTilesetPalette:
-#incext Png2Dmp "Compressed Images/Castle.png" --palette-only
+#incbin "Compressed Images/Castle.pal.dmp"
 
 ALIGN 4
 CastleTilesetPalette2:
-#incext Png2Dmp "Compressed Images/Castle2.png" --palette-only
+#incbin "Compressed Images/Castle2.pal.dmp"
 
 ALIGN 4
 CastleTilesetPalette3:
-#incext Png2Dmp "Compressed Images/Castle3.png" --palette-only
+#incbin "Compressed Images/Castle3.pal.dmp"
 
 ALIGN 4
 CastleTilesetPalette4:
-#incext Png2Dmp "Compressed Images/Castle4.png" --palette-only
+#incbin "Compressed Images/Castle4.pal.dmp"
 
 ALIGN 4
 CastleTilesetTileConfig:
